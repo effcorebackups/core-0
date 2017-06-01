@@ -457,6 +457,8 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['misc']['page']['misc_page_n'] = new \stdClass();
   settings::$data['misc']['page']['misc_page_n']->url = new \stdClass();
   settings::$data['misc']['page']['misc_page_n']->url->match = '%.*%';
+  settings::$data['misc']['page']['misc_page_n']->favicon = new \stdClass();
+  settings::$data['misc']['page']['misc_page_n']->favicon->file = 'misc/favicon.png';
   settings::$data['misc']['page']['misc_page_n']->styles['style_page'] = new \stdClass();
   settings::$data['misc']['page']['misc_page_n']->styles['style_page']->file = 'misc/page.css';
   settings::$data['misc']['page']['misc_page_n']->styles['style_page']->media = 'all';
