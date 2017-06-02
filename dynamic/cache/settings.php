@@ -855,7 +855,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_login']->type = 'form';
   settings::$data['forms']['user']['form_user_login']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_login']->attributes->id = 'user_login';
-  settings::$data['forms']['user']['form_user_login']->attributes->novalidate = 1;
+  settings::$data['forms']['user']['form_user_login']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['user']['form_user_login']->attributes->method = 'post';
   settings::$data['forms']['user']['form_user_login']->attributes->class = 'form-user';
   settings::$data['forms']['user']['form_user_login']->weight = 0;
@@ -920,6 +920,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_logout']->type = 'form';
   settings::$data['forms']['user']['form_user_logout']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_logout']->attributes->id = 'user_logout';
+  settings::$data['forms']['user']['form_user_logout']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['user']['form_user_logout']->attributes->method = 'post';
   settings::$data['forms']['user']['form_user_logout']->attributes->class = 'form-user';
   settings::$data['forms']['user']['form_user_logout']->weight = 0;
@@ -936,6 +937,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->template = null;
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->template_self = null;
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->template_children = null;
+  settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->novalidate = true;
   settings::$data['forms']['user']['form_user_logout']->children['button_logout'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_logout']->children['button_logout']->type = 'button';
   settings::$data['forms']['user']['form_user_logout']->children['button_logout']->attributes = new \stdClass();
@@ -964,6 +966,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_n_delete']->type = 'form';
   settings::$data['forms']['user']['form_user_n_delete']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_n_delete']->attributes->id = 'user_n_delete';
+  settings::$data['forms']['user']['form_user_n_delete']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['user']['form_user_n_delete']->attributes->method = 'post';
   settings::$data['forms']['user']['form_user_n_delete']->attributes->class = 'form-user';
   settings::$data['forms']['user']['form_user_n_delete']->weight = 0;
@@ -993,6 +996,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->template = null;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->template_self = null;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->template_children = null;
+  settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->novalidate = true;
   settings::$data['forms']['user']['form_user_n_delete']->template = null;
   settings::$data['forms']['user']['form_user_n_delete']->template_self = null;
   settings::$data['forms']['user']['form_user_n_delete']->template_children = null;
@@ -1008,7 +1012,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->type = 'form';
   settings::$data['forms']['user']['form_user_n_edit']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_n_edit']->attributes->id = 'user_n_edit';
-  settings::$data['forms']['user']['form_user_n_edit']->attributes->novalidate = 1;
+  settings::$data['forms']['user']['form_user_n_edit']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['user']['form_user_n_edit']->attributes->method = 'post';
   settings::$data['forms']['user']['form_user_n_edit']->attributes->class = 'form-user';
   settings::$data['forms']['user']['form_user_n_edit']->weight = 0;
@@ -1042,6 +1046,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->template = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->template_self = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->template_children = null;
+  settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->novalidate = true;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->type = 'button';
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->attributes = new \stdClass();
@@ -1070,7 +1075,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->type = 'form';
   settings::$data['forms']['user']['form_user_registration']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_registration']->attributes->id = 'user_registration';
-  settings::$data['forms']['user']['form_user_registration']->attributes->novalidate = 1;
+  settings::$data['forms']['user']['form_user_registration']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['user']['form_user_registration']->attributes->method = 'post';
   settings::$data['forms']['user']['form_user_registration']->attributes->class = 'form-user';
   settings::$data['forms']['user']['form_user_registration']->weight = 0;
