@@ -536,6 +536,10 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['tokens']['page']['warning_color']->match = '%%_warning_color';
   settings::$data['tokens']['page']['warning_color']->type = 'text';
   settings::$data['tokens']['page']['warning_color']->value = 'orange';
+  settings::$data['tokens']['page']['delete_button_color'] = new \stdClass();
+  settings::$data['tokens']['page']['delete_button_color']->match = '%%_delete_button_color';
+  settings::$data['tokens']['page']['delete_button_color']->type = 'text';
+  settings::$data['tokens']['page']['delete_button_color']->value = 'tomato';
   settings::$data['tokens']['user']['user_id'] = new \stdClass();
   settings::$data['tokens']['user']['user_id']->match = '%%_user_id';
   settings::$data['tokens']['user']['user_id']->type = 'code';
