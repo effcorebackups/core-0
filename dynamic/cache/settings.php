@@ -202,6 +202,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['pages']['user']['page_user_login']->content['form_user_login']->region = 'content_1_1';
   settings::$data['pages']['user']['page_user_login']->content['form_user_login']->type = 'link';
   settings::$data['pages']['user']['page_user_login']->content['form_user_login']->link = 'forms/user/form_user_login';
+  settings::$data['pages']['user']['page_user_login']->https = true;
   settings::$data['pages']['user']['page_user_logout'] = new \effectivecore\page();
   settings::$data['pages']['user']['page_user_logout']->title = 'Logout from the system';
   settings::$data['pages']['user']['page_user_logout']->url = new \stdClass();
@@ -242,6 +243,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['pages']['user']['page_user_n']->content['block_user_n']->region = 'content_1_1';
   settings::$data['pages']['user']['page_user_n']->content['block_user_n']->type = 'code';
   settings::$data['pages']['user']['page_user_n']->content['block_user_n']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_user_n';
+  settings::$data['pages']['user']['page_user_n']->https = true;
   settings::$data['pages']['user']['page_user_n_edit'] = new \effectivecore\page();
   settings::$data['pages']['user']['page_user_n_edit']->title = 'Edit profile (%%_context_user_mail-2)';
   settings::$data['pages']['user']['page_user_n_edit']->url = new \stdClass();
@@ -267,6 +269,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['pages']['user']['page_user_n_edit']->content['form_user_n_edit']->region = 'content_1_1';
   settings::$data['pages']['user']['page_user_n_edit']->content['form_user_n_edit']->type = 'link';
   settings::$data['pages']['user']['page_user_n_edit']->content['form_user_n_edit']->link = 'forms/user/form_user_n_edit';
+  settings::$data['pages']['user']['page_user_n_edit']->https = true;
   settings::$data['pages']['user']['page_user_registration'] = new \effectivecore\page();
   settings::$data['pages']['user']['page_user_registration']->title = 'Registration';
   settings::$data['pages']['user']['page_user_registration']->url = new \stdClass();
@@ -286,6 +289,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['pages']['user']['page_user_registration']->content['form_user_registration']->region = 'content_1_1';
   settings::$data['pages']['user']['page_user_registration']->content['form_user_registration']->type = 'link';
   settings::$data['pages']['user']['page_user_registration']->content['form_user_registration']->link = 'forms/user/form_user_registration';
+  settings::$data['pages']['user']['page_user_registration']->https = true;
   settings::$data['tree_items']['core']['main_home'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['core']['main_home']->title = 'Home';
   settings::$data['tree_items']['core']['main_home']->attributes = new \stdClass();
