@@ -860,7 +860,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_login']->on_submit['on_submit_default']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_user_login';
   settings::$data['forms']['user']['form_user_login']->on_submit['on_submit_default']->weight = 0;
   settings::$data['forms']['user']['form_user_login']->errors = [];
-  settings::$data['forms']['user']['form_user_login']->type = 'form';
+  settings::$data['forms']['user']['form_user_login']->tag_name = 'form';
   settings::$data['forms']['user']['form_user_login']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_login']->attributes->id = 'user_login';
   settings::$data['forms']['user']['form_user_login']->attributes->novalidate = 'novalidate';
@@ -868,7 +868,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_login']->attributes->class = 'form-user';
   settings::$data['forms']['user']['form_user_login']->weight = 0;
   settings::$data['forms']['user']['form_user_login']->children['field_email'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_login']->children['field_email']->type = 'input';
+  settings::$data['forms']['user']['form_user_login']->children['field_email']->tag_name = 'input';
   settings::$data['forms']['user']['form_user_login']->children['field_email']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_login']->children['field_email']->attributes->type = 'email';
   settings::$data['forms']['user']['form_user_login']->children['field_email']->attributes->name = 'email';
@@ -884,7 +884,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_login']->children['field_email']->template_children = null;
   settings::$data['forms']['user']['form_user_login']->children['field_email']->title = 'Email';
   settings::$data['forms']['user']['form_user_login']->children['field_password'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_login']->children['field_password']->type = 'input';
+  settings::$data['forms']['user']['form_user_login']->children['field_password']->tag_name = 'input';
   settings::$data['forms']['user']['form_user_login']->children['field_password']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_login']->children['field_password']->attributes->type = 'password';
   settings::$data['forms']['user']['form_user_login']->children['field_password']->attributes->name = 'password';
@@ -901,7 +901,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_login']->children['field_password']->template_children = null;
   settings::$data['forms']['user']['form_user_login']->children['field_password']->title = 'Password';
   settings::$data['forms']['user']['form_user_login']->children['button_login'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_login']->children['button_login']->type = 'button';
+  settings::$data['forms']['user']['form_user_login']->children['button_login']->tag_name = 'button';
   settings::$data['forms']['user']['form_user_login']->children['button_login']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_login']->children['button_login']->attributes->type = 'submit';
   settings::$data['forms']['user']['form_user_login']->children['button_login']->attributes->name = 'button';
@@ -925,7 +925,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_logout']->on_submit['on_submit_default']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_user_logout';
   settings::$data['forms']['user']['form_user_logout']->on_submit['on_submit_default']->weight = 0;
   settings::$data['forms']['user']['form_user_logout']->errors = [];
-  settings::$data['forms']['user']['form_user_logout']->type = 'form';
+  settings::$data['forms']['user']['form_user_logout']->tag_name = 'form';
   settings::$data['forms']['user']['form_user_logout']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_logout']->attributes->id = 'user_logout';
   settings::$data['forms']['user']['form_user_logout']->attributes->novalidate = 'novalidate';
@@ -933,7 +933,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_logout']->attributes->class = 'form-user';
   settings::$data['forms']['user']['form_user_logout']->weight = 0;
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->type = 'button';
+  settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->tag_name = 'button';
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->attributes->type = 'submit';
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->attributes->name = 'button';
@@ -947,7 +947,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->template_children = null;
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->novalidate = true;
   settings::$data['forms']['user']['form_user_logout']->children['button_logout'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_logout']->children['button_logout']->type = 'button';
+  settings::$data['forms']['user']['form_user_logout']->children['button_logout']->tag_name = 'button';
   settings::$data['forms']['user']['form_user_logout']->children['button_logout']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_logout']->children['button_logout']->attributes->type = 'submit';
   settings::$data['forms']['user']['form_user_logout']->children['button_logout']->attributes->name = 'button';
@@ -971,7 +971,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_n_delete']->on_submit['on_submit_default']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_user_n_delete';
   settings::$data['forms']['user']['form_user_n_delete']->on_submit['on_submit_default']->weight = 0;
   settings::$data['forms']['user']['form_user_n_delete']->errors = [];
-  settings::$data['forms']['user']['form_user_n_delete']->type = 'form';
+  settings::$data['forms']['user']['form_user_n_delete']->tag_name = 'form';
   settings::$data['forms']['user']['form_user_n_delete']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_n_delete']->attributes->id = 'user_n_delete';
   settings::$data['forms']['user']['form_user_n_delete']->attributes->novalidate = 'novalidate';
@@ -979,7 +979,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_n_delete']->attributes->class = 'form-user';
   settings::$data['forms']['user']['form_user_n_delete']->weight = 0;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->type = 'button';
+  settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->tag_name = 'button';
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->attributes->type = 'submit';
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->attributes->name = 'button';
@@ -992,7 +992,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->template_self = null;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->template_children = null;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->type = 'button';
+  settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->tag_name = 'button';
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->attributes->type = 'submit';
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->attributes->name = 'button';
@@ -1017,7 +1017,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->on_submit['on_submit_default']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_user_n_edit';
   settings::$data['forms']['user']['form_user_n_edit']->on_submit['on_submit_default']->weight = 0;
   settings::$data['forms']['user']['form_user_n_edit']->errors = [];
-  settings::$data['forms']['user']['form_user_n_edit']->type = 'form';
+  settings::$data['forms']['user']['form_user_n_edit']->tag_name = 'form';
   settings::$data['forms']['user']['form_user_n_edit']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_n_edit']->attributes->id = 'user_n_edit';
   settings::$data['forms']['user']['form_user_n_edit']->attributes->novalidate = 'novalidate';
@@ -1025,7 +1025,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->attributes->class = 'form-user';
   settings::$data['forms']['user']['form_user_n_edit']->weight = 0;
   settings::$data['forms']['user']['form_user_n_edit']->children['field_password'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_n_edit']->children['field_password']->type = 'input';
+  settings::$data['forms']['user']['form_user_n_edit']->children['field_password']->tag_name = 'input';
   settings::$data['forms']['user']['form_user_n_edit']->children['field_password']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_n_edit']->children['field_password']->attributes->type = 'password';
   settings::$data['forms']['user']['form_user_n_edit']->children['field_password']->attributes->name = 'password';
@@ -1042,7 +1042,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->children['field_password']->template_children = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['field_password']->title = 'Password';
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->type = 'button';
+  settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->tag_name = 'button';
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->attributes->type = 'submit';
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->attributes->name = 'button';
@@ -1056,7 +1056,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->template_children = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->novalidate = true;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->type = 'button';
+  settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->tag_name = 'button';
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->attributes->type = 'submit';
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->attributes->name = 'button';
@@ -1080,7 +1080,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->on_submit['on_submit_default']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_user_register';
   settings::$data['forms']['user']['form_user_registration']->on_submit['on_submit_default']->weight = 0;
   settings::$data['forms']['user']['form_user_registration']->errors = [];
-  settings::$data['forms']['user']['form_user_registration']->type = 'form';
+  settings::$data['forms']['user']['form_user_registration']->tag_name = 'form';
   settings::$data['forms']['user']['form_user_registration']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_registration']->attributes->id = 'user_registration';
   settings::$data['forms']['user']['form_user_registration']->attributes->novalidate = 'novalidate';
@@ -1088,7 +1088,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->attributes->class = 'form-user';
   settings::$data['forms']['user']['form_user_registration']->weight = 0;
   settings::$data['forms']['user']['form_user_registration']->children['field_email'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_registration']->children['field_email']->type = 'input';
+  settings::$data['forms']['user']['form_user_registration']->children['field_email']->tag_name = 'input';
   settings::$data['forms']['user']['form_user_registration']->children['field_email']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_registration']->children['field_email']->attributes->type = 'email';
   settings::$data['forms']['user']['form_user_registration']->children['field_email']->attributes->name = 'email';
@@ -1104,7 +1104,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->children['field_email']->template_children = null;
   settings::$data['forms']['user']['form_user_registration']->children['field_email']->title = 'Email';
   settings::$data['forms']['user']['form_user_registration']->children['field_password'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_registration']->children['field_password']->type = 'input';
+  settings::$data['forms']['user']['form_user_registration']->children['field_password']->tag_name = 'input';
   settings::$data['forms']['user']['form_user_registration']->children['field_password']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_registration']->children['field_password']->attributes->type = 'password';
   settings::$data['forms']['user']['form_user_registration']->children['field_password']->attributes->name = 'password';
@@ -1121,7 +1121,7 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->children['field_password']->template_children = null;
   settings::$data['forms']['user']['form_user_registration']->children['field_password']->title = 'Password';
   settings::$data['forms']['user']['form_user_registration']->children['button_register'] = new \effectivecore\markup();
-  settings::$data['forms']['user']['form_user_registration']->children['button_register']->type = 'button';
+  settings::$data['forms']['user']['form_user_registration']->children['button_register']->tag_name = 'button';
   settings::$data['forms']['user']['form_user_registration']->children['button_register']->attributes = new \stdClass();
   settings::$data['forms']['user']['form_user_registration']->children['button_register']->attributes->type = 'submit';
   settings::$data['forms']['user']['form_user_registration']->children['button_register']->attributes->name = 'button';
