@@ -97,11 +97,6 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\linker']->classname = 'linker';
   cache_factory::$data['classes_map']['effectivecore\linker']->parent = [];
   cache_factory::$data['classes_map']['effectivecore\linker']->file = 'modules/core/patterns/pattern--linker.php';
-  cache_factory::$data['classes_map']['effectivecore\message'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\message']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\message']->classname = 'message';
-  cache_factory::$data['classes_map']['effectivecore\message']->parent = [];
-  cache_factory::$data['classes_map']['effectivecore\message']->file = 'modules/core/patterns/pattern--message.php';
   cache_factory::$data['classes_map']['effectivecore\node'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\node']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\node']->classname = 'node';

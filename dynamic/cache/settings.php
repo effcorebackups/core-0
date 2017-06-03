@@ -484,9 +484,6 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['templates']['page']['html_element'] = 'templates/template--html_element.html';
   settings::$data['templates']['page']['html_element_simple'] = 'templates/template--html_element.simple.html';
   settings::$data['templates']['page']['page'] = 'templates/template--page.html';
-  settings::$data['templates']['page']['messages'] = 'templates/template--messages.html';
-  settings::$data['templates']['page']['message_group'] = 'templates/template--message_group.html';
-  settings::$data['templates']['page']['message'] = 'templates/template--message.html';
   settings::$data['templates']['page']['table'] = 'templates/template--table.html';
   settings::$data['templates']['page']['table_head'] = 'templates/template--table_head.html';
   settings::$data['templates']['page']['table_head_row'] = 'templates/template--table_head_row.html';
