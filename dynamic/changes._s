@@ -1,0 +1,29 @@
+changes
+- test_insert_arr
+    action: insert
+    npath: test_changes/storage/test_arr
+    value
+    - item_4: a4
+    - item_5: a5
+    - item_6: a6
+- test_insert_obj
+    action: insert
+    npath: test_changes/storage/test_obj
+    value
+      prop_4: p4
+      prop_5: p5
+      prop_6: p6
+- test_update_arr
+    action: update
+    npath: test_changes/storage/test_arr/item_1
+    value: a1 modified
+- test_update_obj
+    action: update
+    npath: test_changes/storage/test_obj/prop_1
+    value: p1 modified
+- test_delete_arr
+    action: delete
+    npath: test_changes/storage/test_arr/item_2
+- test_delete_obj
+    action: delete
+    npath: test_changes/storage/test_obj/prop_2

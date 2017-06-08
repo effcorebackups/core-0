@@ -561,6 +561,14 @@ namespace effectivecore { # settings::$data[type][scope]...
   settings::$data['storages']['storage']['storage_db_main']->queries = [];
   settings::$data['storages']['storage']['storage_settings'] = new \effectivecore\storage_instance_s();
   settings::$data['storages']['storage']['storage_settings']->id = 'settings';
+  settings::$data['test_changes']['storage'] = new \stdClass();
+  settings::$data['test_changes']['storage']->test_arr['item_1'] = 'a1';
+  settings::$data['test_changes']['storage']->test_arr['item_2'] = 'a2';
+  settings::$data['test_changes']['storage']->test_arr['item_3'] = 'a3';
+  settings::$data['test_changes']['storage']->test_obj = new \stdClass();
+  settings::$data['test_changes']['storage']->test_obj->prop_1 = 'p1';
+  settings::$data['test_changes']['storage']->test_obj->prop_2 = 'p2';
+  settings::$data['test_changes']['storage']->test_obj->prop_3 = 'p3';
   settings::$data['languages']['translate']['ru'] = new \stdClass();
   settings::$data['languages']['translate']['ru']->code = 'ru';
   settings::$data['languages']['translate']['ru']->title = new \stdClass();
