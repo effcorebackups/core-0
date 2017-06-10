@@ -1,6 +1,6 @@
 <?php 
 
-namespace effectivecore { # array[type][scope]...
+namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
@@ -550,13 +550,17 @@ namespace effectivecore { # array[type][scope]...
   settings::$data['tokens']['user']['context_user_mail']->type = 'code';
   settings::$data['tokens']['user']['context_user_mail']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
   settings::$data['test_changes']['storage'] = new \stdClass();
-  settings::$data['test_changes']['storage']->test_arr['item_1'] = 'a1';
-  settings::$data['test_changes']['storage']->test_arr['item_2'] = 'a2';
+  settings::$data['test_changes']['storage']->test_arr['item_1'] = 'a1 modified';
   settings::$data['test_changes']['storage']->test_arr['item_3'] = 'a3';
+  settings::$data['test_changes']['storage']->test_arr['item_4'] = 'a4';
+  settings::$data['test_changes']['storage']->test_arr['item_5'] = 'a5';
+  settings::$data['test_changes']['storage']->test_arr['item_6'] = 'a6';
   settings::$data['test_changes']['storage']->test_obj = new \stdClass();
-  settings::$data['test_changes']['storage']->test_obj->prop_1 = 'p1';
-  settings::$data['test_changes']['storage']->test_obj->prop_2 = 'p2';
+  settings::$data['test_changes']['storage']->test_obj->prop_1 = 'p1 modified';
   settings::$data['test_changes']['storage']->test_obj->prop_3 = 'p3';
+  settings::$data['test_changes']['storage']->test_obj->prop_4 = 'p4';
+  settings::$data['test_changes']['storage']->test_obj->prop_5 = 'p5';
+  settings::$data['test_changes']['storage']->test_obj->prop_6 = 'p6';
   settings::$data['changes']['storage']['test_insert_obj'] = new \stdClass();
   settings::$data['changes']['storage']['test_insert_obj']->action = 'insert';
   settings::$data['changes']['storage']['test_insert_obj']->npath = 'test_changes/storage/test_obj';
