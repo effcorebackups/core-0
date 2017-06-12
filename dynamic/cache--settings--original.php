@@ -1155,6 +1155,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_registration']->template = null;
   settings::$data_orig['forms']['user']['form_user_registration']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_registration']->template_children = null;
-  settings::$data_orig['_created'] = '2017-06-12 14:35:29';
+  settings::$data_orig['_created'] = '2017-06-12 14:38:59';
 
 }
