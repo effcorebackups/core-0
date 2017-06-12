@@ -576,16 +576,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['changes']['storage']['test_insert_obj']->value->prop_4 = 'p4';
   settings::$data_orig['changes']['storage']['test_insert_obj']->value->prop_5 = 'p5';
   settings::$data_orig['changes']['storage']['test_insert_obj']->value->prop_6 = 'p6';
-  settings::$data_orig['changes']['storage']['test_insert_obj']->module_id = 'storage';
   settings::$data_orig['changes']['storage']['test_update_obj'] = new \stdClass();
   settings::$data_orig['changes']['storage']['test_update_obj']->action = 'update';
   settings::$data_orig['changes']['storage']['test_update_obj']->npath = 'test_changes/storage/test_obj/prop_1';
   settings::$data_orig['changes']['storage']['test_update_obj']->value = 'p1 modified';
-  settings::$data_orig['changes']['storage']['test_update_obj']->module_id = 'storage';
   settings::$data_orig['changes']['storage']['test_delete_obj'] = new \stdClass();
   settings::$data_orig['changes']['storage']['test_delete_obj']->action = 'delete';
   settings::$data_orig['changes']['storage']['test_delete_obj']->npath = 'test_changes/storage/test_obj/prop_2';
-  settings::$data_orig['changes']['storage']['test_delete_obj']->module_id = 'storage';
   settings::$data_orig['languages']['translate']['ru'] = new \stdClass();
   settings::$data_orig['languages']['translate']['ru']->code = 'ru';
   settings::$data_orig['languages']['translate']['ru']->title = new \stdClass();
