@@ -4,6 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
+  settings::$data_orig['_created'] = '2017-06-12 14:41:44';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->mime = 'text/html';
   settings::$data_orig['file_types']['core']['php']->protected = 1;
@@ -1155,6 +1156,5 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_registration']->template = null;
   settings::$data_orig['forms']['user']['form_user_registration']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_registration']->template_children = null;
-  settings::$data_orig['_created'] = '2017-06-12 14:38:59';
 
 }
