@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-06-13 14:53:27';
+  settings::$data['_created'] = '2017-06-15 13:08:21';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->mime = 'text/html';
   settings::$data['file_types']['core']['php']->protected = 1;
@@ -566,14 +566,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['test_changes']['storage']->test_arr['item_1'] = 'a1 modified';
   settings::$data['test_changes']['storage']->test_arr['item_3'] = 'a3';
   settings::$data['test_changes']['storage']->test_arr['item_4'] = 'a4';
-  settings::$data['test_changes']['storage']->test_arr['item_5'] = 'a5';
-  settings::$data['test_changes']['storage']->test_arr['item_6'] = 'a6';
   settings::$data['test_changes']['storage']->test_obj = new \stdClass();
   settings::$data['test_changes']['storage']->test_obj->prop_1 = 'p1 modified';
   settings::$data['test_changes']['storage']->test_obj->prop_3 = 'p3';
   settings::$data['test_changes']['storage']->test_obj->prop_4 = 'p4';
-  settings::$data['test_changes']['storage']->test_obj->prop_5 = 'p5';
-  settings::$data['test_changes']['storage']->test_obj->prop_6 = 'p6';
   settings::$data['languages']['translate']['ru'] = new \stdClass();
   settings::$data['languages']['translate']['ru']->code = 'ru';
   settings::$data['languages']['translate']['ru']->title = new \stdClass();
