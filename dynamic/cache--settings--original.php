@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-06-15 13:08:21';
+  settings::$data_orig['_created'] = '2017-06-17 23:23:47';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->mime = 'text/html';
   settings::$data_orig['file_types']['core']['php']->protected = 1;
@@ -562,37 +562,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['storages']['storage']['storage_db_main']->queries = [];
   settings::$data_orig['storages']['storage']['storage_settings'] = new \effectivecore\storage_instance_s();
   settings::$data_orig['storages']['storage']['storage_settings']->id = 'settings';
-  settings::$data_orig['test_changes']['storage'] = new \stdClass();
-  settings::$data_orig['test_changes']['storage']->test_arr['item_1'] = 'a1';
-  settings::$data_orig['test_changes']['storage']->test_arr['item_2'] = 'a2';
-  settings::$data_orig['test_changes']['storage']->test_arr['item_3'] = 'a3';
-  settings::$data_orig['test_changes']['storage']->test_obj = new \stdClass();
-  settings::$data_orig['test_changes']['storage']->test_obj->prop_1 = 'p1';
-  settings::$data_orig['test_changes']['storage']->test_obj->prop_2 = 'p2';
-  settings::$data_orig['test_changes']['storage']->test_obj->prop_3 = 'p3';
-  settings::$data_orig['changes']['storage']['test_obj_insert'] = new \stdClass();
-  settings::$data_orig['changes']['storage']['test_obj_insert']->action = 'insert';
-  settings::$data_orig['changes']['storage']['test_obj_insert']->npath = 'test_changes/storage/test_obj';
-  settings::$data_orig['changes']['storage']['test_obj_insert']->value = new \stdClass();
-  settings::$data_orig['changes']['storage']['test_obj_insert']->value->prop_4 = 'p4';
-  settings::$data_orig['changes']['storage']['test_arr_insert'] = new \stdClass();
-  settings::$data_orig['changes']['storage']['test_arr_insert']->action = 'insert';
-  settings::$data_orig['changes']['storage']['test_arr_insert']->npath = 'test_changes/storage/test_arr';
-  settings::$data_orig['changes']['storage']['test_arr_insert']->value['item_4'] = 'a4';
-  settings::$data_orig['changes']['storage']['test_obj_update'] = new \stdClass();
-  settings::$data_orig['changes']['storage']['test_obj_update']->action = 'update';
-  settings::$data_orig['changes']['storage']['test_obj_update']->npath = 'test_changes/storage/test_obj/prop_1';
-  settings::$data_orig['changes']['storage']['test_obj_update']->value = 'p1 modified';
-  settings::$data_orig['changes']['storage']['test_arr_update'] = new \stdClass();
-  settings::$data_orig['changes']['storage']['test_arr_update']->action = 'update';
-  settings::$data_orig['changes']['storage']['test_arr_update']->npath = 'test_changes/storage/test_arr/item_1';
-  settings::$data_orig['changes']['storage']['test_arr_update']->value = 'a1 modified';
-  settings::$data_orig['changes']['storage']['test_obj_delete'] = new \stdClass();
-  settings::$data_orig['changes']['storage']['test_obj_delete']->action = 'delete';
-  settings::$data_orig['changes']['storage']['test_obj_delete']->npath = 'test_changes/storage/test_obj/prop_2';
-  settings::$data_orig['changes']['storage']['test_arr_delete'] = new \stdClass();
-  settings::$data_orig['changes']['storage']['test_arr_delete']->action = 'delete';
-  settings::$data_orig['changes']['storage']['test_arr_delete']->npath = 'test_changes/storage/test_arr/item_2';
   settings::$data_orig['languages']['translate']['ru'] = new \stdClass();
   settings::$data_orig['languages']['translate']['ru']->code = 'ru';
   settings::$data_orig['languages']['translate']['ru']->title = new \stdClass();
