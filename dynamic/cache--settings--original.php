@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-06-18 11:43:15';
+  settings::$data_orig['_created'] = '2017-06-18 12:35:15';
   settings::$data_orig['events']['core'] = new \stdClass();
   settings::$data_orig['events']['core']->on_form_validate['on_form_validate_admin_decoration'] = new \stdClass();
   settings::$data_orig['events']['core']->on_form_validate['on_form_validate_admin_decoration']->form_id = 'admin_decoration';
@@ -15,20 +15,20 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['events']['core']->on_form_submit['on_form_submit_admin_decoration']->handler = '\\effectivecore\\modules\\core\\events_form::on_submit_admin_decoration';
   settings::$data_orig['events']['core']->on_form_submit['on_form_submit_admin_decoration']->weight = 0;
   settings::$data_orig['events']['page'] = new \stdClass();
-  settings::$data_orig['events']['page']->on_module_start['start_page'] = new \stdClass();
-  settings::$data_orig['events']['page']->on_module_start['start_page']->handler = '\\effectivecore\\modules\\page\\events_module::on_start';
-  settings::$data_orig['events']['page']->on_module_start['start_page']->weight = 0;
+  settings::$data_orig['events']['page']->on_module_start['on_module_start_default'] = new \stdClass();
+  settings::$data_orig['events']['page']->on_module_start['on_module_start_default']->handler = '\\effectivecore\\modules\\page\\events_module::on_start';
+  settings::$data_orig['events']['page']->on_module_start['on_module_start_default']->weight = 0;
   settings::$data_orig['events']['tree'] = new \stdClass();
-  settings::$data_orig['events']['tree']->on_module_start['start_tree'] = new \stdClass();
-  settings::$data_orig['events']['tree']->on_module_start['start_tree']->handler = '\\effectivecore\\modules\\tree\\events_module::on_start';
-  settings::$data_orig['events']['tree']->on_module_start['start_tree']->weight = -100;
+  settings::$data_orig['events']['tree']->on_module_start['on_module_start_default'] = new \stdClass();
+  settings::$data_orig['events']['tree']->on_module_start['on_module_start_default']->handler = '\\effectivecore\\modules\\tree\\events_module::on_start';
+  settings::$data_orig['events']['tree']->on_module_start['on_module_start_default']->weight = -100;
   settings::$data_orig['events']['user'] = new \stdClass();
-  settings::$data_orig['events']['user']->on_module_start['start_user'] = new \stdClass();
-  settings::$data_orig['events']['user']->on_module_start['start_user']->handler = '\\effectivecore\\modules\\user\\events_module::on_start';
-  settings::$data_orig['events']['user']->on_module_start['start_user']->weight = -80;
-  settings::$data_orig['events']['user']->on_module_install['install_user'] = new \stdClass();
-  settings::$data_orig['events']['user']->on_module_install['install_user']->handler = '\\effectivecore\\modules\\user\\events_module::on_install';
-  settings::$data_orig['events']['user']->on_module_install['install_user']->weight = 0;
+  settings::$data_orig['events']['user']->on_module_start['on_module_start_default'] = new \stdClass();
+  settings::$data_orig['events']['user']->on_module_start['on_module_start_default']->handler = '\\effectivecore\\modules\\user\\events_module::on_start';
+  settings::$data_orig['events']['user']->on_module_start['on_module_start_default']->weight = -80;
+  settings::$data_orig['events']['user']->on_module_install['on_module_install_default'] = new \stdClass();
+  settings::$data_orig['events']['user']->on_module_install['on_module_install_default']->handler = '\\effectivecore\\modules\\user\\events_module::on_install';
+  settings::$data_orig['events']['user']->on_module_install['on_module_install_default']->weight = 0;
   settings::$data_orig['events']['user']->on_form_validate['on_form_validate_user_login'] = new \stdClass();
   settings::$data_orig['events']['user']->on_form_validate['on_form_validate_user_login']->form_id = 'user_login';
   settings::$data_orig['events']['user']->on_form_validate['on_form_validate_user_login']->handler = '\\effectivecore\\events_form::on_validate';
