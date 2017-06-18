@@ -117,6 +117,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\template']->classname = 'template';
   cache_factory::$data['classes_map']['effectivecore\template']->parent = '';
   cache_factory::$data['classes_map']['effectivecore\template']->file = 'modules/page/classes/gl--template.php';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\events_form'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\modules\page\events_form']->namespace = 'effectivecore\\modules\\page';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\events_form']->classname = 'events_form';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\events_form']->parent = 'effectivecore\\events_form';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\events_form']->file = 'modules/page/events/events--form.php';
   cache_factory::$data['classes_map']['effectivecore\modules\page\events_module'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\modules\page\events_module']->namespace = 'effectivecore\\modules\\page';
   cache_factory::$data['classes_map']['effectivecore\modules\page\events_module']->classname = 'events_module';
