@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-06-19 12:32:01';
+  settings::$data_orig['_created'] = '2017-06-19 13:00:35';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->mime = 'text/html';
   settings::$data_orig['file_types']['core']['php']->protected = 1;
@@ -540,6 +540,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_admin_decoration']->attributes->id = 'admin_decoration';
   settings::$data_orig['forms']['page']['form_admin_decoration']->attributes->novalidate = 'novalidate';
   settings::$data_orig['forms']['page']['form_admin_decoration']->attributes->method = 'post';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->attributes->class = 'form-admin_decoration';
   settings::$data_orig['forms']['page']['form_admin_decoration']->weight = 0;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label'] = new \effectivecore\markup();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->tag_name = 'label';
@@ -552,26 +553,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->template_self = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->template_children = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color'] = new \effectivecore\markup();
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->tag_name = 'select';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->tag_name = 'div';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->attributes = new \stdClass();
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->attributes->name = 'bg_color';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->attributes->required = 1;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->attributes->id = 'field_bg_color';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->weight = 0;
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children['option_color_noselected'] = new \effectivecore\markup();
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children['option_color_noselected']->tag_name = 'option';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children['option_color_noselected']->attributes = new \stdClass();
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children['option_color_noselected']->attributes->value = '-';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children['option_color_noselected']->weight = 0;
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children['option_color_noselected']->children['label'] = new \effectivecore\text();
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children['option_color_noselected']->children['label']->text = '-';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children['option_color_noselected']->children['label']->weight = 0;
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children['option_color_noselected']->template = null;
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children['option_color_noselected']->template_self = null;
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children['option_color_noselected']->template_children = null;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->children = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->template = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->template_self = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->template_children = null;
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->title = 'Background color';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->tag_name = 'button';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->attributes = new \stdClass();
@@ -1051,6 +1040,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['always_enabled'] = 'всегда_вкл';
   settings::$data_orig['translate']['translate']->ru['enabled'] = 'вкл.';
   settings::$data_orig['translate']['translate']->ru['Execute plan'] = 'План выполнения';
+  settings::$data_orig['translate']['translate']->ru['Background color'] = 'Цвет фона';
   settings::$data_orig['translate']['translate']->ru['Decoration'] = 'Оформление';
   settings::$data_orig['translate']['translate']->ru['disabled'] = 'выкл.';
   settings::$data_orig['translate']['translate']->ru['Page'] = 'Страница';
