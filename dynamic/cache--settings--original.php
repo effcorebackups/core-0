@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-06-20 17:35:05';
+  settings::$data_orig['_created'] = '2017-06-20 19:07:28';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->mime = 'text/html';
   settings::$data_orig['file_types']['core']['php']->protected = 1;
@@ -599,9 +599,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->tag_name = 'label';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->attributes = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->weight = 0;
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->children['label'] = new \effectivecore\text();
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->children['label']->text = 'Background color';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->children['label']->weight = 0;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->children['content'] = new \effectivecore\text();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->children['content']->text = 'Background color';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->children['content']->weight = 0;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->template = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->template_self = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color_label']->template_children = null;
@@ -614,6 +614,32 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->template = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->template_self = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_bg_color']->template_children = null;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea']->tag_name = 'textarea';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea']->attributes = new \stdClass();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea']->attributes->name = 'field_test_textarea';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea']->weight = 0;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea']->children['content'] = new \effectivecore\text();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea']->children['content']->text = 'text in textarea';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea']->children['content']->weight = 0;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea']->template = null;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea']->template_self = null;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea']->template_children = null;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_textarea']->title = 'Textarea';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->tag_name = 'input';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->attributes = new \stdClass();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->attributes->type = 'text';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->attributes->name = 'field_test_input';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->attributes->value = 'text in input';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->attributes->required = 1;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->attributes->maxlength = 255;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->weight = 0;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->children = null;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->template = null;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->template_self = null;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->template_children = null;
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['field_test_input']->title = 'Input';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->tag_name = 'button';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->attributes = new \stdClass();
