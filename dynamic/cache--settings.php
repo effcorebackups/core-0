@@ -526,7 +526,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['colors']['page']['color_original_darkblue']->is_dark = true;
   settings::$data['decoration']['page'] = new \stdClass();
   settings::$data['decoration']['page']->link_color = 'color_original_darkblue';
-  settings::$data['decoration']['page']->background_color = 'color_original_blue';
+  settings::$data['decoration']['page']->background_color = 'color_yellowgreen';
   settings::$data['events']['page'] = new \stdClass();
   settings::$data['events']['page']->on_module_start['page'] = new \stdClass();
   settings::$data['events']['page']->on_module_start['page']->handler = '\\effectivecore\\modules\\page\\events_module::on_start';
@@ -585,6 +585,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->on_init = null;
   settings::$data['forms']['page']['form_admin_decoration']->on_validate = null;
   settings::$data['forms']['page']['form_admin_decoration']->on_submit = null;
+  settings::$data['forms']['page']['form_admin_decoration']->clicked_button = null;
+  settings::$data['forms']['page']['form_admin_decoration']->clicked_button_name = null;
   settings::$data['forms']['page']['form_admin_decoration']->errors = [];
   settings::$data['forms']['page']['form_admin_decoration']->tag_name = 'form';
   settings::$data['forms']['page']['form_admin_decoration']->attributes = new \stdClass();
@@ -632,6 +634,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_login']->on_init = null;
   settings::$data['forms']['user']['form_user_login']->on_validate = null;
   settings::$data['forms']['user']['form_user_login']->on_submit = null;
+  settings::$data['forms']['user']['form_user_login']->clicked_button = null;
+  settings::$data['forms']['user']['form_user_login']->clicked_button_name = null;
   settings::$data['forms']['user']['form_user_login']->errors = [];
   settings::$data['forms']['user']['form_user_login']->tag_name = 'form';
   settings::$data['forms']['user']['form_user_login']->attributes = new \stdClass();
@@ -707,6 +711,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_logout']->on_init = null;
   settings::$data['forms']['user']['form_user_logout']->on_validate = null;
   settings::$data['forms']['user']['form_user_logout']->on_submit = null;
+  settings::$data['forms']['user']['form_user_logout']->clicked_button = null;
+  settings::$data['forms']['user']['form_user_logout']->clicked_button_name = null;
   settings::$data['forms']['user']['form_user_logout']->errors = [];
   settings::$data['forms']['user']['form_user_logout']->tag_name = 'form';
   settings::$data['forms']['user']['form_user_logout']->attributes = new \stdClass();
@@ -749,6 +755,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_delete']->on_init = null;
   settings::$data['forms']['user']['form_user_n_delete']->on_validate = null;
   settings::$data['forms']['user']['form_user_n_delete']->on_submit = null;
+  settings::$data['forms']['user']['form_user_n_delete']->clicked_button = null;
+  settings::$data['forms']['user']['form_user_n_delete']->clicked_button_name = null;
   settings::$data['forms']['user']['form_user_n_delete']->errors = [];
   settings::$data['forms']['user']['form_user_n_delete']->tag_name = 'form';
   settings::$data['forms']['user']['form_user_n_delete']->attributes = new \stdClass();
@@ -791,6 +799,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->on_init = null;
   settings::$data['forms']['user']['form_user_n_edit']->on_validate = null;
   settings::$data['forms']['user']['form_user_n_edit']->on_submit = null;
+  settings::$data['forms']['user']['form_user_n_edit']->clicked_button = null;
+  settings::$data['forms']['user']['form_user_n_edit']->clicked_button_name = null;
   settings::$data['forms']['user']['form_user_n_edit']->errors = [];
   settings::$data['forms']['user']['form_user_n_edit']->tag_name = 'form';
   settings::$data['forms']['user']['form_user_n_edit']->attributes = new \stdClass();
@@ -857,6 +867,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->on_init = null;
   settings::$data['forms']['user']['form_user_registration']->on_validate = null;
   settings::$data['forms']['user']['form_user_registration']->on_submit = null;
+  settings::$data['forms']['user']['form_user_registration']->clicked_button = null;
+  settings::$data['forms']['user']['form_user_registration']->clicked_button_name = null;
   settings::$data['forms']['user']['form_user_registration']->errors = [];
   settings::$data['forms']['user']['form_user_registration']->tag_name = 'form';
   settings::$data['forms']['user']['form_user_registration']->attributes = new \stdClass();
