@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-06-21 17:04:39';
+  settings::$data_orig['_created'] = '2017-06-21 17:20:10';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->mime = 'text/html';
   settings::$data_orig['file_types']['core']['php']->protected = 1;
@@ -1283,22 +1283,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['templates']['tree']['tree_item'] = 'templates/template--tree_item.html';
   settings::$data_orig['templates']['tree']['tree_item_self'] = 'templates/template--tree_item_self.html';
   settings::$data_orig['templates']['tree']['tree_item_children'] = 'templates/template--tree_item_children.html';
-  settings::$data_orig['tokens']['page']['border_color'] = new \stdClass();
-  settings::$data_orig['tokens']['page']['border_color']->match = '%%_border_color';
-  settings::$data_orig['tokens']['page']['border_color']->type = 'text';
-  settings::$data_orig['tokens']['page']['border_color']->value = 'gainsboro';
+  settings::$data_orig['tokens']['page']['color'] = new \stdClass();
+  settings::$data_orig['tokens']['page']['color']->match = '%%_color';
+  settings::$data_orig['tokens']['page']['color']->type = 'text';
+  settings::$data_orig['tokens']['page']['color']->value = 'black';
   settings::$data_orig['tokens']['page']['bg_color'] = new \stdClass();
   settings::$data_orig['tokens']['page']['bg_color']->match = '%%_bg_color';
   settings::$data_orig['tokens']['page']['bg_color']->type = 'text';
   settings::$data_orig['tokens']['page']['bg_color']->value = '#216ce4';
-  settings::$data_orig['tokens']['page']['table_noitems_color'] = new \stdClass();
-  settings::$data_orig['tokens']['page']['table_noitems_color']->match = '%%_table_noitems_color';
-  settings::$data_orig['tokens']['page']['table_noitems_color']->type = 'text';
-  settings::$data_orig['tokens']['page']['table_noitems_color']->value = '#ddd';
-  settings::$data_orig['tokens']['page']['table_bg_color'] = new \stdClass();
-  settings::$data_orig['tokens']['page']['table_bg_color']->match = '%%_table_bg_color';
-  settings::$data_orig['tokens']['page']['table_bg_color']->type = 'text';
-  settings::$data_orig['tokens']['page']['table_bg_color']->value = 'whitesmoke';
   settings::$data_orig['tokens']['page']['hover_color'] = new \stdClass();
   settings::$data_orig['tokens']['page']['hover_color']->match = '%%_hover_color';
   settings::$data_orig['tokens']['page']['hover_color']->type = 'text';
@@ -1307,6 +1299,18 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['tokens']['page']['hover_bg_color']->match = '%%_hover_bg_color';
   settings::$data_orig['tokens']['page']['hover_bg_color']->type = 'text';
   settings::$data_orig['tokens']['page']['hover_bg_color']->value = '#28334a';
+  settings::$data_orig['tokens']['page']['border_color'] = new \stdClass();
+  settings::$data_orig['tokens']['page']['border_color']->match = '%%_border_color';
+  settings::$data_orig['tokens']['page']['border_color']->type = 'text';
+  settings::$data_orig['tokens']['page']['border_color']->value = 'gainsboro';
+  settings::$data_orig['tokens']['page']['table_noitems_color'] = new \stdClass();
+  settings::$data_orig['tokens']['page']['table_noitems_color']->match = '%%_table_noitems_color';
+  settings::$data_orig['tokens']['page']['table_noitems_color']->type = 'text';
+  settings::$data_orig['tokens']['page']['table_noitems_color']->value = 'gainsboro';
+  settings::$data_orig['tokens']['page']['table_even_bg_color'] = new \stdClass();
+  settings::$data_orig['tokens']['page']['table_even_bg_color']->match = '%%_table_even_bg_color';
+  settings::$data_orig['tokens']['page']['table_even_bg_color']->type = 'text';
+  settings::$data_orig['tokens']['page']['table_even_bg_color']->value = 'whitesmoke';
   settings::$data_orig['tokens']['page']['ok_color'] = new \stdClass();
   settings::$data_orig['tokens']['page']['ok_color']->match = '%%_ok_color';
   settings::$data_orig['tokens']['page']['ok_color']->type = 'text';
