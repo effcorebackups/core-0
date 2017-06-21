@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-06-21 18:29:18';
+  settings::$data_orig['_created'] = '2017-06-21 18:34:54';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->mime = 'text/html';
   settings::$data_orig['file_types']['core']['php']->protected = 1;
@@ -184,7 +184,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_admin_users']->content['block_users']->type = 'code';
   settings::$data_orig['pages']['user']['page_admin_users']->content['block_users']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_admin_users';
   settings::$data_orig['pages']['user']['page_admin_users_delete_n'] = new \effectivecore\page();
-  settings::$data_orig['pages']['user']['page_admin_users_delete_n']->title = 'Delete profile (%%_context_user_mail-4)?';
+  settings::$data_orig['pages']['user']['page_admin_users_delete_n']->title = 'Delete profile (%%_user_email_context-4)?';
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->url = new \stdClass();
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->url->match = '%^/admin/users/delete/[0-9]+$%';
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->url->args['user_id'] = 4;
@@ -247,7 +247,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_user_logout']->content['form_user_login']->type = 'link';
   settings::$data_orig['pages']['user']['page_user_logout']->content['form_user_login']->link = 'forms/user/form_user_logout';
   settings::$data_orig['pages']['user']['page_user_n'] = new \effectivecore\page();
-  settings::$data_orig['pages']['user']['page_user_n']->title = 'User profile (%%_context_user_mail-2)';
+  settings::$data_orig['pages']['user']['page_user_n']->title = 'User profile (%%_user_email_context-2)';
   settings::$data_orig['pages']['user']['page_user_n']->url = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_n']->url->match = '%^/user/[0-9]+$%';
   settings::$data_orig['pages']['user']['page_user_n']->url->args['user_id'] = 2;
@@ -269,7 +269,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_user_n']->content['block_user_n']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_user_n';
   settings::$data_orig['pages']['user']['page_user_n']->https = true;
   settings::$data_orig['pages']['user']['page_user_n_edit'] = new \effectivecore\page();
-  settings::$data_orig['pages']['user']['page_user_n_edit']->title = 'Edit profile (%%_context_user_mail-2)';
+  settings::$data_orig['pages']['user']['page_user_n_edit']->title = 'Edit profile (%%_user_email_context-2)';
   settings::$data_orig['pages']['user']['page_user_n_edit']->url = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_n_edit']->url->match = '%^/user/[0-9]+/edit$%';
   settings::$data_orig['pages']['user']['page_user_n_edit']->url->args['user_id'] = 2;
@@ -1516,10 +1516,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['tokens']['user']['user_email']->match = '%%_user_email';
   settings::$data_orig['tokens']['user']['user_email']->type = 'code';
   settings::$data_orig['tokens']['user']['user_email']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
-  settings::$data_orig['tokens']['user']['context_user_mail'] = new \stdClass();
-  settings::$data_orig['tokens']['user']['context_user_mail']->match = '%%_context_user_mail';
-  settings::$data_orig['tokens']['user']['context_user_mail']->type = 'code';
-  settings::$data_orig['tokens']['user']['context_user_mail']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
+  settings::$data_orig['tokens']['user']['user_email_context'] = new \stdClass();
+  settings::$data_orig['tokens']['user']['user_email_context']->match = '%%_user_email_context';
+  settings::$data_orig['tokens']['user']['user_email_context']->type = 'code';
+  settings::$data_orig['tokens']['user']['user_email_context']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
   settings::$data_orig['tokens']['user']['text_no_items'] = new \stdClass();
   settings::$data_orig['tokens']['user']['text_no_items']->match = '%%_text_no_items';
   settings::$data_orig['tokens']['user']['text_no_items']->type = 'translated_text';
@@ -1542,9 +1542,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['languages']['translate']['ru']->title->en = 'Russian';
   settings::$data_orig['languages']['translate']['ru']->title->native = 'Русский';
   settings::$data_orig['translate']['translate'] = new \stdClass();
-  settings::$data_orig['translate']['translate']->ru['User profile (%%_context_user_mail-2)'] = 'Профиль пользователя (%%_context_user_mail-2)';
-  settings::$data_orig['translate']['translate']->ru['Edit profile (%%_context_user_mail-2)'] = 'Редактировать профиль (%%_context_user_mail-2)';
-  settings::$data_orig['translate']['translate']->ru['Delete profile (%%_context_user_mail-4)?'] = 'Удалить профиль (%%_context_user_mail-4)?';
+  settings::$data_orig['translate']['translate']->ru['User profile (%%_user_email_context-2)'] = 'Профиль пользователя (%%_user_email_context-2)';
+  settings::$data_orig['translate']['translate']->ru['Edit profile (%%_user_email_context-2)'] = 'Редактировать профиль (%%_user_email_context-2)';
+  settings::$data_orig['translate']['translate']->ru['Delete profile (%%_user_email_context-4)?'] = 'Удалить профиль (%%_user_email_context-4)?';
   settings::$data_orig['translate']['translate']->ru['always_enabled'] = 'всегда_вкл';
   settings::$data_orig['translate']['translate']->ru['enabled'] = 'вкл.';
   settings::$data_orig['translate']['translate']->ru['Execute plan'] = 'План выполнения';
