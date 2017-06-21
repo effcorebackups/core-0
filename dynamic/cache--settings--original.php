@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-06-21 15:11:25';
+  settings::$data_orig['_created'] = '2017-06-21 16:34:16';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->mime = 'text/html';
   settings::$data_orig['file_types']['core']['php']->protected = 1;
@@ -700,7 +700,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->attributes->value = new \effectivecore\text();
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->attributes->value->text = 'text in input';
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->attributes->value->weight = 0;
-  settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->attributes->required = 1;
+  settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->attributes->required = 'required';
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->attributes->minlength = 5;
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->attributes->maxlength = 255;
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->weight = 0;
@@ -727,7 +727,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->attributes->value = new \effectivecore\text();
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->attributes->value->text = 'text in password';
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->attributes->value->weight = 0;
-  settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->attributes->required = 1;
+  settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->attributes->required = 'required';
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->attributes->minlength = 5;
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->attributes->maxlength = 255;
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->weight = 0;
@@ -775,7 +775,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1'] = new \effectivecore\markup();
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->tag_name = 'option';
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->attributes = new \stdClass();
-  settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->attributes->name = 'option_1';
+  settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->attributes->value = 'option_1';
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->weight = 0;
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->children['content'] = new \effectivecore\text();
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->children['content']->text = 'Option 1';
@@ -786,7 +786,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2'] = new \effectivecore\markup();
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->tag_name = 'option';
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->attributes = new \stdClass();
-  settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->attributes->name = 'option_2';
+  settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->attributes->value = 'option_2';
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->weight = 0;
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->children['content'] = new \effectivecore\text();
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->children['content']->text = 'Option 2';
@@ -797,7 +797,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3'] = new \effectivecore\markup();
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->tag_name = 'option';
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->attributes = new \stdClass();
-  settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->attributes->name = 'option_3';
+  settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->attributes->value = 'option_3';
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->weight = 0;
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->children['content'] = new \effectivecore\text();
   settings::$data_orig['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->children['content']->text = 'Option 3';
@@ -942,7 +942,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_login']->children['field_email']->attributes = new \stdClass();
   settings::$data_orig['forms']['user']['form_user_login']->children['field_email']->attributes->type = 'email';
   settings::$data_orig['forms']['user']['form_user_login']->children['field_email']->attributes->name = 'email';
-  settings::$data_orig['forms']['user']['form_user_login']->children['field_email']->attributes->required = 1;
+  settings::$data_orig['forms']['user']['form_user_login']->children['field_email']->attributes->required = 'required';
   settings::$data_orig['forms']['user']['form_user_login']->children['field_email']->attributes->maxlength = 255;
   settings::$data_orig['forms']['user']['form_user_login']->children['field_email']->weight = 0;
   settings::$data_orig['forms']['user']['form_user_login']->children['field_email']->children = null;
@@ -965,7 +965,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_login']->children['field_password']->attributes = new \stdClass();
   settings::$data_orig['forms']['user']['form_user_login']->children['field_password']->attributes->type = 'password';
   settings::$data_orig['forms']['user']['form_user_login']->children['field_password']->attributes->name = 'password';
-  settings::$data_orig['forms']['user']['form_user_login']->children['field_password']->attributes->required = 1;
+  settings::$data_orig['forms']['user']['form_user_login']->children['field_password']->attributes->required = 'required';
   settings::$data_orig['forms']['user']['form_user_login']->children['field_password']->attributes->minlength = 5;
   settings::$data_orig['forms']['user']['form_user_login']->children['field_password']->attributes->maxlength = 255;
   settings::$data_orig['forms']['user']['form_user_login']->children['field_password']->weight = 0;
@@ -1107,7 +1107,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['field_password']->attributes = new \stdClass();
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['field_password']->attributes->type = 'password';
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['field_password']->attributes->name = 'password';
-  settings::$data_orig['forms']['user']['form_user_n_edit']->children['field_password']->attributes->required = 1;
+  settings::$data_orig['forms']['user']['form_user_n_edit']->children['field_password']->attributes->required = 'required';
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['field_password']->attributes->minlength = 5;
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['field_password']->attributes->maxlength = 255;
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['field_password']->weight = 0;
@@ -1175,7 +1175,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_email']->attributes = new \stdClass();
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_email']->attributes->type = 'email';
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_email']->attributes->name = 'email';
-  settings::$data_orig['forms']['user']['form_user_registration']->children['field_email']->attributes->required = 1;
+  settings::$data_orig['forms']['user']['form_user_registration']->children['field_email']->attributes->required = 'required';
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_email']->attributes->maxlength = 255;
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_email']->weight = 0;
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_email']->children = null;
@@ -1198,7 +1198,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_password']->attributes = new \stdClass();
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_password']->attributes->type = 'password';
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_password']->attributes->name = 'password';
-  settings::$data_orig['forms']['user']['form_user_registration']->children['field_password']->attributes->required = 1;
+  settings::$data_orig['forms']['user']['form_user_registration']->children['field_password']->attributes->required = 'required';
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_password']->attributes->minlength = 5;
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_password']->attributes->maxlength = 255;
   settings::$data_orig['forms']['user']['form_user_registration']->children['field_password']->weight = 0;
