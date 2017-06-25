@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-06-25 13:51:10';
+  settings::$data['_created'] = '2017-06-25 14:07:22';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -483,24 +483,24 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['main_admin_users']->access->roles['admins'] = 'admins';
   settings::$data['trees']['core']['main'] = new \effectivecore\tree();
   settings::$data['trees']['core']['main']->title = 'Main menu';
+  settings::$data['trees']['core']['main']->template = 'tree';
+  settings::$data['trees']['core']['main']->template_self = 'tree_self';
+  settings::$data['trees']['core']['main']->template_children = 'tree_children';
   settings::$data['trees']['core']['main']->attributes = new \stdClass();
   settings::$data['trees']['core']['main']->attributes->class = 'main';
   settings::$data['trees']['core']['main']->weight = 2;
   settings::$data['trees']['core']['main']->children = null;
-  settings::$data['trees']['core']['main']->template = null;
-  settings::$data['trees']['core']['main']->template_self = null;
   settings::$data['trees']['core']['main']->template_child = null;
-  settings::$data['trees']['core']['main']->template_children = null;
   settings::$data['trees']['user']['user'] = new \effectivecore\tree();
   settings::$data['trees']['user']['user']->title = 'User menu';
+  settings::$data['trees']['user']['user']->template = 'tree';
+  settings::$data['trees']['user']['user']->template_self = 'tree_self';
+  settings::$data['trees']['user']['user']->template_children = 'tree_children';
   settings::$data['trees']['user']['user']->attributes = new \stdClass();
   settings::$data['trees']['user']['user']->attributes->class = 'user';
   settings::$data['trees']['user']['user']->weight = 1;
   settings::$data['trees']['user']['user']->children = null;
-  settings::$data['trees']['user']['user']->template = null;
-  settings::$data['trees']['user']['user']->template_self = null;
   settings::$data['trees']['user']['user']->template_child = null;
-  settings::$data['trees']['user']['user']->template_children = null;
   settings::$data['colors']['page']['color_lavender'] = new \stdClass();
   settings::$data['colors']['page']['color_lavender']->value = 'lavender';
   settings::$data['colors']['page']['color_lavender']->is_dark = false;
