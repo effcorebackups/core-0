@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-06-25 16:15:16';
+  settings::$data['_created'] = '2017-06-25 16:26:09';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1607,6 +1607,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['State'] = 'Состояние';
   settings::$data['translate']['translate']->ru['Queries'] = 'Запросы';
   settings::$data['translate']['translate']->ru['Query'] = 'Запрос';
+  settings::$data['translate']['translate']->ru['Status'] = 'Статус';
   settings::$data['translate']['translate']->ru['System'] = 'Система';
   settings::$data['translate']['translate']->ru['Title'] = 'Заголовок';
   settings::$data['translate']['translate']->ru['Time'] = 'Время';
