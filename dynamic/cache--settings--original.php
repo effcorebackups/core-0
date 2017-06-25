@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-06-24 00:31:07';
+  settings::$data_orig['_created'] = '2017-06-25 12:27:06';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -596,6 +596,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['events']['user']->on_form_submit['user_registration']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_user_register';
   settings::$data_orig['events']['user']->on_form_submit['user_registration']->weight = 0;
   settings::$data_orig['forms']['page']['form_admin_decoration'] = new \effectivecore\form();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->template = 'form';
   settings::$data_orig['forms']['page']['form_admin_decoration']->on_init = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->on_validate = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->on_submit = null;
@@ -658,10 +659,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->template = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->template_self = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->template_children = null;
-  settings::$data_orig['forms']['page']['form_admin_decoration']->template = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->template_self = null;
   settings::$data_orig['forms']['page']['form_admin_decoration']->template_children = null;
   settings::$data_orig['forms']['page']['form_test'] = new \effectivecore\form();
+  settings::$data_orig['forms']['page']['form_test']->template = 'form';
   settings::$data_orig['forms']['page']['form_test']->on_init = null;
   settings::$data_orig['forms']['page']['form_test']->on_validate = null;
   settings::$data_orig['forms']['page']['form_test']->on_submit = null;
@@ -1075,10 +1076,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_test']->children['button_save']->template = null;
   settings::$data_orig['forms']['page']['form_test']->children['button_save']->template_self = null;
   settings::$data_orig['forms']['page']['form_test']->children['button_save']->template_children = null;
-  settings::$data_orig['forms']['page']['form_test']->template = null;
   settings::$data_orig['forms']['page']['form_test']->template_self = null;
   settings::$data_orig['forms']['page']['form_test']->template_children = null;
   settings::$data_orig['forms']['user']['form_user_login'] = new \effectivecore\form();
+  settings::$data_orig['forms']['user']['form_user_login']->template = 'form';
   settings::$data_orig['forms']['user']['form_user_login']->on_init = null;
   settings::$data_orig['forms']['user']['form_user_login']->on_validate = null;
   settings::$data_orig['forms']['user']['form_user_login']->on_submit = null;
@@ -1139,10 +1140,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_login']->children['button_login']->template = null;
   settings::$data_orig['forms']['user']['form_user_login']->children['button_login']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_login']->children['button_login']->template_children = null;
-  settings::$data_orig['forms']['user']['form_user_login']->template = null;
   settings::$data_orig['forms']['user']['form_user_login']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_login']->template_children = null;
   settings::$data_orig['forms']['user']['form_user_logout'] = new \effectivecore\form();
+  settings::$data_orig['forms']['user']['form_user_logout']->template = 'form';
   settings::$data_orig['forms']['user']['form_user_logout']->on_init = null;
   settings::$data_orig['forms']['user']['form_user_logout']->on_validate = null;
   settings::$data_orig['forms']['user']['form_user_logout']->on_submit = null;
@@ -1183,10 +1184,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_logout']->children['button_cancel']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_logout']->children['button_cancel']->template_children = null;
   settings::$data_orig['forms']['user']['form_user_logout']->children['button_cancel']->novalidate = true;
-  settings::$data_orig['forms']['user']['form_user_logout']->template = null;
   settings::$data_orig['forms']['user']['form_user_logout']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_logout']->template_children = null;
   settings::$data_orig['forms']['user']['form_user_n_delete'] = new \effectivecore\form();
+  settings::$data_orig['forms']['user']['form_user_n_delete']->template = 'form';
   settings::$data_orig['forms']['user']['form_user_n_delete']->on_init = null;
   settings::$data_orig['forms']['user']['form_user_n_delete']->on_validate = null;
   settings::$data_orig['forms']['user']['form_user_n_delete']->on_submit = null;
@@ -1227,10 +1228,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_n_delete']->children['button_cancel']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_n_delete']->children['button_cancel']->template_children = null;
   settings::$data_orig['forms']['user']['form_user_n_delete']->children['button_cancel']->novalidate = true;
-  settings::$data_orig['forms']['user']['form_user_n_delete']->template = null;
   settings::$data_orig['forms']['user']['form_user_n_delete']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_n_delete']->template_children = null;
   settings::$data_orig['forms']['user']['form_user_n_edit'] = new \effectivecore\form();
+  settings::$data_orig['forms']['user']['form_user_n_edit']->template = 'form';
   settings::$data_orig['forms']['user']['form_user_n_edit']->on_init = null;
   settings::$data_orig['forms']['user']['form_user_n_edit']->on_validate = null;
   settings::$data_orig['forms']['user']['form_user_n_edit']->on_submit = null;
@@ -1292,10 +1293,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['button_cancel']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['button_cancel']->template_children = null;
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['button_cancel']->novalidate = true;
-  settings::$data_orig['forms']['user']['form_user_n_edit']->template = null;
   settings::$data_orig['forms']['user']['form_user_n_edit']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_n_edit']->template_children = null;
   settings::$data_orig['forms']['user']['form_user_registration'] = new \effectivecore\form();
+  settings::$data_orig['forms']['user']['form_user_registration']->template = 'form';
   settings::$data_orig['forms']['user']['form_user_registration']->on_init = null;
   settings::$data_orig['forms']['user']['form_user_registration']->on_validate = null;
   settings::$data_orig['forms']['user']['form_user_registration']->on_submit = null;
@@ -1356,7 +1357,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_registration']->children['button_register']->template = null;
   settings::$data_orig['forms']['user']['form_user_registration']->children['button_register']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_registration']->children['button_register']->template_children = null;
-  settings::$data_orig['forms']['user']['form_user_registration']->template = null;
   settings::$data_orig['forms']['user']['form_user_registration']->template_self = null;
   settings::$data_orig['forms']['user']['form_user_registration']->template_children = null;
   settings::$data_orig['misc']['page']['misc_page_n'] = new \stdClass();
@@ -1392,6 +1392,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['templates']['page']['table_body'] = 'templates/template--table_body.html';
   settings::$data_orig['templates']['page']['table_body_row'] = 'templates/template--table_body_row.html';
   settings::$data_orig['templates']['page']['table_body_row_cell'] = 'templates/template--table_body_row_cell.html';
+  settings::$data_orig['templates']['page']['form'] = 'templates/template--form.html';
   settings::$data_orig['templates']['tree']['tree'] = 'templates/template--tree.html';
   settings::$data_orig['templates']['tree']['tree_self'] = 'templates/template--tree_self.html';
   settings::$data_orig['templates']['tree']['tree_children'] = 'templates/template--tree_children.html';
