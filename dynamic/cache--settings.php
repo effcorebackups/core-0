@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-06-25 19:09:42';
+  settings::$data['_created'] = '2017-06-25 19:27:01';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -472,8 +472,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['trees']['core']['main'] = new \effectivecore\tree();
   settings::$data['trees']['core']['main']->title = 'Main menu';
   settings::$data['trees']['core']['main']->template = 'tree';
-  settings::$data['trees']['core']['main']->template_self = 'tree_self';
-  settings::$data['trees']['core']['main']->template_children = 'tree_children';
   settings::$data['trees']['core']['main']->attributes = new \stdClass();
   settings::$data['trees']['core']['main']->attributes->class = 'main';
   settings::$data['trees']['core']['main']->weight = 2;
@@ -481,8 +479,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['trees']['user']['user'] = new \effectivecore\tree();
   settings::$data['trees']['user']['user']->title = 'User menu';
   settings::$data['trees']['user']['user']->template = 'tree';
-  settings::$data['trees']['user']['user']->template_self = 'tree_self';
-  settings::$data['trees']['user']['user']->template_children = 'tree_children';
   settings::$data['trees']['user']['user']->attributes = new \stdClass();
   settings::$data['trees']['user']['user']->attributes->class = 'user';
   settings::$data['trees']['user']['user']->weight = 1;
@@ -1231,8 +1227,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['templates']['page']['form'] = 'templates/template--form.html';
   settings::$data['templates']['page']['form_field'] = 'templates/template--form_field.html';
   settings::$data['templates']['tree']['tree'] = 'templates/template--tree.html';
-  settings::$data['templates']['tree']['tree_self'] = 'templates/template--tree_self.html';
-  settings::$data['templates']['tree']['tree_children'] = 'templates/template--tree_children.html';
   settings::$data['templates']['tree']['tree_item'] = 'templates/template--tree_item.html';
   settings::$data['templates']['tree']['tree_item_self'] = 'templates/template--tree_item_self.html';
   settings::$data['templates']['tree']['tree_item_children'] = 'templates/template--tree_item_children.html';
