@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-06-25 12:27:06';
+  settings::$data['_created'] = '2017-06-25 13:51:10';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -330,6 +330,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_home']->children = null;
   settings::$data['tree_items']['core']['main_home']->template = null;
   settings::$data['tree_items']['core']['main_home']->template_self = null;
+  settings::$data['tree_items']['core']['main_home']->template_child = null;
   settings::$data['tree_items']['core']['main_home']->template_children = null;
   settings::$data['tree_items']['core']['main_home']->parent = 'trees/core/main';
   settings::$data['tree_items']['core']['main_admin'] = new \effectivecore\tree_item();
@@ -340,6 +341,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_admin']->children = null;
   settings::$data['tree_items']['core']['main_admin']->template = null;
   settings::$data['tree_items']['core']['main_admin']->template_self = null;
+  settings::$data['tree_items']['core']['main_admin']->template_child = null;
   settings::$data['tree_items']['core']['main_admin']->template_children = null;
   settings::$data['tree_items']['core']['main_admin']->parent = 'trees/core/main';
   settings::$data['tree_items']['core']['main_admin']->access = new \stdClass();
@@ -353,6 +355,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_admin_modules']->children = null;
   settings::$data['tree_items']['core']['main_admin_modules']->template = null;
   settings::$data['tree_items']['core']['main_admin_modules']->template_self = null;
+  settings::$data['tree_items']['core']['main_admin_modules']->template_child = null;
   settings::$data['tree_items']['core']['main_admin_modules']->template_children = null;
   settings::$data['tree_items']['core']['main_admin_modules']->parent = 'tree_items/core/main_admin';
   settings::$data['tree_items']['core']['main_admin_modules']->access = new \stdClass();
@@ -366,6 +369,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['page']['main_admin_decoration']->children = null;
   settings::$data['tree_items']['page']['main_admin_decoration']->template = null;
   settings::$data['tree_items']['page']['main_admin_decoration']->template_self = null;
+  settings::$data['tree_items']['page']['main_admin_decoration']->template_child = null;
   settings::$data['tree_items']['page']['main_admin_decoration']->template_children = null;
   settings::$data['tree_items']['page']['main_admin_decoration']->parent = 'tree_items/core/main_admin';
   settings::$data['tree_items']['page']['main_admin_decoration']->access = new \stdClass();
@@ -378,6 +382,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_anonymous']->children = null;
   settings::$data['tree_items']['user']['user_anonymous']->template = null;
   settings::$data['tree_items']['user']['user_anonymous']->template_self = null;
+  settings::$data['tree_items']['user']['user_anonymous']->template_child = null;
   settings::$data['tree_items']['user']['user_anonymous']->template_children = null;
   settings::$data['tree_items']['user']['user_anonymous']->parent = 'trees/user/user';
   settings::$data['tree_items']['user']['user_anonymous']->access = new \stdClass();
@@ -390,6 +395,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_login']->children = null;
   settings::$data['tree_items']['user']['user_login']->template = null;
   settings::$data['tree_items']['user']['user_login']->template_self = null;
+  settings::$data['tree_items']['user']['user_login']->template_child = null;
   settings::$data['tree_items']['user']['user_login']->template_children = null;
   settings::$data['tree_items']['user']['user_login']->parent = 'tree_items/user/user_anonymous';
   settings::$data['tree_items']['user']['user_login']->access = new \stdClass();
@@ -402,6 +408,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_registration']->children = null;
   settings::$data['tree_items']['user']['user_registration']->template = null;
   settings::$data['tree_items']['user']['user_registration']->template_self = null;
+  settings::$data['tree_items']['user']['user_registration']->template_child = null;
   settings::$data['tree_items']['user']['user_registration']->template_children = null;
   settings::$data['tree_items']['user']['user_registration']->parent = 'tree_items/user/user_anonymous';
   settings::$data['tree_items']['user']['user_registration']->access = new \stdClass();
@@ -415,6 +422,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_n']->children = null;
   settings::$data['tree_items']['user']['user_n']->template = null;
   settings::$data['tree_items']['user']['user_n']->template_self = null;
+  settings::$data['tree_items']['user']['user_n']->template_child = null;
   settings::$data['tree_items']['user']['user_n']->template_children = null;
   settings::$data['tree_items']['user']['user_n']->parent = 'trees/user/user';
   settings::$data['tree_items']['user']['user_n']->access = new \stdClass();
@@ -428,6 +436,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_n_edit']->children = null;
   settings::$data['tree_items']['user']['user_n_edit']->template = null;
   settings::$data['tree_items']['user']['user_n_edit']->template_self = null;
+  settings::$data['tree_items']['user']['user_n_edit']->template_child = null;
   settings::$data['tree_items']['user']['user_n_edit']->template_children = null;
   settings::$data['tree_items']['user']['user_n_edit']->parent = 'tree_items/user/user_n';
   settings::$data['tree_items']['user']['user_n_edit']->access = new \stdClass();
@@ -441,6 +450,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_logout']->children = null;
   settings::$data['tree_items']['user']['user_logout']->template = null;
   settings::$data['tree_items']['user']['user_logout']->template_self = null;
+  settings::$data['tree_items']['user']['user_logout']->template_child = null;
   settings::$data['tree_items']['user']['user_logout']->template_children = null;
   settings::$data['tree_items']['user']['user_logout']->parent = 'tree_items/user/user_n';
   settings::$data['tree_items']['user']['user_logout']->access = new \stdClass();
@@ -453,6 +463,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['main_admin_roles']->children = null;
   settings::$data['tree_items']['user']['main_admin_roles']->template = null;
   settings::$data['tree_items']['user']['main_admin_roles']->template_self = null;
+  settings::$data['tree_items']['user']['main_admin_roles']->template_child = null;
   settings::$data['tree_items']['user']['main_admin_roles']->template_children = null;
   settings::$data['tree_items']['user']['main_admin_roles']->parent = 'tree_items/core/main_admin';
   settings::$data['tree_items']['user']['main_admin_roles']->access = new \stdClass();
@@ -465,6 +476,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['main_admin_users']->children = null;
   settings::$data['tree_items']['user']['main_admin_users']->template = null;
   settings::$data['tree_items']['user']['main_admin_users']->template_self = null;
+  settings::$data['tree_items']['user']['main_admin_users']->template_child = null;
   settings::$data['tree_items']['user']['main_admin_users']->template_children = null;
   settings::$data['tree_items']['user']['main_admin_users']->parent = 'tree_items/core/main_admin';
   settings::$data['tree_items']['user']['main_admin_users']->access = new \stdClass();
@@ -477,6 +489,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['trees']['core']['main']->children = null;
   settings::$data['trees']['core']['main']->template = null;
   settings::$data['trees']['core']['main']->template_self = null;
+  settings::$data['trees']['core']['main']->template_child = null;
   settings::$data['trees']['core']['main']->template_children = null;
   settings::$data['trees']['user']['user'] = new \effectivecore\tree();
   settings::$data['trees']['user']['user']->title = 'User menu';
@@ -486,6 +499,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['trees']['user']['user']->children = null;
   settings::$data['trees']['user']['user']->template = null;
   settings::$data['trees']['user']['user']->template_self = null;
+  settings::$data['trees']['user']['user']->template_child = null;
   settings::$data['trees']['user']['user']->template_children = null;
   settings::$data['colors']['page']['color_lavender'] = new \stdClass();
   settings::$data['colors']['page']['color_lavender']->value = 'lavender';
@@ -597,6 +611,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['events']['user']->on_form_submit['user_registration']->weight = 0;
   settings::$data['forms']['page']['form_admin_decoration'] = new \effectivecore\form();
   settings::$data['forms']['page']['form_admin_decoration']->template = 'form';
+  settings::$data['forms']['page']['form_admin_decoration']->template_child = 'form_field';
   settings::$data['forms']['page']['form_admin_decoration']->on_init = null;
   settings::$data['forms']['page']['form_admin_decoration']->on_validate = null;
   settings::$data['forms']['page']['form_admin_decoration']->on_submit = null;
@@ -623,6 +638,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['fieldset_main_legend']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['fieldset_main_legend']->template = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['fieldset_main_legend']->template_self = null;
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['fieldset_main_legend']->template_child = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['fieldset_main_legend']->template_children = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color_label'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color_label']->tag_name = 'label';
@@ -633,6 +649,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color_label']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color_label']->template = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color_label']->template_self = null;
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color_label']->template_child = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color_label']->template_children = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color']->tag_name = 'div';
@@ -642,9 +659,11 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color']->children = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color']->template = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color']->template_self = null;
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color']->template_child = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->children['field_bg_color']->template_children = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->template = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->template_self = null;
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->template_child = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->template_children = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save']->tag_name = 'button';
@@ -658,11 +677,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save']->children['label']->weight = 0;
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save']->template = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save']->template_self = null;
+  settings::$data['forms']['page']['form_admin_decoration']->children['button_save']->template_child = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save']->template_children = null;
   settings::$data['forms']['page']['form_admin_decoration']->template_self = null;
   settings::$data['forms']['page']['form_admin_decoration']->template_children = null;
   settings::$data['forms']['page']['form_test'] = new \effectivecore\form();
   settings::$data['forms']['page']['form_test']->template = 'form';
+  settings::$data['forms']['page']['form_test']->template_child = 'form_field';
   settings::$data['forms']['page']['form_test']->on_init = null;
   settings::$data['forms']['page']['form_test']->on_validate = null;
   settings::$data['forms']['page']['form_test']->on_submit = null;
@@ -689,6 +710,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['fieldset_main_legend']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['fieldset_main_legend']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['fieldset_main_legend']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['fieldset_main_legend']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['fieldset_main_legend']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->tag_name = 'input';
@@ -705,6 +727,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_text']->title = 'Element &lt;input type="text"&gt;';
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password'] = new \effectivecore\markup();
@@ -722,6 +745,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_password']->title = 'Element &lt;input type="password"&gt;';
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_file'] = new \effectivecore\markup();
@@ -733,6 +757,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_file']->children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_file']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_file']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_file']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_file']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_file']->title = 'Element &lt;input type="file"&gt;';
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select'] = new \effectivecore\markup();
@@ -750,6 +775,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_1']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->tag_name = 'option';
@@ -761,6 +787,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_2']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->tag_name = 'option';
@@ -772,9 +799,11 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->children['option_3']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_select']->title = 'Element &lt;select&gt;';
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_checkbox_label'] = new \effectivecore\markup();
@@ -786,6 +815,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_checkbox_label']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_checkbox_label']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_checkbox_label']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_checkbox_label']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_checkbox_label']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_1'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_1']->tag_name = 'input';
@@ -796,6 +826,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_1']->children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_1']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_1']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_1']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_1']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_1']->title = 'Checkbox 1';
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_2'] = new \effectivecore\markup();
@@ -807,6 +838,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_2']->children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_2']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_2']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_2']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_2']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_2']->title = 'Checkbox 2';
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_3'] = new \effectivecore\markup();
@@ -818,6 +850,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_3']->children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_3']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_3']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_3']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_3']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_checkbox_3']->title = 'Checkbox 3';
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_radio_label'] = new \effectivecore\markup();
@@ -829,6 +862,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_radio_label']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_radio_label']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_radio_label']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_radio_label']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_radio_label']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_1'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_1']->tag_name = 'input';
@@ -839,6 +873,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_1']->children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_1']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_1']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_1']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_1']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_1']->title = 'Radio 1';
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_2'] = new \effectivecore\markup();
@@ -850,6 +885,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_2']->children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_2']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_2']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_2']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_2']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_2']->title = 'Radio 2';
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_3'] = new \effectivecore\markup();
@@ -861,6 +897,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_3']->children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_3']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_3']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_3']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_3']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_input_radio_3']->title = 'Radio 3';
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_textarea'] = new \effectivecore\markup();
@@ -873,6 +910,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_textarea']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_textarea']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_textarea']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_textarea']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_textarea']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_textarea']->title = 'Element &lt;textarea&gt;&lt;/textarea&gt;';
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table'] = new \effectivecore\markup();
@@ -896,6 +934,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_1']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_1']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_1']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_1']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_1']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_2'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_2']->tag_name = 'th';
@@ -906,6 +945,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_2']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_2']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_2']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_2']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_2']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_3'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_3']->tag_name = 'th';
@@ -916,12 +956,15 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_3']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_3']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_3']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_3']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->children['thead_tr_th_3']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->children['thead_tr']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['thead']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->tag_name = 'tbody';
@@ -940,6 +983,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_1']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_1']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_1']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_1']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_1']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_2'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_2']->tag_name = 'td';
@@ -950,6 +994,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_2']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_2']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_2']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_2']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_2']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_3'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_3']->tag_name = 'td';
@@ -960,9 +1005,11 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_3']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_3']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_3']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_3']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->children['tbody_tr_1_td_3']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_1']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->tag_name = 'tr';
@@ -977,6 +1024,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_1']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_1']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_1']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_1']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_1']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_2'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_2']->tag_name = 'td';
@@ -987,6 +1035,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_2']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_2']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_2']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_2']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_2']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_3'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_3']->tag_name = 'td';
@@ -997,9 +1046,11 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_3']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_3']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_3']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_3']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->children['tbody_tr_2_td_3']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_2']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->tag_name = 'tr';
@@ -1014,6 +1065,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_1']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_1']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_1']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_1']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_1']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_2'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_2']->tag_name = 'td';
@@ -1024,6 +1076,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_2']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_2']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_2']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_2']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_2']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_3'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_3']->tag_name = 'td';
@@ -1034,9 +1087,11 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_3']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_3']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_3']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_3']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->children['tbody_tr_3_td_3']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_3']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_4'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_4']->tag_name = 'tr';
@@ -1050,18 +1105,23 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_4']->children['tbody_tr_4_td_1']->children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_4']->children['tbody_tr_4_td_1']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_4']->children['tbody_tr_4_td_1']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_4']->children['tbody_tr_4_td_1']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_4']->children['tbody_tr_4_td_1']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_4']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_4']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_4']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->children['tbody_tr_4']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->children['tbody']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->children['field_table']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->template = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['fieldset_main']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->template_children = null;
   settings::$data['forms']['page']['form_test']->children['button_save'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['button_save']->tag_name = 'button';
@@ -1075,11 +1135,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->children['button_save']->children['label']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['button_save']->template = null;
   settings::$data['forms']['page']['form_test']->children['button_save']->template_self = null;
+  settings::$data['forms']['page']['form_test']->children['button_save']->template_child = null;
   settings::$data['forms']['page']['form_test']->children['button_save']->template_children = null;
   settings::$data['forms']['page']['form_test']->template_self = null;
   settings::$data['forms']['page']['form_test']->template_children = null;
   settings::$data['forms']['user']['form_user_login'] = new \effectivecore\form();
   settings::$data['forms']['user']['form_user_login']->template = 'form';
+  settings::$data['forms']['user']['form_user_login']->template_child = 'form_field';
   settings::$data['forms']['user']['form_user_login']->on_init = null;
   settings::$data['forms']['user']['form_user_login']->on_validate = null;
   settings::$data['forms']['user']['form_user_login']->on_submit = null;
@@ -1108,6 +1170,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_email']->children = null;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_email']->template = null;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_email']->template_self = null;
+  settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_email']->template_child = null;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_email']->template_children = null;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_email']->title = 'Email';
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_password'] = new \effectivecore\markup();
@@ -1122,10 +1185,12 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_password']->children = null;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_password']->template = null;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_password']->template_self = null;
+  settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_password']->template_child = null;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_password']->template_children = null;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->children['field_password']->title = 'Password';
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->template = null;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->template_self = null;
+  settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->template_child = null;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->template_children = null;
   settings::$data['forms']['user']['form_user_login']->children['button_login'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_login']->children['button_login']->tag_name = 'button';
@@ -1139,11 +1204,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_login']->children['button_login']->children['label']->weight = 0;
   settings::$data['forms']['user']['form_user_login']->children['button_login']->template = null;
   settings::$data['forms']['user']['form_user_login']->children['button_login']->template_self = null;
+  settings::$data['forms']['user']['form_user_login']->children['button_login']->template_child = null;
   settings::$data['forms']['user']['form_user_login']->children['button_login']->template_children = null;
   settings::$data['forms']['user']['form_user_login']->template_self = null;
   settings::$data['forms']['user']['form_user_login']->template_children = null;
   settings::$data['forms']['user']['form_user_logout'] = new \effectivecore\form();
   settings::$data['forms']['user']['form_user_logout']->template = 'form';
+  settings::$data['forms']['user']['form_user_logout']->template_child = 'form_field';
   settings::$data['forms']['user']['form_user_logout']->on_init = null;
   settings::$data['forms']['user']['form_user_logout']->on_validate = null;
   settings::$data['forms']['user']['form_user_logout']->on_submit = null;
@@ -1169,6 +1236,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_logout']->children['button_logout']->children['label']->weight = 0;
   settings::$data['forms']['user']['form_user_logout']->children['button_logout']->template = null;
   settings::$data['forms']['user']['form_user_logout']->children['button_logout']->template_self = null;
+  settings::$data['forms']['user']['form_user_logout']->children['button_logout']->template_child = null;
   settings::$data['forms']['user']['form_user_logout']->children['button_logout']->template_children = null;
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->tag_name = 'button';
@@ -1182,12 +1250,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->children['label']->weight = 0;
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->template = null;
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->template_self = null;
+  settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->template_child = null;
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->template_children = null;
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->novalidate = true;
   settings::$data['forms']['user']['form_user_logout']->template_self = null;
   settings::$data['forms']['user']['form_user_logout']->template_children = null;
   settings::$data['forms']['user']['form_user_n_delete'] = new \effectivecore\form();
   settings::$data['forms']['user']['form_user_n_delete']->template = 'form';
+  settings::$data['forms']['user']['form_user_n_delete']->template_child = 'form_field';
   settings::$data['forms']['user']['form_user_n_delete']->on_init = null;
   settings::$data['forms']['user']['form_user_n_delete']->on_validate = null;
   settings::$data['forms']['user']['form_user_n_delete']->on_submit = null;
@@ -1213,6 +1283,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->children['label']->weight = 0;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->template = null;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->template_self = null;
+  settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->template_child = null;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->template_children = null;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->tag_name = 'button';
@@ -1226,12 +1297,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->children['label']->weight = 0;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->template = null;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->template_self = null;
+  settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->template_child = null;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->template_children = null;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->novalidate = true;
   settings::$data['forms']['user']['form_user_n_delete']->template_self = null;
   settings::$data['forms']['user']['form_user_n_delete']->template_children = null;
   settings::$data['forms']['user']['form_user_n_edit'] = new \effectivecore\form();
   settings::$data['forms']['user']['form_user_n_edit']->template = 'form';
+  settings::$data['forms']['user']['form_user_n_edit']->template_child = 'form_field';
   settings::$data['forms']['user']['form_user_n_edit']->on_init = null;
   settings::$data['forms']['user']['form_user_n_edit']->on_validate = null;
   settings::$data['forms']['user']['form_user_n_edit']->on_submit = null;
@@ -1261,10 +1334,12 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main']->children['field_password']->children = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main']->children['field_password']->template = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main']->children['field_password']->template_self = null;
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main']->children['field_password']->template_child = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main']->children['field_password']->template_children = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main']->children['field_password']->title = 'Password';
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main']->template = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main']->template_self = null;
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main']->template_child = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main']->template_children = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->tag_name = 'button';
@@ -1278,6 +1353,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->children['label']->weight = 0;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->template = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->template_self = null;
+  settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->template_child = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->template_children = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->tag_name = 'button';
@@ -1291,12 +1367,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->children['label']->weight = 0;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->template = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->template_self = null;
+  settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->template_child = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->template_children = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->novalidate = true;
   settings::$data['forms']['user']['form_user_n_edit']->template_self = null;
   settings::$data['forms']['user']['form_user_n_edit']->template_children = null;
   settings::$data['forms']['user']['form_user_registration'] = new \effectivecore\form();
   settings::$data['forms']['user']['form_user_registration']->template = 'form';
+  settings::$data['forms']['user']['form_user_registration']->template_child = 'form_field';
   settings::$data['forms']['user']['form_user_registration']->on_init = null;
   settings::$data['forms']['user']['form_user_registration']->on_validate = null;
   settings::$data['forms']['user']['form_user_registration']->on_submit = null;
@@ -1325,6 +1403,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_email']->children = null;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_email']->template = null;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_email']->template_self = null;
+  settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_email']->template_child = null;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_email']->template_children = null;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_email']->title = 'Email';
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_password'] = new \effectivecore\markup();
@@ -1339,10 +1418,12 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_password']->children = null;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_password']->template = null;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_password']->template_self = null;
+  settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_password']->template_child = null;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_password']->template_children = null;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->children['field_password']->title = 'Password';
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->template = null;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->template_self = null;
+  settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->template_child = null;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->template_children = null;
   settings::$data['forms']['user']['form_user_registration']->children['button_register'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_registration']->children['button_register']->tag_name = 'button';
@@ -1356,6 +1437,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->children['button_register']->children['label']->weight = 0;
   settings::$data['forms']['user']['form_user_registration']->children['button_register']->template = null;
   settings::$data['forms']['user']['form_user_registration']->children['button_register']->template_self = null;
+  settings::$data['forms']['user']['form_user_registration']->children['button_register']->template_child = null;
   settings::$data['forms']['user']['form_user_registration']->children['button_register']->template_children = null;
   settings::$data['forms']['user']['form_user_registration']->template_self = null;
   settings::$data['forms']['user']['form_user_registration']->template_children = null;
@@ -1393,6 +1475,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['templates']['page']['table_body_row'] = 'templates/template--table_body_row.html';
   settings::$data['templates']['page']['table_body_row_cell'] = 'templates/template--table_body_row_cell.html';
   settings::$data['templates']['page']['form'] = 'templates/template--form.html';
+  settings::$data['templates']['page']['form_field'] = 'templates/template--form_field.html';
   settings::$data['templates']['tree']['tree'] = 'templates/template--tree.html';
   settings::$data['templates']['tree']['tree_self'] = 'templates/template--tree_self.html';
   settings::$data['templates']['tree']['tree_children'] = 'templates/template--tree_children.html';
