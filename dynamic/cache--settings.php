@@ -509,7 +509,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['colors']['page']['color_original_darkblue']->is_dark = true;
   settings::$data['decoration']['page'] = new \stdClass();
   settings::$data['decoration']['page']->link_color = 'color_original_darkblue';
-  settings::$data['decoration']['page']->background_color = 'color_limegreen';
+  settings::$data['decoration']['page']->background_color = 'color_paleturquoise';
   settings::$data['events']['page'] = new \stdClass();
   settings::$data['events']['page']->on_module_start['page'] = new \stdClass();
   settings::$data['events']['page']->on_module_start['page']->handler = '\\effectivecore\\modules\\page\\events_module::on_start';
