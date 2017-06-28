@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-06-27 13:54:11';
+  settings::$data['_created'] = '2017-06-28 11:00:28';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -326,7 +326,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_home']->template = 'tree_item';
   settings::$data['tree_items']['core']['main_home']->attributes = new \stdClass();
   settings::$data['tree_items']['core']['main_home']->attributes->href = '/';
-  settings::$data['tree_items']['core']['main_home']->attributes->class = 'logo';
+  settings::$data['tree_items']['core']['main_home']->attributes->class['logo'] = 'logo';
   settings::$data['tree_items']['core']['main_home']->weight = 0;
   settings::$data['tree_items']['core']['main_home']->children = null;
   settings::$data['tree_items']['core']['main_home']->parent = 'trees/core/main';
@@ -334,7 +334,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_admin']->title = 'Administer';
   settings::$data['tree_items']['core']['main_admin']->template = 'tree_item';
   settings::$data['tree_items']['core']['main_admin']->attributes = new \stdClass();
-  settings::$data['tree_items']['core']['main_admin']->attributes->class = 'admin';
+  settings::$data['tree_items']['core']['main_admin']->attributes->class['admin'] = 'admin';
   settings::$data['tree_items']['core']['main_admin']->weight = 0;
   settings::$data['tree_items']['core']['main_admin']->children = null;
   settings::$data['tree_items']['core']['main_admin']->parent = 'trees/core/main';
@@ -344,7 +344,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_admin_modules']->title = 'Modules';
   settings::$data['tree_items']['core']['main_admin_modules']->template = 'tree_item';
   settings::$data['tree_items']['core']['main_admin_modules']->attributes = new \stdClass();
-  settings::$data['tree_items']['core']['main_admin_modules']->attributes->class = 'modules';
+  settings::$data['tree_items']['core']['main_admin_modules']->attributes->class['modules'] = 'modules';
   settings::$data['tree_items']['core']['main_admin_modules']->attributes->href = '/admin/modules';
   settings::$data['tree_items']['core']['main_admin_modules']->weight = 0;
   settings::$data['tree_items']['core']['main_admin_modules']->children = null;
@@ -355,7 +355,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['page']['main_admin_decoration']->title = 'Decoration';
   settings::$data['tree_items']['page']['main_admin_decoration']->template = 'tree_item';
   settings::$data['tree_items']['page']['main_admin_decoration']->attributes = new \stdClass();
-  settings::$data['tree_items']['page']['main_admin_decoration']->attributes->class = 'modules';
+  settings::$data['tree_items']['page']['main_admin_decoration']->attributes->class['modules'] = 'modules';
   settings::$data['tree_items']['page']['main_admin_decoration']->attributes->href = '/admin/decoration';
   settings::$data['tree_items']['page']['main_admin_decoration']->weight = 0;
   settings::$data['tree_items']['page']['main_admin_decoration']->children = null;
@@ -366,7 +366,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_anonymous']->title = 'User';
   settings::$data['tree_items']['user']['user_anonymous']->template = 'tree_item';
   settings::$data['tree_items']['user']['user_anonymous']->attributes = new \stdClass();
-  settings::$data['tree_items']['user']['user_anonymous']->attributes->class = 'user';
+  settings::$data['tree_items']['user']['user_anonymous']->attributes->class['user'] = 'user';
   settings::$data['tree_items']['user']['user_anonymous']->weight = 0;
   settings::$data['tree_items']['user']['user_anonymous']->children = null;
   settings::$data['tree_items']['user']['user_anonymous']->parent = 'trees/user/user';
@@ -397,7 +397,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_n']->template = 'tree_item';
   settings::$data['tree_items']['user']['user_n']->attributes = new \stdClass();
   settings::$data['tree_items']['user']['user_n']->attributes->href = '/user/%%_user_id';
-  settings::$data['tree_items']['user']['user_n']->attributes->class = 'user';
+  settings::$data['tree_items']['user']['user_n']->attributes->class['user'] = 'user';
   settings::$data['tree_items']['user']['user_n']->weight = 0;
   settings::$data['tree_items']['user']['user_n']->children = null;
   settings::$data['tree_items']['user']['user_n']->parent = 'trees/user/user';
@@ -449,14 +449,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['trees']['core']['main']->title = 'Main menu';
   settings::$data['trees']['core']['main']->template = 'tree';
   settings::$data['trees']['core']['main']->attributes = new \stdClass();
-  settings::$data['trees']['core']['main']->attributes->class = 'main';
+  settings::$data['trees']['core']['main']->attributes->class['main'] = 'main';
   settings::$data['trees']['core']['main']->weight = 2;
   settings::$data['trees']['core']['main']->children = null;
   settings::$data['trees']['user']['user'] = new \effectivecore\tree();
   settings::$data['trees']['user']['user']->title = 'User menu';
   settings::$data['trees']['user']['user']->template = 'tree';
   settings::$data['trees']['user']['user']->attributes = new \stdClass();
-  settings::$data['trees']['user']['user']->attributes->class = 'user';
+  settings::$data['trees']['user']['user']->attributes->class['user'] = 'user';
   settings::$data['trees']['user']['user']->weight = 1;
   settings::$data['trees']['user']['user']->children = null;
   settings::$data['colors']['page']['color_lavender'] = new \stdClass();
@@ -579,7 +579,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->attributes->id = 'admin_decoration';
   settings::$data['forms']['page']['form_admin_decoration']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['page']['form_admin_decoration']->attributes->method = 'post';
-  settings::$data['forms']['page']['form_admin_decoration']->attributes->class = 'form-admin_decoration';
+  settings::$data['forms']['page']['form_admin_decoration']->attributes->class['form-admin_decoration'] = 'form-admin_decoration';
   settings::$data['forms']['page']['form_admin_decoration']->weight = 0;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_main']->tag_name = 'fieldset';
@@ -626,7 +626,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_test']->attributes->id = 'form_test';
   settings::$data['forms']['page']['form_test']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['page']['form_test']->attributes->method = 'post';
-  settings::$data['forms']['page']['form_test']->attributes->class = 'form-test';
+  settings::$data['forms']['page']['form_test']->attributes->class['form-test'] = 'form-test';
   settings::$data['forms']['page']['form_test']->weight = 0;
   settings::$data['forms']['page']['form_test']->children['fieldset_main'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_test']->children['fieldset_main']->tag_name = 'fieldset';
@@ -990,7 +990,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_login']->attributes->id = 'user_login';
   settings::$data['forms']['user']['form_user_login']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['user']['form_user_login']->attributes->method = 'post';
-  settings::$data['forms']['user']['form_user_login']->attributes->class = 'form-user';
+  settings::$data['forms']['user']['form_user_login']->attributes->class['form-user'] = 'form-user';
   settings::$data['forms']['user']['form_user_login']->weight = 0;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_login']->children['fieldset_main']->tag_name = 'fieldset';
@@ -1049,7 +1049,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_logout']->attributes->id = 'user_logout';
   settings::$data['forms']['user']['form_user_logout']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['user']['form_user_logout']->attributes->method = 'post';
-  settings::$data['forms']['user']['form_user_logout']->attributes->class = 'form-user';
+  settings::$data['forms']['user']['form_user_logout']->attributes->class['form-user'] = 'form-user';
   settings::$data['forms']['user']['form_user_logout']->weight = 0;
   settings::$data['forms']['user']['form_user_logout']->children['button_logout'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_logout']->children['button_logout']->tag_name = 'button';
@@ -1086,7 +1086,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_delete']->attributes->id = 'user_n_delete';
   settings::$data['forms']['user']['form_user_n_delete']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['user']['form_user_n_delete']->attributes->method = 'post';
-  settings::$data['forms']['user']['form_user_n_delete']->attributes->class = 'form-user';
+  settings::$data['forms']['user']['form_user_n_delete']->attributes->class['form-user'] = 'form-user';
   settings::$data['forms']['user']['form_user_n_delete']->weight = 0;
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_n_delete']->children['button_delete']->tag_name = 'button';
@@ -1123,7 +1123,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->attributes->id = 'user_n_edit';
   settings::$data['forms']['user']['form_user_n_edit']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['user']['form_user_n_edit']->attributes->method = 'post';
-  settings::$data['forms']['user']['form_user_n_edit']->attributes->class = 'form-user';
+  settings::$data['forms']['user']['form_user_n_edit']->attributes->class['form-user'] = 'form-user';
   settings::$data['forms']['user']['form_user_n_edit']->weight = 0;
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_main']->tag_name = 'fieldset';
@@ -1180,7 +1180,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->attributes->id = 'user_registration';
   settings::$data['forms']['user']['form_user_registration']->attributes->novalidate = 'novalidate';
   settings::$data['forms']['user']['form_user_registration']->attributes->method = 'post';
-  settings::$data['forms']['user']['form_user_registration']->attributes->class = 'form-user';
+  settings::$data['forms']['user']['form_user_registration']->attributes->class['form-user'] = 'form-user';
   settings::$data['forms']['user']['form_user_registration']->weight = 0;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_main']->tag_name = 'fieldset';
