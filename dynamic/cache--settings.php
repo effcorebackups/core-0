@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-06-28 19:08:20';
+  settings::$data['_created'] = '2017-06-28 19:49:07';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -324,6 +324,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_home'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['core']['main_home']->title = 'Home';
   settings::$data['tree_items']['core']['main_home']->template = 'tree_item';
+  settings::$data['tree_items']['core']['main_home']->template_children = 'tree_item_children';
   settings::$data['tree_items']['core']['main_home']->attributes = new \stdClass();
   settings::$data['tree_items']['core']['main_home']->attributes->href = '/';
   settings::$data['tree_items']['core']['main_home']->attributes->class['logo'] = 'logo';
@@ -333,6 +334,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_admin'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['core']['main_admin']->title = 'Administer';
   settings::$data['tree_items']['core']['main_admin']->template = 'tree_item';
+  settings::$data['tree_items']['core']['main_admin']->template_children = 'tree_item_children';
   settings::$data['tree_items']['core']['main_admin']->attributes = new \stdClass();
   settings::$data['tree_items']['core']['main_admin']->attributes->class['admin'] = 'admin';
   settings::$data['tree_items']['core']['main_admin']->weight = 0;
@@ -343,6 +345,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_admin_modules'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['core']['main_admin_modules']->title = 'Modules';
   settings::$data['tree_items']['core']['main_admin_modules']->template = 'tree_item';
+  settings::$data['tree_items']['core']['main_admin_modules']->template_children = 'tree_item_children';
   settings::$data['tree_items']['core']['main_admin_modules']->attributes = new \stdClass();
   settings::$data['tree_items']['core']['main_admin_modules']->attributes->class['modules'] = 'modules';
   settings::$data['tree_items']['core']['main_admin_modules']->attributes->href = '/admin/modules';
@@ -354,6 +357,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['page']['main_admin_decoration'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['page']['main_admin_decoration']->title = 'Decoration';
   settings::$data['tree_items']['page']['main_admin_decoration']->template = 'tree_item';
+  settings::$data['tree_items']['page']['main_admin_decoration']->template_children = 'tree_item_children';
   settings::$data['tree_items']['page']['main_admin_decoration']->attributes = new \stdClass();
   settings::$data['tree_items']['page']['main_admin_decoration']->attributes->class['modules'] = 'modules';
   settings::$data['tree_items']['page']['main_admin_decoration']->attributes->href = '/admin/decoration';
@@ -365,6 +369,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_anonymous'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['user']['user_anonymous']->title = 'User';
   settings::$data['tree_items']['user']['user_anonymous']->template = 'tree_item';
+  settings::$data['tree_items']['user']['user_anonymous']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['user_anonymous']->attributes = new \stdClass();
   settings::$data['tree_items']['user']['user_anonymous']->attributes->class['user'] = 'user';
   settings::$data['tree_items']['user']['user_anonymous']->weight = 0;
@@ -375,6 +380,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_login'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['user']['user_login']->title = 'Login';
   settings::$data['tree_items']['user']['user_login']->template = 'tree_item';
+  settings::$data['tree_items']['user']['user_login']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['user_login']->attributes = new \stdClass();
   settings::$data['tree_items']['user']['user_login']->attributes->href = '/user/login';
   settings::$data['tree_items']['user']['user_login']->weight = -80;
@@ -385,6 +391,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_registration'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['user']['user_registration']->title = 'Registration';
   settings::$data['tree_items']['user']['user_registration']->template = 'tree_item';
+  settings::$data['tree_items']['user']['user_registration']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['user_registration']->attributes = new \stdClass();
   settings::$data['tree_items']['user']['user_registration']->attributes->href = '/user/registration';
   settings::$data['tree_items']['user']['user_registration']->weight = -60;
@@ -395,6 +402,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_n'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['user']['user_n']->title = 'Hello %%_user_email';
   settings::$data['tree_items']['user']['user_n']->template = 'tree_item';
+  settings::$data['tree_items']['user']['user_n']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['user_n']->attributes = new \stdClass();
   settings::$data['tree_items']['user']['user_n']->attributes->href = '/user/%%_user_id';
   settings::$data['tree_items']['user']['user_n']->attributes->class['user'] = 'user';
@@ -407,6 +415,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_n_edit'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['user']['user_n_edit']->title = 'Edit profile';
   settings::$data['tree_items']['user']['user_n_edit']->template = 'tree_item';
+  settings::$data['tree_items']['user']['user_n_edit']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['user_n_edit']->attributes = new \stdClass();
   settings::$data['tree_items']['user']['user_n_edit']->attributes->href = '/user/%%_user_id/edit';
   settings::$data['tree_items']['user']['user_n_edit']->weight = -100;
@@ -418,6 +427,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_logout'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['user']['user_logout']->title = 'Logout';
   settings::$data['tree_items']['user']['user_logout']->template = 'tree_item';
+  settings::$data['tree_items']['user']['user_logout']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['user_logout']->attributes = new \stdClass();
   settings::$data['tree_items']['user']['user_logout']->attributes->href = '/user/logout';
   settings::$data['tree_items']['user']['user_logout']->weight = -40;
@@ -428,6 +438,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['main_admin_roles'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['user']['main_admin_roles']->title = 'Roles';
   settings::$data['tree_items']['user']['main_admin_roles']->template = 'tree_item';
+  settings::$data['tree_items']['user']['main_admin_roles']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['main_admin_roles']->attributes = new \stdClass();
   settings::$data['tree_items']['user']['main_admin_roles']->attributes->href = '/admin/roles';
   settings::$data['tree_items']['user']['main_admin_roles']->weight = 0;
@@ -438,6 +449,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['main_admin_users'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['user']['main_admin_users']->title = 'Users';
   settings::$data['tree_items']['user']['main_admin_users']->template = 'tree_item';
+  settings::$data['tree_items']['user']['main_admin_users']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['main_admin_users']->attributes = new \stdClass();
   settings::$data['tree_items']['user']['main_admin_users']->attributes->href = '/admin/users';
   settings::$data['tree_items']['user']['main_admin_users']->weight = 0;
@@ -1265,6 +1277,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['templates']['page']['form_container'] = 'templates/template--form_container.html';
   settings::$data['templates']['tree']['tree'] = 'templates/template--tree.html';
   settings::$data['templates']['tree']['tree_item'] = 'templates/template--tree_item.html';
+  settings::$data['templates']['tree']['tree_item_children'] = 'templates/template--tree_item_children.html';
   settings::$data['tokens']['page']['color'] = new \stdClass();
   settings::$data['tokens']['page']['color']->match = '%%_color';
   settings::$data['tokens']['page']['color']->type = 'text';
