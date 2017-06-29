@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-06-29 12:00:42';
+  settings::$data_orig['_created'] = '2017-06-29 12:04:38';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1464,6 +1464,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Logout'] = 'Выход';
   settings::$data_orig['translate']['translate']->ru['Main menu'] = 'Главное меню';
   settings::$data_orig['translate']['translate']->ru['Moderators'] = 'Модераторы';
+  settings::$data_orig['translate']['translate']->ru['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   settings::$data_orig['translate']['translate']->ru['Module for storages support.'] = 'Модуль поддержки хранилищ данных.';
   settings::$data_orig['translate']['translate']->ru['Module for translate interface and content.'] = 'Модуль перевода интерфейса и контента.';
   settings::$data_orig['translate']['translate']->ru['Module for working with pages.'] = 'Модуль работы со страницами.';
