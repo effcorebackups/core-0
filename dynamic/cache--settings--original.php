@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-06-30 20:29:24';
+  settings::$data_orig['_created'] = '2017-06-30 20:51:18';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -662,6 +662,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->attributes = new \stdClass();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->attributes->type = 'checkbox';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->attributes->name = 'field_input_checkbox_1';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->attributes->value = 'checkbox_1';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->children = null;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->tag_name = 'input';
@@ -674,6 +675,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->attributes = new \stdClass();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->attributes->type = 'checkbox';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->attributes->name = 'field_input_checkbox_2';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->attributes->value = 'checkbox_2';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->children = null;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->tag_name = 'input';
@@ -686,6 +688,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->attributes = new \stdClass();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->attributes->type = 'checkbox';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->attributes->name = 'field_input_checkbox_3';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->attributes->value = 'checkbox_3';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->children = null;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->tag_name = 'input';
