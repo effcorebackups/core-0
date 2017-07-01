@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-06-30 20:51:18';
+  settings::$data['_created'] = '2017-07-01 15:24:20';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1644,6 +1644,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['languages']['translate']['ru']->title->en = 'Russian';
   settings::$data['languages']['translate']['ru']->title->native = 'Русский';
   settings::$data['translate']['translate'] = new \stdClass();
+  settings::$data['translate']['translate']->ru['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
+  settings::$data['translate']['translate']->ru['Field "%%_title" contain too few symbols!'] = 'Поле "%%_title" содержит слишком мало символов!';
+  settings::$data['translate']['translate']->ru['Field "%%_title" contain too much symbols!'] = 'Поле "%%_title" содержит слишком много символов!';
+  settings::$data['translate']['translate']->ru['Field "%%_title" contains an invalid email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
+  settings::$data['translate']['translate']->ru['Minimum %%_value symbols.'] = 'Минимум %%_value символов.';
+  settings::$data['translate']['translate']->ru['Maximum %%_value symbols.'] = 'Максимум %%_value символов.';
+  settings::$data['translate']['translate']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
+  settings::$data['translate']['translate']->ru['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
   settings::$data['translate']['translate']->ru['Actions'] = 'Действия';
   settings::$data['translate']['translate']->ru['Administer'] = 'Администрирование';
   settings::$data['translate']['translate']->ru['Administrators'] = 'Администраторы';
@@ -1672,7 +1680,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['Edit profile (%%_user_email_context-2)'] = 'Редактировать профиль (%%_user_email_context-2)';
   settings::$data['translate']['translate']->ru['Edit profile'] = 'Редактировать профиль';
   settings::$data['translate']['translate']->ru['edit'] = 'изменить';
-  settings::$data['translate']['translate']->ru['EMail'] = 'Электронная почта';
+  settings::$data['translate']['translate']->ru['EMail'] = 'Адрес электронной почты';
   settings::$data['translate']['translate']->ru['enabled'] = 'вкл.';
   settings::$data['translate']['translate']->ru['Execute plan'] = 'План выполнения';
   settings::$data['translate']['translate']->ru['File'] = 'Файл';
