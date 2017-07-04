@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-03 16:01:35';
+  settings::$data['_created'] = '2017-07-04 11:17:37';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -350,7 +350,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_home']->weight = 0;
   settings::$data['tree_items']['core']['main_home']->attributes['href'] = '/';
   settings::$data['tree_items']['core']['main_home']->attributes['class']['default'] = 'logo';
-  settings::$data['tree_items']['core']['main_home']->children = null;
+  settings::$data['tree_items']['core']['main_home']->children = [];
   settings::$data['tree_items']['core']['main_home']->parent = 'trees/core/main';
   settings::$data['tree_items']['core']['main_admin'] = new \effectivecore\tree_item();
   settings::$data['tree_items']['core']['main_admin']->title = 'Administer';
@@ -358,7 +358,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_admin']->template_children = 'tree_item_children';
   settings::$data['tree_items']['core']['main_admin']->weight = 0;
   settings::$data['tree_items']['core']['main_admin']->attributes['class']['default'] = 'admin';
-  settings::$data['tree_items']['core']['main_admin']->children = null;
+  settings::$data['tree_items']['core']['main_admin']->children = [];
   settings::$data['tree_items']['core']['main_admin']->parent = 'trees/core/main';
   settings::$data['tree_items']['core']['main_admin']->access = new \stdClass();
   settings::$data['tree_items']['core']['main_admin']->access->roles['admins'] = 'admins';
@@ -369,7 +369,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['core']['main_admin_modules']->weight = 0;
   settings::$data['tree_items']['core']['main_admin_modules']->attributes['href'] = '/admin/modules';
   settings::$data['tree_items']['core']['main_admin_modules']->attributes['class']['default'] = 'modules';
-  settings::$data['tree_items']['core']['main_admin_modules']->children = null;
+  settings::$data['tree_items']['core']['main_admin_modules']->children = [];
   settings::$data['tree_items']['core']['main_admin_modules']->parent = 'tree_items/core/main_admin';
   settings::$data['tree_items']['core']['main_admin_modules']->access = new \stdClass();
   settings::$data['tree_items']['core']['main_admin_modules']->access->roles['admins'] = 'admins';
@@ -380,7 +380,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['demo']['main_admin_demo']->weight = 0;
   settings::$data['tree_items']['demo']['main_admin_demo']->attributes['href'] = '/admin/demo';
   settings::$data['tree_items']['demo']['main_admin_demo']->attributes['class']['default'] = 'demo';
-  settings::$data['tree_items']['demo']['main_admin_demo']->children = null;
+  settings::$data['tree_items']['demo']['main_admin_demo']->children = [];
   settings::$data['tree_items']['demo']['main_admin_demo']->parent = 'tree_items/core/main_admin';
   settings::$data['tree_items']['demo']['main_admin_demo']->access = new \stdClass();
   settings::$data['tree_items']['demo']['main_admin_demo']->access->roles['admins'] = 'admins';
@@ -391,7 +391,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['page']['main_admin_decoration']->weight = 0;
   settings::$data['tree_items']['page']['main_admin_decoration']->attributes['href'] = '/admin/decoration';
   settings::$data['tree_items']['page']['main_admin_decoration']->attributes['class']['default'] = 'modules';
-  settings::$data['tree_items']['page']['main_admin_decoration']->children = null;
+  settings::$data['tree_items']['page']['main_admin_decoration']->children = [];
   settings::$data['tree_items']['page']['main_admin_decoration']->parent = 'tree_items/core/main_admin';
   settings::$data['tree_items']['page']['main_admin_decoration']->access = new \stdClass();
   settings::$data['tree_items']['page']['main_admin_decoration']->access->roles['admins'] = 'admins';
@@ -401,7 +401,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_anonymous']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['user_anonymous']->weight = 0;
   settings::$data['tree_items']['user']['user_anonymous']->attributes['class']['default'] = 'user';
-  settings::$data['tree_items']['user']['user_anonymous']->children = null;
+  settings::$data['tree_items']['user']['user_anonymous']->children = [];
   settings::$data['tree_items']['user']['user_anonymous']->parent = 'trees/user/user';
   settings::$data['tree_items']['user']['user_anonymous']->access = new \stdClass();
   settings::$data['tree_items']['user']['user_anonymous']->access->roles['anonymous'] = 'anonymous';
@@ -411,7 +411,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_login']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['user_login']->weight = -80;
   settings::$data['tree_items']['user']['user_login']->attributes['href'] = '/user/login';
-  settings::$data['tree_items']['user']['user_login']->children = null;
+  settings::$data['tree_items']['user']['user_login']->children = [];
   settings::$data['tree_items']['user']['user_login']->parent = 'tree_items/user/user_anonymous';
   settings::$data['tree_items']['user']['user_login']->access = new \stdClass();
   settings::$data['tree_items']['user']['user_login']->access->roles['anonymous'] = 'anonymous';
@@ -421,7 +421,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_registration']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['user_registration']->weight = -60;
   settings::$data['tree_items']['user']['user_registration']->attributes['href'] = '/user/registration';
-  settings::$data['tree_items']['user']['user_registration']->children = null;
+  settings::$data['tree_items']['user']['user_registration']->children = [];
   settings::$data['tree_items']['user']['user_registration']->parent = 'tree_items/user/user_anonymous';
   settings::$data['tree_items']['user']['user_registration']->access = new \stdClass();
   settings::$data['tree_items']['user']['user_registration']->access->roles['anonymous'] = 'anonymous';
@@ -432,7 +432,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_n']->weight = 0;
   settings::$data['tree_items']['user']['user_n']->attributes['href'] = '/user/%%_user_id';
   settings::$data['tree_items']['user']['user_n']->attributes['class']['default'] = 'user';
-  settings::$data['tree_items']['user']['user_n']->children = null;
+  settings::$data['tree_items']['user']['user_n']->children = [];
   settings::$data['tree_items']['user']['user_n']->parent = 'trees/user/user';
   settings::$data['tree_items']['user']['user_n']->access = new \stdClass();
   settings::$data['tree_items']['user']['user_n']->access->roles['admins'] = 'admins';
@@ -443,7 +443,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_n_edit']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['user_n_edit']->weight = -100;
   settings::$data['tree_items']['user']['user_n_edit']->attributes['href'] = '/user/%%_user_id/edit';
-  settings::$data['tree_items']['user']['user_n_edit']->children = null;
+  settings::$data['tree_items']['user']['user_n_edit']->children = [];
   settings::$data['tree_items']['user']['user_n_edit']->parent = 'tree_items/user/user_n';
   settings::$data['tree_items']['user']['user_n_edit']->access = new \stdClass();
   settings::$data['tree_items']['user']['user_n_edit']->access->roles['admins'] = 'admins';
@@ -454,7 +454,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['user_logout']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['user_logout']->weight = -40;
   settings::$data['tree_items']['user']['user_logout']->attributes['href'] = '/user/logout';
-  settings::$data['tree_items']['user']['user_logout']->children = null;
+  settings::$data['tree_items']['user']['user_logout']->children = [];
   settings::$data['tree_items']['user']['user_logout']->parent = 'tree_items/user/user_n';
   settings::$data['tree_items']['user']['user_logout']->access = new \stdClass();
   settings::$data['tree_items']['user']['user_logout']->access->roles['registered'] = 'registered';
@@ -464,7 +464,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['main_admin_roles']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['main_admin_roles']->weight = 0;
   settings::$data['tree_items']['user']['main_admin_roles']->attributes['href'] = '/admin/roles';
-  settings::$data['tree_items']['user']['main_admin_roles']->children = null;
+  settings::$data['tree_items']['user']['main_admin_roles']->children = [];
   settings::$data['tree_items']['user']['main_admin_roles']->parent = 'tree_items/core/main_admin';
   settings::$data['tree_items']['user']['main_admin_roles']->access = new \stdClass();
   settings::$data['tree_items']['user']['main_admin_roles']->access->roles['admins'] = 'admins';
@@ -474,7 +474,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['tree_items']['user']['main_admin_users']->template_children = 'tree_item_children';
   settings::$data['tree_items']['user']['main_admin_users']->weight = 0;
   settings::$data['tree_items']['user']['main_admin_users']->attributes['href'] = '/admin/users';
-  settings::$data['tree_items']['user']['main_admin_users']->children = null;
+  settings::$data['tree_items']['user']['main_admin_users']->children = [];
   settings::$data['tree_items']['user']['main_admin_users']->parent = 'tree_items/core/main_admin';
   settings::$data['tree_items']['user']['main_admin_users']->access = new \stdClass();
   settings::$data['tree_items']['user']['main_admin_users']->access->roles['admins'] = 'admins';
@@ -483,13 +483,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['trees']['core']['main']->template = 'tree';
   settings::$data['trees']['core']['main']->weight = 2;
   settings::$data['trees']['core']['main']->attributes['class']['default'] = 'main';
-  settings::$data['trees']['core']['main']->children = null;
+  settings::$data['trees']['core']['main']->children = [];
   settings::$data['trees']['user']['user'] = new \effectivecore\tree();
   settings::$data['trees']['user']['user']->title = 'User menu';
   settings::$data['trees']['user']['user']->template = 'tree';
   settings::$data['trees']['user']['user']->weight = 1;
   settings::$data['trees']['user']['user']->attributes['class']['default'] = 'user';
-  settings::$data['trees']['user']['user']->children = null;
+  settings::$data['trees']['user']['user']->children = [];
   settings::$data['events']['demo'] = new \stdClass();
   settings::$data['events']['demo']->on_module_start['demo'] = new \stdClass();
   settings::$data['events']['demo']->on_module_start['demo']->handler = '\\effectivecore\\modules\\demo\\events_module::on_start';
@@ -596,7 +596,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->attributes['minlength'] = 5;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->attributes['maxlength'] = 255;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->attributes['pattern'] = '[a-zA-Z0-9]+';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->template = 'form_field';
@@ -612,7 +612,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->attributes['minlength'] = 5;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->attributes['maxlength'] = 255;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->attributes['autocomplete'] = 'off';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->template = 'form_field';
@@ -625,7 +625,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->attributes['name'] = 'field_input_file';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->attributes['accept'] = 'image/*,audio/*,video/*';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->attributes['multiple'] = 'multiple';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label'] = new \effectivecore\form_container();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->template = 'form_container';
@@ -644,7 +644,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->attributes['type'] = 'checkbox';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->attributes['name'] = 'field_input_checkbox_1';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->attributes['value'] = 'checkbox_1';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_1']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->template = 'form_field';
@@ -656,7 +656,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->attributes['type'] = 'checkbox';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->attributes['name'] = 'field_input_checkbox_2';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->attributes['value'] = 'checkbox_2';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_2']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->template = 'form_field';
@@ -668,7 +668,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->attributes['type'] = 'checkbox';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->attributes['name'] = 'field_input_checkbox_3';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->attributes['value'] = 'checkbox_3';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label'] = new \effectivecore\form_container();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->template = 'form_container';
@@ -687,7 +687,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_1']->attributes['type'] = 'radio';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_1']->attributes['name'] = 'field_input_radio';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_1']->attributes['value'] = 'radio_1';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_1']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_1']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_1']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_2'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_2']->template = 'form_field';
@@ -699,7 +699,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_2']->attributes['type'] = 'radio';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_2']->attributes['name'] = 'field_input_radio';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_2']->attributes['value'] = 'radio_2';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_2']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_2']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_2']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_3'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_3']->template = 'form_field';
@@ -711,7 +711,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_3']->attributes['type'] = 'radio';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_3']->attributes['name'] = 'field_input_radio';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_3']->attributes['value'] = 'radio_3';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_3']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_3']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->children['field_input_radio_3']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->template = 'form_field';
@@ -983,7 +983,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->attributes['value'] = 'text in search';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->attributes['minlength'] = 5;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->attributes['maxlength'] = 255;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->template = 'form_field';
@@ -999,7 +999,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->attributes['minlength'] = 5;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->attributes['maxlength'] = 255;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->attributes['multiple'] = 'multiple';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->template = 'form_field';
@@ -1014,7 +1014,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->attributes['value'] = 'http://example.com';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->attributes['minlength'] = 5;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->attributes['maxlength'] = 255;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->template = 'form_field';
@@ -1029,7 +1029,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->attributes['value'] = 123456789;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->attributes['minlength'] = 5;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->attributes['maxlength'] = 15;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->template = 'form_field';
@@ -1045,7 +1045,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->attributes['min'] = -10;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->attributes['max'] = 10;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->attributes['step'] = 1;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->template = 'form_field';
@@ -1060,7 +1060,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->attributes['min'] = -10;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->attributes['max'] = 10;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->attributes['step'] = 1;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->template = 'form_field';
@@ -1075,7 +1075,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->attributes['value'] = '2017-12-31';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->attributes['min'] = '2000-12-31';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->attributes['max'] = '2020-12-31';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->template = 'form_field';
@@ -1088,7 +1088,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->attributes['name'] = 'field_input_time';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->attributes['required'] = 'required';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->attributes['value'] = '00:00:00';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->template = 'form_field';
@@ -1099,7 +1099,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->weight = 0;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->attributes['type'] = 'color';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->attributes['name'] = 'field_input_color';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->children = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->template = null;
   settings::$data['forms']['demo']['form_demo']->children['button_submit'] = new \effectivecore\markup();
@@ -1164,7 +1164,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_bg_color']->description = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_bg_color']->weight = 0;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_bg_color']->attributes['id'] = 'bg_color';
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_bg_color']->children = null;
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_bg_color']->children = [];
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->template = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save']->tag_name = 'button';
@@ -1204,7 +1204,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->attributes['name'] = 'email';
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->attributes['required'] = 'required';
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->attributes['maxlength'] = 255;
-  settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->children = null;
+  settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->children = [];
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->tag_name = 'input';
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_password'] = new \effectivecore\form_field();
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_password']->template = 'form_field';
@@ -1219,7 +1219,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_password']->attributes['minlength'] = 5;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_password']->attributes['maxlength'] = 255;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_password']->attributes['autocomplete'] = 'off';
-  settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_password']->children = null;
+  settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_password']->children = [];
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_password']->tag_name = 'input';
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->template = null;
   settings::$data['forms']['user']['form_user_login']->children['button_login'] = new \effectivecore\markup();
@@ -1330,7 +1330,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->attributes['minlength'] = 5;
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->attributes['maxlength'] = 255;
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->attributes['autocomplete'] = 'off';
-  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->children = null;
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->children = [];
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->tag_name = 'input';
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->template = null;
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save'] = new \effectivecore\markup();
@@ -1382,7 +1382,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->attributes['name'] = 'email';
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->attributes['required'] = 'required';
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->attributes['maxlength'] = 255;
-  settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->children = null;
+  settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->children = [];
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->tag_name = 'input';
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password'] = new \effectivecore\form_field();
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->template = 'form_field';
@@ -1397,7 +1397,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->attributes['minlength'] = 5;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->attributes['maxlength'] = 255;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->attributes['autocomplete'] = 'off';
-  settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children = null;
+  settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children = [];
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->tag_name = 'input';
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->template = null;
   settings::$data['forms']['user']['form_user_registration']->children['button_register'] = new \effectivecore\markup();
