@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-04 12:55:24';
+  settings::$data['_created'] = '2017-07-04 13:00:56';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1197,7 +1197,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->template = 'form_field';
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->wr_tag_name = 'x-field';
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->wr_attributes = [];
-  settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->title = 'Email';
+  settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->title = 'EMail';
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->description = null;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->weight = 0;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->attributes['type'] = 'email';
@@ -1376,7 +1376,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->template = 'form_field';
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->wr_tag_name = 'x-field';
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->wr_attributes = [];
-  settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->title = 'Email';
+  settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->title = 'EMail';
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->description = null;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->weight = 0;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->attributes['type'] = 'email';
