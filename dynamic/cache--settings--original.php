@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-07-04 13:32:03';
+  settings::$data_orig['_created'] = '2017-07-04 13:34:08';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -589,8 +589,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->title = 'Text';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->description->args['description'] = '&lt;input type="text"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->description->args['info'] = '&lt;input type="text"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_text']->attributes['type'] = 'text';
@@ -608,8 +608,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->title = 'Password';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->description->args['description'] = '&lt;input type="password"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->description->args['info'] = '&lt;input type="password"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_password']->attributes['type'] = 'password';
@@ -627,8 +627,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->title = 'File';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->description->args['description'] = '&lt;input type="file"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->description->args['info'] = '&lt;input type="file"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_input_file']->attributes['type'] = 'file';
@@ -642,8 +642,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->tag_name = 'x-container';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->title = 'Checkboxes';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->description->args['description'] = '&lt;input type="checkbox"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->description->args['info'] = '&lt;input type="checkbox"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->attributes = [];
@@ -688,8 +688,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->tag_name = 'x-container';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->title = 'Radios';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->description->args['description'] = '&lt;input type="radio"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->description->args['info'] = '&lt;input type="radio"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radio_label']->attributes = [];
@@ -735,8 +735,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->title = 'Select';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->description->args['description'] = '&lt;select&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->description->args['info'] = '&lt;select&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->attributes['name'] = 'field_select';
@@ -774,8 +774,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_ws_groups']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_ws_groups']->title = 'Select (with optgroup)';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_ws_groups']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_ws_groups']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_ws_groups']->description->args['description'] = '&lt;select&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_ws_groups']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_ws_groups']->description->args['info'] = '&lt;select&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_ws_groups']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_ws_groups']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_ws_groups']->attributes['name'] = 'field_select_ws_groups';
@@ -818,8 +818,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->title = 'Select (multiple choice)';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->description->args['description'] = '&lt;select&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->description->args['info'] = '&lt;select&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->attributes['name'] = 'field_select_multiple';
@@ -859,8 +859,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->title = 'Textarea';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->description->args['description'] = '&lt;textarea&gt;&lt;/textarea&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->description->args['info'] = '&lt;textarea&gt;&lt;/textarea&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->attributes['name'] = 'field_textarea';
@@ -1028,8 +1028,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->title = 'Search';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->description->args['description'] = '&lt;input type="search"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->description->args['info'] = '&lt;input type="search"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_search']->attributes['type'] = 'search';
@@ -1046,8 +1046,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->title = 'EMail';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->description->args['description'] = '&lt;input type="email"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->description->args['info'] = '&lt;input type="email"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_email']->attributes['type'] = 'email';
@@ -1065,8 +1065,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->title = 'URL';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->description->args['description'] = '&lt;input type="url"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->description->args['info'] = '&lt;input type="url"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_url']->attributes['type'] = 'url';
@@ -1083,8 +1083,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->title = 'Telephone';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->description->args['description'] = '&lt;input type="tel"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->description->args['info'] = '&lt;input type="tel"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_tel']->attributes['type'] = 'tel';
@@ -1101,8 +1101,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->title = 'Number';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->description->args['description'] = '&lt;input type="number"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->description->args['info'] = '&lt;input type="number"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_number']->attributes['type'] = 'number';
@@ -1120,8 +1120,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->title = 'Range';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->description->args['description'] = '&lt;input type="range"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->description->args['info'] = '&lt;input type="range"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_range']->attributes['type'] = 'range';
@@ -1138,8 +1138,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->title = 'Date';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->description->args['description'] = '&lt;input type="date"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->description->args['info'] = '&lt;input type="date"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_date']->attributes['type'] = 'date';
@@ -1156,8 +1156,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->title = 'Time';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->description->args['description'] = '&lt;input type="time"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->description->args['info'] = '&lt;input type="time"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_time']->attributes['type'] = 'time';
@@ -1172,8 +1172,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->wr_attributes = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->title = 'Color';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->description->text = 'Element %%_description.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->description->args['description'] = '&lt;input type="color"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->description->text = 'Element %%_info.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->description->args['info'] = '&lt;input type="color"&gt;';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_input_color']->attributes['type'] = 'color';
@@ -1685,7 +1685,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
   settings::$data_orig['translate']['translate']->ru['Field should contain minimum %%_lenght symbols.'] = 'Поле должно содержать минимум %%_lenght символов.';
   settings::$data_orig['translate']['translate']->ru['Field should contain maximum %%_lenght symbols.'] = 'Поле должно содержать максимум %%_lenght символов.';
-  settings::$data_orig['translate']['translate']->ru['Element %%_description.'] = 'Элемент %%_description.';
+  settings::$data_orig['translate']['translate']->ru['Element %%_info.'] = 'Элемент %%_info.';
   settings::$data_orig['translate']['translate']->ru['Actions'] = 'Действия';
   settings::$data_orig['translate']['translate']->ru['Administer'] = 'Администрирование';
   settings::$data_orig['translate']['translate']->ru['Administrators'] = 'Администраторы';
