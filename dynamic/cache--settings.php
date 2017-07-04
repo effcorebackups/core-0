@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-04 12:44:26';
+  settings::$data['_created'] = '2017-07-04 12:55:24';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1591,6 +1591,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['User was not deleted!'] = 'Пользователь не был удален!';
   settings::$data['translate']['translate']->ru['User with this email was already registered!'] = 'Пользователь с таким адресом электронной почты уже был зарегистрирован!';
   settings::$data['translate']['translate']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
+  settings::$data['translate']['translate']->ru['Field should contain minimum %%_lenght symbols.'] = 'Поле должно содержать минимум %%_lenght символов.';
+  settings::$data['translate']['translate']->ru['Field should contain maximum %%_lenght symbols.'] = 'Поле должно содержать максимум %%_lenght символов.';
   settings::$data['translate']['translate']->ru['Actions'] = 'Действия';
   settings::$data['translate']['translate']->ru['Administer'] = 'Администрирование';
   settings::$data['translate']['translate']->ru['Administrators'] = 'Администраторы';
