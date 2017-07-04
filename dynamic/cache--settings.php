@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-04 11:17:37';
+  settings::$data['_created'] = '2017-07-04 12:44:26';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1203,6 +1203,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->attributes['type'] = 'email';
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->attributes['name'] = 'email';
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->attributes['required'] = 'required';
+  settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->attributes['minlength'] = 5;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->attributes['maxlength'] = 255;
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->children = [];
   settings::$data['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->tag_name = 'input';
@@ -1381,6 +1382,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->attributes['type'] = 'email';
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->attributes['name'] = 'email';
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->attributes['required'] = 'required';
+  settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->attributes['minlength'] = 5;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->attributes['maxlength'] = 255;
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->children = [];
   settings::$data['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->tag_name = 'input';
@@ -1460,7 +1462,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['colors']['page']['color_original_darkblue']->is_dark = true;
   settings::$data['decoration']['page'] = new \stdClass();
   settings::$data['decoration']['page']->link_color = 'color_original_darkblue';
-  settings::$data['decoration']['page']->background_color = 'color_paleturquoise';
+  settings::$data['decoration']['page']->background_color = 'color_gold';
   settings::$data['misc']['page']['misc_page_n'] = new \stdClass();
   settings::$data['misc']['page']['misc_page_n']->url = new \stdClass();
   settings::$data['misc']['page']['misc_page_n']->url->match = '%.*%';
@@ -1582,6 +1584,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['Maximum %%_value symbols.'] = 'Максимум %%_value символов.';
   settings::$data['translate']['translate']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   settings::$data['translate']['translate']->ru['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
+  settings::$data['translate']['translate']->ru['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
+  settings::$data['translate']['translate']->ru['Data was not updated!'] = 'Данные не были обновлены!';
+  settings::$data['translate']['translate']->ru['Data of user with ID = %%_id was updated.'] = 'Данные пользователя с ID = %%_id были обновлены.';
+  settings::$data['translate']['translate']->ru['User with ID = %%_id was deleted.'] = 'Пользователь с ID = %%_id был удален.';
+  settings::$data['translate']['translate']->ru['User was not deleted!'] = 'Пользователь не был удален!';
+  settings::$data['translate']['translate']->ru['User with this email was already registered!'] = 'Пользователь с таким адресом электронной почты уже был зарегистрирован!';
+  settings::$data['translate']['translate']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
   settings::$data['translate']['translate']->ru['Actions'] = 'Действия';
   settings::$data['translate']['translate']->ru['Administer'] = 'Администрирование';
   settings::$data['translate']['translate']->ru['Administrators'] = 'Администраторы';
