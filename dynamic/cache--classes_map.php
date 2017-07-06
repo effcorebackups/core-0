@@ -137,6 +137,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\modules\page\events_module']->classname = 'events_module';
   cache_factory::$data['classes_map']['effectivecore\modules\page\events_module']->parent = 'effectivecore\\events_module';
   cache_factory::$data['classes_map']['effectivecore\modules\page\events_module']->file = 'modules/page/events/events--module.php';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\events_token'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\modules\page\events_token']->namespace = 'effectivecore\\modules\\page';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\events_token']->classname = 'events_token';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\events_token']->parent = 'effectivecore\\events_token';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\events_token']->file = 'modules/page/events/events--token.php';
   cache_factory::$data['classes_map']['effectivecore\form'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\form']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\form']->classname = 'form';
