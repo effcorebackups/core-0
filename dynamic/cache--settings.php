@@ -4,10 +4,10 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-07 14:02:24';
+  settings::$data['_created'] = '2017-07-07 14:09:06';
   settings::$data['test_changes']['core'] = new \stdClass();
-  settings::$data['test_changes']['core']->test_arr['item_1'] = 'a1 modif';
-  settings::$data['test_changes']['core']->test_arr['item_2'] = 'a2 modif';
+  settings::$data['test_changes']['core']->test_arr['item_1'] = 'a1';
+  settings::$data['test_changes']['core']->test_arr['item_2'] = 'a2';
   settings::$data['test_changes']['core']->test_arr['item_3'] = 'a3';
   settings::$data['test_changes']['core']->test_obj = new \stdClass();
   settings::$data['test_changes']['core']->test_obj->prop_1 = 'p1';
