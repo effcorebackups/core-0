@@ -8,5 +8,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$changes_dynamic['changes']['page']['update_decoration_page_color_bg']->action = 'update';
   settings::$changes_dynamic['changes']['page']['update_decoration_page_color_bg']->npath = 'decoration/page/color_bg';
   settings::$changes_dynamic['changes']['page']['update_decoration_page_color_bg']->value = 'color_original_blue';
+  settings::$changes_dynamic['changes']['page']['update_decoration_page_color'] = new \stdClass();
+  settings::$changes_dynamic['changes']['page']['update_decoration_page_color']->action = 'update';
+  settings::$changes_dynamic['changes']['page']['update_decoration_page_color']->npath = 'decoration/page/color';
+  settings::$changes_dynamic['changes']['page']['update_decoration_page_color']->value = 'color_black';
 
 }
