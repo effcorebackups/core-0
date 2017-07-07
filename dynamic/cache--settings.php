@@ -4,15 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-07 14:09:06';
-  settings::$data['test_changes']['core'] = new \stdClass();
-  settings::$data['test_changes']['core']->test_arr['item_1'] = 'a1';
-  settings::$data['test_changes']['core']->test_arr['item_2'] = 'a2';
-  settings::$data['test_changes']['core']->test_arr['item_3'] = 'a3';
-  settings::$data['test_changes']['core']->test_obj = new \stdClass();
-  settings::$data['test_changes']['core']->test_obj->prop_1 = 'p1';
-  settings::$data['test_changes']['core']->test_obj->prop_2 = 'p2';
-  settings::$data['test_changes']['core']->test_obj->prop_3 = 'p3';
+  settings::$data['_created'] = '2017-07-07 15:23:27';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
