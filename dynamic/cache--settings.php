@@ -4,34 +4,27 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-07 15:23:27';
+  settings::$data['_created'] = '2017-07-07 17:33:26';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
   settings::$data['file_types']['core']['css'] = new \stdClass();
   settings::$data['file_types']['core']['css']->use_tokens = 1;
   settings::$data['file_types']['core']['css']->headers['Content-type'] = 'text/css';
-  settings::$data['file_types']['core']['css']->headers['Cache-Control'] = 'max-age=604800';
   settings::$data['file_types']['core']['svg'] = new \stdClass();
   settings::$data['file_types']['core']['svg']->use_tokens = 1;
   settings::$data['file_types']['core']['svg']->headers['Content-type'] = 'image/svg+xml';
-  settings::$data['file_types']['core']['svg']->headers['Cache-Control'] = 'max-age=604800';
   settings::$data['file_types']['core']['js'] = new \stdClass();
   settings::$data['file_types']['core']['js']->headers['Content-type'] = 'application/javascript';
-  settings::$data['file_types']['core']['js']->headers['Cache-Control'] = 'max-age=604800';
   settings::$data['file_types']['core']['gif'] = new \stdClass();
   settings::$data['file_types']['core']['gif']->headers['Content-type'] = 'image/gif';
-  settings::$data['file_types']['core']['gif']->headers['Cache-Control'] = 'max-age=604800';
   settings::$data['file_types']['core']['jpg'] = new \stdClass();
   settings::$data['file_types']['core']['jpg']->headers['Content-type'] = 'image/jpeg';
-  settings::$data['file_types']['core']['jpg']->headers['Cache-Control'] = 'max-age=604800';
   settings::$data['file_types']['core']['png'] = new \stdClass();
   settings::$data['file_types']['core']['png']->headers['Content-type'] = 'image/png';
-  settings::$data['file_types']['core']['png']->headers['Cache-Control'] = 'max-age=604800';
   settings::$data['file_types']['storage']['_s'] = new \stdClass();
   settings::$data['file_types']['storage']['_s']->protected = 1;
   settings::$data['file_types']['storage']['_s']->headers['Content-type'] = 'text/settings';
-  settings::$data['file_types']['storage']['_s']->headers['Cache-Control'] = 'max-age=604800';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
