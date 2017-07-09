@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-07-07 17:33:26';
+  settings::$data_orig['_created'] = '2017-07-09 14:07:50';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1701,6 +1701,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Cancel'] = 'Отмена';
   settings::$data_orig['translate']['translate']->ru['cancel'] = 'отмена';
   settings::$data_orig['translate']['translate']->ru['Checkboxes'] = 'Флажки';
+  settings::$data_orig['translate']['translate']->ru['Changes was saved.'] = 'Изменения были сохранены.';
   settings::$data_orig['translate']['translate']->ru['Color'] = 'Цвет';
   settings::$data_orig['translate']['translate']->ru['Colors'] = 'Цвета';
   settings::$data_orig['translate']['translate']->ru['Console'] = 'Консоль';
