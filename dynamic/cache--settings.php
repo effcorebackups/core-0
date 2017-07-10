@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-10 13:52:25';
+  settings::$data['_created'] = '2017-07-10 14:10:51';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -677,7 +677,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkbox_label']->children['field_input_checkbox_3']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios'] = new \effectivecore\form_field_radios();
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->template = 'form_field_radios';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->template = 'form_field';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->wr_tag_name = 'x-field';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->wr_attributes = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->tag_name = 'input';
@@ -687,7 +687,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->description->args['info'] = '&lt;input type="radio"&gt;';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->description->weight = 0;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->weight = 0;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->attributes['name'] = 'field_input_radio';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->attributes = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['radio_1'] = new \effectivecore\markup();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['radio_1']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['radio_1']->weight = 0;
