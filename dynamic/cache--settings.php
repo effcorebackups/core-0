@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-10 15:03:26';
+  settings::$data['_created'] = '2017-07-10 16:11:28';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -680,7 +680,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->template = 'form_field';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->wr_tag_name = 'x-field';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->wr_attributes = [];
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->title = 'Radios';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->description = new \effectivecore\text();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->description->text = 'Element %%_info.';
