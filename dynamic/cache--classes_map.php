@@ -157,11 +157,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\form_field']->classname = 'form_field';
   cache_factory::$data['classes_map']['effectivecore\form_field']->parent = 'node';
   cache_factory::$data['classes_map']['effectivecore\form_field']->file = 'modules/page/patterns/pattern--form_field.php';
-  cache_factory::$data['classes_map']['effectivecore\form_field_radio'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\form_field_radio']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\form_field_radio']->classname = 'form_field_radio';
-  cache_factory::$data['classes_map']['effectivecore\form_field_radio']->parent = 'form_field';
-  cache_factory::$data['classes_map']['effectivecore\form_field_radio']->file = 'modules/page/patterns/pattern--form_field_radio.php';
+  cache_factory::$data['classes_map']['effectivecore\form_field_radios'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\form_field_radios']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\form_field_radios']->classname = 'form_field_radios';
+  cache_factory::$data['classes_map']['effectivecore\form_field_radios']->parent = 'form_field';
+  cache_factory::$data['classes_map']['effectivecore\form_field_radios']->file = 'modules/page/patterns/pattern--form_field_radio.php';
   cache_factory::$data['classes_map']['effectivecore\markup'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\markup']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\markup']->classname = 'markup';
