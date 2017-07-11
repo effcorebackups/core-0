@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-11 13:06:16';
+  settings::$data['_created'] = '2017-07-11 13:14:24';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1263,17 +1263,17 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend']->children['content']->args = [];
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend']->children['content']->weight = 0;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend']->template = null;
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color'] = new \effectivecore\form_container();
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->template = 'form_container';
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->tag_name = 'x-container';
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color'] = new \effectivecore\form_field();
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->template = 'form_field';
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->tag_name = 'x-field';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->title = 'Color';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->description = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->weight = 0;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->attributes['class']['palette'] = 'palette';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->children = [];
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg'] = new \effectivecore\form_container();
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->template = 'form_container';
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->tag_name = 'x-container';
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg'] = new \effectivecore\form_field();
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->template = 'form_field';
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->tag_name = 'x-field';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->title = 'Background color';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->description = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->weight = 0;
