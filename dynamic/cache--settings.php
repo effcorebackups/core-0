@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-11 13:32:25';
+  settings::$data['_created'] = '2017-07-11 13:35:56';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -552,9 +552,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['events']['user']->on_form_submit['user_registration']->weight = 0;
   settings::$data['forms']['demo']['form_demo'] = new \effectivecore\form();
   settings::$data['forms']['demo']['form_demo']->template = 'form';
-  settings::$data['forms']['demo']['form_demo']->on_init = null;
-  settings::$data['forms']['demo']['form_demo']->on_validate = null;
-  settings::$data['forms']['demo']['form_demo']->on_submit = null;
   settings::$data['forms']['demo']['form_demo']->clicked_button = null;
   settings::$data['forms']['demo']['form_demo']->clicked_button_name = null;
   settings::$data['forms']['demo']['form_demo']->errors = [];
@@ -1239,9 +1236,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['button_reset']->template = null;
   settings::$data['forms']['page']['form_admin_decoration'] = new \effectivecore\form();
   settings::$data['forms']['page']['form_admin_decoration']->template = 'form';
-  settings::$data['forms']['page']['form_admin_decoration']->on_init = null;
-  settings::$data['forms']['page']['form_admin_decoration']->on_validate = null;
-  settings::$data['forms']['page']['form_admin_decoration']->on_submit = null;
   settings::$data['forms']['page']['form_admin_decoration']->clicked_button = null;
   settings::$data['forms']['page']['form_admin_decoration']->clicked_button_name = null;
   settings::$data['forms']['page']['form_admin_decoration']->errors = [];
@@ -1293,9 +1287,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save']->template = null;
   settings::$data['forms']['user']['form_user_login'] = new \effectivecore\form();
   settings::$data['forms']['user']['form_user_login']->template = 'form';
-  settings::$data['forms']['user']['form_user_login']->on_init = null;
-  settings::$data['forms']['user']['form_user_login']->on_validate = null;
-  settings::$data['forms']['user']['form_user_login']->on_submit = null;
   settings::$data['forms']['user']['form_user_login']->clicked_button = null;
   settings::$data['forms']['user']['form_user_login']->clicked_button_name = null;
   settings::$data['forms']['user']['form_user_login']->errors = [];
@@ -1357,9 +1348,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_login']->children['button_login']->template = null;
   settings::$data['forms']['user']['form_user_logout'] = new \effectivecore\form();
   settings::$data['forms']['user']['form_user_logout']->template = 'form';
-  settings::$data['forms']['user']['form_user_logout']->on_init = null;
-  settings::$data['forms']['user']['form_user_logout']->on_validate = null;
-  settings::$data['forms']['user']['form_user_logout']->on_submit = null;
   settings::$data['forms']['user']['form_user_logout']->clicked_button = null;
   settings::$data['forms']['user']['form_user_logout']->clicked_button_name = null;
   settings::$data['forms']['user']['form_user_logout']->errors = [];
@@ -1393,9 +1381,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_logout']->children['button_cancel']->novalidate = true;
   settings::$data['forms']['user']['form_user_n_delete'] = new \effectivecore\form();
   settings::$data['forms']['user']['form_user_n_delete']->template = 'form';
-  settings::$data['forms']['user']['form_user_n_delete']->on_init = null;
-  settings::$data['forms']['user']['form_user_n_delete']->on_validate = null;
-  settings::$data['forms']['user']['form_user_n_delete']->on_submit = null;
   settings::$data['forms']['user']['form_user_n_delete']->clicked_button = null;
   settings::$data['forms']['user']['form_user_n_delete']->clicked_button_name = null;
   settings::$data['forms']['user']['form_user_n_delete']->errors = [];
@@ -1429,9 +1414,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_delete']->children['button_cancel']->novalidate = true;
   settings::$data['forms']['user']['form_user_n_edit'] = new \effectivecore\form();
   settings::$data['forms']['user']['form_user_n_edit']->template = 'form';
-  settings::$data['forms']['user']['form_user_n_edit']->on_init = null;
-  settings::$data['forms']['user']['form_user_n_edit']->on_validate = null;
-  settings::$data['forms']['user']['form_user_n_edit']->on_submit = null;
   settings::$data['forms']['user']['form_user_n_edit']->clicked_button = null;
   settings::$data['forms']['user']['form_user_n_edit']->clicked_button_name = null;
   settings::$data['forms']['user']['form_user_n_edit']->errors = [];
@@ -1488,9 +1470,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->children['button_cancel']->novalidate = true;
   settings::$data['forms']['user']['form_user_registration'] = new \effectivecore\form();
   settings::$data['forms']['user']['form_user_registration']->template = 'form';
-  settings::$data['forms']['user']['form_user_registration']->on_init = null;
-  settings::$data['forms']['user']['form_user_registration']->on_validate = null;
-  settings::$data['forms']['user']['form_user_registration']->on_submit = null;
   settings::$data['forms']['user']['form_user_registration']->clicked_button = null;
   settings::$data['forms']['user']['form_user_registration']->clicked_button_name = null;
   settings::$data['forms']['user']['form_user_registration']->errors = [];
