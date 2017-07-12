@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-12 15:06:51';
+  settings::$data['_created'] = '2017-07-12 15:17:53';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1268,19 +1268,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->attributes['novalidate'] = 'novalidate';
   settings::$data['forms']['page']['form_admin_decoration']->attributes['method'] = 'post';
   settings::$data['forms']['page']['form_admin_decoration']->attributes['class']['form-decoration'] = 'form-decoration';
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default'] = new \effectivecore\markup();
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default'] = new \effectivecore\form_container();
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->template = 'form_container';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->tag_name = 'fieldset';
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->title = 'Colors';
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->description = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->weight = 0;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->attributes = [];
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend'] = new \effectivecore\markup();
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend']->tag_name = 'legend';
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend']->weight = 0;
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend']->attributes = [];
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend']->children['content'] = new \effectivecore\text();
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend']->children['content']->text = 'Colors';
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend']->children['content']->args = [];
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend']->children['content']->weight = 0;
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['fieldset_default_legend']->template = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color'] = new \effectivecore\form_field();
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->tag_name = 'x-field';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->template = 'form_container';
@@ -1297,7 +1291,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->weight = 0;
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->attributes['class']['palette'] = 'palette';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->children = [];
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->template = null;
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save']->tag_name = 'button';
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save']->weight = 0;
