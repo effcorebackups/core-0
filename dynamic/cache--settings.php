@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-12 16:10:50';
+  settings::$data['_created'] = '2017-07-12 16:22:41';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -663,6 +663,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_1']->children['input_checkbox_1']->attributes['value'] = 'checkbox_1';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_1']->children['input_checkbox_1']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_1']->children['input_checkbox_1']->template = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_1']->children['input_checkbox_1']->title_position = 'right';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_2'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_2']->tag_name = 'x-field';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_2']->template = 'form_container';
@@ -680,6 +681,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_2']->children['input_checkbox_2']->attributes['value'] = 'checkbox_2';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_2']->children['input_checkbox_2']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_2']->children['input_checkbox_2']->template = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_2']->children['input_checkbox_2']->title_position = 'right';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_3'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_3']->tag_name = 'x-field';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_3']->template = 'form_container';
@@ -697,6 +699,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_3']->children['input_checkbox_3']->attributes['value'] = 'checkbox_3';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_3']->children['input_checkbox_3']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_3']->children['input_checkbox_3']->template = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_3']->children['input_checkbox_3']->title_position = 'right';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios'] = new \effectivecore\form_container();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->template = 'form_container';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->tag_name = 'x-container';
@@ -724,6 +727,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_1']->children['input_radio_1']->attributes['value'] = 'radio_1';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_1']->children['input_radio_1']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_1']->children['input_radio_1']->template = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_1']->children['input_radio_1']->title_position = 'right';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_2'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_2']->tag_name = 'x-field';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_2']->template = 'form_container';
@@ -741,6 +745,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_2']->children['input_radio_2']->attributes['value'] = 'radio_2';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_2']->children['input_radio_2']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_2']->children['input_radio_2']->template = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_2']->children['input_radio_2']->title_position = 'right';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->tag_name = 'x-field';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->template = 'form_container';
@@ -758,6 +763,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->children['input_radio_3']->attributes['value'] = 'radio_3';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->children['input_radio_3']->children = [];
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->children['input_radio_3']->template = null;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->children['input_radio_3']->title_position = 'right';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->tag_name = 'x-field';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->template = 'form_container';
