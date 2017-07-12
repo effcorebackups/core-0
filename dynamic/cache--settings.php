@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-12 16:22:41';
+  settings::$data['_created'] = '2017-07-12 17:33:03';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -646,6 +646,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->description->weight = 0;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->weight = 0;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->attributes['required'] = 'required';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->attributes['class']['boxes'] = 'boxes';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->attributes['class']['checkboxes'] = 'checkboxes';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_1'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_1']->tag_name = 'x-field';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_checkboxes']->children['field_checkbox_1']->template = 'form_container';
@@ -709,7 +711,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->description->args['info'] = '&lt;input type="radio"&gt;';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->description->weight = 0;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->weight = 0;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->attributes = [];
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->attributes['required'] = 'required';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->attributes['class']['boxes'] = 'boxes';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->attributes['class']['radios'] = 'radios';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_1'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_1']->tag_name = 'x-field';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_1']->template = 'form_container';
