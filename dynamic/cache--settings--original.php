@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-07-12 14:56:40';
+  settings::$data_orig['_created'] = '2017-07-12 15:06:51';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -560,19 +560,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->attributes['novalidate'] = 'novalidate';
   settings::$data_orig['forms']['demo']['form_demo']->attributes['method'] = 'post';
   settings::$data_orig['forms']['demo']['form_demo']->attributes['class']['form-demo'] = 'form-demo';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4'] = new \effectivecore\form_container();
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->template = 'form_container';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->tag_name = 'fieldset';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->title = 'Html 4 elements';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->description = null;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->attributes = [];
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['fieldset_html4_legend'] = new \effectivecore\markup();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['fieldset_html4_legend']->tag_name = 'legend';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['fieldset_html4_legend']->weight = 0;
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['fieldset_html4_legend']->attributes = [];
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['fieldset_html4_legend']->children['content'] = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['fieldset_html4_legend']->children['content']->text = 'Html 4 elements';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['fieldset_html4_legend']->children['content']->args = [];
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['fieldset_html4_legend']->children['content']->weight = 0;
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['fieldset_html4_legend']->template = null;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_text'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_text']->tag_name = 'x-field';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_text']->template = 'form_container';
@@ -1021,20 +1015,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['table']->children['body']->children['tbody_tr_4']->children['tbody_tr_4_td_1']->children['content']->text = '';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['table']->children['body']->children['tbody_tr_4']->children['tbody_tr_4_td_1']->children['content']->args = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['table']->children['body']->children['tbody_tr_4']->children['tbody_tr_4_td_1']->children['content']->weight = 0;
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->template = null;
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5'] = new \effectivecore\form_container();
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->template = 'form_container';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->tag_name = 'fieldset';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->title = 'Html 5 elements';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->description = null;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->attributes = [];
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['fieldset_html5_legend'] = new \effectivecore\markup();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['fieldset_html5_legend']->tag_name = 'legend';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['fieldset_html5_legend']->weight = 0;
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['fieldset_html5_legend']->attributes = [];
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['fieldset_html5_legend']->children['content'] = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['fieldset_html5_legend']->children['content']->text = 'Html 5 elements';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['fieldset_html5_legend']->children['content']->args = [];
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['fieldset_html5_legend']->children['content']->weight = 0;
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['fieldset_html5_legend']->template = null;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_search'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_search']->tag_name = 'x-field';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_search']->template = 'form_container';
@@ -1238,7 +1225,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_color']->children['default']->attributes['name'] = 'input_color';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_color']->children['default']->children = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_color']->children['default']->template = null;
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->template = null;
   settings::$data_orig['forms']['demo']['form_demo']->children['button_submit'] = new \effectivecore\markup();
   settings::$data_orig['forms']['demo']['form_demo']->children['button_submit']->tag_name = 'button';
   settings::$data_orig['forms']['demo']['form_demo']->children['button_submit']->weight = 0;
