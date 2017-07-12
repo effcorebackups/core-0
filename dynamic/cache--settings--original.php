@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-07-12 15:17:53';
+  settings::$data_orig['_created'] = '2017-07-12 15:23:32';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1495,19 +1495,24 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_registration']->attributes['novalidate'] = 'novalidate';
   settings::$data_orig['forms']['user']['form_user_registration']->attributes['method'] = 'post';
   settings::$data_orig['forms']['user']['form_user_registration']->attributes['class']['form-user'] = 'form-user';
-  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default'] = new \effectivecore\form_container();
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->template = 'form_container';
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->tag_name = 'fieldset';
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->title = null;
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->description = null;
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->weight = 0;
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->attributes = [];
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->tag_name = 'x-field';
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->template = 'form_container';
-  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->title = 'EMail';
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->title = null;
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->description = null;
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->weight = 0;
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->attributes = [];
-  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->children['default'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->children['default'] = new \effectivecore\form_element();
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->children['default']->tag_name = 'input';
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->children['default']->title = 'EMail';
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->children['default']->description = '';
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->children['default']->weight = 0;
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->children['default']->attributes['type'] = 'email';
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->children['default']->attributes['name'] = 'email';
@@ -1519,12 +1524,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->tag_name = 'x-field';
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->template = 'form_container';
-  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->title = 'Password';
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->title = null;
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->description = null;
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->weight = 0;
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->attributes = [];
-  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children['default'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children['default'] = new \effectivecore\form_element();
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children['default']->tag_name = 'input';
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children['default']->title = 'Password';
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children['default']->description = '';
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children['default']->weight = 0;
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children['default']->attributes['type'] = 'password';
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children['default']->attributes['name'] = 'password';
@@ -1534,7 +1541,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children['default']->attributes['autocomplete'] = 'off';
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children['default']->children = [];
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_password']->children['default']->template = null;
-  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->template = null;
   settings::$data_orig['forms']['user']['form_user_registration']->children['button_register'] = new \effectivecore\markup();
   settings::$data_orig['forms']['user']['form_user_registration']->children['button_register']->tag_name = 'button';
   settings::$data_orig['forms']['user']['form_user_registration']->children['button_register']->weight = 0;
