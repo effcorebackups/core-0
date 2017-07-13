@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-07-13 13:24:33';
+  settings::$data_orig['_created'] = '2017-07-13 15:57:10';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1209,15 +1209,15 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->template_title = 'form_title';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->title = 'Telephone';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->description = new \effectivecore\text();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->description->text = 'Element %%_info.';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->description->args['info'] = '&lt;input type="tel"&gt;';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->description->text = 'Use international format of mobile phone numbers.';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->description->args = [];
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->description->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->tag_name = 'input';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->weight = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->attributes['type'] = 'tel';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->attributes['name'] = 'input_tel';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->attributes['required'] = 'required';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->attributes['value'] = 123456789;
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->attributes['value'] = '&#43;0123456789';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->attributes['minlength'] = 5;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->attributes['maxlength'] = 15;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_tel']->children['default']->children = [];
@@ -1890,6 +1890,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
   settings::$data_orig['translate']['translate']->ru['Field should contain minimum %%_lenght symbols.'] = 'Поле должно содержать минимум %%_lenght символов.';
   settings::$data_orig['translate']['translate']->ru['Field should contain maximum %%_lenght symbols.'] = 'Поле должно содержать максимум %%_lenght символов.';
+  settings::$data_orig['translate']['translate']->ru['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   settings::$data_orig['translate']['translate']->ru['Element %%_info.'] = 'Элемент %%_info.';
   settings::$data_orig['translate']['translate']->ru['Actions'] = 'Действия';
   settings::$data_orig['translate']['translate']->ru['Administer'] = 'Администрирование';
