@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-13 12:34:51';
+  settings::$data['_created'] = '2017-07-13 12:45:14';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -1702,7 +1702,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['templates']['page']['table_body_row'] = 'templates/template--table_body_row.html';
   settings::$data['templates']['page']['table_body_row_cell'] = 'templates/template--table_body_row_cell.html';
   settings::$data['templates']['page']['form'] = 'templates/template--form.html';
-  settings::$data['templates']['page']['form_label'] = 'templates/template--form_label.html';
+  settings::$data['templates']['page']['form_title'] = 'templates/template--form_title.html';
   settings::$data['templates']['page']['form_container'] = 'templates/template--form_container.html';
   settings::$data['templates']['tree']['tree'] = 'templates/template--tree.html';
   settings::$data['templates']['tree']['tree_item'] = 'templates/template--tree_item.html';
