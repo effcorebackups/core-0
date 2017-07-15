@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-07-15 22:58:03';
+  settings::$data_orig['_created'] = '2017-07-15 23:18:46';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -79,7 +79,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['core']['page_front']->url = new \stdClass();
   settings::$data_orig['pages']['core']['page_front']->url->match = '%^/$%';
   settings::$data_orig['pages']['core']['page_front']->access = null;
-  settings::$data_orig['pages']['core']['page_front']->constants = null;
   settings::$data_orig['pages']['core']['page_front']->content['block_tree_main'] = new \stdClass();
   settings::$data_orig['pages']['core']['page_front']->content['block_tree_main']->region = 'nav';
   settings::$data_orig['pages']['core']['page_front']->content['block_tree_main']->type = 'link';
@@ -97,7 +96,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['core']['page_install']->url = new \stdClass();
   settings::$data_orig['pages']['core']['page_install']->url->match = '%^/install$%';
   settings::$data_orig['pages']['core']['page_install']->access = null;
-  settings::$data_orig['pages']['core']['page_install']->constants = null;
   settings::$data_orig['pages']['core']['page_install']->content['block_tree_main'] = new \stdClass();
   settings::$data_orig['pages']['core']['page_install']->content['block_tree_main']->region = 'nav';
   settings::$data_orig['pages']['core']['page_install']->content['block_tree_main']->type = 'link';
@@ -116,7 +114,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['core']['page_modules']->url->match = '%^/admin/modules$%';
   settings::$data_orig['pages']['core']['page_modules']->access = new \stdClass();
   settings::$data_orig['pages']['core']['page_modules']->access->roles['admins'] = 'admins';
-  settings::$data_orig['pages']['core']['page_modules']->constants = null;
   settings::$data_orig['pages']['core']['page_modules']->content['block_tree_main'] = new \stdClass();
   settings::$data_orig['pages']['core']['page_modules']->content['block_tree_main']->region = 'nav';
   settings::$data_orig['pages']['core']['page_modules']->content['block_tree_main']->type = 'link';
@@ -135,7 +132,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['demo']['page_demo']->url->match = '%^/admin/demo$%';
   settings::$data_orig['pages']['demo']['page_demo']->access = new \stdClass();
   settings::$data_orig['pages']['demo']['page_demo']->access->roles['admins'] = 'admins';
-  settings::$data_orig['pages']['demo']['page_demo']->constants = null;
   settings::$data_orig['pages']['demo']['page_demo']->content['block_tree_main'] = new \stdClass();
   settings::$data_orig['pages']['demo']['page_demo']->content['block_tree_main']->region = 'nav';
   settings::$data_orig['pages']['demo']['page_demo']->content['block_tree_main']->type = 'link';
@@ -154,7 +150,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['page']['page_decoration']->url->match = '%^/admin/decoration$%';
   settings::$data_orig['pages']['page']['page_decoration']->access = new \stdClass();
   settings::$data_orig['pages']['page']['page_decoration']->access->roles['admins'] = 'admins';
-  settings::$data_orig['pages']['page']['page_decoration']->constants = null;
   settings::$data_orig['pages']['page']['page_decoration']->content['block_tree_main'] = new \stdClass();
   settings::$data_orig['pages']['page']['page_decoration']->content['block_tree_main']->region = 'nav';
   settings::$data_orig['pages']['page']['page_decoration']->content['block_tree_main']->type = 'link';
@@ -212,7 +207,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->url->args['user_id'] = 4;
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->access = new \stdClass();
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->access->roles['admins'] = 'admins';
-  settings::$data_orig['pages']['user']['page_admin_users_delete_n']->constants = null;
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['block_tree_main'] = new \stdClass();
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['block_tree_main']->region = 'nav';
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['block_tree_main']->type = 'link';
@@ -235,7 +229,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_user_login']->url->match = '%^/user/login$%';
   settings::$data_orig['pages']['user']['page_user_login']->access = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_login']->access->roles['anonymous'] = 'anonymous';
-  settings::$data_orig['pages']['user']['page_user_login']->constants = null;
   settings::$data_orig['pages']['user']['page_user_login']->content['block_tree_main'] = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_login']->content['block_tree_main']->region = 'nav';
   settings::$data_orig['pages']['user']['page_user_login']->content['block_tree_main']->type = 'link';
@@ -255,7 +248,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_user_logout']->url->match = '%^/user/logout$%';
   settings::$data_orig['pages']['user']['page_user_logout']->access = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_logout']->access->roles['registered'] = 'registered';
-  settings::$data_orig['pages']['user']['page_user_logout']->constants = null;
   settings::$data_orig['pages']['user']['page_user_logout']->content['block_tree_main'] = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_logout']->content['block_tree_main']->region = 'nav';
   settings::$data_orig['pages']['user']['page_user_logout']->content['block_tree_main']->type = 'link';
@@ -276,7 +268,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_user_n']->access = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_n']->access->roles['admins'] = 'admins';
   settings::$data_orig['pages']['user']['page_user_n']->access->roles['registered'] = 'registered';
-  settings::$data_orig['pages']['user']['page_user_n']->constants = null;
   settings::$data_orig['pages']['user']['page_user_n']->content['block_tree_main'] = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_n']->content['block_tree_main']->region = 'nav';
   settings::$data_orig['pages']['user']['page_user_n']->content['block_tree_main']->type = 'link';
@@ -298,7 +289,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_user_n_edit']->access = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_n_edit']->access->roles['admins'] = 'admins';
   settings::$data_orig['pages']['user']['page_user_n_edit']->access->roles['registered'] = 'registered';
-  settings::$data_orig['pages']['user']['page_user_n_edit']->constants = null;
   settings::$data_orig['pages']['user']['page_user_n_edit']->content['block_tree_main'] = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_n_edit']->content['block_tree_main']->region = 'nav';
   settings::$data_orig['pages']['user']['page_user_n_edit']->content['block_tree_main']->type = 'link';
@@ -322,7 +312,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_user_registration']->url->match = '%^/user/registration$%';
   settings::$data_orig['pages']['user']['page_user_registration']->access = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_registration']->access->roles['anonymous'] = 'anonymous';
-  settings::$data_orig['pages']['user']['page_user_registration']->constants = null;
   settings::$data_orig['pages']['user']['page_user_registration']->content['block_tree_main'] = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_registration']->content['block_tree_main']->region = 'nav';
   settings::$data_orig['pages']['user']['page_user_registration']->content['block_tree_main']->type = 'link';
