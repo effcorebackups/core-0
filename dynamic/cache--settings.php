@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-15 23:27:57';
+  settings::$data['_created'] = '2017-07-15 23:38:01';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -762,7 +762,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['table']->children['body']->children['tbody_tr_4']->children['tbody_tr_4_td_1'] = new \effectivecore\table_body_row_cell();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['table']->children['body']->children['tbody_tr_4']->children['tbody_tr_4_td_1']->attributes['colspan'] = 3;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['table']->children['body']->children['tbody_tr_4']->children['tbody_tr_4_td_1']->children['content'] = new \effectivecore\text();
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['table']->children['body']->children['tbody_tr_4']->children['tbody_tr_4_td_1']->children['content']->text = '';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5'] = new \effectivecore\form_container();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->tag_name = 'fieldset';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html5']->title = 'Html 5 elements';
