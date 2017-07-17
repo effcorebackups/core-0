@@ -61,7 +61,7 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\marker_call_construct_after_load']->type = 'trait';
   cache_factory::$data['classes_map']['effectivecore\marker_call_construct_after_load']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\marker_call_construct_after_load']->name = 'marker_call_construct_after_load';
-  cache_factory::$data['classes_map']['effectivecore\marker_call_construct_after_load']->file = 'modules/core/classes/indicator--is_call_construct.php';
+  cache_factory::$data['classes_map']['effectivecore\marker_call_construct_after_load']->file = 'modules/core/classes/marker--call_construct_after_load.php';
   cache_factory::$data['classes_map']['effectivecore\events_form'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\events_form']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\events_form']->namespace = 'effectivecore';
