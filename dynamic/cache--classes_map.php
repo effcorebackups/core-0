@@ -57,11 +57,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\url']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\url']->name = 'url';
   cache_factory::$data['classes_map']['effectivecore\url']->file = 'modules/core/classes/gl--url.php';
-  cache_factory::$data['classes_map']['effectivecore\marker_call_construct_after_load'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\marker_call_construct_after_load']->type = 'trait';
-  cache_factory::$data['classes_map']['effectivecore\marker_call_construct_after_load']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\marker_call_construct_after_load']->name = 'marker_call_construct_after_load';
-  cache_factory::$data['classes_map']['effectivecore\marker_call_construct_after_load']->file = 'modules/core/classes/marker--call_construct_after_load.php';
+  cache_factory::$data['classes_map']['effectivecore\call_construct'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\call_construct']->type = 'interface';
+  cache_factory::$data['classes_map']['effectivecore\call_construct']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\call_construct']->name = 'call_construct';
+  cache_factory::$data['classes_map']['effectivecore\call_construct']->file = 'modules/core/classes/marker--call_construct.php';
   cache_factory::$data['classes_map']['effectivecore\events_form'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\events_form']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\events_form']->namespace = 'effectivecore';
@@ -190,6 +190,7 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\form_field_radios']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\form_field_radios']->name = 'form_field_radios';
   cache_factory::$data['classes_map']['effectivecore\form_field_radios']->extends = 'form_container';
+  cache_factory::$data['classes_map']['effectivecore\form_field_radios']->implements['call_construct'] = 'call_construct';
   cache_factory::$data['classes_map']['effectivecore\form_field_radios']->file = 'modules/page/patterns/pattern--form_field_radios.php';
   cache_factory::$data['classes_map']['effectivecore\form_field_select'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\form_field_select']->type = 'class';
