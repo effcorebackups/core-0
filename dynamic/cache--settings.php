@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-18 13:48:36';
+  settings::$data['_created'] = '2017-07-18 14:08:24';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -596,14 +596,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->children['input_radio_3']->attributes['name'] = 'input_radio';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->children['input_radio_3']->attributes['value'] = 'radio_3';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->children['input_radio_3']->title_position = 'right';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic'] = factory::class_get_new_instance('\\effectivecore\\form_field_radios');
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic']->title = 'Radios (dynamic)';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic']->attributes['class']['boxes'] = 'boxes';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic']->attributes['class']['radios'] = 'radios';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic']->values['radio_4'] = 'Radio 4';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic']->values['radio_5'] = 'Radio 5';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic']->values['radio_6'] = 'Radio 6';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic']->__construct();
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro'] = factory::class_get_new_instance('\\effectivecore\\form_field_radios');
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->title = 'Radios (macro)';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->attributes['name'] = 'input_radio_macro';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->values['radio_4'] = 'Radio 4';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->values['radio_5'] = 'Radio 5';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->values['radio_6'] = 'Radio 6';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->__construct();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select'] = factory::class_get_new_instance('\\effectivecore\\form_field');
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default'] = factory::class_get_new_instance('\\effectivecore\\form_element');
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->title = 'Select';
