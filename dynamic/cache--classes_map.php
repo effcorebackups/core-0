@@ -195,7 +195,6 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\form_field_radios']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\form_field_radios']->name = 'form_field_radios';
   cache_factory::$data['classes_map']['effectivecore\form_field_radios']->extends = 'form_container';
-  cache_factory::$data['classes_map']['effectivecore\form_field_radios']->implements['late_constructor'] = 'late_constructor';
   cache_factory::$data['classes_map']['effectivecore\form_field_radios']->file = 'modules/page/patterns/pattern--form_field_radios.php';
   cache_factory::$data['classes_map']['effectivecore\form_field_select'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\form_field_select']->type = 'class';
