@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-17 17:13:06';
+  settings::$data['_created'] = '2017-07-18 13:26:45';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -603,6 +603,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic']->values['radio_4'] = 'Radio 4';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic']->values['radio_5'] = 'Radio 5';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic']->values['radio_6'] = 'Radio 6';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_dynamic']->__construct();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select'] = factory::class_get_new_instance('\\effectivecore\\form_field');
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default'] = factory::class_get_new_instance('\\effectivecore\\form_element');
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->title = 'Select';
