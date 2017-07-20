@@ -190,6 +190,12 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\form_field']->name = 'form_field';
   cache_factory::$data['classes_map']['effectivecore\form_field']->extends = 'form_container';
   cache_factory::$data['classes_map']['effectivecore\form_field']->file = 'modules/page/patterns/pattern--form_field.php';
+  cache_factory::$data['classes_map']['effectivecore\form_field_palette'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\form_field_palette']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\form_field_palette']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\form_field_palette']->name = 'form_field_palette';
+  cache_factory::$data['classes_map']['effectivecore\form_field_palette']->extends = 'form_field_radios';
+  cache_factory::$data['classes_map']['effectivecore\form_field_palette']->file = 'modules/page/patterns/pattern--form_field_palette.php';
   cache_factory::$data['classes_map']['effectivecore\form_field_radios'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\form_field_radios']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\form_field_radios']->namespace = 'effectivecore';

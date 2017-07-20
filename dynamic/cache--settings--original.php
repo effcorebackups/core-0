@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-07-19 23:34:12';
+  settings::$data_orig['_created'] = '2017-07-20 12:28:16';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -880,14 +880,12 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default'] = new \effectivecore\form_container();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->tag_name = 'fieldset';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->title = 'Colors';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color'] = new \effectivecore\form_field_radios();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color'] = new \effectivecore\form_field_palette();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->title = 'Color';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->attributes['name'] = 'color';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->attributes['class']['palette'] = 'palette';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg'] = new \effectivecore\form_field_radios();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->name = 'color';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg'] = new \effectivecore\form_field_palette();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->title = 'Background color';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->attributes['name'] = 'color_bg';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->attributes['class']['palette'] = 'palette';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->name = 'color_bg';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->tag_name = 'button';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->attributes['type'] = 'submit';
@@ -1217,6 +1215,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Field should contain maximum %%_lenght symbols.'] = 'Поле должно содержать максимум %%_lenght символов.';
   settings::$data_orig['translate']['translate']->ru['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   settings::$data_orig['translate']['translate']->ru['Element %%_info.'] = 'Элемент %%_info.';
+  settings::$data_orig['translate']['translate']->ru['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   settings::$data_orig['translate']['translate']->ru['Actions'] = 'Действия';
   settings::$data_orig['translate']['translate']->ru['Administer'] = 'Администрирование';
   settings::$data_orig['translate']['translate']->ru['Administrators'] = 'Администраторы';
