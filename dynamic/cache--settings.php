@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-20 12:28:16';
+  settings::$data['_created'] = '2017-07-21 16:16:56';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -199,7 +199,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['pages']['user']['page_admin_users']->content['block_users']->type = 'code';
   settings::$data['pages']['user']['page_admin_users']->content['block_users']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_admin_users';
   settings::$data['pages']['user']['page_admin_users_delete_n'] = new \effectivecore\page();
-  settings::$data['pages']['user']['page_admin_users_delete_n']->title = 'Delete profile (%%_user_email_context-4)?';
+  settings::$data['pages']['user']['page_admin_users_delete_n']->title = 'Delete profile (%%_user_email_context{4})?';
   settings::$data['pages']['user']['page_admin_users_delete_n']->url = new \stdClass();
   settings::$data['pages']['user']['page_admin_users_delete_n']->url->match = '%^/admin/users/delete/[0-9]+$%';
   settings::$data['pages']['user']['page_admin_users_delete_n']->url->args['user_id'] = 4;
@@ -259,7 +259,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['pages']['user']['page_user_logout']->content['form_user_login']->type = 'link';
   settings::$data['pages']['user']['page_user_logout']->content['form_user_login']->link = 'forms/user/form_user_logout';
   settings::$data['pages']['user']['page_user_n'] = new \effectivecore\page();
-  settings::$data['pages']['user']['page_user_n']->title = 'User profile (%%_user_email_context-2)';
+  settings::$data['pages']['user']['page_user_n']->title = 'User profile (%%_user_email_context{2})';
   settings::$data['pages']['user']['page_user_n']->url = new \stdClass();
   settings::$data['pages']['user']['page_user_n']->url->match = '%^/user/[0-9]+$%';
   settings::$data['pages']['user']['page_user_n']->url->args['user_id'] = 2;
@@ -280,7 +280,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['pages']['user']['page_user_n']->content['block_user_n']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_user_n';
   settings::$data['pages']['user']['page_user_n']->https = true;
   settings::$data['pages']['user']['page_user_n_edit'] = new \effectivecore\page();
-  settings::$data['pages']['user']['page_user_n_edit']->title = 'Edit profile (%%_user_email_context-2)';
+  settings::$data['pages']['user']['page_user_n_edit']->title = 'Edit profile (%%_user_email_context{2})';
   settings::$data['pages']['user']['page_user_n_edit']->url = new \stdClass();
   settings::$data['pages']['user']['page_user_n_edit']->url->match = '%^/user/[0-9]+/edit$%';
   settings::$data['pages']['user']['page_user_n_edit']->url->args['user_id'] = 2;
@@ -1237,12 +1237,12 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['Created'] = 'Создано';
   settings::$data['translate']['translate']->ru['Date'] = 'Дата';
   settings::$data['translate']['translate']->ru['Decoration'] = 'Оформление';
-  settings::$data['translate']['translate']->ru['Delete profile (%%_user_email_context-4)?'] = 'Удалить профиль (%%_user_email_context-4)?';
+  settings::$data['translate']['translate']->ru['Delete profile (%%_user_email_context{4})?'] = 'Удалить профиль (%%_user_email_context{4})?';
   settings::$data['translate']['translate']->ru['delete'] = 'удалить';
   settings::$data['translate']['translate']->ru['Demo'] = 'Демо';
   settings::$data['translate']['translate']->ru['Description'] = 'Описание';
   settings::$data['translate']['translate']->ru['disabled'] = 'выкл.';
-  settings::$data['translate']['translate']->ru['Edit profile (%%_user_email_context-2)'] = 'Редактировать профиль (%%_user_email_context-2)';
+  settings::$data['translate']['translate']->ru['Edit profile (%%_user_email_context{2})'] = 'Редактировать профиль (%%_user_email_context{2})';
   settings::$data['translate']['translate']->ru['Edit profile'] = 'Редактировать профиль';
   settings::$data['translate']['translate']->ru['edit'] = 'изменить';
   settings::$data['translate']['translate']->ru['EMail'] = 'Адрес электронной почты';
@@ -1316,7 +1316,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['Translate'] = 'Перевод';
   settings::$data['translate']['translate']->ru['Tree'] = 'Дерево';
   settings::$data['translate']['translate']->ru['User menu'] = 'Меню пользователя';
-  settings::$data['translate']['translate']->ru['User profile (%%_user_email_context-2)'] = 'Профиль пользователя (%%_user_email_context-2)';
+  settings::$data['translate']['translate']->ru['User profile (%%_user_email_context{2})'] = 'Профиль пользователя (%%_user_email_context{2})';
   settings::$data['translate']['translate']->ru['User roles'] = 'Роли пользователя';
   settings::$data['translate']['translate']->ru['User'] = 'Пользователь';
   settings::$data['translate']['translate']->ru['Users'] = 'Пользователи';
