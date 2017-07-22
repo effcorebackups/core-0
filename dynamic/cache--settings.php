@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-22 13:59:57';
+  settings::$data['_created'] = '2017-07-22 22:38:25';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -596,7 +596,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->children['input_radio_3']->attributes['name'] = 'input_radio';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->children['input_radio_3']->attributes['value'] = 'radio_3';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios']->children['field_radio_3']->children['input_radio_3']->title_position = 'right';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro'] = new \effectivecore\form_field_radios();
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro'] = new \effectivecore\form_radios();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->values['radio_4'] = 'Radio 4';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->values['radio_5'] = 'Radio 5';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->values['radio_6'] = 'Radio 6';
