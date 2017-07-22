@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-07-22 22:38:25';
+  settings::$data_orig['_created'] = '2017-07-22 22:42:22';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -679,6 +679,12 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->children['default']->children['select_option_9']->attributes['value'] = 'option_9';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->children['default']->children['select_option_9']->children['content'] = new \effectivecore\text();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_multiple']->children['default']->children['select_option_9']->children['content']->text = 'Option 9';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro'] = new \effectivecore\form_field_select();
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->title = 'Select (macro)';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->attributes['name'] = 'select_macro';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->values['option_10'] = 'Option 10';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->values['option_11'] = 'Option 11';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->values['option_12'] = 'Option 12';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->children['default'] = new \effectivecore\form_element();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->children['default']->title = 'Textarea';
