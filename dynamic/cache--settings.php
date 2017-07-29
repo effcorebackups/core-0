@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-29 19:55:59';
+  settings::$data['_created'] = '2017-07-29 23:29:37';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -602,6 +602,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->values['radio_5'] = 'Radio 5';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->values['radio_6'] = 'Radio 6';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->title = 'Radios (macro)';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->description = new \effectivecore\text();
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->description->text = 'Element %%_info.';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->description->args['info'] = '&lt;input type="radio"&gt;';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_radios_macro']->attributes['name'] = 'input_radio_macro';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_color_macro'] = new \effectivecore\form_palette();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_color_macro']->title = 'Color';
@@ -614,8 +617,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->description->args['info'] = '&lt;select&gt;';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->tag_name = 'select';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->attributes['name'] = 'select';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->attributes['required'] = 'required';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->attributes['multiple'] = 'multiple';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->attributes['size'] = 7;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->attributes['size'] = 8;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['not_selected'] = new \effectivecore\markup();
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['not_selected']->tag_name = 'option';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['not_selected']->children['content'] = new \effectivecore\text();
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['not_selected']->children['content']->text = '- select -';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['option_1'] = new \effectivecore\markup();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['option_1']->tag_name = 'option';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['option_1']->attributes['value'] = 'option_1';
@@ -650,6 +658,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['optgroup_1']->children['option_6']->children['content'] = new \effectivecore\text();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['optgroup_1']->children['option_6']->children['content']->text = 'Option 6';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro'] = new \effectivecore\form_field_select();
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->values['not_selected'] = '- select -';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->values['option_7'] = 'Option 7';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->values['option_8'] = 'Option 8';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->values['option_9'] = 'Option 9';
@@ -659,9 +668,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->values['group_2']->values['option_11'] = 'Option 11';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->values['group_2']->values['option_12'] = 'Option 12';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->title = 'Select (macro)';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->description = new \effectivecore\text();
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->description->text = 'Element %%_info.';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->description->args['info'] = '&lt;select&gt;';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->attributes['name'] = 'select_macro';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->attributes['required'] = 'required';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->attributes['multiple'] = 'multiple';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->attributes['size'] = 7;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select_macro']->attributes['size'] = 8;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->children['default'] = new \effectivecore\form_element();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_textarea']->children['default']->title = 'Textarea';
@@ -1202,6 +1215,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   settings::$data['translate']['translate']->ru['Element %%_info.'] = 'Элемент %%_info.';
   settings::$data['translate']['translate']->ru['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
+  settings::$data['translate']['translate']->ru['- select -'] = '- выбрать -';
   settings::$data['translate']['translate']->ru['Actions'] = 'Действия';
   settings::$data['translate']['translate']->ru['Administer'] = 'Администрирование';
   settings::$data['translate']['translate']->ru['Administrators'] = 'Администраторы';
