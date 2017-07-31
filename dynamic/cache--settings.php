@@ -1,10 +1,10 @@
-<?php 
+<?php
 
 namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-07-29 23:29:37';
+  settings::$data['_created'] = '2017-07-31 21:22:38';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
