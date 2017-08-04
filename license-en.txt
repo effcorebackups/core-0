@@ -1,0 +1,22 @@
+
+
+SOFTWARE LICENSE TERMS AND CONDITIONS
+
+
+AUTHOR / RIGHTSHOLDER
+---------------------
+The author and rightholder (hereinafter referred to as the "rightholder")
+for this software (hereinafter referred to as the "software")
+is Rysevets Maxim Vladimirovich.
+
+
+USAGE
+-----
+The software should be used to create websites,
+web portals and other information systems.
+
+
+MODIFICATION
+------------
+The modification of the software is allowed (without distribution
+and publication of changes).
