@@ -12,11 +12,20 @@ is Rysevets Maxim Vladimirovich.
 
 USAGE
 -----
-The software should be used to create websites,
+Software should be used to create websites,
 web portals and other information systems.
 
 
 MODIFICATION
 ------------
-The modification of the software is allowed (without distribution
-and publication of changes).
+Allowed the modification of software (without distribution
+and publish changes) and its usе according to section "USAGE".
+Violation of software protection is a violation of this
+license agreement.
+
+
+BORROWING
+---------
+Forbidden any borrowings from software except the next cases:
+- allowed to use parts of software to create
+  own modules for working with software.
