@@ -26,6 +26,29 @@ license agreement.
 
 BORROWING
 ---------
-Forbidden any borrowings from software except the next cases:
+Disallowed any borrowings from software except the next cases:
 - allowed to use parts of software to create
   own modules for working with software.
+
+
+DISTRIBUTION
+------------
+Disallowed any distribution of software or its parts,
+in modified or non modified form,
+for money or free,
+except the next cases:
+- allowed to use examples of software source code
+  in technical documentation for this software (citation);
+- allowed to use examples of software source code
+  on technical forums for web developers (citation).
+
+
+GUARANTEES AND RESPONSIBILITY OF THE PARTIES
+--------------------------------------------
+The author and/or rightholder does not give guarantees and does not carry
+responsibility for using software.
+This license agreement is an integral part of this software.
+Usage of this software is possible only under the terms of this license agreement.
+Violation of this license agreement entails a civil,
+administrative and criminal responsibility.
+
