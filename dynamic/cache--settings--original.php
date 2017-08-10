@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-07-31 21:22:38';
+  settings::$data_orig['_created'] = '2017-08-10 12:28:38';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -627,6 +627,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['option_1'] = new \effectivecore\markup();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['option_1']->tag_name = 'option';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['option_1']->attributes['value'] = 'option_1';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['option_1']->attributes['selected'] = 'selected';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['option_1']->children['content'] = new \effectivecore\text();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['option_1']->children['content']->text = 'Option 1';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html4']->children['field_select']->children['default']->children['option_2'] = new \effectivecore\markup();
@@ -816,7 +817,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_range']->children['default']->attributes['value'] = 0;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_range']->children['default']->attributes['min'] = -10;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_range']->children['default']->attributes['max'] = 10;
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_range']->children['default']->attributes['step'] = 1;
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_range']->children['default']->attributes['step'] = 0.3;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_date'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_date']->children['default'] = new \effectivecore\form_element();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_html5']->children['field_date']->children['default']->title = 'Date';
