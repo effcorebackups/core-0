@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-08-12 16:00:39';
+  settings::$data['_created'] = '2017-08-12 16:41:36';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -594,10 +594,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['type'] = 'number';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['name'] = 'input_number';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['required'] = 'required';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['value'] = 0;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['min'] = -10;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['max'] = 10;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['step'] = 1;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['value'] = -2.5;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['min'] = -5;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['max'] = 5;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['step'] = 0.5;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default'] = new \effectivecore\form_element();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->title = 'Range';
@@ -607,10 +607,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['type'] = 'range';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['name'] = 'input_range';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['value'] = 0;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['min'] = -10;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['max'] = 10;
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['step'] = 0.3;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['value'] = -2.5;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['min'] = -5;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['max'] = 5;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['step'] = 0.5;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_date'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_date']->children['default'] = new \effectivecore\form_element();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_date']->children['default']->title = 'Date';
@@ -644,6 +644,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_color']->children['default']->tag_name = 'input';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_color']->children['default']->attributes['type'] = 'color';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_color']->children['default']->attributes['name'] = 'input_color';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_color']->children['default']->attributes['value'] = '#ffffff';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_textarea'] = new \effectivecore\form_field();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_textarea']->children['default'] = new \effectivecore\form_element();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_textarea']->children['default']->title = 'Textarea';
@@ -664,7 +665,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->description->text = 'Element %%_info.';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->description->args['info'] = '&lt;select&gt;';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->tag_name = 'select';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->attributes['name'] = 'select';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->attributes['name'] = 'select[]';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->attributes['required'] = 'required';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->attributes['multiple'] = 'multiple';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->attributes['size'] = 8;
@@ -721,7 +722,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->description = new \effectivecore\text();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->description->text = 'Element %%_info.';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->description->args['info'] = '&lt;select&gt;';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->attributes['name'] = 'select_macro';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->attributes['name'] = 'select_macro[]';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->attributes['required'] = 'required';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->attributes['multiple'] = 'multiple';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->attributes['size'] = 8;
