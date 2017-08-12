@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-08-12 14:17:40';
+  settings::$data_orig['_created'] = '2017-08-12 16:00:39';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -670,6 +670,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->attributes['size'] = 8;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->children['not_selected'] = new \effectivecore\markup();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->children['not_selected']->tag_name = 'option';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->children['not_selected']->attributes['value'] = null;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->children['not_selected']->children['content'] = new \effectivecore\text();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->children['not_selected']->children['content']->text = '- select -';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select']->children['default']->children['option_1'] = new \effectivecore\markup();
