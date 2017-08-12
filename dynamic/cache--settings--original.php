@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-08-12 14:10:11';
+  settings::$data_orig['_created'] = '2017-08-12 14:17:40';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -771,7 +771,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_radios']->children['field_radio_1']->children['default']->attributes['type'] = 'radio';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_radios']->children['field_radio_1']->children['default']->attributes['name'] = 'input_radio';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_radios']->children['field_radio_1']->children['default']->attributes['value'] = 'radio_1';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_radios']->children['field_radio_1']->children['default']->attributes['disabled'] = 'disabled';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_radios']->children['field_radio_1']->children['default']->title_position = 'right';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_radios']->children['field_radio_2'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_radios']->children['field_radio_2']->children['default'] = new \effectivecore\form_element();
