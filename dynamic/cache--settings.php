@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-08-13 11:08:09';
+  settings::$data['_created'] = '2017-08-13 11:37:10';
   settings::$data['file_types']['core']['php'] = new \stdClass();
   settings::$data['file_types']['core']['php']->protected = 1;
   settings::$data['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -690,7 +690,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description = new \effectivecore\text();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->text = 'Element %%_info.';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->args['info'] = '&lt;select&gt;';
-  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['name'] = 'select_macro[]';
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['name'] = 'select_multiple_macro[]';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['required'] = 'required';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['multiple'] = 'multiple';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['size'] = 8;
