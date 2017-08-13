@@ -1,54 +1,53 @@
 
 
-SOFTWARE LICENSE TERMS AND CONDITIONS
+SOFTWARE LICENSE AGREEMENT
 
 
-AUTHOR / RIGHTSHOLDER
----------------------
-The author and rightholder (hereinafter referred to as the "rightholder")
-for this software (hereinafter referred to as the "software")
-is Rysevets Maxim Vladimirovich.
+AUTHOR / RIGHTHOLDER
+--------------------
+The author and rightholder (hereinafter referred to as the "Rightholder")
+for this software (hereinafter referred to as the "Software")
+is Maxim Vladimirovich Rysevets.
 
 
 USAGE
 -----
-Software should be used to create websites,
+This Software shall be used to create websites,
 web portals and other information systems.
 
 
 MODIFICATION
 ------------
-Allowed the modification of software (without distribution
-and publish changes) and its usе according to section "USAGE".
-Violation of software protection is a violation of this
-license agreement.
+Allowed the modification of Software (without distribution
+and publish changes) and its usеd as set forth in "USAGE".
+Any breach of the Software protection shall
+constitute a violation hereof.
 
 
 BORROWING
 ---------
-Disallowed any borrowings from software except the next cases:
-- allowed to use parts of software to create
-  own modules for working with software.
+Disallowed any borrowings from this Software except the next cases:
+- allowed to use parts of this Software to create
+  individual modules designed to work with Software.
 
 
 DISTRIBUTION
 ------------
-Disallowed any distribution of software or its parts,
-in modified or non modified form,
-for money or free,
+Disallowed any distribution of Software or any part thereof,
+either modified or non-modified,
+for money or free of charge,
 except the next cases:
-- allowed to use examples of software source code
-  in technical documentation for this software (citation);
-- allowed to use examples of software source code
-  on technical forums for web developers (citation).
+- allowed to use examples of Software source code
+  in technical documentation for this Software (i.e. citation);
+- allowed to use examples of Software source code
+  on technical forums for web developers (i.e. citation).
 
 
-GUARANTEES AND RESPONSIBILITY OF THE PARTIES
+WARRANTY AND RESPONSIBILITIES OF THE PARTIES
 --------------------------------------------
-The author and/or rightholder does not give guarantees and does not carry
-responsibility for using software.
-This license agreement is an integral part of this software.
-Usage of this software is possible only under the terms of this license agreement.
-Violation of this license agreement entails a civil,
-administrative and criminal responsibility.
+The author and/or Rightholder does not provide any warranty and does not assume
+any responsibility or liability for the use of this Software.
+This license agreement shall form an integral part of this Software.
+This Software can be used only under the terms and conditions hereof.
+Any violation thereof will result in a civil, administrative and criminal prosecution.
 
