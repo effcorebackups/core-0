@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-08-13 11:37:10';
+  settings::$data_orig['_created'] = '2017-08-14 13:30:44';
   settings::$data_orig['file_types']['core']['php'] = new \stdClass();
   settings::$data_orig['file_types']['core']['php']->protected = 1;
   settings::$data_orig['file_types']['core']['php']->headers['Content-type'] = 'text/html';
@@ -660,15 +660,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_textarea']->children['default']->children['content']->text = 'text in textarea';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro'] = new \effectivecore\form_field_select();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['not_selected'] = '- select -';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['option_1'] = 'Option 1';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['option_2'] = 'Option 2';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['option_3'] = 'Option 3';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['group_1'] = new \stdClass();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['group_1']->title = 'Group 1';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['group_1']->values['option_4'] = 'Option 4';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['group_1']->values['option_5'] = 'Option 5';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['group_1']->values['option_6'] = 'Option 6';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->selected['option_2'] = 'option_2';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['option_1_1'] = 'Option 1.1';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['option_1_2'] = 'Option 1.2';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['option_1_3'] = 'Option 1.3';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['group_1_1'] = new \stdClass();
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['group_1_1']->title = 'Group 1.1';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->values['group_1_1']->values['option_1_4'] = 'Option 1.4';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->selected['option_1_2'] = 'option_1_2';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->title = 'Select (macro)';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->description = new \effectivecore\text();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->description->text = 'Element %%_info.';
@@ -676,16 +674,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->attributes['name'] = 'select_macro';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro']->attributes['required'] = 'required';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro'] = new \effectivecore\form_field_select();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['not_selected'] = '- select -';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['option_7'] = 'Option 7';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['option_8'] = 'Option 8';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['option_9'] = 'Option 9';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['group_2'] = new \stdClass();
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['group_2']->title = 'Group 2';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['group_2']->values['option_10'] = 'Option 10';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['group_2']->values['option_11'] = 'Option 11';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['group_2']->values['option_12'] = 'Option 12';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->selected['option_8'] = 'option_8';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['option_2_1'] = 'Option 2.1';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['option_2_2'] = 'Option 2.2';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['option_2_3'] = 'Option 2.3';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['group_2_1'] = new \stdClass();
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['group_2_1']->title = 'Group 2.1';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['group_2_1']->values['option_2_4'] = 'Option 2.4';
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->selected['option_2_2'] = 'option_2_2';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->title = 'Select multiple (macro)';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description = new \effectivecore\text();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->text = 'Element %%_info.';
@@ -693,7 +688,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['name'] = 'select_multiple_macro[]';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['required'] = 'required';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['multiple'] = 'multiple';
-  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['size'] = 8;
+  settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['size'] = 11;
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_checkboxes'] = new \effectivecore\form_container();
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_checkboxes']->title = 'Checkboxes';
   settings::$data_orig['forms']['demo']['form_demo']->children['fieldset_default']->children['field_checkboxes']->description = new \effectivecore\text();
