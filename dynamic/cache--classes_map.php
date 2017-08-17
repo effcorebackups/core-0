@@ -339,10 +339,10 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\modules\user\session_factory']->namespace = 'effectivecore\\modules\\user';
   caches_factory::$data['classes_map']['effectivecore\modules\user\session_factory']->name = 'session_factory';
   caches_factory::$data['classes_map']['effectivecore\modules\user\session_factory']->file = 'modules/user/backend/factory--session.php';
-  caches_factory::$data['classes_map']['effectivecore\modules\user\user_factory'] = new \stdClass();
-  caches_factory::$data['classes_map']['effectivecore\modules\user\user_factory']->type = 'class';
-  caches_factory::$data['classes_map']['effectivecore\modules\user\user_factory']->namespace = 'effectivecore\\modules\\user';
-  caches_factory::$data['classes_map']['effectivecore\modules\user\user_factory']->name = 'user_factory';
-  caches_factory::$data['classes_map']['effectivecore\modules\user\user_factory']->file = 'modules/user/backend/factory--user.php';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\users_factory'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\modules\user\users_factory']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\users_factory']->namespace = 'effectivecore\\modules\\user';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\users_factory']->name = 'users_factory';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\users_factory']->file = 'modules/user/backend/factory--users.php';
 
 }
