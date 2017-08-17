@@ -45,7 +45,7 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\caches_factory']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\caches_factory']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\caches_factory']->name = 'caches_factory';
-  caches_factory::$data['classes_map']['effectivecore\caches_factory']->file = 'modules/core/backend/factory--gl--cache.php';
+  caches_factory::$data['classes_map']['effectivecore\caches_factory']->file = 'modules/core/backend/factory--gl--caches.php';
   caches_factory::$data['classes_map']['effectivecore\console_factory'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\console_factory']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\console_factory']->namespace = 'effectivecore';
