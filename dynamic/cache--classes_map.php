@@ -161,11 +161,11 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\modules\page\events_token']->name = 'events_token';
   caches_factory::$data['classes_map']['effectivecore\modules\page\events_token']->extends = '\\effectivecore\\events_token';
   caches_factory::$data['classes_map']['effectivecore\modules\page\events_token']->file = 'modules/page/backend/events--token.php';
-  caches_factory::$data['classes_map']['effectivecore\modules\page\page_factory'] = new \stdClass();
-  caches_factory::$data['classes_map']['effectivecore\modules\page\page_factory']->type = 'class';
-  caches_factory::$data['classes_map']['effectivecore\modules\page\page_factory']->namespace = 'effectivecore\\modules\\page';
-  caches_factory::$data['classes_map']['effectivecore\modules\page\page_factory']->name = 'page_factory';
-  caches_factory::$data['classes_map']['effectivecore\modules\page\page_factory']->file = 'modules/page/backend/factory--page.php';
+  caches_factory::$data['classes_map']['effectivecore\modules\page\pages_factory'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\modules\page\pages_factory']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\modules\page\pages_factory']->namespace = 'effectivecore\\modules\\page';
+  caches_factory::$data['classes_map']['effectivecore\modules\page\pages_factory']->name = 'pages_factory';
+  caches_factory::$data['classes_map']['effectivecore\modules\page\pages_factory']->file = 'modules/page/backend/factory--pages.php';
   caches_factory::$data['classes_map']['effectivecore\form'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\form']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\form']->namespace = 'effectivecore';
