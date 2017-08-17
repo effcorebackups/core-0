@@ -76,11 +76,11 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\tokens_factory']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\tokens_factory']->name = 'tokens_factory';
   caches_factory::$data['classes_map']['effectivecore\tokens_factory']->file = 'modules/core/backend/factory--gl--tokens.php';
-  caches_factory::$data['classes_map']['effectivecore\url_factory'] = new \stdClass();
-  caches_factory::$data['classes_map']['effectivecore\url_factory']->type = 'class';
-  caches_factory::$data['classes_map']['effectivecore\url_factory']->namespace = 'effectivecore';
-  caches_factory::$data['classes_map']['effectivecore\url_factory']->name = 'url_factory';
-  caches_factory::$data['classes_map']['effectivecore\url_factory']->file = 'modules/core/backend/factory--gl--url.php';
+  caches_factory::$data['classes_map']['effectivecore\urls_factory'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\urls_factory']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\urls_factory']->namespace = 'effectivecore';
+  caches_factory::$data['classes_map']['effectivecore\urls_factory']->name = 'urls_factory';
+  caches_factory::$data['classes_map']['effectivecore\urls_factory']->file = 'modules/core/backend/factory--gl--urls.php';
   caches_factory::$data['classes_map']['effectivecore\factory'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\factory']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\factory']->namespace = 'effectivecore';
