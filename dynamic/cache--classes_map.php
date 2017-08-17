@@ -329,11 +329,11 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\modules\user\events_token']->name = 'events_token';
   caches_factory::$data['classes_map']['effectivecore\modules\user\events_token']->extends = '\\effectivecore\\events_token';
   caches_factory::$data['classes_map']['effectivecore\modules\user\events_token']->file = 'modules/user/backend/events--token.php';
-  caches_factory::$data['classes_map']['effectivecore\modules\user\accesses_factory'] = new \stdClass();
-  caches_factory::$data['classes_map']['effectivecore\modules\user\accesses_factory']->type = 'class';
-  caches_factory::$data['classes_map']['effectivecore\modules\user\accesses_factory']->namespace = 'effectivecore\\modules\\user';
-  caches_factory::$data['classes_map']['effectivecore\modules\user\accesses_factory']->name = 'accesses_factory';
-  caches_factory::$data['classes_map']['effectivecore\modules\user\accesses_factory']->file = 'modules/user/backend/factory--accesses.php';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\access_factory'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\modules\user\access_factory']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\access_factory']->namespace = 'effectivecore\\modules\\user';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\access_factory']->name = 'access_factory';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\access_factory']->file = 'modules/user/backend/factory--access.php';
   caches_factory::$data['classes_map']['effectivecore\modules\user\session_factory'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\modules\user\session_factory']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\modules\user\session_factory']->namespace = 'effectivecore\\modules\\user';
