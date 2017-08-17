@@ -282,11 +282,11 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\modules\storage\storages_factory']->namespace = 'effectivecore\\modules\\storage';
   caches_factory::$data['classes_map']['effectivecore\modules\storage\storages_factory']->name = 'storages_factory';
   caches_factory::$data['classes_map']['effectivecore\modules\storage\storages_factory']->file = 'modules/storage/backend/factory--storages.php';
-  caches_factory::$data['classes_map']['effectivecore\translate_factory'] = new \stdClass();
-  caches_factory::$data['classes_map']['effectivecore\translate_factory']->type = 'class';
-  caches_factory::$data['classes_map']['effectivecore\translate_factory']->namespace = 'effectivecore';
-  caches_factory::$data['classes_map']['effectivecore\translate_factory']->name = 'translate_factory';
-  caches_factory::$data['classes_map']['effectivecore\translate_factory']->file = 'modules/translate/backend/factory--gl--translate.php';
+  caches_factory::$data['classes_map']['effectivecore\translations_factory'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\translations_factory']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\translations_factory']->namespace = 'effectivecore';
+  caches_factory::$data['classes_map']['effectivecore\translations_factory']->name = 'translations_factory';
+  caches_factory::$data['classes_map']['effectivecore\translations_factory']->file = 'modules/translate/backend/factory--gl--translations.php';
   caches_factory::$data['classes_map']['effectivecore\modules\tree\events_module'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\modules\tree\events_module']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\modules\tree\events_module']->namespace = 'effectivecore\\modules\\tree';
