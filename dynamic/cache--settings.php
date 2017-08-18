@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-08-17 14:29:39';
+  settings::$data['_created'] = '2017-08-18 10:58:50';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -656,6 +656,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_textarea']->children['default']->attributes['rows'] = 5;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_textarea']->children['default']->attributes['minlength'] = 5;
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_textarea']->children['default']->attributes['maxlength'] = 255;
+  settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_textarea']->children['default']->attributes['required'] = 'required';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_textarea']->children['default']->children['content'] = new \effectivecore\text();
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_textarea']->children['default']->children['content']->text = 'text in textarea';
   settings::$data['forms']['demo']['form_demo']->children['fieldset_default']->children['field_select_macro'] = new \effectivecore\form_field_select();
@@ -1158,11 +1159,11 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['languages']['translate']['ru']->title->native = 'Русский';
   settings::$data['translate']['translate'] = new \stdClass();
   settings::$data['translate']['translate']->ru['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
-  settings::$data['translate']['translate']->ru['Field "%%_title" contain too few symbols!'] = 'Поле "%%_title" содержит слишком мало символов!';
-  settings::$data['translate']['translate']->ru['Field "%%_title" contain too much symbols!'] = 'Поле "%%_title" содержит слишком много символов!';
+  settings::$data['translate']['translate']->ru['Field "%%_title" contain too few characters!'] = 'Поле "%%_title" содержит слишком мало символов!';
+  settings::$data['translate']['translate']->ru['Field "%%_title" contain too much characters!'] = 'Поле "%%_title" содержит слишком много символов!';
   settings::$data['translate']['translate']->ru['Field "%%_title" contains an invalid email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
-  settings::$data['translate']['translate']->ru['Minimum %%_value symbols.'] = 'Минимум %%_value символов.';
-  settings::$data['translate']['translate']->ru['Maximum %%_value symbols.'] = 'Максимум %%_value символов.';
+  settings::$data['translate']['translate']->ru['Must be at least %%_value characters long.'] = 'Должно быть не менее %%_value символов.';
+  settings::$data['translate']['translate']->ru['Must be no more than %%_value characters.'] = 'Должно быть не более %%_value символов.';
   settings::$data['translate']['translate']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   settings::$data['translate']['translate']->ru['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
   settings::$data['translate']['translate']->ru['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
@@ -1172,8 +1173,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['User was not deleted!'] = 'Пользователь не был удален!';
   settings::$data['translate']['translate']->ru['User with this email was already registered!'] = 'Пользователь с таким адресом электронной почты уже был зарегистрирован!';
   settings::$data['translate']['translate']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
-  settings::$data['translate']['translate']->ru['Field should contain minimum %%_lenght symbols.'] = 'Поле должно содержать минимум %%_lenght символов.';
-  settings::$data['translate']['translate']->ru['Field should contain maximum %%_lenght symbols.'] = 'Поле должно содержать максимум %%_lenght символов.';
+  settings::$data['translate']['translate']->ru['Field must contain a minimum of %%_lenght characters.'] = 'Поле должно содержать минимум %%_lenght символов.';
+  settings::$data['translate']['translate']->ru['Field must contain a maximum of %%_lenght characters.'] = 'Поле должно содержать максимум %%_lenght символов.';
   settings::$data['translate']['translate']->ru['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   settings::$data['translate']['translate']->ru['Element %%_info.'] = 'Элемент %%_info.';
   settings::$data['translate']['translate']->ru['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
