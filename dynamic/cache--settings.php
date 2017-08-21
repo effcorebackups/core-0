@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-08-21 14:08:41';
+  settings::$data['_created'] = '2017-08-21 15:14:27';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1160,7 +1160,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['languages']['translate']['ru']->title->en = 'Russian';
   settings::$data['languages']['translate']['ru']->title->native = 'Русский';
   settings::$data['translate']['translate'] = new \stdClass();
-  settings::$data['translate']['translate']->ru['Field "%%_title" is required and can not be without the entered or selected value!'] = 'Поле "%%_title" является обязательным и не может быть без введенного или выбранного значения!';
+  settings::$data['translate']['translate']->ru['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
+  settings::$data['translate']['translate']->ru['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
   settings::$data['translate']['translate']->ru['Field "%%_title" contain too few characters!'] = 'Поле "%%_title" содержит слишком мало символов!';
   settings::$data['translate']['translate']->ru['Field "%%_title" contain too much characters!'] = 'Поле "%%_title" содержит слишком много символов!';
   settings::$data['translate']['translate']->ru['Field "%%_title" contains an invalid email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
