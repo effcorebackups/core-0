@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-08-21 15:14:27';
+  settings::$data_orig['_created'] = '2017-08-22 17:34:32';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1165,6 +1165,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Field "%%_title" contain too few characters!'] = 'Поле "%%_title" содержит слишком мало символов!';
   settings::$data_orig['translate']['translate']->ru['Field "%%_title" contain too much characters!'] = 'Поле "%%_title" содержит слишком много символов!';
   settings::$data_orig['translate']['translate']->ru['Field "%%_title" contains an invalid email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
+  settings::$data_orig['translate']['translate']->ru['Field "%%_title" is not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
   settings::$data_orig['translate']['translate']->ru['Must be at least %%_value characters long.'] = 'Должно быть не менее %%_value символов.';
   settings::$data_orig['translate']['translate']->ru['Must be no more than %%_value characters.'] = 'Должно быть не более %%_value символов.';
   settings::$data_orig['translate']['translate']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
