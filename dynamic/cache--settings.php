@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-08-23 16:30:05';
+  settings::$data['_created'] = '2017-08-23 17:20:20';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -64,6 +64,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['file_types']['core']['svg']->use_tokens = 1;
   settings::$data['file_types']['core']['svg']->headers['Content-type'] = 'image/svg+xml';
   settings::$data['file_types']['core']['js'] = new \stdClass();
+  settings::$data['file_types']['core']['js']->use_tokens = 1;
   settings::$data['file_types']['core']['js']->headers['Content-type'] = 'application/javascript';
   settings::$data['file_types']['core']['gif'] = new \stdClass();
   settings::$data['file_types']['core']['gif']->headers['Content-type'] = 'image/gif';
