@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-08-23 16:20:14';
+  settings::$data['_created'] = '2017-08-23 16:30:05';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1080,7 +1080,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['frontend']['page']['frontend_page_n']->styles['style_console']->file = 'frontend/console.css';
   settings::$data['frontend']['page']['frontend_page_n']->styles['style_console']->media = 'all';
   settings::$data['frontend']['page']['frontend_page_n']->script['script_page'] = new \stdClass();
-  settings::$data['frontend']['page']['frontend_page_n']->script['script_page']->file = 'frontend/script.js';
+  settings::$data['frontend']['page']['frontend_page_n']->script['script_page']->file = 'frontend/page.js';
+  settings::$data['frontend']['page']['frontend_form_n'] = new \stdClass();
+  settings::$data['frontend']['page']['frontend_form_n']->display = new \stdClass();
+  settings::$data['frontend']['page']['frontend_form_n']->display->npath = new \stdClass();
+  settings::$data['frontend']['page']['frontend_form_n']->display->npath->match = '%^forms/.*$%';
+  settings::$data['frontend']['page']['frontend_form_n']->display->npath->where = 'block';
+  settings::$data['frontend']['page']['frontend_form_n']->script['script_form'] = new \stdClass();
+  settings::$data['frontend']['page']['frontend_form_n']->script['script_form']->file = 'frontend/form.js';
   settings::$data['frontend']['tree']['frontend_block_tree'] = new \stdClass();
   settings::$data['frontend']['tree']['frontend_block_tree']->display = new \stdClass();
   settings::$data['frontend']['tree']['frontend_block_tree']->display->npath = new \stdClass();
