@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-08-23 15:10:01';
+  settings::$data_orig['_created'] = '2017-08-23 16:20:14';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1064,8 +1064,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['decoration']['page']->color_bg = 'color_original_blue';
   settings::$data_orig['frontend']['page']['frontend_page_n'] = new \stdClass();
   settings::$data_orig['frontend']['page']['frontend_page_n']->display = new \stdClass();
-  settings::$data_orig['frontend']['page']['frontend_page_n']->display->url = new \stdClass();
-  settings::$data_orig['frontend']['page']['frontend_page_n']->display->url->match = '%.*%';
+  settings::$data_orig['frontend']['page']['frontend_page_n']->display->npath = new \stdClass();
+  settings::$data_orig['frontend']['page']['frontend_page_n']->display->npath->match = '%^trees/.*$%';
+  settings::$data_orig['frontend']['page']['frontend_page_n']->display->npath->where = 'block';
   settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['favicon_classic'] = new \stdClass();
   settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['favicon_classic']->file = 'frontend/favicon.png';
   settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['favicon_classic']->sizes = '32x32';
@@ -1080,13 +1081,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['frontend']['page']['frontend_page_n']->styles['style_console']->media = 'all';
   settings::$data_orig['frontend']['page']['frontend_page_n']->script['script_page'] = new \stdClass();
   settings::$data_orig['frontend']['page']['frontend_page_n']->script['script_page']->file = 'frontend/script.js';
-  settings::$data_orig['frontend']['tree']['frontend_page_n'] = new \stdClass();
-  settings::$data_orig['frontend']['tree']['frontend_page_n']->display = new \stdClass();
-  settings::$data_orig['frontend']['tree']['frontend_page_n']->display->url = new \stdClass();
-  settings::$data_orig['frontend']['tree']['frontend_page_n']->display->url->match = '%.*%';
-  settings::$data_orig['frontend']['tree']['frontend_page_n']->styles['style_tree'] = new \stdClass();
-  settings::$data_orig['frontend']['tree']['frontend_page_n']->styles['style_tree']->file = 'frontend/tree.css';
-  settings::$data_orig['frontend']['tree']['frontend_page_n']->styles['style_tree']->media = 'all';
+  settings::$data_orig['frontend']['tree']['frontend_block_tree'] = new \stdClass();
+  settings::$data_orig['frontend']['tree']['frontend_block_tree']->display = new \stdClass();
+  settings::$data_orig['frontend']['tree']['frontend_block_tree']->display->npath = new \stdClass();
+  settings::$data_orig['frontend']['tree']['frontend_block_tree']->display->npath->match = '%^trees/.*$%';
+  settings::$data_orig['frontend']['tree']['frontend_block_tree']->display->npath->where = 'block';
+  settings::$data_orig['frontend']['tree']['frontend_block_tree']->styles['style_tree'] = new \stdClass();
+  settings::$data_orig['frontend']['tree']['frontend_block_tree']->styles['style_tree']->file = 'frontend/tree.css';
+  settings::$data_orig['frontend']['tree']['frontend_block_tree']->styles['style_tree']->media = 'all';
   settings::$data_orig['templates']['page']['html_element'] = 'frontend/template--html_element.html';
   settings::$data_orig['templates']['page']['html_element_simple'] = 'frontend/template--html_element.simple.html';
   settings::$data_orig['templates']['page']['page'] = 'frontend/template--page.html';
