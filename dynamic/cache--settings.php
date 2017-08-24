@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-08-23 17:20:20';
+  settings::$data['_created'] = '2017-08-24 10:44:18';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1065,18 +1065,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['decoration']['page']->color_bg = 'color_original_blue';
   settings::$data['frontend']['page']['frontend_page_n'] = new \stdClass();
   settings::$data['frontend']['page']['frontend_page_n']->display = new \stdClass();
-  settings::$data['frontend']['page']['frontend_page_n']->display->npath = new \stdClass();
-  settings::$data['frontend']['page']['frontend_page_n']->display->npath->match = '%^trees/.*$%';
-  settings::$data['frontend']['page']['frontend_page_n']->display->npath->where = 'block';
+  settings::$data['frontend']['page']['frontend_page_n']->display->url = new \stdClass();
+  settings::$data['frontend']['page']['frontend_page_n']->display->url->match = '%.*%';
   settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_classic'] = new \stdClass();
   settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_classic']->file = 'frontend/favicon.png';
   settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_classic']->sizes = '32x32';
   settings::$data['frontend']['page']['frontend_page_n']->styles['style_page'] = new \stdClass();
   settings::$data['frontend']['page']['frontend_page_n']->styles['style_page']->file = 'frontend/page.css';
   settings::$data['frontend']['page']['frontend_page_n']->styles['style_page']->media = 'all';
-  settings::$data['frontend']['page']['frontend_page_n']->styles['style_form'] = new \stdClass();
-  settings::$data['frontend']['page']['frontend_page_n']->styles['style_form']->file = 'frontend/form.css';
-  settings::$data['frontend']['page']['frontend_page_n']->styles['style_form']->media = 'all';
   settings::$data['frontend']['page']['frontend_page_n']->styles['style_console'] = new \stdClass();
   settings::$data['frontend']['page']['frontend_page_n']->styles['style_console']->file = 'frontend/console.css';
   settings::$data['frontend']['page']['frontend_page_n']->styles['style_console']->media = 'all';
@@ -1087,6 +1083,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['frontend']['page']['frontend_form_n']->display->npath = new \stdClass();
   settings::$data['frontend']['page']['frontend_form_n']->display->npath->match = '%^forms/.*$%';
   settings::$data['frontend']['page']['frontend_form_n']->display->npath->where = 'block';
+  settings::$data['frontend']['page']['frontend_form_n']->styles['style_form'] = new \stdClass();
+  settings::$data['frontend']['page']['frontend_form_n']->styles['style_form']->file = 'frontend/form.css';
+  settings::$data['frontend']['page']['frontend_form_n']->styles['style_form']->media = 'all';
   settings::$data['frontend']['page']['frontend_form_n']->script['script_form'] = new \stdClass();
   settings::$data['frontend']['page']['frontend_form_n']->script['script_form']->file = 'frontend/form.js';
   settings::$data['frontend']['tree']['frontend_block_tree'] = new \stdClass();
