@@ -1,5 +1,5 @@
 
-  ipad's viewports history:
+  ipad's viewports:
   ──────────────────────────────────────────────────────────────────────
   year | ⇩ model        | retina | resolution   | ⇩ size | proc | rgroup
   ──────────────────────────────────────────────────────────────────────
