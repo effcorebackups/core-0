@@ -56,4 +56,6 @@ OTHER TRADEMARKS
 ─────────────────────────────────────────────────────────────────────
 - Apple®, iPad®, iPad Air®, iPad mini™, iPad Pro®, iPhone® are trademarks of Apple Inc.,
   registered in the U.S. and other countries.
+- iOS is a trademark or registered trademark of Cisco in the U.S. and other countries
+  and is used by Apple under license.
 
