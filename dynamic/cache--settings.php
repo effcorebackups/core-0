@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-08-28 00:20:18';
+  settings::$data['_created'] = '2017-08-29 11:07:15';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1067,16 +1067,16 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['frontend']['page']['frontend_page_n']->display = new \stdClass();
   settings::$data['frontend']['page']['frontend_page_n']->display->url = new \stdClass();
   settings::$data['frontend']['page']['frontend_page_n']->display->url->match = '%.*%';
-  settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_modern'] = new \stdClass();
-  settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_modern']->type = 'image/png';
-  settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_modern']->rel = 'icon';
-  settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_modern']->file = 'frontend/icon-32x32.png';
-  settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_modern']->sizes = '32x32';
-  settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_ipad'] = new \stdClass();
-  settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_ipad']->type = 'image/png';
-  settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_ipad']->rel = 'apple-touch-icon';
-  settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_ipad']->file = 'frontend/icon-152x152.png';
-  settings::$data['frontend']['page']['frontend_page_n']->favicons['favicon_ipad']->sizes = '152x152';
+  settings::$data['frontend']['page']['frontend_page_n']->favicons['icon_modern'] = new \stdClass();
+  settings::$data['frontend']['page']['frontend_page_n']->favicons['icon_modern']->type = 'image/png';
+  settings::$data['frontend']['page']['frontend_page_n']->favicons['icon_modern']->rel = 'icon';
+  settings::$data['frontend']['page']['frontend_page_n']->favicons['icon_modern']->file = 'frontend/icon-32x32.png';
+  settings::$data['frontend']['page']['frontend_page_n']->favicons['icon_modern']->sizes = '32x32';
+  settings::$data['frontend']['page']['frontend_page_n']->favicons['icon_ipad'] = new \stdClass();
+  settings::$data['frontend']['page']['frontend_page_n']->favicons['icon_ipad']->type = 'image/png';
+  settings::$data['frontend']['page']['frontend_page_n']->favicons['icon_ipad']->rel = 'apple-touch-icon';
+  settings::$data['frontend']['page']['frontend_page_n']->favicons['icon_ipad']->file = 'frontend/icon-152x152.png';
+  settings::$data['frontend']['page']['frontend_page_n']->favicons['icon_ipad']->sizes = '152x152';
   settings::$data['frontend']['page']['frontend_page_n']->styles['style_page'] = new \stdClass();
   settings::$data['frontend']['page']['frontend_page_n']->styles['style_page']->file = 'frontend/page.css';
   settings::$data['frontend']['page']['frontend_page_n']->styles['style_page']->media = 'all';
