@@ -54,8 +54,10 @@ Any violation thereof will result in a civil, administrative and criminal prosec
 
 OTHER TRADEMARKS
 ─────────────────────────────────────────────────────────────────────
-- Apple®, iPad®, iPad Air®, iPad mini™, iPad Pro®, iPhone® are trademarks of Apple Inc.,
-  registered in the U.S. and other countries.
+- Apple®, iPad®, iPad Air®, iPad mini™, iPad Pro®, iPhone®, macOS®, OS X®, Retina®,
+  Retina HD®, Safari® are trademarks of Apple Inc., registered in the U.S. and other countries.
 - iOS is a trademark or registered trademark of Cisco in the U.S. and other countries
   and is used by Apple under license.
+- Windows, Internet Explorer, Edge are registered trademarks or trademarks of Microsoft Corporation
+  in the United States and/or other countries.
 
