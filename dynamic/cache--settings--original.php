@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-08-30 14:28:03';
+  settings::$data_orig['_created'] = '2017-08-30 16:45:38';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1072,11 +1072,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['icon_32']->rel = 'icon';
   settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['icon_32']->file = 'frontend/icon-32x32.png';
   settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['icon_32']->sizes = '32x32';
-  settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['icon_64'] = new \stdClass();
-  settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['icon_64']->type = 'image/png';
-  settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['icon_64']->rel = 'icon';
-  settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['icon_64']->file = 'frontend/icon-64x64.png';
-  settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['icon_64']->sizes = '64x64';
   settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['icon_apple_76'] = new \stdClass();
   settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['icon_apple_76']->type = 'image/png';
   settings::$data_orig['frontend']['page']['frontend_page_n']->favicons['icon_apple_76']->rel = 'apple-touch-icon';
