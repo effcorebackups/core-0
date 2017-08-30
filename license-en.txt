@@ -59,5 +59,9 @@ OTHER TRADEMARKS
 - iOS is a trademark or registered trademark of Cisco in the U.S. and other countries
   and is used by Apple under license.
 - Windows®, Internet Explorer®, Edge® are registered trademarks or trademarks of
-  Microsoft Corporation in the United States and/or other countries.
+  Microsoft Corporation in the U.S. and/or other countries.
+- Opera® is registered trademarks or trademarks of Opera Software AS in Norway,
+  the European Union and other countries.
+- Google™, Google Chrome™ are registered trademarks of Google Inc.
+- Firefox® is registered trademarks of Mozilla Foundation.
 
