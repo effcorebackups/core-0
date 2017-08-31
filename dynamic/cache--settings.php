@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-08-31 11:24:33';
+  settings::$data['_created'] = '2017-08-31 14:02:20';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -625,16 +625,27 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['user']['form_user_n_edit']->attributes['class']['form-user'] = 'form-user';
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default'] = new \effectivecore\form_container();
   settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->tag_name = 'fieldset';
-  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password'] = new \effectivecore\form_field();
-  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->children['default'] = new \effectivecore\form_element();
-  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->children['default']->title = 'Password';
-  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->children['default']->tag_name = 'input';
-  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->children['default']->attributes['type'] = 'password';
-  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->children['default']->attributes['name'] = 'password';
-  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->children['default']->attributes['required'] = 'required';
-  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->children['default']->attributes['minlength'] = 5;
-  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->children['default']->attributes['maxlength'] = 255;
-  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password']->children['default']->attributes['autocomplete'] = 'off';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old'] = new \effectivecore\form_field();
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default'] = new \effectivecore\form_element();
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->title = 'Old password';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->tag_name = 'input';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['type'] = 'password';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['name'] = 'password_old';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['required'] = 'required';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['minlength'] = 5;
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['maxlength'] = 255;
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['autocomplete'] = 'off';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['disabled'] = 'disabled';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new'] = new \effectivecore\form_field();
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->children['default'] = new \effectivecore\form_element();
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->children['default']->title = 'New password';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->children['default']->tag_name = 'input';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->children['default']->attributes['type'] = 'password';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->children['default']->attributes['name'] = 'password_new';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->children['default']->attributes['required'] = 'required';
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->children['default']->attributes['minlength'] = 5;
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->children['default']->attributes['maxlength'] = 255;
+  settings::$data['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->children['default']->attributes['autocomplete'] = 'off';
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save'] = new \effectivecore\markup();
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->tag_name = 'button';
   settings::$data['forms']['user']['form_user_n_edit']->children['button_save']->attributes['type'] = 'submit';
@@ -1266,6 +1277,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   settings::$data['translate']['translate']->ru['Modules was installed.'] = 'Модули были установлены.';
   settings::$data['translate']['translate']->ru['Tables for module %%_name was installed.'] = 'Таблицы для модуля %%_name были установлены.';
+  settings::$data['translate']['translate']->ru['Old password'] = 'Старый пароль';
+  settings::$data['translate']['translate']->ru['New password'] = 'Новый пароль';
   settings::$data['translate']['translate']->ru['- select -'] = '- выбрать -';
   settings::$data['translate']['translate']->ru['Actions'] = 'Действия';
   settings::$data['translate']['translate']->ru['Administer'] = 'Администрирование';
