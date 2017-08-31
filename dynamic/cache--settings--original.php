@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-08-31 10:48:24';
+  settings::$data_orig['_created'] = '2017-08-31 11:24:33';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1295,6 +1295,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['disabled'] = 'выкл.';
   settings::$data_orig['translate']['translate']->ru['Edit profile (%%_user_email_context{2})'] = 'Редактировать профиль (%%_user_email_context{2})';
   settings::$data_orig['translate']['translate']->ru['Edit profile'] = 'Редактировать профиль';
+  settings::$data_orig['translate']['translate']->ru['Event'] = 'Событие';
   settings::$data_orig['translate']['translate']->ru['edit'] = 'изменить';
   settings::$data_orig['translate']['translate']->ru['EMail'] = 'Адрес электронной почты';
   settings::$data_orig['translate']['translate']->ru['enabled'] = 'вкл.';
