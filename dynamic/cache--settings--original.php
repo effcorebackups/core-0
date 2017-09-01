@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-08-31 14:02:20';
+  settings::$data_orig['_created'] = '2017-09-01 10:15:54';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1426,6 +1426,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['entities']['tree']['tree_item']->fields->parent_id->size = 11;
   settings::$data_orig['entities']['tree']['tree_item']->fields->parent_id->unsigned = true;
   settings::$data_orig['entities']['tree']['tree_item']->fields->parent_id->not_null = true;
+  settings::$data_orig['entities']['tree']['tree_item']->fields->title = new \stdClass();
+  settings::$data_orig['entities']['tree']['tree_item']->fields->title->type = 'varchar';
+  settings::$data_orig['entities']['tree']['tree_item']->fields->title->size = 255;
+  settings::$data_orig['entities']['tree']['tree_item']->fields->title->not_null = true;
   settings::$data_orig['entities']['tree']['tree_item']->storage_id = 'db_main';
   settings::$data_orig['entities']['tree']['tree_item']->charset = 'utf8';
   settings::$data_orig['entities']['tree']['tree_item']->indexes['primary'] = new \stdClass();
