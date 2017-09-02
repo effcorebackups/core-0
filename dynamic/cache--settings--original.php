@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data_orig['_created'] = '2017-09-02 11:56:33';
+  settings::$data_orig['_created'] = '2017-09-02 13:42:02';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -67,6 +67,12 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['events']['core']->on_file_load_after['all'] = new \stdClass();
   settings::$data_orig['events']['core']->on_file_load_after['all']->handler = '\\effectivecore\\events_file::on_file_load_after';
   settings::$data_orig['events']['core']->on_file_load_after['all']->weight = 0;
+  settings::$data_orig['events']['core']->on_file_insert_before['all'] = new \stdClass();
+  settings::$data_orig['events']['core']->on_file_insert_before['all']->handler = '\\effectivecore\\events_file::on_file_insert_before';
+  settings::$data_orig['events']['core']->on_file_insert_before['all']->weight = 0;
+  settings::$data_orig['events']['core']->on_file_insert_after['all'] = new \stdClass();
+  settings::$data_orig['events']['core']->on_file_insert_after['all']->handler = '\\effectivecore\\events_file::on_file_insert_after';
+  settings::$data_orig['events']['core']->on_file_insert_after['all']->weight = 0;
   settings::$data_orig['events']['demo'] = new \stdClass();
   settings::$data_orig['events']['demo']->on_module_start['demo'] = new \stdClass();
   settings::$data_orig['events']['demo']->on_module_start['demo']->handler = '\\effectivecore\\modules\\demo\\events_module::on_start';
