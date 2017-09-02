@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-09-01 10:15:54';
+  settings::$data['_created'] = '2017-09-02 11:52:21';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -87,6 +87,19 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['events']['page']->on_form_submit['admin_decoration'] = new \stdClass();
   settings::$data['events']['page']->on_form_submit['admin_decoration']->handler = '\\effectivecore\\modules\\page\\events_form::on_submit_admin_decoration';
   settings::$data['events']['page']->on_form_submit['admin_decoration']->weight = 0;
+  settings::$data['events']['storage'] = new \stdClass();
+  settings::$data['events']['storage']->on_storage_init_before['pdo'] = new \stdClass();
+  settings::$data['events']['storage']->on_storage_init_before['pdo']->handler = '\\effectivecore\\modules\\storage\\events_storage::on_storage_init_before';
+  settings::$data['events']['storage']->on_storage_init_before['pdo']->weight = 0;
+  settings::$data['events']['storage']->on_storage_init_after['pdo'] = new \stdClass();
+  settings::$data['events']['storage']->on_storage_init_after['pdo']->handler = '\\effectivecore\\modules\\storage\\events_storage::on_storage_init_after';
+  settings::$data['events']['storage']->on_storage_init_after['pdo']->weight = 0;
+  settings::$data['events']['storage']->on_query_before['pdo'] = new \stdClass();
+  settings::$data['events']['storage']->on_query_before['pdo']->handler = '\\effectivecore\\modules\\storage\\events_storage::on_query_before';
+  settings::$data['events']['storage']->on_query_before['pdo']->weight = 0;
+  settings::$data['events']['storage']->on_query_after['pdo'] = new \stdClass();
+  settings::$data['events']['storage']->on_query_after['pdo']->handler = '\\effectivecore\\modules\\storage\\events_storage::on_query_after';
+  settings::$data['events']['storage']->on_query_after['pdo']->weight = 0;
   settings::$data['events']['tree'] = new \stdClass();
   settings::$data['events']['tree']->on_module_start['tree'] = new \stdClass();
   settings::$data['events']['tree']->on_module_start['tree']->handler = '\\effectivecore\\modules\\tree\\events_module::on_start';
