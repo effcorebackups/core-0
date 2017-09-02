@@ -12,6 +12,12 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\url']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\url']->name = 'url';
   caches_factory::$data['classes_map']['effectivecore\url']->file = 'modules/core/backend/class--gl--url.php';
+  caches_factory::$data['classes_map']['effectivecore\events_file'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\events_file']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\events_file']->namespace = 'effectivecore';
+  caches_factory::$data['classes_map']['effectivecore\events_file']->name = 'events_file';
+  caches_factory::$data['classes_map']['effectivecore\events_file']->extends = 'events';
+  caches_factory::$data['classes_map']['effectivecore\events_file']->file = 'modules/core/backend/events--gl--file.php';
   caches_factory::$data['classes_map']['effectivecore\events_form'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\events_form']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\events_form']->namespace = 'effectivecore';

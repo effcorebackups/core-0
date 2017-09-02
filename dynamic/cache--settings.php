@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_s as settings;
 
-  settings::$data['_created'] = '2017-09-02 11:52:21';
+  settings::$data['_created'] = '2017-09-02 11:56:33';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -61,6 +61,12 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['events']['core']->on_form_submit['installation'] = new \stdClass();
   settings::$data['events']['core']->on_form_submit['installation']->handler = '\\effectivecore\\events_form::on_submit_install';
   settings::$data['events']['core']->on_form_submit['installation']->weight = 0;
+  settings::$data['events']['core']->on_file_load_before['all'] = new \stdClass();
+  settings::$data['events']['core']->on_file_load_before['all']->handler = '\\effectivecore\\events_file::on_file_load_before';
+  settings::$data['events']['core']->on_file_load_before['all']->weight = 0;
+  settings::$data['events']['core']->on_file_load_after['all'] = new \stdClass();
+  settings::$data['events']['core']->on_file_load_after['all']->handler = '\\effectivecore\\events_file::on_file_load_after';
+  settings::$data['events']['core']->on_file_load_after['all']->weight = 0;
   settings::$data['events']['demo'] = new \stdClass();
   settings::$data['events']['demo']->on_module_start['demo'] = new \stdClass();
   settings::$data['events']['demo']->on_module_start['demo']->handler = '\\effectivecore\\modules\\demo\\events_module::on_start';
