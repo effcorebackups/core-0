@@ -2,9 +2,10 @@
 
 namespace effectivecore { # ARRAY[type][scope]...
 
-  use \effectivecore\storage_instance_s as settings;
+  use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-02 13:42:02';
+  settings::$data['_changed'] = '2017-09-02 13:46:25';
+  settings::$data['_created'] = '2017-09-02 13:45:50';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1270,7 +1271,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['storages']['storage']['storage_db_main']->user_name = 'root';
   settings::$data['storages']['storage']['storage_db_main']->password = 123;
   settings::$data['storages']['storage']['storage_db_main']->driver = 'mysql';
-  settings::$data['storages']['storage']['storage_settings'] = new \effectivecore\storage_instance_s();
+  settings::$data['storages']['storage']['storage_settings'] = new \effectivecore\storage_instance_settings();
   settings::$data['storages']['storage']['storage_settings']->id = 'settings';
   settings::$data['languages']['translate']['ru'] = new \stdClass();
   settings::$data['languages']['translate']['ru']->code = 'ru';
