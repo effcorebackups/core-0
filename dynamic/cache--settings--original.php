@@ -4,8 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_changed'] = '2017-09-02 13:46:25';
-  settings::$data_orig['_created'] = '2017-09-02 13:45:50';
+  settings::$data_orig['_created'] = '2017-09-02 13:53:45';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1313,7 +1312,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Anonymous'] = 'Анонимы';
   settings::$data_orig['translate']['translate']->ru['Background color'] = 'Цвет фона';
   settings::$data_orig['translate']['translate']->ru['button'] = 'кнопка';
-  settings::$data_orig['translate']['translate']->ru['Call'] = 'Вызов';
+  settings::$data_orig['translate']['translate']->ru['call'] = 'вызов';
   settings::$data_orig['translate']['translate']->ru['Cancel'] = 'Отмена';
   settings::$data_orig['translate']['translate']->ru['cancel'] = 'отмена';
   settings::$data_orig['translate']['translate']->ru['Checkboxes'] = 'Флажки';
@@ -1347,14 +1346,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Html 5 elements'] = 'Html 5 элементы';
   settings::$data_orig['translate']['translate']->ru['Home'] = 'Дом';
   settings::$data_orig['translate']['translate']->ru['Information'] = 'Информация';
-  settings::$data_orig['translate']['translate']->ru['Insert'] = 'Вставка';
+  settings::$data_orig['translate']['translate']->ru['insertion'] = 'вставка';
   settings::$data_orig['translate']['translate']->ru['Install'] = 'Установить';
   settings::$data_orig['translate']['translate']->ru['install'] = 'установить';
   settings::$data_orig['translate']['translate']->ru['Installation'] = 'Установка';
   settings::$data_orig['translate']['translate']->ru['installation'] = 'установка';
   settings::$data_orig['translate']['translate']->ru['Is always on'] = 'Всегда включен';
   settings::$data_orig['translate']['translate']->ru['Is embed'] = 'Встроенный';
-  settings::$data_orig['translate']['translate']->ru['Load'] = 'Загрузка';
+  settings::$data_orig['translate']['translate']->ru['load'] = 'загрузка';
   settings::$data_orig['translate']['translate']->ru['login'] = 'вход';
   settings::$data_orig['translate']['translate']->ru['Login'] = 'Вход';
   settings::$data_orig['translate']['translate']->ru['Logout from the system'] = 'Выйти из системы';
@@ -1381,7 +1380,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Path'] = 'Путь';
   settings::$data_orig['translate']['translate']->ru['profile'] = 'профиль';
   settings::$data_orig['translate']['translate']->ru['Queries'] = 'Запросы';
-  settings::$data_orig['translate']['translate']->ru['Query'] = 'Запрос';
+  settings::$data_orig['translate']['translate']->ru['query'] = 'запрос';
   settings::$data_orig['translate']['translate']->ru['Range'] = 'Диапазон';
   settings::$data_orig['translate']['translate']->ru['Radios'] = 'Переключатели';
   settings::$data_orig['translate']['translate']->ru['Radios (macro)'] = 'Переключатели (макро)';

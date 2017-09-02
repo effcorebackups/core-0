@@ -4,8 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_changed'] = '2017-09-02 13:46:25';
-  settings::$data['_created'] = '2017-09-02 13:45:50';
+  settings::$data['_created'] = '2017-09-02 13:53:45';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1313,7 +1312,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['Anonymous'] = 'Анонимы';
   settings::$data['translate']['translate']->ru['Background color'] = 'Цвет фона';
   settings::$data['translate']['translate']->ru['button'] = 'кнопка';
-  settings::$data['translate']['translate']->ru['Call'] = 'Вызов';
+  settings::$data['translate']['translate']->ru['call'] = 'вызов';
   settings::$data['translate']['translate']->ru['Cancel'] = 'Отмена';
   settings::$data['translate']['translate']->ru['cancel'] = 'отмена';
   settings::$data['translate']['translate']->ru['Checkboxes'] = 'Флажки';
@@ -1347,14 +1346,14 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['Html 5 elements'] = 'Html 5 элементы';
   settings::$data['translate']['translate']->ru['Home'] = 'Дом';
   settings::$data['translate']['translate']->ru['Information'] = 'Информация';
-  settings::$data['translate']['translate']->ru['Insert'] = 'Вставка';
+  settings::$data['translate']['translate']->ru['insertion'] = 'вставка';
   settings::$data['translate']['translate']->ru['Install'] = 'Установить';
   settings::$data['translate']['translate']->ru['install'] = 'установить';
   settings::$data['translate']['translate']->ru['Installation'] = 'Установка';
   settings::$data['translate']['translate']->ru['installation'] = 'установка';
   settings::$data['translate']['translate']->ru['Is always on'] = 'Всегда включен';
   settings::$data['translate']['translate']->ru['Is embed'] = 'Встроенный';
-  settings::$data['translate']['translate']->ru['Load'] = 'Загрузка';
+  settings::$data['translate']['translate']->ru['load'] = 'загрузка';
   settings::$data['translate']['translate']->ru['login'] = 'вход';
   settings::$data['translate']['translate']->ru['Login'] = 'Вход';
   settings::$data['translate']['translate']->ru['Logout from the system'] = 'Выйти из системы';
@@ -1381,7 +1380,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translate']['translate']->ru['Path'] = 'Путь';
   settings::$data['translate']['translate']->ru['profile'] = 'профиль';
   settings::$data['translate']['translate']->ru['Queries'] = 'Запросы';
-  settings::$data['translate']['translate']->ru['Query'] = 'Запрос';
+  settings::$data['translate']['translate']->ru['query'] = 'запрос';
   settings::$data['translate']['translate']->ru['Range'] = 'Диапазон';
   settings::$data['translate']['translate']->ru['Radios'] = 'Переключатели';
   settings::$data['translate']['translate']->ru['Radios (macro)'] = 'Переключатели (макро)';
