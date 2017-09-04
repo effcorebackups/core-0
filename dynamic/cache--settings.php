@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-04 16:05:49';
+  settings::$data['_created'] = '2017-09-04 16:38:58';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1264,11 +1264,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['languages']['translate']->current = 'ru';
   settings::$data['languages']['translate']->available['en'] = new \stdClass();
   settings::$data['languages']['translate']->available['en']->code = 'en';
+  settings::$data['languages']['translate']->available['en']->decimal_point = '.';
   settings::$data['languages']['translate']->available['en']->title = new \stdClass();
   settings::$data['languages']['translate']->available['en']->title->en = 'English';
   settings::$data['languages']['translate']->available['en']->title->native = 'English';
   settings::$data['languages']['translate']->available['ru'] = new \stdClass();
   settings::$data['languages']['translate']->available['ru']->code = 'ru';
+  settings::$data['languages']['translate']->available['ru']->decimal_point = ',';
   settings::$data['languages']['translate']->available['ru']->title = new \stdClass();
   settings::$data['languages']['translate']->available['ru']->title->en = 'Russian';
   settings::$data['languages']['translate']->available['ru']->title->native = 'Русский';
