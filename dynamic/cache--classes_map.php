@@ -283,6 +283,11 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\modules\storage\storages_factory']->namespace = 'effectivecore\\modules\\storage';
   caches_factory::$data['classes_map']['effectivecore\modules\storage\storages_factory']->name = 'storages_factory';
   caches_factory::$data['classes_map']['effectivecore\modules\storage\storages_factory']->file = 'modules/storage/backend/factory--storages.php';
+  caches_factory::$data['classes_map']['effectivecore\languages_factory'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\languages_factory']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\languages_factory']->namespace = 'effectivecore';
+  caches_factory::$data['classes_map']['effectivecore\languages_factory']->name = 'languages_factory';
+  caches_factory::$data['classes_map']['effectivecore\languages_factory']->file = 'modules/translate/backend/factory--gl--languages.php';
   caches_factory::$data['classes_map']['effectivecore\translations_factory'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\translations_factory']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\translations_factory']->namespace = 'effectivecore';

@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-04 15:10:06';
+  settings::$data_orig['_created'] = '2017-09-04 16:05:49';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1260,11 +1260,18 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['storages']['storage']['storage_db_main']->driver = 'mysql';
   settings::$data_orig['storages']['storage']['storage_settings'] = new \effectivecore\storage_instance_settings();
   settings::$data_orig['storages']['storage']['storage_settings']->id = 'settings';
-  settings::$data_orig['languages']['translate']['ru'] = new \stdClass();
-  settings::$data_orig['languages']['translate']['ru']->code = 'ru';
-  settings::$data_orig['languages']['translate']['ru']->title = new \stdClass();
-  settings::$data_orig['languages']['translate']['ru']->title->en = 'Russian';
-  settings::$data_orig['languages']['translate']['ru']->title->native = 'Русский';
+  settings::$data_orig['languages']['translate'] = new \stdClass();
+  settings::$data_orig['languages']['translate']->current = 'ru';
+  settings::$data_orig['languages']['translate']->available['en'] = new \stdClass();
+  settings::$data_orig['languages']['translate']->available['en']->code = 'en';
+  settings::$data_orig['languages']['translate']->available['en']->title = new \stdClass();
+  settings::$data_orig['languages']['translate']->available['en']->title->en = 'English';
+  settings::$data_orig['languages']['translate']->available['en']->title->native = 'English';
+  settings::$data_orig['languages']['translate']->available['ru'] = new \stdClass();
+  settings::$data_orig['languages']['translate']->available['ru']->code = 'ru';
+  settings::$data_orig['languages']['translate']->available['ru']->title = new \stdClass();
+  settings::$data_orig['languages']['translate']->available['ru']->title->en = 'Russian';
+  settings::$data_orig['languages']['translate']->available['ru']->title->native = 'Русский';
   settings::$data_orig['translate']['translate'] = new \stdClass();
   settings::$data_orig['translate']['translate']->ru['- select -'] = '- выбрать -';
   settings::$data_orig['translate']['translate']->ru['Action'] = 'Действие';
@@ -1291,6 +1298,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Core'] = 'Ядро';
   settings::$data_orig['translate']['translate']->ru['created'] = 'создано';
   settings::$data_orig['translate']['translate']->ru['Created'] = 'Создано';
+  settings::$data_orig['translate']['translate']->ru['Current language'] = 'Текущий язык';
   settings::$data_orig['translate']['translate']->ru['Data of user with ID = %%_id was updated.'] = 'Данные пользователя с ID = %%_id были обновлены.';
   settings::$data_orig['translate']['translate']->ru['Data was not updated!'] = 'Данные не были обновлены!';
   settings::$data_orig['translate']['translate']->ru['Date'] = 'Дата';
@@ -1346,6 +1354,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['logout'] = 'выход';
   settings::$data_orig['translate']['translate']->ru['Logout'] = 'Выход';
   settings::$data_orig['translate']['translate']->ru['Main menu'] = 'Главное меню';
+  settings::$data_orig['translate']['translate']->ru['Memory for php (bytes)'] = 'Память для php (байт)';
   settings::$data_orig['translate']['translate']->ru['Moderators'] = 'Модераторы';
   settings::$data_orig['translate']['translate']->ru['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   settings::$data_orig['translate']['translate']->ru['Module for storages support.'] = 'Модуль поддержки хранилищ данных.';
@@ -1388,6 +1397,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Select (macro)'] = 'Список (макро)';
   settings::$data_orig['translate']['translate']->ru['Select multiple (macro)'] = 'Список множественный (макро)';
   settings::$data_orig['translate']['translate']->ru['Select'] = 'Список';
+  settings::$data_orig['translate']['translate']->ru['Server load (sys_getloadavg)'] = 'Загр. серв. (sys_getloadavg)';
   settings::$data_orig['translate']['translate']->ru['set'] = 'установка';
   settings::$data_orig['translate']['translate']->ru['state'] = 'состояние';
   settings::$data_orig['translate']['translate']->ru['State'] = 'Состояние';
