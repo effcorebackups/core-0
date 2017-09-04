@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-04 12:44:55';
+  settings::$data_orig['_created'] = '2017-09-04 13:12:41';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -61,18 +61,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['events']['core']->on_form_submit['installation'] = new \stdClass();
   settings::$data_orig['events']['core']->on_form_submit['installation']->handler = '\\effectivecore\\events_form::on_submit_install';
   settings::$data_orig['events']['core']->on_form_submit['installation']->weight = 0;
-  settings::$data_orig['events']['core']->on_file_load_before['all'] = new \stdClass();
-  settings::$data_orig['events']['core']->on_file_load_before['all']->handler = '\\effectivecore\\events_file::on_file_load_before';
-  settings::$data_orig['events']['core']->on_file_load_before['all']->weight = 0;
-  settings::$data_orig['events']['core']->on_file_load_after['all'] = new \stdClass();
-  settings::$data_orig['events']['core']->on_file_load_after['all']->handler = '\\effectivecore\\events_file::on_file_load_after';
-  settings::$data_orig['events']['core']->on_file_load_after['all']->weight = 0;
-  settings::$data_orig['events']['core']->on_file_insert_before['all'] = new \stdClass();
-  settings::$data_orig['events']['core']->on_file_insert_before['all']->handler = '\\effectivecore\\events_file::on_file_insert_before';
-  settings::$data_orig['events']['core']->on_file_insert_before['all']->weight = 0;
-  settings::$data_orig['events']['core']->on_file_insert_after['all'] = new \stdClass();
-  settings::$data_orig['events']['core']->on_file_insert_after['all']->handler = '\\effectivecore\\events_file::on_file_insert_after';
-  settings::$data_orig['events']['core']->on_file_insert_after['all']->weight = 0;
   settings::$data_orig['events']['demo'] = new \stdClass();
   settings::$data_orig['events']['demo']->on_module_start['demo'] = new \stdClass();
   settings::$data_orig['events']['demo']->on_module_start['demo']->handler = '\\effectivecore\\modules\\demo\\events_module::on_start';
@@ -1339,6 +1327,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Html 5 elements'] = 'Html 5 элементы';
   settings::$data_orig['translate']['translate']->ru['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
   settings::$data_orig['translate']['translate']->ru['Information'] = 'Информация';
+  settings::$data_orig['translate']['translate']->ru['init.'] = 'инициал.';
   settings::$data_orig['translate']['translate']->ru['init'] = 'инициализация';
   settings::$data_orig['translate']['translate']->ru['initialization'] = 'инициализация';
   settings::$data_orig['translate']['translate']->ru['insertion'] = 'вставка';
@@ -1348,7 +1337,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['installation'] = 'установка';
   settings::$data_orig['translate']['translate']->ru['Is always on'] = 'Всегда включен';
   settings::$data_orig['translate']['translate']->ru['Is embed'] = 'Встроенный';
-  settings::$data_orig['translate']['translate']->ru['load file'] = 'загрузка файла';
   settings::$data_orig['translate']['translate']->ru['load'] = 'загрузка';
   settings::$data_orig['translate']['translate']->ru['login'] = 'вход';
   settings::$data_orig['translate']['translate']->ru['Login'] = 'Вход';
@@ -1427,6 +1415,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['User with this email was already registered!'] = 'Пользователь с таким адресом электронной почты уже был зарегистрирован!';
   settings::$data_orig['translate']['translate']->ru['User'] = 'Пользователь';
   settings::$data_orig['translate']['translate']->ru['Users'] = 'Пользователи';
+  settings::$data_orig['translate']['translate']->ru['val.'] = 'знач.';
+  settings::$data_orig['translate']['translate']->ru['Val.'] = 'Знач.';
   settings::$data_orig['translate']['translate']->ru['Value'] = 'Значение';
   settings::$data_orig['translate']['translate']->ru['Values'] = 'Значения';
   settings::$data_orig['translate']['translate']->ru['Version'] = 'Версия';
