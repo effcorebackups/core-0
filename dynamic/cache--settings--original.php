@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-04 13:33:29';
+  settings::$data_orig['_created'] = '2017-09-04 15:10:06';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1322,6 +1322,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['File'] = 'Файл';
   settings::$data_orig['translate']['translate']->ru['file'] = 'файл';
   settings::$data_orig['translate']['translate']->ru['Front page'] = 'Главная страница';
+  settings::$data_orig['translate']['translate']->ru['get'] = 'получить';
   settings::$data_orig['translate']['translate']->ru['Hello %%_user_email'] = 'Привет %%_user_email';
   settings::$data_orig['translate']['translate']->ru['Home'] = 'Дом';
   settings::$data_orig['translate']['translate']->ru['Html 4 elements'] = 'Html 4 элементы';
