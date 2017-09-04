@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-04 13:12:41';
+  settings::$data_orig['_created'] = '2017-09-04 13:33:29';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1309,6 +1309,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['event'] = 'событие';
   settings::$data_orig['translate']['translate']->ru['Event'] = 'Событие';
   settings::$data_orig['translate']['translate']->ru['events'] = 'события';
+  settings::$data_orig['translate']['translate']->ru['Events'] = 'События';
   settings::$data_orig['translate']['translate']->ru['Execute plan'] = 'План выполнения';
   settings::$data_orig['translate']['translate']->ru['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
   settings::$data_orig['translate']['translate']->ru['Field "%%_title" contain too few characters!'] = 'Поле "%%_title" содержит слишком мало символов!';
@@ -1327,8 +1328,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Html 5 elements'] = 'Html 5 элементы';
   settings::$data_orig['translate']['translate']->ru['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
   settings::$data_orig['translate']['translate']->ru['Information'] = 'Информация';
-  settings::$data_orig['translate']['translate']->ru['init.'] = 'инициал.';
   settings::$data_orig['translate']['translate']->ru['init'] = 'инициализация';
+  settings::$data_orig['translate']['translate']->ru['init.'] = 'инициал.';
   settings::$data_orig['translate']['translate']->ru['initialization'] = 'инициализация';
   settings::$data_orig['translate']['translate']->ru['insertion'] = 'вставка';
   settings::$data_orig['translate']['translate']->ru['Install'] = 'Установить';
@@ -1386,6 +1387,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Select (macro)'] = 'Список (макро)';
   settings::$data_orig['translate']['translate']->ru['Select multiple (macro)'] = 'Список множественный (макро)';
   settings::$data_orig['translate']['translate']->ru['Select'] = 'Список';
+  settings::$data_orig['translate']['translate']->ru['set'] = 'установка';
+  settings::$data_orig['translate']['translate']->ru['state'] = 'состояние';
   settings::$data_orig['translate']['translate']->ru['State'] = 'Состояние';
   settings::$data_orig['translate']['translate']->ru['storage'] = 'хранилище';
   settings::$data_orig['translate']['translate']->ru['Storage'] = 'Хранилище';
@@ -1417,6 +1420,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Users'] = 'Пользователи';
   settings::$data_orig['translate']['translate']->ru['val.'] = 'знач.';
   settings::$data_orig['translate']['translate']->ru['Val.'] = 'Знач.';
+  settings::$data_orig['translate']['translate']->ru['value = %%_value'] = 'значение = %%_value';
   settings::$data_orig['translate']['translate']->ru['Value'] = 'Значение';
   settings::$data_orig['translate']['translate']->ru['Values'] = 'Значения';
   settings::$data_orig['translate']['translate']->ru['Version'] = 'Версия';
