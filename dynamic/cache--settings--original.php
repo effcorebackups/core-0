@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-07 15:21:23';
+  settings::$data_orig['_created'] = '2017-09-07 15:52:17';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1099,7 +1099,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['tree_items']['user']['user_registration']->access = new \stdClass();
   settings::$data_orig['tree_items']['user']['user_registration']->access->roles['anonymous'] = 'anonymous';
   settings::$data_orig['tree_items']['user']['user_n'] = new \effectivecore\tree_item();
-  settings::$data_orig['tree_items']['user']['user_n']->title = 'User %%_user_email_name_context{2}';
+  settings::$data_orig['tree_items']['user']['user_n']->title = 'User %%_user_email_name';
   settings::$data_orig['tree_items']['user']['user_n']->attributes['href'] = '/user/%%_user_id';
   settings::$data_orig['tree_items']['user']['user_n']->attributes['class']['user-id'] = 'user-id';
   settings::$data_orig['tree_items']['user']['user_n']->parent = 'trees/user/user';
@@ -1450,9 +1450,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translate']['translate']->ru['Translate'] = 'Перевод';
   settings::$data_orig['translate']['translate']->ru['Tree'] = 'Дерево';
   settings::$data_orig['translate']['translate']->ru['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
+  settings::$data_orig['translate']['translate']->ru['User %%_user_email_name'] = 'Пользователь %%_user_email_name';
   settings::$data_orig['translate']['translate']->ru['User menu'] = 'Меню пользователя';
   settings::$data_orig['translate']['translate']->ru['User profile %%_user_email_context{2}'] = 'Профиль пользователя %%_user_email_context{2}';
-  settings::$data_orig['translate']['translate']->ru['User %%_user_email_name_context{2}'] = 'Пользователь %%_user_email_name_context{2}';
   settings::$data_orig['translate']['translate']->ru['User roles'] = 'Роли пользователя';
   settings::$data_orig['translate']['translate']->ru['User was not deleted!'] = 'Пользователь не был удален!';
   settings::$data_orig['translate']['translate']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
