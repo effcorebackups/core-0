@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-11 13:16:44';
+  settings::$data_orig['_created'] = '2017-09-12 00:36:49';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -469,6 +469,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro'] = new \effectivecore\form_palette();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->title = 'Color';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->name = 'color';
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['actions_list_demo'] = new \effectivecore\actions_list();
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['actions_list_demo']->values['edit'] = 'edit';
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['actions_list_demo']->values['delete'] = 'delete';
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['actions_list_demo']->attributes['class']['actions-list-demo'] = 'actions-list-demo';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['table'] = new \effectivecore\table();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['table']->children['head'] = new \effectivecore\table_head();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['table']->children['head']->children['tr'] = new \effectivecore\table_head_row();

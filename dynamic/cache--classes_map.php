@@ -177,6 +177,12 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\modules\page\pages_factory']->namespace = 'effectivecore\\modules\\page';
   caches_factory::$data['classes_map']['effectivecore\modules\page\pages_factory']->name = 'pages_factory';
   caches_factory::$data['classes_map']['effectivecore\modules\page\pages_factory']->file = 'modules/page/backend/factory--pages.php';
+  caches_factory::$data['classes_map']['effectivecore\actions_list'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\actions_list']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\actions_list']->namespace = 'effectivecore';
+  caches_factory::$data['classes_map']['effectivecore\actions_list']->name = 'actions_list';
+  caches_factory::$data['classes_map']['effectivecore\actions_list']->extends = 'markup';
+  caches_factory::$data['classes_map']['effectivecore\actions_list']->file = 'modules/page/backend/pattern--actions_list.php';
   caches_factory::$data['classes_map']['effectivecore\form'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\form']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\form']->namespace = 'effectivecore';
