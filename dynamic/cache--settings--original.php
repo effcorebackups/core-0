@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-11 12:01:17';
+  settings::$data_orig['_created'] = '2017-09-11 13:00:49';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1165,8 +1165,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['countries']['locales']['ru']->decimal_point = ',';
   settings::$data_orig['countries']['locales']['ru']->phone_prefix = 7;
   settings::$data_orig['current']['locales'] = new \stdClass();
-  settings::$data_orig['current']['locales']->lang_code = 'en';
-  settings::$data_orig['current']['locales']->decimal_point = '.';
+  settings::$data_orig['current']['locales']->lang_code = 'ru';
+  settings::$data_orig['current']['locales']->decimal_point = ',';
+  settings::$data_orig['current']['locales']->thousands_separator = '';
   settings::$data_orig['languages']['locales']['en'] = new \stdClass();
   settings::$data_orig['languages']['locales']['en']->title = new \stdClass();
   settings::$data_orig['languages']['locales']['en']->title->en = 'English';

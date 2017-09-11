@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-11 12:01:17';
+  settings::$data['_created'] = '2017-09-11 13:00:49';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1165,8 +1165,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['countries']['locales']['ru']->decimal_point = ',';
   settings::$data['countries']['locales']['ru']->phone_prefix = 7;
   settings::$data['current']['locales'] = new \stdClass();
-  settings::$data['current']['locales']->lang_code = 'en';
-  settings::$data['current']['locales']->decimal_point = '.';
+  settings::$data['current']['locales']->lang_code = 'ru';
+  settings::$data['current']['locales']->decimal_point = ',';
+  settings::$data['current']['locales']->thousands_separator = '';
   settings::$data['languages']['locales']['en'] = new \stdClass();
   settings::$data['languages']['locales']['en']->title = new \stdClass();
   settings::$data['languages']['locales']['en']->title->en = 'English';
