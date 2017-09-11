@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-11 11:35:35';
+  settings::$data_orig['_created'] = '2017-09-11 12:01:17';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1172,13 +1172,11 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['languages']['locales']['en']->title->en = 'English';
   settings::$data_orig['languages']['locales']['en']->title->native = 'English';
   settings::$data_orig['languages']['locales']['en']->code = 'en';
-  settings::$data_orig['languages']['locales']['en']->decimal_point = '.';
   settings::$data_orig['languages']['locales']['ru'] = new \stdClass();
   settings::$data_orig['languages']['locales']['ru']->title = new \stdClass();
   settings::$data_orig['languages']['locales']['ru']->title->en = 'Russian';
   settings::$data_orig['languages']['locales']['ru']->title->native = 'Русский';
   settings::$data_orig['languages']['locales']['ru']->code = 'ru';
-  settings::$data_orig['languages']['locales']['ru']->decimal_point = ',';
   settings::$data_orig['translations']['locales'] = new \stdClass();
   settings::$data_orig['translations']['locales']->ru['- select -'] = '- выбрать -';
   settings::$data_orig['translations']['locales']->ru['Action'] = 'Действие';

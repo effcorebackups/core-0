@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-11 11:35:35';
+  settings::$data['_created'] = '2017-09-11 12:01:17';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1172,13 +1172,11 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['languages']['locales']['en']->title->en = 'English';
   settings::$data['languages']['locales']['en']->title->native = 'English';
   settings::$data['languages']['locales']['en']->code = 'en';
-  settings::$data['languages']['locales']['en']->decimal_point = '.';
   settings::$data['languages']['locales']['ru'] = new \stdClass();
   settings::$data['languages']['locales']['ru']->title = new \stdClass();
   settings::$data['languages']['locales']['ru']->title->en = 'Russian';
   settings::$data['languages']['locales']['ru']->title->native = 'Русский';
   settings::$data['languages']['locales']['ru']->code = 'ru';
-  settings::$data['languages']['locales']['ru']->decimal_point = ',';
   settings::$data['translations']['locales'] = new \stdClass();
   settings::$data['translations']['locales']->ru['- select -'] = '- выбрать -';
   settings::$data['translations']['locales']->ru['Action'] = 'Действие';
