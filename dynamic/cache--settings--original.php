@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-12 12:00:37';
+  settings::$data_orig['_created'] = '2017-09-12 12:47:46';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -772,10 +772,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_admin_roles']->content['block_tree_user']->region = 'nav';
   settings::$data_orig['pages']['user']['page_admin_roles']->content['block_tree_user']->type = 'link';
   settings::$data_orig['pages']['user']['page_admin_roles']->content['block_tree_user']->npath = 'trees/user/user';
-  settings::$data_orig['pages']['user']['page_admin_roles']->content['block_roles'] = new \stdClass();
-  settings::$data_orig['pages']['user']['page_admin_roles']->content['block_roles']->region = 'content_1_1';
-  settings::$data_orig['pages']['user']['page_admin_roles']->content['block_roles']->type = 'code';
-  settings::$data_orig['pages']['user']['page_admin_roles']->content['block_roles']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_admin_roles';
+  settings::$data_orig['pages']['user']['page_admin_roles']->content['block_admin_roles'] = new \stdClass();
+  settings::$data_orig['pages']['user']['page_admin_roles']->content['block_admin_roles']->region = 'content_1_1';
+  settings::$data_orig['pages']['user']['page_admin_roles']->content['block_admin_roles']->type = 'code';
+  settings::$data_orig['pages']['user']['page_admin_roles']->content['block_admin_roles']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_admin_roles';
   settings::$data_orig['pages']['user']['page_admin_roles']->display = new \stdClass();
   settings::$data_orig['pages']['user']['page_admin_roles']->display->url = new \stdClass();
   settings::$data_orig['pages']['user']['page_admin_roles']->display->url->match = '%^/admin/roles$%';
@@ -792,10 +792,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_admin_users']->content['block_tree_user']->region = 'nav';
   settings::$data_orig['pages']['user']['page_admin_users']->content['block_tree_user']->type = 'link';
   settings::$data_orig['pages']['user']['page_admin_users']->content['block_tree_user']->npath = 'trees/user/user';
-  settings::$data_orig['pages']['user']['page_admin_users']->content['block_users'] = new \stdClass();
-  settings::$data_orig['pages']['user']['page_admin_users']->content['block_users']->region = 'content_1_1';
-  settings::$data_orig['pages']['user']['page_admin_users']->content['block_users']->type = 'code';
-  settings::$data_orig['pages']['user']['page_admin_users']->content['block_users']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_admin_users';
+  settings::$data_orig['pages']['user']['page_admin_users']->content['block_admin_users'] = new \stdClass();
+  settings::$data_orig['pages']['user']['page_admin_users']->content['block_admin_users']->region = 'content_1_1';
+  settings::$data_orig['pages']['user']['page_admin_users']->content['block_admin_users']->type = 'code';
+  settings::$data_orig['pages']['user']['page_admin_users']->content['block_admin_users']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_admin_users';
   settings::$data_orig['pages']['user']['page_admin_users']->display = new \stdClass();
   settings::$data_orig['pages']['user']['page_admin_users']->display->url = new \stdClass();
   settings::$data_orig['pages']['user']['page_admin_users']->display->url->match = '%^/admin/users$%';
@@ -811,10 +811,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['block_tree_user']->region = 'nav';
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['block_tree_user']->type = 'link';
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['block_tree_user']->npath = 'trees/user/user';
-  settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['code_user_n_delete'] = new \stdClass();
-  settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['code_user_n_delete']->region = 'content_1_1';
-  settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['code_user_n_delete']->type = 'code';
-  settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['code_user_n_delete']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_admin_users_delete_n';
+  settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['check_access_user_n_delete'] = new \stdClass();
+  settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['check_access_user_n_delete']->region = 'content_1_1';
+  settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['check_access_user_n_delete']->type = 'code';
+  settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['check_access_user_n_delete']->handler = '\\effectivecore\\modules\\user\\events_page::on_check_access_user_n_delete';
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete'] = new \stdClass();
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->region = 'content_1_1';
   settings::$data_orig['pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->type = 'link';
@@ -878,7 +878,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_user_n']->content['block_user_n'] = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_n']->content['block_user_n']->region = 'content_1_1';
   settings::$data_orig['pages']['user']['page_user_n']->content['block_user_n']->type = 'code';
-  settings::$data_orig['pages']['user']['page_user_n']->content['block_user_n']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_user_n';
+  settings::$data_orig['pages']['user']['page_user_n']->content['block_user_n']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_user_n';
   settings::$data_orig['pages']['user']['page_user_n']->https = true;
   settings::$data_orig['pages']['user']['page_user_n']->display = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_n']->display->url = new \stdClass();
@@ -897,10 +897,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['pages']['user']['page_user_n_edit']->content['block_tree_user']->region = 'nav';
   settings::$data_orig['pages']['user']['page_user_n_edit']->content['block_tree_user']->type = 'link';
   settings::$data_orig['pages']['user']['page_user_n_edit']->content['block_tree_user']->npath = 'trees/user/user';
-  settings::$data_orig['pages']['user']['page_user_n_edit']->content['code_on_page_user_n_edit'] = new \stdClass();
-  settings::$data_orig['pages']['user']['page_user_n_edit']->content['code_on_page_user_n_edit']->region = 'content_1_1';
-  settings::$data_orig['pages']['user']['page_user_n_edit']->content['code_on_page_user_n_edit']->type = 'code';
-  settings::$data_orig['pages']['user']['page_user_n_edit']->content['code_on_page_user_n_edit']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_user_n_edit';
+  settings::$data_orig['pages']['user']['page_user_n_edit']->content['check_access_user_n_edit'] = new \stdClass();
+  settings::$data_orig['pages']['user']['page_user_n_edit']->content['check_access_user_n_edit']->region = 'content_1_1';
+  settings::$data_orig['pages']['user']['page_user_n_edit']->content['check_access_user_n_edit']->type = 'code';
+  settings::$data_orig['pages']['user']['page_user_n_edit']->content['check_access_user_n_edit']->handler = '\\effectivecore\\modules\\user\\events_page::on_check_access_user_n_edit';
   settings::$data_orig['pages']['user']['page_user_n_edit']->content['form_user_n_edit'] = new \stdClass();
   settings::$data_orig['pages']['user']['page_user_n_edit']->content['form_user_n_edit']->region = 'content_1_1';
   settings::$data_orig['pages']['user']['page_user_n_edit']->content['form_user_n_edit']->type = 'link';
