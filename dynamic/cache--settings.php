@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-12 23:59:33';
+  settings::$data['_created'] = '2017-09-13 00:45:31';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -15,7 +15,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['module']['develop'] = new \stdClass();
   settings::$data['module']['develop']->id = 'develop';
   settings::$data['module']['develop']->title = 'Develop';
-  settings::$data['module']['develop']->description = 'Мodule for development.';
+  settings::$data['module']['develop']->description = 'Module for development.';
   settings::$data['module']['develop']->version = 1;
   settings::$data['module']['develop']->state = 'enabled';
   settings::$data['module']['develop']->path = 'modules/develop';
@@ -1200,7 +1200,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['languages']['locales']['ru']->code = 'ru';
   settings::$data['translations']['locales'] = new \stdClass();
   settings::$data['translations']['locales']->ru['- select -'] = '- выбрать -';
+  settings::$data['translations']['locales']->ru['action'] = 'действие';
   settings::$data['translations']['locales']->ru['Action'] = 'Действие';
+  settings::$data['translations']['locales']->ru['actions'] = 'действия';
   settings::$data['translations']['locales']->ru['Actions'] = 'Действия';
   settings::$data['translations']['locales']->ru['Administer'] = 'Администрирование';
   settings::$data['translations']['locales']->ru['Administrators'] = 'Администраторы';
@@ -1287,7 +1289,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translations']['locales']->ru['Memory for php (bytes)'] = 'Память для php (байт)';
   settings::$data['translations']['locales']->ru['Moderators'] = 'Модераторы';
   settings::$data['translations']['locales']->ru['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
-  settings::$data['translations']['locales']->ru['Module for development'] = 'Модуль для разработки';
+  settings::$data['translations']['locales']->ru['Module for development.'] = 'Модуль для разработки.';
   settings::$data['translations']['locales']->ru['Module for internationalization.'] = 'Модуль для интернационализации.';
   settings::$data['translations']['locales']->ru['Module for storages support.'] = 'Модуль поддержки хранилищ данных.';
   settings::$data['translations']['locales']->ru['Module for working with pages.'] = 'Модуль работы со страницами.';

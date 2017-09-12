@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-12 23:59:33';
+  settings::$data_orig['_created'] = '2017-09-13 00:45:31';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -15,7 +15,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['module']['develop'] = new \stdClass();
   settings::$data_orig['module']['develop']->id = 'develop';
   settings::$data_orig['module']['develop']->title = 'Develop';
-  settings::$data_orig['module']['develop']->description = 'Мodule for development.';
+  settings::$data_orig['module']['develop']->description = 'Module for development.';
   settings::$data_orig['module']['develop']->version = 1;
   settings::$data_orig['module']['develop']->state = 'enabled';
   settings::$data_orig['module']['develop']->path = 'modules/develop';
@@ -1200,7 +1200,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['languages']['locales']['ru']->code = 'ru';
   settings::$data_orig['translations']['locales'] = new \stdClass();
   settings::$data_orig['translations']['locales']->ru['- select -'] = '- выбрать -';
+  settings::$data_orig['translations']['locales']->ru['action'] = 'действие';
   settings::$data_orig['translations']['locales']->ru['Action'] = 'Действие';
+  settings::$data_orig['translations']['locales']->ru['actions'] = 'действия';
   settings::$data_orig['translations']['locales']->ru['Actions'] = 'Действия';
   settings::$data_orig['translations']['locales']->ru['Administer'] = 'Администрирование';
   settings::$data_orig['translations']['locales']->ru['Administrators'] = 'Администраторы';
@@ -1287,7 +1289,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translations']['locales']->ru['Memory for php (bytes)'] = 'Память для php (байт)';
   settings::$data_orig['translations']['locales']->ru['Moderators'] = 'Модераторы';
   settings::$data_orig['translations']['locales']->ru['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
-  settings::$data_orig['translations']['locales']->ru['Module for development'] = 'Модуль для разработки';
+  settings::$data_orig['translations']['locales']->ru['Module for development.'] = 'Модуль для разработки.';
   settings::$data_orig['translations']['locales']->ru['Module for internationalization.'] = 'Модуль для интернационализации.';
   settings::$data_orig['translations']['locales']->ru['Module for storages support.'] = 'Модуль поддержки хранилищ данных.';
   settings::$data_orig['translations']['locales']->ru['Module for working with pages.'] = 'Модуль работы со страницами.';
