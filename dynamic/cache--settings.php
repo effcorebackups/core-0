@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-12 12:47:46';
+  settings::$data['_created'] = '2017-09-12 12:53:45';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -814,7 +814,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['pages']['user']['page_admin_users_delete_n']->content['check_access_user_n_delete'] = new \stdClass();
   settings::$data['pages']['user']['page_admin_users_delete_n']->content['check_access_user_n_delete']->region = 'content_1_1';
   settings::$data['pages']['user']['page_admin_users_delete_n']->content['check_access_user_n_delete']->type = 'code';
-  settings::$data['pages']['user']['page_admin_users_delete_n']->content['check_access_user_n_delete']->handler = '\\effectivecore\\modules\\user\\events_page::on_check_access_user_n_delete';
+  settings::$data['pages']['user']['page_admin_users_delete_n']->content['check_access_user_n_delete']->handler = '\\effectivecore\\modules\\user\\events_access::on_check_access_user_n_delete';
   settings::$data['pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete'] = new \stdClass();
   settings::$data['pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->region = 'content_1_1';
   settings::$data['pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->type = 'link';
@@ -900,7 +900,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['pages']['user']['page_user_n_edit']->content['check_access_user_n_edit'] = new \stdClass();
   settings::$data['pages']['user']['page_user_n_edit']->content['check_access_user_n_edit']->region = 'content_1_1';
   settings::$data['pages']['user']['page_user_n_edit']->content['check_access_user_n_edit']->type = 'code';
-  settings::$data['pages']['user']['page_user_n_edit']->content['check_access_user_n_edit']->handler = '\\effectivecore\\modules\\user\\events_page::on_check_access_user_n_edit';
+  settings::$data['pages']['user']['page_user_n_edit']->content['check_access_user_n_edit']->handler = '\\effectivecore\\modules\\user\\events_access::on_check_access_user_n_edit';
   settings::$data['pages']['user']['page_user_n_edit']->content['form_user_n_edit'] = new \stdClass();
   settings::$data['pages']['user']['page_user_n_edit']->content['form_user_n_edit']->region = 'content_1_1';
   settings::$data['pages']['user']['page_user_n_edit']->content['form_user_n_edit']->type = 'link';

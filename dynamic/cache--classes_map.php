@@ -12,6 +12,11 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\url']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\url']->name = 'url';
   caches_factory::$data['classes_map']['effectivecore\url']->file = 'modules/core/backend/class--gl--url.php';
+  caches_factory::$data['classes_map']['effectivecore\events_access'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\events_access']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\events_access']->namespace = 'effectivecore';
+  caches_factory::$data['classes_map']['effectivecore\events_access']->name = 'events_access';
+  caches_factory::$data['classes_map']['effectivecore\events_access']->file = 'modules/core/backend/events--gl--access.php';
   caches_factory::$data['classes_map']['effectivecore\events_form'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\events_form']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\events_form']->namespace = 'effectivecore';
@@ -328,6 +333,12 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\tree_item']->name = 'tree_item';
   caches_factory::$data['classes_map']['effectivecore\tree_item']->extends = '\\effectivecore\\node';
   caches_factory::$data['classes_map']['effectivecore\tree_item']->file = 'modules/tree/backend/pattern--tree_item.php';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\events_access'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\modules\user\events_access']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\events_access']->namespace = 'effectivecore\\modules\\user';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\events_access']->name = 'events_access';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\events_access']->extends = '\\effectivecore\\events_access';
+  caches_factory::$data['classes_map']['effectivecore\modules\user\events_access']->file = 'modules/user/backend/events--access.php';
   caches_factory::$data['classes_map']['effectivecore\modules\user\events_form'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\modules\user\events_form']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\modules\user\events_form']->namespace = 'effectivecore\\modules\\user';
