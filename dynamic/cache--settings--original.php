@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-12 12:53:45';
+  settings::$data_orig['_created'] = '2017-09-12 23:59:33';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1106,6 +1106,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['trees']['user']['user']->weight = 1;
   settings::$data_orig['trees']['user']['user']->attributes['class']['user'] = 'user';
   settings::$data_orig['blocks']['develop']['block_demo'] = new \effectivecore\markup();
+  settings::$data_orig['blocks']['develop']['block_demo']->tag_name = 'x-block';
   settings::$data_orig['blocks']['develop']['block_demo']->attributes['id'] = 'block_demo';
   settings::$data_orig['blocks']['develop']['block_demo']->children['title'] = new \effectivecore\markup();
   settings::$data_orig['blocks']['develop']['block_demo']->children['title']->tag_name = 'h2';
