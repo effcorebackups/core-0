@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-13 11:11:33';
+  settings::$data_orig['_created'] = '2017-09-13 11:21:39';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1159,7 +1159,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['blocks']['develop']['block_demo']->children['table']->children['body']->children['tr_4']->children['td_1'] = new \effectivecore\table_body_row_cell();
   settings::$data_orig['blocks']['develop']['block_demo']->children['table']->children['body']->children['tr_4']->children['td_1']->attributes['colspan'] = 3;
   settings::$data_orig['blocks']['develop']['block_demo']->children['table']->children['body']->children['tr_4']->children['td_1']->children['content'] = new \effectivecore\text();
-  settings::$data_orig['blocks']['develop']['block_demo']->children['actions_list_demo'] = new \effectivecore\actions_list();
+  settings::$data_orig['blocks']['develop']['block_demo']->children['actions_list_demo'] = new \effectivecore\control_actions_list();
   settings::$data_orig['blocks']['develop']['block_demo']->children['actions_list_demo']->values['edit'] = 'edit';
   settings::$data_orig['blocks']['develop']['block_demo']->children['actions_list_demo']->values['delete'] = 'delete';
   settings::$data_orig['blocks']['develop']['block_demo']->children['actions_list_demo']->active['edit'] = 'edit';
