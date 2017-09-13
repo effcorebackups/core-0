@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-13 15:18:17';
+  settings::$data['_created'] = '2017-09-13 15:59:29';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1494,7 +1494,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['templates']['page']['html_element'] = 'frontend/template--html_element.html';
   settings::$data['templates']['page']['html_element_simple'] = 'frontend/template--html_element.simple.html';
   settings::$data['templates']['page']['page'] = 'frontend/template--page.html';
-  settings::$data['templates']['page']['table'] = 'frontend/template--table.html';
   settings::$data['templates']['page']['table_head'] = 'frontend/template--table_head.html';
   settings::$data['templates']['page']['table_head_row'] = 'frontend/template--table_head_row.html';
   settings::$data['templates']['page']['table_head_row_cell'] = 'frontend/template--table_head_row_cell.html';
