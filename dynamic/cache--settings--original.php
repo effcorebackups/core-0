@@ -4,7 +4,8 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-13 12:10:10';
+  settings::$data_orig['_changed'] = '2017-09-13 13:10:41';
+  settings::$data_orig['_created'] = '2017-09-13 13:10:02';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1308,6 +1309,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translations']['locales']->ru['Number'] = 'Число';
   settings::$data_orig['translations']['locales']->ru['Object'] = 'Объект';
   settings::$data_orig['translations']['locales']->ru['Old password'] = 'Старый пароль';
+  settings::$data_orig['translations']['locales']->ru['On'] = 'Вкл.';
   settings::$data_orig['translations']['locales']->ru['Page'] = 'Страница';
   settings::$data_orig['translations']['locales']->ru['Parameter'] = 'Параметр';
   settings::$data_orig['translations']['locales']->ru['Password hash'] = 'Хеш пароля';
