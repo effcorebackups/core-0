@@ -269,7 +269,7 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\table_body']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\table_body']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\table_body']->name = 'table_body';
-  caches_factory::$data['classes_map']['effectivecore\table_body']->extends = '\\effectivecore\\node';
+  caches_factory::$data['classes_map']['effectivecore\table_body']->extends = '\\effectivecore\\markup';
   caches_factory::$data['classes_map']['effectivecore\table_body']->file = 'modules/page/backend/pattern--table_body.php';
   caches_factory::$data['classes_map']['effectivecore\table_body_row'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\table_body_row']->type = 'class';
