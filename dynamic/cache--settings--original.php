@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-13 11:21:39';
+  settings::$data_orig['_created'] = '2017-09-13 11:31:28';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1164,6 +1164,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['blocks']['develop']['block_demo']->children['actions_list_demo']->values['delete'] = 'delete';
   settings::$data_orig['blocks']['develop']['block_demo']->children['actions_list_demo']->active['edit'] = 'edit';
   settings::$data_orig['blocks']['develop']['block_demo']->children['actions_list_demo']->attributes['class']['actions-list-demo'] = 'actions-list-demo';
+  settings::$data_orig['blocks']['develop']['block_demo']->children['switcher_demo'] = new \effectivecore\control_switcher();
+  settings::$data_orig['blocks']['develop']['block_demo']->children['switcher_demo']->state = 'on';
+  settings::$data_orig['blocks']['develop']['block_demo']->children['switcher_demo']->attributes['class']['switcher-demo'] = 'switcher-demo';
   settings::$data_orig['countries']['locales']['us'] = new \stdClass();
   settings::$data_orig['countries']['locales']['us']->title = new \stdClass();
   settings::$data_orig['countries']['locales']['us']->title->en = 'United States of America';
@@ -1312,6 +1315,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translations']['locales']->ru['Password hash'] = 'Хеш пароля';
   settings::$data_orig['translations']['locales']->ru['Password'] = 'Пароль';
   settings::$data_orig['translations']['locales']->ru['Path'] = 'Путь';
+  settings::$data_orig['translations']['locales']->ru['phase'] = 'фаза';
   settings::$data_orig['translations']['locales']->ru['profile'] = 'профиль';
   settings::$data_orig['translations']['locales']->ru['Queries'] = 'Запросы';
   settings::$data_orig['translations']['locales']->ru['query'] = 'запрос';
