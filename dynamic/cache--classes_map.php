@@ -281,7 +281,7 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\table_body_row_cell']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\table_body_row_cell']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\table_body_row_cell']->name = 'table_body_row_cell';
-  caches_factory::$data['classes_map']['effectivecore\table_body_row_cell']->extends = '\\effectivecore\\node';
+  caches_factory::$data['classes_map']['effectivecore\table_body_row_cell']->extends = '\\effectivecore\\markup';
   caches_factory::$data['classes_map']['effectivecore\table_body_row_cell']->file = 'modules/page/backend/pattern--table_body_row_cell.php';
   caches_factory::$data['classes_map']['effectivecore\table_head'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\table_head']->type = 'class';
@@ -299,7 +299,7 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\table_head_row_cell']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\table_head_row_cell']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\table_head_row_cell']->name = 'table_head_row_cell';
-  caches_factory::$data['classes_map']['effectivecore\table_head_row_cell']->extends = '\\effectivecore\\node';
+  caches_factory::$data['classes_map']['effectivecore\table_head_row_cell']->extends = '\\effectivecore\\markup';
   caches_factory::$data['classes_map']['effectivecore\table_head_row_cell']->file = 'modules/page/backend/pattern--table_head_row_cell.php';
   caches_factory::$data['classes_map']['effectivecore\storage_instance_pdo'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\storage_instance_pdo']->type = 'class';
