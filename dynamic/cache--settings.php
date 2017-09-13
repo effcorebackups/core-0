@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-13 16:34:55';
+  settings::$data['_created'] = '2017-09-13 16:40:54';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1491,8 +1491,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['frontend']['tree']['frontend_block_tree']->styles['style_tree'] = new \stdClass();
   settings::$data['frontend']['tree']['frontend_block_tree']->styles['style_tree']->file = 'frontend/tree.css';
   settings::$data['frontend']['tree']['frontend_block_tree']->styles['style_tree']->media = 'all';
-  settings::$data['templates']['page']['html_element'] = 'frontend/template--html_element.html';
-  settings::$data['templates']['page']['html_element_simple'] = 'frontend/template--html_element.simple.html';
+  settings::$data['templates']['page']['markup_element'] = 'frontend/template--markup_element.html';
+  settings::$data['templates']['page']['markup_element_simple'] = 'frontend/template--markup_element.simple.html';
   settings::$data['templates']['page']['page'] = 'frontend/template--page.html';
   settings::$data['templates']['page']['form'] = 'frontend/template--form.html';
   settings::$data['templates']['page']['form_title'] = 'frontend/template--form_title.html';
