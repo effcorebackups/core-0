@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-13 16:40:54';
+  settings::$data['_created'] = '2017-09-13 18:58:17';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1108,10 +1108,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['blocks']['develop']['block_demo'] = new \effectivecore\markup();
   settings::$data['blocks']['develop']['block_demo']->tag_name = 'x-block';
   settings::$data['blocks']['develop']['block_demo']->attributes['id'] = 'block_demo';
-  settings::$data['blocks']['develop']['block_demo']->children['title'] = new \effectivecore\markup();
-  settings::$data['blocks']['develop']['block_demo']->children['title']->tag_name = 'h2';
-  settings::$data['blocks']['develop']['block_demo']->children['title']->children['content'] = new \effectivecore\text();
-  settings::$data['blocks']['develop']['block_demo']->children['title']->children['content']->text = 'Static block';
+  settings::$data['blocks']['develop']['block_demo']->children['block_title'] = new \effectivecore\markup();
+  settings::$data['blocks']['develop']['block_demo']->children['block_title']->tag_name = 'h2';
+  settings::$data['blocks']['develop']['block_demo']->children['block_title']->children['content'] = new \effectivecore\text();
+  settings::$data['blocks']['develop']['block_demo']->children['block_title']->children['content']->text = 'Static block';
   settings::$data['blocks']['develop']['block_demo']->children['table'] = new \effectivecore\table();
   settings::$data['blocks']['develop']['block_demo']->children['table']->children['head'] = new \effectivecore\table_head();
   settings::$data['blocks']['develop']['block_demo']->children['table']->children['head']->children['tr'] = new \effectivecore\table_head_row();
@@ -1159,14 +1159,20 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['blocks']['develop']['block_demo']->children['table']->children['body']->children['tr_4']->children['td_1'] = new \effectivecore\table_body_row_cell();
   settings::$data['blocks']['develop']['block_demo']->children['table']->children['body']->children['tr_4']->children['td_1']->attributes['colspan'] = 3;
   settings::$data['blocks']['develop']['block_demo']->children['table']->children['body']->children['tr_4']->children['td_1']->children['content'] = new \effectivecore\text();
-  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo'] = new \effectivecore\control_actions_list();
-  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo']->values['edit'] = 'edit';
-  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo']->values['delete'] = 'delete';
-  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo']->active['edit'] = 'edit';
-  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo']->attributes['class']['actions-list-demo'] = 'actions-list-demo';
-  settings::$data['blocks']['develop']['block_demo']->children['switcher_demo'] = new \effectivecore\control_switcher();
-  settings::$data['blocks']['develop']['block_demo']->children['switcher_demo']->state = 'on';
-  settings::$data['blocks']['develop']['block_demo']->children['switcher_demo']->attributes['class']['switcher-demo'] = 'switcher-demo';
+  settings::$data['blocks']['develop']['block_demo']->children['controls_title'] = new \effectivecore\markup();
+  settings::$data['blocks']['develop']['block_demo']->children['controls_title']->tag_name = 'h2';
+  settings::$data['blocks']['develop']['block_demo']->children['controls_title']->children['content'] = new \effectivecore\text();
+  settings::$data['blocks']['develop']['block_demo']->children['controls_title']->children['content']->text = 'Control elements';
+  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo_wrapper'] = new \effectivecore\markup();
+  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo_wrapper']->children['actions_list_demo'] = new \effectivecore\control_actions_list();
+  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo_wrapper']->children['actions_list_demo']->values['edit'] = 'edit';
+  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo_wrapper']->children['actions_list_demo']->values['delete'] = 'delete';
+  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo_wrapper']->children['actions_list_demo']->active['edit'] = 'edit';
+  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo_wrapper']->children['actions_list_demo']->attributes['class']['actions-list-demo'] = 'actions-list-demo';
+  settings::$data['blocks']['develop']['block_demo']->children['switcher_demo_wrapper'] = new \effectivecore\markup();
+  settings::$data['blocks']['develop']['block_demo']->children['switcher_demo_wrapper']->children['switcher_demo'] = new \effectivecore\control_switcher();
+  settings::$data['blocks']['develop']['block_demo']->children['switcher_demo_wrapper']->children['switcher_demo']->state = 'on';
+  settings::$data['blocks']['develop']['block_demo']->children['switcher_demo_wrapper']->children['switcher_demo']->attributes['class']['switcher-demo'] = 'switcher-demo';
   settings::$data['countries']['locales']['us'] = new \stdClass();
   settings::$data['countries']['locales']['us']->title = new \stdClass();
   settings::$data['countries']['locales']['us']->title->en = 'United States of America';
@@ -1225,6 +1231,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translations']['locales']->ru['Color'] = 'Цвет';
   settings::$data['translations']['locales']->ru['Colors'] = 'Цвета';
   settings::$data['translations']['locales']->ru['Console'] = 'Консоль';
+  settings::$data['translations']['locales']->ru['Control elements'] = 'Элементы управления';
   settings::$data['translations']['locales']->ru['Core'] = 'Ядро';
   settings::$data['translations']['locales']->ru['created'] = 'создано';
   settings::$data['translations']['locales']->ru['Created'] = 'Создано';
