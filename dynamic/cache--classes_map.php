@@ -210,7 +210,7 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\form']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\form']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\form']->name = 'form';
-  caches_factory::$data['classes_map']['effectivecore\form']->extends = '\\effectivecore\\node';
+  caches_factory::$data['classes_map']['effectivecore\form']->extends = '\\effectivecore\\markup';
   caches_factory::$data['classes_map']['effectivecore\form']->file = 'modules/page/backend/pattern--form.php';
   caches_factory::$data['classes_map']['effectivecore\form_container'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\form_container']->type = 'class';
