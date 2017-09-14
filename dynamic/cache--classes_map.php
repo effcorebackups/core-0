@@ -116,7 +116,13 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\node']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\node']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\node']->name = 'node';
+  caches_factory::$data['classes_map']['effectivecore\node']->extends = '\\effectivecore\\node_simple';
   caches_factory::$data['classes_map']['effectivecore\node']->file = 'modules/core/backend/pattern--node.php';
+  caches_factory::$data['classes_map']['effectivecore\node_simple'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\node_simple']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\node_simple']->namespace = 'effectivecore';
+  caches_factory::$data['classes_map']['effectivecore\node_simple']->name = 'node_simple';
+  caches_factory::$data['classes_map']['effectivecore\node_simple']->file = 'modules/core/backend/pattern--node_simple.php';
   caches_factory::$data['classes_map']['effectivecore\text'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\text']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\text']->namespace = 'effectivecore';
