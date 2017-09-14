@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-14 14:45:34';
+  settings::$data['_created'] = '2017-09-14 15:04:39';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1177,7 +1177,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['blocks']['develop']['block_demo']->children['switcher_demo_wrapper']->children['switcher_demo']->attributes['class']['switcher-demo'] = 'switcher-demo';
   settings::$data['data_demo']['develop'] = new \stdClass();
   settings::$data['data_demo']['develop']->demo_integer = 1;
-  settings::$data['data_demo']['develop']->demo_float = 1;
+  settings::$data['data_demo']['develop']->demo_float = 2.3;
   settings::$data['data_demo']['develop']->demo_boolean = true;
   settings::$data['data_demo']['develop']->demo_string_empty = '';
   settings::$data['data_demo']['develop']->demo_string = 'text';
@@ -1187,11 +1187,15 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['data_demo']['develop']->demo_array['item_1'] = 'item value #1';
   settings::$data['data_demo']['develop']->demo_array['item_2'] = 'item value #2';
   settings::$data['data_demo']['develop']->demo_array['item_3'] = 'item value #3';
+  settings::$data['data_demo']['develop']->demo_array['item_5'] = 'item value #5 (insert + update)';
+  settings::$data['data_demo']['develop']->demo_array['item_6'] = 'item value #6 (insert)';
   settings::$data['data_demo']['develop']->demo_object_empty = new \stdClass();
   settings::$data['data_demo']['develop']->demo_object = new \stdClass();
   settings::$data['data_demo']['develop']->demo_object->prop_1 = 'property value #1';
   settings::$data['data_demo']['develop']->demo_object->prop_2 = 'property value #2';
   settings::$data['data_demo']['develop']->demo_object->prop_3 = 'property value #3';
+  settings::$data['data_demo']['develop']->demo_object->prop_5 = 'property value #5 (insert + update)';
+  settings::$data['data_demo']['develop']->demo_object->prop_6 = 'property value #6 (insert)';
   settings::$data['data_demo']['develop']->demo_null = null;
   settings::$data['countries']['locales']['us'] = new \stdClass();
   settings::$data['countries']['locales']['us']->title = new \stdClass();

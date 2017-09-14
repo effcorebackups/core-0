@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-14 14:45:34';
+  settings::$data_orig['_created'] = '2017-09-14 15:04:39';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1175,9 +1175,21 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['blocks']['develop']['block_demo']->children['switcher_demo_wrapper']->children['switcher_demo'] = new \effectivecore\control_switcher();
   settings::$data_orig['blocks']['develop']['block_demo']->children['switcher_demo_wrapper']->children['switcher_demo']->state = 'on';
   settings::$data_orig['blocks']['develop']['block_demo']->children['switcher_demo_wrapper']->children['switcher_demo']->attributes['class']['switcher-demo'] = 'switcher-demo';
+  settings::$data_orig['changes']['develop'] = new \stdClass();
+  settings::$data_orig['changes']['develop']->insert['data_demo/develop/demo_object'] = new \stdClass();
+  settings::$data_orig['changes']['develop']->insert['data_demo/develop/demo_object']->prop_4 = 'property value #4 (insert)';
+  settings::$data_orig['changes']['develop']->insert['data_demo/develop/demo_object']->prop_5 = 'property value #5 (insert)';
+  settings::$data_orig['changes']['develop']->insert['data_demo/develop/demo_object']->prop_6 = 'property value #6 (insert)';
+  settings::$data_orig['changes']['develop']->insert['data_demo/develop/demo_array']['item_4'] = 'item value #4 (insert)';
+  settings::$data_orig['changes']['develop']->insert['data_demo/develop/demo_array']['item_5'] = 'item value #5 (insert)';
+  settings::$data_orig['changes']['develop']->insert['data_demo/develop/demo_array']['item_6'] = 'item value #6 (insert)';
+  settings::$data_orig['changes']['develop']->update['data_demo/develop/demo_object/prop_5'] = 'property value #5 (insert + update)';
+  settings::$data_orig['changes']['develop']->update['data_demo/develop/demo_array/item_5'] = 'item value #5 (insert + update)';
+  settings::$data_orig['changes']['develop']->delete['data_demo/develop/demo_object/prop_4'] = null;
+  settings::$data_orig['changes']['develop']->delete['data_demo/develop/demo_array/item_4'] = null;
   settings::$data_orig['data_demo']['develop'] = new \stdClass();
   settings::$data_orig['data_demo']['develop']->demo_integer = 1;
-  settings::$data_orig['data_demo']['develop']->demo_float = 1;
+  settings::$data_orig['data_demo']['develop']->demo_float = 2.3;
   settings::$data_orig['data_demo']['develop']->demo_boolean = true;
   settings::$data_orig['data_demo']['develop']->demo_string_empty = '';
   settings::$data_orig['data_demo']['develop']->demo_string = 'text';
