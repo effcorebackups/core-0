@@ -254,6 +254,12 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\markup']->name = 'markup';
   caches_factory::$data['classes_map']['effectivecore\markup']->extends = '\\effectivecore\\node';
   caches_factory::$data['classes_map']['effectivecore\markup']->file = 'modules/page/backend/pattern--markup.php';
+  caches_factory::$data['classes_map']['effectivecore\markup_simple'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\markup_simple']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\markup_simple']->namespace = 'effectivecore';
+  caches_factory::$data['classes_map']['effectivecore\markup_simple']->name = 'markup_simple';
+  caches_factory::$data['classes_map']['effectivecore\markup_simple']->extends = '\\effectivecore\\node_simple';
+  caches_factory::$data['classes_map']['effectivecore\markup_simple']->file = 'modules/page/backend/pattern--markup_simple.php';
   caches_factory::$data['classes_map']['effectivecore\page'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\page']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\page']->namespace = 'effectivecore';
