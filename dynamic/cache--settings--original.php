@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-14 12:28:47';
+  settings::$data_orig['_created'] = '2017-09-14 14:45:34';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1175,6 +1175,24 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['blocks']['develop']['block_demo']->children['switcher_demo_wrapper']->children['switcher_demo'] = new \effectivecore\control_switcher();
   settings::$data_orig['blocks']['develop']['block_demo']->children['switcher_demo_wrapper']->children['switcher_demo']->state = 'on';
   settings::$data_orig['blocks']['develop']['block_demo']->children['switcher_demo_wrapper']->children['switcher_demo']->attributes['class']['switcher-demo'] = 'switcher-demo';
+  settings::$data_orig['data_demo']['develop'] = new \stdClass();
+  settings::$data_orig['data_demo']['develop']->demo_integer = 1;
+  settings::$data_orig['data_demo']['develop']->demo_float = 1;
+  settings::$data_orig['data_demo']['develop']->demo_boolean = true;
+  settings::$data_orig['data_demo']['develop']->demo_string_empty = '';
+  settings::$data_orig['data_demo']['develop']->demo_string = 'text';
+  settings::$data_orig['data_demo']['develop']->demo_string_text = new \effectivecore\text();
+  settings::$data_orig['data_demo']['develop']->demo_string_text->text = 'like code: new text(\'any text\') # translated by default';
+  settings::$data_orig['data_demo']['develop']->demo_array_empty = [];
+  settings::$data_orig['data_demo']['develop']->demo_array['item_1'] = 'item value #1';
+  settings::$data_orig['data_demo']['develop']->demo_array['item_2'] = 'item value #2';
+  settings::$data_orig['data_demo']['develop']->demo_array['item_3'] = 'item value #3';
+  settings::$data_orig['data_demo']['develop']->demo_object_empty = new \stdClass();
+  settings::$data_orig['data_demo']['develop']->demo_object = new \stdClass();
+  settings::$data_orig['data_demo']['develop']->demo_object->prop_1 = 'property value #1';
+  settings::$data_orig['data_demo']['develop']->demo_object->prop_2 = 'property value #2';
+  settings::$data_orig['data_demo']['develop']->demo_object->prop_3 = 'property value #3';
+  settings::$data_orig['data_demo']['develop']->demo_null = null;
   settings::$data_orig['countries']['locales']['us'] = new \stdClass();
   settings::$data_orig['countries']['locales']['us']->title = new \stdClass();
   settings::$data_orig['countries']['locales']['us']->title->en = 'United States of America';
