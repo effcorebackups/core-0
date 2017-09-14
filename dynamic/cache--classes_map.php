@@ -257,7 +257,7 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\pager']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\pager']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\pager']->name = 'pager';
-  caches_factory::$data['classes_map']['effectivecore\pager']->extends = '\\effectivecore\\node';
+  caches_factory::$data['classes_map']['effectivecore\pager']->extends = '\\effectivecore\\markup';
   caches_factory::$data['classes_map']['effectivecore\pager']->file = 'modules/page/backend/pattern--pager.php';
   caches_factory::$data['classes_map']['effectivecore\table'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\table']->type = 'class';

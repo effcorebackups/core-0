@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-13 18:58:17';
+  settings::$data_orig['_created'] = '2017-09-14 12:28:47';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1159,6 +1159,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['blocks']['develop']['block_demo']->children['table']->children['body']->children['tr_4']->children['td_1'] = new \effectivecore\table_body_row_cell();
   settings::$data_orig['blocks']['develop']['block_demo']->children['table']->children['body']->children['tr_4']->children['td_1']->attributes['colspan'] = 3;
   settings::$data_orig['blocks']['develop']['block_demo']->children['table']->children['body']->children['tr_4']->children['td_1']->children['content'] = new \effectivecore\text();
+  settings::$data_orig['blocks']['develop']['block_demo']->children['pager_1_demo'] = new \effectivecore\pager();
+  settings::$data_orig['blocks']['develop']['block_demo']->children['pager_1_demo']->id = 1;
   settings::$data_orig['blocks']['develop']['block_demo']->children['controls_title'] = new \effectivecore\markup();
   settings::$data_orig['blocks']['develop']['block_demo']->children['controls_title']->tag_name = 'h2';
   settings::$data_orig['blocks']['develop']['block_demo']->children['controls_title']->children['content'] = new \effectivecore\text();
