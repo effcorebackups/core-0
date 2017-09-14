@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-14 21:27:51';
+  settings::$data['_created'] = '2017-09-14 21:51:45';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1160,7 +1160,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['blocks']['develop']['block_demo']->children['table']->children['body']->children['tr_4']->children['td_1']->attributes['colspan'] = 3;
   settings::$data['blocks']['develop']['block_demo']->children['pager_1_demo'] = new \effectivecore\pager();
   settings::$data['blocks']['develop']['block_demo']->children['pager_1_demo']->id = 1;
-  settings::$data['blocks']['develop']['block_demo']->children['pager_1_demo']->children[0] = new \effectivecore\text();
   settings::$data['blocks']['develop']['block_demo']->children['controls_title'] = new \effectivecore\markup();
   settings::$data['blocks']['develop']['block_demo']->children['controls_title']->tag_name = 'h2';
   settings::$data['blocks']['develop']['block_demo']->children['controls_title']->children['content'] = new \effectivecore\text();
@@ -1170,7 +1169,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo_wrapper']->children['actions_list_demo']->values['edit'] = 'edit';
   settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo_wrapper']->children['actions_list_demo']->values['delete'] = 'delete';
   settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo_wrapper']->children['actions_list_demo']->active['edit'] = 'edit';
-  settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo_wrapper']->children['actions_list_demo']->children[0] = new \effectivecore\text();
   settings::$data['blocks']['develop']['block_demo']->children['actions_list_demo_wrapper']->children['actions_list_demo']->attributes['class']['actions-list-demo'] = 'actions-list-demo';
   settings::$data['blocks']['develop']['block_demo']->children['switcher_demo_wrapper'] = new \effectivecore\markup();
   settings::$data['blocks']['develop']['block_demo']->children['switcher_demo_wrapper']->children['switcher_demo'] = new \effectivecore\control_switcher();
