@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-17 15:59:18';
+  settings::$data_orig['_created'] = '2017-09-17 16:16:25';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -187,8 +187,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['core']['form_installation']->attributes['novalidate'] = 'novalidate';
   settings::$data_orig['forms']['core']['form_installation']->attributes['method'] = 'post';
   settings::$data_orig['forms']['develop']['form_demo'] = new \effectivecore\form();
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default'] = new \effectivecore\form_container();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->tag_name = 'fieldset';
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->title = 'Form elements';
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->title_tag_name = 'legend';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_text'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_text']->title = 'Text';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_text']->description = new \effectivecore\text();
@@ -464,7 +466,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro'] = new \effectivecore\form_container_palette();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->each_name = 'color';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->title = 'Color';
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->title = 'Form elements';
   settings::$data_orig['forms']['develop']['form_demo']->children['button_submit'] = new \effectivecore\markup();
   settings::$data_orig['forms']['develop']['form_demo']->children['button_submit']->tag_name = 'button';
   settings::$data_orig['forms']['develop']['form_demo']->children['button_submit']->children['label'] = new \effectivecore\text();
@@ -491,15 +492,16 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['develop']['form_demo']->attributes['method'] = 'post';
   settings::$data_orig['forms']['develop']['form_demo']->attributes['class']['form-demo'] = 'form-demo';
   settings::$data_orig['forms']['page']['form_admin_decoration'] = new \effectivecore\form();
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default'] = new \effectivecore\form_container();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->tag_name = 'fieldset';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->title = 'Colors';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->title_tag_name = 'legend';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color'] = new \effectivecore\form_container_palette();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->each_name = 'color';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->title = 'Color';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg'] = new \effectivecore\form_container_palette();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->each_name = 'color_bg';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->title = 'Background color';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->title = 'Colors';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->tag_name = 'button';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->children['label'] = new \effectivecore\text();
@@ -512,7 +514,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_admin_decoration']->attributes['method'] = 'post';
   settings::$data_orig['forms']['page']['form_admin_decoration']->attributes['class']['form-decoration'] = 'form-decoration';
   settings::$data_orig['forms']['user']['form_user_login'] = new \effectivecore\form();
-  settings::$data_orig['forms']['user']['form_user_login']->children['fieldset_default'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['user']['form_user_login']->children['fieldset_default'] = new \effectivecore\form_container();
   settings::$data_orig['forms']['user']['form_user_login']->children['fieldset_default']->tag_name = 'fieldset';
   settings::$data_orig['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['user']['form_user_login']->children['fieldset_default']->children['field_email']->title = 'EMail';
@@ -585,7 +587,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_n_delete']->attributes['method'] = 'post';
   settings::$data_orig['forms']['user']['form_user_n_delete']->attributes['class']['form-user'] = 'form-user';
   settings::$data_orig['forms']['user']['form_user_n_edit'] = new \effectivecore\form();
-  settings::$data_orig['forms']['user']['form_user_n_edit']->children['fieldset_default'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['user']['form_user_n_edit']->children['fieldset_default'] = new \effectivecore\form_container();
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['fieldset_default']->tag_name = 'fieldset';
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->title = 'Old password';
@@ -628,7 +630,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['user']['form_user_n_edit']->attributes['method'] = 'post';
   settings::$data_orig['forms']['user']['form_user_n_edit']->attributes['class']['form-user'] = 'form-user';
   settings::$data_orig['forms']['user']['form_user_registration'] = new \effectivecore\form();
-  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default'] = new \effectivecore\form_container();
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->tag_name = 'fieldset';
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['user']['form_user_registration']->children['fieldset_default']->children['field_email']->title = 'EMail';
