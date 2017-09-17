@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-17 16:16:25';
+  settings::$data['_created'] = '2017-09-17 16:52:13';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -397,6 +397,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->description->args['info'] = '&lt;input type="checkbox"&gt;';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_1'] = new \effectivecore\form_field();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_1']->title = 'Checkbox 1';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_1']->title_tag_name = 'label';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_1']->children['default'] = new \effectivecore\markup_simple();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_1']->children['default']->tag_name = 'input';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_1']->children['default']->attributes['type'] = 'checkbox';
@@ -405,6 +406,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_1']->title_position = 'bottom';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_2'] = new \effectivecore\form_field();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_2']->title = 'Checkbox 2';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_2']->title_tag_name = 'label';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_2']->children['default'] = new \effectivecore\markup_simple();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_2']->children['default']->tag_name = 'input';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_2']->children['default']->attributes['type'] = 'checkbox';
@@ -413,6 +415,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_2']->title_position = 'bottom';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_3'] = new \effectivecore\form_field();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_3']->title = 'Checkbox 3';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_3']->title_tag_name = 'label';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_3']->children['default'] = new \effectivecore\markup_simple();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_3']->children['default']->tag_name = 'input';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->children['field_checkbox_3']->children['default']->attributes['type'] = 'checkbox';
@@ -429,6 +432,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->description->args['info'] = '&lt;input type="radio"&gt;';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1'] = new \effectivecore\form_field();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1']->title = 'Radio 1.1';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1']->title_tag_name = 'label';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1']->children['default'] = new \effectivecore\markup_simple();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1']->children['default']->tag_name = 'input';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1']->children['default']->attributes['type'] = 'radio';
@@ -437,6 +441,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1']->title_position = 'bottom';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_2'] = new \effectivecore\form_field();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_2']->title = 'Radio 1.2';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_2']->title_tag_name = 'label';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_2']->children['default'] = new \effectivecore\markup_simple();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_2']->children['default']->tag_name = 'input';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_2']->children['default']->attributes['type'] = 'radio';
@@ -445,6 +450,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_2']->title_position = 'bottom';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_3'] = new \effectivecore\form_field();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_3']->title = 'Radio 1.3';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_3']->title_tag_name = 'label';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_3']->children['default'] = new \effectivecore\markup_simple();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_3']->children['default']->tag_name = 'input';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_3']->children['default']->attributes['type'] = 'radio';
