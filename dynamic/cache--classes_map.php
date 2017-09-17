@@ -230,12 +230,6 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\form_field_palette']->name = 'form_field_palette';
   caches_factory::$data['classes_map']['effectivecore\form_field_palette']->extends = '\\effectivecore\\form_container_radios';
   caches_factory::$data['classes_map']['effectivecore\form_field_palette']->file = 'modules/page/backend/pattern--form_FIX_field_palette.php';
-  caches_factory::$data['classes_map']['effectivecore\form_field_select'] = new \stdClass();
-  caches_factory::$data['classes_map']['effectivecore\form_field_select']->type = 'class';
-  caches_factory::$data['classes_map']['effectivecore\form_field_select']->namespace = 'effectivecore';
-  caches_factory::$data['classes_map']['effectivecore\form_field_select']->name = 'form_field_select';
-  caches_factory::$data['classes_map']['effectivecore\form_field_select']->extends = '\\effectivecore\\form_container';
-  caches_factory::$data['classes_map']['effectivecore\form_field_select']->file = 'modules/page/backend/pattern--form_FIX_field_select.php';
   caches_factory::$data['classes_map']['effectivecore\form_box'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\form_box']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\form_box']->namespace = 'effectivecore';
@@ -248,6 +242,12 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\form_field']->name = 'form_field';
   caches_factory::$data['classes_map']['effectivecore\form_field']->extends = '\\effectivecore\\form_box';
   caches_factory::$data['classes_map']['effectivecore\form_field']->file = 'modules/page/backend/pattern--form_field.php';
+  caches_factory::$data['classes_map']['effectivecore\form_field_select'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\form_field_select']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\form_field_select']->namespace = 'effectivecore';
+  caches_factory::$data['classes_map']['effectivecore\form_field_select']->name = 'form_field_select';
+  caches_factory::$data['classes_map']['effectivecore\form_field_select']->extends = '\\effectivecore\\form_field';
+  caches_factory::$data['classes_map']['effectivecore\form_field_select']->file = 'modules/page/backend/pattern--form_field_select.php';
   caches_factory::$data['classes_map']['effectivecore\markup'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\markup']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\markup']->namespace = 'effectivecore';

@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-15 16:40:33';
+  settings::$data['_created'] = '2017-09-17 13:14:53';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -369,6 +369,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->description = new \effectivecore\text();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->description->text = 'Element %%_info.';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->description->args['info'] = '&lt;select&gt;';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->children[0] = new \effectivecore\text();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->attributes['name'] = 'select_macro';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->attributes['required'] = 'required';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro'] = new \effectivecore\form_field_select();
@@ -384,6 +385,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description = new \effectivecore\text();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->text = 'Element %%_info.';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->args['info'] = '&lt;select&gt;';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->children[0] = new \effectivecore\text();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['name'] = 'select_multiple_macro[]';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['required'] = 'required';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['multiple'] = 'multiple';
