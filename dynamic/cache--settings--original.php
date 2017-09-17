@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-17 13:30:20';
+  settings::$data_orig['_created'] = '2017-09-17 13:56:23';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -369,7 +369,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->description = new \effectivecore\text();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->description->text = 'Element %%_info.';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->description->args['info'] = '&lt;select&gt;';
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->children[0] = new \effectivecore\text();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->attributes['name'] = 'select_macro';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->attributes['required'] = 'required';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro'] = new \effectivecore\form_field_select();
@@ -385,7 +384,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description = new \effectivecore\text();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->text = 'Element %%_info.';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->args['info'] = '&lt;select&gt;';
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->children[0] = new \effectivecore\text();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['name'] = 'select_multiple_macro[]';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['required'] = 'required';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->attributes['multiple'] = 'multiple';
@@ -462,11 +460,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description = new \effectivecore\text();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description->text = 'Element %%_info.';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description->args['info'] = '&lt;input type="radio"&gt;';
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->children[0] = new \effectivecore\text();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->attributes['name'] = 'input_radio_macro';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro'] = new \effectivecore\form_box_palette();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->title = 'Color';
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->children[0] = new \effectivecore\text();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->name = 'color';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->title = 'Form elements';
   settings::$data_orig['forms']['develop']['form_demo']->children['button_submit'] = new \effectivecore\markup();
@@ -499,11 +495,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->tag_name = 'fieldset';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color'] = new \effectivecore\form_box_palette();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->title = 'Color';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->children[0] = new \effectivecore\text();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->name = 'color';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg'] = new \effectivecore\form_box_palette();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->title = 'Background color';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->children[0] = new \effectivecore\text();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->name = 'color_bg';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->title = 'Colors';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
