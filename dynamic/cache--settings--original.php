@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-17 20:51:59';
+  settings::$data_orig['_created'] = '2017-09-18 11:52:32';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -496,12 +496,12 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->tag_name = 'fieldset';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->title = 'Colors';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->title_tag_name = 'legend';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color'] = new \effectivecore\form_container_palette();
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->each_name = 'color';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color']->title = 'Color';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg'] = new \effectivecore\form_container_palette();
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->each_name = 'color_bg';
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg']->title = 'Background color';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id'] = new \effectivecore\form_container_palette();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id']->each_name = 'color_id';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id']->title = 'Color';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id'] = new \effectivecore\form_container_palette();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id']->each_name = 'color_bg_id';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id']->title = 'Background color';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->tag_name = 'button';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->children['label'] = new \effectivecore\text();
@@ -1470,8 +1470,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['colors']['page']['color_black']->value = 'black';
   settings::$data_orig['colors']['page']['color_black']->is_dark = true;
   settings::$data_orig['decoration']['page'] = new \stdClass();
-  settings::$data_orig['decoration']['page']->color = 'color_black';
-  settings::$data_orig['decoration']['page']->color_bg = 'color_original_blue';
+  settings::$data_orig['decoration']['page']->color_id = 'color_black';
+  settings::$data_orig['decoration']['page']->color_bg_id = 'color_original_blue';
   settings::$data_orig['frontend']['page']['frontend_page_n'] = new \stdClass();
   settings::$data_orig['frontend']['page']['frontend_page_n']->display = new \stdClass();
   settings::$data_orig['frontend']['page']['frontend_page_n']->display->url = new \stdClass();
