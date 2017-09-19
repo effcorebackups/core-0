@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-18 18:57:39';
+  settings::$data_orig['_created'] = '2017-09-19 10:58:50';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -305,7 +305,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->tag_name = 'input';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['type'] = 'range';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['name'] = 'input_range';
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['required'] = 'required';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['value'] = -2.5;
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['min'] = -5;
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['max'] = 5;
@@ -343,7 +342,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color']->children['default']->tag_name = 'input';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color']->children['default']->attributes['type'] = 'color';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color']->children['default']->attributes['name'] = 'input_color';
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color']->children['default']->attributes['required'] = 'required';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color']->children['default']->attributes['value'] = '#ffffff';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_textarea'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_textarea']->title = 'Textarea';
