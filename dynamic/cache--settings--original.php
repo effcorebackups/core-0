@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-19 13:51:05';
+  settings::$data_orig['_created'] = '2017-09-19 15:11:36';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -458,13 +458,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_1'] = 'Radio 2.1';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_2'] = 'Radio 2.2';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_3'] = 'Radio 2.3';
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->each_name = 'input_radio_macro';
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->radios_attributes['name'] = 'input_radio_macro';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->title = 'Radios (macro)';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description = new \effectivecore\text();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description->text = 'Element %%_info.';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description->args['info'] = '&lt;input type="radio"&gt;';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro'] = new \effectivecore\form_container_palette();
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->each_name = 'color';
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->radios_attributes['name'] = 'color';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->title = 'Color';
   settings::$data_orig['forms']['develop']['form_demo']->children['button_submit'] = new \effectivecore\markup();
   settings::$data_orig['forms']['develop']['form_demo']->children['button_submit']->tag_name = 'button';
@@ -497,10 +497,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->title = 'Colors';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->title_tag_name = 'legend';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id'] = new \effectivecore\form_container_palette();
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id']->each_name = 'color_id';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id']->radios_attributes['name'] = 'color_id';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id']->title = 'Color';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id'] = new \effectivecore\form_container_palette();
-  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id']->each_name = 'color_bg_id';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id']->radios_attributes['name'] = 'color_bg_id';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id']->title = 'Background color';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->tag_name = 'button';
