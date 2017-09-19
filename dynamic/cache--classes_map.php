@@ -218,6 +218,12 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\form_container']->name = 'form_container';
   caches_factory::$data['classes_map']['effectivecore\form_container']->extends = '\\effectivecore\\markup';
   caches_factory::$data['classes_map']['effectivecore\form_container']->file = 'modules/page/backend/pattern--form_container.php';
+  caches_factory::$data['classes_map']['effectivecore\form_container_checkboxes'] = new \stdClass();
+  caches_factory::$data['classes_map']['effectivecore\form_container_checkboxes']->type = 'class';
+  caches_factory::$data['classes_map']['effectivecore\form_container_checkboxes']->namespace = 'effectivecore';
+  caches_factory::$data['classes_map']['effectivecore\form_container_checkboxes']->name = 'form_container_checkboxes';
+  caches_factory::$data['classes_map']['effectivecore\form_container_checkboxes']->extends = '\\effectivecore\\form_container';
+  caches_factory::$data['classes_map']['effectivecore\form_container_checkboxes']->file = 'modules/page/backend/pattern--form_container_checkboxes.php';
   caches_factory::$data['classes_map']['effectivecore\form_container_palette'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\form_container_palette']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\form_container_palette']->namespace = 'effectivecore';
