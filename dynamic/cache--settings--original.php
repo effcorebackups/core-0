@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-22 12:41:45';
+  settings::$data_orig['_created'] = '2017-09-22 13:02:45';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -535,6 +535,13 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->attributes['type'] = 'submit';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->attributes['name'] = 'button';
   settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_save']->attributes['value'] = 'save';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_restore'] = new \effectivecore\markup();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_restore']->tag_name = 'button';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_restore']->children['label'] = new \effectivecore\text();
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_restore']->children['label']->text = 'restore';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_restore']->attributes['type'] = 'submit';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_restore']->attributes['name'] = 'button';
+  settings::$data_orig['forms']['page']['form_admin_decoration']->children['button_restore']->attributes['value'] = 'restore';
   settings::$data_orig['forms']['page']['form_admin_decoration']->attributes['id'] = 'admin_decoration';
   settings::$data_orig['forms']['page']['form_admin_decoration']->attributes['novalidate'] = 'novalidate';
   settings::$data_orig['forms']['page']['form_admin_decoration']->attributes['method'] = 'post';
@@ -1285,6 +1292,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translations']['locales']->ru['Cancel'] = 'Отмена';
   settings::$data_orig['translations']['locales']->ru['cancel'] = 'отмена';
   settings::$data_orig['translations']['locales']->ru['Changes was saved.'] = 'Изменения были сохранены.';
+  settings::$data_orig['translations']['locales']->ru['Changes was removed.'] = 'Изменения были удалены.';
   settings::$data_orig['translations']['locales']->ru['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
   settings::$data_orig['translations']['locales']->ru['Checkboxes'] = 'Флажки';
   settings::$data_orig['translations']['locales']->ru['Checkboxes (macro)'] = 'Флажки (макро)';
@@ -1393,6 +1401,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translations']['locales']->ru['registration'] = 'регистрация';
   settings::$data_orig['translations']['locales']->ru['Registration'] = 'Регистрация';
   settings::$data_orig['translations']['locales']->ru['reset'] = 'сбросить';
+  settings::$data_orig['translations']['locales']->ru['restore'] = 'восстановить';
   settings::$data_orig['translations']['locales']->ru['return'] = 'возврат';
   settings::$data_orig['translations']['locales']->ru['Roles'] = 'Роли';
   settings::$data_orig['translations']['locales']->ru['save'] = 'сохранить';
