@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-22 13:02:45';
+  settings::$data['_created'] = '2017-09-22 15:29:53';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -388,7 +388,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->disabled['option_2_2'] = 'option_2_2';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->title = 'Select multiple (macro)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description = new \effectivecore\text();
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->text = 'Element %%_info.';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->text = 'Element %%_info. Not used in touch devices.';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->args['info'] = '&lt;select&gt;';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes'] = new \effectivecore\form_container();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->title = 'Checkboxes';
@@ -462,29 +462,33 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_1']->children['default']->attributes['name'] = 'input_radio';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_1']->children['default']->attributes['value'] = 'radio_1_1';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_2'] = new \effectivecore\form_field();
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_2']->title = 'Radio 1.2';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_2']->title = 'Radio 1.2 (checked)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_2']->title_position = 'bottom';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_2']->children['default'] = new \effectivecore\markup_simple();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_2']->children['default']->tag_name = 'input';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_2']->children['default']->attributes['type'] = 'radio';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_2']->children['default']->attributes['name'] = 'input_radio';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_2']->children['default']->attributes['value'] = 'radio_1_2';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_2']->children['default']->attributes['checked'] = 'checked';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_3'] = new \effectivecore\form_field();
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_3']->title = 'Radio 1.3';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_3']->title = 'Radio 1.3 (disabled)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_3']->title_position = 'bottom';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_3']->children['default'] = new \effectivecore\markup_simple();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_3']->children['default']->tag_name = 'input';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_3']->children['default']->attributes['type'] = 'radio';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_3']->children['default']->attributes['name'] = 'input_radio';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_3']->children['default']->attributes['value'] = 'radio_1_3';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->children['field_radio_1_3']->children['default']->attributes['disabled'] = 'disabled';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->attributes['required'] = 'required';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->attributes['class']['boxes'] = 'boxes';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->attributes['class']['radios'] = 'radios';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro'] = new \effectivecore\form_container_radios();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_1'] = 'Radio 2.1';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_2'] = 'Radio 2.2';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_3'] = 'Radio 2.3';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_2'] = 'Radio 2.2 (checked)';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_3'] = 'Radio 2.3 (disabled)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->radios_attributes['name'] = 'input_radio_macro';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->checked['radio_2_2'] = 'radio_2_2';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->disabled['radio_2_3'] = 'radio_2_3';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->title = 'Radios (macro)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description = new \effectivecore\text();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description->text = 'Element %%_info.';
@@ -1313,6 +1317,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translations']['locales']->ru['edit profile'] = 'редактировать профиль';
   settings::$data['translations']['locales']->ru['edit'] = 'редактировать';
   settings::$data['translations']['locales']->ru['Element %%_info.'] = 'Элемент %%_info.';
+  settings::$data['translations']['locales']->ru['Element %%_info. Not used in touch devices.'] = 'Элемент %%_info. Не используется в сенсорных устройствах.';
   settings::$data['translations']['locales']->ru['EMail'] = 'Адрес электронной почты';
   settings::$data['translations']['locales']->ru['enabled'] = 'вкл.';
   settings::$data['translations']['locales']->ru['event'] = 'событие';
