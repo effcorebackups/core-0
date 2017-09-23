@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-22 15:46:58';
+  settings::$data['_created'] = '2017-09-23 12:47:36';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -373,23 +373,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->description = new \effectivecore\text();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->description->text = 'Element %%_info.';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_macro']->description->args['info'] = '&lt;select&gt;';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro'] = new \effectivecore\form_field_select();
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->select_attributes['name'] = 'select_multiple_macro[]';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->select_attributes['required'] = 'required';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->select_attributes['multiple'] = 'multiple';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->select_attributes['size'] = 11;
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['option_2_1'] = 'Option 2.1';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['option_2_2'] = 'Option 2.2 (disabled)';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['option_2_3'] = 'Option 2.3';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['group_2_1'] = new \stdClass();
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['group_2_1']->title = 'Group 2.1';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->values['group_2_1']->values['option_2_4'] = 'Option 2.4';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->selected['option_2_1'] = 'option_2_1';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->disabled['option_2_2'] = 'option_2_2';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->title = 'Select multiple (macro)';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description = new \effectivecore\text();
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->text = 'Element %%_info. Not used in touch devices.';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_select_multiple_macro']->description->args['info'] = '&lt;select&gt;';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes'] = new \effectivecore\form_container();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->title = 'Checkboxes';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->description = new \effectivecore\text();
@@ -1327,7 +1310,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translations']['locales']->ru['Edit profile'] = 'Редактировать профиль';
   settings::$data['translations']['locales']->ru['edit profile'] = 'редактировать профиль';
   settings::$data['translations']['locales']->ru['edit'] = 'редактировать';
-  settings::$data['translations']['locales']->ru['Element %%_info. Not used in touch devices.'] = 'Элемент %%_info. Не используется в сенсорных устройствах.';
   settings::$data['translations']['locales']->ru['Element %%_info.'] = 'Элемент %%_info.';
   settings::$data['translations']['locales']->ru['Elements'] = 'Элементы';
   settings::$data['translations']['locales']->ru['EMail'] = 'Адрес электронной почты';
@@ -1417,7 +1399,6 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translations']['locales']->ru['search'] = 'поиск';
   settings::$data['translations']['locales']->ru['Search'] = 'Поиск';
   settings::$data['translations']['locales']->ru['Select (macro)'] = 'Список (макро)';
-  settings::$data['translations']['locales']->ru['Select multiple (macro)'] = 'Список множественный (макро)';
   settings::$data['translations']['locales']->ru['Select'] = 'Список';
   settings::$data['translations']['locales']->ru['Server load (sys_getloadavg)'] = 'Загр. серв. (sys_getloadavg)';
   settings::$data['translations']['locales']->ru['set'] = 'установка';
