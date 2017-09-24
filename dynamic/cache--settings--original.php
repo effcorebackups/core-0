@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-23 15:59:43';
+  settings::$data_orig['_created'] = '2017-09-24 11:56:39';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1414,7 +1414,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translations']['locales']->ru['Logout'] = 'Выход';
   settings::$data_orig['translations']['locales']->ru['Main menu'] = 'Главное меню';
   settings::$data_orig['translations']['locales']->ru['Main system module.'] = 'Основной модуль системы.';
+  settings::$data_orig['translations']['locales']->ru['Maximal field value\: %%_value.'] = 'Максимальное значение поля: %%_value.';
   settings::$data_orig['translations']['locales']->ru['Memory for php (bytes)'] = 'Память для php (байт)';
+  settings::$data_orig['translations']['locales']->ru['Minimal field value\: %%_value.'] = 'Минимальное значение поля: %%_value.';
   settings::$data_orig['translations']['locales']->ru['Moderators'] = 'Модераторы';
   settings::$data_orig['translations']['locales']->ru['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   settings::$data_orig['translations']['locales']->ru['Module for development.'] = 'Модуль для разработки.';
