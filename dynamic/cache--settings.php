@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-24 12:03:41';
+  settings::$data['_created'] = '2017-09-24 12:20:54';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1346,6 +1346,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translations']['locales']->ru['Core'] = 'Ядро';
   settings::$data['translations']['locales']->ru['created'] = 'создано';
   settings::$data['translations']['locales']->ru['Created'] = 'Создано';
+  settings::$data['translations']['locales']->ru['Current field value: %%_value.'] = 'Текущее значение поля: %%_value.';
   settings::$data['translations']['locales']->ru['Current language'] = 'Текущий язык';
   settings::$data['translations']['locales']->ru['Data of user with ID = %%_id was updated.'] = 'Данные пользователя с ID = %%_id были обновлены.';
   settings::$data['translations']['locales']->ru['Data was not updated!'] = 'Данные не были обновлены!';
