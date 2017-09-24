@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-24 11:56:39';
+  settings::$data['_created'] = '2017-09-24 12:03:41';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -1406,9 +1406,9 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translations']['locales']->ru['Logout'] = 'Выход';
   settings::$data['translations']['locales']->ru['Main menu'] = 'Главное меню';
   settings::$data['translations']['locales']->ru['Main system module.'] = 'Основной модуль системы.';
-  settings::$data['translations']['locales']->ru['Maximal field value\: %%_value.'] = 'Максимальное значение поля: %%_value.';
+  settings::$data['translations']['locales']->ru['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   settings::$data['translations']['locales']->ru['Memory for php (bytes)'] = 'Память для php (байт)';
-  settings::$data['translations']['locales']->ru['Minimal field value\: %%_value.'] = 'Минимальное значение поля: %%_value.';
+  settings::$data['translations']['locales']->ru['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
   settings::$data['translations']['locales']->ru['Moderators'] = 'Модераторы';
   settings::$data['translations']['locales']->ru['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   settings::$data['translations']['locales']->ru['Module for development.'] = 'Модуль для разработки.';
