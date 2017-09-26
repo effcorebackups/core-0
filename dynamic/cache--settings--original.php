@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-26 12:29:30';
+  settings::$data_orig['_created'] = '2017-09-26 12:51:16';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -1381,13 +1381,16 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['translations']['locales']->ru['Events'] = 'События';
   settings::$data_orig['translations']['locales']->ru['Execute plan'] = 'План выполнения';
   settings::$data_orig['translations']['locales']->ru['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
-  settings::$data_orig['translations']['locales']->ru['Field "%%_title" contain too few characters!'] = 'Поле "%%_title" содержит слишком мало символов!';
-  settings::$data_orig['translations']['locales']->ru['Field "%%_title" contain too much characters!'] = 'Поле "%%_title" содержит слишком много символов!';
-  settings::$data_orig['translations']['locales']->ru['Field "%%_title" contains an invalid email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
+  settings::$data_orig['translations']['locales']->ru['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
+  settings::$data_orig['translations']['locales']->ru['Field "%%_title" contains too few characters!'] = 'Поле "%%_title" содержит слишком мало символов!';
+  settings::$data_orig['translations']['locales']->ru['Field "%%_title" contains too much characters!'] = 'Поле "%%_title" содержит слишком много символов!';
+  settings::$data_orig['translations']['locales']->ru['Field "%%_title" contains an incorrect email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
   settings::$data_orig['translations']['locales']->ru['Field "%%_title" is not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
   settings::$data_orig['translations']['locales']->ru['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
   settings::$data_orig['translations']['locales']->ru['Field must contain a maximum of %%_lenght characters.'] = 'Поле должно содержать максимум %%_lenght символов.';
   settings::$data_orig['translations']['locales']->ru['Field must contain a minimum of %%_lenght characters.'] = 'Поле должно содержать минимум %%_lenght символов.';
+  settings::$data_orig['translations']['locales']->ru['Value is less than %%_value.'] = 'Значение меньше чем %%_value.';
+  settings::$data_orig['translations']['locales']->ru['Value is more than %%_value.'] = 'Значение больше чем %%_value.';
   settings::$data_orig['translations']['locales']->ru['File'] = 'Файл';
   settings::$data_orig['translations']['locales']->ru['file'] = 'файл';
   settings::$data_orig['translations']['locales']->ru['Form elements'] = 'Элементы формы';
