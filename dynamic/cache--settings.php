@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-26 12:24:48';
+  settings::$data['_created'] = '2017-09-26 12:29:30';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -470,15 +470,15 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->attributes['class']['boxes'] = 'boxes';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_checkboxes']->attributes['class']['checkbox'] = 'checkbox';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro'] = new \effectivecore\form_container_checkboxes();
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->input_attributes['name'] = 'input_checkbox_macro[]';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->values['checkbox_2_1'] = 'Checkbox 2.1';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->values['checkbox_2_2'] = 'Checkbox 2.2 (checked)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->values['checkbox_2_3'] = 'Checkbox 2.3 (disabled)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->values['checkbox_2_4'] = 'Checkbox 2.4 (disabled + checked)';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->input_attributes['name'] = 'input_checkbox_macro[]';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->checked['checkbox_2_2'] = 'checkbox_2_2';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->checked['checkbox_2_4'] = 'checkbox_2_4';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->disabled['checkbox_2_3'] = 'checkbox_2_3';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->disabled['checkbox_2_4'] = 'checkbox_2_4';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->checked['checkbox_2_2'] = 'checkbox_2_2';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->checked['checkbox_2_4'] = 'checkbox_2_4';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->title = 'Checkboxes (macro)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->description = new \effectivecore\text();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->description->text = 'Element %%_info.';
@@ -518,12 +518,12 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->attributes['class']['boxes'] = 'boxes';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['group_radios']->attributes['class']['radio'] = 'radio';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro'] = new \effectivecore\form_container_radios();
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->input_attributes['name'] = 'input_radio_macro';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_1'] = 'Radio 2.1';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_2'] = 'Radio 2.2 (checked)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_3'] = 'Radio 2.3 (disabled)';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->input_attributes['name'] = 'input_radio_macro';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->checked['radio_2_2'] = 'radio_2_2';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->disabled['radio_2_3'] = 'radio_2_3';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->checked['radio_2_2'] = 'radio_2_2';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->title = 'Radios (macro)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description = new \effectivecore\text();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description->text = 'Element %%_info.';

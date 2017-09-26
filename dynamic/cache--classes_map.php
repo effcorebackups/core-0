@@ -234,7 +234,7 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\form_container_radios']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\form_container_radios']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\form_container_radios']->name = 'form_container_radios';
-  caches_factory::$data['classes_map']['effectivecore\form_container_radios']->extends = '\\effectivecore\\form_container';
+  caches_factory::$data['classes_map']['effectivecore\form_container_radios']->extends = '\\effectivecore\\form_container_checkboxes';
   caches_factory::$data['classes_map']['effectivecore\form_container_radios']->file = 'modules/page/backend/pattern--form_container_radios.php';
   caches_factory::$data['classes_map']['effectivecore\form_field'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\form_field']->type = 'class';
