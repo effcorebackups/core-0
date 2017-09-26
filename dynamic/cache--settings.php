@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-24 12:20:54';
+  settings::$data['_created'] = '2017-09-26 12:02:54';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -474,7 +474,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->values['checkbox_2_2'] = 'Checkbox 2.2 (checked)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->values['checkbox_2_3'] = 'Checkbox 2.3 (disabled)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->values['checkbox_2_4'] = 'Checkbox 2.4 (disabled + checked)';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->checkboxes_attributes['name'] = 'input_checkbox_macro[]';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->input_attributes['name'] = 'input_checkbox_macro[]';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->checked['checkbox_2_2'] = 'checkbox_2_2';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->checked['checkbox_2_4'] = 'checkbox_2_4';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_checkboxes_macro']->disabled['checkbox_2_3'] = 'checkbox_2_3';
@@ -521,7 +521,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_1'] = 'Radio 2.1';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_2'] = 'Radio 2.2 (checked)';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->values['radio_2_3'] = 'Radio 2.3 (disabled)';
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->radios_attributes['name'] = 'input_radio_macro';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->input_attributes['name'] = 'input_radio_macro';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->checked['radio_2_2'] = 'radio_2_2';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->disabled['radio_2_3'] = 'radio_2_3';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->title = 'Radios (macro)';
@@ -529,7 +529,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description->text = 'Element %%_info.';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_radios_macro']->description->args['info'] = '&lt;input type="radio"&gt;';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro'] = new \effectivecore\form_container_palette();
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->radios_attributes['name'] = 'color';
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->input_attributes['name'] = 'color';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_color_macro']->title = 'Color';
   settings::$data['forms']['develop']['form_demo']->children['button_submit'] = new \effectivecore\markup();
   settings::$data['forms']['develop']['form_demo']->children['button_submit']->tag_name = 'button';
@@ -562,10 +562,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->title = 'Colors';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->title_tag_name = 'legend';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id'] = new \effectivecore\form_container_palette();
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id']->radios_attributes['name'] = 'color_id';
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id']->input_attributes['name'] = 'color_id';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id']->title = 'Color';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id'] = new \effectivecore\form_container_palette();
-  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id']->radios_attributes['name'] = 'color_bg_id';
+  settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id']->input_attributes['name'] = 'color_bg_id';
   settings::$data['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id']->title = 'Background color';
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
   settings::$data['forms']['page']['form_admin_decoration']->children['button_save']->tag_name = 'button';
