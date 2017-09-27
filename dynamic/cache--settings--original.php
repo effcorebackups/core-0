@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data_orig['_created'] = '2017-09-27 12:42:55';
+  settings::$data_orig['_created'] = '2017-09-27 16:12:23';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
   settings::$data_orig['module']['core']->title = 'Core';
@@ -292,10 +292,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['type'] = 'number';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['name'] = 'input_number';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['required'] = 'required';
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['value'] = -2.5;
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['min'] = -100;
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['max'] = 100;
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['step'] = 0.5;
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['value'] = 0;
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['min'] = -5;
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['max'] = 5;
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['step'] = 0.3;
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->title = 'Range';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->description = new \effectivecore\text();
@@ -305,10 +305,10 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->tag_name = 'input';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['type'] = 'range';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['name'] = 'input_range';
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['value'] = -2.5;
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['min'] = -100;
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['max'] = 100;
-  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['step'] = 0.5;
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['value'] = 0;
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['min'] = -5;
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['max'] = 5;
+  settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['step'] = 0.3;
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['required'] = 'required';
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_date'] = new \effectivecore\form_field();
   settings::$data_orig['forms']['develop']['form_demo']->children['fieldset_default']->children['field_date']->title = 'Date';
