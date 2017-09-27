@@ -4,7 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
-  settings::$data['_created'] = '2017-09-26 13:17:17';
+  settings::$data['_created'] = '2017-09-27 12:42:55';
   settings::$data['module']['core'] = new \stdClass();
   settings::$data['module']['core']->id = 'core';
   settings::$data['module']['core']->title = 'Core';
@@ -293,8 +293,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['name'] = 'input_number';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['required'] = 'required';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['value'] = -2.5;
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['min'] = -5;
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['max'] = 5;
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['min'] = -100;
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['max'] = 100;
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_number']->children['default']->attributes['step'] = 0.5;
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range'] = new \effectivecore\form_field();
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->title = 'Range';
@@ -306,8 +306,8 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['type'] = 'range';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['name'] = 'input_range';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['value'] = -2.5;
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['min'] = -5;
-  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['max'] = 5;
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['min'] = -100;
+  settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['max'] = 100;
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['step'] = 0.5;
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_range']->children['default']->attributes['required'] = 'required';
   settings::$data['forms']['develop']['form_demo']->children['fieldset_default']->children['field_date'] = new \effectivecore\form_field();
@@ -1383,7 +1383,7 @@ namespace effectivecore { # ARRAY[type][scope]...
   settings::$data['translations']['locales']->ru['Field must contain a minimum of %%_lenght characters.'] = 'Поле должно содержать минимум %%_lenght символов.';
   settings::$data['translations']['locales']->ru['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   settings::$data['translations']['locales']->ru['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
-  settings::$data['translations']['locales']->ru['Field value is not a number.'] = 'Значение поля не является числом.';
+  settings::$data['translations']['locales']->ru['Field value is not a valid number.'] = 'Значение поля не является допустимым числом.';
   settings::$data['translations']['locales']->ru['File'] = 'Файл';
   settings::$data['translations']['locales']->ru['file'] = 'файл';
   settings::$data['translations']['locales']->ru['Form elements'] = 'Элементы формы';
