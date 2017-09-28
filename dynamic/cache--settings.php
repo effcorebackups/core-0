@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings
 
-  caches_factory::$data['settings']['_created'] = '2017-09-28 23:36:22';
+  caches_factory::$data['settings']['_created'] = '2017-09-28 23:54:11';
   caches_factory::$data['settings']['module']['core'] = new \stdClass();
   caches_factory::$data['settings']['module']['core']->id = 'core';
   caches_factory::$data['settings']['module']['core']->title = 'Core';
@@ -1270,11 +1270,15 @@ namespace effectivecore { # cache for settings
   caches_factory::$data['settings']['data_demo']['develop']->demo_array['item_1'] = 'item value #1';
   caches_factory::$data['settings']['data_demo']['develop']->demo_array['item_2'] = 'item value #2';
   caches_factory::$data['settings']['data_demo']['develop']->demo_array['item_3'] = 'item value #3';
+  caches_factory::$data['settings']['data_demo']['develop']->demo_array['item_5'] = 'item value #5 (insert + update)';
+  caches_factory::$data['settings']['data_demo']['develop']->demo_array['item_6'] = 'item value #6 (insert)';
   caches_factory::$data['settings']['data_demo']['develop']->demo_object_empty = new \stdClass();
   caches_factory::$data['settings']['data_demo']['develop']->demo_object = new \stdClass();
   caches_factory::$data['settings']['data_demo']['develop']->demo_object->prop_1 = 'property value #1';
   caches_factory::$data['settings']['data_demo']['develop']->demo_object->prop_2 = 'property value #2';
   caches_factory::$data['settings']['data_demo']['develop']->demo_object->prop_3 = 'property value #3';
+  caches_factory::$data['settings']['data_demo']['develop']->demo_object->prop_5 = 'property value #5 (insert + update)';
+  caches_factory::$data['settings']['data_demo']['develop']->demo_object->prop_6 = 'property value #6 (insert)';
   caches_factory::$data['settings']['data_demo']['develop']->demo_null = null;
   caches_factory::$data['settings']['countries']['locales']['us'] = new \stdClass();
   caches_factory::$data['settings']['countries']['locales']['us']->title = new \stdClass();
