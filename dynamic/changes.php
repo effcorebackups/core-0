@@ -1,6 +1,6 @@
 <?php
 
-namespace effectivecore { # ARRAY[type][scope]...
+namespace effectivecore {
 
   use \effectivecore\storage_instance_settings as settings;
 
