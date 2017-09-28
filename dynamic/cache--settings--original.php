@@ -4,6 +4,7 @@ namespace effectivecore { # ARRAY[type][scope]...
 
   use \effectivecore\storage_instance_settings as settings;
 
+  settings::$data_orig['_changed'] = '2017-09-28 22:51:20';
   settings::$data_orig['_created'] = '2017-09-28 13:47:23';
   settings::$data_orig['module']['core'] = new \stdClass();
   settings::$data_orig['module']['core']->id = 'core';
