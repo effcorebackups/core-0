@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_orig
 
-  caches_factory::$data['settings_orig']['_created'] = '2017-09-29 11:47:18';
+  caches_factory::$data['settings_orig']['_created'] = '2017-09-29 12:00:56';
   caches_factory::$data['settings_orig']['module']['core'] = new \stdClass();
   caches_factory::$data['settings_orig']['module']['core']->id = 'core';
   caches_factory::$data['settings_orig']['module']['core']->title = 'Core';
