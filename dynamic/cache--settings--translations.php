@@ -124,7 +124,6 @@ namespace effectivecore { # cache for settings--translations
   caches_factory::$data['settings--translations']['locales']->ru['Password hash'] = 'Хеш пароля';
   caches_factory::$data['settings--translations']['locales']->ru['Password'] = 'Пароль';
   caches_factory::$data['settings--translations']['locales']->ru['Path'] = 'Путь';
-  caches_factory::$data['settings--translations']['locales']->ru['phase'] = 'фаза';
   caches_factory::$data['settings--translations']['locales']->ru['profile'] = 'профиль';
   caches_factory::$data['settings--translations']['locales']->ru['Queries'] = 'Запросы';
   caches_factory::$data['settings--translations']['locales']->ru['query'] = 'запрос';
@@ -160,6 +159,7 @@ namespace effectivecore { # cache for settings--translations
   caches_factory::$data['settings--translations']['locales']->ru['Textarea'] = 'Текстовая область';
   caches_factory::$data['settings--translations']['locales']->ru['The event system was initialized on first request.'] = 'Система событий была инициализирована при первом запросе.';
   caches_factory::$data['settings--translations']['locales']->ru['The storage %%_name was initialized on first request.'] = 'Хранилище %%_name было инициализировано при первом запросе.';
+  caches_factory::$data['settings--translations']['locales']->ru['The storage cache for group %%_name was loaded on first request.'] = 'Кэш хранилища для группы %%_name был загружен при первом запросе.';
   caches_factory::$data['settings--translations']['locales']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   caches_factory::$data['settings--translations']['locales']->ru['Time'] = 'Время';
   caches_factory::$data['settings--translations']['locales']->ru['Title'] = 'Заголовок';
@@ -182,7 +182,6 @@ namespace effectivecore { # cache for settings--translations
   caches_factory::$data['settings--translations']['locales']->ru['Users'] = 'Пользователи';
   caches_factory::$data['settings--translations']['locales']->ru['val.'] = 'знач.';
   caches_factory::$data['settings--translations']['locales']->ru['Val.'] = 'Знач.';
-  caches_factory::$data['settings--translations']['locales']->ru['value = 1 [settings is loaded]'] = 'значение = 1 [настройки загружены]';
   caches_factory::$data['settings--translations']['locales']->ru['Value'] = 'Значение';
   caches_factory::$data['settings--translations']['locales']->ru['Values'] = 'Значения';
   caches_factory::$data['settings--translations']['locales']->ru['Ver.'] = 'Вер.';
