@@ -416,6 +416,7 @@ namespace effectivecore { # cache for settings--forms
   caches_factory::$data['settings--forms']['page']['form_admin_decoration']->children['button_restore']->attributes['type'] = 'submit';
   caches_factory::$data['settings--forms']['page']['form_admin_decoration']->children['button_restore']->attributes['name'] = 'button';
   caches_factory::$data['settings--forms']['page']['form_admin_decoration']->children['button_restore']->attributes['value'] = 'restore';
+  caches_factory::$data['settings--forms']['page']['form_admin_decoration']->children['button_restore']->attributes['disabled'] = 'disabled';
   caches_factory::$data['settings--forms']['page']['form_admin_decoration']->attributes['id'] = 'admin_decoration';
   caches_factory::$data['settings--forms']['page']['form_admin_decoration']->attributes['novalidate'] = 'novalidate';
   caches_factory::$data['settings--forms']['page']['form_admin_decoration']->attributes['method'] = 'post';

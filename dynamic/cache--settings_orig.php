@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_orig
 
-  caches_factory::$data['settings_orig']['_created'] = '2017-09-30 00:20:27';
+  caches_factory::$data['settings_orig']['_created'] = '2017-09-30 00:56:36';
   caches_factory::$data['settings_orig']['module']['core'] = new \stdClass();
   caches_factory::$data['settings_orig']['module']['core']->id = 'core';
   caches_factory::$data['settings_orig']['module']['core']->title = 'Core';
@@ -579,6 +579,7 @@ namespace effectivecore { # cache for settings_orig
   caches_factory::$data['settings_orig']['forms']['page']['form_admin_decoration']->children['button_restore']->attributes['type'] = 'submit';
   caches_factory::$data['settings_orig']['forms']['page']['form_admin_decoration']->children['button_restore']->attributes['name'] = 'button';
   caches_factory::$data['settings_orig']['forms']['page']['form_admin_decoration']->children['button_restore']->attributes['value'] = 'restore';
+  caches_factory::$data['settings_orig']['forms']['page']['form_admin_decoration']->children['button_restore']->attributes['disabled'] = 'disabled';
   caches_factory::$data['settings_orig']['forms']['page']['form_admin_decoration']->attributes['id'] = 'admin_decoration';
   caches_factory::$data['settings_orig']['forms']['page']['form_admin_decoration']->attributes['novalidate'] = 'novalidate';
   caches_factory::$data['settings_orig']['forms']['page']['form_admin_decoration']->attributes['method'] = 'post';
