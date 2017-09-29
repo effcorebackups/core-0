@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_orig
 
-  caches_factory::$data['settings_orig']['_created'] = '2017-09-29 23:47:20';
+  caches_factory::$data['settings_orig']['_created'] = '2017-09-30 00:06:27';
   caches_factory::$data['settings_orig']['module']['core'] = new \stdClass();
   caches_factory::$data['settings_orig']['module']['core']->id = 'core';
   caches_factory::$data['settings_orig']['module']['core']->title = 'Core';
@@ -1477,9 +1477,9 @@ namespace effectivecore { # cache for settings_orig
   caches_factory::$data['settings_orig']['translations']['locales']->ru['Telephone'] = 'Телефон';
   caches_factory::$data['settings_orig']['translations']['locales']->ru['Text'] = 'Текст';
   caches_factory::$data['settings_orig']['translations']['locales']->ru['Textarea'] = 'Текстовая область';
-  caches_factory::$data['settings_orig']['translations']['locales']->ru['The event system was initialized on first request.'] = 'Система событий была инициализирована при первом запросе.';
-  caches_factory::$data['settings_orig']['translations']['locales']->ru['The storage %%_name was initialized on first request.'] = 'Хранилище %%_name было инициализировано при первом запросе.';
-  caches_factory::$data['settings_orig']['translations']['locales']->ru['The storage cache for group %%_name was loaded on first request.'] = 'Кэш хранилища для группы %%_name был загружен при первом запросе.';
+  caches_factory::$data['settings_orig']['translations']['locales']->ru['the event system was initialized'] = 'система событий была инициализирована';
+  caches_factory::$data['settings_orig']['translations']['locales']->ru['the storage %%_name was initialized'] = 'хранилище %%_name было инициализировано';
+  caches_factory::$data['settings_orig']['translations']['locales']->ru['the storage cache for group %%_name was loaded'] = 'кэш хранилища для группы %%_name был загружен';
   caches_factory::$data['settings_orig']['translations']['locales']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   caches_factory::$data['settings_orig']['translations']['locales']->ru['Time'] = 'Время';
   caches_factory::$data['settings_orig']['translations']['locales']->ru['Title'] = 'Заголовок';
