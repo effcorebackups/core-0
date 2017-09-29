@@ -113,11 +113,6 @@ namespace effectivecore { # cache for classes_map
   caches_factory::$data['classes_map']['effectivecore\entity_instance']->namespace = 'effectivecore';
   caches_factory::$data['classes_map']['effectivecore\entity_instance']->name = 'entity_instance';
   caches_factory::$data['classes_map']['effectivecore\entity_instance']->file = 'modules/core/backend/pattern--entity_instance.php';
-  caches_factory::$data['classes_map']['effectivecore\linker'] = new \stdClass();
-  caches_factory::$data['classes_map']['effectivecore\linker']->type = 'class';
-  caches_factory::$data['classes_map']['effectivecore\linker']->namespace = 'effectivecore';
-  caches_factory::$data['classes_map']['effectivecore\linker']->name = 'linker';
-  caches_factory::$data['classes_map']['effectivecore\linker']->file = 'modules/core/backend/pattern--linker.php';
   caches_factory::$data['classes_map']['effectivecore\node'] = new \stdClass();
   caches_factory::$data['classes_map']['effectivecore\node']->type = 'class';
   caches_factory::$data['classes_map']['effectivecore\node']->namespace = 'effectivecore';
