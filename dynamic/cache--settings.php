@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings
 
-  caches_factory::$data['settings']['_created'] = '2017-09-29 01:03:13';
+  caches_factory::$data['settings']['_created'] = '2017-09-29 10:08:03';
   caches_factory::$data['settings']['module']['core'] = new \stdClass();
   caches_factory::$data['settings']['module']['core']->id = 'core';
   caches_factory::$data['settings']['module']['core']->title = 'Core';
@@ -1327,7 +1327,6 @@ namespace effectivecore { # cache for settings
   caches_factory::$data['settings']['translations']['locales']->ru['autoload'] = 'автозагрузка';
   caches_factory::$data['settings']['translations']['locales']->ru['Background color'] = 'Цвет фона';
   caches_factory::$data['settings']['translations']['locales']->ru['button'] = 'кнопка';
-  caches_factory::$data['settings']['translations']['locales']->ru['cache'] = 'кэш';
   caches_factory::$data['settings']['translations']['locales']->ru['call'] = 'вызов';
   caches_factory::$data['settings']['translations']['locales']->ru['Cancel'] = 'Отмена';
   caches_factory::$data['settings']['translations']['locales']->ru['cancel'] = 'отмена';
