@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings--templates
 
-  cache_factory::$info['settings--templates']['created'] = '2017-09-30 20:44:07';
+  cache_factory::$info['settings--templates']['created'] = '2017-09-30 22:56:19';
   cache_factory::$data['settings--templates']['page']['markup_element'] = 'frontend/template--markup_element.html';
   cache_factory::$data['settings--templates']['page']['markup_element_simple'] = 'frontend/template--markup_element.simple.html';
   cache_factory::$data['settings--templates']['page']['page'] = 'frontend/template--page.html';

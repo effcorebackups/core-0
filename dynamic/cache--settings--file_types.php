@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings--file_types
 
-  cache_factory::$info['settings--file_types']['created'] = '2017-09-30 20:44:07';
+  cache_factory::$info['settings--file_types']['created'] = '2017-09-30 22:56:19';
   cache_factory::$data['settings--file_types']['core']['php'] = new \stdClass();
   cache_factory::$data['settings--file_types']['core']['php']->protected = 1;
   cache_factory::$data['settings--file_types']['core']['php']->headers['Content-type'] = 'text/html';
