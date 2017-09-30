@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_orig
 
-  cache_factory::$info['settings_orig']['created'] = '2017-09-30 20:44:07';
+  cache_factory::$info['settings_orig']['created'] = '2017-09-30 21:25:58';
   cache_factory::$data['settings_orig']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_orig']['module']['core']->id = 'core';
   cache_factory::$data['settings_orig']['module']['core']->title = 'Core';
@@ -1480,7 +1480,7 @@ namespace effectivecore { # cache for settings_orig
   cache_factory::$data['settings_orig']['translations']['locales']->ru['Textarea'] = 'Текстовая область';
   cache_factory::$data['settings_orig']['translations']['locales']->ru['the event system was initialized'] = 'система событий была инициализирована';
   cache_factory::$data['settings_orig']['translations']['locales']->ru['the storage %%_name was initialized'] = 'хранилище %%_name было инициализировано';
-  cache_factory::$data['settings_orig']['translations']['locales']->ru['the storage cache for group %%_name was loaded'] = 'кэш хранилища для группы %%_name был загружен';
+  cache_factory::$data['settings_orig']['translations']['locales']->ru['the storage cache for group %%_name will be load'] = 'кэш хранилища для группы %%_name будет загружен';
   cache_factory::$data['settings_orig']['translations']['locales']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache_factory::$data['settings_orig']['translations']['locales']->ru['Time'] = 'Время';
   cache_factory::$data['settings_orig']['translations']['locales']->ru['Title'] = 'Заголовок';
