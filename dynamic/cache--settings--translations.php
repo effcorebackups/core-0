@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--translations
 
+  caches_factory::$info['settings--translations']['created'] = '2017-09-30 18:41:57';
   caches_factory::$data['settings--translations']['locales'] = new \stdClass();
   caches_factory::$data['settings--translations']['locales']->ru['- select -'] = '- выбрать -';
   caches_factory::$data['settings--translations']['locales']->ru['action'] = 'действие';

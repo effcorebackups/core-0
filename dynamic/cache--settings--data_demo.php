@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--data_demo
 
+  caches_factory::$info['settings--data_demo']['created'] = '2017-09-30 18:41:57';
   caches_factory::$data['settings--data_demo']['develop'] = new \stdClass();
   caches_factory::$data['settings--data_demo']['develop']->demo_integer = 1;
   caches_factory::$data['settings--data_demo']['develop']->demo_float = 2.3;

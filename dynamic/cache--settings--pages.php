@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--pages
 
+  caches_factory::$info['settings--pages']['created'] = '2017-09-30 18:41:57';
   caches_factory::$data['settings--pages']['core']['page_front'] = new \effectivecore\page();
   caches_factory::$data['settings--pages']['core']['page_front']->title = 'Front page';
   caches_factory::$data['settings--pages']['core']['page_front']->content['block_tree_main'] = new \stdClass();

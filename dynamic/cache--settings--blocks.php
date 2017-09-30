@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--blocks
 
+  caches_factory::$info['settings--blocks']['created'] = '2017-09-30 18:41:57';
   caches_factory::$data['settings--blocks']['develop']['block_demo'] = new \effectivecore\markup();
   caches_factory::$data['settings--blocks']['develop']['block_demo']->tag_name = 'x-block';
   caches_factory::$data['settings--blocks']['develop']['block_demo']->children['block_title'] = new \effectivecore\markup();

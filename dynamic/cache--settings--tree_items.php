@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--tree_items
 
+  caches_factory::$info['settings--tree_items']['created'] = '2017-09-30 18:41:57';
   caches_factory::$data['settings--tree_items']['core']['main_home'] = new \effectivecore\tree_item();
   caches_factory::$data['settings--tree_items']['core']['main_home']->parent_npath = 'trees/core/main';
   caches_factory::$data['settings--tree_items']['core']['main_home']->title = 'Home';

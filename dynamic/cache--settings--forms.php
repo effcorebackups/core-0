@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--forms
 
+  caches_factory::$info['settings--forms']['created'] = '2017-09-30 18:41:57';
   caches_factory::$data['settings--forms']['core']['form_installation'] = new \effectivecore\form();
   caches_factory::$data['settings--forms']['core']['form_installation']->children['button_install'] = new \effectivecore\markup();
   caches_factory::$data['settings--forms']['core']['form_installation']->children['button_install']->tag_name = 'button';

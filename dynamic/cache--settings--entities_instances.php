@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--entities_instances
 
+  caches_factory::$info['settings--entities_instances']['created'] = '2017-09-30 18:41:57';
   caches_factory::$data['settings--entities_instances']['user']['user_1'] = new \effectivecore\entity_instance();
   caches_factory::$data['settings--entities_instances']['user']['user_1']->entity_name = 'user';
   caches_factory::$data['settings--entities_instances']['user']['user_1']->values['id'] = 1;

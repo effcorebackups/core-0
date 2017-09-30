@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--frontend
 
+  caches_factory::$info['settings--frontend']['created'] = '2017-09-30 18:41:57';
   caches_factory::$data['settings--frontend']['page']['frontend_page_n'] = new \stdClass();
   caches_factory::$data['settings--frontend']['page']['frontend_page_n']->display = new \stdClass();
   caches_factory::$data['settings--frontend']['page']['frontend_page_n']->display->url = new \stdClass();

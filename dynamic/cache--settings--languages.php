@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--languages
 
+  caches_factory::$info['settings--languages']['created'] = '2017-09-30 18:41:57';
   caches_factory::$data['settings--languages']['locales']['en'] = new \stdClass();
   caches_factory::$data['settings--languages']['locales']['en']->title = new \stdClass();
   caches_factory::$data['settings--languages']['locales']['en']->title->en = 'English';

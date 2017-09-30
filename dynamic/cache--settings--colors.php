@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--colors
 
+  caches_factory::$info['settings--colors']['created'] = '2017-09-30 18:41:57';
   caches_factory::$data['settings--colors']['page']['color_lavender'] = new \stdClass();
   caches_factory::$data['settings--colors']['page']['color_lavender']->value = 'lavender';
   caches_factory::$data['settings--colors']['page']['color_lavender']->is_dark = false;
