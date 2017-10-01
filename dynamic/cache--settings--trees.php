@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings--trees
 
-  cache_factory::$info['settings--trees']['created'] = '2017-09-30 22:56:19';
+  cache_factory::$info['settings--trees']['created'] = '2017-10-01 10:46:51';
   cache_factory::$data['settings--trees']['core']['main'] = new \effectivecore\tree();
   cache_factory::$data['settings--trees']['core']['main']->title = 'Main menu';
   cache_factory::$data['settings--trees']['core']['main']->attributes['class']['main'] = 'main';

@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['created'] = '2017-09-30 22:56:19';
+  cache_factory::$info['settings_original']['created'] = '2017-10-01 10:46:51';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1466,6 +1466,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Select'] = 'Список';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Server load (sys_getloadavg)'] = 'Загр. серв. (sys_getloadavg)';
   cache_factory::$data['settings_original']['translations']['locales']->ru['set'] = 'установка';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Settings cache was rebuilded.'] = 'Кэш настроек был перестроен.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['state'] = 'состояние';
   cache_factory::$data['settings_original']['translations']['locales']->ru['State'] = 'Состояние';
   cache_factory::$data['settings_original']['translations']['locales']->ru['State.'] = 'Сост.';
