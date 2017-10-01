@@ -22,6 +22,8 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['core']['page_front']->display->url->match = '%^/$%';
   cache_factory::$data['settings--pages']['core']['page_installation'] = new \effectivecore\page();
   cache_factory::$data['settings--pages']['core']['page_installation']->title = 'Installation';
+  cache_factory::$data['settings--pages']['core']['page_installation']->access = new \stdClass();
+  cache_factory::$data['settings--pages']['core']['page_installation']->access->roles['anonymous'] = 'anonymous';
   cache_factory::$data['settings--pages']['core']['page_installation']->content['block_tree_main'] = new \stdClass();
   cache_factory::$data['settings--pages']['core']['page_installation']->content['block_tree_main']->region = 'nav';
   cache_factory::$data['settings--pages']['core']['page_installation']->content['block_tree_main']->type = 'link';

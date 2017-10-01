@@ -752,6 +752,8 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['core']['page_front']->display->url->match = '%^/$%';
   cache_factory::$data['settings_original']['pages']['core']['page_installation'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['core']['page_installation']->title = 'Installation';
+  cache_factory::$data['settings_original']['pages']['core']['page_installation']->access = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['page_installation']->access->roles['anonymous'] = 'anonymous';
   cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['block_tree_main'] = new \stdClass();
   cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['block_tree_main']->region = 'nav';
   cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['block_tree_main']->type = 'link';
