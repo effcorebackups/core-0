@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--storages
 
+  cache_factory::$info['settings--storages']['created']['created'] = '2017-10-01 11:29:35';
   cache_factory::$data['settings--storages']['storage']['storage_db_main'] = new \effectivecore\storage_instance_pdo();
   cache_factory::$data['settings--storages']['storage']['storage_db_main']->id = 'db_main';
   cache_factory::$data['settings--storages']['storage']['storage_db_main']->directory_name = 'effectivecore';

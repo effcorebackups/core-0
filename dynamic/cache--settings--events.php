@@ -2,6 +2,7 @@
 
 namespace effectivecore { # cache for settings--events
 
+  cache_factory::$info['settings--events']['created']['created'] = '2017-10-01 11:29:35';
   cache_factory::$data['settings--events']['core'] = new \stdClass();
   cache_factory::$data['settings--events']['core']->on_form_validate['installation'] = new \stdClass();
   cache_factory::$data['settings--events']['core']->on_form_validate['installation']->handler = '\\effectivecore\\events_form::on_validate';
