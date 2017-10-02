@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-10-02 12:52:06';
+  cache_factory::$info['classes_map']['build'] = '2017-10-02 13:04:41';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -104,16 +104,6 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\post_init']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\post_init']->name = 'post_init';
   cache_factory::$data['classes_map']['effectivecore\post_init']->file = 'modules/core/backend/marker--gl--post_init.php';
-  cache_factory::$data['classes_map']['effectivecore\entity'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\entity']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\entity']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\entity']->name = 'entity';
-  cache_factory::$data['classes_map']['effectivecore\entity']->file = 'modules/core/backend/pattern--entity.php';
-  cache_factory::$data['classes_map']['effectivecore\instance'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\instance']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\instance']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\instance']->name = 'instance';
-  cache_factory::$data['classes_map']['effectivecore\instance']->file = 'modules/core/backend/pattern--instance.php';
   cache_factory::$data['classes_map']['effectivecore\node'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\node']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\node']->namespace = 'effectivecore';
@@ -335,6 +325,16 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\modules\storage\storages_factory']->namespace = 'effectivecore\\modules\\storage';
   cache_factory::$data['classes_map']['effectivecore\modules\storage\storages_factory']->name = 'storages_factory';
   cache_factory::$data['classes_map']['effectivecore\modules\storage\storages_factory']->file = 'modules/storage/backend/factory--storages.php';
+  cache_factory::$data['classes_map']['effectivecore\entity'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\entity']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\entity']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\entity']->name = 'entity';
+  cache_factory::$data['classes_map']['effectivecore\entity']->file = 'modules/storage/backend/pattern--entity.php';
+  cache_factory::$data['classes_map']['effectivecore\instance'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\instance']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\instance']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\instance']->name = 'instance';
+  cache_factory::$data['classes_map']['effectivecore\instance']->file = 'modules/storage/backend/pattern--instance.php';
   cache_factory::$data['classes_map']['effectivecore\modules\tree\events_module'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\modules\tree\events_module']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\modules\tree\events_module']->namespace = 'effectivecore\\modules\\tree';
