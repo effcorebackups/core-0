@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-02 13:22:15';
+  cache_factory::$info['settings_original']['build'] = '2017-10-02 13:47:49';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1338,6 +1338,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['autoload'] = 'автозагрузка';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Background color'] = 'Цвет фона';
   cache_factory::$data['settings_original']['translations']['locales']->ru['button'] = 'кнопка';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['cache'] = 'кэш';
   cache_factory::$data['settings_original']['translations']['locales']->ru['call'] = 'вызов';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Cancel'] = 'Отмена';
   cache_factory::$data['settings_original']['translations']['locales']->ru['cancel'] = 'отмена';
@@ -1482,8 +1483,8 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Text'] = 'Текст';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Textarea'] = 'Текстовая область';
   cache_factory::$data['settings_original']['translations']['locales']->ru['the event system was initialized'] = 'система событий была инициализирована';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['the storage %%_name was initialized'] = 'хранилище %%_name было инициализировано';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['the storage cache for group %%_name will be load'] = 'кэш хранилища для группы %%_name будет загружен';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['the storage "%%_name" was initialized'] = 'хранилище "%%_name" было инициализировано';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['the storage "%%_storage" cache for group "%%_group" will be load'] = 'кэш хранилища "%%_storage" для группы "%%_group" будет загружен';
   cache_factory::$data['settings_original']['translations']['locales']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Time'] = 'Время';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Title'] = 'Заголовок';
