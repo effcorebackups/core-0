@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings--tokens
 
-  cache_factory::$info['settings--tokens']['build'] = '2017-10-01 11:37:47';
+  cache_factory::$info['settings--tokens']['build'] = '2017-10-02 10:49:09';
   cache_factory::$data['settings--tokens']['core']['text_no_items'] = new \stdClass();
   cache_factory::$data['settings--tokens']['core']['text_no_items']->match = '%%_text_no_items';
   cache_factory::$data['settings--tokens']['core']['text_no_items']->type = 'translated_text';
