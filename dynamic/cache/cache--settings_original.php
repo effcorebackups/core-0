@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-02 12:52:06';
+  cache_factory::$info['settings_original']['build'] = '2017-10-02 13:10:03';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1633,13 +1633,13 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['templates']['tree']['tree'] = 'frontend/template--tree.html';
   cache_factory::$data['settings_original']['templates']['tree']['tree_item'] = 'frontend/template--tree_item.html';
   cache_factory::$data['settings_original']['templates']['tree']['tree_item_children'] = 'frontend/template--tree_item_children.html';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_db_main'] = new \effectivecore\storage_instance_pdo();
-  cache_factory::$data['settings_original']['storages']['storage']['storage_db_main']->id = 'db_main';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_db_main']->directory_name = 'effectivecore';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_db_main']->host_name = '127.0.0.1';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_db_main']->user_name = 'root';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_db_main']->password = 123;
-  cache_factory::$data['settings_original']['storages']['storage']['storage_db_main']->driver = 'mysql';
+  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main'] = new \effectivecore\storage_pdo();
+  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->id = 'db_main';
+  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->directory_name = 'effectivecore';
+  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->host_name = '127.0.0.1';
+  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->user_name = 'root';
+  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->password = 123;
+  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->driver = 'mysql';
   cache_factory::$data['settings_original']['storages']['storage']['storage_settings'] = new \effectivecore\storage_instance_settings();
   cache_factory::$data['settings_original']['storages']['storage']['storage_settings']->id = 'settings';
   cache_factory::$data['settings_original']['entities']['tree']['tree'] = new \effectivecore\entity();

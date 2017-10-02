@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-10-02 13:04:41';
+  cache_factory::$info['classes_map']['build'] = '2017-10-02 13:10:02';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -305,11 +305,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\table_head_row_cell']->name = 'table_head_row_cell';
   cache_factory::$data['classes_map']['effectivecore\table_head_row_cell']->extends = '\\effectivecore\\markup';
   cache_factory::$data['classes_map']['effectivecore\table_head_row_cell']->file = 'modules/page/backend/pattern--table_head_row_cell.php';
-  cache_factory::$data['classes_map']['effectivecore\storage_instance_pdo'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\storage_instance_pdo']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\storage_instance_pdo']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\storage_instance_pdo']->name = 'storage_instance_pdo';
-  cache_factory::$data['classes_map']['effectivecore\storage_instance_pdo']->file = 'modules/storage/backend/class--gl--storage_instance_pdo.php';
+  cache_factory::$data['classes_map']['effectivecore\storage_pdo'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\storage_pdo']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\storage_pdo']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\storage_pdo']->name = 'storage_pdo';
+  cache_factory::$data['classes_map']['effectivecore\storage_pdo']->file = 'modules/storage/backend/class--gl--storage_instance_pdo.php';
   cache_factory::$data['classes_map']['effectivecore\storage_instance_settings'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\storage_instance_settings']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\storage_instance_settings']->namespace = 'effectivecore';
