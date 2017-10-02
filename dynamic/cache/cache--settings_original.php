@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-02 13:10:03';
+  cache_factory::$info['settings_original']['build'] = '2017-10-02 13:22:15';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1633,18 +1633,18 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['templates']['tree']['tree'] = 'frontend/template--tree.html';
   cache_factory::$data['settings_original']['templates']['tree']['tree_item'] = 'frontend/template--tree_item.html';
   cache_factory::$data['settings_original']['templates']['tree']['tree_item_children'] = 'frontend/template--tree_item_children.html';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main'] = new \effectivecore\storage_pdo();
-  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->id = 'db_main';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->directory_name = 'effectivecore';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->host_name = '127.0.0.1';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->user_name = 'root';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->password = 123;
-  cache_factory::$data['settings_original']['storages']['storage']['storage_dpo_main']->driver = 'mysql';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_settings'] = new \effectivecore\storage_instance_settings();
-  cache_factory::$data['settings_original']['storages']['storage']['storage_settings']->id = 'settings';
+  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo'] = new \effectivecore\storage_pdo();
+  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->id = 'db';
+  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->directory_name = 'effectivecore';
+  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->host_name = '127.0.0.1';
+  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->user_name = 'root';
+  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->password = 123;
+  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->driver = 'mysql';
+  cache_factory::$data['settings_original']['storages']['storage']['storage_nosql_settings'] = new \effectivecore\storage_settings();
+  cache_factory::$data['settings_original']['storages']['storage']['storage_nosql_settings']->id = 'settings';
   cache_factory::$data['settings_original']['entities']['tree']['tree'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['tree']['tree']->name = 'tree';
-  cache_factory::$data['settings_original']['entities']['tree']['tree']->storage_id = 'db_main';
+  cache_factory::$data['settings_original']['entities']['tree']['tree']->storage_id = 'db';
   cache_factory::$data['settings_original']['entities']['tree']['tree']->charset = 'utf8';
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id = new \stdClass();
@@ -1662,7 +1662,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['tree']['tree']->indexes['primary']->fields['id'] = 'id';
   cache_factory::$data['settings_original']['entities']['tree']['tree_item'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->name = 'tree_item';
-  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->storage_id = 'db_main';
+  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->storage_id = 'db';
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->charset = 'utf8';
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id = new \stdClass();
@@ -1685,7 +1685,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->indexes['primary']->fields['id'] = 'id';
   cache_factory::$data['settings_original']['entities']['user']['user'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['user']['user']->name = 'user';
-  cache_factory::$data['settings_original']['entities']['user']['user']->storage_id = 'db_main';
+  cache_factory::$data['settings_original']['entities']['user']['user']->storage_id = 'db';
   cache_factory::$data['settings_original']['entities']['user']['user']->charset = 'utf8';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->id = new \stdClass();
@@ -1718,7 +1718,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['user']->indexes['unique_email']->fields['email'] = 'email';
   cache_factory::$data['settings_original']['entities']['user']['session'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['user']['session']->name = 'session';
-  cache_factory::$data['settings_original']['entities']['user']['session']->storage_id = 'db_main';
+  cache_factory::$data['settings_original']['entities']['user']['session']->storage_id = 'db';
   cache_factory::$data['settings_original']['entities']['user']['session']->charset = 'utf8';
   cache_factory::$data['settings_original']['entities']['user']['session']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->id = new \stdClass();
@@ -1742,7 +1742,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['session']->indexes['primary']->fields['id'] = 'id';
   cache_factory::$data['settings_original']['entities']['user']['role'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['user']['role']->name = 'role';
-  cache_factory::$data['settings_original']['entities']['user']['role']->storage_id = 'db_main';
+  cache_factory::$data['settings_original']['entities']['user']['role']->storage_id = 'db';
   cache_factory::$data['settings_original']['entities']['user']['role']->charset = 'utf8';
   cache_factory::$data['settings_original']['entities']['user']['role']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['role']->fields->id = new \stdClass();
@@ -1763,7 +1763,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['role']->indexes['primary']->fields['id'] = 'id';
   cache_factory::$data['settings_original']['entities']['user']['permission'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['user']['permission']->name = 'permission';
-  cache_factory::$data['settings_original']['entities']['user']['permission']->storage_id = 'db_main';
+  cache_factory::$data['settings_original']['entities']['user']['permission']->storage_id = 'db';
   cache_factory::$data['settings_original']['entities']['user']['permission']->charset = 'utf8';
   cache_factory::$data['settings_original']['entities']['user']['permission']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['permission']->fields->id = new \stdClass();
@@ -1779,7 +1779,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['permission']->indexes['primary']->fields['id'] = 'id';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->name = 'relation_role_ws_user';
-  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->storage_id = 'db_main';
+  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->storage_id = 'db';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->charset = 'utf8';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->role_id = new \stdClass();
@@ -1797,7 +1797,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->indexes['primary']->fields['user_id'] = 'user_id';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission']->name = 'relation_role_ws_permission';
-  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission']->storage_id = 'db_main';
+  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission']->storage_id = 'db';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission']->charset = 'utf8';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission']->fields->role_id = new \stdClass();
