@@ -670,7 +670,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['minlength'] = 5;
   cache_factory::$data['settings_original']['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['maxlength'] = 255;
   cache_factory::$data['settings_original']['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['autocomplete'] = 'off';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['disabled'] = 'disabled';
   cache_factory::$data['settings_original']['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->title = 'New password';
   cache_factory::$data['settings_original']['forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->children['default'] = new \effectivecore\markup_simple();
@@ -1442,6 +1441,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['No'] = 'Нет';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Number'] = 'Число';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Object'] = 'Объект';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Old password is incorrect!'] = 'Старый пароль неверен!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Old password'] = 'Старый пароль';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Page'] = 'Страница';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Parameter'] = 'Параметр';
@@ -1483,6 +1483,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Text'] = 'Текст';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Textarea'] = 'Текстовая область';
   cache_factory::$data['settings_original']['translations']['locales']->ru['the event system was initialized'] = 'система событий была инициализирована';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['The new password must be different from the old password!'] = 'Новый пароль должен отличаться от старого пароля!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['the storage "%%_name" was initialized'] = 'хранилище "%%_name" было инициализировано';
   cache_factory::$data['settings_original']['translations']['locales']->ru['the storage "%%_storage" cache for group "%%_group" will be load'] = 'кэш хранилища "%%_storage" для группы "%%_group" будет загружен';
   cache_factory::$data['settings_original']['translations']['locales']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';

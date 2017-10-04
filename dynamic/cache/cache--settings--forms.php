@@ -508,7 +508,6 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['minlength'] = 5;
   cache_factory::$data['settings--forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['maxlength'] = 255;
   cache_factory::$data['settings--forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['autocomplete'] = 'off';
-  cache_factory::$data['settings--forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_old']->children['default']->attributes['disabled'] = 'disabled';
   cache_factory::$data['settings--forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new'] = new \effectivecore\form_field();
   cache_factory::$data['settings--forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->title = 'New password';
   cache_factory::$data['settings--forms']['user']['form_user_n_edit']->children['fieldset_default']->children['field_password_new']->children['default'] = new \effectivecore\markup_simple();
