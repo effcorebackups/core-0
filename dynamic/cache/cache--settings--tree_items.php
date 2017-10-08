@@ -4,16 +4,16 @@ namespace effectivecore { # cache for settings--tree_items
 
   cache_factory::$data['settings--tree_items']['core']['main_home'] = new \effectivecore\tree_item();
   cache_factory::$data['settings--tree_items']['core']['main_home']->id = 'main_home';
+  cache_factory::$data['settings--tree_items']['core']['main_home']->parent_is_tree = true;
   cache_factory::$data['settings--tree_items']['core']['main_home']->parent_id = 'main';
-  cache_factory::$data['settings--tree_items']['core']['main_home']->parent_type = 'tree';
   cache_factory::$data['settings--tree_items']['core']['main_home']->parent_npath = 'trees/core/main';
   cache_factory::$data['settings--tree_items']['core']['main_home']->title = 'Home';
   cache_factory::$data['settings--tree_items']['core']['main_home']->attributes['href'] = '/';
   cache_factory::$data['settings--tree_items']['core']['main_home']->attributes['class']['home'] = 'home';
   cache_factory::$data['settings--tree_items']['core']['main_admin'] = new \effectivecore\tree_item();
   cache_factory::$data['settings--tree_items']['core']['main_admin']->id = 'main_admin';
+  cache_factory::$data['settings--tree_items']['core']['main_admin']->parent_is_tree = true;
   cache_factory::$data['settings--tree_items']['core']['main_admin']->parent_id = 'main';
-  cache_factory::$data['settings--tree_items']['core']['main_admin']->parent_type = 'tree';
   cache_factory::$data['settings--tree_items']['core']['main_admin']->parent_npath = 'trees/core/main';
   cache_factory::$data['settings--tree_items']['core']['main_admin']->title = 'Administer';
   cache_factory::$data['settings--tree_items']['core']['main_admin']->attributes['class']['admin'] = 'admin';
@@ -30,8 +30,8 @@ namespace effectivecore { # cache for settings--tree_items
   cache_factory::$data['settings--tree_items']['core']['main_admin_modules']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings--tree_items']['develop']['main_develop'] = new \effectivecore\tree_item();
   cache_factory::$data['settings--tree_items']['develop']['main_develop']->id = 'main_develop';
+  cache_factory::$data['settings--tree_items']['develop']['main_develop']->parent_is_tree = true;
   cache_factory::$data['settings--tree_items']['develop']['main_develop']->parent_id = 'main';
-  cache_factory::$data['settings--tree_items']['develop']['main_develop']->parent_type = 'tree';
   cache_factory::$data['settings--tree_items']['develop']['main_develop']->parent_npath = 'trees/core/main';
   cache_factory::$data['settings--tree_items']['develop']['main_develop']->title = 'Develop';
   cache_factory::$data['settings--tree_items']['develop']['main_develop']->attributes['class']['develop'] = 'develop';
@@ -57,8 +57,8 @@ namespace effectivecore { # cache for settings--tree_items
   cache_factory::$data['settings--tree_items']['page']['main_admin_decoration']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings--tree_items']['user']['user_anonymous'] = new \effectivecore\tree_item();
   cache_factory::$data['settings--tree_items']['user']['user_anonymous']->id = 'user_anonymous';
+  cache_factory::$data['settings--tree_items']['user']['user_anonymous']->parent_is_tree = true;
   cache_factory::$data['settings--tree_items']['user']['user_anonymous']->parent_id = 'user';
-  cache_factory::$data['settings--tree_items']['user']['user_anonymous']->parent_type = 'tree';
   cache_factory::$data['settings--tree_items']['user']['user_anonymous']->parent_npath = 'trees/user/user';
   cache_factory::$data['settings--tree_items']['user']['user_anonymous']->title = 'User';
   cache_factory::$data['settings--tree_items']['user']['user_anonymous']->attributes['class']['user-anonymous'] = 'user-anonymous';
@@ -86,8 +86,8 @@ namespace effectivecore { # cache for settings--tree_items
   cache_factory::$data['settings--tree_items']['user']['user_registration']->access->roles['anonymous'] = 'anonymous';
   cache_factory::$data['settings--tree_items']['user']['user_n'] = new \effectivecore\tree_item();
   cache_factory::$data['settings--tree_items']['user']['user_n']->id = 'user_n';
+  cache_factory::$data['settings--tree_items']['user']['user_n']->parent_is_tree = true;
   cache_factory::$data['settings--tree_items']['user']['user_n']->parent_id = 'user';
-  cache_factory::$data['settings--tree_items']['user']['user_n']->parent_type = 'tree';
   cache_factory::$data['settings--tree_items']['user']['user_n']->parent_npath = 'trees/user/user';
   cache_factory::$data['settings--tree_items']['user']['user_n']->title = 'User %%_user_email_name';
   cache_factory::$data['settings--tree_items']['user']['user_n']->attributes['href'] = '/user/%%_user_id';

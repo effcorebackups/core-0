@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-08 13:47:42';
+  cache_factory::$info['settings_original']['build'] = '2017-10-08 14:13:20';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1106,16 +1106,16 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tokens']['user']['user_email_name_context']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
   cache_factory::$data['settings_original']['tree_items']['core']['main_home'] = new \effectivecore\tree_item();
   cache_factory::$data['settings_original']['tree_items']['core']['main_home']->id = 'main_home';
+  cache_factory::$data['settings_original']['tree_items']['core']['main_home']->parent_is_tree = true;
   cache_factory::$data['settings_original']['tree_items']['core']['main_home']->parent_id = 'main';
-  cache_factory::$data['settings_original']['tree_items']['core']['main_home']->parent_type = 'tree';
   cache_factory::$data['settings_original']['tree_items']['core']['main_home']->parent_npath = 'trees/core/main';
   cache_factory::$data['settings_original']['tree_items']['core']['main_home']->title = 'Home';
   cache_factory::$data['settings_original']['tree_items']['core']['main_home']->attributes['href'] = '/';
   cache_factory::$data['settings_original']['tree_items']['core']['main_home']->attributes['class']['home'] = 'home';
   cache_factory::$data['settings_original']['tree_items']['core']['main_admin'] = new \effectivecore\tree_item();
   cache_factory::$data['settings_original']['tree_items']['core']['main_admin']->id = 'main_admin';
+  cache_factory::$data['settings_original']['tree_items']['core']['main_admin']->parent_is_tree = true;
   cache_factory::$data['settings_original']['tree_items']['core']['main_admin']->parent_id = 'main';
-  cache_factory::$data['settings_original']['tree_items']['core']['main_admin']->parent_type = 'tree';
   cache_factory::$data['settings_original']['tree_items']['core']['main_admin']->parent_npath = 'trees/core/main';
   cache_factory::$data['settings_original']['tree_items']['core']['main_admin']->title = 'Administer';
   cache_factory::$data['settings_original']['tree_items']['core']['main_admin']->attributes['class']['admin'] = 'admin';
@@ -1132,8 +1132,8 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tree_items']['core']['main_admin_modules']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings_original']['tree_items']['develop']['main_develop'] = new \effectivecore\tree_item();
   cache_factory::$data['settings_original']['tree_items']['develop']['main_develop']->id = 'main_develop';
+  cache_factory::$data['settings_original']['tree_items']['develop']['main_develop']->parent_is_tree = true;
   cache_factory::$data['settings_original']['tree_items']['develop']['main_develop']->parent_id = 'main';
-  cache_factory::$data['settings_original']['tree_items']['develop']['main_develop']->parent_type = 'tree';
   cache_factory::$data['settings_original']['tree_items']['develop']['main_develop']->parent_npath = 'trees/core/main';
   cache_factory::$data['settings_original']['tree_items']['develop']['main_develop']->title = 'Develop';
   cache_factory::$data['settings_original']['tree_items']['develop']['main_develop']->attributes['class']['develop'] = 'develop';
@@ -1159,8 +1159,8 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tree_items']['page']['main_admin_decoration']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings_original']['tree_items']['user']['user_anonymous'] = new \effectivecore\tree_item();
   cache_factory::$data['settings_original']['tree_items']['user']['user_anonymous']->id = 'user_anonymous';
+  cache_factory::$data['settings_original']['tree_items']['user']['user_anonymous']->parent_is_tree = true;
   cache_factory::$data['settings_original']['tree_items']['user']['user_anonymous']->parent_id = 'user';
-  cache_factory::$data['settings_original']['tree_items']['user']['user_anonymous']->parent_type = 'tree';
   cache_factory::$data['settings_original']['tree_items']['user']['user_anonymous']->parent_npath = 'trees/user/user';
   cache_factory::$data['settings_original']['tree_items']['user']['user_anonymous']->title = 'User';
   cache_factory::$data['settings_original']['tree_items']['user']['user_anonymous']->attributes['class']['user-anonymous'] = 'user-anonymous';
@@ -1188,8 +1188,8 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tree_items']['user']['user_registration']->access->roles['anonymous'] = 'anonymous';
   cache_factory::$data['settings_original']['tree_items']['user']['user_n'] = new \effectivecore\tree_item();
   cache_factory::$data['settings_original']['tree_items']['user']['user_n']->id = 'user_n';
+  cache_factory::$data['settings_original']['tree_items']['user']['user_n']->parent_is_tree = true;
   cache_factory::$data['settings_original']['tree_items']['user']['user_n']->parent_id = 'user';
-  cache_factory::$data['settings_original']['tree_items']['user']['user_n']->parent_type = 'tree';
   cache_factory::$data['settings_original']['tree_items']['user']['user_n']->parent_npath = 'trees/user/user';
   cache_factory::$data['settings_original']['tree_items']['user']['user_n']->title = 'User %%_user_email_name';
   cache_factory::$data['settings_original']['tree_items']['user']['user_n']->attributes['href'] = '/user/%%_user_id';
@@ -1741,6 +1741,11 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->unsigned = true;
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->not_null = true;
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->auto_increment = true;
+  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree->type = 'int';
+  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree->size = 1;
+  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree->not_null = true;
+  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree->default = 0;
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_id = new \stdClass();
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_id->type = 'int';
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_id->size = 11;

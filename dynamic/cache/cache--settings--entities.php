@@ -31,6 +31,11 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id->unsigned = true;
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id->not_null = true;
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id->auto_increment = true;
+  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_is_tree = new \stdClass();
+  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_is_tree->type = 'int';
+  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_is_tree->size = 1;
+  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_is_tree->not_null = true;
+  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_is_tree->default = 0;
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_id = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_id->type = 'int';
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_id->size = 11;
