@@ -2,7 +2,6 @@
 
 namespace effectivecore { # cache for settings--entities
 
-  cache_factory::$info['settings--entities']['build'] = '2017-10-02 13:22:15';
   cache_factory::$data['settings--entities']['tree']['tree'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['tree']['tree']->name = 'tree';
   cache_factory::$data['settings--entities']['tree']['tree']->storage_id = 'db';

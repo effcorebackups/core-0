@@ -2,7 +2,6 @@
 
 namespace effectivecore { # cache for settings--countries
 
-  cache_factory::$info['settings--countries']['build'] = '2017-10-02 10:49:09';
   cache_factory::$data['settings--countries']['locales']['us'] = new \stdClass();
   cache_factory::$data['settings--countries']['locales']['us']->title = new \stdClass();
   cache_factory::$data['settings--countries']['locales']['us']->title->en = 'United States of America';
