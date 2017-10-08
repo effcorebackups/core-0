@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-08 12:00:38';
+  cache_factory::$info['settings_original']['build'] = '2017-10-08 12:06:46';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1218,10 +1218,12 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tree_items']['user']['main_admin_users']->access = new \stdClass();
   cache_factory::$data['settings_original']['tree_items']['user']['main_admin_users']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings_original']['trees']['core']['main'] = new \effectivecore\tree();
+  cache_factory::$data['settings_original']['trees']['core']['main']->id = 'main';
   cache_factory::$data['settings_original']['trees']['core']['main']->title = 'Main menu';
   cache_factory::$data['settings_original']['trees']['core']['main']->attributes['class']['main'] = 'main';
   cache_factory::$data['settings_original']['trees']['core']['main']->weight = 2;
   cache_factory::$data['settings_original']['trees']['user']['user'] = new \effectivecore\tree();
+  cache_factory::$data['settings_original']['trees']['user']['user']->id = 'user';
   cache_factory::$data['settings_original']['trees']['user']['user']->title = 'User menu';
   cache_factory::$data['settings_original']['trees']['user']['user']->attributes['class']['user'] = 'user';
   cache_factory::$data['settings_original']['trees']['user']['user']->weight = 1;
