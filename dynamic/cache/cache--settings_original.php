@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-10 16:09:46';
+  cache_factory::$info['settings_original']['build'] = '2017-10-10 17:26:03';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1768,11 +1768,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['templates']['tree']['tree_item_children'] = 'frontend/template--tree_item_children.html';
   cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo'] = new \effectivecore\storage_pdo();
   cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->id = 'db';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->database_name = 'effectivecore';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->host_name = '127.0.0.1';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->user_name = 'root';
-  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->password = 123;
-  cache_factory::$data['settings_original']['storages']['storage']['storage_sql_dpo']->driver = 'mysql';
   cache_factory::$data['settings_original']['storages']['storage']['storage_nosql_settings'] = new \effectivecore\storage_settings();
   cache_factory::$data['settings_original']['storages']['storage']['storage_nosql_settings']->id = 'settings';
   cache_factory::$data['settings_original']['entities']['tree']['tree'] = new \effectivecore\entity();
