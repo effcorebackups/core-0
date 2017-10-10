@@ -63,6 +63,10 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['user']->fields->email->type = 'varchar';
   cache_factory::$data['settings--entities']['user']['user']->fields->email->size = 255;
   cache_factory::$data['settings--entities']['user']['user']->fields->email->not_null = true;
+  cache_factory::$data['settings--entities']['user']['user']->fields->login = new \stdClass();
+  cache_factory::$data['settings--entities']['user']['user']->fields->login->type = 'varchar';
+  cache_factory::$data['settings--entities']['user']['user']->fields->login->size = 255;
+  cache_factory::$data['settings--entities']['user']['user']->fields->login->not_null = true;
   cache_factory::$data['settings--entities']['user']['user']->fields->password_hash = new \stdClass();
   cache_factory::$data['settings--entities']['user']['user']->fields->password_hash->type = 'varchar';
   cache_factory::$data['settings--entities']['user']['user']->fields->password_hash->size = 255;
@@ -81,6 +85,9 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['user']->indexes['unique_email'] = new \stdClass();
   cache_factory::$data['settings--entities']['user']['user']->indexes['unique_email']->type = 'unique key';
   cache_factory::$data['settings--entities']['user']['user']->indexes['unique_email']->fields['email'] = 'email';
+  cache_factory::$data['settings--entities']['user']['user']->indexes['unique_login'] = new \stdClass();
+  cache_factory::$data['settings--entities']['user']['user']->indexes['unique_login']->type = 'unique key';
+  cache_factory::$data['settings--entities']['user']['user']->indexes['unique_login']->fields['login'] = 'login';
   cache_factory::$data['settings--entities']['user']['session'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['user']['session']->name = 'session';
   cache_factory::$data['settings--entities']['user']['session']->storage_id = 'db';
