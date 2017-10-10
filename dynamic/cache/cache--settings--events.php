@@ -3,6 +3,10 @@
 namespace effectivecore { # cache for settings--events
 
   cache_factory::$data['settings--events']['core'] = new \stdClass();
+  cache_factory::$data['settings--events']['core']->on_form_init['installation'] = new \stdClass();
+  cache_factory::$data['settings--events']['core']->on_form_init['installation']->for = 'installation';
+  cache_factory::$data['settings--events']['core']->on_form_init['installation']->handler = '\\effectivecore\\events_form::on_init_install';
+  cache_factory::$data['settings--events']['core']->on_form_init['installation']->weight = 0;
   cache_factory::$data['settings--events']['core']->on_form_validate['installation_default'] = new \stdClass();
   cache_factory::$data['settings--events']['core']->on_form_validate['installation_default']->for = 'installation';
   cache_factory::$data['settings--events']['core']->on_form_validate['installation_default']->handler = '\\effectivecore\\events_form::on_validate';
