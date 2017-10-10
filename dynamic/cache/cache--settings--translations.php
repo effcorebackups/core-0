@@ -166,6 +166,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Telephone'] = 'Телефон';
   cache_factory::$data['settings--translations']['locales']->ru['Text'] = 'Текст';
   cache_factory::$data['settings--translations']['locales']->ru['Textarea'] = 'Текстовая область';
+  cache_factory::$data['settings--translations']['locales']->ru['The database is not available with these credentials!'] = 'База данных не доступна с этими учетными данными!';
   cache_factory::$data['settings--translations']['locales']->ru['the event system was initialized'] = 'система событий была инициализирована';
   cache_factory::$data['settings--translations']['locales']->ru['The new password must be different from the old password!'] = 'Новый пароль должен отличаться от старого пароля!';
   cache_factory::$data['settings--translations']['locales']->ru['the storage "%%_name" was initialized'] = 'хранилище "%%_name" было инициализировано';
@@ -182,6 +183,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   cache_factory::$data['settings--translations']['locales']->ru['User %%_user_email_name'] = 'Пользователь %%_user_email_name';
   cache_factory::$data['settings--translations']['locales']->ru['User menu'] = 'Меню пользователя';
+  cache_factory::$data['settings--translations']['locales']->ru['User name'] = 'Имя пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User profile %%_user_email_context{2}'] = 'Профиль пользователя %%_user_email_context{2}';
   cache_factory::$data['settings--translations']['locales']->ru['User roles'] = 'Роли пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User was not deleted!'] = 'Пользователь не был удален!';
