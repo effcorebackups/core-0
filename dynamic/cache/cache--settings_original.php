@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-10 14:56:30';
+  cache_factory::$info['settings_original']['build'] = '2017-10-10 15:09:20';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -249,12 +249,20 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default'] = new \effectivecore\markup_simple();
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->tag_name = 'input';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['type'] = 'text';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['name'] = 'user_name';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['name'] = 'user';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['required'] = 'required';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['value'] = 'root';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['minlength'] = 1;
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['maxlength'] = 64;
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_password'] = new \effectivecore\form_field();
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_password']->title = 'Password';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_password']->children['default'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_password']->children['default']->tag_name = 'input';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_password']->children['default']->attributes['type'] = 'password';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_password']->children['default']->attributes['name'] = 'password';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_password']->children['default']->attributes['maxlength'] = 255;
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_password']->children['default']->attributes['autocomplete'] = 'off';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_install'] = new \effectivecore\markup();
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_install']->tag_name = 'button';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_install']->children['label'] = new \effectivecore\text();
