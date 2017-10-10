@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-10 13:32:10';
+  cache_factory::$info['settings_original']['build'] = '2017-10-10 14:56:30';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -214,6 +214,9 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->title = 'Driver';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->title = 'Database name';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->description = new \effectivecore\text();
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->description->text = 'Allowable characters: %%_chars.';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default'] = new \effectivecore\markup_simple();
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default']->tag_name = 'input';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default']->attributes['type'] = 'text';
@@ -226,9 +229,9 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->title = 'Host name';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->description = new \effectivecore\text();
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->description->text = 'Examples: %%_examples. Allowable characters: %%_chars.';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->description->text = 'Allowable characters: %%_chars. Examples: %%_examples.';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->description->args['examples'] = '127.0.0.1, example.com';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", "." ';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", "."';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->children['default'] = new \effectivecore\markup_simple();
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->children['default']->tag_name = 'input';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->children['default']->attributes['type'] = 'text';
@@ -236,8 +239,22 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->children['default']->attributes['required'] = 'required';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->children['default']->attributes['value'] = '127.0.0.1';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->children['default']->attributes['minlength'] = 1;
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->children['default']->attributes['maxlength'] = 128;
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->children['default']->attributes['maxlength'] = 253;
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_host']->children['default']->attributes['pattern'] = '[a-zA-Z0-9-_.]+';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user'] = new \effectivecore\form_field();
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->title = 'User name';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->description = new \effectivecore\text();
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->description->text = 'Allowable characters: %%_chars.';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->tag_name = 'input';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['type'] = 'text';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['name'] = 'user_name';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['required'] = 'required';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['value'] = 'root';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['minlength'] = 1;
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['maxlength'] = 64;
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_user']->children['default']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_install'] = new \effectivecore\markup();
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_install']->tag_name = 'button';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_install']->children['label'] = new \effectivecore\text();
@@ -1425,6 +1442,8 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Actions'] = 'Действия';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Administer'] = 'Администрирование';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Administrators'] = 'Администраторы';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Allowable characters: %%_chars. Examples: %%_examples.'] = 'Допустимые символы: %%_chars. Примеры: %%_examples.';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Allowable characters: %%_chars.'] = 'Допустимые символы: %%_chars.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['always_enabled'] = 'всегда_вкл';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Anonymous'] = 'Анонимы';
   cache_factory::$data['settings_original']['translations']['locales']->ru['autoload'] = 'автозагрузка';
@@ -1474,7 +1493,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Event'] = 'Событие';
   cache_factory::$data['settings_original']['translations']['locales']->ru['events'] = 'события';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Events'] = 'События';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Examples: %%_examples. Allowable characters: %%_chars.'] = 'Примеры: %%_examples. Допустимые символы: %%_chars.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Execute plan'] = 'План выполнения';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" contains an incorrect email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';

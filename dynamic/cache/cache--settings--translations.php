@@ -10,6 +10,8 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Actions'] = 'Действия';
   cache_factory::$data['settings--translations']['locales']->ru['Administer'] = 'Администрирование';
   cache_factory::$data['settings--translations']['locales']->ru['Administrators'] = 'Администраторы';
+  cache_factory::$data['settings--translations']['locales']->ru['Allowable characters: %%_chars. Examples: %%_examples.'] = 'Допустимые символы: %%_chars. Примеры: %%_examples.';
+  cache_factory::$data['settings--translations']['locales']->ru['Allowable characters: %%_chars.'] = 'Допустимые символы: %%_chars.';
   cache_factory::$data['settings--translations']['locales']->ru['always_enabled'] = 'всегда_вкл';
   cache_factory::$data['settings--translations']['locales']->ru['Anonymous'] = 'Анонимы';
   cache_factory::$data['settings--translations']['locales']->ru['autoload'] = 'автозагрузка';
@@ -59,7 +61,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Event'] = 'Событие';
   cache_factory::$data['settings--translations']['locales']->ru['events'] = 'события';
   cache_factory::$data['settings--translations']['locales']->ru['Events'] = 'События';
-  cache_factory::$data['settings--translations']['locales']->ru['Examples: %%_examples. Allowable characters: %%_chars.'] = 'Примеры: %%_examples. Допустимые символы: %%_chars.';
   cache_factory::$data['settings--translations']['locales']->ru['Execute plan'] = 'План выполнения';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" contains an incorrect email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
