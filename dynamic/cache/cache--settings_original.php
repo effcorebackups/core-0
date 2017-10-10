@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-10 18:25:45';
+  cache_factory::$info['settings_original']['build'] = '2017-10-10 18:43:36';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1619,6 +1619,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['The new password must be different from the old password!'] = 'Новый пароль должен отличаться от старого пароля!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['the storage "%%_name" was initialized'] = 'хранилище "%%_name" было инициализировано';
   cache_factory::$data['settings_original']['translations']['locales']->ru['the storage "%%_storage" cache for group "%%_group" will be load'] = 'кэш хранилища "%%_storage" для группы "%%_group" будет загружен';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['The system was installed!'] = 'Система была установлена!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Time'] = 'Время';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Title'] = 'Заголовок';
