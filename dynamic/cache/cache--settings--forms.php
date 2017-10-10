@@ -3,6 +3,31 @@
 namespace effectivecore { # cache for settings--forms
 
   cache_factory::$data['settings--forms']['core']['form_installation'] = new \effectivecore\form();
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default'] = new \effectivecore\form_container();
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->tag_name = 'fieldset';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->title = 'Storage params';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->title_tag_name = 'legend';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver'] = new \effectivecore\form_field_select();
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->select_attributes['name'] = 'driver';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->select_attributes['required'] = 'required';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['not_selected'] = '- select -';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['mysql'] = 'MySQL';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['pgsql'] = 'PostgreSQL';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['sqlte'] = 'SQLite';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->disabled['pgsql'] = 'pgsql';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->disabled['sqlte'] = 'sqlte';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->title = 'Driver';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database'] = new \effectivecore\form_field();
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->title = 'Database name';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default']->tag_name = 'input';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default']->attributes['type'] = 'text';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default']->attributes['name'] = 'database_name';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default']->attributes['required'] = 'required';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default']->attributes['value'] = 'main';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default']->attributes['minlength'] = 1;
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default']->attributes['maxlength'] = 128;
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database']->children['default']->attributes['pattern'] = '[a-zA-Z0-9\\-\\_]+';
   cache_factory::$data['settings--forms']['core']['form_installation']->children['button_install'] = new \effectivecore\markup();
   cache_factory::$data['settings--forms']['core']['form_installation']->children['button_install']->tag_name = 'button';
   cache_factory::$data['settings--forms']['core']['form_installation']->children['button_install']->children['label'] = new \effectivecore\text();
