@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-10 19:00:15';
+  cache_factory::$info['settings_original']['build'] = '2017-10-11 17:29:06';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -216,9 +216,8 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['not_selected'] = '- select -';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['mysql'] = 'MySQL';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['pgsql'] = 'PostgreSQL';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['sqlte'] = 'SQLite';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->disabled['pgsql'] = 'pgsql';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->disabled['sqlte'] = 'sqlte';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['sqlite'] = 'SQLite';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->disabled['sqlite'] = 'sqlite';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->title = 'Driver';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database_name'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database_name']->title = 'Database name';
@@ -1451,7 +1450,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['languages']['locales']['ru']->title->native = 'Русский';
   cache_factory::$data['settings_original']['languages']['locales']['ru']->code = 'ru';
   cache_factory::$data['settings_original']['translations']['locales'] = new \stdClass();
-  cache_factory::$data['settings_original']['translations']['locales']->ru['- select -'] = '- выбрать -';
   cache_factory::$data['settings_original']['translations']['locales']->ru['action'] = 'действие';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Action'] = 'Действие';
   cache_factory::$data['settings_original']['translations']['locales']->ru['actions'] = 'действия';
@@ -1617,6 +1615,8 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['The database is not available with these credentials!'] = 'База данных не доступна с этими учетными данными!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['the event system was initialized'] = 'система событий была инициализирована';
   cache_factory::$data['settings_original']['translations']['locales']->ru['The new password must be different from the old password!'] = 'Новый пароль должен отличаться от старого пароля!';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['The PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['The PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['the storage "%%_name" was initialized'] = 'хранилище "%%_name" было инициализировано';
   cache_factory::$data['settings_original']['translations']['locales']->ru['the storage "%%_storage" cache for group "%%_group" will be load'] = 'кэш хранилища "%%_storage" для группы "%%_group" будет загружен';
   cache_factory::$data['settings_original']['translations']['locales']->ru['The system was installed!'] = 'Система была установлена!';
@@ -1649,6 +1649,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Version'] = 'Версия';
   cache_factory::$data['settings_original']['translations']['locales']->ru['view'] = 'просмотреть';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Yes'] = 'Да';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['- select -'] = '- выбрать -';
   cache_factory::$data['settings_original']['colors']['page']['color_lavender'] = new \stdClass();
   cache_factory::$data['settings_original']['colors']['page']['color_lavender']->value = 'lavender';
   cache_factory::$data['settings_original']['colors']['page']['color_lavender']->is_dark = false;

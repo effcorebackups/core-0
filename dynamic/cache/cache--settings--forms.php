@@ -13,9 +13,8 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['not_selected'] = '- select -';
   cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['mysql'] = 'MySQL';
   cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['pgsql'] = 'PostgreSQL';
-  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['sqlte'] = 'SQLite';
-  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->disabled['pgsql'] = 'pgsql';
-  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->disabled['sqlte'] = 'sqlte';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['sqlite'] = 'SQLite';
+  cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->disabled['sqlite'] = 'sqlite';
   cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->title = 'Driver';
   cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database_name'] = new \effectivecore\form_field();
   cache_factory::$data['settings--forms']['core']['form_installation']->children['fieldset_default']->children['field_database_name']->title = 'Database name';

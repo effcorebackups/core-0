@@ -3,7 +3,6 @@
 namespace effectivecore { # cache for settings--translations
 
   cache_factory::$data['settings--translations']['locales'] = new \stdClass();
-  cache_factory::$data['settings--translations']['locales']->ru['- select -'] = '- выбрать -';
   cache_factory::$data['settings--translations']['locales']->ru['action'] = 'действие';
   cache_factory::$data['settings--translations']['locales']->ru['Action'] = 'Действие';
   cache_factory::$data['settings--translations']['locales']->ru['actions'] = 'действия';
@@ -169,6 +168,8 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['The database is not available with these credentials!'] = 'База данных не доступна с этими учетными данными!';
   cache_factory::$data['settings--translations']['locales']->ru['the event system was initialized'] = 'система событий была инициализирована';
   cache_factory::$data['settings--translations']['locales']->ru['The new password must be different from the old password!'] = 'Новый пароль должен отличаться от старого пароля!';
+  cache_factory::$data['settings--translations']['locales']->ru['The PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
+  cache_factory::$data['settings--translations']['locales']->ru['The PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache_factory::$data['settings--translations']['locales']->ru['the storage "%%_name" was initialized'] = 'хранилище "%%_name" было инициализировано';
   cache_factory::$data['settings--translations']['locales']->ru['the storage "%%_storage" cache for group "%%_group" will be load'] = 'кэш хранилища "%%_storage" для группы "%%_group" будет загружен';
   cache_factory::$data['settings--translations']['locales']->ru['The system was installed!'] = 'Система была установлена!';
@@ -201,5 +202,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Version'] = 'Версия';
   cache_factory::$data['settings--translations']['locales']->ru['view'] = 'просмотреть';
   cache_factory::$data['settings--translations']['locales']->ru['Yes'] = 'Да';
+  cache_factory::$data['settings--translations']['locales']->ru['- select -'] = '- выбрать -';
 
 }
