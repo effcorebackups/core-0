@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-11 17:29:06';
+  cache_factory::$info['settings_original']['build'] = '2017-10-12 14:02:19';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -55,7 +55,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['core']->on_form_init['installation']->for = 'installation';
-  cache_factory::$data['settings_original']['events']['core']->on_form_init['installation']->handler = '\\effectivecore\\events_form::on_init_install';
+  cache_factory::$data['settings_original']['events']['core']->on_form_init['installation']->handler = '\\effectivecore\\modules\\core\\events_form::on_init_install';
   cache_factory::$data['settings_original']['events']['core']->on_form_init['installation']->weight = 0;
   cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation_default'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation_default']->for = 'installation';
@@ -63,11 +63,11 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation_default']->weight = 0;
   cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation']->for = 'installation';
-  cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation']->handler = '\\effectivecore\\events_form::on_validate_install';
+  cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation']->handler = '\\effectivecore\\modules\\core\\events_form::on_validate_install';
   cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation']->weight = 0;
   cache_factory::$data['settings_original']['events']['core']->on_form_submit['installation'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['core']->on_form_submit['installation']->for = 'installation';
-  cache_factory::$data['settings_original']['events']['core']->on_form_submit['installation']->handler = '\\effectivecore\\events_form::on_submit_install';
+  cache_factory::$data['settings_original']['events']['core']->on_form_submit['installation']->handler = '\\effectivecore\\modules\\core\\events_form::on_submit_install';
   cache_factory::$data['settings_original']['events']['core']->on_form_submit['installation']->weight = 0;
   cache_factory::$data['settings_original']['events']['develop'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['develop']->on_module_start['demo'] = new \stdClass();
