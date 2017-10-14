@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-12 14:02:19';
+  cache_factory::$info['settings_original']['build'] = '2017-10-14 12:26:48';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -277,14 +277,14 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_install']->attributes['type'] = 'submit';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_install']->attributes['name'] = 'button';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_install']->attributes['value'] = 'install';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_cancel'] = new \effectivecore\markup();
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_cancel']->tag_name = 'button';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_cancel']->children['label'] = new \effectivecore\text();
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_cancel']->children['label']->text = 'cancel';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_cancel']->attributes['type'] = 'submit';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_cancel']->attributes['name'] = 'button';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_cancel']->attributes['value'] = 'cancel';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_cancel']->novalidate = true;
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_to_front'] = new \effectivecore\markup();
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_to_front']->tag_name = 'button';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_to_front']->children['label'] = new \effectivecore\text();
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_to_front']->children['label']->text = 'to front';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_to_front']->attributes['type'] = 'submit';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_to_front']->attributes['name'] = 'button';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_to_front']->attributes['value'] = 'to_front';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['button_to_front']->novalidate = true;
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->attributes['id'] = 'installation';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->attributes['novalidate'] = 'novalidate';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->attributes['method'] = 'post';
@@ -1450,6 +1450,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['languages']['locales']['ru']->title->native = 'Русский';
   cache_factory::$data['settings_original']['languages']['locales']['ru']->code = 'ru';
   cache_factory::$data['settings_original']['translations']['locales'] = new \stdClass();
+  cache_factory::$data['settings_original']['translations']['locales']->ru['- select -'] = '- выбрать -';
   cache_factory::$data['settings_original']['translations']['locales']->ru['action'] = 'действие';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Action'] = 'Действие';
   cache_factory::$data['settings_original']['translations']['locales']->ru['actions'] = 'действия';
@@ -1623,6 +1624,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Time'] = 'Время';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Title'] = 'Заголовок';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['to front'] = 'на главную';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Total build time'] = 'Общее время сборки';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Total load'] = 'Общая загрука';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Total'] = 'Всего';
@@ -1649,7 +1651,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Version'] = 'Версия';
   cache_factory::$data['settings_original']['translations']['locales']->ru['view'] = 'просмотреть';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Yes'] = 'Да';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['- select -'] = '- выбрать -';
   cache_factory::$data['settings_original']['colors']['page']['color_lavender'] = new \stdClass();
   cache_factory::$data['settings_original']['colors']['page']['color_lavender']->value = 'lavender';
   cache_factory::$data['settings_original']['colors']['page']['color_lavender']->is_dark = false;

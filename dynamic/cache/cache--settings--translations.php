@@ -3,6 +3,7 @@
 namespace effectivecore { # cache for settings--translations
 
   cache_factory::$data['settings--translations']['locales'] = new \stdClass();
+  cache_factory::$data['settings--translations']['locales']->ru['- select -'] = '- выбрать -';
   cache_factory::$data['settings--translations']['locales']->ru['action'] = 'действие';
   cache_factory::$data['settings--translations']['locales']->ru['Action'] = 'Действие';
   cache_factory::$data['settings--translations']['locales']->ru['actions'] = 'действия';
@@ -176,6 +177,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['The value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache_factory::$data['settings--translations']['locales']->ru['Time'] = 'Время';
   cache_factory::$data['settings--translations']['locales']->ru['Title'] = 'Заголовок';
+  cache_factory::$data['settings--translations']['locales']->ru['to front'] = 'на главную';
   cache_factory::$data['settings--translations']['locales']->ru['Total build time'] = 'Общее время сборки';
   cache_factory::$data['settings--translations']['locales']->ru['Total load'] = 'Общая загрука';
   cache_factory::$data['settings--translations']['locales']->ru['Total'] = 'Всего';
@@ -202,6 +204,5 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Version'] = 'Версия';
   cache_factory::$data['settings--translations']['locales']->ru['view'] = 'просмотреть';
   cache_factory::$data['settings--translations']['locales']->ru['Yes'] = 'Да';
-  cache_factory::$data['settings--translations']['locales']->ru['- select -'] = '- выбрать -';
 
 }
