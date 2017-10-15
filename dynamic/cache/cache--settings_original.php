@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-14 12:26:48';
+  cache_factory::$info['settings_original']['build'] = '2017-10-15 16:00:58';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1783,9 +1783,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['tree']['tree']->charset = 'utf8';
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id->type = 'int';
-  cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id->size = 11;
-  cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id->unsigned = true;
+  cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id->type = 'integer';
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id->not_null = true;
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id->auto_increment = true;
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->title = new \stdClass();
@@ -1801,20 +1799,15 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->charset = 'utf8';
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->type = 'int';
-  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->size = 11;
-  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->unsigned = true;
+  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->type = 'integer';
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->not_null = true;
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->auto_increment = true;
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree->type = 'int';
-  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree->size = 1;
+  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree->type = 'integer';
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree->not_null = true;
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree->default = 0;
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_id->type = 'int';
-  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_id->size = 11;
-  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_id->unsigned = true;
+  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_id->type = 'integer';
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_id->not_null = true;
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->title = new \stdClass();
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->title->type = 'varchar';
@@ -1829,9 +1822,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['user']->charset = 'utf8';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->id->type = 'int';
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->id->size = 11;
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->id->unsigned = true;
+  cache_factory::$data['settings_original']['entities']['user']['user']->fields->id->type = 'integer';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->id->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->id->auto_increment = true;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->email = new \stdClass();
@@ -1850,8 +1841,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->created->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->created->default = 'current_timestamp';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->is_embed = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->is_embed->type = 'int';
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->is_embed->size = 1;
+  cache_factory::$data['settings_original']['entities']['user']['user']->fields->is_embed->type = 'integer';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->is_embed->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->is_embed->default = 0;
   cache_factory::$data['settings_original']['entities']['user']['user']->indexes['primary'] = new \stdClass();
@@ -1873,9 +1863,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->id->size = 255;
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->id->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_id->type = 'int';
-  cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_id->size = 11;
-  cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_id->unsigned = true;
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_id->type = 'integer';
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_id->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created->type = 'timestamp';
@@ -1901,8 +1889,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['role']->fields->title->size = 255;
   cache_factory::$data['settings_original']['entities']['user']['role']->fields->title->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['role']->fields->is_embed = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['user']['role']->fields->is_embed->type = 'int';
-  cache_factory::$data['settings_original']['entities']['user']['role']->fields->is_embed->size = 1;
+  cache_factory::$data['settings_original']['entities']['user']['role']->fields->is_embed->type = 'integer';
   cache_factory::$data['settings_original']['entities']['user']['role']->fields->is_embed->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['role']->fields->is_embed->default = 0;
   cache_factory::$data['settings_original']['entities']['user']['role']->indexes['primary'] = new \stdClass();
@@ -1934,9 +1921,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->role_id->size = 255;
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->role_id->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->user_id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->user_id->type = 'int';
-  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->user_id->size = 11;
-  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->user_id->unsigned = true;
+  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->user_id->type = 'integer';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->user_id->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->indexes['primary'] = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->indexes['primary']->type = 'primary key';
