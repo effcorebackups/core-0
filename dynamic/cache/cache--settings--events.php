@@ -24,6 +24,10 @@ namespace effectivecore { # cache for settings--events
   cache_factory::$data['settings--events']['develop']->on_module_start['demo']->for = 'demo';
   cache_factory::$data['settings--events']['develop']->on_module_start['demo']->handler = '\\effectivecore\\modules\\develop\\events_module::on_start';
   cache_factory::$data['settings--events']['develop']->on_module_start['demo']->weight = 0;
+  cache_factory::$data['settings--events']['develop']->on_module_install['demo'] = new \stdClass();
+  cache_factory::$data['settings--events']['develop']->on_module_install['demo']->for = 'demo';
+  cache_factory::$data['settings--events']['develop']->on_module_install['demo']->handler = '\\effectivecore\\modules\\develop\\events_module::on_install';
+  cache_factory::$data['settings--events']['develop']->on_module_install['demo']->weight = 0;
   cache_factory::$data['settings--events']['develop']->on_form_init['form_demo'] = new \stdClass();
   cache_factory::$data['settings--events']['develop']->on_form_init['form_demo']->for = 'form_demo';
   cache_factory::$data['settings--events']['develop']->on_form_init['form_demo']->handler = '\\effectivecore\\modules\\develop\\events_form::on_init_demo';

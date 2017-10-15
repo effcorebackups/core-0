@@ -2,10 +2,16 @@
 
 namespace effectivecore { # cache for settings--entities
 
+  cache_factory::$data['settings--entities']['develop']['test'] = new \effectivecore\entity();
+  cache_factory::$data['settings--entities']['develop']['test']->name = 'test';
+  cache_factory::$data['settings--entities']['develop']['test']->storage_id = 'db';
+  cache_factory::$data['settings--entities']['develop']['test']->fields = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['test']->fields->field_integer = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['test']->fields->field_integer->type = 'integer';
+  cache_factory::$data['settings--entities']['develop']['test']->fields->field_integer->not_null = true;
   cache_factory::$data['settings--entities']['tree']['tree'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['tree']['tree']->name = 'tree';
   cache_factory::$data['settings--entities']['tree']['tree']->storage_id = 'db';
-  cache_factory::$data['settings--entities']['tree']['tree']->charset = 'utf8';
   cache_factory::$data['settings--entities']['tree']['tree']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree']->fields->id = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree']->fields->id->type = 'integer';
@@ -21,7 +27,6 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['tree']['tree_item'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['tree']['tree_item']->name = 'tree_item';
   cache_factory::$data['settings--entities']['tree']['tree_item']->storage_id = 'db';
-  cache_factory::$data['settings--entities']['tree']['tree_item']->charset = 'utf8';
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id->type = 'integer';
@@ -44,7 +49,6 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['user'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['user']['user']->name = 'user';
   cache_factory::$data['settings--entities']['user']['user']->storage_id = 'db';
-  cache_factory::$data['settings--entities']['user']['user']->charset = 'utf8';
   cache_factory::$data['settings--entities']['user']['user']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['user']['user']->fields->id = new \stdClass();
   cache_factory::$data['settings--entities']['user']['user']->fields->id->type = 'integer';
@@ -81,7 +85,6 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['session'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['user']['session']->name = 'session';
   cache_factory::$data['settings--entities']['user']['session']->storage_id = 'db';
-  cache_factory::$data['settings--entities']['user']['session']->charset = 'utf8';
   cache_factory::$data['settings--entities']['user']['session']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['user']['session']->fields->id = new \stdClass();
   cache_factory::$data['settings--entities']['user']['session']->fields->id->type = 'varchar';
@@ -103,7 +106,6 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['role'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['user']['role']->name = 'role';
   cache_factory::$data['settings--entities']['user']['role']->storage_id = 'db';
-  cache_factory::$data['settings--entities']['user']['role']->charset = 'utf8';
   cache_factory::$data['settings--entities']['user']['role']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['user']['role']->fields->id = new \stdClass();
   cache_factory::$data['settings--entities']['user']['role']->fields->id->type = 'varchar';
@@ -123,7 +125,6 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['permission'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['user']['permission']->name = 'permission';
   cache_factory::$data['settings--entities']['user']['permission']->storage_id = 'db';
-  cache_factory::$data['settings--entities']['user']['permission']->charset = 'utf8';
   cache_factory::$data['settings--entities']['user']['permission']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['user']['permission']->fields->id = new \stdClass();
   cache_factory::$data['settings--entities']['user']['permission']->fields->id->type = 'varchar';
@@ -139,7 +140,6 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['relation_role_ws_user'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['user']['relation_role_ws_user']->name = 'relation_role_ws_user';
   cache_factory::$data['settings--entities']['user']['relation_role_ws_user']->storage_id = 'db';
-  cache_factory::$data['settings--entities']['user']['relation_role_ws_user']->charset = 'utf8';
   cache_factory::$data['settings--entities']['user']['relation_role_ws_user']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['user']['relation_role_ws_user']->fields->role_id = new \stdClass();
   cache_factory::$data['settings--entities']['user']['relation_role_ws_user']->fields->role_id->type = 'varchar';
@@ -155,7 +155,6 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['relation_role_ws_permission'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['user']['relation_role_ws_permission']->name = 'relation_role_ws_permission';
   cache_factory::$data['settings--entities']['user']['relation_role_ws_permission']->storage_id = 'db';
-  cache_factory::$data['settings--entities']['user']['relation_role_ws_permission']->charset = 'utf8';
   cache_factory::$data['settings--entities']['user']['relation_role_ws_permission']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['user']['relation_role_ws_permission']->fields->role_id = new \stdClass();
   cache_factory::$data['settings--entities']['user']['relation_role_ws_permission']->fields->role_id->type = 'varchar';
