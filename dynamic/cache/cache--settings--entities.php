@@ -9,6 +9,10 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['develop']['test']->fields->field_integer = new \stdClass();
   cache_factory::$data['settings--entities']['develop']['test']->fields->field_integer->type = 'integer';
   cache_factory::$data['settings--entities']['develop']['test']->fields->field_integer->not_null = true;
+  cache_factory::$data['settings--entities']['develop']['test']->fields->field_text = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['test']->fields->field_text->type = 'varchar';
+  cache_factory::$data['settings--entities']['develop']['test']->fields->field_text->size = 255;
+  cache_factory::$data['settings--entities']['develop']['test']->fields->field_text->not_null = true;
   cache_factory::$data['settings--entities']['tree']['tree'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['tree']['tree']->name = 'tree';
   cache_factory::$data['settings--entities']['tree']['tree']->storage_id = 'db';
