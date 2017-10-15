@@ -93,8 +93,8 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['install'] = 'установить';
   cache_factory::$data['settings--translations']['locales']->ru['Installation'] = 'Установка';
   cache_factory::$data['settings--translations']['locales']->ru['installation'] = 'установка';
-  cache_factory::$data['settings--translations']['locales']->ru['Instances of entity %%_name was added.'] = 'Экземпляр сущности %%_name был добавлен.';
-  cache_factory::$data['settings--translations']['locales']->ru['Instances of entity %%_name was not added!'] = 'Экземпляр сущности %%_name не был добавлен!';
+  cache_factory::$data['settings--translations']['locales']->ru['Instances of entity %%_name was added.'] = 'Экземпляры сущности %%_name были добавлены.';
+  cache_factory::$data['settings--translations']['locales']->ru['Instances of entity %%_name was not added!'] = 'Экземпляры сущности %%_name не были добавлены!';
   cache_factory::$data['settings--translations']['locales']->ru['Is always on'] = 'Всегда включен';
   cache_factory::$data['settings--translations']['locales']->ru['Is embed'] = 'Встроенный';
   cache_factory::$data['settings--translations']['locales']->ru['load'] = 'загрузка';

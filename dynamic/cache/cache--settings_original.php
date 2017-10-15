@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-15 16:36:37';
+  cache_factory::$info['settings_original']['build'] = '2017-10-15 16:39:17';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1710,8 +1710,8 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['install'] = 'установить';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Installation'] = 'Установка';
   cache_factory::$data['settings_original']['translations']['locales']->ru['installation'] = 'установка';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Instances of entity %%_name was added.'] = 'Экземпляр сущности %%_name был добавлен.';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Instances of entity %%_name was not added!'] = 'Экземпляр сущности %%_name не был добавлен!';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Instances of entity %%_name was added.'] = 'Экземпляры сущности %%_name были добавлены.';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Instances of entity %%_name was not added!'] = 'Экземпляры сущности %%_name не были добавлены!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Is always on'] = 'Всегда включен';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Is embed'] = 'Встроенный';
   cache_factory::$data['settings_original']['translations']['locales']->ru['load'] = 'загрузка';
