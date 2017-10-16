@@ -38,8 +38,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Current language'] = 'Текущий язык';
   cache_factory::$data['settings--translations']['locales']->ru['Data of user with ID = %%_id was updated.'] = 'Данные пользователя с ID = %%_id были обновлены.';
   cache_factory::$data['settings--translations']['locales']->ru['Data was not updated!'] = 'Данные не были обновлены!';
-  cache_factory::$data['settings--translations']['locales']->ru['Database file path'] = 'Путь к файлу БД';
-  cache_factory::$data['settings--translations']['locales']->ru['Database name'] = 'Имя базы данных';
   cache_factory::$data['settings--translations']['locales']->ru['Date'] = 'Дата';
   cache_factory::$data['settings--translations']['locales']->ru['Decoration'] = 'Оформление';
   cache_factory::$data['settings--translations']['locales']->ru['Delete profile %%_user_email_context{4}?'] = 'Удалить профиль %%_user_email_context{4}?';
@@ -138,6 +136,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Parameter'] = 'Параметр';
   cache_factory::$data['settings--translations']['locales']->ru['Password hash'] = 'Хеш пароля';
   cache_factory::$data['settings--translations']['locales']->ru['Password'] = 'Пароль';
+  cache_factory::$data['settings--translations']['locales']->ru['Path to file'] = 'Путь к файлу';
   cache_factory::$data['settings--translations']['locales']->ru['Path'] = 'Путь';
   cache_factory::$data['settings--translations']['locales']->ru['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache_factory::$data['settings--translations']['locales']->ru['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
@@ -170,6 +169,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['storage "%%_name" was initialized'] = 'хранилище "%%_name" было инициализировано';
   cache_factory::$data['settings--translations']['locales']->ru['storage "%%_storage" cache for group "%%_group" will be load'] = 'кэш хранилища "%%_storage" для группы "%%_group" будет загружен';
   cache_factory::$data['settings--translations']['locales']->ru['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
+  cache_factory::$data['settings--translations']['locales']->ru['Storage name'] = 'Имя хранилища';
   cache_factory::$data['settings--translations']['locales']->ru['Storage params'] = 'Параметры хранилища';
   cache_factory::$data['settings--translations']['locales']->ru['Storage PDO with id %%_id is not available!'] = 'Хранилище PDO c id %%_id не доступна!';
   cache_factory::$data['settings--translations']['locales']->ru['storage'] = 'хранилище';

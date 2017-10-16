@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-16 21:16:28';
+  cache_factory::$info['settings_original']['build'] = '2017-10-16 21:34:07';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -238,20 +238,20 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['driver']->children['pgsql']->children['default']->attributes['value'] = 'pgsql';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['driver']->attributes['class']['boxes'] = 'boxes';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['driver']->attributes['class']['radioboxes'] = 'radioboxes';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name'] = new \effectivecore\form_field();
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->title = 'Database name';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->description = new \effectivecore\text();
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->description->text = 'Allowable characters: %%_chars.';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->children['default'] = new \effectivecore\markup_simple();
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->children['default']->tag_name = 'input';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->children['default']->attributes['type'] = 'text';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->children['default']->attributes['name'] = 'database_name';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->children['default']->attributes['required'] = 'required';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->children['default']->attributes['value'] = 'main';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->children['default']->attributes['minlength'] = 1;
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->children['default']->attributes['maxlength'] = 128;
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['database_name']->children['default']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name'] = new \effectivecore\form_field();
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->title = 'Storage name';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->description = new \effectivecore\text();
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->description->text = 'Allowable characters: %%_chars.';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->children['default'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->children['default']->tag_name = 'input';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->children['default']->attributes['type'] = 'text';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->children['default']->attributes['name'] = 'storage_name';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->children['default']->attributes['required'] = 'required';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->children['default']->attributes['value'] = 'main';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->children['default']->attributes['minlength'] = 1;
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->children['default']->attributes['maxlength'] = 128;
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['storage_name']->children['default']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['host_name'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['host_name']->title = 'Host name';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['default']->children['host_name']->description = new \effectivecore\text();
@@ -302,7 +302,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['driver']->attributes['class']['boxes'] = 'boxes';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['driver']->attributes['class']['radioboxes'] = 'radioboxes';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path'] = new \effectivecore\form_field();
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->title = 'Database file path';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->title = 'Path to file';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->description = new \effectivecore\text();
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->description->text = 'Allowable characters: %%_chars.';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", ".", "/"';
@@ -311,7 +311,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->children['default']->attributes['type'] = 'text';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->children['default']->attributes['name'] = 'file_path';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->children['default']->attributes['required'] = 'required';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->children['default']->attributes['value'] = 'data/data.sqlite';
+  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->children['default']->attributes['value'] = 'data.sqlite';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->children['default']->attributes['minlength'] = 1;
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->children['default']->attributes['maxlength'] = 255;
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['storage']->children['sqlite']->children['file_path']->children['default']->attributes['pattern'] = '[a-zA-Z0-9-_./]+';
@@ -1707,8 +1707,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Current language'] = 'Текущий язык';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Data of user with ID = %%_id was updated.'] = 'Данные пользователя с ID = %%_id были обновлены.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Data was not updated!'] = 'Данные не были обновлены!';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Database file path'] = 'Путь к файлу БД';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Database name'] = 'Имя базы данных';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Date'] = 'Дата';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Decoration'] = 'Оформление';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Delete profile %%_user_email_context{4}?'] = 'Удалить профиль %%_user_email_context{4}?';
@@ -1807,6 +1805,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Parameter'] = 'Параметр';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Password hash'] = 'Хеш пароля';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Password'] = 'Пароль';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Path to file'] = 'Путь к файлу';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Path'] = 'Путь';
   cache_factory::$data['settings_original']['translations']['locales']->ru['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
@@ -1839,6 +1838,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['storage "%%_name" was initialized'] = 'хранилище "%%_name" было инициализировано';
   cache_factory::$data['settings_original']['translations']['locales']->ru['storage "%%_storage" cache for group "%%_group" will be load'] = 'кэш хранилища "%%_storage" для группы "%%_group" будет загружен';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Storage name'] = 'Имя хранилища';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Storage params'] = 'Параметры хранилища';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Storage PDO with id %%_id is not available!'] = 'Хранилище PDO c id %%_id не доступна!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['storage'] = 'хранилище';
