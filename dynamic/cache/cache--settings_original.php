@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-15 22:31:45';
+  cache_factory::$info['settings_original']['build'] = '2017-10-16 15:58:57';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -221,7 +221,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['mysql'] = 'MySQL';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['pgsql'] = 'PostgreSQL';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->values['sqlite'] = 'SQLite';
-  cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->disabled['sqlite'] = 'sqlite';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_driver']->title = 'Driver';
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database_name'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['core']['form_installation']->children['fieldset_default']->children['field_database_name']->title = 'Database name';
