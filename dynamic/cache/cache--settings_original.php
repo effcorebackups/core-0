@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-16 17:42:16';
+  cache_factory::$info['settings_original']['build'] = '2017-10-16 18:10:51';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -700,16 +700,16 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['develop']['form_demo']->attributes['method'] = 'post';
   cache_factory::$data['settings_original']['forms']['develop']['form_demo']->attributes['class']['form-demo'] = 'form-demo';
   cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration'] = new \effectivecore\form();
-  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['fieldset_default'] = new \effectivecore\form_container();
-  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['fieldset_default']->tag_name = 'fieldset';
-  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['fieldset_default']->title = 'Colors';
-  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['fieldset_default']->title_tag_name = 'legend';
-  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id'] = new \effectivecore\form_container_palette();
-  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id']->input_attributes['name'] = 'color_id';
-  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_id']->title = 'Color';
-  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id'] = new \effectivecore\form_container_palette();
-  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id']->input_attributes['name'] = 'color_bg_id';
-  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['fieldset_default']->children['field_color_bg_id']->title = 'Background color';
+  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['colors'] = new \effectivecore\form_container();
+  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['colors']->tag_name = 'fieldset';
+  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['colors']->title = 'Colors';
+  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['colors']->title_tag_name = 'legend';
+  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['colors']->children['color_id'] = new \effectivecore\form_container_palette();
+  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['colors']->children['color_id']->input_attributes['name'] = 'color_id';
+  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['colors']->children['color_id']->title = 'Color';
+  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['colors']->children['color_bg_id'] = new \effectivecore\form_container_palette();
+  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['colors']->children['color_bg_id']->input_attributes['name'] = 'color_bg_id';
+  cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['colors']->children['color_bg_id']->title = 'Background color';
   cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['button_save'] = new \effectivecore\markup();
   cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['button_save']->tag_name = 'button';
   cache_factory::$data['settings_original']['forms']['page']['form_admin_decoration']->children['button_save']->children['label'] = new \effectivecore\text();
