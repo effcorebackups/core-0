@@ -96,6 +96,10 @@ namespace effectivecore { # cache for settings--events
   cache_factory::$data['settings--events']['user']->on_form_validate['user_login_default']->for = 'user_login';
   cache_factory::$data['settings--events']['user']->on_form_validate['user_login_default']->handler = '\\effectivecore\\events_form::on_validate';
   cache_factory::$data['settings--events']['user']->on_form_validate['user_login_default']->weight = 0;
+  cache_factory::$data['settings--events']['user']->on_form_validate['user_login'] = new \stdClass();
+  cache_factory::$data['settings--events']['user']->on_form_validate['user_login']->for = 'user_login';
+  cache_factory::$data['settings--events']['user']->on_form_validate['user_login']->handler = '\\effectivecore\\modules\\user\\events_form::on_validate_user_login';
+  cache_factory::$data['settings--events']['user']->on_form_validate['user_login']->weight = 0;
   cache_factory::$data['settings--events']['user']->on_form_validate['user_logout_default'] = new \stdClass();
   cache_factory::$data['settings--events']['user']->on_form_validate['user_logout_default']->for = 'user_logout';
   cache_factory::$data['settings--events']['user']->on_form_validate['user_logout_default']->handler = '\\effectivecore\\events_form::on_validate';
