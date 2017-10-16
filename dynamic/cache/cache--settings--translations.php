@@ -38,6 +38,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Current language'] = 'Текущий язык';
   cache_factory::$data['settings--translations']['locales']->ru['Data of user with ID = %%_id was updated.'] = 'Данные пользователя с ID = %%_id были обновлены.';
   cache_factory::$data['settings--translations']['locales']->ru['Data was not updated!'] = 'Данные не были обновлены!';
+  cache_factory::$data['settings--translations']['locales']->ru['Database file path'] = 'Путь к файлу БД';
   cache_factory::$data['settings--translations']['locales']->ru['Database name'] = 'Имя базы данных';
   cache_factory::$data['settings--translations']['locales']->ru['Date'] = 'Дата';
   cache_factory::$data['settings--translations']['locales']->ru['Decoration'] = 'Оформление';
@@ -47,6 +48,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Description'] = 'Описание';
   cache_factory::$data['settings--translations']['locales']->ru['Develop'] = 'Разработка';
   cache_factory::$data['settings--translations']['locales']->ru['disabled'] = 'выкл.';
+  cache_factory::$data['settings--translations']['locales']->ru['Driver is not selected!'] = 'Драйвер не выбран!';
   cache_factory::$data['settings--translations']['locales']->ru['Driver'] = 'Драйвер';
   cache_factory::$data['settings--translations']['locales']->ru['Dynamic block'] = 'Динамический блок';
   cache_factory::$data['settings--translations']['locales']->ru['Edit profile %%_user_email_context{2}'] = 'Редактировать профиль %%_user_email_context{2}';
