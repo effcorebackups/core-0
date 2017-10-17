@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 18:51:04';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 18:52:06';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -924,25 +924,25 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['core']['front']->display = new \stdClass();
   cache_factory::$data['settings_original']['pages']['core']['front']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['core']['front']->display->url->match = '%^/$%';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->title = 'Installation';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->access = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->access->roles['anonymous'] = 'anonymous';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['block_tree_main'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['block_tree_main']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['block_tree_main']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['block_tree_main']->npath = 'trees/core/main';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['block_tree_user'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['block_tree_user']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['block_tree_user']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['block_tree_user']->npath = 'trees/user/user';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['form_installation'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['form_installation']->region = 'content_1_1';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['form_installation']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->content['form_installation']->npath = 'forms/core/installation';
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->display = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->display->url = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_installation']->display->url->match = '%^/install$%';
+  cache_factory::$data['settings_original']['pages']['core']['installation'] = new \effectivecore\page();
+  cache_factory::$data['settings_original']['pages']['core']['installation']->title = 'Installation';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->access = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['installation']->access->roles['anonymous'] = 'anonymous';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['block_tree_main'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['block_tree_main']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['block_tree_main']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['block_tree_main']->npath = 'trees/core/main';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['block_tree_user'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['block_tree_user']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['block_tree_user']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['block_tree_user']->npath = 'trees/user/user';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['form_installation'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['form_installation']->region = 'content_1_1';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['form_installation']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->content['form_installation']->npath = 'forms/core/installation';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->display = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['installation']->display->url = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['installation']->display->url->match = '%^/install$%';
   cache_factory::$data['settings_original']['pages']['core']['page_modules'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['core']['page_modules']->title = 'Modules';
   cache_factory::$data['settings_original']['pages']['core']['page_modules']->access = new \stdClass();
