@@ -72,7 +72,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['develop']['page_demo']->content['form_demo'] = new \stdClass();
   cache_factory::$data['settings--pages']['develop']['page_demo']->content['form_demo']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['develop']['page_demo']->content['form_demo']->type = 'link';
-  cache_factory::$data['settings--pages']['develop']['page_demo']->content['form_demo']->npath = 'forms/develop/form_demo';
+  cache_factory::$data['settings--pages']['develop']['page_demo']->content['form_demo']->npath = 'forms/develop/demo';
   cache_factory::$data['settings--pages']['develop']['page_demo']->content['block_demo_static'] = new \stdClass();
   cache_factory::$data['settings--pages']['develop']['page_demo']->content['block_demo_static']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['develop']['page_demo']->content['block_demo_static']->type = 'link';
