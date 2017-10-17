@@ -99,7 +99,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['page']['page_decoration']->content['form_admin_decoration'] = new \stdClass();
   cache_factory::$data['settings--pages']['page']['page_decoration']->content['form_admin_decoration']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['page']['page_decoration']->content['form_admin_decoration']->type = 'link';
-  cache_factory::$data['settings--pages']['page']['page_decoration']->content['form_admin_decoration']->npath = 'forms/page/form_admin_decoration';
+  cache_factory::$data['settings--pages']['page']['page_decoration']->content['form_admin_decoration']->npath = 'forms/page/decoration';
   cache_factory::$data['settings--pages']['page']['page_decoration']->display = new \stdClass();
   cache_factory::$data['settings--pages']['page']['page_decoration']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['page']['page_decoration']->display->url->match = '%^/admin/decoration$%';
