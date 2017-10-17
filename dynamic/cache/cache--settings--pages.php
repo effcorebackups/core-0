@@ -229,7 +229,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['user']->display->url->match = '%^/user/[0-9]+$%';
   cache_factory::$data['settings--pages']['user']['user']->display->url->args['user_id'] = 2;
   cache_factory::$data['settings--pages']['user']['user_edit'] = new \effectivecore\page();
-  cache_factory::$data['settings--pages']['user']['user_edit']->title = 'Edit profile %%_user_nick_context{2}';
+  cache_factory::$data['settings--pages']['user']['user_edit']->title = 'Edit user %%_user_nick_context{2}';
   cache_factory::$data['settings--pages']['user']['user_edit']->access = new \stdClass();
   cache_factory::$data['settings--pages']['user']['user_edit']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings--pages']['user']['user_edit']->access->roles['registered'] = 'registered';

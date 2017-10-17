@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 19:47:22';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 19:56:33';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1134,7 +1134,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['user']->display->url->match = '%^/user/[0-9]+$%';
   cache_factory::$data['settings_original']['pages']['user']['user']->display->url->args['user_id'] = 2;
   cache_factory::$data['settings_original']['pages']['user']['user_edit'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['user']['user_edit']->title = 'Edit profile %%_user_nick_context{2}';
+  cache_factory::$data['settings_original']['pages']['user']['user_edit']->title = 'Edit user %%_user_nick_context{2}';
   cache_factory::$data['settings_original']['pages']['user']['user_edit']->access = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['user_edit']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings_original']['pages']['user']['user_edit']->access->roles['registered'] = 'registered';
@@ -1745,9 +1745,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Driver is not selected!'] = 'Драйвер не выбран!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Driver'] = 'Драйвер';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Dynamic block'] = 'Динамический блок';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Edit profile %%_user_nick_context{2}'] = 'Редактировать профиль %%_user_nick_context{2}';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Edit profile'] = 'Редактировать профиль';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['edit profile'] = 'редактировать профиль';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Edit user %%_user_nick_context{2}'] = 'Редактировать пользователя %%_user_nick_context{2}';
   cache_factory::$data['settings_original']['translations']['locales']->ru['edit'] = 'редактировать';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Element %%_info.'] = 'Элемент %%_info.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Elements'] = 'Элементы';
@@ -1837,7 +1835,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Path'] = 'Путь';
   cache_factory::$data['settings_original']['translations']['locales']->ru['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['profile'] = 'профиль';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Queries'] = 'Запросы';
   cache_factory::$data['settings_original']['translations']['locales']->ru['query'] = 'запрос';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Radios (macro)'] = 'Переключатели (макро)';

@@ -50,9 +50,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Driver is not selected!'] = 'Драйвер не выбран!';
   cache_factory::$data['settings--translations']['locales']->ru['Driver'] = 'Драйвер';
   cache_factory::$data['settings--translations']['locales']->ru['Dynamic block'] = 'Динамический блок';
-  cache_factory::$data['settings--translations']['locales']->ru['Edit profile %%_user_nick_context{2}'] = 'Редактировать профиль %%_user_nick_context{2}';
-  cache_factory::$data['settings--translations']['locales']->ru['Edit profile'] = 'Редактировать профиль';
-  cache_factory::$data['settings--translations']['locales']->ru['edit profile'] = 'редактировать профиль';
+  cache_factory::$data['settings--translations']['locales']->ru['Edit user %%_user_nick_context{2}'] = 'Редактировать пользователя %%_user_nick_context{2}';
   cache_factory::$data['settings--translations']['locales']->ru['edit'] = 'редактировать';
   cache_factory::$data['settings--translations']['locales']->ru['Element %%_info.'] = 'Элемент %%_info.';
   cache_factory::$data['settings--translations']['locales']->ru['Elements'] = 'Элементы';
@@ -142,7 +140,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Path'] = 'Путь';
   cache_factory::$data['settings--translations']['locales']->ru['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache_factory::$data['settings--translations']['locales']->ru['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
-  cache_factory::$data['settings--translations']['locales']->ru['profile'] = 'профиль';
   cache_factory::$data['settings--translations']['locales']->ru['Queries'] = 'Запросы';
   cache_factory::$data['settings--translations']['locales']->ru['query'] = 'запрос';
   cache_factory::$data['settings--translations']['locales']->ru['Radios (macro)'] = 'Переключатели (макро)';
