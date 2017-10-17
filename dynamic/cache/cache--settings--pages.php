@@ -34,7 +34,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['core']['page_installation']->content['form_installation'] = new \stdClass();
   cache_factory::$data['settings--pages']['core']['page_installation']->content['form_installation']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['core']['page_installation']->content['form_installation']->type = 'link';
-  cache_factory::$data['settings--pages']['core']['page_installation']->content['form_installation']->npath = 'forms/core/form_installation';
+  cache_factory::$data['settings--pages']['core']['page_installation']->content['form_installation']->npath = 'forms/core/installation';
   cache_factory::$data['settings--pages']['core']['page_installation']->display = new \stdClass();
   cache_factory::$data['settings--pages']['core']['page_installation']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['core']['page_installation']->display->url->match = '%^/install$%';
