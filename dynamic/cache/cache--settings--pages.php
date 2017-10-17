@@ -202,7 +202,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['page_user_logout']->content['form_user_logout'] = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_user_logout']->content['form_user_logout']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['user']['page_user_logout']->content['form_user_logout']->type = 'link';
-  cache_factory::$data['settings--pages']['user']['page_user_logout']->content['form_user_logout']->npath = 'forms/user/form_user_logout';
+  cache_factory::$data['settings--pages']['user']['page_user_logout']->content['form_user_logout']->npath = 'forms/user/logout';
   cache_factory::$data['settings--pages']['user']['page_user_logout']->display = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_user_logout']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_user_logout']->display->url->match = '%^/user/logout$%';
