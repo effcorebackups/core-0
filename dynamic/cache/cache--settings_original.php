@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 22:17:00';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 22:46:50';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -57,10 +57,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['core']->on_form_init['installation']->for = 'installation';
   cache_factory::$data['settings_original']['events']['core']->on_form_init['installation']->handler = '\\effectivecore\\modules\\core\\events_form::on_init_installation';
   cache_factory::$data['settings_original']['events']['core']->on_form_init['installation']->weight = 0;
-  cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation_default'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation_default']->for = 'installation';
-  cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation_default']->handler = '\\effectivecore\\events_form::on_validate';
-  cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation_default']->weight = 0;
   cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation']->for = 'installation';
   cache_factory::$data['settings_original']['events']['core']->on_form_validate['installation']->handler = '\\effectivecore\\modules\\core\\events_form::on_validate_installation';
@@ -82,10 +78,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['develop']->on_form_init['demo']->for = 'demo';
   cache_factory::$data['settings_original']['events']['develop']->on_form_init['demo']->handler = '\\effectivecore\\modules\\develop\\events_form::on_init_demo';
   cache_factory::$data['settings_original']['events']['develop']->on_form_init['demo']->weight = 0;
-  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo_default'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo_default']->for = 'demo';
-  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo_default']->handler = '\\effectivecore\\events_form::on_validate';
-  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo_default']->weight = 0;
+  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo']->for = 'demo';
+  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo']->handler = '\\effectivecore\\modules\\develop\\events_form::on_validate_demo';
+  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo']->weight = 0;
   cache_factory::$data['settings_original']['events']['develop']->on_form_submit['demo'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['develop']->on_form_submit['demo']->for = 'demo';
   cache_factory::$data['settings_original']['events']['develop']->on_form_submit['demo']->handler = '\\effectivecore\\modules\\develop\\events_form::on_submit_demo';
@@ -99,10 +95,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['page']->on_form_init['decoration']->for = 'decoration';
   cache_factory::$data['settings_original']['events']['page']->on_form_init['decoration']->handler = '\\effectivecore\\modules\\page\\events_form::on_init_decoration';
   cache_factory::$data['settings_original']['events']['page']->on_form_init['decoration']->weight = 0;
-  cache_factory::$data['settings_original']['events']['page']->on_form_validate['decoration_default'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['page']->on_form_validate['decoration_default']->for = 'decoration';
-  cache_factory::$data['settings_original']['events']['page']->on_form_validate['decoration_default']->handler = '\\effectivecore\\events_form::on_validate';
-  cache_factory::$data['settings_original']['events']['page']->on_form_validate['decoration_default']->weight = 0;
+  cache_factory::$data['settings_original']['events']['page']->on_form_validate['decoration'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['page']->on_form_validate['decoration']->for = 'decoration';
+  cache_factory::$data['settings_original']['events']['page']->on_form_validate['decoration']->handler = '\\effectivecore\\modules\\page\\events_form::on_validate_decoration';
+  cache_factory::$data['settings_original']['events']['page']->on_form_validate['decoration']->weight = 0;
   cache_factory::$data['settings_original']['events']['page']->on_form_submit['decoration'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['page']->on_form_submit['decoration']->for = 'decoration';
   cache_factory::$data['settings_original']['events']['page']->on_form_submit['decoration']->handler = '\\effectivecore\\modules\\page\\events_form::on_submit_decoration';
@@ -142,34 +138,14 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->for = 'user';
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->handler = '\\effectivecore\\modules\\user\\events_module::on_install';
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->weight = 0;
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['login_default'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['login_default']->for = 'login';
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['login_default']->handler = '\\effectivecore\\events_form::on_validate';
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['login_default']->weight = 0;
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['login'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['login']->for = 'login';
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['login']->handler = '\\effectivecore\\modules\\user\\events_form::on_validate_login';
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['login']->weight = 0;
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['logout_default'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['logout_default']->for = 'logout';
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['logout_default']->handler = '\\effectivecore\\events_form::on_validate';
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['logout_default']->weight = 0;
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_delete_default'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_delete_default']->for = 'user_delete';
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_delete_default']->handler = '\\effectivecore\\events_form::on_validate';
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_delete_default']->weight = 0;
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit_default'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit_default']->for = 'user_edit';
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit_default']->handler = '\\effectivecore\\events_form::on_validate';
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit_default']->weight = 0;
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit']->for = 'user_edit';
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit']->handler = '\\effectivecore\\modules\\user\\events_form::on_validate_user_edit';
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit']->weight = 1;
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration_default'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration_default']->for = 'registration';
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration_default']->handler = '\\effectivecore\\events_form::on_validate';
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration_default']->weight = 0;
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration']->for = 'registration';
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration']->handler = '\\effectivecore\\modules\\user\\events_form::on_validate_registration';
