@@ -42,7 +42,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Data was not updated!'] = 'Данные не были обновлены!';
   cache_factory::$data['settings--translations']['locales']->ru['Date'] = 'Дата';
   cache_factory::$data['settings--translations']['locales']->ru['Decoration'] = 'Оформление';
-  cache_factory::$data['settings--translations']['locales']->ru['Delete profile %%_user_nick_context{4}?'] = 'Удалить профиль %%_user_nick_context{4}?';
+  cache_factory::$data['settings--translations']['locales']->ru['Delete user %%_user_nick_context{4}?'] = 'Удалить пользователя %%_user_nick_context{4}?';
   cache_factory::$data['settings--translations']['locales']->ru['delete'] = 'удалить';
   cache_factory::$data['settings--translations']['locales']->ru['Demo'] = 'Демо';
   cache_factory::$data['settings--translations']['locales']->ru['Description'] = 'Описание';
@@ -200,7 +200,8 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['User roles'] = 'Роли пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User was not deleted!'] = 'Пользователь не был удален!';
   cache_factory::$data['settings--translations']['locales']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
-  cache_factory::$data['settings--translations']['locales']->ru['User with ID = %%_id was deleted.'] = 'Пользователь с ID = %%_id был удален.';
+  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';
+  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was not deleted!'] = 'Пользователь %%_nick не был удален.';
   cache_factory::$data['settings--translations']['locales']->ru['User with this EMail was already registered!'] = 'Пользователь с таким Адресом электронной почты уже был зарегистрирован!';
   cache_factory::$data['settings--translations']['locales']->ru['User with this Nick was already registered!'] = 'Пользователь с таким Ником уже был зарегистрирован!';
   cache_factory::$data['settings--translations']['locales']->ru['User'] = 'Пользователь';
