@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 12:05:18';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 12:11:34';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -835,26 +835,27 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['registration']->attributes['method'] = 'post';
   cache_factory::$data['settings_original']['forms']['user']['registration']->attributes['class']['user'] = 'user';
   cache_factory::$data['settings_original']['forms']['user']['registration']->attributes['class']['user-registration'] = 'user-registration';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete'] = new \effectivecore\form();
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_delete'] = new \effectivecore\markup();
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_delete']->tag_name = 'button';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_delete']->children['label'] = new \effectivecore\text();
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_delete']->children['label']->text = 'delete';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_delete']->attributes['type'] = 'submit';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_delete']->attributes['name'] = 'button';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_delete']->attributes['value'] = 'delete';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_cancel'] = new \effectivecore\markup();
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_cancel']->tag_name = 'button';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_cancel']->children['label'] = new \effectivecore\text();
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_cancel']->children['label']->text = 'cancel';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_cancel']->attributes['type'] = 'submit';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_cancel']->attributes['name'] = 'button';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_cancel']->attributes['value'] = 'cancel';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->children['button_cancel']->novalidate = true;
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->attributes['id'] = 'user_n_delete';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->attributes['novalidate'] = 'novalidate';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->attributes['method'] = 'post';
-  cache_factory::$data['settings_original']['forms']['user']['form_user_n_delete']->attributes['class']['form-user'] = 'form-user';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete'] = new \effectivecore\form();
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_delete'] = new \effectivecore\markup();
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_delete']->tag_name = 'button';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_delete']->children['label'] = new \effectivecore\text();
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_delete']->children['label']->text = 'delete';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_delete']->attributes['type'] = 'submit';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_delete']->attributes['name'] = 'button';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_delete']->attributes['value'] = 'delete';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_cancel'] = new \effectivecore\markup();
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_cancel']->tag_name = 'button';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_cancel']->children['label'] = new \effectivecore\text();
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_cancel']->children['label']->text = 'cancel';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_cancel']->attributes['type'] = 'submit';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_cancel']->attributes['name'] = 'button';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_cancel']->attributes['value'] = 'cancel';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->children['button_cancel']->novalidate = true;
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->attributes['id'] = 'user_n_delete';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->attributes['novalidate'] = 'novalidate';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->attributes['method'] = 'post';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->attributes['class']['user'] = 'user';
+  cache_factory::$data['settings_original']['forms']['user']['user_n_delete']->attributes['class']['user-n-delete'] = 'user-n-delete';
   cache_factory::$data['settings_original']['forms']['user']['user_n_edit'] = new \effectivecore\form();
   cache_factory::$data['settings_original']['forms']['user']['user_n_edit']->children['credentials'] = new \effectivecore\form_container();
   cache_factory::$data['settings_original']['forms']['user']['user_n_edit']->children['credentials']->tag_name = 'fieldset';
@@ -1060,7 +1061,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete'] = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->region = 'content_1_1';
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->npath = 'forms/user/form_user_n_delete';
+  cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->npath = 'forms/user/user_n_delete';
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->display = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->display->url->match = '%^/admin/users/delete/[0-9]+$%';

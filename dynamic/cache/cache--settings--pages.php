@@ -162,7 +162,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete'] = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->type = 'link';
-  cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->npath = 'forms/user/form_user_n_delete';
+  cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->content['form_user_n_delete']->npath = 'forms/user/user_n_delete';
   cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->display = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->display->url->match = '%^/admin/users/delete/[0-9]+$%';
