@@ -169,12 +169,12 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['State'] = 'Состояние';
   cache_factory::$data['settings--translations']['locales']->ru['State.'] = 'Сост.';
   cache_factory::$data['settings--translations']['locales']->ru['Static block'] = 'Статический блок';
-  cache_factory::$data['settings--translations']['locales']->ru['storage "%%_name" was initialized'] = 'хранилище "%%_name" было инициализировано';
-  cache_factory::$data['settings--translations']['locales']->ru['storage "%%_storage" cache for group "%%_group" will be load'] = 'кэш хранилища "%%_storage" для группы "%%_group" будет загружен';
+  cache_factory::$data['settings--translations']['locales']->ru['storage %%_id cache for group %%_group will be load'] = 'кэш хранилища %%_id для группы %%_group будет загружен';
+  cache_factory::$data['settings--translations']['locales']->ru['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
+  cache_factory::$data['settings--translations']['locales']->ru['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
   cache_factory::$data['settings--translations']['locales']->ru['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
   cache_factory::$data['settings--translations']['locales']->ru['Storage name'] = 'Имя хранилища';
   cache_factory::$data['settings--translations']['locales']->ru['Storage params'] = 'Параметры хранилища';
-  cache_factory::$data['settings--translations']['locales']->ru['Storage PDO with id %%_id is not available!'] = 'Хранилище PDO c id %%_id не доступна!';
   cache_factory::$data['settings--translations']['locales']->ru['storage'] = 'хранилище';
   cache_factory::$data['settings--translations']['locales']->ru['Storage'] = 'Хранилище';
   cache_factory::$data['settings--translations']['locales']->ru['submit'] = 'отправить';
@@ -193,6 +193,8 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Tree'] = 'Дерево';
   cache_factory::$data['settings--translations']['locales']->ru['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
   cache_factory::$data['settings--translations']['locales']->ru['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
+  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';
+  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was not deleted!'] = 'Пользователь %%_nick не был удален.';
   cache_factory::$data['settings--translations']['locales']->ru['User %%_user_nick'] = 'Пользователь %%_user_nick';
   cache_factory::$data['settings--translations']['locales']->ru['User menu'] = 'Меню пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User name'] = 'Имя пользователя';
@@ -200,8 +202,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['User roles'] = 'Роли пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User was not deleted!'] = 'Пользователь не был удален!';
   cache_factory::$data['settings--translations']['locales']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
-  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';
-  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was not deleted!'] = 'Пользователь %%_nick не был удален.';
   cache_factory::$data['settings--translations']['locales']->ru['User with this EMail was already registered!'] = 'Пользователь с таким Адресом электронной почты уже был зарегистрирован!';
   cache_factory::$data['settings--translations']['locales']->ru['User with this Nick was already registered!'] = 'Пользователь с таким Ником уже был зарегистрирован!';
   cache_factory::$data['settings--translations']['locales']->ru['User'] = 'Пользователь';
