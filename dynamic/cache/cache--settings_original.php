@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 18:52:06';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 18:54:16';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -943,25 +943,25 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['core']['installation']->display = new \stdClass();
   cache_factory::$data['settings_original']['pages']['core']['installation']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['core']['installation']->display->url->match = '%^/install$%';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->title = 'Modules';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->access = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->access->roles['admins'] = 'admins';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_tree_main'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_tree_main']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_tree_main']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_tree_main']->npath = 'trees/core/main';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_tree_user'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_tree_user']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_tree_user']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_tree_user']->npath = 'trees/user/user';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_admin_modules'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_admin_modules']->region = 'content_1_1';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_admin_modules']->type = 'code';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->content['block_admin_modules']->handler = '\\effectivecore\\events_page::on_show_admin_modules';
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->display = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->display->url = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_modules']->display->url->match = '%^/admin/modules$%';
+  cache_factory::$data['settings_original']['pages']['core']['modules'] = new \effectivecore\page();
+  cache_factory::$data['settings_original']['pages']['core']['modules']->title = 'Modules';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->access = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['modules']->access->roles['admins'] = 'admins';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_tree_main'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_tree_main']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_tree_main']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_tree_main']->npath = 'trees/core/main';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_tree_user'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_tree_user']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_tree_user']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_tree_user']->npath = 'trees/user/user';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_admin_modules'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_admin_modules']->region = 'content_1_1';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_admin_modules']->type = 'code';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_admin_modules']->handler = '\\effectivecore\\events_page::on_show_admin_modules';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->display = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['modules']->display->url = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['modules']->display->url->match = '%^/admin/modules$%';
   cache_factory::$data['settings_original']['pages']['develop']['demo'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['develop']['demo']->title = 'Demo';
   cache_factory::$data['settings_original']['pages']['develop']['demo']->access = new \stdClass();
