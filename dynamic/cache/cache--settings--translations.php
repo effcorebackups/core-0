@@ -194,12 +194,12 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';
   cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was not deleted!'] = 'Пользователь %%_nick не был удален.';
-  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was updated.'] = 'Пользователь %%_nick был обновлен.';
   cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was not updated.'] = 'Пользователь %%_nick не был обновлен.';
+  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was updated.'] = 'Пользователь %%_nick был обновлен.';
+  cache_factory::$data['settings--translations']['locales']->ru['User %%_user_nick_context{2}'] = 'Пользователь %%_user_nick_context{2}';
   cache_factory::$data['settings--translations']['locales']->ru['User %%_user_nick'] = 'Пользователь %%_user_nick';
   cache_factory::$data['settings--translations']['locales']->ru['User menu'] = 'Меню пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User name'] = 'Имя пользователя';
-  cache_factory::$data['settings--translations']['locales']->ru['User profile %%_user_nick_context{2}'] = 'Профиль пользователя %%_user_nick_context{2}';
   cache_factory::$data['settings--translations']['locales']->ru['User roles'] = 'Роли пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User was not deleted!'] = 'Пользователь не был удален!';
   cache_factory::$data['settings--translations']['locales']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
