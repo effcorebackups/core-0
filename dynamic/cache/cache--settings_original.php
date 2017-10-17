@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 18:54:16';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 18:55:42';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1072,26 +1072,26 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['admin_users']->display = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['admin_users']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['admin_users']->display->url->match = '%^/admin/users$%';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->title = 'Login';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->access = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->access->roles['anonymous'] = 'anonymous';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['block_tree_main'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['block_tree_main']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['block_tree_main']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['block_tree_main']->npath = 'trees/core/main';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['block_tree_user'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['block_tree_user']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['block_tree_user']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['block_tree_user']->npath = 'trees/user/user';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['form_login'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['form_login']->region = 'content_1_1';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['form_login']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->content['form_login']->npath = 'forms/user/login';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->https = true;
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->display = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->display->url = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_login']->display->url->match = '%^/user/login$%';
+  cache_factory::$data['settings_original']['pages']['user']['login'] = new \effectivecore\page();
+  cache_factory::$data['settings_original']['pages']['user']['login']->title = 'Login';
+  cache_factory::$data['settings_original']['pages']['user']['login']->access = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['login']->access->roles['anonymous'] = 'anonymous';
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['block_tree_main'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['block_tree_main']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['block_tree_main']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['block_tree_main']->npath = 'trees/core/main';
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['block_tree_user'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['block_tree_user']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['block_tree_user']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['block_tree_user']->npath = 'trees/user/user';
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['form_login'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['form_login']->region = 'content_1_1';
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['form_login']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['login']->content['form_login']->npath = 'forms/user/login';
+  cache_factory::$data['settings_original']['pages']['user']['login']->https = true;
+  cache_factory::$data['settings_original']['pages']['user']['login']->display = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['login']->display->url = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['login']->display->url->match = '%^/user/login$%';
   cache_factory::$data['settings_original']['pages']['user']['page_user_logout'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->title = 'Logout from the system';
   cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->access = new \stdClass();
