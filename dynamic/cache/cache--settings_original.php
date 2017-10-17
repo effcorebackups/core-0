@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 18:55:42';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 18:58:05';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1092,25 +1092,25 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['login']->display = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['login']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['login']->display->url->match = '%^/user/login$%';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->title = 'Logout from the system';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->access = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->access->roles['registered'] = 'registered';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['block_tree_main'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['block_tree_main']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['block_tree_main']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['block_tree_main']->npath = 'trees/core/main';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['block_tree_user'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['block_tree_user']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['block_tree_user']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['block_tree_user']->npath = 'trees/user/user';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['form_user_logout'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['form_user_logout']->region = 'content_1_1';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['form_user_logout']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->content['form_user_logout']->npath = 'forms/user/logout';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->display = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->display->url = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->display->url->match = '%^/user/logout$%';
+  cache_factory::$data['settings_original']['pages']['user']['logout'] = new \effectivecore\page();
+  cache_factory::$data['settings_original']['pages']['user']['logout']->title = 'Loggin out';
+  cache_factory::$data['settings_original']['pages']['user']['logout']->access = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['logout']->access->roles['registered'] = 'registered';
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['block_tree_main'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['block_tree_main']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['block_tree_main']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['block_tree_main']->npath = 'trees/core/main';
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['block_tree_user'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['block_tree_user']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['block_tree_user']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['block_tree_user']->npath = 'trees/user/user';
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['form_logout'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['form_logout']->region = 'content_1_1';
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['form_logout']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['logout']->content['form_logout']->npath = 'forms/user/logout';
+  cache_factory::$data['settings_original']['pages']['user']['logout']->display = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['logout']->display->url = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['logout']->display->url->match = '%^/user/logout$%';
   cache_factory::$data['settings_original']['pages']['user']['page_user_n'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['user']['page_user_n']->title = 'User profile %%_user_nick_context{2}';
   cache_factory::$data['settings_original']['pages']['user']['page_user_n']->access = new \stdClass();
@@ -1799,7 +1799,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Locales'] = 'Локализации';
   cache_factory::$data['settings_original']['translations']['locales']->ru['login'] = 'вход';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Login'] = 'Вход';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Logout from the system'] = 'Выйти из системы';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Loggin out'] = 'Выход';
   cache_factory::$data['settings_original']['translations']['locales']->ru['logout'] = 'выход';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Logout'] = 'Выход';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Main menu'] = 'Главное меню';

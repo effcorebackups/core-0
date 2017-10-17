@@ -104,7 +104,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Locales'] = 'Локализации';
   cache_factory::$data['settings--translations']['locales']->ru['login'] = 'вход';
   cache_factory::$data['settings--translations']['locales']->ru['Login'] = 'Вход';
-  cache_factory::$data['settings--translations']['locales']->ru['Logout from the system'] = 'Выйти из системы';
+  cache_factory::$data['settings--translations']['locales']->ru['Loggin out'] = 'Выход';
   cache_factory::$data['settings--translations']['locales']->ru['logout'] = 'выход';
   cache_factory::$data['settings--translations']['locales']->ru['Logout'] = 'Выход';
   cache_factory::$data['settings--translations']['locales']->ru['Main menu'] = 'Главное меню';
