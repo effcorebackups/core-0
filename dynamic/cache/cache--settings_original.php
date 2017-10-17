@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 13:23:13';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 16:32:18';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1008,26 +1008,26 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['page']['page_decoration']->display = new \stdClass();
   cache_factory::$data['settings_original']['pages']['page']['page_decoration']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['page']['page_decoration']->display->url->match = '%^/admin/decoration$%';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->title = 'Roles';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->access = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->access->roles['admins'] = 'admins';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->constants['items_per_page'] = 50;
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_tree_main'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_tree_main']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_tree_main']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_tree_main']->npath = 'trees/core/main';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_tree_user'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_tree_user']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_tree_user']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_tree_user']->npath = 'trees/user/user';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_admin_roles'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_admin_roles']->region = 'content_1_1';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_admin_roles']->type = 'code';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->content['block_admin_roles']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_admin_roles';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->display = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->display->url = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_roles']->display->url->match = '%^/admin/roles$%';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles'] = new \effectivecore\page();
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->title = 'Roles';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->access = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->access->roles['admins'] = 'admins';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->constants['items_per_page'] = 50;
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_tree_main'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_tree_main']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_tree_main']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_tree_main']->npath = 'trees/core/main';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_tree_user'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_tree_user']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_tree_user']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_tree_user']->npath = 'trees/user/user';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_admin_roles'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_admin_roles']->region = 'content_1_1';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_admin_roles']->type = 'code';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->content['block_admin_roles']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_admin_roles';
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->display = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->display->url = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_roles']->display->url->match = '%^/admin/roles$%';
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->title = 'Users';
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->access = new \stdClass();
