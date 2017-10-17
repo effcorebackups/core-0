@@ -201,7 +201,8 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['User was not deleted!'] = 'Пользователь не был удален!';
   cache_factory::$data['settings--translations']['locales']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
   cache_factory::$data['settings--translations']['locales']->ru['User with ID = %%_id was deleted.'] = 'Пользователь с ID = %%_id был удален.';
-  cache_factory::$data['settings--translations']['locales']->ru['User with this email was already registered!'] = 'Пользователь с таким адресом электронной почты уже был зарегистрирован!';
+  cache_factory::$data['settings--translations']['locales']->ru['User with this EMail was already registered!'] = 'Пользователь с таким Адресом электронной почты уже был зарегистрирован!';
+  cache_factory::$data['settings--translations']['locales']->ru['User with this Nick was already registered!'] = 'Пользователь с таким Ником уже был зарегистрирован!';
   cache_factory::$data['settings--translations']['locales']->ru['User'] = 'Пользователь';
   cache_factory::$data['settings--translations']['locales']->ru['Users'] = 'Пользователи';
   cache_factory::$data['settings--translations']['locales']->ru['val.'] = 'знач.';

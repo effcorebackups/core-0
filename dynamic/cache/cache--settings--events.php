@@ -120,6 +120,10 @@ namespace effectivecore { # cache for settings--events
   cache_factory::$data['settings--events']['user']->on_form_validate['registration_default']->for = 'registration';
   cache_factory::$data['settings--events']['user']->on_form_validate['registration_default']->handler = '\\effectivecore\\events_form::on_validate';
   cache_factory::$data['settings--events']['user']->on_form_validate['registration_default']->weight = 0;
+  cache_factory::$data['settings--events']['user']->on_form_validate['registration'] = new \stdClass();
+  cache_factory::$data['settings--events']['user']->on_form_validate['registration']->for = 'registration';
+  cache_factory::$data['settings--events']['user']->on_form_validate['registration']->handler = '\\effectivecore\\modules\\user\\events_form::on_validate_registration';
+  cache_factory::$data['settings--events']['user']->on_form_validate['registration']->weight = 0;
   cache_factory::$data['settings--events']['user']->on_form_submit['login'] = new \stdClass();
   cache_factory::$data['settings--events']['user']->on_form_submit['login']->for = 'login';
   cache_factory::$data['settings--events']['user']->on_form_submit['login']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_login';

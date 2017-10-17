@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 12:53:27';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 13:04:37';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -170,6 +170,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration_default']->for = 'registration';
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration_default']->handler = '\\effectivecore\\events_form::on_validate';
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration_default']->weight = 0;
+  cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration']->for = 'registration';
+  cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration']->handler = '\\effectivecore\\modules\\user\\events_form::on_validate_registration';
+  cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration']->weight = 0;
   cache_factory::$data['settings_original']['events']['user']->on_form_submit['login'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['user']->on_form_submit['login']->for = 'login';
   cache_factory::$data['settings_original']['events']['user']->on_form_submit['login']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_login';
@@ -1892,7 +1896,8 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['User was not deleted!'] = 'Пользователь не был удален!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['User with ID = %%_id was deleted.'] = 'Пользователь с ID = %%_id был удален.';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['User with this email was already registered!'] = 'Пользователь с таким адресом электронной почты уже был зарегистрирован!';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['User with this EMail was already registered!'] = 'Пользователь с таким Адресом электронной почты уже был зарегистрирован!';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['User with this Nick was already registered!'] = 'Пользователь с таким Ником уже был зарегистрирован!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['User'] = 'Пользователь';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Users'] = 'Пользователи';
   cache_factory::$data['settings_original']['translations']['locales']->ru['val.'] = 'знач.';
