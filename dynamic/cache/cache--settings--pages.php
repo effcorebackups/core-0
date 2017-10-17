@@ -35,6 +35,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['core']['installation']->content['form_installation']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['core']['installation']->content['form_installation']->type = 'link';
   cache_factory::$data['settings--pages']['core']['installation']->content['form_installation']->npath = 'forms/core/installation';
+  cache_factory::$data['settings--pages']['core']['installation']->https = true;
   cache_factory::$data['settings--pages']['core']['installation']->display = new \stdClass();
   cache_factory::$data['settings--pages']['core']['installation']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['core']['installation']->display->url->match = '%^/install$%';
@@ -54,6 +55,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['core']['modules']->content['block_modules']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['core']['modules']->content['block_modules']->type = 'code';
   cache_factory::$data['settings--pages']['core']['modules']->content['block_modules']->handler = '\\effectivecore\\events_page::on_show_modules';
+  cache_factory::$data['settings--pages']['core']['modules']->https = true;
   cache_factory::$data['settings--pages']['core']['modules']->display = new \stdClass();
   cache_factory::$data['settings--pages']['core']['modules']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['core']['modules']->display->url->match = '%^/admin/modules$%';
@@ -81,6 +83,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['develop']['demo']->content['block_demo_dynamic']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['develop']['demo']->content['block_demo_dynamic']->type = 'code';
   cache_factory::$data['settings--pages']['develop']['demo']->content['block_demo_dynamic']->handler = '\\effectivecore\\modules\\develop\\events_page::on_show_block_demo_dynamic';
+  cache_factory::$data['settings--pages']['develop']['demo']->https = true;
   cache_factory::$data['settings--pages']['develop']['demo']->display = new \stdClass();
   cache_factory::$data['settings--pages']['develop']['demo']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['develop']['demo']->display->url->match = '%^/develop/demo$%';
@@ -100,6 +103,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['page']['decoration']->content['form_decoration']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['page']['decoration']->content['form_decoration']->type = 'link';
   cache_factory::$data['settings--pages']['page']['decoration']->content['form_decoration']->npath = 'forms/page/decoration';
+  cache_factory::$data['settings--pages']['page']['decoration']->https = true;
   cache_factory::$data['settings--pages']['page']['decoration']->display = new \stdClass();
   cache_factory::$data['settings--pages']['page']['decoration']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['page']['decoration']->display->url->match = '%^/admin/decoration$%';
@@ -139,6 +143,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['logout']->content['form_logout']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['user']['logout']->content['form_logout']->type = 'link';
   cache_factory::$data['settings--pages']['user']['logout']->content['form_logout']->npath = 'forms/user/logout';
+  cache_factory::$data['settings--pages']['user']['logout']->https = true;
   cache_factory::$data['settings--pages']['user']['logout']->display = new \stdClass();
   cache_factory::$data['settings--pages']['user']['logout']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['user']['logout']->display->url->match = '%^/user/logout$%';
@@ -179,6 +184,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['roles']->content['block_roles']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['user']['roles']->content['block_roles']->type = 'code';
   cache_factory::$data['settings--pages']['user']['roles']->content['block_roles']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_roles';
+  cache_factory::$data['settings--pages']['user']['roles']->https = true;
   cache_factory::$data['settings--pages']['user']['roles']->display = new \stdClass();
   cache_factory::$data['settings--pages']['user']['roles']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['user']['roles']->display->url->match = '%^/admin/roles$%';
@@ -224,6 +230,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['user_delete']->content['form_user_delete']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['user']['user_delete']->content['form_user_delete']->type = 'link';
   cache_factory::$data['settings--pages']['user']['user_delete']->content['form_user_delete']->npath = 'forms/user/user_delete';
+  cache_factory::$data['settings--pages']['user']['user_delete']->https = true;
   cache_factory::$data['settings--pages']['user']['user_delete']->display = new \stdClass();
   cache_factory::$data['settings--pages']['user']['user_delete']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['user']['user_delete']->display->url->match = '%^/admin/users/delete/[0-9]+$%';
@@ -271,6 +278,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['users']->content['block_users']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['user']['users']->content['block_users']->type = 'code';
   cache_factory::$data['settings--pages']['user']['users']->content['block_users']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_users';
+  cache_factory::$data['settings--pages']['user']['users']->https = true;
   cache_factory::$data['settings--pages']['user']['users']->display = new \stdClass();
   cache_factory::$data['settings--pages']['user']['users']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['user']['users']->display->url->match = '%^/admin/users$%';
