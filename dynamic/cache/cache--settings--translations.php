@@ -38,7 +38,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['credentials'] = 'учётные данные';
   cache_factory::$data['settings--translations']['locales']->ru['Current field value: %%_value.'] = 'Текущее значение поля: %%_value.';
   cache_factory::$data['settings--translations']['locales']->ru['Current language'] = 'Текущий язык';
-  cache_factory::$data['settings--translations']['locales']->ru['Data of user with ID = %%_id was updated.'] = 'Данные пользователя с ID = %%_id были обновлены.';
   cache_factory::$data['settings--translations']['locales']->ru['Data was not updated!'] = 'Данные не были обновлены!';
   cache_factory::$data['settings--translations']['locales']->ru['Date'] = 'Дата';
   cache_factory::$data['settings--translations']['locales']->ru['Decoration'] = 'Оформление';
@@ -102,9 +101,9 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Is embed'] = 'Встроенный';
   cache_factory::$data['settings--translations']['locales']->ru['load'] = 'загрузка';
   cache_factory::$data['settings--translations']['locales']->ru['Locales'] = 'Локализации';
+  cache_factory::$data['settings--translations']['locales']->ru['Loggin out'] = 'Выход';
   cache_factory::$data['settings--translations']['locales']->ru['login'] = 'вход';
   cache_factory::$data['settings--translations']['locales']->ru['Login'] = 'Вход';
-  cache_factory::$data['settings--translations']['locales']->ru['Loggin out'] = 'Выход';
   cache_factory::$data['settings--translations']['locales']->ru['logout'] = 'выход';
   cache_factory::$data['settings--translations']['locales']->ru['Logout'] = 'Выход';
   cache_factory::$data['settings--translations']['locales']->ru['Main menu'] = 'Главное меню';
@@ -195,6 +194,8 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';
   cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was not deleted!'] = 'Пользователь %%_nick не был удален.';
+  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was updated.'] = 'Пользователь %%_nick был обновлен.';
+  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was not updated.'] = 'Пользователь %%_nick не был обновлен.';
   cache_factory::$data['settings--translations']['locales']->ru['User %%_user_nick'] = 'Пользователь %%_user_nick';
   cache_factory::$data['settings--translations']['locales']->ru['User menu'] = 'Меню пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User name'] = 'Имя пользователя';
