@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 12:35:44';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 12:39:44';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -2033,14 +2033,14 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['instances']['user']['user_1'] = new \effectivecore\instance();
   cache_factory::$data['settings_original']['instances']['user']['user_1']->entity_name = 'user';
   cache_factory::$data['settings_original']['instances']['user']['user_1']->values['id'] = 1;
-  cache_factory::$data['settings_original']['instances']['user']['user_1']->values['nick'] = 'admin';
+  cache_factory::$data['settings_original']['instances']['user']['user_1']->values['nick'] = 'Admin';
   cache_factory::$data['settings_original']['instances']['user']['user_1']->values['email'] = 'admin@example.com';
   cache_factory::$data['settings_original']['instances']['user']['user_1']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
   cache_factory::$data['settings_original']['instances']['user']['user_1']->values['is_embed'] = 1;
   cache_factory::$data['settings_original']['instances']['user']['user_2'] = new \effectivecore\instance();
   cache_factory::$data['settings_original']['instances']['user']['user_2']->entity_name = 'user';
   cache_factory::$data['settings_original']['instances']['user']['user_2']->values['id'] = 2;
-  cache_factory::$data['settings_original']['instances']['user']['user_2']->values['nick'] = 'user';
+  cache_factory::$data['settings_original']['instances']['user']['user_2']->values['nick'] = 'User';
   cache_factory::$data['settings_original']['instances']['user']['user_2']->values['email'] = 'user@example.com';
   cache_factory::$data['settings_original']['instances']['user']['user_2']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
   cache_factory::$data['settings_original']['instances']['user']['role_anonymous'] = new \effectivecore\instance();
