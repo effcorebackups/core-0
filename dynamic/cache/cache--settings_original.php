@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 12:25:32';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 12:35:44';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -711,9 +711,11 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['page']['decoration']->children['colors']->children['color_id'] = new \effectivecore\form_container_palette();
   cache_factory::$data['settings_original']['forms']['page']['decoration']->children['colors']->children['color_id']->input_attributes['name'] = 'color_id';
   cache_factory::$data['settings_original']['forms']['page']['decoration']->children['colors']->children['color_id']->title = 'Color';
+  cache_factory::$data['settings_original']['forms']['page']['decoration']->children['colors']->children['color_id']->attributes['required'] = 'required';
   cache_factory::$data['settings_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id'] = new \effectivecore\form_container_palette();
   cache_factory::$data['settings_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->input_attributes['name'] = 'color_bg_id';
   cache_factory::$data['settings_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->title = 'Background color';
+  cache_factory::$data['settings_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->attributes['required'] = 'required';
   cache_factory::$data['settings_original']['forms']['page']['decoration']->children['button_save'] = new \effectivecore\markup();
   cache_factory::$data['settings_original']['forms']['page']['decoration']->children['button_save']->tag_name = 'button';
   cache_factory::$data['settings_original']['forms']['page']['decoration']->children['button_save']->children['label'] = new \effectivecore\text();
