@@ -189,8 +189,8 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was not deleted!'] = 'Пользователь %%_nick не был удален.';
   cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was not updated.'] = 'Пользователь %%_nick не был обновлен.';
   cache_factory::$data['settings--translations']['locales']->ru['User %%_nick was updated.'] = 'Пользователь %%_nick был обновлен.';
-  cache_factory::$data['settings--translations']['locales']->ru['User %%_user_nick_context{2}'] = 'Пользователь %%_user_nick_context{2}';
-  cache_factory::$data['settings--translations']['locales']->ru['User %%_user_nick'] = 'Пользователь %%_user_nick';
+  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick_context{2}'] = 'Пользователь %%_user_nick_context{2}';
+  cache_factory::$data['settings--translations']['locales']->ru['User %%_nick'] = 'Пользователь %%_user_nick';
   cache_factory::$data['settings--translations']['locales']->ru['User menu'] = 'Меню пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User name'] = 'Имя пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User roles'] = 'Роли пользователя';

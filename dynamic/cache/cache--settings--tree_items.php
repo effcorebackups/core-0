@@ -79,7 +79,7 @@ namespace effectivecore { # cache for settings--tree_items
   cache_factory::$data['settings--tree_items']['user']['user_n']->id = 'user_n';
   cache_factory::$data['settings--tree_items']['user']['user_n']->parent_is_tree = true;
   cache_factory::$data['settings--tree_items']['user']['user_n']->parent_id = 'user';
-  cache_factory::$data['settings--tree_items']['user']['user_n']->title = 'User %%_user_nick';
+  cache_factory::$data['settings--tree_items']['user']['user_n']->title = 'User %%_nick';
   cache_factory::$data['settings--tree_items']['user']['user_n']->attributes['href'] = '/user/%%_user_id';
   cache_factory::$data['settings--tree_items']['user']['user_n']->attributes['class']['user-n'] = 'user-n';
   cache_factory::$data['settings--tree_items']['user']['user_n']->access = new \stdClass();
