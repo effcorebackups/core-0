@@ -42,7 +42,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Data was not updated!'] = 'Данные не были обновлены!';
   cache_factory::$data['settings--translations']['locales']->ru['Date'] = 'Дата';
   cache_factory::$data['settings--translations']['locales']->ru['Decoration'] = 'Оформление';
-  cache_factory::$data['settings--translations']['locales']->ru['Delete profile %%_user_email_context{4}?'] = 'Удалить профиль %%_user_email_context{4}?';
+  cache_factory::$data['settings--translations']['locales']->ru['Delete profile %%_user_nick_context{4}?'] = 'Удалить профиль %%_user_nick_context{4}?';
   cache_factory::$data['settings--translations']['locales']->ru['delete'] = 'удалить';
   cache_factory::$data['settings--translations']['locales']->ru['Demo'] = 'Демо';
   cache_factory::$data['settings--translations']['locales']->ru['Description'] = 'Описание';
@@ -51,7 +51,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Driver is not selected!'] = 'Драйвер не выбран!';
   cache_factory::$data['settings--translations']['locales']->ru['Driver'] = 'Драйвер';
   cache_factory::$data['settings--translations']['locales']->ru['Dynamic block'] = 'Динамический блок';
-  cache_factory::$data['settings--translations']['locales']->ru['Edit profile %%_user_email_context{2}'] = 'Редактировать профиль %%_user_email_context{2}';
+  cache_factory::$data['settings--translations']['locales']->ru['Edit profile %%_user_nick_context{2}'] = 'Редактировать профиль %%_user_nick_context{2}';
   cache_factory::$data['settings--translations']['locales']->ru['Edit profile'] = 'Редактировать профиль';
   cache_factory::$data['settings--translations']['locales']->ru['edit profile'] = 'редактировать профиль';
   cache_factory::$data['settings--translations']['locales']->ru['edit'] = 'редактировать';
@@ -193,10 +193,10 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Tree'] = 'Дерево';
   cache_factory::$data['settings--translations']['locales']->ru['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
   cache_factory::$data['settings--translations']['locales']->ru['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
-  cache_factory::$data['settings--translations']['locales']->ru['User %%_user_email_name'] = 'Пользователь %%_user_email_name';
+  cache_factory::$data['settings--translations']['locales']->ru['User %%_user_nick'] = 'Пользователь %%_user_nick';
   cache_factory::$data['settings--translations']['locales']->ru['User menu'] = 'Меню пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User name'] = 'Имя пользователя';
-  cache_factory::$data['settings--translations']['locales']->ru['User profile %%_user_email_context{2}'] = 'Профиль пользователя %%_user_email_context{2}';
+  cache_factory::$data['settings--translations']['locales']->ru['User profile %%_user_nick_context{2}'] = 'Профиль пользователя %%_user_nick_context{2}';
   cache_factory::$data['settings--translations']['locales']->ru['User roles'] = 'Роли пользователя';
   cache_factory::$data['settings--translations']['locales']->ru['User was not deleted!'] = 'Пользователь не был удален!';
   cache_factory::$data['settings--translations']['locales']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';

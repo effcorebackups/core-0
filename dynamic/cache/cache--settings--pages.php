@@ -144,7 +144,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['page_admin_users']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_admin_users']->display->url->match = '%^/admin/users$%';
   cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n'] = new \effectivecore\page();
-  cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->title = 'Delete profile %%_user_email_context{4}?';
+  cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->title = 'Delete profile %%_user_nick_context{4}?';
   cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->access = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings--pages']['user']['page_admin_users_delete_n']->content['block_tree_main'] = new \stdClass();
@@ -207,7 +207,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['page_user_logout']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_user_logout']->display->url->match = '%^/user/logout$%';
   cache_factory::$data['settings--pages']['user']['page_user_n'] = new \effectivecore\page();
-  cache_factory::$data['settings--pages']['user']['page_user_n']->title = 'User profile %%_user_email_context{2}';
+  cache_factory::$data['settings--pages']['user']['page_user_n']->title = 'User profile %%_user_nick_context{2}';
   cache_factory::$data['settings--pages']['user']['page_user_n']->access = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_user_n']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings--pages']['user']['page_user_n']->access->roles['registered'] = 'registered';
@@ -229,7 +229,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['page_user_n']->display->url->match = '%^/user/[0-9]+$%';
   cache_factory::$data['settings--pages']['user']['page_user_n']->display->url->args['user_id'] = 2;
   cache_factory::$data['settings--pages']['user']['page_user_n_edit'] = new \effectivecore\page();
-  cache_factory::$data['settings--pages']['user']['page_user_n_edit']->title = 'Edit profile %%_user_email_context{2}';
+  cache_factory::$data['settings--pages']['user']['page_user_n_edit']->title = 'Edit profile %%_user_nick_context{2}';
   cache_factory::$data['settings--pages']['user']['page_user_n_edit']->access = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_user_n_edit']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings--pages']['user']['page_user_n_edit']->access->roles['registered'] = 'registered';

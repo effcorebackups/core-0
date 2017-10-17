@@ -54,10 +54,10 @@ namespace effectivecore { # cache for settings--tokens
   cache_factory::$data['settings--tokens']['user']['user_email']->match = '%%_user_email';
   cache_factory::$data['settings--tokens']['user']['user_email']->type = 'code';
   cache_factory::$data['settings--tokens']['user']['user_email']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
-  cache_factory::$data['settings--tokens']['user']['user_email_name'] = new \stdClass();
-  cache_factory::$data['settings--tokens']['user']['user_email_name']->match = '%%_user_email_name';
-  cache_factory::$data['settings--tokens']['user']['user_email_name']->type = 'code';
-  cache_factory::$data['settings--tokens']['user']['user_email_name']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
+  cache_factory::$data['settings--tokens']['user']['user_nick'] = new \stdClass();
+  cache_factory::$data['settings--tokens']['user']['user_nick']->match = '%%_user_nick';
+  cache_factory::$data['settings--tokens']['user']['user_nick']->type = 'code';
+  cache_factory::$data['settings--tokens']['user']['user_nick']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
   cache_factory::$data['settings--tokens']['user']['user_id_context'] = new \stdClass();
   cache_factory::$data['settings--tokens']['user']['user_id_context']->match = '%%_user_id_context';
   cache_factory::$data['settings--tokens']['user']['user_id_context']->type = 'code';
@@ -66,9 +66,9 @@ namespace effectivecore { # cache for settings--tokens
   cache_factory::$data['settings--tokens']['user']['user_email_context']->match = '%%_user_email_context';
   cache_factory::$data['settings--tokens']['user']['user_email_context']->type = 'code';
   cache_factory::$data['settings--tokens']['user']['user_email_context']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
-  cache_factory::$data['settings--tokens']['user']['user_email_name_context'] = new \stdClass();
-  cache_factory::$data['settings--tokens']['user']['user_email_name_context']->match = '%%_user_email_name_context';
-  cache_factory::$data['settings--tokens']['user']['user_email_name_context']->type = 'code';
-  cache_factory::$data['settings--tokens']['user']['user_email_name_context']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
+  cache_factory::$data['settings--tokens']['user']['user_nick_context'] = new \stdClass();
+  cache_factory::$data['settings--tokens']['user']['user_nick_context']->match = '%%_user_nick_context';
+  cache_factory::$data['settings--tokens']['user']['user_nick_context']->type = 'code';
+  cache_factory::$data['settings--tokens']['user']['user_nick_context']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
 
 }

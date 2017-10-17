@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 13:04:37';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 13:23:13';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1049,7 +1049,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->display->url->match = '%^/admin/users$%';
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->title = 'Delete profile %%_user_email_context{4}?';
+  cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->title = 'Delete profile %%_user_nick_context{4}?';
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->access = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings_original']['pages']['user']['page_admin_users_delete_n']->content['block_tree_main'] = new \stdClass();
@@ -1112,7 +1112,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['page_user_logout']->display->url->match = '%^/user/logout$%';
   cache_factory::$data['settings_original']['pages']['user']['page_user_n'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_n']->title = 'User profile %%_user_email_context{2}';
+  cache_factory::$data['settings_original']['pages']['user']['page_user_n']->title = 'User profile %%_user_nick_context{2}';
   cache_factory::$data['settings_original']['pages']['user']['page_user_n']->access = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['page_user_n']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings_original']['pages']['user']['page_user_n']->access->roles['registered'] = 'registered';
@@ -1134,7 +1134,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['page_user_n']->display->url->match = '%^/user/[0-9]+$%';
   cache_factory::$data['settings_original']['pages']['user']['page_user_n']->display->url->args['user_id'] = 2;
   cache_factory::$data['settings_original']['pages']['user']['page_user_n_edit'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_n_edit']->title = 'Edit profile %%_user_email_context{2}';
+  cache_factory::$data['settings_original']['pages']['user']['page_user_n_edit']->title = 'Edit profile %%_user_nick_context{2}';
   cache_factory::$data['settings_original']['pages']['user']['page_user_n_edit']->access = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['page_user_n_edit']->access->roles['admins'] = 'admins';
   cache_factory::$data['settings_original']['pages']['user']['page_user_n_edit']->access->roles['registered'] = 'registered';
@@ -1231,10 +1231,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tokens']['user']['user_email']->match = '%%_user_email';
   cache_factory::$data['settings_original']['tokens']['user']['user_email']->type = 'code';
   cache_factory::$data['settings_original']['tokens']['user']['user_email']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
-  cache_factory::$data['settings_original']['tokens']['user']['user_email_name'] = new \stdClass();
-  cache_factory::$data['settings_original']['tokens']['user']['user_email_name']->match = '%%_user_email_name';
-  cache_factory::$data['settings_original']['tokens']['user']['user_email_name']->type = 'code';
-  cache_factory::$data['settings_original']['tokens']['user']['user_email_name']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
+  cache_factory::$data['settings_original']['tokens']['user']['user_nick'] = new \stdClass();
+  cache_factory::$data['settings_original']['tokens']['user']['user_nick']->match = '%%_user_nick';
+  cache_factory::$data['settings_original']['tokens']['user']['user_nick']->type = 'code';
+  cache_factory::$data['settings_original']['tokens']['user']['user_nick']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
   cache_factory::$data['settings_original']['tokens']['user']['user_id_context'] = new \stdClass();
   cache_factory::$data['settings_original']['tokens']['user']['user_id_context']->match = '%%_user_id_context';
   cache_factory::$data['settings_original']['tokens']['user']['user_id_context']->type = 'code';
@@ -1243,10 +1243,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tokens']['user']['user_email_context']->match = '%%_user_email_context';
   cache_factory::$data['settings_original']['tokens']['user']['user_email_context']->type = 'code';
   cache_factory::$data['settings_original']['tokens']['user']['user_email_context']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
-  cache_factory::$data['settings_original']['tokens']['user']['user_email_name_context'] = new \stdClass();
-  cache_factory::$data['settings_original']['tokens']['user']['user_email_name_context']->match = '%%_user_email_name_context';
-  cache_factory::$data['settings_original']['tokens']['user']['user_email_name_context']->type = 'code';
-  cache_factory::$data['settings_original']['tokens']['user']['user_email_name_context']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
+  cache_factory::$data['settings_original']['tokens']['user']['user_nick_context'] = new \stdClass();
+  cache_factory::$data['settings_original']['tokens']['user']['user_nick_context']->match = '%%_user_nick_context';
+  cache_factory::$data['settings_original']['tokens']['user']['user_nick_context']->type = 'code';
+  cache_factory::$data['settings_original']['tokens']['user']['user_nick_context']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
   cache_factory::$data['settings_original']['tree_items']['core']['main_home'] = new \effectivecore\tree_item();
   cache_factory::$data['settings_original']['tree_items']['core']['main_home']->id = 'main_home';
   cache_factory::$data['settings_original']['tree_items']['core']['main_home']->parent_is_tree = true;
@@ -1324,7 +1324,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tree_items']['user']['user_n']->id = 'user_n';
   cache_factory::$data['settings_original']['tree_items']['user']['user_n']->parent_is_tree = true;
   cache_factory::$data['settings_original']['tree_items']['user']['user_n']->parent_id = 'user';
-  cache_factory::$data['settings_original']['tree_items']['user']['user_n']->title = 'User %%_user_email_name';
+  cache_factory::$data['settings_original']['tree_items']['user']['user_n']->title = 'User %%_user_nick';
   cache_factory::$data['settings_original']['tree_items']['user']['user_n']->attributes['href'] = '/user/%%_user_id';
   cache_factory::$data['settings_original']['tree_items']['user']['user_n']->attributes['class']['user-n'] = 'user-n';
   cache_factory::$data['settings_original']['tree_items']['user']['user_n']->access = new \stdClass();
@@ -1737,7 +1737,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Data was not updated!'] = 'Данные не были обновлены!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Date'] = 'Дата';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Decoration'] = 'Оформление';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Delete profile %%_user_email_context{4}?'] = 'Удалить профиль %%_user_email_context{4}?';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Delete profile %%_user_nick_context{4}?'] = 'Удалить профиль %%_user_nick_context{4}?';
   cache_factory::$data['settings_original']['translations']['locales']->ru['delete'] = 'удалить';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Demo'] = 'Демо';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Description'] = 'Описание';
@@ -1746,7 +1746,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Driver is not selected!'] = 'Драйвер не выбран!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Driver'] = 'Драйвер';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Dynamic block'] = 'Динамический блок';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Edit profile %%_user_email_context{2}'] = 'Редактировать профиль %%_user_email_context{2}';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Edit profile %%_user_nick_context{2}'] = 'Редактировать профиль %%_user_nick_context{2}';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Edit profile'] = 'Редактировать профиль';
   cache_factory::$data['settings_original']['translations']['locales']->ru['edit profile'] = 'редактировать профиль';
   cache_factory::$data['settings_original']['translations']['locales']->ru['edit'] = 'редактировать';
@@ -1888,10 +1888,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Tree'] = 'Дерево';
   cache_factory::$data['settings_original']['translations']['locales']->ru['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['User %%_user_email_name'] = 'Пользователь %%_user_email_name';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['User %%_user_nick'] = 'Пользователь %%_user_nick';
   cache_factory::$data['settings_original']['translations']['locales']->ru['User menu'] = 'Меню пользователя';
   cache_factory::$data['settings_original']['translations']['locales']->ru['User name'] = 'Имя пользователя';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['User profile %%_user_email_context{2}'] = 'Профиль пользователя %%_user_email_context{2}';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['User profile %%_user_nick_context{2}'] = 'Профиль пользователя %%_user_nick_context{2}';
   cache_factory::$data['settings_original']['translations']['locales']->ru['User roles'] = 'Роли пользователя';
   cache_factory::$data['settings_original']['translations']['locales']->ru['User was not deleted!'] = 'Пользователь не был удален!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['User was not registered!'] = 'Пользователь не был зарегистрирован!';
