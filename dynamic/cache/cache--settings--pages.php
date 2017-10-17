@@ -269,7 +269,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['page_user_registration']->content['form_user_registration'] = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_user_registration']->content['form_user_registration']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['user']['page_user_registration']->content['form_user_registration']->type = 'link';
-  cache_factory::$data['settings--pages']['user']['page_user_registration']->content['form_user_registration']->npath = 'forms/user/form_user_registration';
+  cache_factory::$data['settings--pages']['user']['page_user_registration']->content['form_user_registration']->npath = 'forms/user/registration';
   cache_factory::$data['settings--pages']['user']['page_user_registration']->https = true;
   cache_factory::$data['settings--pages']['user']['page_user_registration']->display = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_user_registration']->display->url = new \stdClass();

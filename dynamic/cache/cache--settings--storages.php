@@ -3,7 +3,7 @@
 namespace effectivecore { # cache for settings--storages
 
   cache_factory::$data['settings--storages']['storage']['storage_sql_dpo'] = new \effectivecore\storage_pdo();
-  cache_factory::$data['settings--storages']['storage']['storage_sql_dpo']->id = 'db';
+  cache_factory::$data['settings--storages']['storage']['storage_sql_dpo']->id = 'main';
   cache_factory::$data['settings--storages']['storage']['storage_sql_dpo']->driver = 'mysql';
   cache_factory::$data['settings--storages']['storage']['storage_sql_dpo']->credentials = new \stdClass();
   cache_factory::$data['settings--storages']['storage']['storage_sql_dpo']->credentials->host_name = '127.0.0.1';

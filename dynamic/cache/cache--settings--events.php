@@ -116,10 +116,10 @@ namespace effectivecore { # cache for settings--events
   cache_factory::$data['settings--events']['user']->on_form_validate['user_n_edit']->for = 'user_n_edit';
   cache_factory::$data['settings--events']['user']->on_form_validate['user_n_edit']->handler = '\\effectivecore\\modules\\user\\events_form::on_validate_user_n_edit';
   cache_factory::$data['settings--events']['user']->on_form_validate['user_n_edit']->weight = 1;
-  cache_factory::$data['settings--events']['user']->on_form_validate['user_registration_default'] = new \stdClass();
-  cache_factory::$data['settings--events']['user']->on_form_validate['user_registration_default']->for = 'user_registration';
-  cache_factory::$data['settings--events']['user']->on_form_validate['user_registration_default']->handler = '\\effectivecore\\events_form::on_validate';
-  cache_factory::$data['settings--events']['user']->on_form_validate['user_registration_default']->weight = 0;
+  cache_factory::$data['settings--events']['user']->on_form_validate['registration_default'] = new \stdClass();
+  cache_factory::$data['settings--events']['user']->on_form_validate['registration_default']->for = 'registration';
+  cache_factory::$data['settings--events']['user']->on_form_validate['registration_default']->handler = '\\effectivecore\\events_form::on_validate';
+  cache_factory::$data['settings--events']['user']->on_form_validate['registration_default']->weight = 0;
   cache_factory::$data['settings--events']['user']->on_form_submit['login'] = new \stdClass();
   cache_factory::$data['settings--events']['user']->on_form_submit['login']->for = 'login';
   cache_factory::$data['settings--events']['user']->on_form_submit['login']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_login';
@@ -136,9 +136,9 @@ namespace effectivecore { # cache for settings--events
   cache_factory::$data['settings--events']['user']->on_form_submit['user_n_edit']->for = 'user_n_edit';
   cache_factory::$data['settings--events']['user']->on_form_submit['user_n_edit']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_user_n_edit';
   cache_factory::$data['settings--events']['user']->on_form_submit['user_n_edit']->weight = 0;
-  cache_factory::$data['settings--events']['user']->on_form_submit['user_registration'] = new \stdClass();
-  cache_factory::$data['settings--events']['user']->on_form_submit['user_registration']->for = 'user_registration';
-  cache_factory::$data['settings--events']['user']->on_form_submit['user_registration']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_user_register';
-  cache_factory::$data['settings--events']['user']->on_form_submit['user_registration']->weight = 0;
+  cache_factory::$data['settings--events']['user']->on_form_submit['registration'] = new \stdClass();
+  cache_factory::$data['settings--events']['user']->on_form_submit['registration']->for = 'registration';
+  cache_factory::$data['settings--events']['user']->on_form_submit['registration']->handler = '\\effectivecore\\modules\\user\\events_form::on_submit_registration';
+  cache_factory::$data['settings--events']['user']->on_form_submit['registration']->weight = 0;
 
 }

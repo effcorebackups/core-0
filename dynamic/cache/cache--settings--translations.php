@@ -34,6 +34,8 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Core'] = 'Ядро';
   cache_factory::$data['settings--translations']['locales']->ru['created'] = 'создано';
   cache_factory::$data['settings--translations']['locales']->ru['Created'] = 'Создано';
+  cache_factory::$data['settings--translations']['locales']->ru['Credentials'] = 'Учётные данные';
+  cache_factory::$data['settings--translations']['locales']->ru['credentials'] = 'учётные данные';
   cache_factory::$data['settings--translations']['locales']->ru['Current field value: %%_value.'] = 'Текущее значение поля: %%_value.';
   cache_factory::$data['settings--translations']['locales']->ru['Current language'] = 'Текущий язык';
   cache_factory::$data['settings--translations']['locales']->ru['Data of user with ID = %%_id was updated.'] = 'Данные пользователя с ID = %%_id были обновлены.';
@@ -126,6 +128,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Name'] = 'Имя';
   cache_factory::$data['settings--translations']['locales']->ru['New password must be different from the old password!'] = 'Новый пароль должен отличаться от старого пароля!';
   cache_factory::$data['settings--translations']['locales']->ru['New password'] = 'Новый пароль';
+  cache_factory::$data['settings--translations']['locales']->ru['Nick'] = 'Ник';
   cache_factory::$data['settings--translations']['locales']->ru['no items'] = 'нет элементов';
   cache_factory::$data['settings--translations']['locales']->ru['No'] = 'Нет';
   cache_factory::$data['settings--translations']['locales']->ru['Number'] = 'Число';
