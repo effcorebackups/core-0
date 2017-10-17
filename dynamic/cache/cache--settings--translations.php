@@ -214,6 +214,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Ver.'] = 'Вер.';
   cache_factory::$data['settings--translations']['locales']->ru['Version'] = 'Версия';
   cache_factory::$data['settings--translations']['locales']->ru['view'] = 'просмотреть';
+  cache_factory::$data['settings--translations']['locales']->ru['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
   cache_factory::$data['settings--translations']['locales']->ru['Yes'] = 'Да';
 
 }

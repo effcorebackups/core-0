@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 18:32:56';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 18:51:04';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -907,23 +907,23 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['user_n_edit']->attributes['method'] = 'post';
   cache_factory::$data['settings_original']['forms']['user']['user_n_edit']->attributes['class']['user'] = 'user';
   cache_factory::$data['settings_original']['forms']['user']['user_n_edit']->attributes['class']['user-n-edit'] = 'user-n-edit';
-  cache_factory::$data['settings_original']['pages']['core']['page_front'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->title = 'Front page';
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_tree_main'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_tree_main']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_tree_main']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_tree_main']->npath = 'trees/core/main';
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_tree_user'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_tree_user']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_tree_user']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_tree_user']->npath = 'trees/user/user';
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_wellcome'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_wellcome']->region = 'content_1_1';
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_wellcome']->type = 'text';
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->content['block_wellcome']->content = 'Wellcome to our site!';
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->display = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->display->url = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['page_front']->display->url->match = '%^/$%';
+  cache_factory::$data['settings_original']['pages']['core']['front'] = new \effectivecore\page();
+  cache_factory::$data['settings_original']['pages']['core']['front']->title = 'Front page';
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_tree_main'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_tree_main']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_tree_main']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_tree_main']->npath = 'trees/core/main';
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_tree_user'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_tree_user']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_tree_user']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_tree_user']->npath = 'trees/user/user';
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_wellcome'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_wellcome']->region = 'content_1_1';
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_wellcome']->type = 'text';
+  cache_factory::$data['settings_original']['pages']['core']['front']->content['block_wellcome']->content = 'Wellcome to our site!';
+  cache_factory::$data['settings_original']['pages']['core']['front']->display = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['front']->display->url = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['core']['front']->display->url->match = '%^/$%';
   cache_factory::$data['settings_original']['pages']['core']['page_installation'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['core']['page_installation']->title = 'Installation';
   cache_factory::$data['settings_original']['pages']['core']['page_installation']->access = new \stdClass();
@@ -1909,6 +1909,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Ver.'] = 'Вер.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Version'] = 'Версия';
   cache_factory::$data['settings_original']['translations']['locales']->ru['view'] = 'просмотреть';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Yes'] = 'Да';
   cache_factory::$data['settings_original']['colors']['page']['color_lavender'] = new \stdClass();
   cache_factory::$data['settings_original']['colors']['page']['color_lavender']->value = 'lavender';
