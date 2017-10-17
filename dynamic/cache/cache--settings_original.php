@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 20:31:43';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 20:35:35';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1159,26 +1159,26 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['user_edit']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['user_edit']->display->url->match = '%^/user/[0-9]+/edit$%';
   cache_factory::$data['settings_original']['pages']['user']['user_edit']->display->url->args['user_id'] = 2;
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->title = 'Registration';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->access = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->access->roles['anonymous'] = 'anonymous';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['block_tree_main'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['block_tree_main']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['block_tree_main']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['block_tree_main']->npath = 'trees/core/main';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['block_tree_user'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['block_tree_user']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['block_tree_user']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['block_tree_user']->npath = 'trees/user/user';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['form_user_registration'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['form_user_registration']->region = 'content_1_1';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['form_user_registration']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->content['form_user_registration']->npath = 'forms/user/registration';
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->https = true;
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->display = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->display->url = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_user_registration']->display->url->match = '%^/user/registration$%';
+  cache_factory::$data['settings_original']['pages']['user']['registration'] = new \effectivecore\page();
+  cache_factory::$data['settings_original']['pages']['user']['registration']->title = 'Registration';
+  cache_factory::$data['settings_original']['pages']['user']['registration']->access = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['registration']->access->roles['anonymous'] = 'anonymous';
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['block_tree_main'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['block_tree_main']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['block_tree_main']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['block_tree_main']->npath = 'trees/core/main';
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['block_tree_user'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['block_tree_user']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['block_tree_user']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['block_tree_user']->npath = 'trees/user/user';
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['form_registration'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['form_registration']->region = 'content_1_1';
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['form_registration']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['registration']->content['form_registration']->npath = 'forms/user/registration';
+  cache_factory::$data['settings_original']['pages']['user']['registration']->https = true;
+  cache_factory::$data['settings_original']['pages']['user']['registration']->display = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['registration']->display->url = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['registration']->display->url->match = '%^/user/registration$%';
   cache_factory::$data['settings_original']['tokens']['core']['text_no_items'] = new \stdClass();
   cache_factory::$data['settings_original']['tokens']['core']['text_no_items']->match = '%%_text_no_items';
   cache_factory::$data['settings_original']['tokens']['core']['text_no_items']->type = 'translated_text';
