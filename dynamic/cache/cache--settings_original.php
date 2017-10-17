@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 12:14:43';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 12:25:32';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -70,14 +70,14 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['core']->on_form_submit['installation']->handler = '\\effectivecore\\modules\\core\\events_form::on_submit_installation';
   cache_factory::$data['settings_original']['events']['core']->on_form_submit['installation']->weight = 0;
   cache_factory::$data['settings_original']['events']['develop'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['develop']->on_module_start['demo'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['develop']->on_module_start['demo']->for = 'demo';
-  cache_factory::$data['settings_original']['events']['develop']->on_module_start['demo']->handler = '\\effectivecore\\modules\\develop\\events_module::on_start';
-  cache_factory::$data['settings_original']['events']['develop']->on_module_start['demo']->weight = 0;
-  cache_factory::$data['settings_original']['events']['develop']->on_module_install['demo'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['develop']->on_module_install['demo']->for = 'demo';
-  cache_factory::$data['settings_original']['events']['develop']->on_module_install['demo']->handler = '\\effectivecore\\modules\\develop\\events_module::on_install';
-  cache_factory::$data['settings_original']['events']['develop']->on_module_install['demo']->weight = 0;
+  cache_factory::$data['settings_original']['events']['develop']->on_module_start['develop'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['develop']->on_module_start['develop']->for = 'develop';
+  cache_factory::$data['settings_original']['events']['develop']->on_module_start['develop']->handler = '\\effectivecore\\modules\\develop\\events_module::on_start';
+  cache_factory::$data['settings_original']['events']['develop']->on_module_start['develop']->weight = 0;
+  cache_factory::$data['settings_original']['events']['develop']->on_module_install['develop'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['develop']->on_module_install['develop']->for = 'develop';
+  cache_factory::$data['settings_original']['events']['develop']->on_module_install['develop']->handler = '\\effectivecore\\modules\\develop\\events_module::on_install';
+  cache_factory::$data['settings_original']['events']['develop']->on_module_install['develop']->weight = 0;
   cache_factory::$data['settings_original']['events']['develop']->on_form_init['demo'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['develop']->on_form_init['demo']->for = 'demo';
   cache_factory::$data['settings_original']['events']['develop']->on_form_init['demo']->handler = '\\effectivecore\\modules\\develop\\events_form::on_init_demo';
