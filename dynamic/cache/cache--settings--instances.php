@@ -5,14 +5,14 @@ namespace effectivecore { # cache for settings--instances
   cache_factory::$data['settings--instances']['user']['user_1'] = new \effectivecore\instance();
   cache_factory::$data['settings--instances']['user']['user_1']->entity_name = 'user';
   cache_factory::$data['settings--instances']['user']['user_1']->values['id'] = 1;
-  cache_factory::$data['settings--instances']['user']['user_1']->values['login'] = 'admin';
+  cache_factory::$data['settings--instances']['user']['user_1']->values['nick'] = 'admin';
   cache_factory::$data['settings--instances']['user']['user_1']->values['email'] = 'admin@example.com';
   cache_factory::$data['settings--instances']['user']['user_1']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
   cache_factory::$data['settings--instances']['user']['user_1']->values['is_embed'] = 1;
   cache_factory::$data['settings--instances']['user']['user_2'] = new \effectivecore\instance();
   cache_factory::$data['settings--instances']['user']['user_2']->entity_name = 'user';
   cache_factory::$data['settings--instances']['user']['user_2']->values['id'] = 2;
-  cache_factory::$data['settings--instances']['user']['user_2']->values['login'] = 'user';
+  cache_factory::$data['settings--instances']['user']['user_2']->values['nick'] = 'user';
   cache_factory::$data['settings--instances']['user']['user_2']->values['email'] = 'user@example.com';
   cache_factory::$data['settings--instances']['user']['user_2']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
   cache_factory::$data['settings--instances']['user']['role_anonymous'] = new \effectivecore\instance();

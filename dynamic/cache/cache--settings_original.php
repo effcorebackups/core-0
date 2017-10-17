@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 11:44:49';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 11:48:42';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1541,10 +1541,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->email->type = 'varchar';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->email->size = 255;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->email->not_null = true;
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->login = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->login->type = 'varchar';
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->login->size = 255;
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->login->not_null = true;
+  cache_factory::$data['settings_original']['entities']['user']['user']->fields->nick = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['user']['user']->fields->nick->type = 'varchar';
+  cache_factory::$data['settings_original']['entities']['user']['user']->fields->nick->size = 255;
+  cache_factory::$data['settings_original']['entities']['user']['user']->fields->nick->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->password_hash = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->password_hash->type = 'varchar';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->password_hash->size = 255;
@@ -1562,9 +1562,9 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['user']->indexes['unique_email'] = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['user']->indexes['unique_email']->type = 'unique key';
   cache_factory::$data['settings_original']['entities']['user']['user']->indexes['unique_email']->fields['email'] = 'email';
-  cache_factory::$data['settings_original']['entities']['user']['user']->indexes['unique_login'] = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['user']['user']->indexes['unique_login']->type = 'unique key';
-  cache_factory::$data['settings_original']['entities']['user']['user']->indexes['unique_login']->fields['login'] = 'login';
+  cache_factory::$data['settings_original']['entities']['user']['user']->indexes['unique_nick'] = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['user']['user']->indexes['unique_nick']->type = 'unique key';
+  cache_factory::$data['settings_original']['entities']['user']['user']->indexes['unique_nick']->fields['nick'] = 'nick';
   cache_factory::$data['settings_original']['entities']['user']['session'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['user']['session']->name = 'session';
   cache_factory::$data['settings_original']['entities']['user']['session']->storage_id = 'main';
@@ -2025,14 +2025,14 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['instances']['user']['user_1'] = new \effectivecore\instance();
   cache_factory::$data['settings_original']['instances']['user']['user_1']->entity_name = 'user';
   cache_factory::$data['settings_original']['instances']['user']['user_1']->values['id'] = 1;
-  cache_factory::$data['settings_original']['instances']['user']['user_1']->values['login'] = 'admin';
+  cache_factory::$data['settings_original']['instances']['user']['user_1']->values['nick'] = 'admin';
   cache_factory::$data['settings_original']['instances']['user']['user_1']->values['email'] = 'admin@example.com';
   cache_factory::$data['settings_original']['instances']['user']['user_1']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
   cache_factory::$data['settings_original']['instances']['user']['user_1']->values['is_embed'] = 1;
   cache_factory::$data['settings_original']['instances']['user']['user_2'] = new \effectivecore\instance();
   cache_factory::$data['settings_original']['instances']['user']['user_2']->entity_name = 'user';
   cache_factory::$data['settings_original']['instances']['user']['user_2']->values['id'] = 2;
-  cache_factory::$data['settings_original']['instances']['user']['user_2']->values['login'] = 'user';
+  cache_factory::$data['settings_original']['instances']['user']['user_2']->values['nick'] = 'user';
   cache_factory::$data['settings_original']['instances']['user']['user_2']->values['email'] = 'user@example.com';
   cache_factory::$data['settings_original']['instances']['user']['user_2']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
   cache_factory::$data['settings_original']['instances']['user']['role_anonymous'] = new \effectivecore\instance();
