@@ -46,7 +46,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Demo'] = 'Демо';
   cache_factory::$data['settings--translations']['locales']->ru['Description'] = 'Описание';
   cache_factory::$data['settings--translations']['locales']->ru['Develop'] = 'Разработка';
-  cache_factory::$data['settings--translations']['locales']->ru['disabled'] = 'выкл.';
   cache_factory::$data['settings--translations']['locales']->ru['Driver is not selected!'] = 'Драйвер не выбран!';
   cache_factory::$data['settings--translations']['locales']->ru['Driver'] = 'Драйвер';
   cache_factory::$data['settings--translations']['locales']->ru['Dynamic block'] = 'Динамический блок';
@@ -55,7 +54,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Element %%_info.'] = 'Элемент %%_info.';
   cache_factory::$data['settings--translations']['locales']->ru['Elements'] = 'Элементы';
   cache_factory::$data['settings--translations']['locales']->ru['EMail'] = 'Адрес электронной почты';
-  cache_factory::$data['settings--translations']['locales']->ru['enabled'] = 'вкл.';
   cache_factory::$data['settings--translations']['locales']->ru['Entity %%_name was installed.'] = 'Сущность %%_name была установлена.';
   cache_factory::$data['settings--translations']['locales']->ru['Entity %%_name was not installed!'] = 'Сущность %%_name не была установлена!';
   cache_factory::$data['settings--translations']['locales']->ru['event system was initialized'] = 'система событий была инициализирована';
@@ -80,7 +78,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['file'] = 'файл';
   cache_factory::$data['settings--translations']['locales']->ru['Form elements'] = 'Элементы формы';
   cache_factory::$data['settings--translations']['locales']->ru['Front page'] = 'Главная страница';
-  cache_factory::$data['settings--translations']['locales']->ru['get'] = 'получить';
   cache_factory::$data['settings--translations']['locales']->ru['Home'] = 'Дом';
   cache_factory::$data['settings--translations']['locales']->ru['Host name'] = 'Имя хоста';
   cache_factory::$data['settings--translations']['locales']->ru['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
@@ -121,7 +118,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Modules'] = 'Модули';
   cache_factory::$data['settings--translations']['locales']->ru['Must be at least %%_value characters long.'] = 'Должно быть не менее %%_value символов.';
   cache_factory::$data['settings--translations']['locales']->ru['Must be no more than %%_value characters.'] = 'Должно быть не более %%_value символов.';
-  cache_factory::$data['settings--translations']['locales']->ru['my account'] = 'мой аккаунт';
   cache_factory::$data['settings--translations']['locales']->ru['Name'] = 'Имя';
   cache_factory::$data['settings--translations']['locales']->ru['New password must be different from the old password!'] = 'Новый пароль должен отличаться от старого пароля!';
   cache_factory::$data['settings--translations']['locales']->ru['New password'] = 'Новый пароль';
