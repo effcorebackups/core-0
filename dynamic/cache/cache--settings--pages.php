@@ -50,10 +50,10 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['core']['modules']->content['block_tree_user']->region = 'nav';
   cache_factory::$data['settings--pages']['core']['modules']->content['block_tree_user']->type = 'link';
   cache_factory::$data['settings--pages']['core']['modules']->content['block_tree_user']->npath = 'trees/user/user';
-  cache_factory::$data['settings--pages']['core']['modules']->content['block_admin_modules'] = new \stdClass();
-  cache_factory::$data['settings--pages']['core']['modules']->content['block_admin_modules']->region = 'content_1_1';
-  cache_factory::$data['settings--pages']['core']['modules']->content['block_admin_modules']->type = 'code';
-  cache_factory::$data['settings--pages']['core']['modules']->content['block_admin_modules']->handler = '\\effectivecore\\events_page::on_show_admin_modules';
+  cache_factory::$data['settings--pages']['core']['modules']->content['block_modules'] = new \stdClass();
+  cache_factory::$data['settings--pages']['core']['modules']->content['block_modules']->region = 'content_1_1';
+  cache_factory::$data['settings--pages']['core']['modules']->content['block_modules']->type = 'code';
+  cache_factory::$data['settings--pages']['core']['modules']->content['block_modules']->handler = '\\effectivecore\\events_page::on_show_modules';
   cache_factory::$data['settings--pages']['core']['modules']->display = new \stdClass();
   cache_factory::$data['settings--pages']['core']['modules']->display->url = new \stdClass();
   cache_factory::$data['settings--pages']['core']['modules']->display->url->match = '%^/admin/modules$%';
