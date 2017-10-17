@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 12:11:34';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 12:14:43';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -78,18 +78,18 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['develop']->on_module_install['demo']->for = 'demo';
   cache_factory::$data['settings_original']['events']['develop']->on_module_install['demo']->handler = '\\effectivecore\\modules\\develop\\events_module::on_install';
   cache_factory::$data['settings_original']['events']['develop']->on_module_install['demo']->weight = 0;
-  cache_factory::$data['settings_original']['events']['develop']->on_form_init['form_demo'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['develop']->on_form_init['form_demo']->for = 'demo';
-  cache_factory::$data['settings_original']['events']['develop']->on_form_init['form_demo']->handler = '\\effectivecore\\modules\\develop\\events_form::on_init_demo';
-  cache_factory::$data['settings_original']['events']['develop']->on_form_init['form_demo']->weight = 0;
-  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['form_demo_default'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['form_demo_default']->for = 'demo';
-  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['form_demo_default']->handler = '\\effectivecore\\events_form::on_validate';
-  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['form_demo_default']->weight = 0;
-  cache_factory::$data['settings_original']['events']['develop']->on_form_submit['form_demo'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['develop']->on_form_submit['form_demo']->for = 'demo';
-  cache_factory::$data['settings_original']['events']['develop']->on_form_submit['form_demo']->handler = '\\effectivecore\\modules\\develop\\events_form::on_submit_demo';
-  cache_factory::$data['settings_original']['events']['develop']->on_form_submit['form_demo']->weight = 0;
+  cache_factory::$data['settings_original']['events']['develop']->on_form_init['demo'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['develop']->on_form_init['demo']->for = 'demo';
+  cache_factory::$data['settings_original']['events']['develop']->on_form_init['demo']->handler = '\\effectivecore\\modules\\develop\\events_form::on_init_demo';
+  cache_factory::$data['settings_original']['events']['develop']->on_form_init['demo']->weight = 0;
+  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo_default'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo_default']->for = 'demo';
+  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo_default']->handler = '\\effectivecore\\events_form::on_validate';
+  cache_factory::$data['settings_original']['events']['develop']->on_form_validate['demo_default']->weight = 0;
+  cache_factory::$data['settings_original']['events']['develop']->on_form_submit['demo'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['develop']->on_form_submit['demo']->for = 'demo';
+  cache_factory::$data['settings_original']['events']['develop']->on_form_submit['demo']->handler = '\\effectivecore\\modules\\develop\\events_form::on_submit_demo';
+  cache_factory::$data['settings_original']['events']['develop']->on_form_submit['demo']->weight = 0;
   cache_factory::$data['settings_original']['events']['page'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['page']->on_module_start['page'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['page']->on_module_start['page']->for = 'page';
