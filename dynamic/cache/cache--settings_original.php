@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 17:37:30';
+  cache_factory::$info['settings_original']['build'] = '2017-10-17 17:42:05';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1052,26 +1052,26 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['admin_user_delete']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['admin_user_delete']->display->url->match = '%^/admin/users/delete/[0-9]+$%';
   cache_factory::$data['settings_original']['pages']['user']['admin_user_delete']->display->url->args['user_id'] = 4;
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users'] = new \effectivecore\page();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->title = 'Users';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->access = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->access->roles['admins'] = 'admins';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->constants['items_per_page'] = 50;
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_tree_main'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_tree_main']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_tree_main']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_tree_main']->npath = 'trees/core/main';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_tree_user'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_tree_user']->region = 'nav';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_tree_user']->type = 'link';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_tree_user']->npath = 'trees/user/user';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_admin_users'] = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_admin_users']->region = 'content_1_1';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_admin_users']->type = 'code';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->content['block_admin_users']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_admin_users';
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->display = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->display->url = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['user']['page_admin_users']->display->url->match = '%^/admin/users$%';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users'] = new \effectivecore\page();
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->title = 'Users';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->access = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->access->roles['admins'] = 'admins';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->constants['items_per_page'] = 50;
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_tree_main'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_tree_main']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_tree_main']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_tree_main']->npath = 'trees/core/main';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_tree_user'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_tree_user']->region = 'nav';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_tree_user']->type = 'link';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_tree_user']->npath = 'trees/user/user';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_admin_users'] = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_admin_users']->region = 'content_1_1';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_admin_users']->type = 'code';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->content['block_admin_users']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_admin_users';
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->display = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->display->url = new \stdClass();
+  cache_factory::$data['settings_original']['pages']['user']['admin_users']->display->url->match = '%^/admin/users$%';
   cache_factory::$data['settings_original']['pages']['user']['page_user_login'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['user']['page_user_login']->title = 'Login';
   cache_factory::$data['settings_original']['pages']['user']['page_user_login']->access = new \stdClass();
