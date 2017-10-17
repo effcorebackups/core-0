@@ -248,7 +248,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['user']['page_user_n_edit']->content['form_user_n_edit'] = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_user_n_edit']->content['form_user_n_edit']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['user']['page_user_n_edit']->content['form_user_n_edit']->type = 'link';
-  cache_factory::$data['settings--pages']['user']['page_user_n_edit']->content['form_user_n_edit']->npath = 'forms/user/form_user_n_edit';
+  cache_factory::$data['settings--pages']['user']['page_user_n_edit']->content['form_user_n_edit']->npath = 'forms/user/user_n_edit';
   cache_factory::$data['settings--pages']['user']['page_user_n_edit']->https = true;
   cache_factory::$data['settings--pages']['user']['page_user_n_edit']->display = new \stdClass();
   cache_factory::$data['settings--pages']['user']['page_user_n_edit']->display->url = new \stdClass();
