@@ -491,7 +491,6 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['develop']['demo']->attributes['id'] = 'demo';
   cache_factory::$data['settings--forms']['develop']['demo']->attributes['novalidate'] = 'novalidate';
   cache_factory::$data['settings--forms']['develop']['demo']->attributes['method'] = 'post';
-  cache_factory::$data['settings--forms']['develop']['demo']->attributes['class']['demo'] = 'demo';
   cache_factory::$data['settings--forms']['page']['decoration'] = new \effectivecore\form();
   cache_factory::$data['settings--forms']['page']['decoration']->children['colors'] = new \effectivecore\form_container();
   cache_factory::$data['settings--forms']['page']['decoration']->children['colors']->tag_name = 'fieldset';
@@ -523,7 +522,6 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['page']['decoration']->attributes['id'] = 'decoration';
   cache_factory::$data['settings--forms']['page']['decoration']->attributes['novalidate'] = 'novalidate';
   cache_factory::$data['settings--forms']['page']['decoration']->attributes['method'] = 'post';
-  cache_factory::$data['settings--forms']['page']['decoration']->attributes['class']['decoration'] = 'decoration';
   cache_factory::$data['settings--forms']['user']['login'] = new \effectivecore\form();
   cache_factory::$data['settings--forms']['user']['login']->children['credentials'] = new \effectivecore\form_container();
   cache_factory::$data['settings--forms']['user']['login']->children['credentials']->tag_name = 'fieldset';
@@ -558,8 +556,6 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['user']['login']->attributes['id'] = 'login';
   cache_factory::$data['settings--forms']['user']['login']->attributes['novalidate'] = 'novalidate';
   cache_factory::$data['settings--forms']['user']['login']->attributes['method'] = 'post';
-  cache_factory::$data['settings--forms']['user']['login']->attributes['class']['user'] = 'user';
-  cache_factory::$data['settings--forms']['user']['login']->attributes['class']['user-login'] = 'user-login';
   cache_factory::$data['settings--forms']['user']['logout'] = new \effectivecore\form();
   cache_factory::$data['settings--forms']['user']['logout']->children['button_logout'] = new \effectivecore\markup();
   cache_factory::$data['settings--forms']['user']['logout']->children['button_logout']->tag_name = 'button';
@@ -579,8 +575,6 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['user']['logout']->attributes['id'] = 'logout';
   cache_factory::$data['settings--forms']['user']['logout']->attributes['novalidate'] = 'novalidate';
   cache_factory::$data['settings--forms']['user']['logout']->attributes['method'] = 'post';
-  cache_factory::$data['settings--forms']['user']['logout']->attributes['class']['user'] = 'user';
-  cache_factory::$data['settings--forms']['user']['logout']->attributes['class']['user-logout'] = 'user-logout';
   cache_factory::$data['settings--forms']['user']['registration'] = new \effectivecore\form();
   cache_factory::$data['settings--forms']['user']['registration']->children['credentials'] = new \effectivecore\form_container();
   cache_factory::$data['settings--forms']['user']['registration']->children['credentials']->tag_name = 'fieldset';
@@ -624,8 +618,6 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['user']['registration']->attributes['id'] = 'registration';
   cache_factory::$data['settings--forms']['user']['registration']->attributes['novalidate'] = 'novalidate';
   cache_factory::$data['settings--forms']['user']['registration']->attributes['method'] = 'post';
-  cache_factory::$data['settings--forms']['user']['registration']->attributes['class']['user'] = 'user';
-  cache_factory::$data['settings--forms']['user']['registration']->attributes['class']['user-registration'] = 'user-registration';
   cache_factory::$data['settings--forms']['user']['user_delete'] = new \effectivecore\form();
   cache_factory::$data['settings--forms']['user']['user_delete']->children['button_delete'] = new \effectivecore\markup();
   cache_factory::$data['settings--forms']['user']['user_delete']->children['button_delete']->tag_name = 'button';
@@ -645,8 +637,6 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['user']['user_delete']->attributes['id'] = 'user_delete';
   cache_factory::$data['settings--forms']['user']['user_delete']->attributes['novalidate'] = 'novalidate';
   cache_factory::$data['settings--forms']['user']['user_delete']->attributes['method'] = 'post';
-  cache_factory::$data['settings--forms']['user']['user_delete']->attributes['class']['user'] = 'user';
-  cache_factory::$data['settings--forms']['user']['user_delete']->attributes['class']['user-delete'] = 'user-delete';
   cache_factory::$data['settings--forms']['user']['user_edit'] = new \effectivecore\form();
   cache_factory::$data['settings--forms']['user']['user_edit']->children['credentials'] = new \effectivecore\form_container();
   cache_factory::$data['settings--forms']['user']['user_edit']->children['credentials']->tag_name = 'fieldset';
@@ -710,7 +700,5 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['user']['user_edit']->attributes['id'] = 'user_edit';
   cache_factory::$data['settings--forms']['user']['user_edit']->attributes['novalidate'] = 'novalidate';
   cache_factory::$data['settings--forms']['user']['user_edit']->attributes['method'] = 'post';
-  cache_factory::$data['settings--forms']['user']['user_edit']->attributes['class']['user'] = 'user';
-  cache_factory::$data['settings--forms']['user']['user_edit']->attributes['class']['user-edit'] = 'user-edit';
 
 }
