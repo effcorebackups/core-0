@@ -13,7 +13,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Allowable characters: %%_chars. Examples: %%_examples.'] = 'Допустимые символы: %%_chars. Примеры: %%_examples.';
   cache_factory::$data['settings--translations']['locales']->ru['Allowable characters: %%_chars.'] = 'Допустимые символы: %%_chars.';
   cache_factory::$data['settings--translations']['locales']->ru['always_enabled'] = 'всегда_вкл';
-  cache_factory::$data['settings--translations']['locales']->ru['Anonymous'] = 'Анонимы';
+  cache_factory::$data['settings--translations']['locales']->ru['Anonymous'] = 'Аноним';
   cache_factory::$data['settings--translations']['locales']->ru['autoload'] = 'автозагрузка';
   cache_factory::$data['settings--translations']['locales']->ru['Background color'] = 'Цвет фона';
   cache_factory::$data['settings--translations']['locales']->ru['button'] = 'кнопка';
