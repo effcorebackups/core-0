@@ -69,8 +69,8 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" must contain a minimum of %%_num characters!'] = 'Поле "%%_title" должно содержать минимум %%_num символов!';
-  cache_factory::$data['settings--translations']['locales']->ru['Field must contain a maximum of %%_num characters.'] = 'Поле должно содержать минимум %%_num символов.';
-  cache_factory::$data['settings--translations']['locales']->ru['Field must contain a minimum of %%_num characters.'] = 'Поле должно содержать максимум %%_num символов.';
+  cache_factory::$data['settings--translations']['locales']->ru['Field must contain a maximum of %%_num characters.'] = 'Поле должно содержать максимум %%_num символов.';
+  cache_factory::$data['settings--translations']['locales']->ru['Field must contain a minimum of %%_num characters.'] = 'Поле должно содержать минимум %%_num символов.';
   cache_factory::$data['settings--translations']['locales']->ru['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache_factory::$data['settings--translations']['locales']->ru['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
   cache_factory::$data['settings--translations']['locales']->ru['Field value is not a valid number.'] = 'Значение поля не является допустимым числом.';
@@ -94,6 +94,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Instances of entity %%_name was not added!'] = 'Экземпляры сущности %%_name не были добавлены!';
   cache_factory::$data['settings--translations']['locales']->ru['Is always on'] = 'Всегда включен';
   cache_factory::$data['settings--translations']['locales']->ru['Is embed'] = 'Встроенный';
+  cache_factory::$data['settings--translations']['locales']->ru['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache_factory::$data['settings--translations']['locales']->ru['load'] = 'загрузка';
   cache_factory::$data['settings--translations']['locales']->ru['Locales'] = 'Локализации';
   cache_factory::$data['settings--translations']['locales']->ru['Loggin out'] = 'Выход';
@@ -117,15 +118,13 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Modules was installed.'] = 'Модули были установлены.';
   cache_factory::$data['settings--translations']['locales']->ru['Modules'] = 'Модули';
   cache_factory::$data['settings--translations']['locales']->ru['Name'] = 'Имя';
-  cache_factory::$data['settings--translations']['locales']->ru['New password must be different from the old password!'] = 'Новый пароль должен отличаться от старого пароля!';
+  cache_factory::$data['settings--translations']['locales']->ru['New password must be different from the current password!'] = 'Новый пароль должен отличаться от текущего!';
   cache_factory::$data['settings--translations']['locales']->ru['New password'] = 'Новый пароль';
   cache_factory::$data['settings--translations']['locales']->ru['Nick'] = 'Ник';
   cache_factory::$data['settings--translations']['locales']->ru['no items'] = 'нет элементов';
   cache_factory::$data['settings--translations']['locales']->ru['No'] = 'Нет';
   cache_factory::$data['settings--translations']['locales']->ru['Number'] = 'Число';
   cache_factory::$data['settings--translations']['locales']->ru['Object'] = 'Объект';
-  cache_factory::$data['settings--translations']['locales']->ru['Old password is incorrect!'] = 'Старый пароль неверен!';
-  cache_factory::$data['settings--translations']['locales']->ru['Old password'] = 'Старый пароль';
   cache_factory::$data['settings--translations']['locales']->ru['Page'] = 'Страница';
   cache_factory::$data['settings--translations']['locales']->ru['Parameter'] = 'Параметр';
   cache_factory::$data['settings--translations']['locales']->ru['Password hash'] = 'Хеш пароля';
