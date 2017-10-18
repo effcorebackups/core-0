@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-18 15:43:05';
+  cache_factory::$info['settings_original']['build'] = '2017-10-18 17:22:36';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -837,16 +837,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->tag_name = 'fieldset';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->title = 'Credentials';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->title_tag_name = 'legend';
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password'] = new \effectivecore\form_field();
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->title = 'Password';
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element'] = new \effectivecore\markup_simple();
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->tag_name = 'input';
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['type'] = 'password';
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['name'] = 'password';
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['required'] = 'required';
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->title = 'EMail';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element'] = new \effectivecore\markup_simple();
@@ -872,8 +862,19 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->tag_name = 'input';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['type'] = 'password';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['name'] = 'password_new';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['minlength'] = 5;
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['maxlength'] = 255;
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['autocomplete'] = 'off';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password'] = new \effectivecore\form_field();
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->title = 'Password';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->tag_name = 'input';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['type'] = 'password';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['name'] = 'password';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['required'] = 'required';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['button_save'] = new \effectivecore\markup();
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['button_save']->tag_name = 'button';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['button_save']->children['label'] = new \effectivecore\text();
