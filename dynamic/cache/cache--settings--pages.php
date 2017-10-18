@@ -38,7 +38,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['core']['installation']->https = true;
   cache_factory::$data['settings--pages']['core']['installation']->display = new \stdClass();
   cache_factory::$data['settings--pages']['core']['installation']->display->url = new \stdClass();
-  cache_factory::$data['settings--pages']['core']['installation']->display->url->match = '%^/install$%';
+  cache_factory::$data['settings--pages']['core']['installation']->display->url->match = '%^/installation$%';
   cache_factory::$data['settings--pages']['core']['modules'] = new \effectivecore\page();
   cache_factory::$data['settings--pages']['core']['modules']->title = 'Modules';
   cache_factory::$data['settings--pages']['core']['modules']->access = new \stdClass();

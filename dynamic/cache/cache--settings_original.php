@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-18 11:09:29';
+  cache_factory::$info['settings_original']['build'] = '2017-10-18 11:49:06';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -943,7 +943,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['core']['installation']->https = true;
   cache_factory::$data['settings_original']['pages']['core']['installation']->display = new \stdClass();
   cache_factory::$data['settings_original']['pages']['core']['installation']->display->url = new \stdClass();
-  cache_factory::$data['settings_original']['pages']['core']['installation']->display->url->match = '%^/install$%';
+  cache_factory::$data['settings_original']['pages']['core']['installation']->display->url->match = '%^/installation$%';
   cache_factory::$data['settings_original']['pages']['core']['modules'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['core']['modules']->title = 'Modules';
   cache_factory::$data['settings_original']['pages']['core']['modules']->access = new \stdClass();
