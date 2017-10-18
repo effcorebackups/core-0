@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-17 22:56:49';
+  cache_factory::$info['settings_original']['build'] = '2017-10-18 10:28:14';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -138,6 +138,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->for = 'user';
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->handler = '\\effectivecore\\modules\\user\\events_module::on_install';
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->weight = 0;
+  cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit']->for = 'user_edit';
+  cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit']->handler = '\\effectivecore\\modules\\user\\events_form::on_init_user_edit';
+  cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit']->weight = 1;
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['login'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['login']->for = 'login';
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['login']->handler = '\\effectivecore\\modules\\user\\events_form::on_validate_login';
@@ -843,6 +847,26 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->tag_name = 'fieldset';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->title = 'Credentials';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->title_tag_name = 'legend';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email'] = new \effectivecore\form_field();
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->title = 'EMail';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->tag_name = 'input';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['type'] = 'email';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['minlength'] = 5;
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['maxlength'] = 255;
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['disabled'] = 'disabled';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick'] = new \effectivecore\form_field();
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->title = 'Nick';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->tag_name = 'input';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['type'] = 'text';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['name'] = 'nick';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['required'] = 'required';
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['minlength'] = 5;
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['maxlength'] = 255;
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['disabled'] = 'disabled';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_old'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_old']->title = 'Old password';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_old']->children['element'] = new \effectivecore\markup_simple();
