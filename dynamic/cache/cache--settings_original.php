@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-18 11:49:06';
+  cache_factory::$info['settings_original']['build'] = '2017-10-18 13:48:30';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1768,12 +1768,12 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" contains an incorrect email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" contains too few characters!'] = 'Поле "%%_title" содержит слишком мало символов!';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" contains too much characters!'] = 'Поле "%%_title" содержит слишком много символов!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" is not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Field must contain a maximum of %%_lenght characters.'] = 'Поле должно содержать максимум %%_lenght символов.';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Field must contain a minimum of %%_lenght characters.'] = 'Поле должно содержать минимум %%_lenght символов.';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" must contain a minimum of %%_num characters!'] = 'Поле "%%_title" должно содержать минимум %%_num символов!';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Field must contain a maximum of %%_num characters.'] = 'Поле должно содержать минимум %%_num символов.';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Field must contain a minimum of %%_num characters.'] = 'Поле должно содержать максимум %%_num символов.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field value is not a valid number.'] = 'Значение поля не является допустимым числом.';
@@ -1819,8 +1819,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Module for working with user accounts and permissions.'] = 'Модуль работы с пользовательскими аккаунтами и разрешениями.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Modules was installed.'] = 'Модули были установлены.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Modules'] = 'Модули';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Must be at least %%_value characters long.'] = 'Должно быть не менее %%_value символов.';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['Must be no more than %%_value characters.'] = 'Должно быть не более %%_value символов.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Name'] = 'Имя';
   cache_factory::$data['settings_original']['translations']['locales']->ru['New password must be different from the old password!'] = 'Новый пароль должен отличаться от старого пароля!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['New password'] = 'Новый пароль';
