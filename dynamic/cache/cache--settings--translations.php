@@ -159,7 +159,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['State.'] = 'Сост.';
   cache_factory::$data['settings--translations']['locales']->ru['Static block'] = 'Статический блок';
   cache_factory::$data['settings--translations']['locales']->ru['storage %%_id cache for group %%_group will be load'] = 'кэш хранилища %%_id для группы %%_group будет загружен';
-  cache_factory::$data['settings--translations']['locales']->ru['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
   cache_factory::$data['settings--translations']['locales']->ru['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
   cache_factory::$data['settings--translations']['locales']->ru['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
   cache_factory::$data['settings--translations']['locales']->ru['Storage name'] = 'Имя хранилища';
