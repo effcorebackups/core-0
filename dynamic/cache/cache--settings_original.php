@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-20 22:12:38';
+  cache_factory::$info['settings_original']['build'] = '2017-10-23 17:46:03';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -400,7 +400,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['required'] = 'required';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['value'] = 'test@example.com';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['minlength'] = 5;
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['maxlength'] = 255;
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['maxlength'] = 64;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['multiple'] = 'multiple';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->title = 'File';
@@ -730,7 +730,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['minlength'] = 5;
-  cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['maxlength'] = 255;
+  cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['maxlength'] = 64;
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['password'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['password']->title = 'Password';
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['password']->children['element'] = new \effectivecore\markup_simple();
@@ -783,7 +783,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['minlength'] = 5;
-  cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['maxlength'] = 255;
+  cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['maxlength'] = 64;
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['nick'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['nick']->title = 'Nick';
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element'] = new \effectivecore\markup_simple();
@@ -792,7 +792,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['name'] = 'nick';
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['required'] = 'required';
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['minlength'] = 4;
-  cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['maxlength'] = 255;
+  cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['maxlength'] = 32;
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['password'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['password']->title = 'Password';
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element'] = new \effectivecore\markup_simple();
@@ -845,7 +845,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['minlength'] = 5;
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['maxlength'] = 255;
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['maxlength'] = 64;
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->title = 'Nick';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element'] = new \effectivecore\markup_simple();
@@ -854,7 +854,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['name'] = 'nick';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['required'] = 'required';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['minlength'] = 4;
-  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['maxlength'] = 255;
+  cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['maxlength'] = 32;
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->title = 'New password';
   cache_factory::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->description = 'Leave the field blank if you do not want to change its value.';
@@ -1541,11 +1541,11 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->id->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->email = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->email->type = 'varchar';
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->email->size = 255;
+  cache_factory::$data['settings_original']['entities']['user']['user']->fields->email->size = 64;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->email->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->nick = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->nick->type = 'varchar';
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->nick->size = 255;
+  cache_factory::$data['settings_original']['entities']['user']['user']->fields->nick->size = 32;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->nick->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->password_hash = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->password_hash->type = 'varchar';

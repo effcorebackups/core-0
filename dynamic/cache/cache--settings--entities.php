@@ -63,11 +63,11 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['user']->fields->id->not_null = true;
   cache_factory::$data['settings--entities']['user']['user']->fields->email = new \stdClass();
   cache_factory::$data['settings--entities']['user']['user']->fields->email->type = 'varchar';
-  cache_factory::$data['settings--entities']['user']['user']->fields->email->size = 255;
+  cache_factory::$data['settings--entities']['user']['user']->fields->email->size = 64;
   cache_factory::$data['settings--entities']['user']['user']->fields->email->not_null = true;
   cache_factory::$data['settings--entities']['user']['user']->fields->nick = new \stdClass();
   cache_factory::$data['settings--entities']['user']['user']->fields->nick->type = 'varchar';
-  cache_factory::$data['settings--entities']['user']['user']->fields->nick->size = 255;
+  cache_factory::$data['settings--entities']['user']['user']->fields->nick->size = 32;
   cache_factory::$data['settings--entities']['user']['user']->fields->nick->not_null = true;
   cache_factory::$data['settings--entities']['user']['user']->fields->password_hash = new \stdClass();
   cache_factory::$data['settings--entities']['user']['user']->fields->password_hash->type = 'varchar';
