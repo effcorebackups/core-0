@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-23 17:46:03';
+  cache_factory::$info['settings_original']['build'] = '2017-10-25 23:46:00';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -299,6 +299,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['minlength'] = 1;
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['maxlength'] = 255;
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_./]+';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['readonly'] = 'readonly';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['button_install'] = new \effectivecore\markup();
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['button_install']->tag_name = 'button';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['button_install']->children['label'] = new \effectivecore\text();

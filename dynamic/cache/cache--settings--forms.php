@@ -104,6 +104,7 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['minlength'] = 1;
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['maxlength'] = 255;
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_./]+';
+  cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['readonly'] = 'readonly';
   cache_factory::$data['settings--forms']['core']['installation']->children['button_install'] = new \effectivecore\markup();
   cache_factory::$data['settings--forms']['core']['installation']->children['button_install']->tag_name = 'button';
   cache_factory::$data['settings--forms']['core']['installation']->children['button_install']->children['label'] = new \effectivecore\text();

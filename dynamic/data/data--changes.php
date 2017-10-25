@@ -2,7 +2,7 @@
 
 namespace effectivecore { # data for changes
 
-  dynamic_factory::$info['changes']['build'] = '2017-10-23 17:46:29';
+  dynamic_factory::$info['changes']['build'] = '2017-10-25 23:46:25';
   dynamic_factory::$data['changes']['core'] = new \stdClass();
   dynamic_factory::$data['changes']['core']->insert['storages/storage/storage_sql_dpo'] = new \stdClass();
   dynamic_factory::$data['changes']['core']->insert['storages/storage/storage_sql_dpo']->driver = 'mysql';
