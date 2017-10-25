@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-25 23:46:00';
+  cache_factory::$info['settings_original']['build'] = '2017-10-26 00:05:32';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -285,21 +285,21 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['driver']->children['sqlite']->children['element']->attributes['value'] = 'sqlite';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['driver']->attributes['class']['boxes'] = 'boxes';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['driver']->attributes['class']['radioboxes'] = 'radioboxes';
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path'] = new \effectivecore\form_field();
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->title = 'Path to file';
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->description = new \effectivecore\text();
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->description->text = 'Allowable characters: %%_chars.';
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", ".", "/"';
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element'] = new \effectivecore\markup_simple();
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->tag_name = 'input';
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['type'] = 'text';
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['name'] = 'file_path';
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['required'] = 'required';
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['value'] = 'data.sqlite';
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['minlength'] = 1;
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['maxlength'] = 255;
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_./]+';
-  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_path']->children['element']->attributes['readonly'] = 'readonly';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name'] = new \effectivecore\form_field();
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->title = 'Path to file';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->description = new \effectivecore\text();
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->description->text = 'Allowable characters: %%_chars.';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", ".", "/"';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->tag_name = 'input';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['type'] = 'text';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['name'] = 'file_name';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['required'] = 'required';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['value'] = 'data.sqlite';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['minlength'] = 1;
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['maxlength'] = 255;
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_./]+';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['readonly'] = 'readonly';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['button_install'] = new \effectivecore\markup();
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['button_install']->tag_name = 'button';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['button_install']->children['label'] = new \effectivecore\text();
