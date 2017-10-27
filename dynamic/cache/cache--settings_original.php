@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-26 00:05:32';
+  cache_factory::$info['settings_original']['build'] = '2017-10-27 13:41:15';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -203,6 +203,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->title = 'Storage params';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->title_tag_name = 'legend';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default'] = new \effectivecore\form_container();
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->tag_name = 'fieldset';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['driver'] = new \effectivecore\form_container();
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['driver']->children['mysql'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['driver']->children['mysql']->title = 'MySQL';
@@ -274,6 +275,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['password']->children['element']->attributes['autocomplete'] = 'off';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite'] = new \effectivecore\form_container();
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->tag_name = 'fieldset';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['driver'] = new \effectivecore\form_container();
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['driver']->children['sqlite'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['driver']->children['sqlite']->title = 'SQLite';
@@ -300,6 +302,18 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['maxlength'] = 255;
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_./]+';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['readonly'] = 'readonly';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params'] = new \effectivecore\form_container();
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix'] = new \effectivecore\form_field();
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->title = 'Table prefix';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->description = new \effectivecore\text();
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->description->text = 'Allowable characters: %%_chars.';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->children['element'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->children['element']->tag_name = 'input';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['type'] = 'text';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['name'] = 'table_prefix';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['maxlength'] = 10;
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['button_install'] = new \effectivecore\markup();
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['button_install']->tag_name = 'button';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['button_install']->children['label'] = new \effectivecore\text();
@@ -1854,6 +1868,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['submit'] = 'отправить';
   cache_factory::$data['settings_original']['translations']['locales']->ru['System was installed!'] = 'Система была установлена!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['System'] = 'Система';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Table prefix'] = 'Префикс таблиц';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Telephone'] = 'Телефон';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Text'] = 'Текст';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Textarea'] = 'Текстовая область';

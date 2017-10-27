@@ -168,6 +168,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['submit'] = 'отправить';
   cache_factory::$data['settings--translations']['locales']->ru['System was installed!'] = 'Система была установлена!';
   cache_factory::$data['settings--translations']['locales']->ru['System'] = 'Система';
+  cache_factory::$data['settings--translations']['locales']->ru['Table prefix'] = 'Префикс таблиц';
   cache_factory::$data['settings--translations']['locales']->ru['Telephone'] = 'Телефон';
   cache_factory::$data['settings--translations']['locales']->ru['Text'] = 'Текст';
   cache_factory::$data['settings--translations']['locales']->ru['Textarea'] = 'Текстовая область';
