@@ -7,7 +7,7 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['develop']['demo']->storage_id = 'main';
   cache_factory::$data['settings--entities']['develop']['demo']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['develop']['demo']->fields->id = new \stdClass();
-  cache_factory::$data['settings--entities']['develop']['demo']->fields->id->type = 'serial';
+  cache_factory::$data['settings--entities']['develop']['demo']->fields->id->type = 'auto';
   cache_factory::$data['settings--entities']['develop']['demo']->fields->id->not_null = true;
   cache_factory::$data['settings--entities']['develop']['demo']->fields->field_integer = new \stdClass();
   cache_factory::$data['settings--entities']['develop']['demo']->fields->field_integer->type = 'integer';
@@ -24,7 +24,7 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['tree']['tree']->storage_id = 'main';
   cache_factory::$data['settings--entities']['tree']['tree']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree']->fields->id = new \stdClass();
-  cache_factory::$data['settings--entities']['tree']['tree']->fields->id->type = 'serial';
+  cache_factory::$data['settings--entities']['tree']['tree']->fields->id->type = 'auto';
   cache_factory::$data['settings--entities']['tree']['tree']->fields->id->not_null = true;
   cache_factory::$data['settings--entities']['tree']['tree']->fields->title = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree']->fields->title->type = 'varchar';
@@ -38,7 +38,7 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['tree']['tree_item']->storage_id = 'main';
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id = new \stdClass();
-  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id->type = 'serial';
+  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id->type = 'auto';
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id->not_null = true;
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_is_tree = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_is_tree->type = 'integer';
@@ -59,7 +59,7 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['user']->storage_id = 'main';
   cache_factory::$data['settings--entities']['user']['user']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['user']['user']->fields->id = new \stdClass();
-  cache_factory::$data['settings--entities']['user']['user']->fields->id->type = 'serial';
+  cache_factory::$data['settings--entities']['user']['user']->fields->id->type = 'auto';
   cache_factory::$data['settings--entities']['user']['user']->fields->id->not_null = true;
   cache_factory::$data['settings--entities']['user']['user']->fields->email = new \stdClass();
   cache_factory::$data['settings--entities']['user']['user']->fields->email->type = 'varchar';

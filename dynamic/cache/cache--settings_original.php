@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-27 13:41:15';
+  cache_factory::$info['settings_original']['build'] = '2017-10-29 15:54:59';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1500,7 +1500,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['develop']['demo']->storage_id = 'main';
   cache_factory::$data['settings_original']['entities']['develop']['demo']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['develop']['demo']->fields->id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['develop']['demo']->fields->id->type = 'serial';
+  cache_factory::$data['settings_original']['entities']['develop']['demo']->fields->id->type = 'auto';
   cache_factory::$data['settings_original']['entities']['develop']['demo']->fields->id->not_null = true;
   cache_factory::$data['settings_original']['entities']['develop']['demo']->fields->field_integer = new \stdClass();
   cache_factory::$data['settings_original']['entities']['develop']['demo']->fields->field_integer->type = 'integer';
@@ -1517,7 +1517,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['tree']['tree']->storage_id = 'main';
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id->type = 'serial';
+  cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id->type = 'auto';
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->id->not_null = true;
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->title = new \stdClass();
   cache_factory::$data['settings_original']['entities']['tree']['tree']->fields->title->type = 'varchar';
@@ -1531,7 +1531,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->storage_id = 'main';
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->type = 'serial';
+  cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->type = 'auto';
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->id->not_null = true;
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree = new \stdClass();
   cache_factory::$data['settings_original']['entities']['tree']['tree_item']->fields->parent_is_tree->type = 'integer';
@@ -1552,7 +1552,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['user']->storage_id = 'main';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->id->type = 'serial';
+  cache_factory::$data['settings_original']['entities']['user']['user']->fields->id->type = 'auto';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->id->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->email = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->email->type = 'varchar';
