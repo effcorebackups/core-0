@@ -9,6 +9,8 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->title_tag_name = 'legend';
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['default'] = new \effectivecore\form_container();
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['default']->tag_name = 'fieldset';
+  cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['default']->title = 'MySQL + PostgreSQL';
+  cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['default']->title_tag_name = 'legend';
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['default']->children['driver'] = new \effectivecore\form_container();
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['default']->children['driver']->children['mysql'] = new \effectivecore\form_field();
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['default']->children['driver']->children['mysql']->title = 'MySQL';
@@ -81,6 +83,8 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['default']->children['password']->children['element']->attributes['autocomplete'] = 'off';
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['sqlite'] = new \effectivecore\form_container();
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['sqlite']->tag_name = 'fieldset';
+  cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['sqlite']->title = 'SQLite';
+  cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['sqlite']->title_tag_name = 'legend';
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['sqlite']->children['driver'] = new \effectivecore\form_container();
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['sqlite']->children['driver']->children['sqlite'] = new \effectivecore\form_field();
   cache_factory::$data['settings--forms']['core']['installation']->children['storage']->children['sqlite']->children['driver']->children['sqlite']->title = 'SQLite';
