@@ -117,10 +117,10 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['user']->constraints['primary']->type = 'primary key';
   cache_factory::$data['settings--entities']['user']['user']->constraints['primary']->fields['id'] = 'id';
   cache_factory::$data['settings--entities']['user']['user']->constraints['unique_email'] = new \stdClass();
-  cache_factory::$data['settings--entities']['user']['user']->constraints['unique_email']->type = 'unique key';
+  cache_factory::$data['settings--entities']['user']['user']->constraints['unique_email']->type = 'unique';
   cache_factory::$data['settings--entities']['user']['user']->constraints['unique_email']->fields['email'] = 'email';
   cache_factory::$data['settings--entities']['user']['user']->constraints['unique_nick'] = new \stdClass();
-  cache_factory::$data['settings--entities']['user']['user']->constraints['unique_nick']->type = 'unique key';
+  cache_factory::$data['settings--entities']['user']['user']->constraints['unique_nick']->type = 'unique';
   cache_factory::$data['settings--entities']['user']['user']->constraints['unique_nick']->fields['nick'] = 'nick';
   cache_factory::$data['settings--entities']['user']['session'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['user']['session']->name = 'session';
