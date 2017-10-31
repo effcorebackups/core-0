@@ -138,7 +138,7 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['session']->fields->created->not_null = true;
   cache_factory::$data['settings--entities']['user']['session']->fields->created->default = 'current_timestamp';
   cache_factory::$data['settings--entities']['user']['session']->fields->data = new \stdClass();
-  cache_factory::$data['settings--entities']['user']['session']->fields->data->type = 'longblob';
+  cache_factory::$data['settings--entities']['user']['session']->fields->data->type = 'blob';
   cache_factory::$data['settings--entities']['user']['session']->fields->data->null = true;
   cache_factory::$data['settings--entities']['user']['session']->constraints['primary'] = new \stdClass();
   cache_factory::$data['settings--entities']['user']['session']->constraints['primary']->type = 'primary key';

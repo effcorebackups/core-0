@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-31 12:53:17';
+  cache_factory::$info['settings_original']['build'] = '2017-10-31 13:05:43';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1631,7 +1631,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created->default = 'current_timestamp';
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->data = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['user']['session']->fields->data->type = 'longblob';
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->data->type = 'blob';
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->data->null = true;
   cache_factory::$data['settings_original']['entities']['user']['session']->constraints['primary'] = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['session']->constraints['primary']->type = 'primary key';
