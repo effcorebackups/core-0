@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-01 00:17:11';
+  cache_factory::$info['settings_original']['build'] = '2017-11-01 00:35:14';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1896,6 +1896,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['State.'] = 'Сост.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Static block'] = 'Статический блок';
   cache_factory::$data['settings_original']['translations']['locales']->ru['storage %%_id cache for group %%_group will be load'] = 'кэш хранилища %%_id для группы %%_group будет загружен';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Storage name'] = 'Имя хранилища';
