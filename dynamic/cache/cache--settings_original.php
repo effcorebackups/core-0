@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-10-31 13:11:16';
+  cache_factory::$info['settings_original']['build'] = '2017-11-01 00:17:11';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1767,6 +1767,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Core'] = 'Ядро';
   cache_factory::$data['settings_original']['translations']['locales']->ru['created'] = 'создано';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Created'] = 'Создано';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Credentials for storage %%_id was not setted!'] = 'Учётные данные для хранилища %%_id не были заданы!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Credentials'] = 'Учётные данные';
   cache_factory::$data['settings_original']['translations']['locales']->ru['credentials'] = 'учётные данные';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Current field value: %%_value.'] = 'Текущее значение поля: %%_value.';
@@ -1821,10 +1822,12 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['insertion'] = 'вставка';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Install'] = 'Установить';
   cache_factory::$data['settings_original']['translations']['locales']->ru['install'] = 'установить';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Installation is not available because storage credentials was setted!'] = 'Установка недоступна потому, что учетные данные хранилища уже были установлены.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Installation'] = 'Установка';
   cache_factory::$data['settings_original']['translations']['locales']->ru['installation'] = 'установка';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Instances of entity %%_name was added.'] = 'Экземпляры сущности %%_name были добавлены.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Instances of entity %%_name was not added!'] = 'Экземпляры сущности %%_name не были добавлены!';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['invalid session was deleted!'] = 'Недействительный сеанс был удален!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Is always on'] = 'Всегда включен';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Is embed'] = 'Встроенный';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
@@ -1839,6 +1842,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Main system module.'] = 'Основной модуль системы.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Memory for php (bytes)'] = 'Память для php (байт)';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Moderators'] = 'Модераторы';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
@@ -1899,7 +1903,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['storage'] = 'хранилище';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Storage'] = 'Хранилище';
   cache_factory::$data['settings_original']['translations']['locales']->ru['submit'] = 'отправить';
-  cache_factory::$data['settings_original']['translations']['locales']->ru['System was installed!'] = 'Система была установлена!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['System'] = 'Система';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Table prefix'] = 'Префикс таблиц';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Telephone'] = 'Телефон';
