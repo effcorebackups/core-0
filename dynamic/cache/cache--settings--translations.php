@@ -75,6 +75,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache_factory::$data['settings--translations']['locales']->ru['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
   cache_factory::$data['settings--translations']['locales']->ru['Field value is not a valid number.'] = 'Значение поля не является допустимым числом.';
+  cache_factory::$data['settings--translations']['locales']->ru['Field value is not in valid range.'] = 'Значение поля не соответствует допустимому диапазону.';
   cache_factory::$data['settings--translations']['locales']->ru['File'] = 'Файл';
   cache_factory::$data['settings--translations']['locales']->ru['file'] = 'файл';
   cache_factory::$data['settings--translations']['locales']->ru['Form elements'] = 'Элементы формы';

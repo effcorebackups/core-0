@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-01 01:26:58';
+  cache_factory::$info['settings_original']['build'] = '2017-11-02 14:32:20';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -442,10 +442,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['type'] = 'number';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['name'] = 'number';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['required'] = 'required';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['value'] = 0;
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['min'] = -5;
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['max'] = 5;
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['step'] = 0.3;
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['value'] = -1;
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['min'] = -1;
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['max'] = 1;
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['step'] = 0.1;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->title = 'Range';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->description = new \effectivecore\text();
@@ -455,10 +455,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->tag_name = 'input';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->attributes['type'] = 'range';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->attributes['name'] = 'range';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->attributes['value'] = 0;
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->attributes['min'] = -5;
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->attributes['max'] = 5;
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->attributes['step'] = 0.3;
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->attributes['value'] = -1;
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->attributes['min'] = -1;
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->attributes['max'] = 1;
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->attributes['step'] = 0.1;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['range']->children['element']->attributes['required'] = 'required';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['date'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['date']->title = 'Date';
@@ -1812,6 +1812,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field value is not a valid number.'] = 'Значение поля не является допустимым числом.';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Field value is not in valid range.'] = 'Значение поля не соответствует допустимому диапазону.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['File'] = 'Файл';
   cache_factory::$data['settings_original']['translations']['locales']->ru['file'] = 'файл';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Form elements'] = 'Элементы формы';
