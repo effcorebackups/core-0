@@ -248,8 +248,8 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['name'] = 'number';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['required'] = 'required';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['value'] = 0;
-  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['min'] = -1;
-  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['max'] = 1;
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['min'] = -1000;
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['max'] = 1000;
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['number']->children['element']->attributes['step'] = 0.2;
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['range'] = new \effectivecore\form_field();
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['range']->title = 'Range';
