@@ -66,6 +66,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" contains an incorrect date!'] = 'Поле "%%_title" содержит неверную дату!';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" contains an incorrect email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
+  cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" contains an incorrect time!'] = 'Поле "%%_title" содержит неверное время!';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" is not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
