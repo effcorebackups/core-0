@@ -288,10 +288,10 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['type'] = 'time';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['name'] = 'time';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['required'] = 'required';
-  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['value'] = '04:05:06';
-  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['min'] = '01:02:03';
-  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['max'] = '07:08:09';
-  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['step'] = 1;
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['value'] = '00:00:00';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['min'] = '01:00:00';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['max'] = '23:08:00';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['step'] = 60;
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['color'] = new \effectivecore\form_field();
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['color']->title = 'Color';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['color']->description = new \effectivecore\text();
