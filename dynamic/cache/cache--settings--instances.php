@@ -49,7 +49,7 @@ namespace effectivecore { # cache for settings--instances
   cache_factory::$data['settings--instances']['user']['relation_role_ws_user_admins_1'] = new \effectivecore\instance();
   cache_factory::$data['settings--instances']['user']['relation_role_ws_user_admins_1']->entity_name = 'relation_role_ws_user';
   cache_factory::$data['settings--instances']['user']['relation_role_ws_user_admins_1']->values['role_id'] = 'admins';
-  cache_factory::$data['settings--instances']['user']['relation_role_ws_user_admins_1']->values['user_id'] = 1;
+  cache_factory::$data['settings--instances']['user']['relation_role_ws_user_admins_1']->values['id_user'] = 1;
   cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_select'] = new \effectivecore\instance();
   cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_select']->entity_name = 'relation_role_ws_permission';
   cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_select']->values['role_id'] = 'admins';

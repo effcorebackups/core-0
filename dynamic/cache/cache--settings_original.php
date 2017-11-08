@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-08 17:09:25';
+  cache_factory::$info['settings_original']['build'] = '2017-11-08 17:18:55';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1122,7 +1122,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['user']->display = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['user']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['user']->display->url->match = '%^/user/[0-9]+$%';
-  cache_factory::$data['settings_original']['pages']['user']['user']->display->url->args['user_id'] = 2;
+  cache_factory::$data['settings_original']['pages']['user']['user']->display->url->args['id_user'] = 2;
   cache_factory::$data['settings_original']['pages']['user']['user_delete'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['user']['user_delete']->title = 'Delete user %%_nick_context{4}?';
   cache_factory::$data['settings_original']['pages']['user']['user_delete']->access = new \stdClass();
@@ -1147,7 +1147,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['user_delete']->display = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['user_delete']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['user_delete']->display->url->match = '%^/admin/users/delete/[0-9]+$%';
-  cache_factory::$data['settings_original']['pages']['user']['user_delete']->display->url->args['user_id'] = 4;
+  cache_factory::$data['settings_original']['pages']['user']['user_delete']->display->url->args['id_user'] = 4;
   cache_factory::$data['settings_original']['pages']['user']['user_edit'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['user']['user_edit']->title = 'Edit user %%_nick_context{2}';
   cache_factory::$data['settings_original']['pages']['user']['user_edit']->access = new \stdClass();
@@ -1173,7 +1173,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['user']['user_edit']->display = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['user_edit']->display->url = new \stdClass();
   cache_factory::$data['settings_original']['pages']['user']['user_edit']->display->url->match = '%^/user/[0-9]+/edit$%';
-  cache_factory::$data['settings_original']['pages']['user']['user_edit']->display->url->args['user_id'] = 2;
+  cache_factory::$data['settings_original']['pages']['user']['user_edit']->display->url->args['id_user'] = 2;
   cache_factory::$data['settings_original']['pages']['user']['users'] = new \effectivecore\page();
   cache_factory::$data['settings_original']['pages']['user']['users']->title = 'Users';
   cache_factory::$data['settings_original']['pages']['user']['users']->access = new \stdClass();
@@ -1239,10 +1239,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tokens']['page']['color_warning']->match = '%%_color_warning';
   cache_factory::$data['settings_original']['tokens']['page']['color_warning']->type = 'text';
   cache_factory::$data['settings_original']['tokens']['page']['color_warning']->value = 'orange';
-  cache_factory::$data['settings_original']['tokens']['user']['user_id'] = new \stdClass();
-  cache_factory::$data['settings_original']['tokens']['user']['user_id']->match = '%%_user_id';
-  cache_factory::$data['settings_original']['tokens']['user']['user_id']->type = 'code';
-  cache_factory::$data['settings_original']['tokens']['user']['user_id']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
+  cache_factory::$data['settings_original']['tokens']['user']['id_user'] = new \stdClass();
+  cache_factory::$data['settings_original']['tokens']['user']['id_user']->match = '%%_id_user';
+  cache_factory::$data['settings_original']['tokens']['user']['id_user']->type = 'code';
+  cache_factory::$data['settings_original']['tokens']['user']['id_user']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
   cache_factory::$data['settings_original']['tokens']['user']['email'] = new \stdClass();
   cache_factory::$data['settings_original']['tokens']['user']['email']->match = '%%_email';
   cache_factory::$data['settings_original']['tokens']['user']['email']->type = 'code';
@@ -1251,10 +1251,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tokens']['user']['nick']->match = '%%_nick';
   cache_factory::$data['settings_original']['tokens']['user']['nick']->type = 'code';
   cache_factory::$data['settings_original']['tokens']['user']['nick']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
-  cache_factory::$data['settings_original']['tokens']['user']['user_id_context'] = new \stdClass();
-  cache_factory::$data['settings_original']['tokens']['user']['user_id_context']->match = '%%_user_id_context';
-  cache_factory::$data['settings_original']['tokens']['user']['user_id_context']->type = 'code';
-  cache_factory::$data['settings_original']['tokens']['user']['user_id_context']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
+  cache_factory::$data['settings_original']['tokens']['user']['id_user_context'] = new \stdClass();
+  cache_factory::$data['settings_original']['tokens']['user']['id_user_context']->match = '%%_id_user_context';
+  cache_factory::$data['settings_original']['tokens']['user']['id_user_context']->type = 'code';
+  cache_factory::$data['settings_original']['tokens']['user']['id_user_context']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
   cache_factory::$data['settings_original']['tokens']['user']['email_context'] = new \stdClass();
   cache_factory::$data['settings_original']['tokens']['user']['email_context']->match = '%%_email_context';
   cache_factory::$data['settings_original']['tokens']['user']['email_context']->type = 'code';
@@ -1341,7 +1341,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tree_items']['user']['user']->id_parent = 'user';
   cache_factory::$data['settings_original']['tree_items']['user']['user']->parent_is_tree = true;
   cache_factory::$data['settings_original']['tree_items']['user']['user']->title = '%%_nick';
-  cache_factory::$data['settings_original']['tree_items']['user']['user']->attributes['href'] = '/user/%%_user_id';
+  cache_factory::$data['settings_original']['tree_items']['user']['user']->attributes['href'] = '/user/%%_id_user';
   cache_factory::$data['settings_original']['tree_items']['user']['user']->attributes['class']['user'] = 'user';
   cache_factory::$data['settings_original']['tree_items']['user']['user']->access = new \stdClass();
   cache_factory::$data['settings_original']['tree_items']['user']['user']->access->roles['admins'] = 'admins';
@@ -1350,7 +1350,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['tree_items']['user']['user_edit']->id = 'user_edit';
   cache_factory::$data['settings_original']['tree_items']['user']['user_edit']->id_parent = 'user';
   cache_factory::$data['settings_original']['tree_items']['user']['user_edit']->title = 'edit';
-  cache_factory::$data['settings_original']['tree_items']['user']['user_edit']->attributes['href'] = '/user/%%_user_id/edit';
+  cache_factory::$data['settings_original']['tree_items']['user']['user_edit']->attributes['href'] = '/user/%%_id_user/edit';
   cache_factory::$data['settings_original']['tree_items']['user']['user_edit']->attributes['class']['user-edit'] = 'user-edit';
   cache_factory::$data['settings_original']['tree_items']['user']['user_edit']->weight = -100;
   cache_factory::$data['settings_original']['tree_items']['user']['user_edit']->access = new \stdClass();
@@ -1630,9 +1630,9 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->id->type = 'varchar';
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->id->size = 255;
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->id->not_null = true;
-  cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_id->type = 'integer';
-  cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_id->not_null = true;
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->id_user = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->id_user->type = 'integer';
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->id_user->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created->type = 'timestamp';
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created->not_null = true;
@@ -1685,13 +1685,13 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->role_id->type = 'varchar';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->role_id->size = 255;
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->role_id->not_null = true;
-  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->user_id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->user_id->type = 'integer';
-  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->user_id->not_null = true;
+  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->id_user = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->id_user->type = 'integer';
+  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->fields->id_user->not_null = true;
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->constraints['primary'] = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->constraints['primary']->type = 'primary key';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->constraints['primary']->fields['role_id'] = 'role_id';
-  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->constraints['primary']->fields['user_id'] = 'user_id';
+  cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_user']->constraints['primary']->fields['id_user'] = 'id_user';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission']->name = 'relation_role_ws_permission';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission']->storage_id = 'main';
@@ -2127,7 +2127,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['instances']['user']['relation_role_ws_user_admins_1'] = new \effectivecore\instance();
   cache_factory::$data['settings_original']['instances']['user']['relation_role_ws_user_admins_1']->entity_name = 'relation_role_ws_user';
   cache_factory::$data['settings_original']['instances']['user']['relation_role_ws_user_admins_1']->values['role_id'] = 'admins';
-  cache_factory::$data['settings_original']['instances']['user']['relation_role_ws_user_admins_1']->values['user_id'] = 1;
+  cache_factory::$data['settings_original']['instances']['user']['relation_role_ws_user_admins_1']->values['id_user'] = 1;
   cache_factory::$data['settings_original']['instances']['user']['relation_role_ws_permission_admins_user_select'] = new \effectivecore\instance();
   cache_factory::$data['settings_original']['instances']['user']['relation_role_ws_permission_admins_user_select']->entity_name = 'relation_role_ws_permission';
   cache_factory::$data['settings_original']['instances']['user']['relation_role_ws_permission_admins_user_select']->values['role_id'] = 'admins';

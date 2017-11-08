@@ -80,7 +80,7 @@ namespace effectivecore { # cache for settings--tree_items
   cache_factory::$data['settings--tree_items']['user']['user']->id_parent = 'user';
   cache_factory::$data['settings--tree_items']['user']['user']->parent_is_tree = true;
   cache_factory::$data['settings--tree_items']['user']['user']->title = '%%_nick';
-  cache_factory::$data['settings--tree_items']['user']['user']->attributes['href'] = '/user/%%_user_id';
+  cache_factory::$data['settings--tree_items']['user']['user']->attributes['href'] = '/user/%%_id_user';
   cache_factory::$data['settings--tree_items']['user']['user']->attributes['class']['user'] = 'user';
   cache_factory::$data['settings--tree_items']['user']['user']->access = new \stdClass();
   cache_factory::$data['settings--tree_items']['user']['user']->access->roles['admins'] = 'admins';
@@ -89,7 +89,7 @@ namespace effectivecore { # cache for settings--tree_items
   cache_factory::$data['settings--tree_items']['user']['user_edit']->id = 'user_edit';
   cache_factory::$data['settings--tree_items']['user']['user_edit']->id_parent = 'user';
   cache_factory::$data['settings--tree_items']['user']['user_edit']->title = 'edit';
-  cache_factory::$data['settings--tree_items']['user']['user_edit']->attributes['href'] = '/user/%%_user_id/edit';
+  cache_factory::$data['settings--tree_items']['user']['user_edit']->attributes['href'] = '/user/%%_id_user/edit';
   cache_factory::$data['settings--tree_items']['user']['user_edit']->attributes['class']['user-edit'] = 'user-edit';
   cache_factory::$data['settings--tree_items']['user']['user_edit']->weight = -100;
   cache_factory::$data['settings--tree_items']['user']['user_edit']->access = new \stdClass();
