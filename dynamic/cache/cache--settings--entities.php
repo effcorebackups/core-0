@@ -73,13 +73,13 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id->type = 'autoincrement';
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id->not_null = true;
+  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id_parent = new \stdClass();
+  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id_parent->type = 'integer';
+  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->id_parent->not_null = true;
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_is_tree = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_is_tree->type = 'integer';
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_is_tree->not_null = true;
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_is_tree->default = 0;
-  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_id = new \stdClass();
-  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_id->type = 'integer';
-  cache_factory::$data['settings--entities']['tree']['tree_item']->fields->parent_id->not_null = true;
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->title = new \stdClass();
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->title->type = 'varchar';
   cache_factory::$data['settings--entities']['tree']['tree_item']->fields->title->size = 255;
