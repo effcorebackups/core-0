@@ -48,19 +48,19 @@ namespace effectivecore { # cache for settings--instances
   cache_factory::$data['settings--instances']['user']['permission_user_delete']->values['title'] = 'User: delete';
   cache_factory::$data['settings--instances']['user']['relation_role_ws_user_admins_1'] = new \effectivecore\instance();
   cache_factory::$data['settings--instances']['user']['relation_role_ws_user_admins_1']->entity_name = 'relation_role_ws_user';
-  cache_factory::$data['settings--instances']['user']['relation_role_ws_user_admins_1']->values['role_id'] = 'admins';
+  cache_factory::$data['settings--instances']['user']['relation_role_ws_user_admins_1']->values['id_role'] = 'admins';
   cache_factory::$data['settings--instances']['user']['relation_role_ws_user_admins_1']->values['id_user'] = 1;
   cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_select'] = new \effectivecore\instance();
   cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_select']->entity_name = 'relation_role_ws_permission';
-  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_select']->values['role_id'] = 'admins';
-  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_select']->values['permission_id'] = 'user_select';
+  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_select']->values['id_role'] = 'admins';
+  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_select']->values['id_permission'] = 'user_select';
   cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_update'] = new \effectivecore\instance();
   cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_update']->entity_name = 'relation_role_ws_permission';
-  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_update']->values['role_id'] = 'admins';
-  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_update']->values['permission_id'] = 'user_update';
+  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_update']->values['id_role'] = 'admins';
+  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_update']->values['id_permission'] = 'user_update';
   cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_insert'] = new \effectivecore\instance();
   cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_insert']->entity_name = 'relation_role_ws_permission';
-  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_insert']->values['role_id'] = 'admins';
-  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_insert']->values['permission_id'] = 'user_insert';
+  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_insert']->values['id_role'] = 'admins';
+  cache_factory::$data['settings--instances']['user']['relation_role_ws_permission_admins_user_insert']->values['id_permission'] = 'user_insert';
 
 }
