@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-09 23:12:58';
+  cache_factory::$info['classes_map']['build'] = '2017-11-09 23:22:46';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -197,6 +197,12 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\modules\page\page_factory']->namespace = 'effectivecore\\modules\\page';
   cache_factory::$data['classes_map']['effectivecore\modules\page\page_factory']->name = 'page_factory';
   cache_factory::$data['classes_map']['effectivecore\modules\page\page_factory']->file = 'modules/page/backend/factory--page.php';
+  cache_factory::$data['classes_map']['effectivecore\canvas_svg'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\canvas_svg']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\canvas_svg']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\canvas_svg']->name = 'canvas_svg';
+  cache_factory::$data['classes_map']['effectivecore\canvas_svg']->extends = '\\effectivecore\\node_simple';
+  cache_factory::$data['classes_map']['effectivecore\canvas_svg']->file = 'modules/page/backend/pattern--canvas_svg.php';
   cache_factory::$data['classes_map']['effectivecore\captcha'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\captcha']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\captcha']->namespace = 'effectivecore';
@@ -292,12 +298,6 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\pager']->name = 'pager';
   cache_factory::$data['classes_map']['effectivecore\pager']->extends = '\\effectivecore\\markup';
   cache_factory::$data['classes_map']['effectivecore\pager']->file = 'modules/page/backend/pattern--pager.php';
-  cache_factory::$data['classes_map']['effectivecore\svg_canvas'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\svg_canvas']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\svg_canvas']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\svg_canvas']->name = 'svg_canvas';
-  cache_factory::$data['classes_map']['effectivecore\svg_canvas']->extends = '\\effectivecore\\node_simple';
-  cache_factory::$data['classes_map']['effectivecore\svg_canvas']->file = 'modules/page/backend/pattern--svg_canvas.php';
   cache_factory::$data['classes_map']['effectivecore\table'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\table']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\table']->namespace = 'effectivecore';

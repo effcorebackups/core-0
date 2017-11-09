@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-09 23:12:58';
+  cache_factory::$info['settings_original']['build'] = '2017-11-09 23:22:46';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -2079,7 +2079,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['templates']['page']['page'] = 'frontend/template--page.html';
   cache_factory::$data['settings_original']['templates']['page']['page_simple'] = 'frontend/template--page_simple.html';
   cache_factory::$data['settings_original']['templates']['page']['form_container'] = 'frontend/template--form_container.html';
-  cache_factory::$data['settings_original']['templates']['page']['svg_canvas'] = 'frontend/template--svg_canvas.xml';
+  cache_factory::$data['settings_original']['templates']['page']['canvas_svg'] = 'frontend/template--canvas_svg.xml';
   cache_factory::$data['settings_original']['templates']['tree']['tree'] = 'frontend/template--tree.html';
   cache_factory::$data['settings_original']['templates']['tree']['tree_item'] = 'frontend/template--tree_item.html';
   cache_factory::$data['settings_original']['templates']['tree']['tree_item_children'] = 'frontend/template--tree_item_children.html';
