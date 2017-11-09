@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-09 17:58:24';
+  cache_factory::$info['classes_map']['build'] = '2017-11-09 18:11:25';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -70,11 +70,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\event_factory']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\event_factory']->name = 'event_factory';
   cache_factory::$data['classes_map']['effectivecore\event_factory']->file = 'modules/core/backend/factory--gl--event.php';
-  cache_factory::$data['classes_map']['effectivecore\files_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\files_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\files_factory']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\files_factory']->name = 'files_factory';
-  cache_factory::$data['classes_map']['effectivecore\files_factory']->file = 'modules/core/backend/factory--gl--files.php';
+  cache_factory::$data['classes_map']['effectivecore\file_factory'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\file_factory']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\file_factory']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\file_factory']->name = 'file_factory';
+  cache_factory::$data['classes_map']['effectivecore\file_factory']->file = 'modules/core/backend/factory--gl--file.php';
   cache_factory::$data['classes_map']['effectivecore\instance_factory'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\instance_factory']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\instance_factory']->namespace = 'effectivecore';
