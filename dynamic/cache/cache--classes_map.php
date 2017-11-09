@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-09 19:51:03';
+  cache_factory::$info['classes_map']['build'] = '2017-11-09 22:53:19';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -263,6 +263,18 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\markup_simple']->name = 'markup_simple';
   cache_factory::$data['classes_map']['effectivecore\markup_simple']->extends = '\\effectivecore\\node_simple';
   cache_factory::$data['classes_map']['effectivecore\markup_simple']->file = 'modules/page/backend/pattern--markup_simple.php';
+  cache_factory::$data['classes_map']['effectivecore\markup_xml'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\markup_xml']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\markup_xml']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\markup_xml']->name = 'markup_xml';
+  cache_factory::$data['classes_map']['effectivecore\markup_xml']->extends = '\\effectivecore\\markup';
+  cache_factory::$data['classes_map']['effectivecore\markup_xml']->file = 'modules/page/backend/pattern--markup_xml.php';
+  cache_factory::$data['classes_map']['effectivecore\markup_xml_simple'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\markup_xml_simple']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\markup_xml_simple']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\markup_xml_simple']->name = 'markup_xml_simple';
+  cache_factory::$data['classes_map']['effectivecore\markup_xml_simple']->extends = '\\effectivecore\\markup_simple';
+  cache_factory::$data['classes_map']['effectivecore\markup_xml_simple']->file = 'modules/page/backend/pattern--markup_xml_simple.php';
   cache_factory::$data['classes_map']['effectivecore\page'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\page']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\page']->namespace = 'effectivecore';

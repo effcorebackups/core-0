@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-09 19:51:03';
+  cache_factory::$info['settings_original']['build'] = '2017-11-09 22:53:19';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -2077,8 +2077,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree'] = new \stdClass();
   cache_factory::$data['settings_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree']->file = 'frontend/tree.css';
   cache_factory::$data['settings_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree']->media = 'all';
-  cache_factory::$data['settings_original']['templates']['page']['markup_element'] = 'frontend/template--markup_element.html';
-  cache_factory::$data['settings_original']['templates']['page']['markup_element_simple'] = 'frontend/template--markup_element.simple.html';
+  cache_factory::$data['settings_original']['templates']['page']['markup_html'] = 'frontend/template--markup.html';
+  cache_factory::$data['settings_original']['templates']['page']['markup_html_simple'] = 'frontend/template--markup_simple.html';
+  cache_factory::$data['settings_original']['templates']['page']['markup_xml'] = 'frontend/template--markup.xml';
+  cache_factory::$data['settings_original']['templates']['page']['markup_xml_simple'] = 'frontend/template--markup_simple.xml';
   cache_factory::$data['settings_original']['templates']['page']['page'] = 'frontend/template--page.html';
   cache_factory::$data['settings_original']['templates']['page']['page_simple'] = 'frontend/template--page_simple.html';
   cache_factory::$data['settings_original']['templates']['page']['form_container'] = 'frontend/template--form_container.html';
