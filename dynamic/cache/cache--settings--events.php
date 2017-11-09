@@ -88,10 +88,6 @@ namespace effectivecore { # cache for settings--events
   cache_factory::$data['settings--events']['user']->on_module_install['user']->for = 'user';
   cache_factory::$data['settings--events']['user']->on_module_install['user']->handler = '\\effectivecore\\modules\\user\\events_module::on_install';
   cache_factory::$data['settings--events']['user']->on_module_install['user']->weight = 0;
-  cache_factory::$data['settings--events']['user']->on_form_init['login'] = new \stdClass();
-  cache_factory::$data['settings--events']['user']->on_form_init['login']->for = 'login';
-  cache_factory::$data['settings--events']['user']->on_form_init['login']->handler = '\\effectivecore\\modules\\user\\events_form::on_init_login';
-  cache_factory::$data['settings--events']['user']->on_form_init['login']->weight = 0;
   cache_factory::$data['settings--events']['user']->on_form_init['user_edit'] = new \stdClass();
   cache_factory::$data['settings--events']['user']->on_form_init['user_edit']->for = 'user_edit';
   cache_factory::$data['settings--events']['user']->on_form_init['user_edit']->handler = '\\effectivecore\\modules\\user\\events_form::on_init_user_edit';

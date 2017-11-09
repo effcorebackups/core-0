@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-09 22:53:19';
+  cache_factory::$info['settings_original']['build'] = '2017-11-09 23:12:58';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -138,10 +138,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->for = 'user';
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->handler = '\\effectivecore\\modules\\user\\events_module::on_install';
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->weight = 0;
-  cache_factory::$data['settings_original']['events']['user']->on_form_init['login'] = new \stdClass();
-  cache_factory::$data['settings_original']['events']['user']->on_form_init['login']->for = 'login';
-  cache_factory::$data['settings_original']['events']['user']->on_form_init['login']->handler = '\\effectivecore\\modules\\user\\events_form::on_init_login';
-  cache_factory::$data['settings_original']['events']['user']->on_form_init['login']->weight = 0;
   cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit']->for = 'user_edit';
   cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit']->handler = '\\effectivecore\\modules\\user\\events_form::on_init_user_edit';
@@ -767,9 +763,8 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
-  cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['captcha'] = new \effectivecore\svg();
-  cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['captcha']->width = 200;
-  cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['captcha']->height = 150;
+  cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['captcha'] = new \effectivecore\captcha();
+  cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['captcha']->length = 6;
   cache_factory::$data['settings_original']['forms']['user']['login']->children['button_login'] = new \effectivecore\markup();
   cache_factory::$data['settings_original']['forms']['user']['login']->children['button_login']->tag_name = 'button';
   cache_factory::$data['settings_original']['forms']['user']['login']->children['button_login']->children['label'] = new \effectivecore\text();
@@ -2084,7 +2079,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['templates']['page']['page'] = 'frontend/template--page.html';
   cache_factory::$data['settings_original']['templates']['page']['page_simple'] = 'frontend/template--page_simple.html';
   cache_factory::$data['settings_original']['templates']['page']['form_container'] = 'frontend/template--form_container.html';
-  cache_factory::$data['settings_original']['templates']['page']['svg'] = 'frontend/template--svg.xml';
+  cache_factory::$data['settings_original']['templates']['page']['svg_canvas'] = 'frontend/template--svg_canvas.xml';
   cache_factory::$data['settings_original']['templates']['tree']['tree'] = 'frontend/template--tree.html';
   cache_factory::$data['settings_original']['templates']['tree']['tree_item'] = 'frontend/template--tree_item.html';
   cache_factory::$data['settings_original']['templates']['tree']['tree_item_children'] = 'frontend/template--tree_item_children.html';
