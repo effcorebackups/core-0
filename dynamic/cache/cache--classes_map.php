@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-09 17:32:19';
+  cache_factory::$info['classes_map']['build'] = '2017-11-09 17:37:34';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -192,11 +192,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\modules\page\events_token']->name = 'events_token';
   cache_factory::$data['classes_map']['effectivecore\modules\page\events_token']->extends = '\\effectivecore\\events_token';
   cache_factory::$data['classes_map']['effectivecore\modules\page\events_token']->file = 'modules/page/backend/events--token.php';
-  cache_factory::$data['classes_map']['effectivecore\modules\page\pages_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\modules\page\pages_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\modules\page\pages_factory']->namespace = 'effectivecore\\modules\\page';
-  cache_factory::$data['classes_map']['effectivecore\modules\page\pages_factory']->name = 'pages_factory';
-  cache_factory::$data['classes_map']['effectivecore\modules\page\pages_factory']->file = 'modules/page/backend/factory--pages.php';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\page_factory'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\modules\page\page_factory']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\page_factory']->namespace = 'effectivecore\\modules\\page';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\page_factory']->name = 'page_factory';
+  cache_factory::$data['classes_map']['effectivecore\modules\page\page_factory']->file = 'modules/page/backend/factory--page.php';
   cache_factory::$data['classes_map']['effectivecore\control_actions_list'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\control_actions_list']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\control_actions_list']->namespace = 'effectivecore';
