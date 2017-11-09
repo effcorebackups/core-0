@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-09 16:39:04';
+  cache_factory::$info['settings_original']['build'] = '2017-11-09 17:18:57';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1708,26 +1708,28 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission']->constraints['primary']->type = 'primary key';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission']->constraints['primary']->fields['id_role'] = 'id_role';
   cache_factory::$data['settings_original']['entities']['user']['relation_role_ws_permission']->constraints['primary']->fields['id_permission'] = 'id_permission';
-  cache_factory::$data['settings_original']['countries']['locales']['us'] = new \stdClass();
-  cache_factory::$data['settings_original']['countries']['locales']['us']->title = new \stdClass();
-  cache_factory::$data['settings_original']['countries']['locales']['us']->title->en = 'United States of America';
-  cache_factory::$data['settings_original']['countries']['locales']['us']->title->native = 'United States of America';
-  cache_factory::$data['settings_original']['countries']['locales']['us']->languages['en'] = 'en';
-  cache_factory::$data['settings_original']['countries']['locales']['us']->format_date = 'Y-m-d';
-  cache_factory::$data['settings_original']['countries']['locales']['us']->format_time = 'h:i:s';
-  cache_factory::$data['settings_original']['countries']['locales']['us']->format_datetime = 'Y-m-d h:i:s';
-  cache_factory::$data['settings_original']['countries']['locales']['us']->decimal_point = '.';
-  cache_factory::$data['settings_original']['countries']['locales']['us']->phone_prefix = 0;
-  cache_factory::$data['settings_original']['countries']['locales']['ru'] = new \stdClass();
-  cache_factory::$data['settings_original']['countries']['locales']['ru']->title = new \stdClass();
-  cache_factory::$data['settings_original']['countries']['locales']['ru']->title->en = 'Russian Federation';
-  cache_factory::$data['settings_original']['countries']['locales']['ru']->title->native = 'Российская Федерация';
-  cache_factory::$data['settings_original']['countries']['locales']['ru']->languages['ru'] = 'ru';
-  cache_factory::$data['settings_original']['countries']['locales']['ru']->format_date = 'd.m.Y';
-  cache_factory::$data['settings_original']['countries']['locales']['ru']->format_time = 'H:i:s';
-  cache_factory::$data['settings_original']['countries']['locales']['ru']->format_datetime = 'd.m.Y H:i:s';
-  cache_factory::$data['settings_original']['countries']['locales']['ru']->decimal_point = ',';
-  cache_factory::$data['settings_original']['countries']['locales']['ru']->phone_prefix = 7;
+  cache_factory::$data['settings_original']['countries']['locales']['usa'] = new \stdClass();
+  cache_factory::$data['settings_original']['countries']['locales']['usa']->code = 'usa';
+  cache_factory::$data['settings_original']['countries']['locales']['usa']->title = new \stdClass();
+  cache_factory::$data['settings_original']['countries']['locales']['usa']->title->en = 'United States of America';
+  cache_factory::$data['settings_original']['countries']['locales']['usa']->title->native = 'United States of America';
+  cache_factory::$data['settings_original']['countries']['locales']['usa']->languages['en'] = 'en';
+  cache_factory::$data['settings_original']['countries']['locales']['usa']->format_date = 'Y-m-d';
+  cache_factory::$data['settings_original']['countries']['locales']['usa']->format_time = 'h:i:s';
+  cache_factory::$data['settings_original']['countries']['locales']['usa']->format_datetime = 'Y-m-d h:i:s';
+  cache_factory::$data['settings_original']['countries']['locales']['usa']->decimal_point = '.';
+  cache_factory::$data['settings_original']['countries']['locales']['usa']->phone_prefix = 0;
+  cache_factory::$data['settings_original']['countries']['locales']['rus'] = new \stdClass();
+  cache_factory::$data['settings_original']['countries']['locales']['rus']->code = 'rus';
+  cache_factory::$data['settings_original']['countries']['locales']['rus']->title = new \stdClass();
+  cache_factory::$data['settings_original']['countries']['locales']['rus']->title->en = 'Russian Federation';
+  cache_factory::$data['settings_original']['countries']['locales']['rus']->title->native = 'Российская Федерация';
+  cache_factory::$data['settings_original']['countries']['locales']['rus']->languages['ru'] = 'ru';
+  cache_factory::$data['settings_original']['countries']['locales']['rus']->format_date = 'd.m.Y';
+  cache_factory::$data['settings_original']['countries']['locales']['rus']->format_time = 'H:i:s';
+  cache_factory::$data['settings_original']['countries']['locales']['rus']->format_datetime = 'd.m.Y H:i:s';
+  cache_factory::$data['settings_original']['countries']['locales']['rus']->decimal_point = ',';
+  cache_factory::$data['settings_original']['countries']['locales']['rus']->phone_prefix = 7;
   cache_factory::$data['settings_original']['current']['locales'] = new \stdClass();
   cache_factory::$data['settings_original']['current']['locales']->lang_code = 'ru';
   cache_factory::$data['settings_original']['current']['locales']->decimal_point = ',';

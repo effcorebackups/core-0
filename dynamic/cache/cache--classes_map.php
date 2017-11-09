@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-09 16:39:04';
+  cache_factory::$info['classes_map']['build'] = '2017-11-09 17:18:57';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -154,11 +154,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\modules\develop\events_page']->name = 'events_page';
   cache_factory::$data['classes_map']['effectivecore\modules\develop\events_page']->extends = '\\effectivecore\\events_page';
   cache_factory::$data['classes_map']['effectivecore\modules\develop\events_page']->file = 'modules/develop/backend/events--page.php';
-  cache_factory::$data['classes_map']['effectivecore\languages_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\languages_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\languages_factory']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\languages_factory']->name = 'languages_factory';
-  cache_factory::$data['classes_map']['effectivecore\languages_factory']->file = 'modules/locales/backend/factory--gl--languages.php';
+  cache_factory::$data['classes_map']['effectivecore\language_factory'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\language_factory']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\language_factory']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\language_factory']->name = 'language_factory';
+  cache_factory::$data['classes_map']['effectivecore\language_factory']->file = 'modules/locales/backend/factory--gl--language.php';
   cache_factory::$data['classes_map']['effectivecore\locales_factory'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\locales_factory']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\locales_factory']->namespace = 'effectivecore';
