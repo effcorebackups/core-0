@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-09 16:06:10';
+  cache_factory::$info['classes_map']['build'] = '2017-11-09 16:12:14';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -80,11 +80,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\instances_factory']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\instances_factory']->name = 'instances_factory';
   cache_factory::$data['classes_map']['effectivecore\instances_factory']->file = 'modules/core/backend/factory--gl--instances.php';
-  cache_factory::$data['classes_map']['effectivecore\messages_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\messages_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\messages_factory']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\messages_factory']->name = 'messages_factory';
-  cache_factory::$data['classes_map']['effectivecore\messages_factory']->file = 'modules/core/backend/factory--gl--messages.php';
+  cache_factory::$data['classes_map']['effectivecore\message_factory'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\message_factory']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\message_factory']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\message_factory']->name = 'message_factory';
+  cache_factory::$data['classes_map']['effectivecore\message_factory']->file = 'modules/core/backend/factory--gl--message.php';
   cache_factory::$data['classes_map']['effectivecore\timer_factory'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\timer_factory']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\timer_factory']->namespace = 'effectivecore';
