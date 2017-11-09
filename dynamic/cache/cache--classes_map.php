@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-09 13:52:54';
+  cache_factory::$info['classes_map']['build'] = '2017-11-09 14:41:26';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -75,6 +75,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\files_factory']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\files_factory']->name = 'files_factory';
   cache_factory::$data['classes_map']['effectivecore\files_factory']->file = 'modules/core/backend/factory--gl--files.php';
+  cache_factory::$data['classes_map']['effectivecore\instances_factory'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\instances_factory']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\instances_factory']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\instances_factory']->name = 'instances_factory';
+  cache_factory::$data['classes_map']['effectivecore\instances_factory']->file = 'modules/core/backend/factory--gl--instances.php';
   cache_factory::$data['classes_map']['effectivecore\messages_factory'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\messages_factory']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\messages_factory']->namespace = 'effectivecore';
