@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-09 17:49:22';
+  cache_factory::$info['classes_map']['build'] = '2017-11-09 17:52:46';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -409,10 +409,10 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\modules\user\session_factory']->namespace = 'effectivecore\\modules\\user';
   cache_factory::$data['classes_map']['effectivecore\modules\user\session_factory']->name = 'session_factory';
   cache_factory::$data['classes_map']['effectivecore\modules\user\session_factory']->file = 'modules/user/backend/factory--session.php';
-  cache_factory::$data['classes_map']['effectivecore\modules\user\users_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\modules\user\users_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\modules\user\users_factory']->namespace = 'effectivecore\\modules\\user';
-  cache_factory::$data['classes_map']['effectivecore\modules\user\users_factory']->name = 'users_factory';
-  cache_factory::$data['classes_map']['effectivecore\modules\user\users_factory']->file = 'modules/user/backend/factory--users.php';
+  cache_factory::$data['classes_map']['effectivecore\modules\user\user_factory'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\modules\user\user_factory']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\modules\user\user_factory']->namespace = 'effectivecore\\modules\\user';
+  cache_factory::$data['classes_map']['effectivecore\modules\user\user_factory']->name = 'user_factory';
+  cache_factory::$data['classes_map']['effectivecore\modules\user\user_factory']->file = 'modules/user/backend/factory--user.php';
 
 }
