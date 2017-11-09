@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-09 18:11:25';
+  cache_factory::$info['classes_map']['build'] = '2017-11-09 19:51:03';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -274,6 +274,12 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\pager']->name = 'pager';
   cache_factory::$data['classes_map']['effectivecore\pager']->extends = '\\effectivecore\\markup';
   cache_factory::$data['classes_map']['effectivecore\pager']->file = 'modules/page/backend/pattern--pager.php';
+  cache_factory::$data['classes_map']['effectivecore\svg'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\svg']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\svg']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\svg']->name = 'svg';
+  cache_factory::$data['classes_map']['effectivecore\svg']->extends = '\\effectivecore\\node_simple';
+  cache_factory::$data['classes_map']['effectivecore\svg']->file = 'modules/page/backend/pattern--svg.php';
   cache_factory::$data['classes_map']['effectivecore\table'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\table']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\table']->namespace = 'effectivecore';
