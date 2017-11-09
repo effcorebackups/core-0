@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-09 14:52:36';
+  cache_factory::$info['classes_map']['build'] = '2017-11-09 16:02:32';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -90,11 +90,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\timers_factory']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\timers_factory']->name = 'timers_factory';
   cache_factory::$data['classes_map']['effectivecore\timers_factory']->file = 'modules/core/backend/factory--gl--timers.php';
-  cache_factory::$data['classes_map']['effectivecore\tokens_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\tokens_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\tokens_factory']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\tokens_factory']->name = 'tokens_factory';
-  cache_factory::$data['classes_map']['effectivecore\tokens_factory']->file = 'modules/core/backend/factory--gl--tokens.php';
+  cache_factory::$data['classes_map']['effectivecore\token_factory'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\token_factory']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\token_factory']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\token_factory']->name = 'token_factory';
+  cache_factory::$data['classes_map']['effectivecore\token_factory']->file = 'modules/core/backend/factory--gl--token.php';
   cache_factory::$data['classes_map']['effectivecore\urls_factory'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\urls_factory']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\urls_factory']->namespace = 'effectivecore';
