@@ -568,7 +568,7 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
   cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
-  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['captcha'] = new \effectivecore\captcha();
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['captcha'] = new \effectivecore\form_field_captcha();
   cache_factory::$data['settings--forms']['user']['login']->children['button_login'] = new \effectivecore\markup();
   cache_factory::$data['settings--forms']['user']['login']->children['button_login']->tag_name = 'button';
   cache_factory::$data['settings--forms']['user']['login']->children['button_login']->children['label'] = new \effectivecore\text();
