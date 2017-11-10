@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-10 19:13:51';
+  cache_factory::$info['settings_original']['build'] = '2017-11-10 20:12:23';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -764,7 +764,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
   cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['captcha'] = new \effectivecore\captcha();
-  cache_factory::$data['settings_original']['forms']['user']['login']->children['credentials']->children['captcha']->length = 6;
   cache_factory::$data['settings_original']['forms']['user']['login']->children['button_login'] = new \effectivecore\markup();
   cache_factory::$data['settings_original']['forms']['user']['login']->children['button_login']->tag_name = 'button';
   cache_factory::$data['settings_original']['forms']['user']['login']->children['button_login']->children['label'] = new \effectivecore\text();
@@ -1961,34 +1960,34 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['captcha']['page'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch0'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch0']->character = 0;
-  cache_factory::$data['settings_original']['captcha']['page']->characters['ch0']->glyphs['default'] = '11111|10001|10001|10001|10001|10001|10001|10001|10001|11111';
+  cache_factory::$data['settings_original']['captcha']['page']->characters['ch0']->glyphs['default'] = '01110|10001|10001|10001|10001|10001|10001|10001|10001|01110';
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch1'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch1']->character = 1;
-  cache_factory::$data['settings_original']['captcha']['page']->characters['ch1']->glyphs['default'] = '00001|00001|00001|00001|00001|10001|01001|00101|00011|00001';
+  cache_factory::$data['settings_original']['captcha']['page']->characters['ch1']->glyphs['default'] = '00001|00001|00001|00001|00001|10001|01001|00101|00010|00001';
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch2'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch2']->character = 2;
-  cache_factory::$data['settings_original']['captcha']['page']->characters['ch2']->glyphs['default'] = '11111|10000|01000|00100|00010|00001|00001|00001|00001|11111';
+  cache_factory::$data['settings_original']['captcha']['page']->characters['ch2']->glyphs['default'] = '11111|10000|01000|00100|00010|00001|00001|00001|00001|11110';
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch3'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch3']->character = 3;
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch3']->glyphs['default'] = '01000|00100|00010|00001|11111|01000|00100|00010|00001|11111';
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch4'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch4']->character = 4;
-  cache_factory::$data['settings_original']['captcha']['page']->characters['ch4']->glyphs['default'] = '00001|00001|00001|00001|01111|10001|01001|00100|00011|00001';
+  cache_factory::$data['settings_original']['captcha']['page']->characters['ch4']->glyphs['default'] = '00001|00001|00001|00001|01111|10001|01001|00101|00010|00001';
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch5'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch5']->character = 5;
-  cache_factory::$data['settings_original']['captcha']['page']->characters['ch5']->glyphs['default'] = '01000|00100|00010|00001|11111|10000|10000|10000|10000|11111';
+  cache_factory::$data['settings_original']['captcha']['page']->characters['ch5']->glyphs['default'] = '01000|00100|00010|00001|01111|10000|10000|10000|10000|01111';
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch6'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch6']->character = 6;
-  cache_factory::$data['settings_original']['captcha']['page']->characters['ch6']->glyphs['default'] = '11111|10001|10001|10001|11111|10000|01000|00100|00010|00001';
+  cache_factory::$data['settings_original']['captcha']['page']->characters['ch6']->glyphs['default'] = '01110|10001|10001|10001|10001|01110|10000|01000|00100|00010';
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch7'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch7']->character = 7;
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch7']->glyphs['default'] = '10000|10000|10000|10000|10000|01000|00100|00010|00001|11111';
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch8'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch8']->character = 8;
-  cache_factory::$data['settings_original']['captcha']['page']->characters['ch8']->glyphs['default'] = '11111|10001|10001|10001|11111|10001|10001|10001|10001|11111';
+  cache_factory::$data['settings_original']['captcha']['page']->characters['ch8']->glyphs['default'] = '01110|10001|10001|10001|10001|01110|10001|10001|10001|01110';
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch9'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch9']->character = 9;
-  cache_factory::$data['settings_original']['captcha']['page']->characters['ch9']->glyphs['default'] = '00001|00001|00001|00001|11111|10001|10001|10001|10001|11111';
+  cache_factory::$data['settings_original']['captcha']['page']->characters['ch9']->glyphs['default'] = '01000|00100|00010|00001|01110|10001|10001|10001|10001|01110';
   cache_factory::$data['settings_original']['colors']['page']['color_lavender'] = new \stdClass();
   cache_factory::$data['settings_original']['colors']['page']['color_lavender']->value = 'lavender';
   cache_factory::$data['settings_original']['colors']['page']['color_lavender']->is_dark = false;
