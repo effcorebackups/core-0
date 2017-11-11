@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-10 22:21:00';
+  cache_factory::$info['settings_original']['build'] = '2017-11-11 13:19:29';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1764,6 +1764,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['call'] = 'вызов';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Cancel'] = 'Отмена';
   cache_factory::$data['settings_original']['translations']['locales']->ru['cancel'] = 'отмена';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Captcha'] = 'Защитный код';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Changes was removed.'] = 'Изменения были удалены.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Changes was saved.'] = 'Изменения были сохранены.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
@@ -1956,6 +1957,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Version'] = 'Версия';
   cache_factory::$data['settings_original']['translations']['locales']->ru['view'] = 'просмотреть';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Yes'] = 'Да';
   cache_factory::$data['settings_original']['captcha']['page'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch0'] = new \stdClass();

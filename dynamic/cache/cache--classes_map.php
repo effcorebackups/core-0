@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-10 22:20:59';
+  cache_factory::$info['classes_map']['build'] = '2017-11-11 13:19:28';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -203,12 +203,6 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\canvas_svg']->name = 'canvas_svg';
   cache_factory::$data['classes_map']['effectivecore\canvas_svg']->extends = '\\effectivecore\\node_simple';
   cache_factory::$data['classes_map']['effectivecore\canvas_svg']->file = 'modules/page/backend/pattern--canvas_svg.php';
-  cache_factory::$data['classes_map']['effectivecore\form_field_captcha'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\form_field_captcha']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\form_field_captcha']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\form_field_captcha']->name = 'form_field_captcha';
-  cache_factory::$data['classes_map']['effectivecore\form_field_captcha']->extends = '\\effectivecore\\form_field';
-  cache_factory::$data['classes_map']['effectivecore\form_field_captcha']->file = 'modules/page/backend/pattern--captcha.php';
   cache_factory::$data['classes_map']['effectivecore\control_actions_list'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\control_actions_list']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\control_actions_list']->namespace = 'effectivecore';
@@ -257,6 +251,12 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\form_field']->name = 'form_field';
   cache_factory::$data['classes_map']['effectivecore\form_field']->extends = '\\effectivecore\\form_container';
   cache_factory::$data['classes_map']['effectivecore\form_field']->file = 'modules/page/backend/pattern--form_field.php';
+  cache_factory::$data['classes_map']['effectivecore\form_field_captcha'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\form_field_captcha']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\form_field_captcha']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\form_field_captcha']->name = 'form_field_captcha';
+  cache_factory::$data['classes_map']['effectivecore\form_field_captcha']->extends = '\\effectivecore\\form_field';
+  cache_factory::$data['classes_map']['effectivecore\form_field_captcha']->file = 'modules/page/backend/pattern--form_field_captcha.php';
   cache_factory::$data['classes_map']['effectivecore\form_field_select'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\form_field_select']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\form_field_select']->namespace = 'effectivecore';

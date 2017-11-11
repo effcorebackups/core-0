@@ -21,6 +21,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['call'] = 'вызов';
   cache_factory::$data['settings--translations']['locales']->ru['Cancel'] = 'Отмена';
   cache_factory::$data['settings--translations']['locales']->ru['cancel'] = 'отмена';
+  cache_factory::$data['settings--translations']['locales']->ru['Captcha'] = 'Защитный код';
   cache_factory::$data['settings--translations']['locales']->ru['Changes was removed.'] = 'Изменения были удалены.';
   cache_factory::$data['settings--translations']['locales']->ru['Changes was saved.'] = 'Изменения были сохранены.';
   cache_factory::$data['settings--translations']['locales']->ru['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
@@ -213,6 +214,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Version'] = 'Версия';
   cache_factory::$data['settings--translations']['locales']->ru['view'] = 'просмотреть';
   cache_factory::$data['settings--translations']['locales']->ru['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
+  cache_factory::$data['settings--translations']['locales']->ru['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache_factory::$data['settings--translations']['locales']->ru['Yes'] = 'Да';
 
 }
