@@ -37,6 +37,10 @@ namespace effectivecore { # cache for settings--events
   cache_factory::$data['settings--events']['develop']->on_form_submit['demo']->handler = '\\effectivecore\\modules\\develop\\events_form::on_submit_demo';
   cache_factory::$data['settings--events']['develop']->on_form_submit['demo']->weight = 0;
   cache_factory::$data['settings--events']['page'] = new \stdClass();
+  cache_factory::$data['settings--events']['page']->on_module_install['page'] = new \stdClass();
+  cache_factory::$data['settings--events']['page']->on_module_install['page']->for = 'page';
+  cache_factory::$data['settings--events']['page']->on_module_install['page']->handler = '\\effectivecore\\modules\\page\\events_module::on_install';
+  cache_factory::$data['settings--events']['page']->on_module_install['page']->weight = 0;
   cache_factory::$data['settings--events']['page']->on_module_start['page'] = new \stdClass();
   cache_factory::$data['settings--events']['page']->on_module_start['page']->for = 'page';
   cache_factory::$data['settings--events']['page']->on_module_start['page']->handler = '\\effectivecore\\modules\\page\\events_module::on_start';

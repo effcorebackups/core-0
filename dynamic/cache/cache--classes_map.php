@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-11 13:19:28';
+  cache_factory::$info['classes_map']['build'] = '2017-11-11 15:57:52';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';

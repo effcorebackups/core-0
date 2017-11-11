@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-11 13:19:29';
+  cache_factory::$info['settings_original']['build'] = '2017-11-11 15:57:52';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -87,6 +87,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['develop']->on_form_submit['demo']->handler = '\\effectivecore\\modules\\develop\\events_form::on_submit_demo';
   cache_factory::$data['settings_original']['events']['develop']->on_form_submit['demo']->weight = 0;
   cache_factory::$data['settings_original']['events']['page'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['page']->on_module_install['page'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['page']->on_module_install['page']->for = 'page';
+  cache_factory::$data['settings_original']['events']['page']->on_module_install['page']->handler = '\\effectivecore\\modules\\page\\events_module::on_install';
+  cache_factory::$data['settings_original']['events']['page']->on_module_install['page']->weight = 0;
   cache_factory::$data['settings_original']['events']['page']->on_module_start['page'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['page']->on_module_start['page']->for = 'page';
   cache_factory::$data['settings_original']['events']['page']->on_module_start['page']->handler = '\\effectivecore\\modules\\page\\events_module::on_start';
@@ -1553,6 +1557,27 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->indexes['idx_uniq'] = new \stdClass();
   cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->indexes['idx_uniq']->type = 'unique index';
   cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->indexes['idx_uniq']->fields['id'] = 'id';
+  cache_factory::$data['settings_original']['entities']['page']['captcha'] = new \effectivecore\entity();
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->name = 'captcha';
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->storage_id = 'main';
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->id = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->id->type = 'autoincrement';
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->id->not_null = true;
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->characters = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->characters->type = 'varchar';
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->characters->size = 32;
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->characters->not_null = true;
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->canvas = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->canvas->type = 'blob';
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->canvas->not_null = true;
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->attempts = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->attempts->type = 'integer';
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->attempts->not_null = true;
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->attempts->default = 1;
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->constraints['primary'] = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->constraints['primary']->type = 'primary key';
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->constraints['primary']->fields['id'] = 'id';
   cache_factory::$data['settings_original']['entities']['tree']['tree'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['tree']['tree']->name = 'tree';
   cache_factory::$data['settings_original']['entities']['tree']['tree']->storage_id = 'main';
