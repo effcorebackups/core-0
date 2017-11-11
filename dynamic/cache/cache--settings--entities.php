@@ -69,7 +69,6 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['page']['captcha']->fields->attempts = new \stdClass();
   cache_factory::$data['settings--entities']['page']['captcha']->fields->attempts->type = 'integer';
   cache_factory::$data['settings--entities']['page']['captcha']->fields->attempts->not_null = true;
-  cache_factory::$data['settings--entities']['page']['captcha']->fields->attempts->default = 1;
   cache_factory::$data['settings--entities']['page']['captcha']->constraints['primary'] = new \stdClass();
   cache_factory::$data['settings--entities']['page']['captcha']->constraints['primary']->type = 'primary key';
   cache_factory::$data['settings--entities']['page']['captcha']->constraints['primary']->fields['id'] = 'id';
