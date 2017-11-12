@@ -67,4 +67,6 @@
   Opera Software AS в Норвегии, Европейском союзе и других странах.
 - Google™, Google Chrome™ являются зарегистрированными товарными знаками Google Inc.
 - Firefox® является зарегистрированным товарным знаком Mozilla Foundation.
+- PostgreSQL" является зарегистрированным товарным знаком
+  PostgreSQL Community Association of Canada.
 
