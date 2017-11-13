@@ -57,7 +57,8 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['page']['captcha']->storage_id = 'main';
   cache_factory::$data['settings--entities']['page']['captcha']->fields = new \stdClass();
   cache_factory::$data['settings--entities']['page']['captcha']->fields->id = new \stdClass();
-  cache_factory::$data['settings--entities']['page']['captcha']->fields->id->type = 'autoincrement';
+  cache_factory::$data['settings--entities']['page']['captcha']->fields->id->type = 'varchar';
+  cache_factory::$data['settings--entities']['page']['captcha']->fields->id->size = 32;
   cache_factory::$data['settings--entities']['page']['captcha']->fields->id->not_null = true;
   cache_factory::$data['settings--entities']['page']['captcha']->fields->characters = new \stdClass();
   cache_factory::$data['settings--entities']['page']['captcha']->fields->characters->type = 'varchar';
