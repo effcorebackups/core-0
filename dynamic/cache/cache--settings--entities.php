@@ -63,9 +63,9 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['page']['captcha']->fields->characters->type = 'varchar';
   cache_factory::$data['settings--entities']['page']['captcha']->fields->characters->size = 32;
   cache_factory::$data['settings--entities']['page']['captcha']->fields->characters->not_null = true;
-  cache_factory::$data['settings--entities']['page']['captcha']->fields->canvas = new \stdClass();
-  cache_factory::$data['settings--entities']['page']['captcha']->fields->canvas->type = 'blob';
-  cache_factory::$data['settings--entities']['page']['captcha']->fields->canvas->not_null = true;
+  cache_factory::$data['settings--entities']['page']['captcha']->fields->canvas_data = new \stdClass();
+  cache_factory::$data['settings--entities']['page']['captcha']->fields->canvas_data->type = 'blob';
+  cache_factory::$data['settings--entities']['page']['captcha']->fields->canvas_data->not_null = true;
   cache_factory::$data['settings--entities']['page']['captcha']->fields->attempts = new \stdClass();
   cache_factory::$data['settings--entities']['page']['captcha']->fields->attempts->type = 'integer';
   cache_factory::$data['settings--entities']['page']['captcha']->fields->attempts->not_null = true;
