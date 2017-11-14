@@ -129,7 +129,7 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['user']->fields->created = new \stdClass();
   cache_factory::$data['settings--entities']['user']['user']->fields->created->type = 'timestamp';
   cache_factory::$data['settings--entities']['user']['user']->fields->created->not_null = true;
-  cache_factory::$data['settings--entities']['user']['user']->fields->created->default = 'current_timestamp';
+  cache_factory::$data['settings--entities']['user']['user']->fields->created->default = '2000-01-01 00:00:00';
   cache_factory::$data['settings--entities']['user']['user']->fields->is_embed = new \stdClass();
   cache_factory::$data['settings--entities']['user']['user']->fields->is_embed->type = 'integer';
   cache_factory::$data['settings--entities']['user']['user']->fields->is_embed->not_null = true;
@@ -157,7 +157,7 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['session']->fields->created = new \stdClass();
   cache_factory::$data['settings--entities']['user']['session']->fields->created->type = 'timestamp';
   cache_factory::$data['settings--entities']['user']['session']->fields->created->not_null = true;
-  cache_factory::$data['settings--entities']['user']['session']->fields->created->default = 'current_timestamp';
+  cache_factory::$data['settings--entities']['user']['session']->fields->created->default = '2000-01-01 00:00:00';
   cache_factory::$data['settings--entities']['user']['session']->fields->data = new \stdClass();
   cache_factory::$data['settings--entities']['user']['session']->fields->data->type = 'blob';
   cache_factory::$data['settings--entities']['user']['session']->fields->data->null = true;

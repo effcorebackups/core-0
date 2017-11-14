@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-13 22:44:56';
+  cache_factory::$info['settings_original']['build'] = '2017-11-14 03:25:23';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1644,7 +1644,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->created = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->created->type = 'timestamp';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->created->not_null = true;
-  cache_factory::$data['settings_original']['entities']['user']['user']->fields->created->default = 'current_timestamp';
+  cache_factory::$data['settings_original']['entities']['user']['user']->fields->created->default = '2000-01-01 00:00:00';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->is_embed = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->is_embed->type = 'integer';
   cache_factory::$data['settings_original']['entities']['user']['user']->fields->is_embed->not_null = true;
@@ -1672,7 +1672,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created->type = 'timestamp';
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created->not_null = true;
-  cache_factory::$data['settings_original']['entities']['user']['session']->fields->created->default = 'current_timestamp';
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->created->default = '2000-01-01 00:00:00';
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->data = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->data->type = 'blob';
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->data->null = true;
@@ -1770,6 +1770,9 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['current']['locales']->lang_code = 'ru';
   cache_factory::$data['settings_original']['current']['locales']->decimal_point = ',';
   cache_factory::$data['settings_original']['current']['locales']->thousands_separator = '';
+  cache_factory::$data['settings_original']['current']['locales']->format_date = 'Y-m-d';
+  cache_factory::$data['settings_original']['current']['locales']->format_time = 'h:i:s';
+  cache_factory::$data['settings_original']['current']['locales']->format_datetime = 'Y-m-d h:i:s';
   cache_factory::$data['settings_original']['languages']['locales']['en'] = new \stdClass();
   cache_factory::$data['settings_original']['languages']['locales']['en']->title = new \stdClass();
   cache_factory::$data['settings_original']['languages']['locales']['en']->title->en = 'English';
