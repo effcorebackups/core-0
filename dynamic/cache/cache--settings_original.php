@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-15 03:29:24';
+  cache_factory::$info['settings_original']['build'] = '2017-11-15 04:35:15';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -257,6 +257,16 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['host_name']->children['element']->attributes['minlength'] = 1;
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['host_name']->children['element']->attributes['maxlength'] = 253;
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['host_name']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_.]+';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['port'] = new \effectivecore\form_field();
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['port']->title = 'Port';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['port']->children['element'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['port']->children['element']->tag_name = 'input';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['port']->children['element']->attributes['type'] = 'number';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['port']->children['element']->attributes['name'] = 'port';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['port']->children['element']->attributes['required'] = 'required';
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['port']->children['element']->attributes['value'] = 3306;
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['port']->children['element']->attributes['min'] = 1024;
+  cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['port']->children['element']->attributes['max'] = 49150;
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['user_name'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['user_name']->title = 'User name';
   cache_factory::$data['settings_original']['forms']['core']['installation']->children['storage']->children['default']->children['user_name']->description = new \effectivecore\text();
