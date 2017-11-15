@@ -64,5 +64,4 @@ OTHER TRADEMARKS
   the European Union and other countries.
 - Google™, Google Chrome™ are registered trademarks of Google Inc.
 - Firefox® is registered trademarks of Mozilla Foundation.
-- PostgreSQL" is a registered trademark of the PostgreSQL Community Association of Canada.
 
