@@ -113,7 +113,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Main system module.'] = 'Основной модуль системы.';
   cache_factory::$data['settings--translations']['locales']->ru['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache_factory::$data['settings--translations']['locales']->ru['Memory for php (bytes)'] = 'Память для php (байт)';
-  cache_factory::$data['settings--translations']['locales']->ru['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache_factory::$data['settings--translations']['locales']->ru['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
   cache_factory::$data['settings--translations']['locales']->ru['Moderators'] = 'Модераторы';
   cache_factory::$data['settings--translations']['locales']->ru['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
@@ -169,7 +168,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['storage %%_id cache for group %%_group will be load'] = 'кэш хранилища %%_id для группы %%_group будет загружен';
   cache_factory::$data['settings--translations']['locales']->ru['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
   cache_factory::$data['settings--translations']['locales']->ru['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
-  cache_factory::$data['settings--translations']['locales']->ru['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
+  cache_factory::$data['settings--translations']['locales']->ru['Storage is not available with these credentials! Message from storage: %%_message'] = 'Хранилище не доступно с этими учетными данными! Сообщение от хранилища: %%_message';
   cache_factory::$data['settings--translations']['locales']->ru['Storage name'] = 'Имя хранилища';
   cache_factory::$data['settings--translations']['locales']->ru['Storage params'] = 'Параметры хранилища';
   cache_factory::$data['settings--translations']['locales']->ru['storage'] = 'хранилище';
