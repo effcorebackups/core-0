@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-18 04:28:51';
+  cache_factory::$info['settings_original']['build'] = '2017-11-18 04:45:09';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1578,26 +1578,24 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['develop']['demo_cstr_uniq']->constraints['key_id'] = new \stdClass();
   cache_factory::$data['settings_original']['entities']['develop']['demo_cstr_uniq']->constraints['key_id']->type = 'unique';
   cache_factory::$data['settings_original']['entities']['develop']['demo_cstr_uniq']->constraints['key_id']->fields['id'] = 'id';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx'] = new \effectivecore\entity();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx']->name = 'demo_idx';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx']->storage_id = 'main';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx']->fields = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx']->fields->id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx']->fields->id->type = 'integer';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx']->fields->id->not_null = true;
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx']->indexes['idx_id'] = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx']->indexes['idx_id']->type = 'index';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx']->indexes['idx_id']->fields['id'] = 'id';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq'] = new \effectivecore\entity();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->name = 'demo_idx_uniq';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->storage_id = 'main';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->fields = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->fields->id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->fields->id->type = 'integer';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->fields->id->not_null = true;
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->indexes['idx_id'] = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->indexes['idx_id']->type = 'unique index';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_idx_uniq']->indexes['idx_id']->fields['id'] = 'id';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes'] = new \effectivecore\entity();
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->name = 'demo_indexes';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->storage_id = 'main';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->fields = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->fields->f_integer_1 = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->fields->f_integer_1->type = 'integer';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->fields->f_integer_1->not_null = true;
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->fields->f_integer_1->default = 0;
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->fields->f_integer_2 = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->fields->f_integer_2->type = 'integer';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->fields->f_integer_2->not_null = true;
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->fields->f_integer_2->default = 0;
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->indexes['idx_f_integer_1'] = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->indexes['idx_f_integer_1']->type = 'index';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->indexes['idx_f_integer_1']->fields['f_integer_1'] = 'f_integer_1';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->indexes['idx_f_integer_2'] = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->indexes['idx_f_integer_2']->type = 'unique index';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_indexes']->indexes['idx_f_integer_2']->fields['f_integer_2'] = 'f_integer_2';
   cache_factory::$data['settings_original']['entities']['page']['captcha'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['page']['captcha']->name = 'captcha';
   cache_factory::$data['settings_original']['entities']['page']['captcha']->storage_id = 'main';
