@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-11-18 16:21:50';
+  cache_factory::$info['classes_map']['build'] = '2017-11-18 17:59:56';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -263,6 +263,12 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\form_field_select']->name = 'form_field_select';
   cache_factory::$data['classes_map']['effectivecore\form_field_select']->extends = '\\effectivecore\\form_field';
   cache_factory::$data['classes_map']['effectivecore\form_field_select']->file = 'modules/page/backend/pattern--form_field_select.php';
+  cache_factory::$data['classes_map']['effectivecore\form_field_select_timezone'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\form_field_select_timezone']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\form_field_select_timezone']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\form_field_select_timezone']->name = 'form_field_select_timezone';
+  cache_factory::$data['classes_map']['effectivecore\form_field_select_timezone']->extends = '\\effectivecore\\form_field_select';
+  cache_factory::$data['classes_map']['effectivecore\form_field_select_timezone']->file = 'modules/page/backend/pattern--form_field_select_timezone.php';
   cache_factory::$data['classes_map']['effectivecore\markup'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\markup']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\markup']->namespace = 'effectivecore';

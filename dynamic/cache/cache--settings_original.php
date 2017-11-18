@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-18 16:21:50';
+  cache_factory::$info['settings_original']['build'] = '2017-11-18 17:59:56';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -497,6 +497,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['min'] = '01:00:00';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['max'] = '23:08:00';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['step'] = 60;
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['select_timezone'] = new \effectivecore\form_field_select_timezone();
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['select_timezone']->select_attributes['name'] = 'select_timezone';
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['select_timezone']->select_attributes['required'] = 'required';
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['select_timezone']->title = 'Timezone';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['color'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['color']->title = 'Color';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['color']->description = new \effectivecore\text();
@@ -1872,6 +1876,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['current']['locales']->format_date = 'd.m.Y';
   cache_factory::$data['settings_original']['current']['locales']->format_time = 'H:i:s';
   cache_factory::$data['settings_original']['current']['locales']->format_datetime = 'd.m.Y H:i:s';
+  cache_factory::$data['settings_original']['current']['locales']->timezone = 'Europe/Minsk';
   cache_factory::$data['settings_original']['languages']['locales']['en'] = new \stdClass();
   cache_factory::$data['settings_original']['languages']['locales']['en']->title = new \stdClass();
   cache_factory::$data['settings_original']['languages']['locales']['en']->title->en = 'English';
@@ -2060,6 +2065,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Text'] = 'Текст';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Textarea'] = 'Текстовая область';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Time'] = 'Время';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Timezone'] = 'Часовой пояс';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Title'] = 'Заголовок';
   cache_factory::$data['settings_original']['translations']['locales']->ru['to front'] = 'на главную';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Total build time'] = 'Общее время сборки';

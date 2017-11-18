@@ -180,6 +180,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Text'] = 'Текст';
   cache_factory::$data['settings--translations']['locales']->ru['Textarea'] = 'Текстовая область';
   cache_factory::$data['settings--translations']['locales']->ru['Time'] = 'Время';
+  cache_factory::$data['settings--translations']['locales']->ru['Timezone'] = 'Часовой пояс';
   cache_factory::$data['settings--translations']['locales']->ru['Title'] = 'Заголовок';
   cache_factory::$data['settings--translations']['locales']->ru['to front'] = 'на главную';
   cache_factory::$data['settings--translations']['locales']->ru['Total build time'] = 'Общее время сборки';
