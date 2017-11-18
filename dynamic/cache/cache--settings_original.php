@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-18 04:53:31';
+  cache_factory::$info['settings_original']['build'] = '2017-11-18 04:59:59';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1548,16 +1548,16 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['develop']['demo_types']->fields->f_blob = new \stdClass();
   cache_factory::$data['settings_original']['entities']['develop']['demo_types']->fields->f_blob->type = 'blob';
   cache_factory::$data['settings_original']['entities']['develop']['demo_types']->fields->f_blob->null = true;
-  cache_factory::$data['settings_original']['entities']['develop']['demo_auto'] = new \effectivecore\entity();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_auto']->name = 'demo_auto';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_auto']->storage_id = 'main';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_auto']->fields = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_auto']->fields->id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_auto']->fields->id->type = 'autoincrement';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_auto']->fields->id->not_null = true;
-  cache_factory::$data['settings_original']['entities']['develop']['demo_auto']->constraints['key_id'] = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['develop']['demo_auto']->constraints['key_id']->type = 'primary key';
-  cache_factory::$data['settings_original']['entities']['develop']['demo_auto']->constraints['key_id']->fields['id'] = 'id';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_autoincrement'] = new \effectivecore\entity();
+  cache_factory::$data['settings_original']['entities']['develop']['demo_autoincrement']->name = 'demo_autoincrement';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_autoincrement']->storage_id = 'main';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_autoincrement']->fields = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['develop']['demo_autoincrement']->fields->f_integer_1 = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['develop']['demo_autoincrement']->fields->f_integer_1->type = 'autoincrement';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_autoincrement']->fields->f_integer_1->not_null = true;
+  cache_factory::$data['settings_original']['entities']['develop']['demo_autoincrement']->constraints['key_f_integer_1'] = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['develop']['demo_autoincrement']->constraints['key_f_integer_1']->type = 'primary key';
+  cache_factory::$data['settings_original']['entities']['develop']['demo_autoincrement']->constraints['key_f_integer_1']->fields['f_integer_1'] = 'f_integer_1';
   cache_factory::$data['settings_original']['entities']['develop']['demo_constraints'] = new \effectivecore\entity();
   cache_factory::$data['settings_original']['entities']['develop']['demo_constraints']->name = 'demo_constraints';
   cache_factory::$data['settings_original']['entities']['develop']['demo_constraints']->storage_id = 'main';
