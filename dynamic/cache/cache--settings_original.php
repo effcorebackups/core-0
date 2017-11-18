@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-18 15:35:54';
+  cache_factory::$info['settings_original']['build'] = '2017-11-18 16:21:50';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1869,9 +1869,9 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['current']['locales']->lang_code = 'ru';
   cache_factory::$data['settings_original']['current']['locales']->decimal_point = ',';
   cache_factory::$data['settings_original']['current']['locales']->thousands_separator = '';
-  cache_factory::$data['settings_original']['current']['locales']->format_date = 'Y-m-d';
-  cache_factory::$data['settings_original']['current']['locales']->format_time = 'h:i:s';
-  cache_factory::$data['settings_original']['current']['locales']->format_datetime = 'Y-m-d h:i:s';
+  cache_factory::$data['settings_original']['current']['locales']->format_date = 'd.m.Y';
+  cache_factory::$data['settings_original']['current']['locales']->format_time = 'H:i:s';
+  cache_factory::$data['settings_original']['current']['locales']->format_datetime = 'd.m.Y H:i:s';
   cache_factory::$data['settings_original']['languages']['locales']['en'] = new \stdClass();
   cache_factory::$data['settings_original']['languages']['locales']['en']->title = new \stdClass();
   cache_factory::$data['settings_original']['languages']['locales']['en']->title->en = 'English';
