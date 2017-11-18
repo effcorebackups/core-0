@@ -186,9 +186,8 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['session']->fields->id_user->type = 'integer';
   cache_factory::$data['settings--entities']['user']['session']->fields->id_user->not_null = true;
   cache_factory::$data['settings--entities']['user']['session']->fields->created = new \stdClass();
-  cache_factory::$data['settings--entities']['user']['session']->fields->created->type = 'timestamp';
+  cache_factory::$data['settings--entities']['user']['session']->fields->created->type = 'datetime';
   cache_factory::$data['settings--entities']['user']['session']->fields->created->not_null = true;
-  cache_factory::$data['settings--entities']['user']['session']->fields->created->default = '2000-01-01 00:00:00';
   cache_factory::$data['settings--entities']['user']['session']->fields->data = new \stdClass();
   cache_factory::$data['settings--entities']['user']['session']->fields->data->type = 'blob';
   cache_factory::$data['settings--entities']['user']['session']->fields->data->null = true;
