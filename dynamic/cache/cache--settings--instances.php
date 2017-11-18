@@ -2,6 +2,20 @@
 
 namespace effectivecore { # cache for settings--instances
 
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_1'] = new \effectivecore\instance();
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_1']->entity_name = 'demo_types';
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_1']->values['id'] = 1;
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_1']->values['description'] = 'use default values';
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_2'] = new \effectivecore\instance();
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_2']->entity_name = 'demo_types';
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_2']->values['id'] = 2;
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_2']->values['description'] = 'use own values';
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_2']->values['f_integer'] = 123;
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_2']->values['f_varchar'] = 'own text';
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_2']->values['f_time'] = '12:34:56';
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_2']->values['f_date'] = '2020-12-31';
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_2']->values['f_datetime'] = '2020-12-31 12:34:56';
+  cache_factory::$data['settings--instances']['develop']['demo_types_example_2']->values['f_blob'] = 12345;
   cache_factory::$data['settings--instances']['user']['user_1'] = new \effectivecore\instance();
   cache_factory::$data['settings--instances']['user']['user_1']->entity_name = 'user';
   cache_factory::$data['settings--instances']['user']['user_1']->values['id'] = 1;

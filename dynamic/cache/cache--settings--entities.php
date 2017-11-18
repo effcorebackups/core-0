@@ -2,6 +2,41 @@
 
 namespace effectivecore { # cache for settings--entities
 
+  cache_factory::$data['settings--entities']['develop']['demo_types'] = new \effectivecore\entity();
+  cache_factory::$data['settings--entities']['develop']['demo_types']->name = 'demo_types';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->storage_id = 'main';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->id = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->id->type = 'autoincrement';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->id->not_null = true;
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->description = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->description->type = 'varchar';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->description->size = 255;
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->description->null = true;
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_integer = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_integer->type = 'integer';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_integer->not_null = true;
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_integer->default = 0;
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_varchar = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_varchar->type = 'varchar';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_varchar->size = 255;
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_varchar->not_null = true;
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_varchar->default = 'default text';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_time = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_time->type = 'time';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_time->not_null = true;
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_time->default = '00:00:00';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_date = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_date->type = 'date';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_date->not_null = true;
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_date->default = '2000-01-01';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_datetime = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_datetime->type = 'datetime';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_datetime->not_null = true;
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_datetime->default = '2000-01-01 00:00:00';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_blob = new \stdClass();
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_blob->type = 'blob';
+  cache_factory::$data['settings--entities']['develop']['demo_types']->fields->f_blob->null = true;
   cache_factory::$data['settings--entities']['develop']['demo_auto'] = new \effectivecore\entity();
   cache_factory::$data['settings--entities']['develop']['demo_auto']->name = 'demo_auto';
   cache_factory::$data['settings--entities']['develop']['demo_auto']->storage_id = 'main';
