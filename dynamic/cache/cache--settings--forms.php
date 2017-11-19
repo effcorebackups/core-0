@@ -271,9 +271,9 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['date']->children['element']->attributes['type'] = 'date';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['date']->children['element']->attributes['name'] = 'date';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['date']->children['element']->attributes['required'] = 'required';
-  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['date']->children['element']->attributes['value'] = '2017-12-31';
-  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['date']->children['element']->attributes['min'] = '2000-12-31';
-  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['date']->children['element']->attributes['max'] = '2020-12-31';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['date']->children['element']->attributes['value'] = '2020-01-01';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['date']->children['element']->attributes['min'] = '2000-01-01';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['date']->children['element']->attributes['max'] = '2050-01-01';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time'] = new \effectivecore\form_field();
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->title = 'Time';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['time']->description = new \effectivecore\text();
