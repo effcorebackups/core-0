@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-19 08:39:05';
+  cache_factory::$info['settings_original']['build'] = '2017-11-19 08:49:13';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -493,9 +493,9 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['type'] = 'time';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['name'] = 'time';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['required'] = 'required';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['value'] = '00:00:00';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['min'] = '01:00:00';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['max'] = '23:08:00';
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['value'] = '03:04:00';
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['min'] = '01:02:00';
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['max'] = '05:06:00';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['time']->children['element']->attributes['step'] = 60;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['select_timezone'] = new \effectivecore\form_field_select_timezone();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['select_timezone']->select_attributes['name'] = 'select_timezone';
