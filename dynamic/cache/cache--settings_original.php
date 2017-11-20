@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-19 08:49:13';
+  cache_factory::$info['settings_original']['build'] = '2017-11-20 16:41:59';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1956,6 +1956,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Events'] = 'События';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Execute plan'] = 'План выполнения';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" contains an incorrect characters from image!'] = 'Поле "%%_title" содержит неверные символы с изображения!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" contains an incorrect date!'] = 'Поле "%%_title" содержит неверную дату!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" contains an incorrect email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field "%%_title" contains an incorrect time!'] = 'Поле "%%_title" содержит неверное время!';
