@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-20 16:41:59';
+  cache_factory::$info['settings_original']['build'] = '2017-11-22 10:57:15';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -840,6 +840,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
+  cache_factory::$data['settings_original']['forms']['user']['registration']->children['credentials']->children['captcha'] = new \effectivecore\form_field_captcha();
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['button_register'] = new \effectivecore\markup();
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['button_register']->tag_name = 'button';
   cache_factory::$data['settings_original']['forms']['user']['registration']->children['button_register']->children['label'] = new \effectivecore\text();
