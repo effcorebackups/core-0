@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-26 12:41:07';
+  cache_factory::$info['settings_original']['build'] = '2017-11-26 15:58:21';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -427,7 +427,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['type'] = 'email';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['name'] = 'email';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['required'] = 'required';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['value'] = 'test@example.com';
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['value'] = 'test1@example.com,test2@example.com';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['minlength'] = 5;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['maxlength'] = 64;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['multiple'] = 'multiple';

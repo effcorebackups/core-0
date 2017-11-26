@@ -218,7 +218,7 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['type'] = 'email';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['name'] = 'email';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['required'] = 'required';
-  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['value'] = 'test@example.com';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['value'] = 'test1@example.com,test2@example.com';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['minlength'] = 5;
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['maxlength'] = 64;
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['multiple'] = 'multiple';
