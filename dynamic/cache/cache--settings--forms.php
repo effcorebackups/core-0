@@ -232,7 +232,6 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->attributes['type'] = 'file';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->attributes['name'] = 'file';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->attributes['accept'] = 'image/*,audio/*,video/*';
-  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->attributes['multiple'] = 'multiple';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['number'] = new \effectivecore\form_field();
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['number']->title = 'Number';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['number']->description = new \effectivecore\text();
@@ -512,6 +511,7 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['develop']['demo']->children['button_reset']->attributes['value'] = 'reset';
   cache_factory::$data['settings--forms']['develop']['demo']->attributes['id'] = 'demo';
   cache_factory::$data['settings--forms']['develop']['demo']->attributes['novalidate'] = 'novalidate';
+  cache_factory::$data['settings--forms']['develop']['demo']->attributes['enctype'] = 'multipart/form-data';
   cache_factory::$data['settings--forms']['develop']['demo']->attributes['method'] = 'post';
   cache_factory::$data['settings--forms']['page']['decoration'] = new \effectivecore\form();
   cache_factory::$data['settings--forms']['page']['decoration']->children['colors'] = new \effectivecore\form_container();
