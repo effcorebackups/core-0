@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-27 09:21:39';
+  cache_factory::$info['settings_original']['build'] = '2017-11-27 11:40:48';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -439,8 +439,9 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['element'] = new \effectivecore\markup_simple();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->tag_name = 'input';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->attributes['type'] = 'file';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->attributes['name'] = 'file';
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->attributes['name'] = 'file[]';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->attributes['accept'] = 'image/*,audio/*,video/*';
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->attributes['multiple'] = 'multiple';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->title = 'Number';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['number']->description = new \effectivecore\text();
