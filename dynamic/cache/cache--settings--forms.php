@@ -291,6 +291,7 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['select_timezone'] = new \effectivecore\form_field_select_timezone();
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['select_timezone']->select_attributes['name'] = 'select_timezone';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['select_timezone']->select_attributes['required'] = 'required';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['select_timezone']->selected[424] = 424;
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['select_timezone']->title = 'Timezone';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['color'] = new \effectivecore\form_field();
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['color']->title = 'Color';

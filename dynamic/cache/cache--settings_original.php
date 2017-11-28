@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-27 18:45:38';
+  cache_factory::$info['settings_original']['build'] = '2017-11-28 09:30:31';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -500,6 +500,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['select_timezone'] = new \effectivecore\form_field_select_timezone();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['select_timezone']->select_attributes['name'] = 'select_timezone';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['select_timezone']->select_attributes['required'] = 'required';
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['select_timezone']->selected['424'] = 424;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['select_timezone']->title = 'Timezone';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['color'] = new \effectivecore\form_field();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['color']->title = 'Color';
