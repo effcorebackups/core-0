@@ -4,6 +4,7 @@ namespace effectivecore { # cache for settings--translations
 
   cache_factory::$data['settings--translations']['locales'] = new \stdClass();
   cache_factory::$data['settings--translations']['locales']->ru['- select -'] = '- выбрать -';
+  cache_factory::$data['settings--translations']['locales']->ru['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
   cache_factory::$data['settings--translations']['locales']->ru['action'] = 'действие';
   cache_factory::$data['settings--translations']['locales']->ru['Action'] = 'Действие';
   cache_factory::$data['settings--translations']['locales']->ru['actions'] = 'действия';
@@ -64,6 +65,8 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['events'] = 'события';
   cache_factory::$data['settings--translations']['locales']->ru['Events'] = 'События';
   cache_factory::$data['settings--translations']['locales']->ru['Execute plan'] = 'План выполнения';
+  cache_factory::$data['settings--translations']['locales']->ru['failed to write file to disk'] = 'не удалось записать файл на диск';
+  cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" after trying to upload the file returned an error: %%_error!'] = 'Поле "%%_title" после попытки загрузить файл вернуло ошибку: %%_error!';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" contains an incorrect characters from image!'] = 'Поле "%%_title" содержит неверные символы с изображения!';
   cache_factory::$data['settings--translations']['locales']->ru['Field "%%_title" contains an incorrect date!'] = 'Поле "%%_title" содержит неверную дату!';
@@ -116,6 +119,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Memory for php (bytes)'] = 'Память для php (байт)';
   cache_factory::$data['settings--translations']['locales']->ru['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache_factory::$data['settings--translations']['locales']->ru['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
+  cache_factory::$data['settings--translations']['locales']->ru['missing a temporary directory'] = 'отсутствует временный каталог';
   cache_factory::$data['settings--translations']['locales']->ru['Moderators'] = 'Модераторы';
   cache_factory::$data['settings--translations']['locales']->ru['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   cache_factory::$data['settings--translations']['locales']->ru['Module for development.'] = 'Модуль для разработки.';
@@ -181,6 +185,9 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Telephone'] = 'Телефон';
   cache_factory::$data['settings--translations']['locales']->ru['Text'] = 'Текст';
   cache_factory::$data['settings--translations']['locales']->ru['Textarea'] = 'Текстовая область';
+  cache_factory::$data['settings--translations']['locales']->ru['the size of uploaded file is exceeds of value from MAX_FILE_SIZE'] = 'размер загруженного файла превышает значение MAX_FILE_SIZE';
+  cache_factory::$data['settings--translations']['locales']->ru['the size of uploaded file is exceeds of value from upload_max_filesize'] = 'размер загруженного файла превышает значение upload_max_filesize';
+  cache_factory::$data['settings--translations']['locales']->ru['the uploaded file was only partially uploaded'] = 'загружаемый файл был загружен только частично';
   cache_factory::$data['settings--translations']['locales']->ru['Time'] = 'Время';
   cache_factory::$data['settings--translations']['locales']->ru['Timezone'] = 'Часовой пояс';
   cache_factory::$data['settings--translations']['locales']->ru['Title'] = 'Заголовок';
