@@ -117,6 +117,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Main menu'] = 'Главное меню';
   cache_factory::$data['settings--translations']['locales']->ru['Main system module.'] = 'Основной модуль системы.';
   cache_factory::$data['settings--translations']['locales']->ru['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
+  cache_factory::$data['settings--translations']['locales']->ru['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
   cache_factory::$data['settings--translations']['locales']->ru['Memory for php (bytes)'] = 'Память для php (байт)';
   cache_factory::$data['settings--translations']['locales']->ru['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache_factory::$data['settings--translations']['locales']->ru['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';

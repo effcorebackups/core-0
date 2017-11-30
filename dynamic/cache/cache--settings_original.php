@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-11-30 08:49:00';
+  cache_factory::$info['settings_original']['build'] = '2017-11-30 19:24:00';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -431,16 +431,12 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['minlength'] = 5;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['maxlength'] = 64;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['multiple'] = 'multiple';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file'] = new \effectivecore\form_field();
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file'] = new \effectivecore\form_field_file();
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->max_file_size = 1048576;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->title = 'File';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->description = new \effectivecore\text();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->description->text = 'Element %%_info.';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->description->args['info'] = '&lt;input type="file"&gt;';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['max_file_size'] = new \effectivecore\markup_simple();
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['max_file_size']->tag_name = 'input';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['max_file_size']->attributes['type'] = 'hidden';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['max_file_size']->attributes['name'] = 'MAX_FILE_SIZE';
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['max_file_size']->attributes['value'] = 20971520;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['element'] = new \effectivecore\markup_simple();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->tag_name = 'input';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->attributes['type'] = 'file';
@@ -2016,6 +2012,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Main menu'] = 'Главное меню';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Main system module.'] = 'Основной модуль системы.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Memory for php (bytes)'] = 'Память для php (байт)';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
