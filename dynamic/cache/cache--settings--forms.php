@@ -227,6 +227,11 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->description = new \effectivecore\text();
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->description->text = 'Element %%_info.';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->description->args['info'] = '&lt;input type="file"&gt;';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['max_file_size'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['max_file_size']->tag_name = 'input';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['max_file_size']->attributes['type'] = 'hidden';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['max_file_size']->attributes['name'] = 'MAX_FILE_SIZE';
+  cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['max_file_size']->attributes['value'] = 20971520;
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['element'] = new \effectivecore\markup_simple();
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->tag_name = 'input';
   cache_factory::$data['settings--forms']['develop']['demo']->children['form_elements']->children['file']->children['element']->attributes['type'] = 'file';
