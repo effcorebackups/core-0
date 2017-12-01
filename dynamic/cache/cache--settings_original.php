@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-12-01 11:38:25';
+  cache_factory::$info['settings_original']['build'] = '2017-12-01 12:47:53';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -432,7 +432,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['maxlength'] = 64;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['multiple'] = 'multiple';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file'] = new \effectivecore\form_field_file();
-  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->max_file_size = 1048576;
+  cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->max_file_size = 1536;
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->title = 'File';
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->description = new \effectivecore\text();
   cache_factory::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->description->text = 'Element %%_info.';
