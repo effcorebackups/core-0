@@ -187,7 +187,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Telephone'] = 'Телефон';
   cache_factory::$data['settings--translations']['locales']->ru['Text'] = 'Текст';
   cache_factory::$data['settings--translations']['locales']->ru['Textarea'] = 'Текстовая область';
-  cache_factory::$data['settings--translations']['locales']->ru['the size of uploaded file is exceeds of value from MAX_FILE_SIZE'] = 'размер загруженного файла превышает значение MAX_FILE_SIZE';
+  cache_factory::$data['settings--translations']['locales']->ru['the size of uploaded file more than %%_size'] = 'размер загруженного файла больше чем %%_size';
   cache_factory::$data['settings--translations']['locales']->ru['the size of uploaded file is exceeds of value from upload_max_filesize'] = 'размер загруженного файла превышает значение upload_max_filesize';
   cache_factory::$data['settings--translations']['locales']->ru['the uploaded file was only partially uploaded'] = 'загружаемый файл был загружен только частично';
   cache_factory::$data['settings--translations']['locales']->ru['Time'] = 'Время';
