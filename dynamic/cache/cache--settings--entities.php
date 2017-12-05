@@ -190,6 +190,13 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['user']['session']->fields->id_user = new \stdClass();
   cache_factory::$data['settings--entities']['user']['session']->fields->id_user->type = 'integer';
   cache_factory::$data['settings--entities']['user']['session']->fields->id_user->not_null = true;
+  cache_factory::$data['settings--entities']['user']['session']->fields->ip_address = new \stdClass();
+  cache_factory::$data['settings--entities']['user']['session']->fields->ip_address->type = 'varchar';
+  cache_factory::$data['settings--entities']['user']['session']->fields->ip_address->size = 15;
+  cache_factory::$data['settings--entities']['user']['session']->fields->ip_address->not_null = true;
+  cache_factory::$data['settings--entities']['user']['session']->fields->user_agent_hash = new \stdClass();
+  cache_factory::$data['settings--entities']['user']['session']->fields->user_agent_hash->type = 'varchar';
+  cache_factory::$data['settings--entities']['user']['session']->fields->user_agent_hash->size = 255;
   cache_factory::$data['settings--entities']['user']['session']->fields->created = new \stdClass();
   cache_factory::$data['settings--entities']['user']['session']->fields->created->type = 'datetime';
   cache_factory::$data['settings--entities']['user']['session']->fields->created->not_null = true;

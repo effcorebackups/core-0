@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-12-03 11:04:19';
+  cache_factory::$info['settings_original']['build'] = '2017-12-05 12:56:40';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1709,6 +1709,13 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->id_user = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->id_user->type = 'integer';
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->id_user->not_null = true;
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->ip_address = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->ip_address->type = 'varchar';
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->ip_address->size = 15;
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->ip_address->not_null = true;
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_agent_hash = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_agent_hash->type = 'varchar';
+  cache_factory::$data['settings_original']['entities']['user']['session']->fields->user_agent_hash->size = 255;
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created = new \stdClass();
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created->type = 'datetime';
   cache_factory::$data['settings_original']['entities']['user']['session']->fields->created->not_null = true;
