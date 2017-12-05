@@ -3,7 +3,6 @@
 namespace effectivecore { # cache for settings--translations
 
   cache_factory::$data['settings--translations']['locales'] = new \stdClass();
-  cache_factory::$data['settings--translations']['locales']->ru['- select -'] = '- выбрать -';
   cache_factory::$data['settings--translations']['locales']->ru['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
   cache_factory::$data['settings--translations']['locales']->ru['action'] = 'действие';
   cache_factory::$data['settings--translations']['locales']->ru['Action'] = 'Действие';
@@ -33,6 +32,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Colors'] = 'Цвета';
   cache_factory::$data['settings--translations']['locales']->ru['Console'] = 'Консоль';
   cache_factory::$data['settings--translations']['locales']->ru['Control elements'] = 'Элементы управления';
+  cache_factory::$data['settings--translations']['locales']->ru['Cookies are disabled. You can not log in!'] = 'Cookies отключены. Вы не можете войти в систему!';
   cache_factory::$data['settings--translations']['locales']->ru['Core'] = 'Ядро';
   cache_factory::$data['settings--translations']['locales']->ru['created'] = 'создано';
   cache_factory::$data['settings--translations']['locales']->ru['Created'] = 'Создано';
@@ -57,6 +57,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Element %%_info.'] = 'Элемент %%_info.';
   cache_factory::$data['settings--translations']['locales']->ru['Elements'] = 'Элементы';
   cache_factory::$data['settings--translations']['locales']->ru['EMail'] = 'Адрес электронной почты';
+  cache_factory::$data['settings--translations']['locales']->ru['Enable cookies before login.'] = 'Включите cookies до начала входа в систему.';
   cache_factory::$data['settings--translations']['locales']->ru['Entity %%_name was installed.'] = 'Сущность %%_name была установлена.';
   cache_factory::$data['settings--translations']['locales']->ru['Entity %%_name was not installed!'] = 'Сущность %%_name не была установлена!';
   cache_factory::$data['settings--translations']['locales']->ru['event system was initialized'] = 'система событий была инициализирована';
@@ -227,5 +228,6 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
   cache_factory::$data['settings--translations']['locales']->ru['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache_factory::$data['settings--translations']['locales']->ru['Yes'] = 'Да';
+  cache_factory::$data['settings--translations']['locales']->ru['- select -'] = '- выбрать -';
 
 }

@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-12-05 14:59:10';
+  cache_factory::$info['settings_original']['build'] = '2017-12-05 16:40:54';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -142,10 +142,14 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->for = 'user';
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->handler = '\\effectivecore\\modules\\user\\events_module::on_install';
   cache_factory::$data['settings_original']['events']['user']->on_module_install['user']->weight = 0;
+  cache_factory::$data['settings_original']['events']['user']->on_form_init['login'] = new \stdClass();
+  cache_factory::$data['settings_original']['events']['user']->on_form_init['login']->for = 'login';
+  cache_factory::$data['settings_original']['events']['user']->on_form_init['login']->handler = '\\effectivecore\\modules\\user\\events_form::on_init_login';
+  cache_factory::$data['settings_original']['events']['user']->on_form_init['login']->weight = 0;
   cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit']->for = 'user_edit';
   cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit']->handler = '\\effectivecore\\modules\\user\\events_form::on_init_user_edit';
-  cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit']->weight = 1;
+  cache_factory::$data['settings_original']['events']['user']->on_form_init['user_edit']->weight = 0;
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['login'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['login']->for = 'login';
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['login']->handler = '\\effectivecore\\modules\\user\\events_form::on_validate_login';
@@ -153,7 +157,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit']->for = 'user_edit';
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit']->handler = '\\effectivecore\\modules\\user\\events_form::on_validate_user_edit';
-  cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit']->weight = 1;
+  cache_factory::$data['settings_original']['events']['user']->on_form_validate['user_edit']->weight = 0;
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration'] = new \stdClass();
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration']->for = 'registration';
   cache_factory::$data['settings_original']['events']['user']->on_form_validate['registration']->handler = '\\effectivecore\\modules\\user\\events_form::on_validate_registration';
@@ -1916,7 +1920,6 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['languages']['locales']['ru']->title->native = 'Русский';
   cache_factory::$data['settings_original']['languages']['locales']['ru']->code = 'ru';
   cache_factory::$data['settings_original']['translations']['locales'] = new \stdClass();
-  cache_factory::$data['settings_original']['translations']['locales']->ru['- select -'] = '- выбрать -';
   cache_factory::$data['settings_original']['translations']['locales']->ru['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
   cache_factory::$data['settings_original']['translations']['locales']->ru['action'] = 'действие';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Action'] = 'Действие';
@@ -1946,6 +1949,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Colors'] = 'Цвета';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Console'] = 'Консоль';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Control elements'] = 'Элементы управления';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Cookies are disabled. You can not log in!'] = 'Cookies отключены. Вы не можете войти в систему!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Core'] = 'Ядро';
   cache_factory::$data['settings_original']['translations']['locales']->ru['created'] = 'создано';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Created'] = 'Создано';
@@ -1970,6 +1974,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Element %%_info.'] = 'Элемент %%_info.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Elements'] = 'Элементы';
   cache_factory::$data['settings_original']['translations']['locales']->ru['EMail'] = 'Адрес электронной почты';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Enable cookies before login.'] = 'Включите cookies до начала входа в систему.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Entity %%_name was installed.'] = 'Сущность %%_name была установлена.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Entity %%_name was not installed!'] = 'Сущность %%_name не была установлена!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['event system was initialized'] = 'система событий была инициализирована';
@@ -2140,6 +2145,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Yes'] = 'Да';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['- select -'] = '- выбрать -';
   cache_factory::$data['settings_original']['captcha']['page'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch0'] = new \stdClass();
   cache_factory::$data['settings_original']['captcha']['page']->characters['ch0']->character = 0;
