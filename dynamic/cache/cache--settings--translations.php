@@ -157,6 +157,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Registered'] = 'Зарегистрированные';
   cache_factory::$data['settings--translations']['locales']->ru['registration'] = 'регистрация';
   cache_factory::$data['settings--translations']['locales']->ru['Registration'] = 'Регистрация';
+  cache_factory::$data['settings--translations']['locales']->ru['remember me'] = 'запомнить меня';
   cache_factory::$data['settings--translations']['locales']->ru['reset'] = 'сбросить';
   cache_factory::$data['settings--translations']['locales']->ru['restore'] = 'восстановить';
   cache_factory::$data['settings--translations']['locales']->ru['return'] = 'возврат';

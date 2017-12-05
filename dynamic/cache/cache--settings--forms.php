@@ -571,6 +571,17 @@ namespace effectivecore { # cache for settings--forms
   cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
   cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['is_remember'] = new \effectivecore\form_field();
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['is_remember']->title = 'remember me';
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['is_remember']->title_position = 'bottom';
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['is_remember']->children['element'] = new \effectivecore\markup_simple();
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['is_remember']->children['element']->tag_name = 'input';
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['is_remember']->children['element']->attributes['type'] = 'checkbox';
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['is_remember']->children['element']->attributes['name'] = 'is_remember';
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['is_remember']->children['element']->attributes['value'] = 1;
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['is_remember']->children['element']->attributes['checked'] = 'checked';
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['is_remember']->attributes['class']['boxes'] = 'boxes';
+  cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['is_remember']->attributes['class']['checkboxes'] = 'checkboxes';
   cache_factory::$data['settings--forms']['user']['login']->children['credentials']->children['captcha'] = new \effectivecore\form_field_captcha();
   cache_factory::$data['settings--forms']['user']['login']->children['button_login'] = new \effectivecore\markup();
   cache_factory::$data['settings--forms']['user']['login']->children['button_login']->tag_name = 'button';
