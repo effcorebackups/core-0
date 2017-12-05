@@ -87,10 +87,10 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['page']['captcha']->name = 'captcha';
   cache_factory::$data['settings--entities']['page']['captcha']->storage_id = 'main';
   cache_factory::$data['settings--entities']['page']['captcha']->fields = new \stdClass();
-  cache_factory::$data['settings--entities']['page']['captcha']->fields->id = new \stdClass();
-  cache_factory::$data['settings--entities']['page']['captcha']->fields->id->type = 'varchar';
-  cache_factory::$data['settings--entities']['page']['captcha']->fields->id->size = 32;
-  cache_factory::$data['settings--entities']['page']['captcha']->fields->id->not_null = true;
+  cache_factory::$data['settings--entities']['page']['captcha']->fields->ip_address = new \stdClass();
+  cache_factory::$data['settings--entities']['page']['captcha']->fields->ip_address->type = 'varchar';
+  cache_factory::$data['settings--entities']['page']['captcha']->fields->ip_address->size = 15;
+  cache_factory::$data['settings--entities']['page']['captcha']->fields->ip_address->not_null = true;
   cache_factory::$data['settings--entities']['page']['captcha']->fields->characters = new \stdClass();
   cache_factory::$data['settings--entities']['page']['captcha']->fields->characters->type = 'varchar';
   cache_factory::$data['settings--entities']['page']['captcha']->fields->characters->size = 32;
@@ -106,7 +106,7 @@ namespace effectivecore { # cache for settings--entities
   cache_factory::$data['settings--entities']['page']['captcha']->fields->canvas_data->not_null = true;
   cache_factory::$data['settings--entities']['page']['captcha']->constraints['key_id'] = new \stdClass();
   cache_factory::$data['settings--entities']['page']['captcha']->constraints['key_id']->type = 'primary key';
-  cache_factory::$data['settings--entities']['page']['captcha']->constraints['key_id']->fields['id'] = 'id';
+  cache_factory::$data['settings--entities']['page']['captcha']->constraints['key_id']->fields['ip_address'] = 'ip_address';
   cache_factory::$data['settings--entities']['page']['captcha']->indexes['idx_created'] = new \stdClass();
   cache_factory::$data['settings--entities']['page']['captcha']->indexes['idx_created']->type = 'index';
   cache_factory::$data['settings--entities']['page']['captcha']->indexes['idx_created']->fields['created'] = 'created';

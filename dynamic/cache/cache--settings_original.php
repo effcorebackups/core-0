@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-12-05 12:56:40';
+  cache_factory::$info['settings_original']['build'] = '2017-12-05 13:24:25';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1606,10 +1606,10 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['page']['captcha']->name = 'captcha';
   cache_factory::$data['settings_original']['entities']['page']['captcha']->storage_id = 'main';
   cache_factory::$data['settings_original']['entities']['page']['captcha']->fields = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->id = new \stdClass();
-  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->id->type = 'varchar';
-  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->id->size = 32;
-  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->id->not_null = true;
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->ip_address = new \stdClass();
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->ip_address->type = 'varchar';
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->ip_address->size = 15;
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->ip_address->not_null = true;
   cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->characters = new \stdClass();
   cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->characters->type = 'varchar';
   cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->characters->size = 32;
@@ -1625,7 +1625,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['entities']['page']['captcha']->fields->canvas_data->not_null = true;
   cache_factory::$data['settings_original']['entities']['page']['captcha']->constraints['key_id'] = new \stdClass();
   cache_factory::$data['settings_original']['entities']['page']['captcha']->constraints['key_id']->type = 'primary key';
-  cache_factory::$data['settings_original']['entities']['page']['captcha']->constraints['key_id']->fields['id'] = 'id';
+  cache_factory::$data['settings_original']['entities']['page']['captcha']->constraints['key_id']->fields['ip_address'] = 'ip_address';
   cache_factory::$data['settings_original']['entities']['page']['captcha']->indexes['idx_created'] = new \stdClass();
   cache_factory::$data['settings_original']['entities']['page']['captcha']->indexes['idx_created']->type = 'index';
   cache_factory::$data['settings_original']['entities']['page']['captcha']->indexes['idx_created']->fields['created'] = 'created';
