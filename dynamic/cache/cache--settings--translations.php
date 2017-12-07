@@ -3,6 +3,7 @@
 namespace effectivecore { # cache for settings--translations
 
   cache_factory::$data['settings--translations']['locales'] = new \stdClass();
+  cache_factory::$data['settings--translations']['locales']->ru['- select -'] = '- выбрать -';
   cache_factory::$data['settings--translations']['locales']->ru['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
   cache_factory::$data['settings--translations']['locales']->ru['action'] = 'действие';
   cache_factory::$data['settings--translations']['locales']->ru['Action'] = 'Действие';
@@ -44,6 +45,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Data was not updated!'] = 'Данные не были обновлены!';
   cache_factory::$data['settings--translations']['locales']->ru['Date'] = 'Дата';
   cache_factory::$data['settings--translations']['locales']->ru['Decoration'] = 'Оформление';
+  cache_factory::$data['settings--translations']['locales']->ru['delete file: %%_name'] = 'удалить файл: %%_name';
   cache_factory::$data['settings--translations']['locales']->ru['Delete user %%_nick_context{4}?'] = 'Удалить пользователя %%_nick_context{4}?';
   cache_factory::$data['settings--translations']['locales']->ru['delete'] = 'удалить';
   cache_factory::$data['settings--translations']['locales']->ru['Demo'] = 'Демо';
@@ -228,6 +230,5 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
   cache_factory::$data['settings--translations']['locales']->ru['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache_factory::$data['settings--translations']['locales']->ru['Yes'] = 'Да';
-  cache_factory::$data['settings--translations']['locales']->ru['- select -'] = '- выбрать -';
 
 }
