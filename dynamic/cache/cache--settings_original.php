@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-12-10 16:16:42';
+  cache_factory::$info['settings_original']['build'] = '2017-12-10 21:20:44';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1936,6 +1936,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Background color'] = 'Цвет фона';
   cache_factory::$data['settings_original']['translations']['locales']->ru['button'] = 'кнопка';
   cache_factory::$data['settings_original']['translations']['locales']->ru['cache'] = 'кэш';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['Call %%_name'] = 'Вызов %%_name';
   cache_factory::$data['settings_original']['translations']['locales']->ru['call'] = 'вызов';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Cancel'] = 'Отмена';
   cache_factory::$data['settings_original']['translations']['locales']->ru['cancel'] = 'отмена';
@@ -2003,6 +2004,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field value is not a valid number.'] = 'Значение поля не является допустимым числом.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['Field value is not in valid range.'] = 'Значение поля не соответствует допустимому диапазону.';
+  cache_factory::$data['settings_original']['translations']['locales']->ru['File %%_name was uploaded.'] = 'Файл %%_name был загружен.';
   cache_factory::$data['settings_original']['translations']['locales']->ru['file is empty'] = 'файл пуст';
   cache_factory::$data['settings_original']['translations']['locales']->ru['File'] = 'Файл';
   cache_factory::$data['settings_original']['translations']['locales']->ru['file'] = 'файл';

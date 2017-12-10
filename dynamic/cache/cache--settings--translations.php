@@ -19,6 +19,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Background color'] = 'Цвет фона';
   cache_factory::$data['settings--translations']['locales']->ru['button'] = 'кнопка';
   cache_factory::$data['settings--translations']['locales']->ru['cache'] = 'кэш';
+  cache_factory::$data['settings--translations']['locales']->ru['Call %%_name'] = 'Вызов %%_name';
   cache_factory::$data['settings--translations']['locales']->ru['call'] = 'вызов';
   cache_factory::$data['settings--translations']['locales']->ru['Cancel'] = 'Отмена';
   cache_factory::$data['settings--translations']['locales']->ru['cancel'] = 'отмена';
@@ -86,6 +87,7 @@ namespace effectivecore { # cache for settings--translations
   cache_factory::$data['settings--translations']['locales']->ru['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
   cache_factory::$data['settings--translations']['locales']->ru['Field value is not a valid number.'] = 'Значение поля не является допустимым числом.';
   cache_factory::$data['settings--translations']['locales']->ru['Field value is not in valid range.'] = 'Значение поля не соответствует допустимому диапазону.';
+  cache_factory::$data['settings--translations']['locales']->ru['File %%_name was uploaded.'] = 'Файл %%_name был загружен.';
   cache_factory::$data['settings--translations']['locales']->ru['file is empty'] = 'файл пуст';
   cache_factory::$data['settings--translations']['locales']->ru['File'] = 'Файл';
   cache_factory::$data['settings--translations']['locales']->ru['file'] = 'файл';
