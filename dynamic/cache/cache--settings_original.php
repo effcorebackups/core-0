@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache_factory::$info['settings_original']['build'] = '2017-12-10 21:20:44';
+  cache_factory::$info['settings_original']['build'] = '2017-12-11 09:36:15';
   cache_factory::$data['settings_original']['module']['core'] = new \stdClass();
   cache_factory::$data['settings_original']['module']['core']->id = 'core';
   cache_factory::$data['settings_original']['module']['core']->title = 'Core';
@@ -1001,7 +1001,7 @@ namespace effectivecore { # cache for settings_original
   cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_modules'] = new \stdClass();
   cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_modules']->region = 'content_1_1';
   cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_modules']->type = 'code';
-  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_modules']->handler = '\\effectivecore\\events_page::on_show_modules';
+  cache_factory::$data['settings_original']['pages']['core']['modules']->content['block_modules']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_modules';
   cache_factory::$data['settings_original']['pages']['core']['modules']->https = true;
   cache_factory::$data['settings_original']['pages']['core']['modules']->display = new \stdClass();
   cache_factory::$data['settings_original']['pages']['core']['modules']->display->url = new \stdClass();

@@ -54,7 +54,7 @@ namespace effectivecore { # cache for settings--pages
   cache_factory::$data['settings--pages']['core']['modules']->content['block_modules'] = new \stdClass();
   cache_factory::$data['settings--pages']['core']['modules']->content['block_modules']->region = 'content_1_1';
   cache_factory::$data['settings--pages']['core']['modules']->content['block_modules']->type = 'code';
-  cache_factory::$data['settings--pages']['core']['modules']->content['block_modules']->handler = '\\effectivecore\\events_page::on_show_modules';
+  cache_factory::$data['settings--pages']['core']['modules']->content['block_modules']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_modules';
   cache_factory::$data['settings--pages']['core']['modules']->https = true;
   cache_factory::$data['settings--pages']['core']['modules']->display = new \stdClass();
   cache_factory::$data['settings--pages']['core']['modules']->display->url = new \stdClass();
