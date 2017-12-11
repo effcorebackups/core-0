@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-12-11 11:36:58';
+  cache_factory::$info['classes_map']['build'] = '2017-12-11 12:28:11';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -359,11 +359,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\modules\storage\events_storage']->namespace = 'effectivecore\\modules\\storage';
   cache_factory::$data['classes_map']['effectivecore\modules\storage\events_storage']->name = 'events_storage';
   cache_factory::$data['classes_map']['effectivecore\modules\storage\events_storage']->file = 'modules/storage/backend/events--storage.php';
-  cache_factory::$data['classes_map']['effectivecore\modules\storage\storage_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\modules\storage\storage_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\modules\storage\storage_factory']->namespace = 'effectivecore\\modules\\storage';
-  cache_factory::$data['classes_map']['effectivecore\modules\storage\storage_factory']->name = 'storage_factory';
-  cache_factory::$data['classes_map']['effectivecore\modules\storage\storage_factory']->file = 'modules/storage/backend/factory--storage.php';
+  cache_factory::$data['classes_map']['effectivecore\modules\storage\storage'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\modules\storage\storage']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\modules\storage\storage']->namespace = 'effectivecore\\modules\\storage';
+  cache_factory::$data['classes_map']['effectivecore\modules\storage\storage']->name = 'storage';
+  cache_factory::$data['classes_map']['effectivecore\modules\storage\storage']->file = 'modules/storage/backend/factory--storage.php';
   cache_factory::$data['classes_map']['effectivecore\entity'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\entity']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\entity']->namespace = 'effectivecore';
