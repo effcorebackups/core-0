@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-11 14:16:02';
+  cache::$info['classes_map']['build'] = '2017-12-11 14:18:25';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -422,11 +422,11 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\modules\user\access']->namespace = 'effectivecore\\modules\\user';
   cache::$data['classes_map']['effectivecore\modules\user\access']->name = 'access';
   cache::$data['classes_map']['effectivecore\modules\user\access']->file = 'modules/user/backend/factory--access.php';
-  cache::$data['classes_map']['effectivecore\modules\user\session_factory'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\modules\user\session_factory']->type = 'class';
-  cache::$data['classes_map']['effectivecore\modules\user\session_factory']->namespace = 'effectivecore\\modules\\user';
-  cache::$data['classes_map']['effectivecore\modules\user\session_factory']->name = 'session_factory';
-  cache::$data['classes_map']['effectivecore\modules\user\session_factory']->file = 'modules/user/backend/factory--session.php';
+  cache::$data['classes_map']['effectivecore\modules\user\session'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\modules\user\session']->type = 'class';
+  cache::$data['classes_map']['effectivecore\modules\user\session']->namespace = 'effectivecore\\modules\\user';
+  cache::$data['classes_map']['effectivecore\modules\user\session']->name = 'session';
+  cache::$data['classes_map']['effectivecore\modules\user\session']->file = 'modules/user/backend/factory--session.php';
   cache::$data['classes_map']['effectivecore\modules\user\user'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\modules\user\user']->type = 'class';
   cache::$data['classes_map']['effectivecore\modules\user\user']->namespace = 'effectivecore\\modules\\user';
