@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-12-11 11:12:57';
+  cache_factory::$info['classes_map']['build'] = '2017-12-11 11:20:23';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -87,11 +87,6 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\token_factory']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\token_factory']->name = 'token_factory';
   cache_factory::$data['classes_map']['effectivecore\token_factory']->file = 'modules/core/backend/factory--gl--token.php';
-  cache_factory::$data['classes_map']['effectivecore\url_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\url_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\url_factory']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\url_factory']->name = 'url_factory';
-  cache_factory::$data['classes_map']['effectivecore\url_factory']->file = 'modules/core/backend/factory--gl--url.php';
   cache_factory::$data['classes_map']['effectivecore\factory'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\factory']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\factory']->namespace = 'effectivecore';
