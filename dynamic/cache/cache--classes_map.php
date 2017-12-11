@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-12-11 11:00:10';
+  cache_factory::$info['classes_map']['build'] = '2017-12-11 11:12:57';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -61,11 +61,6 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\dynamic_factory']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\dynamic_factory']->name = 'dynamic_factory';
   cache_factory::$data['classes_map']['effectivecore\dynamic_factory']->file = 'modules/core/backend/factory--gl--dynamic.php';
-  cache_factory::$data['classes_map']['effectivecore\entity_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\entity_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\entity_factory']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\entity_factory']->name = 'entity_factory';
-  cache_factory::$data['classes_map']['effectivecore\entity_factory']->file = 'modules/core/backend/factory--gl--entity.php';
   cache_factory::$data['classes_map']['effectivecore\event_factory'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\event_factory']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\event_factory']->namespace = 'effectivecore';
