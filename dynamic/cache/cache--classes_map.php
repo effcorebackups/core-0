@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-12-11 12:40:08';
+  cache_factory::$info['classes_map']['build'] = '2017-12-11 12:44:15';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -146,11 +146,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\language_factory']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\language_factory']->name = 'language_factory';
   cache_factory::$data['classes_map']['effectivecore\language_factory']->file = 'modules/locales/backend/factory--gl--language.php';
-  cache_factory::$data['classes_map']['effectivecore\locale_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\locale_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\locale_factory']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\locale_factory']->name = 'locale_factory';
-  cache_factory::$data['classes_map']['effectivecore\locale_factory']->file = 'modules/locales/backend/factory--gl--locale.php';
+  cache_factory::$data['classes_map']['effectivecore\locale'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\locale']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\locale']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\locale']->name = 'locale';
+  cache_factory::$data['classes_map']['effectivecore\locale']->file = 'modules/locales/backend/factory--gl--locale.php';
   cache_factory::$data['classes_map']['effectivecore\translation'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\translation']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\translation']->namespace = 'effectivecore';
