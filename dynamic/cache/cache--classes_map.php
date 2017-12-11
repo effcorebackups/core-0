@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-12-11 12:44:15';
+  cache_factory::$info['classes_map']['build'] = '2017-12-11 12:50:16';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -61,11 +61,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\dynamic_factory']->namespace = 'effectivecore';
   cache_factory::$data['classes_map']['effectivecore\dynamic_factory']->name = 'dynamic_factory';
   cache_factory::$data['classes_map']['effectivecore\dynamic_factory']->file = 'modules/core/backend/factory--gl--dynamic.php';
-  cache_factory::$data['classes_map']['effectivecore\event_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\event_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\event_factory']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\event_factory']->name = 'event_factory';
-  cache_factory::$data['classes_map']['effectivecore\event_factory']->file = 'modules/core/backend/factory--gl--event.php';
+  cache_factory::$data['classes_map']['effectivecore\event'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\event']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\event']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\event']->name = 'event';
+  cache_factory::$data['classes_map']['effectivecore\event']->file = 'modules/core/backend/factory--gl--event.php';
   cache_factory::$data['classes_map']['effectivecore\message_factory'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\message_factory']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\message_factory']->namespace = 'effectivecore';
