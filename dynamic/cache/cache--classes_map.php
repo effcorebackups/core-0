@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-11 14:01:39';
+  cache::$info['classes_map']['build'] = '2017-12-11 14:07:26';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -184,11 +184,6 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\modules\page\events_token']->name = 'events_token';
   cache::$data['classes_map']['effectivecore\modules\page\events_token']->extends = '\\effectivecore\\events_token';
   cache::$data['classes_map']['effectivecore\modules\page\events_token']->file = 'modules/page/backend/events--token.php';
-  cache::$data['classes_map']['effectivecore\modules\page\page_factory'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\modules\page\page_factory']->type = 'class';
-  cache::$data['classes_map']['effectivecore\modules\page\page_factory']->namespace = 'effectivecore\\modules\\page';
-  cache::$data['classes_map']['effectivecore\modules\page\page_factory']->name = 'page_factory';
-  cache::$data['classes_map']['effectivecore\modules\page\page_factory']->file = 'modules/page/backend/factory--page.php';
   cache::$data['classes_map']['effectivecore\canvas_svg'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\canvas_svg']->type = 'class';
   cache::$data['classes_map']['effectivecore\canvas_svg']->namespace = 'effectivecore';
