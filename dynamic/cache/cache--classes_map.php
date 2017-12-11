@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-11 13:49:59';
+  cache::$info['classes_map']['build'] = '2017-12-11 13:53:33';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -71,12 +71,12 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\message']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\message']->name = 'message';
   cache::$data['classes_map']['effectivecore\message']->file = 'modules/core/backend/factory--gl--message.php';
-  cache::$data['classes_map']['effectivecore\temporary_factory'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\temporary_factory']->type = 'class';
-  cache::$data['classes_map']['effectivecore\temporary_factory']->namespace = 'effectivecore';
-  cache::$data['classes_map']['effectivecore\temporary_factory']->name = 'temporary_factory';
-  cache::$data['classes_map']['effectivecore\temporary_factory']->extends = '\\effectivecore\\dynamic';
-  cache::$data['classes_map']['effectivecore\temporary_factory']->file = 'modules/core/backend/factory--gl--temporary.php';
+  cache::$data['classes_map']['effectivecore\temporary'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\temporary']->type = 'class';
+  cache::$data['classes_map']['effectivecore\temporary']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\temporary']->name = 'temporary';
+  cache::$data['classes_map']['effectivecore\temporary']->extends = '\\effectivecore\\dynamic';
+  cache::$data['classes_map']['effectivecore\temporary']->file = 'modules/core/backend/factory--gl--temporary.php';
   cache::$data['classes_map']['effectivecore\timer'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\timer']->type = 'class';
   cache::$data['classes_map']['effectivecore\timer']->namespace = 'effectivecore';
