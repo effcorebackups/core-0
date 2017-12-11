@@ -2,13 +2,6 @@
 
 namespace effectivecore { # cache for settings--tree_items
 
-  cache::$data['settings--tree_items']['core']['home'] = new \effectivecore\tree_item();
-  cache::$data['settings--tree_items']['core']['home']->id = 'home';
-  cache::$data['settings--tree_items']['core']['home']->id_parent = 'main';
-  cache::$data['settings--tree_items']['core']['home']->parent_is_tree = true;
-  cache::$data['settings--tree_items']['core']['home']->title = 'Home';
-  cache::$data['settings--tree_items']['core']['home']->attributes['href'] = '/';
-  cache::$data['settings--tree_items']['core']['home']->attributes['class']['home'] = 'home';
   cache::$data['settings--tree_items']['core']['admin'] = new \effectivecore\tree_item();
   cache::$data['settings--tree_items']['core']['admin']->id = 'admin';
   cache::$data['settings--tree_items']['core']['admin']->id_parent = 'main';

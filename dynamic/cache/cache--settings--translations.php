@@ -199,6 +199,7 @@ namespace effectivecore { # cache for settings--translations
   cache::$data['settings--translations']['locales']->ru['Timezone'] = 'Часовой пояс';
   cache::$data['settings--translations']['locales']->ru['Title'] = 'Заголовок';
   cache::$data['settings--translations']['locales']->ru['to front'] = 'на главную';
+  cache::$data['settings--translations']['locales']->ru['to home'] = 'домой';
   cache::$data['settings--translations']['locales']->ru['Total build time'] = 'Общее время сборки';
   cache::$data['settings--translations']['locales']->ru['Total load'] = 'Общая загрука';
   cache::$data['settings--translations']['locales']->ru['Total'] = 'Всего';

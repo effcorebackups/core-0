@@ -82,6 +82,6 @@ namespace effectivecore { # cache for settings--blocks
   cache::$data['settings--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['switcher_demo_wrapper']->children['switcher_demo'] = new \effectivecore\control_switcher();
   cache::$data['settings--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['switcher_demo_wrapper']->children['switcher_demo']->state = 'on';
   cache::$data['settings--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['switcher_demo_wrapper']->children['switcher_demo']->attributes['class']['switcher-demo'] = 'switcher-demo';
-  cache::$data['settings--blocks']['develop']['demo']->attributes['id'] = 'block_demo';
+  cache::$data['settings--blocks']['develop']['demo']->attributes['id'] = 'demo';
 
 }
