@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-11 13:53:33';
+  cache::$info['classes_map']['build'] = '2017-12-11 13:59:41';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -82,11 +82,11 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\timer']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\timer']->name = 'timer';
   cache::$data['classes_map']['effectivecore\timer']->file = 'modules/core/backend/factory--gl--timer.php';
-  cache::$data['classes_map']['effectivecore\token_factory'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\token_factory']->type = 'class';
-  cache::$data['classes_map']['effectivecore\token_factory']->namespace = 'effectivecore';
-  cache::$data['classes_map']['effectivecore\token_factory']->name = 'token_factory';
-  cache::$data['classes_map']['effectivecore\token_factory']->file = 'modules/core/backend/factory--gl--token.php';
+  cache::$data['classes_map']['effectivecore\token'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\token']->type = 'class';
+  cache::$data['classes_map']['effectivecore\token']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\token']->name = 'token';
+  cache::$data['classes_map']['effectivecore\token']->file = 'modules/core/backend/factory--gl--token.php';
   cache::$data['classes_map']['effectivecore\factory'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\factory']->type = 'class';
   cache::$data['classes_map']['effectivecore\factory']->namespace = 'effectivecore';
