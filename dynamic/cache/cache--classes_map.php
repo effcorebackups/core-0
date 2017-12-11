@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-12-11 12:50:16';
+  cache_factory::$info['classes_map']['build'] = '2017-12-11 12:56:05';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -380,11 +380,6 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\modules\tree\events_module']->name = 'events_module';
   cache_factory::$data['classes_map']['effectivecore\modules\tree\events_module']->extends = '\\effectivecore\\events_module';
   cache_factory::$data['classes_map']['effectivecore\modules\tree\events_module']->file = 'modules/tree/backend/events--module.php';
-  cache_factory::$data['classes_map']['effectivecore\tree_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\tree_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\tree_factory']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\tree_factory']->name = 'tree_factory';
-  cache_factory::$data['classes_map']['effectivecore\tree_factory']->file = 'modules/tree/backend/factory--gl--tree.php';
   cache_factory::$data['classes_map']['effectivecore\tree'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\tree']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\tree']->namespace = 'effectivecore';
