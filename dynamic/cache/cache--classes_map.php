@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache_factory::$info['classes_map']['build'] = '2017-12-11 12:34:11';
+  cache_factory::$info['classes_map']['build'] = '2017-12-11 12:40:08';
   cache_factory::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\file']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -77,11 +77,11 @@ namespace effectivecore { # cache for classes_map
   cache_factory::$data['classes_map']['effectivecore\temporary_factory']->name = 'temporary_factory';
   cache_factory::$data['classes_map']['effectivecore\temporary_factory']->extends = '\\effectivecore\\dynamic_factory';
   cache_factory::$data['classes_map']['effectivecore\temporary_factory']->file = 'modules/core/backend/factory--gl--temporary.php';
-  cache_factory::$data['classes_map']['effectivecore\timer_factory'] = new \stdClass();
-  cache_factory::$data['classes_map']['effectivecore\timer_factory']->type = 'class';
-  cache_factory::$data['classes_map']['effectivecore\timer_factory']->namespace = 'effectivecore';
-  cache_factory::$data['classes_map']['effectivecore\timer_factory']->name = 'timer_factory';
-  cache_factory::$data['classes_map']['effectivecore\timer_factory']->file = 'modules/core/backend/factory--gl--timer.php';
+  cache_factory::$data['classes_map']['effectivecore\timer'] = new \stdClass();
+  cache_factory::$data['classes_map']['effectivecore\timer']->type = 'class';
+  cache_factory::$data['classes_map']['effectivecore\timer']->namespace = 'effectivecore';
+  cache_factory::$data['classes_map']['effectivecore\timer']->name = 'timer';
+  cache_factory::$data['classes_map']['effectivecore\timer']->file = 'modules/core/backend/factory--gl--timer.php';
   cache_factory::$data['classes_map']['effectivecore\token_factory'] = new \stdClass();
   cache_factory::$data['classes_map']['effectivecore\token_factory']->type = 'class';
   cache_factory::$data['classes_map']['effectivecore\token_factory']->namespace = 'effectivecore';
