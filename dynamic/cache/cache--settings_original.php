@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-13 19:50:49';
+  cache::$info['settings_original']['build'] = '2017-12-13 20:09:16';
   cache::$data['settings_original']['module']['core'] = new \stdClass();
   cache::$data['settings_original']['module']['core']->id = 'core';
   cache::$data['settings_original']['module']['core']->title = 'Core';
@@ -2279,7 +2279,7 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['translations']['locales']->ru['Users'] = 'Пользователи';
   cache::$data['settings_original']['translations']['locales']->ru['val.'] = 'знач.';
   cache::$data['settings_original']['translations']['locales']->ru['Val.'] = 'Знач.';
-  cache::$data['settings_original']['translations']['locales']->ru['Valid HTML5 markup | Valid CSS'] = 'Правильная HTML5 разметка | Правильный CSS';
+  cache::$data['settings_original']['translations']['locales']->ru['Valid HTML5 markup | Valid CSS'] = 'Действительная HTML5 разметка | Действительный CSS';
   cache::$data['settings_original']['translations']['locales']->ru['Value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache::$data['settings_original']['translations']['locales']->ru['Value'] = 'Значение';
   cache::$data['settings_original']['translations']['locales']->ru['Values'] = 'Значения';

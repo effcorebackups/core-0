@@ -226,7 +226,7 @@ namespace effectivecore { # cache for settings--translations
   cache::$data['settings--translations']['locales']->ru['Users'] = 'Пользователи';
   cache::$data['settings--translations']['locales']->ru['val.'] = 'знач.';
   cache::$data['settings--translations']['locales']->ru['Val.'] = 'Знач.';
-  cache::$data['settings--translations']['locales']->ru['Valid HTML5 markup | Valid CSS'] = 'Правильная HTML5 разметка | Правильный CSS';
+  cache::$data['settings--translations']['locales']->ru['Valid HTML5 markup | Valid CSS'] = 'Действительная HTML5 разметка | Действительный CSS';
   cache::$data['settings--translations']['locales']->ru['Value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache::$data['settings--translations']['locales']->ru['Value'] = 'Значение';
   cache::$data['settings--translations']['locales']->ru['Values'] = 'Значения';
