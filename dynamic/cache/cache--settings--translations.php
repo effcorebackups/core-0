@@ -11,6 +11,7 @@ namespace effectivecore { # cache for settings--translations
   cache::$data['settings--translations']['locales']->ru['Actions'] = 'Действия';
   cache::$data['settings--translations']['locales']->ru['Administer'] = 'Администрирование';
   cache::$data['settings--translations']['locales']->ru['Administrators'] = 'Администраторы';
+  cache::$data['settings--translations']['locales']->ru['All rights reserved.'] = 'Все права защищены.';
   cache::$data['settings--translations']['locales']->ru['Allowable characters: %%_chars. Examples: %%_examples.'] = 'Допустимые символы: %%_chars. Примеры: %%_examples.';
   cache::$data['settings--translations']['locales']->ru['Allowable characters: %%_chars.'] = 'Допустимые символы: %%_chars.';
   cache::$data['settings--translations']['locales']->ru['always_enabled'] = 'всегда_вкл';
@@ -35,6 +36,7 @@ namespace effectivecore { # cache for settings--translations
   cache::$data['settings--translations']['locales']->ru['Console'] = 'Консоль';
   cache::$data['settings--translations']['locales']->ru['Control elements'] = 'Элементы управления';
   cache::$data['settings--translations']['locales']->ru['Cookies are disabled. You can not log in!'] = 'Cookies отключены. Вы не можете войти в систему!';
+  cache::$data['settings--translations']['locales']->ru['Copyright © %%_years %%_right_holder.'] = 'Авторские права © %%_years %%_right_holder.';
   cache::$data['settings--translations']['locales']->ru['Core'] = 'Ядро';
   cache::$data['settings--translations']['locales']->ru['created'] = 'создано';
   cache::$data['settings--translations']['locales']->ru['Created'] = 'Создано';
@@ -224,6 +226,7 @@ namespace effectivecore { # cache for settings--translations
   cache::$data['settings--translations']['locales']->ru['Users'] = 'Пользователи';
   cache::$data['settings--translations']['locales']->ru['val.'] = 'знач.';
   cache::$data['settings--translations']['locales']->ru['Val.'] = 'Знач.';
+  cache::$data['settings--translations']['locales']->ru['Valid HTML5 markup | Valid CSS'] = 'Правильная HTML5 разметка | Правильный CSS';
   cache::$data['settings--translations']['locales']->ru['Value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache::$data['settings--translations']['locales']->ru['Value'] = 'Значение';
   cache::$data['settings--translations']['locales']->ru['Values'] = 'Значения';
