@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-14 12:29:59';
+  cache::$info['settings_original']['build'] = '2017-12-14 14:27:04';
   cache::$data['settings_original']['module']['core'] = new \stdClass();
   cache::$data['settings_original']['module']['core']->id = 'core';
   cache::$data['settings_original']['module']['core']->title = 'Core';
@@ -921,7 +921,6 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['type'] = 'file';
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['name'] = 'avatar';
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['accept'] = 'image/*';
-  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['disabled'] = 'disabled';
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new'] = new \effectivecore\form_field();
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->title = 'New password';
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->description = 'Leave the field blank if you do not want to change its value.';
