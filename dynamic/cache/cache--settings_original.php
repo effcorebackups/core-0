@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-14 11:30:19';
+  cache::$info['settings_original']['build'] = '2017-12-14 12:29:59';
   cache::$data['settings_original']['module']['core'] = new \stdClass();
   cache::$data['settings_original']['module']['core']->id = 'core';
   cache::$data['settings_original']['module']['core']->title = 'Core';
@@ -437,7 +437,7 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['email']->children['element']->attributes['multiple'] = 'multiple';
   cache::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file'] = new \effectivecore\form_field_file();
   cache::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->max_file_size = '1M';
-  cache::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->upload_subdir = 'test/';
+  cache::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->upload_subdir = 'demo/';
   cache::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->title = 'File';
   cache::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->description = new \effectivecore\text();
   cache::$data['settings_original']['forms']['develop']['demo']->children['form_elements']->children['file']->description->text = 'Element %%_info.';
@@ -912,6 +912,16 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['required'] = 'required';
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['minlength'] = 4;
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['maxlength'] = 32;
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar'] = new \effectivecore\form_field_file();
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->max_file_size = '10K';
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->upload_subdir = 'avatar/';
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element'] = new \effectivecore\markup_simple();
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->tag_name = 'input';
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['type'] = 'file';
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['name'] = 'avatar';
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['accept'] = 'image/*';
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['disabled'] = 'disabled';
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new'] = new \effectivecore\form_field();
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->title = 'New password';
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->description = 'Leave the field blank if you do not want to change its value.';
@@ -949,6 +959,7 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['forms']['user']['user_edit']->children['button_cancel']->novalidate = true;
   cache::$data['settings_original']['forms']['user']['user_edit']->attributes['id'] = 'user_edit';
   cache::$data['settings_original']['forms']['user']['user_edit']->attributes['novalidate'] = 'novalidate';
+  cache::$data['settings_original']['forms']['user']['user_edit']->attributes['enctype'] = 'multipart/form-data';
   cache::$data['settings_original']['forms']['user']['user_edit']->attributes['method'] = 'post';
   cache::$data['settings_original']['pages']['core']['front'] = new \effectivecore\page();
   cache::$data['settings_original']['pages']['core']['front']->title = 'Front page';
@@ -2078,6 +2089,8 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['translations']['locales']->ru['always_enabled'] = 'всегда_вкл';
   cache::$data['settings_original']['translations']['locales']->ru['Anonymous'] = 'Аноним';
   cache::$data['settings_original']['translations']['locales']->ru['autoload'] = 'автозагрузка';
+  cache::$data['settings_original']['translations']['locales']->ru['Avatar'] = 'Аватар';
+  cache::$data['settings_original']['translations']['locales']->ru['avatar'] = 'аватар';
   cache::$data['settings_original']['translations']['locales']->ru['Background color'] = 'Цвет фона';
   cache::$data['settings_original']['translations']['locales']->ru['button'] = 'кнопка';
   cache::$data['settings_original']['translations']['locales']->ru['cache'] = 'кэш';

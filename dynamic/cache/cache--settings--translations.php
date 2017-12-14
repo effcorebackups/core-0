@@ -17,6 +17,8 @@ namespace effectivecore { # cache for settings--translations
   cache::$data['settings--translations']['locales']->ru['always_enabled'] = 'всегда_вкл';
   cache::$data['settings--translations']['locales']->ru['Anonymous'] = 'Аноним';
   cache::$data['settings--translations']['locales']->ru['autoload'] = 'автозагрузка';
+  cache::$data['settings--translations']['locales']->ru['Avatar'] = 'Аватар';
+  cache::$data['settings--translations']['locales']->ru['avatar'] = 'аватар';
   cache::$data['settings--translations']['locales']->ru['Background color'] = 'Цвет фона';
   cache::$data['settings--translations']['locales']->ru['button'] = 'кнопка';
   cache::$data['settings--translations']['locales']->ru['cache'] = 'кэш';
