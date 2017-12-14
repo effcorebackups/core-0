@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-13 20:56:43';
+  cache::$info['settings_original']['build'] = '2017-12-14 08:43:26';
   cache::$data['settings_original']['module']['core'] = new \stdClass();
   cache::$data['settings_original']['module']['core']->id = 'core';
   cache::$data['settings_original']['module']['core']->title = 'Core';
@@ -1844,6 +1844,9 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['entities']['user']['user']->fields->is_embed->type = 'integer';
   cache::$data['settings_original']['entities']['user']['user']->fields->is_embed->not_null = true;
   cache::$data['settings_original']['entities']['user']['user']->fields->is_embed->default = 0;
+  cache::$data['settings_original']['entities']['user']['user']->fields->avatar_path = new \stdClass();
+  cache::$data['settings_original']['entities']['user']['user']->fields->avatar_path->type = 'varchar';
+  cache::$data['settings_original']['entities']['user']['user']->fields->avatar_path->size = 1024;
   cache::$data['settings_original']['entities']['user']['user']->constraints['key_id'] = new \stdClass();
   cache::$data['settings_original']['entities']['user']['user']->constraints['key_id']->type = 'primary key';
   cache::$data['settings_original']['entities']['user']['user']->constraints['key_id']->fields['id'] = 'id';
