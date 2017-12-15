@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-15 11:18:52';
+  cache::$info['settings_original']['build'] = '2017-12-15 11:37:36';
   cache::$data['settings_original']['module']['core'] = new \stdClass();
   cache::$data['settings_original']['module']['core']->id = 'core';
   cache::$data['settings_original']['module']['core']->title = 'Core';
@@ -201,6 +201,8 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['file_types']['core']['xml']->headers['Content-type'] = 'text/xml';
   cache::$data['settings_original']['file_types']['core']['txt'] = new \stdClass();
   cache::$data['settings_original']['file_types']['core']['txt']->headers['Content-type'] = 'text/plain';
+  cache::$data['settings_original']['file_types']['core']['image'] = new \stdClass();
+  cache::$data['settings_original']['file_types']['core']['image']->headers['Content-type'] = 'image/*';
   cache::$data['settings_original']['file_types']['core']['svg'] = new \stdClass();
   cache::$data['settings_original']['file_types']['core']['svg']->use_tokens = 1;
   cache::$data['settings_original']['file_types']['core']['svg']->headers['Content-type'] = 'image/svg+xml';

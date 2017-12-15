@@ -21,6 +21,8 @@ namespace effectivecore { # cache for settings--file_types
   cache::$data['settings--file_types']['core']['xml']->headers['Content-type'] = 'text/xml';
   cache::$data['settings--file_types']['core']['txt'] = new \stdClass();
   cache::$data['settings--file_types']['core']['txt']->headers['Content-type'] = 'text/plain';
+  cache::$data['settings--file_types']['core']['image'] = new \stdClass();
+  cache::$data['settings--file_types']['core']['image']->headers['Content-type'] = 'image/*';
   cache::$data['settings--file_types']['core']['svg'] = new \stdClass();
   cache::$data['settings--file_types']['core']['svg']->use_tokens = 1;
   cache::$data['settings--file_types']['core']['svg']->headers['Content-type'] = 'image/svg+xml';
