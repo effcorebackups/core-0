@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-14 15:26:57';
+  cache::$info['settings_original']['build'] = '2017-12-15 11:18:52';
   cache::$data['settings_original']['module']['core'] = new \stdClass();
   cache::$data['settings_original']['module']['core']->id = 'core';
   cache::$data['settings_original']['module']['core']->title = 'Core';
@@ -915,6 +915,8 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar'] = new \effectivecore\form_field_file();
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->max_file_size = '10K';
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->upload_subdir = 'avatar/';
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->fixed_name = '%%_id_user';
+  cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->fixed_type = 'image';
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element'] = new \effectivecore\markup_simple();
   cache::$data['settings_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->tag_name = 'input';
@@ -1855,9 +1857,9 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['entities']['user']['user']->fields->is_embed->type = 'integer';
   cache::$data['settings_original']['entities']['user']['user']->fields->is_embed->not_null = true;
   cache::$data['settings_original']['entities']['user']['user']->fields->is_embed->default = 0;
-  cache::$data['settings_original']['entities']['user']['user']->fields->avatar_path = new \stdClass();
-  cache::$data['settings_original']['entities']['user']['user']->fields->avatar_path->type = 'varchar';
-  cache::$data['settings_original']['entities']['user']['user']->fields->avatar_path->size = 1024;
+  cache::$data['settings_original']['entities']['user']['user']->fields->avatar_path_relative = new \stdClass();
+  cache::$data['settings_original']['entities']['user']['user']->fields->avatar_path_relative->type = 'varchar';
+  cache::$data['settings_original']['entities']['user']['user']->fields->avatar_path_relative->size = 1024;
   cache::$data['settings_original']['entities']['user']['user']->constraints['key_id'] = new \stdClass();
   cache::$data['settings_original']['entities']['user']['user']->constraints['key_id']->type = 'primary key';
   cache::$data['settings_original']['entities']['user']['user']->constraints['key_id']->fields['id'] = 'id';

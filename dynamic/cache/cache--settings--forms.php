@@ -702,6 +702,8 @@ namespace effectivecore { # cache for settings--forms
   cache::$data['settings--forms']['user']['user_edit']->children['credentials']->children['avatar'] = new \effectivecore\form_field_file();
   cache::$data['settings--forms']['user']['user_edit']->children['credentials']->children['avatar']->max_file_size = '10K';
   cache::$data['settings--forms']['user']['user_edit']->children['credentials']->children['avatar']->upload_subdir = 'avatar/';
+  cache::$data['settings--forms']['user']['user_edit']->children['credentials']->children['avatar']->fixed_name = '%%_id_user';
+  cache::$data['settings--forms']['user']['user_edit']->children['credentials']->children['avatar']->fixed_type = 'image';
   cache::$data['settings--forms']['user']['user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
   cache::$data['settings--forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element'] = new \effectivecore\markup_simple();
   cache::$data['settings--forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->tag_name = 'input';

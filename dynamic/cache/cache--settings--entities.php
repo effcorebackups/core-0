@@ -170,9 +170,9 @@ namespace effectivecore { # cache for settings--entities
   cache::$data['settings--entities']['user']['user']->fields->is_embed->type = 'integer';
   cache::$data['settings--entities']['user']['user']->fields->is_embed->not_null = true;
   cache::$data['settings--entities']['user']['user']->fields->is_embed->default = 0;
-  cache::$data['settings--entities']['user']['user']->fields->avatar_path = new \stdClass();
-  cache::$data['settings--entities']['user']['user']->fields->avatar_path->type = 'varchar';
-  cache::$data['settings--entities']['user']['user']->fields->avatar_path->size = 1024;
+  cache::$data['settings--entities']['user']['user']->fields->avatar_path_relative = new \stdClass();
+  cache::$data['settings--entities']['user']['user']->fields->avatar_path_relative->type = 'varchar';
+  cache::$data['settings--entities']['user']['user']->fields->avatar_path_relative->size = 1024;
   cache::$data['settings--entities']['user']['user']->constraints['key_id'] = new \stdClass();
   cache::$data['settings--entities']['user']['user']->constraints['key_id']->type = 'primary key';
   cache::$data['settings--entities']['user']['user']->constraints['key_id']->fields['id'] = 'id';
