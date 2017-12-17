@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-15 11:37:36';
+  cache::$info['settings_original']['build'] = '2017-12-17 10:29:51';
   cache::$data['settings_original']['module']['core'] = new \stdClass();
   cache::$data['settings_original']['module']['core']->id = 'core';
   cache::$data['settings_original']['module']['core']->title = 'Core';
@@ -2243,6 +2243,7 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['translations']['locales']->ru['Registration'] = 'Регистрация';
   cache::$data['settings_original']['translations']['locales']->ru['remember me'] = 'запомнить меня';
   cache::$data['settings_original']['translations']['locales']->ru['reset'] = 'сбросить';
+  cache::$data['settings_original']['translations']['locales']->ru['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
   cache::$data['settings_original']['translations']['locales']->ru['restore'] = 'восстановить';
   cache::$data['settings_original']['translations']['locales']->ru['return'] = 'возврат';
   cache::$data['settings_original']['translations']['locales']->ru['Roles'] = 'Роли';

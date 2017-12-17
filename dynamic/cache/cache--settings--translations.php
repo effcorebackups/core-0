@@ -168,6 +168,7 @@ namespace effectivecore { # cache for settings--translations
   cache::$data['settings--translations']['locales']->ru['Registration'] = 'Регистрация';
   cache::$data['settings--translations']['locales']->ru['remember me'] = 'запомнить меня';
   cache::$data['settings--translations']['locales']->ru['reset'] = 'сбросить';
+  cache::$data['settings--translations']['locales']->ru['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
   cache::$data['settings--translations']['locales']->ru['restore'] = 'восстановить';
   cache::$data['settings--translations']['locales']->ru['return'] = 'возврат';
   cache::$data['settings--translations']['locales']->ru['Roles'] = 'Роли';
