@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-17 22:06:54';
+  cache::$info['settings_original']['build'] = '2017-12-17 23:11:06';
   cache::$data['settings_original']['module']['core'] = new \stdClass();
   cache::$data['settings_original']['module']['core']->id = 'core';
   cache::$data['settings_original']['module']['core']->title = 'Core';
@@ -2131,6 +2131,8 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['translations']['locales']->ru['Demo'] = 'Демо';
   cache::$data['settings_original']['translations']['locales']->ru['Description'] = 'Описание';
   cache::$data['settings_original']['translations']['locales']->ru['Develop'] = 'Разработка';
+  cache::$data['settings_original']['translations']['locales']->ru['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
+  cache::$data['settings_original']['translations']['locales']->ru['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
   cache::$data['settings_original']['translations']['locales']->ru['Driver is not selected!'] = 'Драйвер не выбран!';
   cache::$data['settings_original']['translations']['locales']->ru['Driver'] = 'Драйвер';
   cache::$data['settings_original']['translations']['locales']->ru['Dynamic block'] = 'Динамический блок';
@@ -2142,6 +2144,7 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['translations']['locales']->ru['Enable cookies before login.'] = 'Включите cookies до начала входа в систему.';
   cache::$data['settings_original']['translations']['locales']->ru['Entity %%_name was installed.'] = 'Сущность %%_name была установлена.';
   cache::$data['settings_original']['translations']['locales']->ru['Entity %%_name was not installed!'] = 'Сущность %%_name не была установлена!';
+  cache::$data['settings_original']['translations']['locales']->ru['error'] = 'ошибка';
   cache::$data['settings_original']['translations']['locales']->ru['event system was initialized'] = 'система событий была инициализирована';
   cache::$data['settings_original']['translations']['locales']->ru['event'] = 'событие';
   cache::$data['settings_original']['translations']['locales']->ru['Event'] = 'Событие';
@@ -2222,17 +2225,21 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['translations']['locales']->ru['Nick'] = 'Ник';
   cache::$data['settings_original']['translations']['locales']->ru['no items'] = 'нет элементов';
   cache::$data['settings_original']['translations']['locales']->ru['No'] = 'Нет';
+  cache::$data['settings_original']['translations']['locales']->ru['no'] = 'нет';
   cache::$data['settings_original']['translations']['locales']->ru['Number'] = 'Число';
   cache::$data['settings_original']['translations']['locales']->ru['Object'] = 'Объект';
+  cache::$data['settings_original']['translations']['locales']->ru['ok'] = 'ок';
   cache::$data['settings_original']['translations']['locales']->ru['Page'] = 'Страница';
   cache::$data['settings_original']['translations']['locales']->ru['Parameter'] = 'Параметр';
   cache::$data['settings_original']['translations']['locales']->ru['Password hash'] = 'Хеш пароля';
   cache::$data['settings_original']['translations']['locales']->ru['Password'] = 'Пароль';
   cache::$data['settings_original']['translations']['locales']->ru['Path to file'] = 'Путь к файлу';
   cache::$data['settings_original']['translations']['locales']->ru['Path'] = 'Путь';
+  cache::$data['settings_original']['translations']['locales']->ru['pdo prepare return the false'] = 'pdo prepare вернул false';
   cache::$data['settings_original']['translations']['locales']->ru['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['settings_original']['translations']['locales']->ru['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache::$data['settings_original']['translations']['locales']->ru['Queries'] = 'Запросы';
+  cache::$data['settings_original']['translations']['locales']->ru['Query error!'] = 'Ошибка запроса!';
   cache::$data['settings_original']['translations']['locales']->ru['query'] = 'запрос';
   cache::$data['settings_original']['translations']['locales']->ru['Radios (macro)'] = 'Переключатели (макро)';
   cache::$data['settings_original']['translations']['locales']->ru['Radios'] = 'Переключатели';
@@ -2255,6 +2262,7 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['translations']['locales']->ru['Server load (sys_getloadavg)'] = 'Загр. серв. (sys_getloadavg)';
   cache::$data['settings_original']['translations']['locales']->ru['set'] = 'установка';
   cache::$data['settings_original']['translations']['locales']->ru['Settings cache was rebuilded.'] = 'Кэш настроек был перестроен.';
+  cache::$data['settings_original']['translations']['locales']->ru['sql state: %%_state'] = 'sql состояние: %%_state';
   cache::$data['settings_original']['translations']['locales']->ru['state'] = 'состояние';
   cache::$data['settings_original']['translations']['locales']->ru['State'] = 'Состояние';
   cache::$data['settings_original']['translations']['locales']->ru['State.'] = 'Сост.';
@@ -2314,6 +2322,7 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['translations']['locales']->ru['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
   cache::$data['settings_original']['translations']['locales']->ru['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache::$data['settings_original']['translations']['locales']->ru['Yes'] = 'Да';
+  cache::$data['settings_original']['translations']['locales']->ru['yes'] = 'да';
   cache::$data['settings_original']['captcha']['page'] = new \stdClass();
   cache::$data['settings_original']['captcha']['page']->characters['ch0'] = new \stdClass();
   cache::$data['settings_original']['captcha']['page']->characters['ch0']->character = 0;
