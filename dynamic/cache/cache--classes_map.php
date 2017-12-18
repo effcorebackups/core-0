@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-18 12:15:57';
+  cache::$info['classes_map']['build'] = '2017-12-18 13:23:32';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -392,11 +392,11 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\access']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\access']->name = 'access';
   cache::$data['classes_map']['effectivecore\access']->file = 'modules/user/backend/class_ab--gl--access.php';
-  cache::$data['classes_map']['effectivecore\modules\user\session'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\modules\user\session']->type = 'class';
-  cache::$data['classes_map']['effectivecore\modules\user\session']->namespace = 'effectivecore\\modules\\user';
-  cache::$data['classes_map']['effectivecore\modules\user\session']->name = 'session';
-  cache::$data['classes_map']['effectivecore\modules\user\session']->file = 'modules/user/backend/class_ab--session.php';
+  cache::$data['classes_map']['effectivecore\session'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\session']->type = 'class';
+  cache::$data['classes_map']['effectivecore\session']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\session']->name = 'session';
+  cache::$data['classes_map']['effectivecore\session']->file = 'modules/user/backend/class_ab--gl--session.php';
   cache::$data['classes_map']['effectivecore\modules\user\user'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\modules\user\user']->type = 'class';
   cache::$data['classes_map']['effectivecore\modules\user\user']->namespace = 'effectivecore\\modules\\user';
