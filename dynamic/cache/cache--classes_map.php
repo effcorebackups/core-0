@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-18 13:45:06';
+  cache::$info['classes_map']['build'] = '2017-12-18 15:48:38';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -349,11 +349,11 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\storage_settings']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\storage_settings']->name = 'storage_settings';
   cache::$data['classes_map']['effectivecore\storage_settings']->file = 'modules/storage/backend/class--gl--storage_settings.php';
-  cache::$data['classes_map']['effectivecore\modules\storage\storage'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\modules\storage\storage']->type = 'class';
-  cache::$data['classes_map']['effectivecore\modules\storage\storage']->namespace = 'effectivecore\\modules\\storage';
-  cache::$data['classes_map']['effectivecore\modules\storage\storage']->name = 'storage';
-  cache::$data['classes_map']['effectivecore\modules\storage\storage']->file = 'modules/storage/backend/class_ab--storage.php';
+  cache::$data['classes_map']['effectivecore\storage'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\storage']->type = 'class';
+  cache::$data['classes_map']['effectivecore\storage']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\storage']->name = 'storage';
+  cache::$data['classes_map']['effectivecore\storage']->file = 'modules/storage/backend/class_ab--gl--storage.php';
   cache::$data['classes_map']['effectivecore\modules\storage\events_storage'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\modules\storage\events_storage']->type = 'class';
   cache::$data['classes_map']['effectivecore\modules\storage\events_storage']->namespace = 'effectivecore\\modules\\storage';
