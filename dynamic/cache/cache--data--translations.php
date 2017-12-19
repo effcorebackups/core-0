@@ -56,6 +56,7 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Demo'] = 'Демо';
   cache::$data['data--translations']['locales']->ru['Description'] = 'Описание';
   cache::$data['data--translations']['locales']->ru['Develop'] = 'Разработка';
+  cache::$data['data--translations']['locales']->ru['do not remember me'] = 'не запоминать меня';
   cache::$data['data--translations']['locales']->ru['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data--translations']['locales']->ru['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
   cache::$data['data--translations']['locales']->ru['Driver is not selected!'] = 'Драйвер не выбран!';
@@ -173,6 +174,7 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Registered'] = 'Зарегистрированные';
   cache::$data['data--translations']['locales']->ru['registration'] = 'регистрация';
   cache::$data['data--translations']['locales']->ru['Registration'] = 'Регистрация';
+  cache::$data['data--translations']['locales']->ru['remember me (on this ip)'] = 'запомнить меня (на этом ip)';
   cache::$data['data--translations']['locales']->ru['remember me'] = 'запомнить меня';
   cache::$data['data--translations']['locales']->ru['reset'] = 'сбросить';
   cache::$data['data--translations']['locales']->ru['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';

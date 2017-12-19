@@ -193,10 +193,10 @@ namespace effectivecore { # cache for data--entities
   cache::$data['data--entities']['user']['session']->fields->id_user = new \stdClass();
   cache::$data['data--entities']['user']['session']->fields->id_user->type = 'integer';
   cache::$data['data--entities']['user']['session']->fields->id_user->not_null = true;
-  cache::$data['data--entities']['user']['session']->fields->is_ip_check = new \stdClass();
-  cache::$data['data--entities']['user']['session']->fields->is_ip_check->type = 'integer';
-  cache::$data['data--entities']['user']['session']->fields->is_ip_check->not_null = true;
-  cache::$data['data--entities']['user']['session']->fields->is_ip_check->default = 0;
+  cache::$data['data--entities']['user']['session']->fields->remember_mode = new \stdClass();
+  cache::$data['data--entities']['user']['session']->fields->remember_mode->type = 'integer';
+  cache::$data['data--entities']['user']['session']->fields->remember_mode->not_null = true;
+  cache::$data['data--entities']['user']['session']->fields->remember_mode->default = 0;
   cache::$data['data--entities']['user']['session']->fields->expire = new \stdClass();
   cache::$data['data--entities']['user']['session']->fields->expire->type = 'datetime';
   cache::$data['data--entities']['user']['session']->fields->data = new \stdClass();

@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-19 13:29:54';
+  cache::$info['data_original']['build'] = '2017-12-19 15:40:17';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -738,17 +738,12 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['is_remember'] = new \effectivecore\form_field();
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['is_remember']->title = 'remember me';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['is_remember']->title_position = 'bottom';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['is_remember']->children['element'] = new \effectivecore\markup_simple();
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['is_remember']->children['element']->tag_name = 'input';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['is_remember']->children['element']->attributes['type'] = 'checkbox';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['is_remember']->children['element']->attributes['name'] = 'is_remember';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['is_remember']->children['element']->attributes['value'] = 1;
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['is_remember']->children['element']->attributes['checked'] = 'checked';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['is_remember']->attributes['class']['boxes'] = 'boxes';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['is_remember']->attributes['class']['checkboxes'] = 'checkboxes';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode'] = new \effectivecore\form_container_radios();
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode']->input_attributes['name'] = 'remember_mode';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode']->values['0'] = 'do not remember me';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode']->values[1] = 'remember me';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode']->values[2] = 'remember me (on this ip)';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode']->checked['2'] = 2;
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['captcha'] = new \effectivecore\form_field_captcha();
   cache::$data['data_original']['forms']['user']['login']->children['button_login'] = new \effectivecore\markup();
   cache::$data['data_original']['forms']['user']['login']->children['button_login']->tag_name = 'button';
@@ -1892,10 +1887,10 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['user']['session']->fields->id_user = new \stdClass();
   cache::$data['data_original']['entities']['user']['session']->fields->id_user->type = 'integer';
   cache::$data['data_original']['entities']['user']['session']->fields->id_user->not_null = true;
-  cache::$data['data_original']['entities']['user']['session']->fields->is_ip_check = new \stdClass();
-  cache::$data['data_original']['entities']['user']['session']->fields->is_ip_check->type = 'integer';
-  cache::$data['data_original']['entities']['user']['session']->fields->is_ip_check->not_null = true;
-  cache::$data['data_original']['entities']['user']['session']->fields->is_ip_check->default = 0;
+  cache::$data['data_original']['entities']['user']['session']->fields->remember_mode = new \stdClass();
+  cache::$data['data_original']['entities']['user']['session']->fields->remember_mode->type = 'integer';
+  cache::$data['data_original']['entities']['user']['session']->fields->remember_mode->not_null = true;
+  cache::$data['data_original']['entities']['user']['session']->fields->remember_mode->default = 0;
   cache::$data['data_original']['entities']['user']['session']->fields->expire = new \stdClass();
   cache::$data['data_original']['entities']['user']['session']->fields->expire->type = 'datetime';
   cache::$data['data_original']['entities']['user']['session']->fields->data = new \stdClass();
@@ -2129,6 +2124,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Demo'] = 'Демо';
   cache::$data['data_original']['translations']['locales']->ru['Description'] = 'Описание';
   cache::$data['data_original']['translations']['locales']->ru['Develop'] = 'Разработка';
+  cache::$data['data_original']['translations']['locales']->ru['do not remember me'] = 'не запоминать меня';
   cache::$data['data_original']['translations']['locales']->ru['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data_original']['translations']['locales']->ru['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
   cache::$data['data_original']['translations']['locales']->ru['Driver is not selected!'] = 'Драйвер не выбран!';
@@ -2246,6 +2242,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Registered'] = 'Зарегистрированные';
   cache::$data['data_original']['translations']['locales']->ru['registration'] = 'регистрация';
   cache::$data['data_original']['translations']['locales']->ru['Registration'] = 'Регистрация';
+  cache::$data['data_original']['translations']['locales']->ru['remember me (on this ip)'] = 'запомнить меня (на этом ip)';
   cache::$data['data_original']['translations']['locales']->ru['remember me'] = 'запомнить меня';
   cache::$data['data_original']['translations']['locales']->ru['reset'] = 'сбросить';
   cache::$data['data_original']['translations']['locales']->ru['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
