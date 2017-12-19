@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-18 23:37:40';
+  cache::$info['settings_original']['build'] = '2017-12-19 10:20:25';
   cache::$data['settings_original']['module']['core'] = new \stdClass();
   cache::$data['settings_original']['module']['core']->id = 'core';
   cache::$data['settings_original']['module']['core']->title = 'Core';
@@ -1400,6 +1400,16 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['pages']['user']['users']->display = new \stdClass();
   cache::$data['settings_original']['pages']['user']['users']->display->url = new \stdClass();
   cache::$data['settings_original']['pages']['user']['users']->display->url->match = '%^/admin/users$%';
+  cache::$data['settings_original']['settings']['core'] = new \stdClass();
+  cache::$data['settings_original']['settings']['core']->key = 'abcde01234abcde01234abcde01234abcde01234';
+  cache::$data['settings_original']['settings']['locales'] = new \stdClass();
+  cache::$data['settings_original']['settings']['locales']->lang_code = 'ru';
+  cache::$data['settings_original']['settings']['locales']->decimal_point = ',';
+  cache::$data['settings_original']['settings']['locales']->thousands_separator = '';
+  cache::$data['settings_original']['settings']['locales']->format_date = 'd.m.Y';
+  cache::$data['settings_original']['settings']['locales']->format_time = 'H:i:s';
+  cache::$data['settings_original']['settings']['locales']->format_datetime = 'd.m.Y H:i:s';
+  cache::$data['settings_original']['settings']['locales']->timezone = 'Europe/Minsk';
   cache::$data['settings_original']['tokens']['core']['text_no_items'] = new \stdClass();
   cache::$data['settings_original']['tokens']['core']['text_no_items']->match = '%%_text_no_items';
   cache::$data['settings_original']['tokens']['core']['text_no_items']->type = 'translated_text';
@@ -2055,14 +2065,6 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['countries']['locales']['rus']->format_datetime = 'd.m.Y H:i:s';
   cache::$data['settings_original']['countries']['locales']['rus']->decimal_point = ',';
   cache::$data['settings_original']['countries']['locales']['rus']->phone_prefix = 7;
-  cache::$data['settings_original']['current']['locales'] = new \stdClass();
-  cache::$data['settings_original']['current']['locales']->lang_code = 'ru';
-  cache::$data['settings_original']['current']['locales']->decimal_point = ',';
-  cache::$data['settings_original']['current']['locales']->thousands_separator = '';
-  cache::$data['settings_original']['current']['locales']->format_date = 'd.m.Y';
-  cache::$data['settings_original']['current']['locales']->format_time = 'H:i:s';
-  cache::$data['settings_original']['current']['locales']->format_datetime = 'd.m.Y H:i:s';
-  cache::$data['settings_original']['current']['locales']->timezone = 'Europe/Minsk';
   cache::$data['settings_original']['languages']['locales']['en'] = new \stdClass();
   cache::$data['settings_original']['languages']['locales']['en']->title = new \stdClass();
   cache::$data['settings_original']['languages']['locales']['en']->title->en = 'English';
