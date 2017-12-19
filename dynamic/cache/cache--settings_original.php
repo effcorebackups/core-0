@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-18 15:48:38';
+  cache::$info['settings_original']['build'] = '2017-12-18 23:37:40';
   cache::$data['settings_original']['module']['core'] = new \stdClass();
   cache::$data['settings_original']['module']['core']->id = 'core';
   cache::$data['settings_original']['module']['core']->title = 'Core';
@@ -1882,16 +1882,12 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['entities']['user']['session']->fields->id_user = new \stdClass();
   cache::$data['settings_original']['entities']['user']['session']->fields->id_user->type = 'integer';
   cache::$data['settings_original']['entities']['user']['session']->fields->id_user->not_null = true;
-  cache::$data['settings_original']['entities']['user']['session']->fields->ip_address = new \stdClass();
-  cache::$data['settings_original']['entities']['user']['session']->fields->ip_address->type = 'varchar';
-  cache::$data['settings_original']['entities']['user']['session']->fields->ip_address->size = 15;
-  cache::$data['settings_original']['entities']['user']['session']->fields->ip_address->not_null = true;
-  cache::$data['settings_original']['entities']['user']['session']->fields->user_agent_hash = new \stdClass();
-  cache::$data['settings_original']['entities']['user']['session']->fields->user_agent_hash->type = 'varchar';
-  cache::$data['settings_original']['entities']['user']['session']->fields->user_agent_hash->size = 255;
-  cache::$data['settings_original']['entities']['user']['session']->fields->created = new \stdClass();
-  cache::$data['settings_original']['entities']['user']['session']->fields->created->type = 'datetime';
-  cache::$data['settings_original']['entities']['user']['session']->fields->created->not_null = true;
+  cache::$data['settings_original']['entities']['user']['session']->fields->is_ip_check = new \stdClass();
+  cache::$data['settings_original']['entities']['user']['session']->fields->is_ip_check->type = 'integer';
+  cache::$data['settings_original']['entities']['user']['session']->fields->is_ip_check->not_null = true;
+  cache::$data['settings_original']['entities']['user']['session']->fields->is_ip_check->default = 0;
+  cache::$data['settings_original']['entities']['user']['session']->fields->expire = new \stdClass();
+  cache::$data['settings_original']['entities']['user']['session']->fields->expire->type = 'datetime';
   cache::$data['settings_original']['entities']['user']['session']->fields->data = new \stdClass();
   cache::$data['settings_original']['entities']['user']['session']->fields->data->type = 'blob';
   cache::$data['settings_original']['entities']['user']['session']->fields->data->null = true;
