@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-19 13:19:14';
+  cache::$info['data_original']['build'] = '2017-12-19 13:29:54';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -165,9 +165,9 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['jpg']->headers['Content-type'] = 'image/jpeg';
   cache::$data['data_original']['file_types']['core']['png'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['png']->headers['Content-type'] = 'image/png';
-  cache::$data['data_original']['file_types']['storage']['_s'] = new \stdClass();
-  cache::$data['data_original']['file_types']['storage']['_s']->protected = 1;
-  cache::$data['data_original']['file_types']['storage']['_s']->headers['Content-type'] = 'text/settings';
+  cache::$data['data_original']['file_types']['storage']['_d'] = new \stdClass();
+  cache::$data['data_original']['file_types']['storage']['_d']->protected = 1;
+  cache::$data['data_original']['file_types']['storage']['_d']->headers['Content-type'] = 'text/data';
   cache::$data['data_original']['forms']['core']['installation'] = new \effectivecore\form();
   cache::$data['data_original']['forms']['core']['installation']->children['storage'] = new \effectivecore\form_container();
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->tag_name = 'fieldset';
