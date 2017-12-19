@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-19 15:40:17';
+  cache::$info['data_original']['build'] = '2017-12-19 21:22:09';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -2105,6 +2105,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Colors'] = 'Цвета';
   cache::$data['data_original']['translations']['locales']->ru['Console'] = 'Консоль';
   cache::$data['data_original']['translations']['locales']->ru['Control elements'] = 'Элементы управления';
+  cache::$data['data_original']['translations']['locales']->ru['Cookie expiration date'] = 'Дата окончания Cookie';
   cache::$data['data_original']['translations']['locales']->ru['Cookies are disabled. You can not log in!'] = 'Cookies отключены. Вы не можете войти в систему!';
   cache::$data['data_original']['translations']['locales']->ru['Copyright © %%_years %%_right_holder.'] = 'Авторские права © %%_years %%_right_holder.';
   cache::$data['data_original']['translations']['locales']->ru['Core'] = 'Ядро';

@@ -37,6 +37,7 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Colors'] = 'Цвета';
   cache::$data['data--translations']['locales']->ru['Console'] = 'Консоль';
   cache::$data['data--translations']['locales']->ru['Control elements'] = 'Элементы управления';
+  cache::$data['data--translations']['locales']->ru['Cookie expiration date'] = 'Дата окончания Cookie';
   cache::$data['data--translations']['locales']->ru['Cookies are disabled. You can not log in!'] = 'Cookies отключены. Вы не можете войти в систему!';
   cache::$data['data--translations']['locales']->ru['Copyright © %%_years %%_right_holder.'] = 'Авторские права © %%_years %%_right_holder.';
   cache::$data['data--translations']['locales']->ru['Core'] = 'Ядро';
