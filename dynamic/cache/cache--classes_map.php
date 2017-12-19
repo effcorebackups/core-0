@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-19 10:20:25';
+  cache::$info['classes_map']['build'] = '2017-12-19 10:53:58';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -339,16 +339,16 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\table_head_row_cell']->name = 'table_head_row_cell';
   cache::$data['classes_map']['effectivecore\table_head_row_cell']->extends = '\\effectivecore\\markup';
   cache::$data['classes_map']['effectivecore\table_head_row_cell']->file = 'modules/page/backend/pattern--table_head_row_cell.php';
+  cache::$data['classes_map']['effectivecore\storage_files'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\storage_files']->type = 'class';
+  cache::$data['classes_map']['effectivecore\storage_files']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\storage_files']->name = 'storage_files';
+  cache::$data['classes_map']['effectivecore\storage_files']->file = 'modules/storage/backend/class--gl--storage_files.php';
   cache::$data['classes_map']['effectivecore\storage_pdo'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\storage_pdo']->type = 'class';
   cache::$data['classes_map']['effectivecore\storage_pdo']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\storage_pdo']->name = 'storage_pdo';
   cache::$data['classes_map']['effectivecore\storage_pdo']->file = 'modules/storage/backend/class--gl--storage_pdo.php';
-  cache::$data['classes_map']['effectivecore\storage_settings'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\storage_settings']->type = 'class';
-  cache::$data['classes_map']['effectivecore\storage_settings']->namespace = 'effectivecore';
-  cache::$data['classes_map']['effectivecore\storage_settings']->name = 'storage_settings';
-  cache::$data['classes_map']['effectivecore\storage_settings']->file = 'modules/storage/backend/class--gl--storage_settings.php';
   cache::$data['classes_map']['effectivecore\storage'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\storage']->type = 'class';
   cache::$data['classes_map']['effectivecore\storage']->namespace = 'effectivecore';

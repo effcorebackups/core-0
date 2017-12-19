@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-19 10:20:25';
+  cache::$info['settings_original']['build'] = '2017-12-19 10:53:58';
   cache::$data['settings_original']['module']['core'] = new \stdClass();
   cache::$data['settings_original']['module']['core']->id = 'core';
   cache::$data['settings_original']['module']['core']->title = 'Core';
@@ -2477,9 +2477,9 @@ namespace effectivecore { # cache for settings_original
   cache::$data['settings_original']['templates']['tree']['tree'] = 'frontend/template--tree.html';
   cache::$data['settings_original']['templates']['tree']['tree_item'] = 'frontend/template--tree_item.html';
   cache::$data['settings_original']['templates']['tree']['tree_item_children'] = 'frontend/template--tree_item_children.html';
-  cache::$data['settings_original']['storages']['storage']['storage_sql_dpo'] = new \effectivecore\storage_pdo();
-  cache::$data['settings_original']['storages']['storage']['storage_sql_dpo']->id = 'main';
-  cache::$data['settings_original']['storages']['storage']['storage_nosql_settings'] = new \effectivecore\storage_settings();
-  cache::$data['settings_original']['storages']['storage']['storage_nosql_settings']->id = 'settings';
+  cache::$data['settings_original']['storages']['storage']['storage_pdo_sql'] = new \effectivecore\storage_pdo();
+  cache::$data['settings_original']['storages']['storage']['storage_pdo_sql']->id = 'main';
+  cache::$data['settings_original']['storages']['storage']['storage_files_nosql'] = new \effectivecore\storage_files();
+  cache::$data['settings_original']['storages']['storage']['storage_files_nosql']->id = 'files';
 
 }
