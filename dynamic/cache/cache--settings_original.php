@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for settings_original
 
-  cache::$info['settings_original']['build'] = '2017-12-19 11:01:14';
+  cache::$info['settings_original']['build'] = '2017-12-19 12:26:45';
   cache::$data['settings_original']['events']['core'] = new \stdClass();
   cache::$data['settings_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['settings_original']['events']['core']->on_form_init['installation']->for = 'installation';

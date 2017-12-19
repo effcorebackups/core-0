@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-19 11:01:14';
+  cache::$info['classes_map']['build'] = '2017-12-19 12:26:45';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -339,16 +339,6 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\table_head_row_cell']->name = 'table_head_row_cell';
   cache::$data['classes_map']['effectivecore\table_head_row_cell']->extends = '\\effectivecore\\markup';
   cache::$data['classes_map']['effectivecore\table_head_row_cell']->file = 'modules/page/backend/pattern--table_head_row_cell.php';
-  cache::$data['classes_map']['effectivecore\storage_files'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\storage_files']->type = 'class';
-  cache::$data['classes_map']['effectivecore\storage_files']->namespace = 'effectivecore';
-  cache::$data['classes_map']['effectivecore\storage_files']->name = 'storage_files';
-  cache::$data['classes_map']['effectivecore\storage_files']->file = 'modules/storage/backend/class--gl--storage_files.php';
-  cache::$data['classes_map']['effectivecore\storage_pdo'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\storage_pdo']->type = 'class';
-  cache::$data['classes_map']['effectivecore\storage_pdo']->namespace = 'effectivecore';
-  cache::$data['classes_map']['effectivecore\storage_pdo']->name = 'storage_pdo';
-  cache::$data['classes_map']['effectivecore\storage_pdo']->file = 'modules/storage/backend/class--gl--storage_pdo.php';
   cache::$data['classes_map']['effectivecore\storage'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\storage']->type = 'class';
   cache::$data['classes_map']['effectivecore\storage']->namespace = 'effectivecore';
@@ -369,6 +359,16 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\instance']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\instance']->name = 'instance';
   cache::$data['classes_map']['effectivecore\instance']->file = 'modules/storage/backend/pattern--instance.php';
+  cache::$data['classes_map']['effectivecore\storage_files'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\storage_files']->type = 'class';
+  cache::$data['classes_map']['effectivecore\storage_files']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\storage_files']->name = 'storage_files';
+  cache::$data['classes_map']['effectivecore\storage_files']->file = 'modules/storage/backend/pattern--storage_files.php';
+  cache::$data['classes_map']['effectivecore\storage_pdo'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\storage_pdo']->type = 'class';
+  cache::$data['classes_map']['effectivecore\storage_pdo']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\storage_pdo']->name = 'storage_pdo';
+  cache::$data['classes_map']['effectivecore\storage_pdo']->file = 'modules/storage/backend/pattern--storage_pdo.php';
   cache::$data['classes_map']['effectivecore\modules\tree\events_module'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\modules\tree\events_module']->type = 'class';
   cache::$data['classes_map']['effectivecore\modules\tree\events_module']->namespace = 'effectivecore\\modules\\tree';
