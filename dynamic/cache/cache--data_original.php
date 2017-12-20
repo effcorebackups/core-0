@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-20 12:21:12';
+  cache::$info['data_original']['build'] = '2017-12-20 15:47:05';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -2465,17 +2465,17 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree'] = new \stdClass();
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree']->file = 'frontend/tree.css';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree']->media = 'all';
-  cache::$data['data_original']['templates']['page']['markup_html'] = 'frontend/template--markup.html';
-  cache::$data['data_original']['templates']['page']['markup_html_simple'] = 'frontend/template--markup_simple.html';
-  cache::$data['data_original']['templates']['page']['markup_xml'] = 'frontend/template--markup.xml';
-  cache::$data['data_original']['templates']['page']['markup_xml_simple'] = 'frontend/template--markup_simple.xml';
-  cache::$data['data_original']['templates']['page']['page'] = 'frontend/template--page.html';
-  cache::$data['data_original']['templates']['page']['page_simple'] = 'frontend/template--page_simple.html';
-  cache::$data['data_original']['templates']['page']['form_container'] = 'frontend/template--form_container.html';
-  cache::$data['data_original']['templates']['page']['canvas_svg'] = 'frontend/template--canvas_svg.xml';
-  cache::$data['data_original']['templates']['tree']['tree'] = 'frontend/template--tree.html';
-  cache::$data['data_original']['templates']['tree']['tree_item'] = 'frontend/template--tree_item.html';
-  cache::$data['data_original']['templates']['tree']['tree_item_children'] = 'frontend/template--tree_item_children.html';
+  cache::$data['data_original']['template_files']['page']['markup_html'] = 'frontend/template--markup.html';
+  cache::$data['data_original']['template_files']['page']['markup_html_simple'] = 'frontend/template--markup_simple.html';
+  cache::$data['data_original']['template_files']['page']['markup_xml'] = 'frontend/template--markup.xml';
+  cache::$data['data_original']['template_files']['page']['markup_xml_simple'] = 'frontend/template--markup_simple.xml';
+  cache::$data['data_original']['template_files']['page']['page'] = 'frontend/template--page.html';
+  cache::$data['data_original']['template_files']['page']['page_simple'] = 'frontend/template--page_simple.html';
+  cache::$data['data_original']['template_files']['page']['form_container'] = 'frontend/template--form_container.html';
+  cache::$data['data_original']['template_files']['page']['canvas_svg'] = 'frontend/template--canvas_svg.xml';
+  cache::$data['data_original']['template_files']['tree']['tree'] = 'frontend/template--tree.html';
+  cache::$data['data_original']['template_files']['tree']['tree_item'] = 'frontend/template--tree_item.html';
+  cache::$data['data_original']['template_files']['tree']['tree_item_children'] = 'frontend/template--tree_item_children.html';
   cache::$data['data_original']['storages']['storage']['storage_pdo_sql'] = new \effectivecore\storage_pdo();
   cache::$data['data_original']['storages']['storage']['storage_pdo_sql']->id = 'main';
   cache::$data['data_original']['storages']['storage']['storage_files_nosql'] = new \effectivecore\storage_files();
