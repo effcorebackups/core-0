@@ -166,6 +166,8 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['data--translations']['locales']->ru['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache::$data['data--translations']['locales']->ru['Queries'] = 'Запросы';
+  cache::$data['data--translations']['locales']->ru['query = "%%_query"'] = 'запрос = "%%_query"';
+  cache::$data['data--translations']['locales']->ru['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data--translations']['locales']->ru['Query error!'] = 'Ошибка запроса!';
   cache::$data['data--translations']['locales']->ru['query'] = 'запрос';
   cache::$data['data--translations']['locales']->ru['Radios (macro)'] = 'Переключатели (макро)';
@@ -196,6 +198,7 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Static block'] = 'Статический блок';
   cache::$data['data--translations']['locales']->ru['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
   cache::$data['data--translations']['locales']->ru['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
+  cache::$data['data--translations']['locales']->ru['storage %%_id will be initialized'] = 'хранилище %%_id будет инициализировано';
   cache::$data['data--translations']['locales']->ru['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
   cache::$data['data--translations']['locales']->ru['Storage name'] = 'Имя хранилища';
   cache::$data['data--translations']['locales']->ru['Storage params'] = 'Параметры хранилища';

@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-19 21:22:09';
+  cache::$info['data_original']['build'] = '2017-12-20 12:21:12';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -2234,6 +2234,8 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['data_original']['translations']['locales']->ru['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache::$data['data_original']['translations']['locales']->ru['Queries'] = 'Запросы';
+  cache::$data['data_original']['translations']['locales']->ru['query = "%%_query"'] = 'запрос = "%%_query"';
+  cache::$data['data_original']['translations']['locales']->ru['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data_original']['translations']['locales']->ru['Query error!'] = 'Ошибка запроса!';
   cache::$data['data_original']['translations']['locales']->ru['query'] = 'запрос';
   cache::$data['data_original']['translations']['locales']->ru['Radios (macro)'] = 'Переключатели (макро)';
@@ -2264,6 +2266,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Static block'] = 'Статический блок';
   cache::$data['data_original']['translations']['locales']->ru['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
   cache::$data['data_original']['translations']['locales']->ru['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
+  cache::$data['data_original']['translations']['locales']->ru['storage %%_id will be initialized'] = 'хранилище %%_id будет инициализировано';
   cache::$data['data_original']['translations']['locales']->ru['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
   cache::$data['data_original']['translations']['locales']->ru['Storage name'] = 'Имя хранилища';
   cache::$data['data_original']['translations']['locales']->ru['Storage params'] = 'Параметры хранилища';
