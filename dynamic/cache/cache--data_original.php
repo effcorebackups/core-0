@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-21 10:37:37';
+  cache::$info['data_original']['build'] = '2017-12-21 13:33:14';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -807,6 +807,12 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params'] = new \effectivecore\form_container_checkboxes();
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->input_attributes['name'] = 'session_params[]';
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->values['fixed_ip'] = 'on this ip';
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->checked['remember'] = 'remember';
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->checked['fixed_ip'] = 'fixed_ip';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['captcha'] = new \effectivecore\form_field_captcha();
   cache::$data['data_original']['forms']['user']['registration']->children['button_register'] = new \effectivecore\markup();
   cache::$data['data_original']['forms']['user']['registration']->children['button_register']->tag_name = 'button';
@@ -2109,7 +2115,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Colors'] = 'Цвета';
   cache::$data['data_original']['translations']['locales']->ru['Console'] = 'Консоль';
   cache::$data['data_original']['translations']['locales']->ru['Control elements'] = 'Элементы управления';
-  cache::$data['data_original']['translations']['locales']->ru['Cookie expiration date'] = 'Дата окончания Cookie';
   cache::$data['data_original']['translations']['locales']->ru['Cookies are disabled. You can not log in!'] = 'Cookies отключены. Вы не можете войти в систему!';
   cache::$data['data_original']['translations']['locales']->ru['Copyright © %%_years %%_right_holder.'] = 'Авторские права © %%_years %%_right_holder.';
   cache::$data['data_original']['translations']['locales']->ru['Core'] = 'Ядро';
@@ -2259,6 +2264,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Select (macro)'] = 'Список (макро)';
   cache::$data['data_original']['translations']['locales']->ru['Select'] = 'Список';
   cache::$data['data_original']['translations']['locales']->ru['Server load (sys_getloadavg)'] = 'Загр. серв. (sys_getloadavg)';
+  cache::$data['data_original']['translations']['locales']->ru['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data_original']['translations']['locales']->ru['set'] = 'установка';
   cache::$data['data_original']['translations']['locales']->ru['sql state: %%_state'] = 'sql состояние: %%_state';
   cache::$data['data_original']['translations']['locales']->ru['state'] = 'состояние';
