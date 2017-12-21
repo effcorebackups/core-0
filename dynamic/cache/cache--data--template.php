@@ -3,17 +3,17 @@
 namespace effectivecore { # cache for data--template
 
   cache::$data['data--template']['page']['markup_html'] = new \stdClass();
-  cache::$data['data--template']['page']['markup_html']->type = 'file';
-  cache::$data['data--template']['page']['markup_html']->path = 'frontend/template--markup.html';
+  cache::$data['data--template']['page']['markup_html']->type = 'inline';
+  cache::$data['data--template']['page']['markup_html']->markup = '<%%_tag_name %%_attributes>%%_content</%%_tag_name>';
   cache::$data['data--template']['page']['markup_html_simple'] = new \stdClass();
-  cache::$data['data--template']['page']['markup_html_simple']->type = 'file';
-  cache::$data['data--template']['page']['markup_html_simple']->path = 'frontend/template--markup_simple.html';
+  cache::$data['data--template']['page']['markup_html_simple']->type = 'inline';
+  cache::$data['data--template']['page']['markup_html_simple']->markup = '<%%_tag_name %%_attributes>';
   cache::$data['data--template']['page']['markup_xml'] = new \stdClass();
-  cache::$data['data--template']['page']['markup_xml']->type = 'file';
-  cache::$data['data--template']['page']['markup_xml']->path = 'frontend/template--markup.xml';
+  cache::$data['data--template']['page']['markup_xml']->type = 'inline';
+  cache::$data['data--template']['page']['markup_xml']->markup = '<%%_tag_name %%_attributes>%%_content</%%_tag_name>';
   cache::$data['data--template']['page']['markup_xml_simple'] = new \stdClass();
-  cache::$data['data--template']['page']['markup_xml_simple']->type = 'file';
-  cache::$data['data--template']['page']['markup_xml_simple']->path = 'frontend/template--markup_simple.xml';
+  cache::$data['data--template']['page']['markup_xml_simple']->type = 'inline';
+  cache::$data['data--template']['page']['markup_xml_simple']->markup = '<%%_tag_name %%_attributes />';
   cache::$data['data--template']['page']['page'] = new \stdClass();
   cache::$data['data--template']['page']['page']->type = 'file';
   cache::$data['data--template']['page']['page']->path = 'frontend/template--page.html';
