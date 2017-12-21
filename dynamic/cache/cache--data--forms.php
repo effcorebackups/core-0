@@ -129,7 +129,7 @@ namespace effectivecore { # cache for data--forms
   cache::$data['data--forms']['core']['installation']->children['button_to_front'] = new \effectivecore\markup();
   cache::$data['data--forms']['core']['installation']->children['button_to_front']->tag_name = 'button';
   cache::$data['data--forms']['core']['installation']->children['button_to_front']->children['label'] = new \effectivecore\text();
-  cache::$data['data--forms']['core']['installation']->children['button_to_front']->children['label']->text = 'to front';
+  cache::$data['data--forms']['core']['installation']->children['button_to_front']->children['label']->text = 'to front page';
   cache::$data['data--forms']['core']['installation']->children['button_to_front']->attributes['type'] = 'submit';
   cache::$data['data--forms']['core']['installation']->children['button_to_front']->attributes['name'] = 'button';
   cache::$data['data--forms']['core']['installation']->children['button_to_front']->attributes['value'] = 'to_front';
@@ -572,12 +572,12 @@ namespace effectivecore { # cache for data--forms
   cache::$data['data--forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
   cache::$data['data--forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data--forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
-  cache::$data['data--forms']['user']['login']->children['credentials']->children['remember_mode'] = new \effectivecore\form_container_radios();
-  cache::$data['data--forms']['user']['login']->children['credentials']->children['remember_mode']->input_attributes['name'] = 'remember_mode';
-  cache::$data['data--forms']['user']['login']->children['credentials']->children['remember_mode']->values[0] = 'do not remember me';
-  cache::$data['data--forms']['user']['login']->children['credentials']->children['remember_mode']->values[1] = 'remember me';
-  cache::$data['data--forms']['user']['login']->children['credentials']->children['remember_mode']->values[2] = 'remember me (on this ip)';
-  cache::$data['data--forms']['user']['login']->children['credentials']->children['remember_mode']->checked[2] = 2;
+  cache::$data['data--forms']['user']['login']->children['credentials']->children['session_params'] = new \effectivecore\form_container_checkboxes();
+  cache::$data['data--forms']['user']['login']->children['credentials']->children['session_params']->input_attributes['name'] = 'session_params[]';
+  cache::$data['data--forms']['user']['login']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
+  cache::$data['data--forms']['user']['login']->children['credentials']->children['session_params']->values['fixed_ip'] = 'on my ip';
+  cache::$data['data--forms']['user']['login']->children['credentials']->children['session_params']->checked['remember'] = 'remember';
+  cache::$data['data--forms']['user']['login']->children['credentials']->children['session_params']->checked['fixed_ip'] = 'fixed_ip';
   cache::$data['data--forms']['user']['login']->children['credentials']->children['captcha'] = new \effectivecore\form_field_captcha();
   cache::$data['data--forms']['user']['login']->children['button_login'] = new \effectivecore\markup();
   cache::$data['data--forms']['user']['login']->children['button_login']->tag_name = 'button';

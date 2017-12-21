@@ -37,7 +37,7 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Colors'] = 'Цвета';
   cache::$data['data--translations']['locales']->ru['Console'] = 'Консоль';
   cache::$data['data--translations']['locales']->ru['Control elements'] = 'Элементы управления';
-  cache::$data['data--translations']['locales']->ru['Cookie expiration date'] = 'Дата окончания Cookie';
+  cache::$data['data--translations']['locales']->ru['Cookie expiration date'] = 'Дата истекания Cookie';
   cache::$data['data--translations']['locales']->ru['Cookies are disabled. You can not log in!'] = 'Cookies отключены. Вы не можете войти в систему!';
   cache::$data['data--translations']['locales']->ru['Copyright © %%_years %%_right_holder.'] = 'Авторские права © %%_years %%_right_holder.';
   cache::$data['data--translations']['locales']->ru['Core'] = 'Ядро';
@@ -57,7 +57,6 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Demo'] = 'Демо';
   cache::$data['data--translations']['locales']->ru['Description'] = 'Описание';
   cache::$data['data--translations']['locales']->ru['Develop'] = 'Разработка';
-  cache::$data['data--translations']['locales']->ru['do not remember me'] = 'не запоминать меня';
   cache::$data['data--translations']['locales']->ru['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data--translations']['locales']->ru['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
   cache::$data['data--translations']['locales']->ru['Driver is not selected!'] = 'Драйвер не выбран!';
@@ -106,7 +105,6 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Host name'] = 'Имя хоста';
   cache::$data['data--translations']['locales']->ru['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
   cache::$data['data--translations']['locales']->ru['Information'] = 'Информация';
-  cache::$data['data--translations']['locales']->ru['init'] = 'инициализация';
   cache::$data['data--translations']['locales']->ru['init.'] = 'инициал.';
   cache::$data['data--translations']['locales']->ru['initialization'] = 'инициализация';
   cache::$data['data--translations']['locales']->ru['insertion'] = 'вставка';
@@ -123,7 +121,6 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache::$data['data--translations']['locales']->ru['load'] = 'загрузка';
   cache::$data['data--translations']['locales']->ru['Locales'] = 'Локализации';
-  cache::$data['data--translations']['locales']->ru['Loggin out'] = 'Выход';
   cache::$data['data--translations']['locales']->ru['login'] = 'вход';
   cache::$data['data--translations']['locales']->ru['Login'] = 'Вход';
   cache::$data['data--translations']['locales']->ru['logout'] = 'выход';
@@ -156,19 +153,20 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Number'] = 'Число';
   cache::$data['data--translations']['locales']->ru['Object'] = 'Объект';
   cache::$data['data--translations']['locales']->ru['ok'] = 'ок';
+  cache::$data['data--translations']['locales']->ru['on my ip'] = 'на моём ip';
   cache::$data['data--translations']['locales']->ru['Page'] = 'Страница';
   cache::$data['data--translations']['locales']->ru['Parameter'] = 'Параметр';
   cache::$data['data--translations']['locales']->ru['Password hash'] = 'Хеш пароля';
   cache::$data['data--translations']['locales']->ru['Password'] = 'Пароль';
   cache::$data['data--translations']['locales']->ru['Path to file'] = 'Путь к файлу';
   cache::$data['data--translations']['locales']->ru['Path'] = 'Путь';
-  cache::$data['data--translations']['locales']->ru['pdo prepare return the false'] = 'pdo prepare вернул false';
   cache::$data['data--translations']['locales']->ru['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['data--translations']['locales']->ru['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache::$data['data--translations']['locales']->ru['Queries'] = 'Запросы';
   cache::$data['data--translations']['locales']->ru['query = "%%_query"'] = 'запрос = "%%_query"';
   cache::$data['data--translations']['locales']->ru['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data--translations']['locales']->ru['Query error!'] = 'Ошибка запроса!';
+  cache::$data['data--translations']['locales']->ru['query prepare return the false'] = 'подготовка запроса вернула false';
   cache::$data['data--translations']['locales']->ru['query'] = 'запрос';
   cache::$data['data--translations']['locales']->ru['Radios (macro)'] = 'Переключатели (макро)';
   cache::$data['data--translations']['locales']->ru['Radios'] = 'Переключатели';
@@ -177,7 +175,6 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Registered'] = 'Зарегистрированные';
   cache::$data['data--translations']['locales']->ru['registration'] = 'регистрация';
   cache::$data['data--translations']['locales']->ru['Registration'] = 'Регистрация';
-  cache::$data['data--translations']['locales']->ru['remember me (on this ip)'] = 'запомнить меня (на этом ip)';
   cache::$data['data--translations']['locales']->ru['remember me'] = 'запомнить меня';
   cache::$data['data--translations']['locales']->ru['reset'] = 'сбросить';
   cache::$data['data--translations']['locales']->ru['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
@@ -215,8 +212,7 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Time'] = 'Время';
   cache::$data['data--translations']['locales']->ru['Timezone'] = 'Часовой пояс';
   cache::$data['data--translations']['locales']->ru['Title'] = 'Заголовок';
-  cache::$data['data--translations']['locales']->ru['to front'] = 'на главную';
-  cache::$data['data--translations']['locales']->ru['to home'] = 'домой';
+  cache::$data['data--translations']['locales']->ru['to front page'] = 'на главную страницу';
   cache::$data['data--translations']['locales']->ru['Total build time'] = 'Общее время сборки';
   cache::$data['data--translations']['locales']->ru['Total load'] = 'Общая загрука';
   cache::$data['data--translations']['locales']->ru['Total'] = 'Всего';

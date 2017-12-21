@@ -200,7 +200,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['login']->display->url = new \stdClass();
   cache::$data['data--pages']['user']['login']->display->url->match = '%^/user/login$%';
   cache::$data['data--pages']['user']['logout'] = new \effectivecore\page();
-  cache::$data['data--pages']['user']['logout']->title = 'Loggin out';
+  cache::$data['data--pages']['user']['logout']->title = 'Logout';
   cache::$data['data--pages']['user']['logout']->access = new \stdClass();
   cache::$data['data--pages']['user']['logout']->access->roles['registered'] = 'registered';
   cache::$data['data--pages']['user']['logout']->content['block_menu_main'] = new \stdClass();

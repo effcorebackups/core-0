@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-20 15:47:05';
+  cache::$info['data_original']['build'] = '2017-12-21 08:57:15';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -295,7 +295,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['forms']['core']['installation']->children['button_to_front'] = new \effectivecore\markup();
   cache::$data['data_original']['forms']['core']['installation']->children['button_to_front']->tag_name = 'button';
   cache::$data['data_original']['forms']['core']['installation']->children['button_to_front']->children['label'] = new \effectivecore\text();
-  cache::$data['data_original']['forms']['core']['installation']->children['button_to_front']->children['label']->text = 'to front';
+  cache::$data['data_original']['forms']['core']['installation']->children['button_to_front']->children['label']->text = 'to front page';
   cache::$data['data_original']['forms']['core']['installation']->children['button_to_front']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['core']['installation']->children['button_to_front']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['core']['installation']->children['button_to_front']->attributes['value'] = 'to_front';
@@ -738,12 +738,12 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode'] = new \effectivecore\form_container_radios();
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode']->input_attributes['name'] = 'remember_mode';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode']->values['0'] = 'do not remember me';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode']->values[1] = 'remember me';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode']->values[2] = 'remember me (on this ip)';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['remember_mode']->checked['2'] = 2;
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params'] = new \effectivecore\form_container_checkboxes();
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->input_attributes['name'] = 'session_params[]';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['fixed_ip'] = 'on my ip';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->checked['remember'] = 'remember';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->checked['fixed_ip'] = 'fixed_ip';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['captcha'] = new \effectivecore\form_field_captcha();
   cache::$data['data_original']['forms']['user']['login']->children['button_login'] = new \effectivecore\markup();
   cache::$data['data_original']['forms']['user']['login']->children['button_login']->tag_name = 'button';
@@ -1108,7 +1108,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['login']->display->url = new \stdClass();
   cache::$data['data_original']['pages']['user']['login']->display->url->match = '%^/user/login$%';
   cache::$data['data_original']['pages']['user']['logout'] = new \effectivecore\page();
-  cache::$data['data_original']['pages']['user']['logout']->title = 'Loggin out';
+  cache::$data['data_original']['pages']['user']['logout']->title = 'Logout';
   cache::$data['data_original']['pages']['user']['logout']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['logout']->access->roles['registered'] = 'registered';
   cache::$data['data_original']['pages']['user']['logout']->content['block_menu_main'] = new \stdClass();
@@ -1887,10 +1887,14 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['user']['session']->fields->id_user = new \stdClass();
   cache::$data['data_original']['entities']['user']['session']->fields->id_user->type = 'integer';
   cache::$data['data_original']['entities']['user']['session']->fields->id_user->not_null = true;
-  cache::$data['data_original']['entities']['user']['session']->fields->remember_mode = new \stdClass();
-  cache::$data['data_original']['entities']['user']['session']->fields->remember_mode->type = 'integer';
-  cache::$data['data_original']['entities']['user']['session']->fields->remember_mode->not_null = true;
-  cache::$data['data_original']['entities']['user']['session']->fields->remember_mode->default = 0;
+  cache::$data['data_original']['entities']['user']['session']->fields->remember = new \stdClass();
+  cache::$data['data_original']['entities']['user']['session']->fields->remember->type = 'integer';
+  cache::$data['data_original']['entities']['user']['session']->fields->remember->not_null = true;
+  cache::$data['data_original']['entities']['user']['session']->fields->remember->default = 0;
+  cache::$data['data_original']['entities']['user']['session']->fields->fixed_ip = new \stdClass();
+  cache::$data['data_original']['entities']['user']['session']->fields->fixed_ip->type = 'integer';
+  cache::$data['data_original']['entities']['user']['session']->fields->fixed_ip->not_null = true;
+  cache::$data['data_original']['entities']['user']['session']->fields->fixed_ip->default = 0;
   cache::$data['data_original']['entities']['user']['session']->fields->expire = new \stdClass();
   cache::$data['data_original']['entities']['user']['session']->fields->expire->type = 'datetime';
   cache::$data['data_original']['entities']['user']['session']->fields->data = new \stdClass();
@@ -2105,7 +2109,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Colors'] = 'Цвета';
   cache::$data['data_original']['translations']['locales']->ru['Console'] = 'Консоль';
   cache::$data['data_original']['translations']['locales']->ru['Control elements'] = 'Элементы управления';
-  cache::$data['data_original']['translations']['locales']->ru['Cookie expiration date'] = 'Дата окончания Cookie';
+  cache::$data['data_original']['translations']['locales']->ru['Cookie expiration date'] = 'Дата истекания Cookie';
   cache::$data['data_original']['translations']['locales']->ru['Cookies are disabled. You can not log in!'] = 'Cookies отключены. Вы не можете войти в систему!';
   cache::$data['data_original']['translations']['locales']->ru['Copyright © %%_years %%_right_holder.'] = 'Авторские права © %%_years %%_right_holder.';
   cache::$data['data_original']['translations']['locales']->ru['Core'] = 'Ядро';
@@ -2125,7 +2129,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Demo'] = 'Демо';
   cache::$data['data_original']['translations']['locales']->ru['Description'] = 'Описание';
   cache::$data['data_original']['translations']['locales']->ru['Develop'] = 'Разработка';
-  cache::$data['data_original']['translations']['locales']->ru['do not remember me'] = 'не запоминать меня';
   cache::$data['data_original']['translations']['locales']->ru['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data_original']['translations']['locales']->ru['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
   cache::$data['data_original']['translations']['locales']->ru['Driver is not selected!'] = 'Драйвер не выбран!';
@@ -2174,7 +2177,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Host name'] = 'Имя хоста';
   cache::$data['data_original']['translations']['locales']->ru['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
   cache::$data['data_original']['translations']['locales']->ru['Information'] = 'Информация';
-  cache::$data['data_original']['translations']['locales']->ru['init'] = 'инициализация';
   cache::$data['data_original']['translations']['locales']->ru['init.'] = 'инициал.';
   cache::$data['data_original']['translations']['locales']->ru['initialization'] = 'инициализация';
   cache::$data['data_original']['translations']['locales']->ru['insertion'] = 'вставка';
@@ -2191,7 +2193,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache::$data['data_original']['translations']['locales']->ru['load'] = 'загрузка';
   cache::$data['data_original']['translations']['locales']->ru['Locales'] = 'Локализации';
-  cache::$data['data_original']['translations']['locales']->ru['Loggin out'] = 'Выход';
   cache::$data['data_original']['translations']['locales']->ru['login'] = 'вход';
   cache::$data['data_original']['translations']['locales']->ru['Login'] = 'Вход';
   cache::$data['data_original']['translations']['locales']->ru['logout'] = 'выход';
@@ -2224,19 +2225,20 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Number'] = 'Число';
   cache::$data['data_original']['translations']['locales']->ru['Object'] = 'Объект';
   cache::$data['data_original']['translations']['locales']->ru['ok'] = 'ок';
+  cache::$data['data_original']['translations']['locales']->ru['on my ip'] = 'на моём ip';
   cache::$data['data_original']['translations']['locales']->ru['Page'] = 'Страница';
   cache::$data['data_original']['translations']['locales']->ru['Parameter'] = 'Параметр';
   cache::$data['data_original']['translations']['locales']->ru['Password hash'] = 'Хеш пароля';
   cache::$data['data_original']['translations']['locales']->ru['Password'] = 'Пароль';
   cache::$data['data_original']['translations']['locales']->ru['Path to file'] = 'Путь к файлу';
   cache::$data['data_original']['translations']['locales']->ru['Path'] = 'Путь';
-  cache::$data['data_original']['translations']['locales']->ru['pdo prepare return the false'] = 'pdo prepare вернул false';
   cache::$data['data_original']['translations']['locales']->ru['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['data_original']['translations']['locales']->ru['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache::$data['data_original']['translations']['locales']->ru['Queries'] = 'Запросы';
   cache::$data['data_original']['translations']['locales']->ru['query = "%%_query"'] = 'запрос = "%%_query"';
   cache::$data['data_original']['translations']['locales']->ru['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data_original']['translations']['locales']->ru['Query error!'] = 'Ошибка запроса!';
+  cache::$data['data_original']['translations']['locales']->ru['query prepare return the false'] = 'подготовка запроса вернула false';
   cache::$data['data_original']['translations']['locales']->ru['query'] = 'запрос';
   cache::$data['data_original']['translations']['locales']->ru['Radios (macro)'] = 'Переключатели (макро)';
   cache::$data['data_original']['translations']['locales']->ru['Radios'] = 'Переключатели';
@@ -2245,7 +2247,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Registered'] = 'Зарегистрированные';
   cache::$data['data_original']['translations']['locales']->ru['registration'] = 'регистрация';
   cache::$data['data_original']['translations']['locales']->ru['Registration'] = 'Регистрация';
-  cache::$data['data_original']['translations']['locales']->ru['remember me (on this ip)'] = 'запомнить меня (на этом ip)';
   cache::$data['data_original']['translations']['locales']->ru['remember me'] = 'запомнить меня';
   cache::$data['data_original']['translations']['locales']->ru['reset'] = 'сбросить';
   cache::$data['data_original']['translations']['locales']->ru['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
@@ -2283,8 +2284,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Time'] = 'Время';
   cache::$data['data_original']['translations']['locales']->ru['Timezone'] = 'Часовой пояс';
   cache::$data['data_original']['translations']['locales']->ru['Title'] = 'Заголовок';
-  cache::$data['data_original']['translations']['locales']->ru['to front'] = 'на главную';
-  cache::$data['data_original']['translations']['locales']->ru['to home'] = 'домой';
+  cache::$data['data_original']['translations']['locales']->ru['to front page'] = 'на главную страницу';
   cache::$data['data_original']['translations']['locales']->ru['Total build time'] = 'Общее время сборки';
   cache::$data['data_original']['translations']['locales']->ru['Total load'] = 'Общая загрука';
   cache::$data['data_original']['translations']['locales']->ru['Total'] = 'Всего';
