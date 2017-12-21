@@ -32,12 +32,9 @@ namespace effectivecore { # cache for data--colors
   cache::$data['data--colors']['page']['color_limegreen'] = new \stdClass();
   cache::$data['data--colors']['page']['color_limegreen']->value = 'limegreen';
   cache::$data['data--colors']['page']['color_limegreen']->is_dark = true;
-  cache::$data['data--colors']['page']['color_springgreen'] = new \stdClass();
-  cache::$data['data--colors']['page']['color_springgreen']->value = 'springgreen';
-  cache::$data['data--colors']['page']['color_springgreen']->is_dark = false;
-  cache::$data['data--colors']['page']['color_paleturquoise'] = new \stdClass();
-  cache::$data['data--colors']['page']['color_paleturquoise']->value = 'paleturquoise';
-  cache::$data['data--colors']['page']['color_paleturquoise']->is_dark = false;
+  cache::$data['data--colors']['page']['color_mediumaquamarine'] = new \stdClass();
+  cache::$data['data--colors']['page']['color_mediumaquamarine']->value = 'mediumaquamarine';
+  cache::$data['data--colors']['page']['color_mediumaquamarine']->is_dark = false;
   cache::$data['data--colors']['page']['color_lightseagreen'] = new \stdClass();
   cache::$data['data--colors']['page']['color_lightseagreen']->value = 'lightseagreen';
   cache::$data['data--colors']['page']['color_lightseagreen']->is_dark = true;
