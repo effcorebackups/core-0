@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-21 20:40:09';
+  cache::$info['data_original']['build'] = '2017-12-21 20:53:37';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -2473,37 +2473,37 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree']->media = 'all';
   cache::$data['data_original']['template']['page']['markup_html'] = new \stdClass();
   cache::$data['data_original']['template']['page']['markup_html']->type = 'inline';
-  cache::$data['data_original']['template']['page']['markup_html']->markup = '<%%_tag_name %%_attributes>%%_content</%%_tag_name>';
+  cache::$data['data_original']['template']['page']['markup_html']->markup = '<%%_tag_name %%_attributes> %%_content </%%_tag_name>';
   cache::$data['data_original']['template']['page']['markup_html_simple'] = new \stdClass();
   cache::$data['data_original']['template']['page']['markup_html_simple']->type = 'inline';
   cache::$data['data_original']['template']['page']['markup_html_simple']->markup = '<%%_tag_name %%_attributes>';
   cache::$data['data_original']['template']['page']['markup_xml'] = new \stdClass();
   cache::$data['data_original']['template']['page']['markup_xml']->type = 'inline';
-  cache::$data['data_original']['template']['page']['markup_xml']->markup = '<%%_tag_name %%_attributes>%%_content</%%_tag_name>';
+  cache::$data['data_original']['template']['page']['markup_xml']->markup = '<%%_tag_name %%_attributes> %%_content </%%_tag_name>';
   cache::$data['data_original']['template']['page']['markup_xml_simple'] = new \stdClass();
   cache::$data['data_original']['template']['page']['markup_xml_simple']->type = 'inline';
   cache::$data['data_original']['template']['page']['markup_xml_simple']->markup = '<%%_tag_name %%_attributes />';
+  cache::$data['data_original']['template']['page']['form_container'] = new \stdClass();
+  cache::$data['data_original']['template']['page']['form_container']->type = 'inline';
+  cache::$data['data_original']['template']['page']['form_container']->markup = '<%%_tag_name %%_attributes> %%_title_t %%_content %%_title_b %%_description </%%_tag_name>';
   cache::$data['data_original']['template']['page']['page'] = new \stdClass();
   cache::$data['data_original']['template']['page']['page']->type = 'file';
   cache::$data['data_original']['template']['page']['page']->path = 'frontend/template--page.html';
   cache::$data['data_original']['template']['page']['page_simple'] = new \stdClass();
   cache::$data['data_original']['template']['page']['page_simple']->type = 'file';
   cache::$data['data_original']['template']['page']['page_simple']->path = 'frontend/template--page_simple.html';
-  cache::$data['data_original']['template']['page']['form_container'] = new \stdClass();
-  cache::$data['data_original']['template']['page']['form_container']->type = 'file';
-  cache::$data['data_original']['template']['page']['form_container']->path = 'frontend/template--form_container.html';
   cache::$data['data_original']['template']['page']['canvas_svg'] = new \stdClass();
   cache::$data['data_original']['template']['page']['canvas_svg']->type = 'file';
   cache::$data['data_original']['template']['page']['canvas_svg']->path = 'frontend/template--canvas_svg.xml';
   cache::$data['data_original']['template']['tree']['tree'] = new \stdClass();
-  cache::$data['data_original']['template']['tree']['tree']->type = 'file';
-  cache::$data['data_original']['template']['tree']['tree']->path = 'frontend/template--tree.html';
+  cache::$data['data_original']['template']['tree']['tree']->type = 'inline';
+  cache::$data['data_original']['template']['tree']['tree']->markup = '<x-tree %%_attributes> <h3 class="hidden">%%_self</h3> <ul>%%_children</ul> </x-tree>';
   cache::$data['data_original']['template']['tree']['tree_item'] = new \stdClass();
-  cache::$data['data_original']['template']['tree']['tree_item']->type = 'file';
-  cache::$data['data_original']['template']['tree']['tree_item']->path = 'frontend/template--tree_item.html';
+  cache::$data['data_original']['template']['tree']['tree_item']->type = 'inline';
+  cache::$data['data_original']['template']['tree']['tree_item']->markup = '<li %%_attributes> %%_self %%_children </li>';
   cache::$data['data_original']['template']['tree']['tree_item_children'] = new \stdClass();
-  cache::$data['data_original']['template']['tree']['tree_item_children']->type = 'file';
-  cache::$data['data_original']['template']['tree']['tree_item_children']->path = 'frontend/template--tree_item_children.html';
+  cache::$data['data_original']['template']['tree']['tree_item_children']->type = 'inline';
+  cache::$data['data_original']['template']['tree']['tree_item_children']->markup = '<ul> %%_children </ul>';
   cache::$data['data_original']['storages']['storage']['storage_pdo_sql'] = new \effectivecore\storage_pdo();
   cache::$data['data_original']['storages']['storage']['storage_pdo_sql']->id = 'main';
   cache::$data['data_original']['storages']['storage']['storage_files_nosql'] = new \effectivecore\storage_files();
