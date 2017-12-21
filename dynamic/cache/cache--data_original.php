@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-21 22:35:07';
+  cache::$info['data_original']['build'] = '2017-12-21 22:52:01';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -2399,6 +2399,12 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['colors']['page']['color_original_blue'] = new \stdClass();
   cache::$data['data_original']['colors']['page']['color_original_blue']->value = '#216ce4';
   cache::$data['data_original']['colors']['page']['color_original_blue']->is_dark = true;
+  cache::$data['data_original']['colors']['page']['color_darkslateblue'] = new \stdClass();
+  cache::$data['data_original']['colors']['page']['color_darkslateblue']->value = 'darkslateblue';
+  cache::$data['data_original']['colors']['page']['color_darkslateblue']->is_dark = true;
+  cache::$data['data_original']['colors']['page']['color_indigo'] = new \stdClass();
+  cache::$data['data_original']['colors']['page']['color_indigo']->value = 'indigo';
+  cache::$data['data_original']['colors']['page']['color_indigo']->is_dark = true;
   cache::$data['data_original']['colors']['page']['color_original_darkblue'] = new \stdClass();
   cache::$data['data_original']['colors']['page']['color_original_darkblue']->value = '#28334a';
   cache::$data['data_original']['colors']['page']['color_original_darkblue']->is_dark = true;
