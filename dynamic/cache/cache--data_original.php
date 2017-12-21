@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-21 08:57:15';
+  cache::$info['data_original']['build'] = '2017-12-21 09:12:46';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -741,7 +741,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params'] = new \effectivecore\form_container_checkboxes();
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->input_attributes['name'] = 'session_params[]';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['fixed_ip'] = 'on my ip';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['fixed_ip'] = 'on this ip';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->checked['remember'] = 'remember';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->checked['fixed_ip'] = 'fixed_ip';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['captcha'] = new \effectivecore\form_field_captcha();
@@ -2225,7 +2225,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']->ru['Number'] = 'Число';
   cache::$data['data_original']['translations']['locales']->ru['Object'] = 'Объект';
   cache::$data['data_original']['translations']['locales']->ru['ok'] = 'ок';
-  cache::$data['data_original']['translations']['locales']->ru['on my ip'] = 'на моём ip';
+  cache::$data['data_original']['translations']['locales']->ru['on this ip'] = 'на этом ip';
   cache::$data['data_original']['translations']['locales']->ru['Page'] = 'Страница';
   cache::$data['data_original']['translations']['locales']->ru['Parameter'] = 'Параметр';
   cache::$data['data_original']['translations']['locales']->ru['Password hash'] = 'Хеш пароля';

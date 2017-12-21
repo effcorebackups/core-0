@@ -153,7 +153,7 @@ namespace effectivecore { # cache for data--translations
   cache::$data['data--translations']['locales']->ru['Number'] = 'Число';
   cache::$data['data--translations']['locales']->ru['Object'] = 'Объект';
   cache::$data['data--translations']['locales']->ru['ok'] = 'ок';
-  cache::$data['data--translations']['locales']->ru['on my ip'] = 'на моём ip';
+  cache::$data['data--translations']['locales']->ru['on this ip'] = 'на этом ip';
   cache::$data['data--translations']['locales']->ru['Page'] = 'Страница';
   cache::$data['data--translations']['locales']->ru['Parameter'] = 'Параметр';
   cache::$data['data--translations']['locales']->ru['Password hash'] = 'Хеш пароля';
