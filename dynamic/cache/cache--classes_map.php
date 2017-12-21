@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-21 13:33:14';
+  cache::$info['classes_map']['build'] = '2017-12-21 20:26:00';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -44,6 +44,11 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\message']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\message']->name = 'message';
   cache::$data['classes_map']['effectivecore\message']->file = 'modules/core/backend/class_ab--gl--message.php';
+  cache::$data['classes_map']['effectivecore\module'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\module']->type = 'class';
+  cache::$data['classes_map']['effectivecore\module']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\module']->name = 'module';
+  cache::$data['classes_map']['effectivecore\module']->file = 'modules/core/backend/class_ab--gl--module.php';
   cache::$data['classes_map']['effectivecore\temporary'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\temporary']->type = 'class';
   cache::$data['classes_map']['effectivecore\temporary']->namespace = 'effectivecore';
