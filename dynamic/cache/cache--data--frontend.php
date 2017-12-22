@@ -46,9 +46,9 @@ namespace effectivecore { # cache for data--frontend
   cache::$data['data--frontend']['page']['frontend_page_n']->script['script_page']->file = 'frontend/page.js';
   cache::$data['data--frontend']['page']['frontend_form_n'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->display = new \stdClass();
-  cache::$data['data--frontend']['page']['frontend_form_n']->display->npath = new \stdClass();
-  cache::$data['data--frontend']['page']['frontend_form_n']->display->npath->match = '%^forms/.*$%';
-  cache::$data['data--frontend']['page']['frontend_form_n']->display->npath->where = 'block';
+  cache::$data['data--frontend']['page']['frontend_form_n']->display->datapath = new \stdClass();
+  cache::$data['data--frontend']['page']['frontend_form_n']->display->datapath->match = '%^forms/.*$%';
+  cache::$data['data--frontend']['page']['frontend_form_n']->display->datapath->where = 'block';
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['style_form'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['style_form']->file = 'frontend/form.css';
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['style_form']->media = 'all';
@@ -56,9 +56,9 @@ namespace effectivecore { # cache for data--frontend
   cache::$data['data--frontend']['page']['frontend_form_n']->script['script_form']->file = 'frontend/form.js';
   cache::$data['data--frontend']['tree']['frontend_block_tree'] = new \stdClass();
   cache::$data['data--frontend']['tree']['frontend_block_tree']->display = new \stdClass();
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->npath = new \stdClass();
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->npath->match = '%^trees/.*$%';
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->npath->where = 'block';
+  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->datapath = new \stdClass();
+  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->datapath->match = '%^trees/.*$%';
+  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->datapath->where = 'block';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['style_tree'] = new \stdClass();
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['style_tree']->file = 'frontend/tree.css';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['style_tree']->media = 'all';
