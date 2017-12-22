@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-21 22:52:01';
+  cache::$info['data_original']['build'] = '2017-12-22 10:18:45';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -1362,6 +1362,9 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['settings']['locales']->format_time = 'H:i:s';
   cache::$data['data_original']['settings']['locales']->format_datetime = 'd.m.Y H:i:s';
   cache::$data['data_original']['settings']['locales']->timezone = 'Europe/Minsk';
+  cache::$data['data_original']['settings']['page'] = new \stdClass();
+  cache::$data['data_original']['settings']['page']->color_id = 'color_black';
+  cache::$data['data_original']['settings']['page']->color_bg_id = 'color_original_blue';
   cache::$data['data_original']['tokens']['core']['text_no_items'] = new \stdClass();
   cache::$data['data_original']['tokens']['core']['text_no_items']->match = '%%_text_no_items';
   cache::$data['data_original']['tokens']['core']['text_no_items']->type = 'translated_text';
@@ -2411,9 +2414,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['colors']['page']['color_black'] = new \stdClass();
   cache::$data['data_original']['colors']['page']['color_black']->value = 'black';
   cache::$data['data_original']['colors']['page']['color_black']->is_dark = true;
-  cache::$data['data_original']['decoration']['page'] = new \stdClass();
-  cache::$data['data_original']['decoration']['page']->color_id = 'color_black';
-  cache::$data['data_original']['decoration']['page']->color_bg_id = 'color_original_blue';
   cache::$data['data_original']['frontend']['page']['frontend_page_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->url = new \stdClass();
