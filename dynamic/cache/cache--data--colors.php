@@ -56,5 +56,14 @@ namespace effectivecore { # cache for data--colors
   cache::$data['data--colors']['page']['color_black'] = new \stdClass();
   cache::$data['data--colors']['page']['color_black']->value = 'black';
   cache::$data['data--colors']['page']['color_black']->is_dark = true;
+  cache::$data['data--colors']['page']['color_dimgray'] = new \stdClass();
+  cache::$data['data--colors']['page']['color_dimgray']->value = 'dimgray';
+  cache::$data['data--colors']['page']['color_dimgray']->is_dark = true;
+  cache::$data['data--colors']['page']['color_silver'] = new \stdClass();
+  cache::$data['data--colors']['page']['color_silver']->value = 'silver';
+  cache::$data['data--colors']['page']['color_silver']->is_dark = true;
+  cache::$data['data--colors']['page']['color_white'] = new \stdClass();
+  cache::$data['data--colors']['page']['color_white']->value = 'white';
+  cache::$data['data--colors']['page']['color_white']->is_dark = true;
 
 }
