@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-23 11:29:23';
+  cache::$info['classes_map']['build'] = '2017-12-23 16:52:25';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -379,11 +379,13 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\storage_files']->type = 'class';
   cache::$data['classes_map']['effectivecore\storage_files']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\storage_files']->name = 'storage_files';
+  cache::$data['classes_map']['effectivecore\storage_files']->implements['\effectivecore\has_different_cache'] = '\\effectivecore\\has_different_cache';
   cache::$data['classes_map']['effectivecore\storage_files']->file = 'modules/storage/backend/pattern--storage_files.php';
   cache::$data['classes_map']['effectivecore\storage_pdo'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\storage_pdo']->type = 'class';
   cache::$data['classes_map']['effectivecore\storage_pdo']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\storage_pdo']->name = 'storage_pdo';
+  cache::$data['classes_map']['effectivecore\storage_pdo']->implements['\effectivecore\has_different_cache'] = '\\effectivecore\\has_different_cache';
   cache::$data['classes_map']['effectivecore\storage_pdo']->file = 'modules/storage/backend/pattern--storage_pdo.php';
   cache::$data['classes_map']['effectivecore\modules\tree\events_module'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\modules\tree\events_module']->type = 'class';
