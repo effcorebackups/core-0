@@ -5,8 +5,6 @@ namespace effectivecore { # cache for data--file_types
   cache::$data['data--file_types']['core']['php'] = new \stdClass();
   cache::$data['data--file_types']['core']['php']->protected = 1;
   cache::$data['data--file_types']['core']['php']->headers['Content-type'] = 'text/html';
-  cache::$data['data--file_types']['core']['sqlite'] = new \stdClass();
-  cache::$data['data--file_types']['core']['sqlite']->protected = 1;
   cache::$data['data--file_types']['core']['css'] = new \stdClass();
   cache::$data['data--file_types']['core']['css']->use_tokens = 1;
   cache::$data['data--file_types']['core']['css']->headers['Content-type'] = 'text/css';
@@ -37,5 +35,7 @@ namespace effectivecore { # cache for data--file_types
   cache::$data['data--file_types']['storage']['_d'] = new \stdClass();
   cache::$data['data--file_types']['storage']['_d']->protected = 1;
   cache::$data['data--file_types']['storage']['_d']->headers['Content-type'] = 'text/data';
+  cache::$data['data--file_types']['storage']['sqlite'] = new \stdClass();
+  cache::$data['data--file_types']['storage']['sqlite']->protected = 1;
 
 }

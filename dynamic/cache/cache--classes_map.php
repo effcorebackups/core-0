@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-22 21:39:53';
+  cache::$info['classes_map']['build'] = '2017-12-23 11:29:23';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -97,16 +97,6 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\modules\core\events_page']->name = 'events_page';
   cache::$data['classes_map']['effectivecore\modules\core\events_page']->extends = '\\effectivecore\\events_page';
   cache::$data['classes_map']['effectivecore\modules\core\events_page']->file = 'modules/core/backend/events--page.php';
-  cache::$data['classes_map']['effectivecore\post_constructor'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\post_constructor']->type = 'interface';
-  cache::$data['classes_map']['effectivecore\post_constructor']->namespace = 'effectivecore';
-  cache::$data['classes_map']['effectivecore\post_constructor']->name = 'post_constructor';
-  cache::$data['classes_map']['effectivecore\post_constructor']->file = 'modules/core/backend/marker--gl--post_constructor.php';
-  cache::$data['classes_map']['effectivecore\post_init'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\post_init']->type = 'interface';
-  cache::$data['classes_map']['effectivecore\post_init']->namespace = 'effectivecore';
-  cache::$data['classes_map']['effectivecore\post_init']->name = 'post_init';
-  cache::$data['classes_map']['effectivecore\post_init']->file = 'modules/core/backend/marker--gl--post_init.php';
   cache::$data['classes_map']['effectivecore\node'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\node']->type = 'class';
   cache::$data['classes_map']['effectivecore\node']->namespace = 'effectivecore';
@@ -212,6 +202,7 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\form']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\form']->name = 'form';
   cache::$data['classes_map']['effectivecore\form']->extends = '\\effectivecore\\markup';
+  cache::$data['classes_map']['effectivecore\form']->implements['\effectivecore\has_different_cache'] = '\\effectivecore\\has_different_cache';
   cache::$data['classes_map']['effectivecore\form']->file = 'modules/page/backend/pattern--form.php';
   cache::$data['classes_map']['effectivecore\form_container'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\form_container']->type = 'class';
@@ -354,6 +345,26 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\modules\storage\events_storage']->namespace = 'effectivecore\\modules\\storage';
   cache::$data['classes_map']['effectivecore\modules\storage\events_storage']->name = 'events_storage';
   cache::$data['classes_map']['effectivecore\modules\storage\events_storage']->file = 'modules/storage/backend/events--storage.php';
+  cache::$data['classes_map']['effectivecore\has_different_cache'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\has_different_cache']->type = 'interface';
+  cache::$data['classes_map']['effectivecore\has_different_cache']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\has_different_cache']->name = 'has_different_cache';
+  cache::$data['classes_map']['effectivecore\has_different_cache']->file = 'modules/storage/backend/marker--gl--has_different_cache.php';
+  cache::$data['classes_map']['effectivecore\post_constructor'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\post_constructor']->type = 'interface';
+  cache::$data['classes_map']['effectivecore\post_constructor']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\post_constructor']->name = 'post_constructor';
+  cache::$data['classes_map']['effectivecore\post_constructor']->file = 'modules/storage/backend/marker--gl--post_constructor.php';
+  cache::$data['classes_map']['effectivecore\post_init'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\post_init']->type = 'interface';
+  cache::$data['classes_map']['effectivecore\post_init']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\post_init']->name = 'post_init';
+  cache::$data['classes_map']['effectivecore\post_init']->file = 'modules/storage/backend/marker--gl--post_init.php';
+  cache::$data['classes_map']['effectivecore\different_cache'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\different_cache']->type = 'class';
+  cache::$data['classes_map']['effectivecore\different_cache']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\different_cache']->name = 'different_cache';
+  cache::$data['classes_map']['effectivecore\different_cache']->file = 'modules/storage/backend/pattern--different_cache.php';
   cache::$data['classes_map']['effectivecore\entity'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\entity']->type = 'class';
   cache::$data['classes_map']['effectivecore\entity']->namespace = 'effectivecore';
