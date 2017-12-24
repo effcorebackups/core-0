@@ -7,7 +7,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['core']['front']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['core']['front']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['core']['front']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['core']['front']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['core']['front']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['core']['front']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['core']['front']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['core']['front']->content['block_menu_user']->type = 'code';
@@ -38,7 +38,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['core']['installation']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['core']['installation']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['core']['installation']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['core']['installation']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['core']['installation']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['core']['installation']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['core']['installation']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['core']['installation']->content['block_menu_user']->type = 'code';
@@ -54,7 +54,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['core']['installation']->content['form_installation'] = new \stdClass();
   cache::$data['data--pages']['core']['installation']->content['form_installation']->region = 'main_1';
   cache::$data['data--pages']['core']['installation']->content['form_installation']->type = 'link';
-  cache::$data['data--pages']['core']['installation']->content['form_installation']->datapath = 'forms/core/installation';
+  cache::$data['data--pages']['core']['installation']->content['form_installation']->dpath = 'forms/core/installation';
   cache::$data['data--pages']['core']['installation']->content['block_copyright'] = new \stdClass();
   cache::$data['data--pages']['core']['installation']->content['block_copyright']->region = 'copyright';
   cache::$data['data--pages']['core']['installation']->content['block_copyright']->type = 'code';
@@ -70,7 +70,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['core']['modules']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['core']['modules']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['core']['modules']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['core']['modules']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['core']['modules']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['core']['modules']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['core']['modules']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['core']['modules']->content['block_menu_user']->type = 'code';
@@ -102,7 +102,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['develop']['demo']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['develop']['demo']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['develop']['demo']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['develop']['demo']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['develop']['demo']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['develop']['demo']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['develop']['demo']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['develop']['demo']->content['block_menu_user']->type = 'code';
@@ -118,11 +118,11 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['develop']['demo']->content['form_demo'] = new \stdClass();
   cache::$data['data--pages']['develop']['demo']->content['form_demo']->region = 'main_1';
   cache::$data['data--pages']['develop']['demo']->content['form_demo']->type = 'link';
-  cache::$data['data--pages']['develop']['demo']->content['form_demo']->datapath = 'forms/develop/demo';
+  cache::$data['data--pages']['develop']['demo']->content['form_demo']->dpath = 'forms/develop/demo';
   cache::$data['data--pages']['develop']['demo']->content['block_demo_static'] = new \stdClass();
   cache::$data['data--pages']['develop']['demo']->content['block_demo_static']->region = 'main_1';
   cache::$data['data--pages']['develop']['demo']->content['block_demo_static']->type = 'link';
-  cache::$data['data--pages']['develop']['demo']->content['block_demo_static']->datapath = 'blocks/develop/demo';
+  cache::$data['data--pages']['develop']['demo']->content['block_demo_static']->dpath = 'blocks/develop/demo';
   cache::$data['data--pages']['develop']['demo']->content['block_demo_dynamic'] = new \stdClass();
   cache::$data['data--pages']['develop']['demo']->content['block_demo_dynamic']->region = 'main_1';
   cache::$data['data--pages']['develop']['demo']->content['block_demo_dynamic']->type = 'code';
@@ -142,7 +142,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['page']['decoration']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['page']['decoration']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['page']['decoration']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['page']['decoration']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['page']['decoration']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['page']['decoration']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['page']['decoration']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['page']['decoration']->content['block_menu_user']->type = 'code';
@@ -158,7 +158,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['page']['decoration']->content['form_decoration'] = new \stdClass();
   cache::$data['data--pages']['page']['decoration']->content['form_decoration']->region = 'main_1';
   cache::$data['data--pages']['page']['decoration']->content['form_decoration']->type = 'link';
-  cache::$data['data--pages']['page']['decoration']->content['form_decoration']->datapath = 'forms/page/decoration';
+  cache::$data['data--pages']['page']['decoration']->content['form_decoration']->dpath = 'forms/page/decoration';
   cache::$data['data--pages']['page']['decoration']->content['block_copyright'] = new \stdClass();
   cache::$data['data--pages']['page']['decoration']->content['block_copyright']->region = 'copyright';
   cache::$data['data--pages']['page']['decoration']->content['block_copyright']->type = 'code';
@@ -174,7 +174,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['login']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['user']['login']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['user']['login']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['user']['login']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['user']['login']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['user']['login']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['user']['login']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['user']['login']->content['block_menu_user']->type = 'code';
@@ -190,7 +190,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['login']->content['form_login'] = new \stdClass();
   cache::$data['data--pages']['user']['login']->content['form_login']->region = 'main_1';
   cache::$data['data--pages']['user']['login']->content['form_login']->type = 'link';
-  cache::$data['data--pages']['user']['login']->content['form_login']->datapath = 'forms/user/login';
+  cache::$data['data--pages']['user']['login']->content['form_login']->dpath = 'forms/user/login';
   cache::$data['data--pages']['user']['login']->content['block_copyright'] = new \stdClass();
   cache::$data['data--pages']['user']['login']->content['block_copyright']->region = 'copyright';
   cache::$data['data--pages']['user']['login']->content['block_copyright']->type = 'code';
@@ -206,7 +206,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['logout']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['user']['logout']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['user']['logout']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['user']['logout']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['user']['logout']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['user']['logout']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['user']['logout']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['user']['logout']->content['block_menu_user']->type = 'code';
@@ -222,7 +222,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['logout']->content['form_logout'] = new \stdClass();
   cache::$data['data--pages']['user']['logout']->content['form_logout']->region = 'main_1';
   cache::$data['data--pages']['user']['logout']->content['form_logout']->type = 'link';
-  cache::$data['data--pages']['user']['logout']->content['form_logout']->datapath = 'forms/user/logout';
+  cache::$data['data--pages']['user']['logout']->content['form_logout']->dpath = 'forms/user/logout';
   cache::$data['data--pages']['user']['logout']->content['block_copyright'] = new \stdClass();
   cache::$data['data--pages']['user']['logout']->content['block_copyright']->region = 'copyright';
   cache::$data['data--pages']['user']['logout']->content['block_copyright']->type = 'code';
@@ -238,7 +238,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['registration']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['user']['registration']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['user']['registration']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['user']['registration']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['user']['registration']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['user']['registration']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['user']['registration']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['user']['registration']->content['block_menu_user']->type = 'code';
@@ -254,7 +254,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['registration']->content['form_registration'] = new \stdClass();
   cache::$data['data--pages']['user']['registration']->content['form_registration']->region = 'main_1';
   cache::$data['data--pages']['user']['registration']->content['form_registration']->type = 'link';
-  cache::$data['data--pages']['user']['registration']->content['form_registration']->datapath = 'forms/user/registration';
+  cache::$data['data--pages']['user']['registration']->content['form_registration']->dpath = 'forms/user/registration';
   cache::$data['data--pages']['user']['registration']->content['block_copyright'] = new \stdClass();
   cache::$data['data--pages']['user']['registration']->content['block_copyright']->region = 'copyright';
   cache::$data['data--pages']['user']['registration']->content['block_copyright']->type = 'code';
@@ -271,7 +271,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['roles']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['user']['roles']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['user']['roles']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['user']['roles']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['user']['roles']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['user']['roles']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['user']['roles']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['user']['roles']->content['block_menu_user']->type = 'code';
@@ -304,7 +304,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['user']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['user']['user']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['user']['user']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['user']['user']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['user']['user']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['user']['user']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['user']['user']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['user']['user']->content['block_menu_user']->type = 'code';
@@ -341,7 +341,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['user_delete']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['user']['user_delete']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['user']['user_delete']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['user']['user_delete']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['user']['user_delete']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['user']['user_delete']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['user']['user_delete']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['user']['user_delete']->content['block_menu_user']->type = 'code';
@@ -357,7 +357,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['user_delete']->content['form_user_delete'] = new \stdClass();
   cache::$data['data--pages']['user']['user_delete']->content['form_user_delete']->region = 'main_1';
   cache::$data['data--pages']['user']['user_delete']->content['form_user_delete']->type = 'link';
-  cache::$data['data--pages']['user']['user_delete']->content['form_user_delete']->datapath = 'forms/user/user_delete';
+  cache::$data['data--pages']['user']['user_delete']->content['form_user_delete']->dpath = 'forms/user/user_delete';
   cache::$data['data--pages']['user']['user_delete']->content['block_copyright'] = new \stdClass();
   cache::$data['data--pages']['user']['user_delete']->content['block_copyright']->region = 'copyright';
   cache::$data['data--pages']['user']['user_delete']->content['block_copyright']->type = 'code';
@@ -379,7 +379,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['user_edit']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['user']['user_edit']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['user']['user_edit']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['user']['user_edit']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['user']['user_edit']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['user']['user_edit']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['user']['user_edit']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['user']['user_edit']->content['block_menu_user']->type = 'code';
@@ -395,7 +395,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['user_edit']->content['form_user_edit'] = new \stdClass();
   cache::$data['data--pages']['user']['user_edit']->content['form_user_edit']->region = 'main_1';
   cache::$data['data--pages']['user']['user_edit']->content['form_user_edit']->type = 'link';
-  cache::$data['data--pages']['user']['user_edit']->content['form_user_edit']->datapath = 'forms/user/user_edit';
+  cache::$data['data--pages']['user']['user_edit']->content['form_user_edit']->dpath = 'forms/user/user_edit';
   cache::$data['data--pages']['user']['user_edit']->content['block_copyright'] = new \stdClass();
   cache::$data['data--pages']['user']['user_edit']->content['block_copyright']->region = 'copyright';
   cache::$data['data--pages']['user']['user_edit']->content['block_copyright']->type = 'code';
@@ -413,7 +413,7 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['user']['users']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages']['user']['users']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages']['user']['users']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages']['user']['users']->content['block_menu_main']->datapath = 'trees/core/main';
+  cache::$data['data--pages']['user']['users']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages']['user']['users']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages']['user']['users']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages']['user']['users']->content['block_menu_user']->type = 'code';
