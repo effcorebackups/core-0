@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-25 10:43:05';
+  cache::$info['data_original']['build'] = '2017-12-25 12:51:46';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -2428,8 +2428,8 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['colors']['page']['color_black']->is_dark = true;
   cache::$data['data_original']['frontend']['page']['frontend_page_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->url = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->url->match = '%.*%';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->check = 'url';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->match = '%.*%';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->type = 'image/x-icon';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->rel = 'icon';
@@ -2470,9 +2470,9 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->script['script_page']->file = 'frontend/page.js';
   cache::$data['data_original']['frontend']['page']['frontend_form_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->dpath = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->dpath->match = '%^forms/.*$%';
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->dpath->where = 'block';
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->check = 'dpath';
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->match = '%^forms/.*$%';
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->where = 'block';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['style_form'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['style_form']->file = 'frontend/form.css';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['style_form']->media = 'all';
@@ -2480,9 +2480,9 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->script['script_form']->file = 'frontend/form.js';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree'] = new \stdClass();
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display = new \stdClass();
-  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->dpath = new \stdClass();
-  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->dpath->match = '%^trees/.*$%';
-  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->dpath->where = 'block';
+  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->check = 'dpath';
+  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->match = '%^trees/.*$%';
+  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->where = 'block';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree'] = new \stdClass();
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree']->file = 'frontend/tree.css';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree']->media = 'all';
