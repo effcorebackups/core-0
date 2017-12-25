@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-25 12:51:45';
+  cache::$info['classes_map']['build'] = '2017-12-25 13:54:00';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -287,6 +287,7 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\page']->type = 'class';
   cache::$data['classes_map']['effectivecore\page']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\page']->name = 'page';
+  cache::$data['classes_map']['effectivecore\page']->implements['\effectivecore\has_different_cache'] = '\\effectivecore\\has_different_cache';
   cache::$data['classes_map']['effectivecore\page']->file = 'modules/page/backend/pattern--page.php';
   cache::$data['classes_map']['effectivecore\pager'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\pager']->type = 'class';
