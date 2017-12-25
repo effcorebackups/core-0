@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-25 10:31:37';
+  cache::$info['classes_map']['build'] = '2017-12-25 10:43:05';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -136,16 +136,16 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\modules\develop\events_page']->name = 'events_page';
   cache::$data['classes_map']['effectivecore\modules\develop\events_page']->extends = '\\effectivecore\\events_page';
   cache::$data['classes_map']['effectivecore\modules\develop\events_page']->file = 'modules/develop/backend/events--page.php';
-  cache::$data['classes_map']['effectivecore\language'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\language']->type = 'class';
-  cache::$data['classes_map']['effectivecore\language']->namespace = 'effectivecore';
-  cache::$data['classes_map']['effectivecore\language']->name = 'language';
-  cache::$data['classes_map']['effectivecore\language']->file = 'modules/locales/backend/class_ab--gl--language.php';
   cache::$data['classes_map']['effectivecore\locale'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\locale']->type = 'class';
   cache::$data['classes_map']['effectivecore\locale']->namespace = 'effectivecore';
   cache::$data['classes_map']['effectivecore\locale']->name = 'locale';
   cache::$data['classes_map']['effectivecore\locale']->file = 'modules/locales/backend/class_ab--gl--locale.php';
+  cache::$data['classes_map']['effectivecore\language'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\language']->type = 'class';
+  cache::$data['classes_map']['effectivecore\language']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\language']->name = 'language';
+  cache::$data['classes_map']['effectivecore\language']->file = 'modules/locales/backend/patterrn--language.php';
   cache::$data['classes_map']['effectivecore\translation'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\translation']->type = 'class';
   cache::$data['classes_map']['effectivecore\translation']->namespace = 'effectivecore';

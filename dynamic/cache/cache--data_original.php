@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-25 10:31:37';
+  cache::$info['data_original']['build'] = '2017-12-25 10:43:05';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -2073,16 +2073,16 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['countries']['locales']['rus']->format_datetime = 'd.m.Y H:i:s';
   cache::$data['data_original']['countries']['locales']['rus']->decimal_point = ',';
   cache::$data['data_original']['countries']['locales']['rus']->phone_prefix = 7;
-  cache::$data['data_original']['languages']['locales']['en'] = new \stdClass();
+  cache::$data['data_original']['languages']['locales']['en'] = new \effectivecore\language();
+  cache::$data['data_original']['languages']['locales']['en']->code = 'en';
   cache::$data['data_original']['languages']['locales']['en']->title = new \stdClass();
   cache::$data['data_original']['languages']['locales']['en']->title->en = 'English';
   cache::$data['data_original']['languages']['locales']['en']->title->native = 'English';
-  cache::$data['data_original']['languages']['locales']['en']->code = 'en';
-  cache::$data['data_original']['languages']['locales']['ru'] = new \stdClass();
+  cache::$data['data_original']['languages']['locales']['ru'] = new \effectivecore\language();
+  cache::$data['data_original']['languages']['locales']['ru']->code = 'ru';
   cache::$data['data_original']['languages']['locales']['ru']->title = new \stdClass();
   cache::$data['data_original']['languages']['locales']['ru']->title->en = 'Russian';
   cache::$data['data_original']['languages']['locales']['ru']->title->native = 'Русский';
-  cache::$data['data_original']['languages']['locales']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['locales']['ru'] = new \effectivecore\translation();
   cache::$data['data_original']['translations']['locales']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['locales']['ru']->data['- select -'] = '- выбрать -';
