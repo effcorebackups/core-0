@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-25 14:47:03';
+  cache::$info['data_original']['build'] = '2017-12-26 10:08:34';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -2459,13 +2459,13 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree']->media = 'all';
   cache::$data['data_original']['template']['page']['markup_html'] = new \stdClass();
   cache::$data['data_original']['template']['page']['markup_html']->type = 'inline';
-  cache::$data['data_original']['template']['page']['markup_html']->markup = '<%%_tag_name %%_attributes> %%_content </%%_tag_name>';
+  cache::$data['data_original']['template']['page']['markup_html']->markup = '<%%_tag_name %%_attributes>%%_content</%%_tag_name>';
   cache::$data['data_original']['template']['page']['markup_html_simple'] = new \stdClass();
   cache::$data['data_original']['template']['page']['markup_html_simple']->type = 'inline';
   cache::$data['data_original']['template']['page']['markup_html_simple']->markup = '<%%_tag_name %%_attributes>';
   cache::$data['data_original']['template']['page']['markup_xml'] = new \stdClass();
   cache::$data['data_original']['template']['page']['markup_xml']->type = 'inline';
-  cache::$data['data_original']['template']['page']['markup_xml']->markup = '<%%_tag_name %%_attributes> %%_content </%%_tag_name>';
+  cache::$data['data_original']['template']['page']['markup_xml']->markup = '<%%_tag_name %%_attributes>%%_content</%%_tag_name>';
   cache::$data['data_original']['template']['page']['markup_xml_simple'] = new \stdClass();
   cache::$data['data_original']['template']['page']['markup_xml_simple']->type = 'inline';
   cache::$data['data_original']['template']['page']['markup_xml_simple']->markup = '<%%_tag_name %%_attributes />';
