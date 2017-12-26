@@ -13,6 +13,6 @@ namespace effectivecore { # data for changes
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->credentials->user_name = 'root';
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->credentials->password = '123';
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->table_prefix = '';
-  dynamic::$data['changes']['core']->update['settings/core/key'] = '1975b5a3d74c738461adce9ae1c631ed4abbc911';
+  dynamic::$data['changes']['core']->update['settings/core/key'] = '67730ab793b42e48319ead4a36e87f7c2db69794';
 
 }
