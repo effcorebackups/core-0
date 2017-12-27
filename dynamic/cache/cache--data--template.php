@@ -20,6 +20,12 @@ namespace effectivecore { # cache for data--template
   cache::$data['data--template']['page']['page'] = new \stdClass();
   cache::$data['data--template']['page']['page']->type = 'file';
   cache::$data['data--template']['page']['page']->path = 'frontend/template--page.html';
+  cache::$data['data--template']['page']['page_access_denided'] = new \stdClass();
+  cache::$data['data--template']['page']['page_access_denided']->type = 'file';
+  cache::$data['data--template']['page']['page_access_denided']->path = 'frontend/template--page--access_denided.html';
+  cache::$data['data--template']['page']['page_not_found'] = new \stdClass();
+  cache::$data['data--template']['page']['page_not_found']->type = 'file';
+  cache::$data['data--template']['page']['page_not_found']->path = 'frontend/template--page--not_found.html';
   cache::$data['data--template']['page']['page_simple'] = new \stdClass();
   cache::$data['data--template']['page']['page_simple']->type = 'file';
   cache::$data['data--template']['page']['page_simple']->path = 'frontend/template--page_simple.html';

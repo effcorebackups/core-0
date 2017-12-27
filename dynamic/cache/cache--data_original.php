@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-26 21:17:59';
+  cache::$info['data_original']['build'] = '2017-12-27 12:39:00';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -2475,6 +2475,12 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['template']['page']['page'] = new \stdClass();
   cache::$data['data_original']['template']['page']['page']->type = 'file';
   cache::$data['data_original']['template']['page']['page']->path = 'frontend/template--page.html';
+  cache::$data['data_original']['template']['page']['page_access_denided'] = new \stdClass();
+  cache::$data['data_original']['template']['page']['page_access_denided']->type = 'file';
+  cache::$data['data_original']['template']['page']['page_access_denided']->path = 'frontend/template--page--access_denided.html';
+  cache::$data['data_original']['template']['page']['page_not_found'] = new \stdClass();
+  cache::$data['data_original']['template']['page']['page_not_found']->type = 'file';
+  cache::$data['data_original']['template']['page']['page_not_found']->path = 'frontend/template--page--not_found.html';
   cache::$data['data_original']['template']['page']['page_simple'] = new \stdClass();
   cache::$data['data_original']['template']['page']['page_simple']->type = 'file';
   cache::$data['data_original']['template']['page']['page_simple']->path = 'frontend/template--page_simple.html';
