@@ -6,6 +6,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->code = 'ru';
   cache::$data['data--translations-locales-ru']->data['- select -'] = '- выбрать -';
   cache::$data['data--translations-locales-ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
+  cache::$data['data--translations-locales-ru']->data['Access denided'] = 'Доступ запрещен';
   cache::$data['data--translations-locales-ru']->data['action'] = 'действие';
   cache::$data['data--translations-locales-ru']->data['Action'] = 'Действие';
   cache::$data['data--translations-locales-ru']->data['actions'] = 'действия';
@@ -101,6 +102,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['file'] = 'файл';
   cache::$data['data--translations-locales-ru']->data['Form elements'] = 'Элементы формы';
   cache::$data['data--translations-locales-ru']->data['Front page'] = 'Главная страница';
+  cache::$data['data--translations-locales-ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
   cache::$data['data--translations-locales-ru']->data['Home'] = 'Дом';
   cache::$data['data--translations-locales-ru']->data['Host name'] = 'Имя хоста';
   cache::$data['data--translations-locales-ru']->data['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
@@ -154,6 +156,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Object'] = 'Объект';
   cache::$data['data--translations-locales-ru']->data['ok'] = 'ок';
   cache::$data['data--translations-locales-ru']->data['on this ip'] = 'на этом ip';
+  cache::$data['data--translations-locales-ru']->data['Page not found'] = 'Страница не найдена';
   cache::$data['data--translations-locales-ru']->data['Page'] = 'Страница';
   cache::$data['data--translations-locales-ru']->data['Parameter'] = 'Параметр';
   cache::$data['data--translations-locales-ru']->data['Password hash'] = 'Хеш пароля';

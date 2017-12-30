@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-29 15:58:14';
+  cache::$info['data_original']['build'] = '2017-12-30 10:45:01';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -2058,6 +2058,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['locales']['ru']->data['- select -'] = '- выбрать -';
   cache::$data['data_original']['translations']['locales']['ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Access denided'] = 'Доступ запрещен';
   cache::$data['data_original']['translations']['locales']['ru']->data['action'] = 'действие';
   cache::$data['data_original']['translations']['locales']['ru']->data['Action'] = 'Действие';
   cache::$data['data_original']['translations']['locales']['ru']->data['actions'] = 'действия';
@@ -2153,6 +2154,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['file'] = 'файл';
   cache::$data['data_original']['translations']['locales']['ru']->data['Form elements'] = 'Элементы формы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Front page'] = 'Главная страница';
+  cache::$data['data_original']['translations']['locales']['ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
   cache::$data['data_original']['translations']['locales']['ru']->data['Home'] = 'Дом';
   cache::$data['data_original']['translations']['locales']['ru']->data['Host name'] = 'Имя хоста';
   cache::$data['data_original']['translations']['locales']['ru']->data['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
@@ -2206,6 +2208,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Object'] = 'Объект';
   cache::$data['data_original']['translations']['locales']['ru']->data['ok'] = 'ок';
   cache::$data['data_original']['translations']['locales']['ru']->data['on this ip'] = 'на этом ip';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Page not found'] = 'Страница не найдена';
   cache::$data['data_original']['translations']['locales']['ru']->data['Page'] = 'Страница';
   cache::$data['data_original']['translations']['locales']['ru']->data['Parameter'] = 'Параметр';
   cache::$data['data_original']['translations']['locales']['ru']->data['Password hash'] = 'Хеш пароля';
