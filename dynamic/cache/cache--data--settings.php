@@ -3,7 +3,7 @@
 namespace effectivecore { # cache for data--settings
 
   cache::$data['data--settings']['core'] = new \stdClass();
-  cache::$data['data--settings']['core']->key = '75e688bfe44812dfe4b53b70e11b47b0dabcbf86';
+  cache::$data['data--settings']['core']->key = 'b2ef3a9d6fb8da7912aad0e26ff325451bedff40';
   cache::$data['data--settings']['locales'] = new \stdClass();
   cache::$data['data--settings']['locales']->lang_code = 'ru';
   cache::$data['data--settings']['locales']->decimal_point = ',';

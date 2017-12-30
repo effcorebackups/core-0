@@ -35,7 +35,7 @@ namespace effectivecore { # cache for data--page-user-user_edit
   cache::$data['data--page-user-user_edit']->content['form_user_edit'] = new \stdClass();
   cache::$data['data--page-user-user_edit']->content['form_user_edit']->region = 'main_1';
   cache::$data['data--page-user-user_edit']->content['form_user_edit']->type = 'link';
-  cache::$data['data--page-user-user_edit']->content['form_user_edit']->dpath = 'form/user/user_edit';
+  cache::$data['data--page-user-user_edit']->content['form_user_edit']->dpath = 'forms/user/user_edit';
   cache::$data['data--page-user-user_edit']->content['block_copyright'] = new \stdClass();
   cache::$data['data--page-user-user_edit']->content['block_copyright']->region = 'copyright';
   cache::$data['data--page-user-user_edit']->content['block_copyright']->type = 'code';

@@ -29,7 +29,7 @@ namespace effectivecore { # cache for data--page-user-login
   cache::$data['data--page-user-login']->content['form_login'] = new \stdClass();
   cache::$data['data--page-user-login']->content['form_login']->region = 'main_1';
   cache::$data['data--page-user-login']->content['form_login']->type = 'link';
-  cache::$data['data--page-user-login']->content['form_login']->dpath = 'form/user/login';
+  cache::$data['data--page-user-login']->content['form_login']->dpath = 'forms/user/login';
   cache::$data['data--page-user-login']->content['block_copyright'] = new \stdClass();
   cache::$data['data--page-user-login']->content['block_copyright']->region = 'copyright';
   cache::$data['data--page-user-login']->content['block_copyright']->type = 'code';
