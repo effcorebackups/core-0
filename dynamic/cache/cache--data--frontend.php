@@ -47,7 +47,7 @@ namespace effectivecore { # cache for data--frontend
   cache::$data['data--frontend']['page']['frontend_form_n'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->display = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->display->check = 'dpath';
-  cache::$data['data--frontend']['page']['frontend_form_n']->display->match = '%^forms/.*$%';
+  cache::$data['data--frontend']['page']['frontend_form_n']->display->match = '%^form/.*$%';
   cache::$data['data--frontend']['page']['frontend_form_n']->display->where = 'block';
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['style_form'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['style_form']->file = 'frontend/form.css';

@@ -34,7 +34,7 @@ namespace effectivecore { # cache for data--page-user-user_delete
   cache::$data['data--page-user-user_delete']->content['form_user_delete'] = new \stdClass();
   cache::$data['data--page-user-user_delete']->content['form_user_delete']->region = 'main_1';
   cache::$data['data--page-user-user_delete']->content['form_user_delete']->type = 'link';
-  cache::$data['data--page-user-user_delete']->content['form_user_delete']->dpath = 'forms/user/user_delete';
+  cache::$data['data--page-user-user_delete']->content['form_user_delete']->dpath = 'form/user/user_delete';
   cache::$data['data--page-user-user_delete']->content['block_copyright'] = new \stdClass();
   cache::$data['data--page-user-user_delete']->content['block_copyright']->region = 'copyright';
   cache::$data['data--page-user-user_delete']->content['block_copyright']->type = 'code';

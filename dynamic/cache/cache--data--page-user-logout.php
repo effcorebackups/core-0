@@ -29,7 +29,7 @@ namespace effectivecore { # cache for data--page-user-logout
   cache::$data['data--page-user-logout']->content['form_logout'] = new \stdClass();
   cache::$data['data--page-user-logout']->content['form_logout']->region = 'main_1';
   cache::$data['data--page-user-logout']->content['form_logout']->type = 'link';
-  cache::$data['data--page-user-logout']->content['form_logout']->dpath = 'forms/user/logout';
+  cache::$data['data--page-user-logout']->content['form_logout']->dpath = 'form/user/logout';
   cache::$data['data--page-user-logout']->content['block_copyright'] = new \stdClass();
   cache::$data['data--page-user-logout']->content['block_copyright']->region = 'copyright';
   cache::$data['data--page-user-logout']->content['block_copyright']->type = 'code';

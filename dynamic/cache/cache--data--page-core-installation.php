@@ -29,7 +29,7 @@ namespace effectivecore { # cache for data--page-core-installation
   cache::$data['data--page-core-installation']->content['form_installation'] = new \stdClass();
   cache::$data['data--page-core-installation']->content['form_installation']->region = 'main_1';
   cache::$data['data--page-core-installation']->content['form_installation']->type = 'link';
-  cache::$data['data--page-core-installation']->content['form_installation']->dpath = 'forms/core/installation';
+  cache::$data['data--page-core-installation']->content['form_installation']->dpath = 'form/core/installation';
   cache::$data['data--page-core-installation']->content['block_copyright'] = new \stdClass();
   cache::$data['data--page-core-installation']->content['block_copyright']->region = 'copyright';
   cache::$data['data--page-core-installation']->content['block_copyright']->type = 'code';
