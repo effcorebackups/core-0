@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-30 19:33:07';
+  cache::$info['data_original']['build'] = '2017-12-30 19:47:26';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -1642,6 +1642,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1'] = new \effectivecore\table_body_row_cell();
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper'] = new \effectivecore\markup();
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list'] = new \effectivecore\control_actions_list();
+  cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->title = 'actions';
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->actions['edit'] = 'edit';
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->actions['delete'] = 'delete';
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->active['edit'] = 'edit';
