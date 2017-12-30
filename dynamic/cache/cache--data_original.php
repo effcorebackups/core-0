@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-30 18:13:46';
+  cache::$info['data_original']['build'] = '2017-12-30 18:23:47';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -1653,18 +1653,18 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['demo_switcher_wrapper']->children['demo_switcher']->state = 'on';
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['demo_switcher_wrapper']->children['demo_switcher']->attributes['class']['demo-switcher'] = 'demo-switcher';
   cache::$data['data_original']['blocks']['develop']['demo']->attributes['id'] = 'demo';
-  cache::$data['data_original']['change']['develop'] = new \stdClass();
-  cache::$data['data_original']['change']['develop']->insert['demo_data/develop/demo_object'] = new \stdClass();
-  cache::$data['data_original']['change']['develop']->insert['demo_data/develop/demo_object']->prop_4 = 'property value #4 (insert)';
-  cache::$data['data_original']['change']['develop']->insert['demo_data/develop/demo_object']->prop_5 = 'property value #5 (insert)';
-  cache::$data['data_original']['change']['develop']->insert['demo_data/develop/demo_object']->prop_6 = 'property value #6 (insert)';
-  cache::$data['data_original']['change']['develop']->insert['demo_data/develop/demo_array']['item_4'] = 'item value #4 (insert)';
-  cache::$data['data_original']['change']['develop']->insert['demo_data/develop/demo_array']['item_5'] = 'item value #5 (insert)';
-  cache::$data['data_original']['change']['develop']->insert['demo_data/develop/demo_array']['item_6'] = 'item value #6 (insert)';
-  cache::$data['data_original']['change']['develop']->update['demo_data/develop/demo_object/prop_5'] = 'property value #5 (insert + update)';
-  cache::$data['data_original']['change']['develop']->update['demo_data/develop/demo_array/item_5'] = 'item value #5 (insert + update)';
-  cache::$data['data_original']['change']['develop']->delete['demo_data/develop/demo_object/prop_4'] = null;
-  cache::$data['data_original']['change']['develop']->delete['demo_data/develop/demo_array/item_4'] = null;
+  cache::$data['data_original']['changes']['develop'] = new \stdClass();
+  cache::$data['data_original']['changes']['develop']->insert['demo_data/develop/demo_object'] = new \stdClass();
+  cache::$data['data_original']['changes']['develop']->insert['demo_data/develop/demo_object']->prop_4 = 'property value #4 (insert)';
+  cache::$data['data_original']['changes']['develop']->insert['demo_data/develop/demo_object']->prop_5 = 'property value #5 (insert)';
+  cache::$data['data_original']['changes']['develop']->insert['demo_data/develop/demo_object']->prop_6 = 'property value #6 (insert)';
+  cache::$data['data_original']['changes']['develop']->insert['demo_data/develop/demo_array']['item_4'] = 'item value #4 (insert)';
+  cache::$data['data_original']['changes']['develop']->insert['demo_data/develop/demo_array']['item_5'] = 'item value #5 (insert)';
+  cache::$data['data_original']['changes']['develop']->insert['demo_data/develop/demo_array']['item_6'] = 'item value #6 (insert)';
+  cache::$data['data_original']['changes']['develop']->update['demo_data/develop/demo_object/prop_5'] = 'property value #5 (insert + update)';
+  cache::$data['data_original']['changes']['develop']->update['demo_data/develop/demo_array/item_5'] = 'item value #5 (insert + update)';
+  cache::$data['data_original']['changes']['develop']->delete['demo_data/develop/demo_object/prop_4'] = null;
+  cache::$data['data_original']['changes']['develop']->delete['demo_data/develop/demo_array/item_4'] = null;
   cache::$data['data_original']['demo_data']['develop'] = new \stdClass();
   cache::$data['data_original']['demo_data']['develop']->demo_integer = 1;
   cache::$data['data_original']['demo_data']['develop']->demo_float = 2.3;
