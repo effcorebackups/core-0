@@ -60,6 +60,7 @@ namespace effectivecore { # cache for data--translation-locales-ru
   cache::$data['data--translation-locales-ru']->data['Demo'] = 'Демо';
   cache::$data['data--translation-locales-ru']->data['Description'] = 'Описание';
   cache::$data['data--translation-locales-ru']->data['Develop'] = 'Разработка';
+  cache::$data['data--translation-locales-ru']->data['disable'] = 'выключить';
   cache::$data['data--translation-locales-ru']->data['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data--translation-locales-ru']->data['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
   cache::$data['data--translation-locales-ru']->data['Driver is not selected!'] = 'Драйвер не выбран!';
@@ -71,6 +72,7 @@ namespace effectivecore { # cache for data--translation-locales-ru
   cache::$data['data--translation-locales-ru']->data['Elements'] = 'Элементы';
   cache::$data['data--translation-locales-ru']->data['EMail'] = 'Адрес электронной почты';
   cache::$data['data--translation-locales-ru']->data['Enable cookies before login.'] = 'Включите cookies до начала входа в систему.';
+  cache::$data['data--translation-locales-ru']->data['enable'] = 'включить';
   cache::$data['data--translation-locales-ru']->data['Entity %%_name was installed.'] = 'Сущность %%_name была установлена.';
   cache::$data['data--translation-locales-ru']->data['Entity %%_name was not installed!'] = 'Сущность %%_name не была установлена!';
   cache::$data['data--translation-locales-ru']->data['error'] = 'ошибка';
@@ -225,6 +227,7 @@ namespace effectivecore { # cache for data--translation-locales-ru
   cache::$data['data--translation-locales-ru']->data['Translate'] = 'Перевод';
   cache::$data['data--translation-locales-ru']->data['Tree'] = 'Дерево';
   cache::$data['data--translation-locales-ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
+  cache::$data['data--translation-locales-ru']->data['uninstall'] = 'удалить';
   cache::$data['data--translation-locales-ru']->data['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   cache::$data['data--translation-locales-ru']->data['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';
   cache::$data['data--translation-locales-ru']->data['User %%_nick was not deleted!'] = 'Пользователь %%_nick не был удален.';

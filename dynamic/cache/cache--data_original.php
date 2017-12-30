@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-30 15:19:01';
+  cache::$info['data_original']['build'] = '2017-12-30 15:56:35';
   cache::$data['data_original']['event']['core'] = new \stdClass();
   cache::$data['data_original']['event']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['event']['core']->on_form_init['installation']->for = 'installation';
@@ -1642,8 +1642,8 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1'] = new \effectivecore\table_body_row_cell();
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper'] = new \effectivecore\markup();
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list'] = new \effectivecore\control_actions_list();
-  cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->values['edit'] = 'edit';
-  cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->values['delete'] = 'delete';
+  cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->actions['edit'] = 'edit';
+  cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->actions['delete'] = 'delete';
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->active['edit'] = 'edit';
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->attributes['class']['demo-actions-list'] = 'demo-actions-list';
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2'] = new \effectivecore\table_body_row();
@@ -2119,6 +2119,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translation']['locales']['ru']->data['Demo'] = 'Демо';
   cache::$data['data_original']['translation']['locales']['ru']->data['Description'] = 'Описание';
   cache::$data['data_original']['translation']['locales']['ru']->data['Develop'] = 'Разработка';
+  cache::$data['data_original']['translation']['locales']['ru']->data['disable'] = 'выключить';
   cache::$data['data_original']['translation']['locales']['ru']->data['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data_original']['translation']['locales']['ru']->data['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
   cache::$data['data_original']['translation']['locales']['ru']->data['Driver is not selected!'] = 'Драйвер не выбран!';
@@ -2130,6 +2131,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translation']['locales']['ru']->data['Elements'] = 'Элементы';
   cache::$data['data_original']['translation']['locales']['ru']->data['EMail'] = 'Адрес электронной почты';
   cache::$data['data_original']['translation']['locales']['ru']->data['Enable cookies before login.'] = 'Включите cookies до начала входа в систему.';
+  cache::$data['data_original']['translation']['locales']['ru']->data['enable'] = 'включить';
   cache::$data['data_original']['translation']['locales']['ru']->data['Entity %%_name was installed.'] = 'Сущность %%_name была установлена.';
   cache::$data['data_original']['translation']['locales']['ru']->data['Entity %%_name was not installed!'] = 'Сущность %%_name не была установлена!';
   cache::$data['data_original']['translation']['locales']['ru']->data['error'] = 'ошибка';
@@ -2284,6 +2286,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translation']['locales']['ru']->data['Translate'] = 'Перевод';
   cache::$data['data_original']['translation']['locales']['ru']->data['Tree'] = 'Дерево';
   cache::$data['data_original']['translation']['locales']['ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
+  cache::$data['data_original']['translation']['locales']['ru']->data['uninstall'] = 'удалить';
   cache::$data['data_original']['translation']['locales']['ru']->data['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   cache::$data['data_original']['translation']['locales']['ru']->data['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';
   cache::$data['data_original']['translation']['locales']['ru']->data['User %%_nick was not deleted!'] = 'Пользователь %%_nick не был удален.';
