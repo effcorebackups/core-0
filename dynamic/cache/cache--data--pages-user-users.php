@@ -14,7 +14,7 @@ namespace effectivecore { # cache for data--pages-user-users
   cache::$data['data--pages-user-users']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages-user-users']->content['block_menu_main']->region = 'head_1';
   cache::$data['data--pages-user-users']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages-user-users']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data--pages-user-users']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data--pages-user-users']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages-user-users']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages-user-users']->content['block_menu_user']->type = 'code';

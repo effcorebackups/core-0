@@ -57,7 +57,7 @@ namespace effectivecore { # cache for data--frontend
   cache::$data['data--frontend']['tree']['frontend_block_tree'] = new \stdClass();
   cache::$data['data--frontend']['tree']['frontend_block_tree']->display = new \stdClass();
   cache::$data['data--frontend']['tree']['frontend_block_tree']->display->check = 'dpath';
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->match = '%^trees/.*$%';
+  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->match = '%^tree/.*$%';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->display->where = 'block';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['style_tree'] = new \stdClass();
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['style_tree']->file = 'frontend/tree.css';

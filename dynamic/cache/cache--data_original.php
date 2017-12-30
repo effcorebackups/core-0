@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-30 12:01:30';
+  cache::$info['data_original']['build'] = '2017-12-30 13:09:07';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -895,7 +895,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['core']['front']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['front']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['core']['front']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['core']['front']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['core']['front']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['core']['front']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['front']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['core']['front']->content['block_menu_user']->type = 'code';
@@ -927,7 +927,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['core']['installation']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['installation']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['core']['installation']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['core']['installation']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['core']['installation']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['core']['installation']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['installation']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['core']['installation']->content['block_menu_user']->type = 'code';
@@ -959,7 +959,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['core']['modules']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['modules']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['core']['modules']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['core']['modules']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['core']['modules']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['core']['modules']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['modules']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['core']['modules']->content['block_menu_user']->type = 'code';
@@ -991,7 +991,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['demo']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['develop']['demo']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['develop']['demo']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['develop']['demo']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['develop']['demo']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['develop']['demo']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['develop']['demo']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['develop']['demo']->content['block_menu_user']->type = 'code';
@@ -1031,7 +1031,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['page']['decoration']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['page']['decoration']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['page']['decoration']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['page']['decoration']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['page']['decoration']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['page']['decoration']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['page']['decoration']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['page']['decoration']->content['block_menu_user']->type = 'code';
@@ -1063,7 +1063,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['login']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['login']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['user']['login']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['user']['login']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['user']['login']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['user']['login']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['login']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['user']['login']->content['block_menu_user']->type = 'code';
@@ -1095,7 +1095,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['logout']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['logout']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['user']['logout']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['user']['logout']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['user']['logout']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['user']['logout']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['logout']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['user']['logout']->content['block_menu_user']->type = 'code';
@@ -1127,7 +1127,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['registration']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['registration']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['user']['registration']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['user']['registration']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['user']['registration']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['user']['registration']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['registration']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['user']['registration']->content['block_menu_user']->type = 'code';
@@ -1160,7 +1160,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['roles']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['roles']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['user']['roles']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['user']['roles']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['user']['roles']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['user']['roles']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['roles']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['user']['roles']->content['block_menu_user']->type = 'code';
@@ -1194,7 +1194,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['user']['user']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['user']['user']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['user']['user']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['user']['user']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['user']['user']->content['block_menu_user']->type = 'code';
@@ -1231,7 +1231,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_delete']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_delete']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['user']['user_delete']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['user']['user_delete']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['user']['user_delete']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['user']['user_delete']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_delete']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['user']['user_delete']->content['block_menu_user']->type = 'code';
@@ -1269,7 +1269,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_edit']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['user']['user_edit']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['user']['user_edit']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['user']['user_edit']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['user']['user_edit']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['user']['user_edit']->content['block_menu_user']->type = 'code';
@@ -1302,7 +1302,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['users']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['users']->content['block_menu_main']->region = 'head_1';
   cache::$data['data_original']['pages']['user']['users']->content['block_menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['user']['users']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['user']['users']->content['block_menu_main']->dpath = 'tree/core/main';
   cache::$data['data_original']['pages']['user']['users']->content['block_menu_user'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['users']->content['block_menu_user']->region = 'head_2';
   cache::$data['data_original']['pages']['user']['users']->content['block_menu_user']->type = 'code';
@@ -1404,6 +1404,21 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['tokens']['user']['nick_context']->match = '%%_nick_context';
   cache::$data['data_original']['tokens']['user']['nick_context']->type = 'code';
   cache::$data['data_original']['tokens']['user']['nick_context']->handler = '\\effectivecore\\modules\\user\\events_token::on_replace';
+  cache::$data['data_original']['tree']['core']['main'] = new \effectivecore\tree();
+  cache::$data['data_original']['tree']['core']['main']->id = 'main';
+  cache::$data['data_original']['tree']['core']['main']->title = 'Main menu';
+  cache::$data['data_original']['tree']['core']['main']->attributes['class']['main'] = 'main';
+  cache::$data['data_original']['tree']['core']['main']->weight = 2;
+  cache::$data['data_original']['tree']['user']['user_anonymous'] = new \effectivecore\tree();
+  cache::$data['data_original']['tree']['user']['user_anonymous']->id = 'user_anonymous';
+  cache::$data['data_original']['tree']['user']['user_anonymous']->title = 'User anonymous menu';
+  cache::$data['data_original']['tree']['user']['user_anonymous']->attributes['class']['user'] = 'user';
+  cache::$data['data_original']['tree']['user']['user_anonymous']->attributes['class']['user-anonymous'] = 'user-anonymous';
+  cache::$data['data_original']['tree']['user']['user_logged_in'] = new \effectivecore\tree();
+  cache::$data['data_original']['tree']['user']['user_logged_in']->id = 'user_logged_in';
+  cache::$data['data_original']['tree']['user']['user_logged_in']->title = 'User authenticated menu';
+  cache::$data['data_original']['tree']['user']['user_logged_in']->attributes['class']['user'] = 'user';
+  cache::$data['data_original']['tree']['user']['user_logged_in']->attributes['class']['user-logged_in'] = 'user-logged_in';
   cache::$data['data_original']['tree_items']['core']['admin'] = new \effectivecore\tree_item();
   cache::$data['data_original']['tree_items']['core']['admin']->id = 'admin';
   cache::$data['data_original']['tree_items']['core']['admin']->id_parent = 'main';
@@ -1501,21 +1516,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['tree_items']['user']['users']->attributes['class']['users'] = 'users';
   cache::$data['data_original']['tree_items']['user']['users']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['user']['users']->access->roles['admins'] = 'admins';
-  cache::$data['data_original']['trees']['core']['main'] = new \effectivecore\tree();
-  cache::$data['data_original']['trees']['core']['main']->id = 'main';
-  cache::$data['data_original']['trees']['core']['main']->title = 'Main menu';
-  cache::$data['data_original']['trees']['core']['main']->attributes['class']['main'] = 'main';
-  cache::$data['data_original']['trees']['core']['main']->weight = 2;
-  cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effectivecore\tree();
-  cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
-  cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
-  cache::$data['data_original']['trees']['user']['user_anonymous']->attributes['class']['user'] = 'user';
-  cache::$data['data_original']['trees']['user']['user_anonymous']->attributes['class']['user-anonymous'] = 'user-anonymous';
-  cache::$data['data_original']['trees']['user']['user_logged_in'] = new \effectivecore\tree();
-  cache::$data['data_original']['trees']['user']['user_logged_in']->id = 'user_logged_in';
-  cache::$data['data_original']['trees']['user']['user_logged_in']->title = 'User authenticated menu';
-  cache::$data['data_original']['trees']['user']['user_logged_in']->attributes['class']['user'] = 'user';
-  cache::$data['data_original']['trees']['user']['user_logged_in']->attributes['class']['user-logged_in'] = 'user-logged_in';
   cache::$data['data_original']['module']['core'] = new \effectivecore\module();
   cache::$data['data_original']['module']['core']->id = 'core';
   cache::$data['data_original']['module']['core']->title = 'Core';
@@ -2463,7 +2463,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree'] = new \stdClass();
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display = new \stdClass();
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->check = 'dpath';
-  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->match = '%^trees/.*$%';
+  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->match = '%^tree/.*$%';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->where = 'block';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree'] = new \stdClass();
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree']->file = 'frontend/tree.css';
