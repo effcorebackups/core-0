@@ -9,6 +9,13 @@ namespace effectivecore { # cache for data--module
   cache::$data['data--module']['core']->version = 1;
   cache::$data['data--module']['core']->state = 'always_on';
   cache::$data['data--module']['core']->path = 'modules/core/';
+  cache::$data['data--module']['demo_sub_module'] = new \stdClass();
+  cache::$data['data--module']['demo_sub_module']->id = 'demo_sub_module';
+  cache::$data['data--module']['demo_sub_module']->title = 'Demo sub module title';
+  cache::$data['data--module']['demo_sub_module']->description = 'Demo sub module description.';
+  cache::$data['data--module']['demo_sub_module']->version = 1;
+  cache::$data['data--module']['demo_sub_module']->state = 'off';
+  cache::$data['data--module']['demo_sub_module']->path = 'modules/develop/demo_sub_module/';
   cache::$data['data--module']['develop'] = new \effectivecore\module();
   cache::$data['data--module']['develop']->id = 'develop';
   cache::$data['data--module']['develop']->title = 'Develop';
