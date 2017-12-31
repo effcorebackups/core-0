@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-30 19:47:26';
+  cache::$info['data_original']['build'] = '2017-12-31 16:30:58';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -156,20 +156,20 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['is_mysql']->attributes['class']['radioboxes'] = 'radioboxes';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql'] = new \effectivecore\form_container();
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->tag_name = 'fieldset';
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name'] = new \effectivecore\form_field();
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->title = 'Storage name';
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->description = new \effectivecore\text();
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->description->text = 'Allowable characters: %%_chars.';
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->children['element'] = new \effectivecore\markup_simple();
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->children['element']->tag_name = 'input';
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->children['element']->attributes['type'] = 'text';
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->children['element']->attributes['name'] = 'storage_name';
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->children['element']->attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->children['element']->attributes['value'] = 'main';
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->children['element']->attributes['minlength'] = 1;
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->children['element']->attributes['maxlength'] = 128;
-  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_name']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id'] = new \effectivecore\form_field();
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->title = 'Storage ID';
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->description = new \effectivecore\text();
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->description->text = 'Allowable characters: %%_chars.';
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->children['element'] = new \effectivecore\markup_simple();
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->children['element']->tag_name = 'input';
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['type'] = 'text';
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['name'] = 'storage_id';
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['required'] = 'required';
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['value'] = 'main';
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['minlength'] = 1;
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['maxlength'] = 128;
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['host_name'] = new \effectivecore\form_field();
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['host_name']->title = 'Host name';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['host_name']->description = new \effectivecore\text();
@@ -2265,6 +2265,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
   cache::$data['data_original']['translations']['locales']['ru']->data['storage %%_id will be initialized'] = 'хранилище %%_id будет инициализировано';
   cache::$data['data_original']['translations']['locales']['ru']->data['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Storage ID'] = 'ID хранилища';
   cache::$data['data_original']['translations']['locales']['ru']->data['Storage name'] = 'Имя хранилища';
   cache::$data['data_original']['translations']['locales']['ru']->data['Storage params'] = 'Параметры хранилища';
   cache::$data['data_original']['translations']['locales']['ru']->data['storage'] = 'хранилище';
