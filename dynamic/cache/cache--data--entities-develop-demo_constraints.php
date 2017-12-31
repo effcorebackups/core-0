@@ -5,6 +5,7 @@ namespace effectivecore { # cache for data--entities-develop-demo_constraints
   cache::$data['data--entities-develop-demo_constraints'] = new \effectivecore\entity();
   cache::$data['data--entities-develop-demo_constraints']->name = 'demo_constraints';
   cache::$data['data--entities-develop-demo_constraints']->storage_id = 'main';
+  cache::$data['data--entities-develop-demo_constraints']->catalog_id = 'demo_constraints';
   cache::$data['data--entities-develop-demo_constraints']->fields = new \stdClass();
   cache::$data['data--entities-develop-demo_constraints']->fields->f_integer_1 = new \stdClass();
   cache::$data['data--entities-develop-demo_constraints']->fields->f_integer_1->type = 'integer';

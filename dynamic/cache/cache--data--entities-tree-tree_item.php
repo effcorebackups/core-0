@@ -5,6 +5,7 @@ namespace effectivecore { # cache for data--entities-tree-tree_item
   cache::$data['data--entities-tree-tree_item'] = new \effectivecore\entity();
   cache::$data['data--entities-tree-tree_item']->name = 'tree_item';
   cache::$data['data--entities-tree-tree_item']->storage_id = 'main';
+  cache::$data['data--entities-tree-tree_item']->catalog_id = 'tree_items';
   cache::$data['data--entities-tree-tree_item']->fields = new \stdClass();
   cache::$data['data--entities-tree-tree_item']->fields->id = new \stdClass();
   cache::$data['data--entities-tree-tree_item']->fields->id->type = 'autoincrement';

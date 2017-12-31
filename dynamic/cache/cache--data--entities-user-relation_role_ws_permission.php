@@ -5,6 +5,7 @@ namespace effectivecore { # cache for data--entities-user-relation_role_ws_permi
   cache::$data['data--entities-user-relation_role_ws_permission'] = new \effectivecore\entity();
   cache::$data['data--entities-user-relation_role_ws_permission']->name = 'relation_role_ws_permission';
   cache::$data['data--entities-user-relation_role_ws_permission']->storage_id = 'main';
+  cache::$data['data--entities-user-relation_role_ws_permission']->catalog_id = 'relations_role_ws_permission';
   cache::$data['data--entities-user-relation_role_ws_permission']->fields = new \stdClass();
   cache::$data['data--entities-user-relation_role_ws_permission']->fields->id_role = new \stdClass();
   cache::$data['data--entities-user-relation_role_ws_permission']->fields->id_role->type = 'varchar';

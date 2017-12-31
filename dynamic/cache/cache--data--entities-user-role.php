@@ -5,6 +5,7 @@ namespace effectivecore { # cache for data--entities-user-role
   cache::$data['data--entities-user-role'] = new \effectivecore\entity();
   cache::$data['data--entities-user-role']->name = 'role';
   cache::$data['data--entities-user-role']->storage_id = 'main';
+  cache::$data['data--entities-user-role']->catalog_id = 'roles';
   cache::$data['data--entities-user-role']->fields = new \stdClass();
   cache::$data['data--entities-user-role']->fields->id = new \stdClass();
   cache::$data['data--entities-user-role']->fields->id->type = 'varchar';

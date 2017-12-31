@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-31 16:30:58';
+  cache::$info['data_original']['build'] = '2017-12-31 16:52:24';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -1687,6 +1687,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['develop']['demo_types'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['develop']['demo_types']->name = 'demo_types';
   cache::$data['data_original']['entities']['develop']['demo_types']->storage_id = 'main';
+  cache::$data['data_original']['entities']['develop']['demo_types']->catalog_id = 'demo_types';
   cache::$data['data_original']['entities']['develop']['demo_types']->fields = new \stdClass();
   cache::$data['data_original']['entities']['develop']['demo_types']->fields->id = new \stdClass();
   cache::$data['data_original']['entities']['develop']['demo_types']->fields->id->type = 'autoincrement';
@@ -1722,6 +1723,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['develop']['demo_autoincrement'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['develop']['demo_autoincrement']->name = 'demo_autoincrement';
   cache::$data['data_original']['entities']['develop']['demo_autoincrement']->storage_id = 'main';
+  cache::$data['data_original']['entities']['develop']['demo_autoincrement']->catalog_id = 'demo_autoincrement';
   cache::$data['data_original']['entities']['develop']['demo_autoincrement']->fields = new \stdClass();
   cache::$data['data_original']['entities']['develop']['demo_autoincrement']->fields->f_integer_1 = new \stdClass();
   cache::$data['data_original']['entities']['develop']['demo_autoincrement']->fields->f_integer_1->type = 'autoincrement';
@@ -1732,6 +1734,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['develop']['demo_constraints'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['develop']['demo_constraints']->name = 'demo_constraints';
   cache::$data['data_original']['entities']['develop']['demo_constraints']->storage_id = 'main';
+  cache::$data['data_original']['entities']['develop']['demo_constraints']->catalog_id = 'demo_constraints';
   cache::$data['data_original']['entities']['develop']['demo_constraints']->fields = new \stdClass();
   cache::$data['data_original']['entities']['develop']['demo_constraints']->fields->f_integer_1 = new \stdClass();
   cache::$data['data_original']['entities']['develop']['demo_constraints']->fields->f_integer_1->type = 'integer';
@@ -1750,6 +1753,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['develop']['demo_indexes'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['develop']['demo_indexes']->name = 'demo_indexes';
   cache::$data['data_original']['entities']['develop']['demo_indexes']->storage_id = 'main';
+  cache::$data['data_original']['entities']['develop']['demo_indexes']->catalog_id = 'demo_indexes';
   cache::$data['data_original']['entities']['develop']['demo_indexes']->fields = new \stdClass();
   cache::$data['data_original']['entities']['develop']['demo_indexes']->fields->f_integer_1 = new \stdClass();
   cache::$data['data_original']['entities']['develop']['demo_indexes']->fields->f_integer_1->type = 'integer';
@@ -1768,6 +1772,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['page']['captcha'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['page']['captcha']->name = 'captcha';
   cache::$data['data_original']['entities']['page']['captcha']->storage_id = 'main';
+  cache::$data['data_original']['entities']['page']['captcha']->catalog_id = 'captcha';
   cache::$data['data_original']['entities']['page']['captcha']->fields = new \stdClass();
   cache::$data['data_original']['entities']['page']['captcha']->fields->ip_address = new \stdClass();
   cache::$data['data_original']['entities']['page']['captcha']->fields->ip_address->type = 'varchar';
@@ -1795,6 +1800,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['tree']['tree'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['tree']['tree']->name = 'tree';
   cache::$data['data_original']['entities']['tree']['tree']->storage_id = 'main';
+  cache::$data['data_original']['entities']['tree']['tree']->catalog_id = 'trees';
   cache::$data['data_original']['entities']['tree']['tree']->fields = new \stdClass();
   cache::$data['data_original']['entities']['tree']['tree']->fields->id = new \stdClass();
   cache::$data['data_original']['entities']['tree']['tree']->fields->id->type = 'autoincrement';
@@ -1809,6 +1815,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['tree']['tree_item'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['tree']['tree_item']->name = 'tree_item';
   cache::$data['data_original']['entities']['tree']['tree_item']->storage_id = 'main';
+  cache::$data['data_original']['entities']['tree']['tree_item']->catalog_id = 'tree_items';
   cache::$data['data_original']['entities']['tree']['tree_item']->fields = new \stdClass();
   cache::$data['data_original']['entities']['tree']['tree_item']->fields->id = new \stdClass();
   cache::$data['data_original']['entities']['tree']['tree_item']->fields->id->type = 'autoincrement';
@@ -1830,6 +1837,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['user']['user'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['user']['user']->name = 'user';
   cache::$data['data_original']['entities']['user']['user']->storage_id = 'main';
+  cache::$data['data_original']['entities']['user']['user']->catalog_id = 'users';
   cache::$data['data_original']['entities']['user']['user']->fields = new \stdClass();
   cache::$data['data_original']['entities']['user']['user']->fields->id = new \stdClass();
   cache::$data['data_original']['entities']['user']['user']->fields->id->type = 'autoincrement';
@@ -1867,6 +1875,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['user']['session'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['user']['session']->name = 'session';
   cache::$data['data_original']['entities']['user']['session']->storage_id = 'main';
+  cache::$data['data_original']['entities']['user']['session']->catalog_id = 'sessions';
   cache::$data['data_original']['entities']['user']['session']->fields = new \stdClass();
   cache::$data['data_original']['entities']['user']['session']->fields->id = new \stdClass();
   cache::$data['data_original']['entities']['user']['session']->fields->id->type = 'varchar';
@@ -1894,6 +1903,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['user']['role'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['user']['role']->name = 'role';
   cache::$data['data_original']['entities']['user']['role']->storage_id = 'main';
+  cache::$data['data_original']['entities']['user']['role']->catalog_id = 'roles';
   cache::$data['data_original']['entities']['user']['role']->fields = new \stdClass();
   cache::$data['data_original']['entities']['user']['role']->fields->id = new \stdClass();
   cache::$data['data_original']['entities']['user']['role']->fields->id->type = 'varchar';
@@ -1913,6 +1923,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['user']['permission'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['user']['permission']->name = 'permission';
   cache::$data['data_original']['entities']['user']['permission']->storage_id = 'main';
+  cache::$data['data_original']['entities']['user']['permission']->catalog_id = 'permissions';
   cache::$data['data_original']['entities']['user']['permission']->fields = new \stdClass();
   cache::$data['data_original']['entities']['user']['permission']->fields->id = new \stdClass();
   cache::$data['data_original']['entities']['user']['permission']->fields->id->type = 'varchar';
@@ -1928,6 +1939,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['user']['relation_role_ws_user'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->name = 'relation_role_ws_user';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->storage_id = 'main';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->catalog_id = 'relations_role_ws_user';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->fields = new \stdClass();
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->fields->id_role = new \stdClass();
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->fields->id_role->type = 'varchar';
@@ -1943,6 +1955,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission'] = new \effectivecore\entity();
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->name = 'relation_role_ws_permission';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->storage_id = 'main';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->catalog_id = 'relations_role_ws_permission';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->fields = new \stdClass();
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->fields->id_role = new \stdClass();
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->fields->id_role->type = 'varchar';
