@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2017-12-31 17:17:10';
+  cache::$info['data_original']['build'] = '2017-12-31 18:10:51';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -1647,12 +1647,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->actions['delete'] = 'delete';
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->active['edit'] = 'edit';
   cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->attributes['class']['demo-actions-list'] = 'demo-actions-list';
-  cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2'] = new \effectivecore\table_body_row();
-  cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1'] = new \effectivecore\table_body_row_cell();
-  cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['demo_switcher_wrapper'] = new \effectivecore\markup();
-  cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['demo_switcher_wrapper']->children['demo_switcher'] = new \effectivecore\control_switcher();
-  cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['demo_switcher_wrapper']->children['demo_switcher']->state = 'on';
-  cache::$data['data_original']['blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['demo_switcher_wrapper']->children['demo_switcher']->attributes['class']['demo-switcher'] = 'demo-switcher';
   cache::$data['data_original']['blocks']['develop']['demo']->attributes['id'] = 'demo';
   cache::$data['data_original']['changes']['develop'] = new \stdClass();
   cache::$data['data_original']['changes']['develop']->insert['demo_data/develop/demo_object'] = new \stdClass();

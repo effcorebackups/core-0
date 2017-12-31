@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2017-12-31 17:17:09';
+  cache::$info['classes_map']['build'] = '2017-12-31 18:10:51';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -192,12 +192,6 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\control_actions_list']->name = 'control_actions_list';
   cache::$data['classes_map']['effectivecore\control_actions_list']->extends = '\\effectivecore\\markup';
   cache::$data['classes_map']['effectivecore\control_actions_list']->file = 'modules/page/backend/pattern--controll_actions_list.php';
-  cache::$data['classes_map']['effectivecore\control_switcher'] = new \stdClass();
-  cache::$data['classes_map']['effectivecore\control_switcher']->type = 'class';
-  cache::$data['classes_map']['effectivecore\control_switcher']->namespace = 'effectivecore';
-  cache::$data['classes_map']['effectivecore\control_switcher']->name = 'control_switcher';
-  cache::$data['classes_map']['effectivecore\control_switcher']->extends = '\\effectivecore\\markup';
-  cache::$data['classes_map']['effectivecore\control_switcher']->file = 'modules/page/backend/pattern--controll_switcher.php';
   cache::$data['classes_map']['effectivecore\form'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\form']->type = 'class';
   cache::$data['classes_map']['effectivecore\form']->namespace = 'effectivecore';

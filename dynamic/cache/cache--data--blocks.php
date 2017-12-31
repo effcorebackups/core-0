@@ -77,12 +77,6 @@ namespace effectivecore { # cache for data--blocks
   cache::$data['data--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->actions['delete'] = 'delete';
   cache::$data['data--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->active['edit'] = 'edit';
   cache::$data['data--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->attributes['class']['demo-actions-list'] = 'demo-actions-list';
-  cache::$data['data--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2'] = new \effectivecore\table_body_row();
-  cache::$data['data--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1'] = new \effectivecore\table_body_row_cell();
-  cache::$data['data--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['demo_switcher_wrapper'] = new \effectivecore\markup();
-  cache::$data['data--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['demo_switcher_wrapper']->children['demo_switcher'] = new \effectivecore\control_switcher();
-  cache::$data['data--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['demo_switcher_wrapper']->children['demo_switcher']->state = 'on';
-  cache::$data['data--blocks']['develop']['demo']->children['table_for_controls']->children['body']->children['tr_2']->children['td_1']->children['demo_switcher_wrapper']->children['demo_switcher']->attributes['class']['demo-switcher'] = 'demo-switcher';
   cache::$data['data--blocks']['develop']['demo']->attributes['id'] = 'demo';
 
 }
