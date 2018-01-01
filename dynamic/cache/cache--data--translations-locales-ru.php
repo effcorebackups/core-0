@@ -102,6 +102,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Field value is not in valid range.'] = 'Значение поля не соответствует допустимому диапазону.';
   cache::$data['data--translations-locales-ru']->data['File %%_name was uploaded.'] = 'Файл %%_name был загружен.';
   cache::$data['data--translations-locales-ru']->data['file is empty'] = 'файл пуст';
+  cache::$data['data--translations-locales-ru']->data['file of this type is protected by: %%_name'] = 'файл этого типа защищен с помощью: %%_name';
   cache::$data['data--translations-locales-ru']->data['File'] = 'Файл';
   cache::$data['data--translations-locales-ru']->data['file'] = 'файл';
   cache::$data['data--translations-locales-ru']->data['Form elements'] = 'Элементы формы';
@@ -204,8 +205,8 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
   cache::$data['data--translations-locales-ru']->data['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
   cache::$data['data--translations-locales-ru']->data['storage %%_id will be initialized'] = 'хранилище %%_id будет инициализировано';
-  cache::$data['data--translations-locales-ru']->data['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
   cache::$data['data--translations-locales-ru']->data['Storage ID'] = 'ID хранилища';
+  cache::$data['data--translations-locales-ru']->data['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
   cache::$data['data--translations-locales-ru']->data['Storage name'] = 'Имя хранилища';
   cache::$data['data--translations-locales-ru']->data['Storage params'] = 'Параметры хранилища';
   cache::$data['data--translations-locales-ru']->data['storage'] = 'хранилище';
