@@ -13,7 +13,7 @@ namespace effectivecore { # cache for data--settings
   cache::$data['data--settings']['locales']->format_datetime = 'd.m.Y H:i:s';
   cache::$data['data--settings']['locales']->timezone = 'Europe/Minsk';
   cache::$data['data--settings']['page'] = new \stdClass();
-  cache::$data['data--settings']['page']->color_id = 'color_black';
-  cache::$data['data--settings']['page']->color_bg_id = 'color_original_blue';
+  cache::$data['data--settings']['page']->color_id = 'black';
+  cache::$data['data--settings']['page']->color_bg_id = 'modernblue';
 
 }
