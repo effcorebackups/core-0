@@ -1,23 +1,27 @@
 
 
 SOFTWARE LICENSE AGREEMENT
+==========================
 
 
 AUTHOR / RIGHTHOLDER
-─────────────────────────────────────────────────────────────────────
+---------------------------------------------------------------------
+
 The author and rightholder (hereinafter referred to as the "Rightholder")
 for this software (hereinafter referred to as the "Software")
 is Maxim Vladimirovich Rysevets.
 
 
 USAGE
-─────────────────────────────────────────────────────────────────────
+---------------------------------------------------------------------
+
 This Software shall be used to create websites,
 web portals and other information systems.
 
 
 MODIFICATION
-─────────────────────────────────────────────────────────────────────
+---------------------------------------------------------------------
+
 Allowed the modification of Software (without distribution
 and publish changes) and its usеd as set forth in "USAGE".
 Any breach of the Software protection shall
@@ -25,18 +29,21 @@ constitute a violation hereof.
 
 
 BORROWING
-─────────────────────────────────────────────────────────────────────
+---------------------------------------------------------------------
+
 Disallowed any borrowings from this Software except the next cases:
+
 - allowed to use parts of this Software to create
   individual modules designed to work with Software.
 
 
 DISTRIBUTION
-─────────────────────────────────────────────────────────────────────
+---------------------------------------------------------------------
+
 Disallowed any distribution of Software or any part thereof,
-either modified or non-modified,
-for money or free of charge,
+either modified or non-modified, for money or free of charge,
 except the next cases:
+
 - allowed to use examples of Software source code
   in technical documentation for this Software (i.e. citation);
 - allowed to use examples of Software source code
@@ -44,7 +51,8 @@ except the next cases:
 
 
 WARRANTY AND RESPONSIBILITIES OF THE PARTIES
-─────────────────────────────────────────────────────────────────────
+---------------------------------------------------------------------
+
 The author and/or Rightholder does not provide any warranty and does not assume
 any responsibility or liability for the use of this Software.
 This license agreement shall form an integral part of this Software.
@@ -53,7 +61,8 @@ Any violation thereof will result in a civil, administrative and criminal prosec
 
 
 OTHER TRADEMARKS
-─────────────────────────────────────────────────────────────────────
+---------------------------------------------------------------------
+
 - Apple®, iPad®, iPad Air®, iPad mini™, iPad Pro®, iPhone®, macOS®, OS X®, Retina®,
   Retina HD®, Safari® are trademarks of Apple Inc., registered in the U.S. and other countries.
 - iOS is a trademark or registered trademark of Cisco in the U.S. and other countries
