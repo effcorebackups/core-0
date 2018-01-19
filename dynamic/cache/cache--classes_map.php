@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-01-08 16:19:07';
+  cache::$info['classes_map']['build'] = '2018-01-19 14:19:21';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -216,6 +216,12 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\form_container_checkboxes']->name = 'form_container_checkboxes';
   cache::$data['classes_map']['effectivecore\form_container_checkboxes']->extends = '\\effectivecore\\form_container';
   cache::$data['classes_map']['effectivecore\form_container_checkboxes']->file = 'modules/page/backend/pattern--form_container_checkboxes.php';
+  cache::$data['classes_map']['effectivecore\form_container_license_agreement'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\form_container_license_agreement']->type = 'class';
+  cache::$data['classes_map']['effectivecore\form_container_license_agreement']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\form_container_license_agreement']->name = 'form_container_license_agreement';
+  cache::$data['classes_map']['effectivecore\form_container_license_agreement']->extends = '\\effectivecore\\form_container';
+  cache::$data['classes_map']['effectivecore\form_container_license_agreement']->file = 'modules/page/backend/pattern--form_container_license_agreement.php';
   cache::$data['classes_map']['effectivecore\form_container_palette'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\form_container_palette']->type = 'class';
   cache::$data['classes_map']['effectivecore\form_container_palette']->namespace = 'effectivecore';

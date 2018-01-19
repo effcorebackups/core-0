@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-01-08 16:19:07';
+  cache::$info['data_original']['build'] = '2018-01-19 14:19:21';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -168,6 +168,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['is_mysql']->children['element']->attributes['value'] = 'mysql';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['is_mysql']->attributes['class']['boxes'] = 'boxes';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['is_mysql']->attributes['class']['radioboxes'] = 'radioboxes';
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['is_mysql']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql'] = new \effectivecore\form_container();
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->tag_name = 'fieldset';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['mysql']->children['storage_id'] = new \effectivecore\form_field();
@@ -241,6 +242,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['is_sqlite']->children['element']->attributes['value'] = 'sqlite';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['is_sqlite']->attributes['class']['boxes'] = 'boxes';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['is_sqlite']->attributes['class']['radioboxes'] = 'radioboxes';
+  cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['is_sqlite']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['sqlite'] = new \effectivecore\form_container();
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['sqlite']->tag_name = 'fieldset';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['sqlite']->children['file_name'] = new \effectivecore\form_field();
@@ -270,6 +272,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['name'] = 'table_prefix';
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['maxlength'] = 10;
   cache::$data['data_original']['forms']['core']['installation']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
+  cache::$data['data_original']['forms']['core']['installation']->children['license_agreement'] = new \effectivecore\form_container_license_agreement();
   cache::$data['data_original']['forms']['core']['installation']->children['button_install'] = new \effectivecore\markup();
   cache::$data['data_original']['forms']['core']['installation']->children['button_install']->tag_name = 'button';
   cache::$data['data_original']['forms']['core']['installation']->children['button_install']->children['label'] = new \effectivecore\text();
@@ -587,6 +590,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['forms']['develop']['demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_2'] = 'Checkbox 2.2 (checked)';
   cache::$data['data_original']['forms']['develop']['demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_3'] = 'Checkbox 2.3 (disabled)';
   cache::$data['data_original']['forms']['develop']['demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_4'] = 'Checkbox 2.4 (disabled + checked)';
+  cache::$data['data_original']['forms']['develop']['demo']->children['form_elements']->children['checkboxes_macro']->required['checkbox_2_1'] = 'checkbox_2_1';
   cache::$data['data_original']['forms']['develop']['demo']->children['form_elements']->children['checkboxes_macro']->disabled['checkbox_2_3'] = 'checkbox_2_3';
   cache::$data['data_original']['forms']['develop']['demo']->children['form_elements']->children['checkboxes_macro']->disabled['checkbox_2_4'] = 'checkbox_2_4';
   cache::$data['data_original']['forms']['develop']['demo']->children['form_elements']->children['checkboxes_macro']->checked['checkbox_2_2'] = 'checkbox_2_2';
@@ -2094,6 +2098,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Actions'] = 'Действия';
   cache::$data['data_original']['translations']['locales']['ru']->data['Administer'] = 'Администрирование';
   cache::$data['data_original']['translations']['locales']['ru']->data['Administrators'] = 'Администраторы';
+  cache::$data['data_original']['translations']['locales']['ru']->data['agree'] = 'согласен(а)';
   cache::$data['data_original']['translations']['locales']['ru']->data['All rights reserved.'] = 'Все права защищены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Allowable characters: %%_chars. Examples: %%_examples.'] = 'Допустимые символы: %%_chars. Примеры: %%_examples.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Allowable characters: %%_chars.'] = 'Допустимые символы: %%_chars.';
@@ -2207,6 +2212,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Is always on'] = 'Всегда включен';
   cache::$data['data_original']['translations']['locales']['ru']->data['Is embed'] = 'Встроенный';
   cache::$data['data_original']['translations']['locales']['ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['License agreement'] = 'Лицензионное соглашение';
   cache::$data['data_original']['translations']['locales']['ru']->data['load'] = 'загрузка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Locales'] = 'Локализации';
   cache::$data['data_original']['translations']['locales']['ru']->data['login'] = 'вход';

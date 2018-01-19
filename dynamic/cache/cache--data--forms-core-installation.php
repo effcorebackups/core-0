@@ -17,6 +17,7 @@ namespace effectivecore { # cache for data--forms-core-installation
   cache::$data['data--forms-core-installation']->children['storage']->children['is_mysql']->children['element']->attributes['value'] = 'mysql';
   cache::$data['data--forms-core-installation']->children['storage']->children['is_mysql']->attributes['class']['boxes'] = 'boxes';
   cache::$data['data--forms-core-installation']->children['storage']->children['is_mysql']->attributes['class']['radioboxes'] = 'radioboxes';
+  cache::$data['data--forms-core-installation']->children['storage']->children['is_mysql']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data--forms-core-installation']->children['storage']->children['mysql'] = new \effectivecore\form_container();
   cache::$data['data--forms-core-installation']->children['storage']->children['mysql']->tag_name = 'fieldset';
   cache::$data['data--forms-core-installation']->children['storage']->children['mysql']->children['storage_id'] = new \effectivecore\form_field();
@@ -90,6 +91,7 @@ namespace effectivecore { # cache for data--forms-core-installation
   cache::$data['data--forms-core-installation']->children['storage']->children['is_sqlite']->children['element']->attributes['value'] = 'sqlite';
   cache::$data['data--forms-core-installation']->children['storage']->children['is_sqlite']->attributes['class']['boxes'] = 'boxes';
   cache::$data['data--forms-core-installation']->children['storage']->children['is_sqlite']->attributes['class']['radioboxes'] = 'radioboxes';
+  cache::$data['data--forms-core-installation']->children['storage']->children['is_sqlite']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data--forms-core-installation']->children['storage']->children['sqlite'] = new \effectivecore\form_container();
   cache::$data['data--forms-core-installation']->children['storage']->children['sqlite']->tag_name = 'fieldset';
   cache::$data['data--forms-core-installation']->children['storage']->children['sqlite']->children['file_name'] = new \effectivecore\form_field();
@@ -119,6 +121,7 @@ namespace effectivecore { # cache for data--forms-core-installation
   cache::$data['data--forms-core-installation']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['name'] = 'table_prefix';
   cache::$data['data--forms-core-installation']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['maxlength'] = 10;
   cache::$data['data--forms-core-installation']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
+  cache::$data['data--forms-core-installation']->children['license_agreement'] = new \effectivecore\form_container_license_agreement();
   cache::$data['data--forms-core-installation']->children['button_install'] = new \effectivecore\markup();
   cache::$data['data--forms-core-installation']->children['button_install']->tag_name = 'button';
   cache::$data['data--forms-core-installation']->children['button_install']->children['label'] = new \effectivecore\text();

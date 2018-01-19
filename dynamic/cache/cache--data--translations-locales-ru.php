@@ -13,6 +13,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Actions'] = 'Действия';
   cache::$data['data--translations-locales-ru']->data['Administer'] = 'Администрирование';
   cache::$data['data--translations-locales-ru']->data['Administrators'] = 'Администраторы';
+  cache::$data['data--translations-locales-ru']->data['agree'] = 'согласен(а)';
   cache::$data['data--translations-locales-ru']->data['All rights reserved.'] = 'Все права защищены.';
   cache::$data['data--translations-locales-ru']->data['Allowable characters: %%_chars. Examples: %%_examples.'] = 'Допустимые символы: %%_chars. Примеры: %%_examples.';
   cache::$data['data--translations-locales-ru']->data['Allowable characters: %%_chars.'] = 'Допустимые символы: %%_chars.';
@@ -126,6 +127,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Is always on'] = 'Всегда включен';
   cache::$data['data--translations-locales-ru']->data['Is embed'] = 'Встроенный';
   cache::$data['data--translations-locales-ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
+  cache::$data['data--translations-locales-ru']->data['License agreement'] = 'Лицензионное соглашение';
   cache::$data['data--translations-locales-ru']->data['load'] = 'загрузка';
   cache::$data['data--translations-locales-ru']->data['Locales'] = 'Локализации';
   cache::$data['data--translations-locales-ru']->data['login'] = 'вход';
