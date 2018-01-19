@@ -292,7 +292,6 @@ namespace effectivecore { # cache for data--forms-develop-demo
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->children['element']->attributes['value'] = 'checkbox_1_4';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->children['element']->attributes['disabled'] = 'disabled';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->children['element']->attributes['checked'] = 'checked';
-  cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes']->attributes['required'] = 'required';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes']->attributes['class']['boxes'] = 'boxes';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes']->attributes['class']['checkboxes'] = 'checkboxes';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes_macro'] = new \effectivecore\form_container_checkboxes();
@@ -301,7 +300,6 @@ namespace effectivecore { # cache for data--forms-develop-demo
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_2'] = 'Checkbox 2.2 (checked)';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_3'] = 'Checkbox 2.3 (disabled)';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_4'] = 'Checkbox 2.4 (disabled + checked)';
-  cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes_macro']->required['checkbox_2_1'] = 'checkbox_2_1';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes_macro']->disabled['checkbox_2_3'] = 'checkbox_2_3';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes_macro']->disabled['checkbox_2_4'] = 'checkbox_2_4';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['checkboxes_macro']->checked['checkbox_2_2'] = 'checkbox_2_2';
@@ -341,7 +339,6 @@ namespace effectivecore { # cache for data--forms-develop-demo
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['radios']->children['radio_1_3']->children['element']->attributes['name'] = 'radio';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['radios']->children['radio_1_3']->children['element']->attributes['value'] = 'radio_1_3';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['radios']->children['radio_1_3']->children['element']->attributes['disabled'] = 'disabled';
-  cache::$data['data--forms-develop-demo']->children['form_elements']->children['radios']->attributes['required'] = 'required';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['radios']->attributes['class']['boxes'] = 'boxes';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['radios']->attributes['class']['radioboxes'] = 'radioboxes';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['radios_macro'] = new \effectivecore\form_container_radios();
