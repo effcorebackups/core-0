@@ -2,7 +2,7 @@
 
 namespace effectivecore { # data for changes
 
-  dynamic::$info['changes']['build'] = '2018-01-19 14:19:48';
+  dynamic::$info['changes']['build'] = '2018-01-21 17:04:31';
   dynamic::$data['changes']['core'] = new \stdClass();
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql'] = new \stdClass();
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->driver = 'mysql';
@@ -13,6 +13,6 @@ namespace effectivecore { # data for changes
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->credentials->user_name = 'root';
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->credentials->password = '123';
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->table_prefix = '';
-  dynamic::$data['changes']['core']->update['settings/core/key'] = '1221d1738b6c3bf4fbd9c5bc76b8e20c573342c2';
+  dynamic::$data['changes']['core']->update['settings/core/key'] = '60898dd881bffea341113eb03d752a28105ab368';
 
 }

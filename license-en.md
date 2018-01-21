@@ -1,10 +1,10 @@
 
 
-SOFTWARE LICENSE AGREEMENT
+Software license agreement
 ==========================
 
 
-AUTHOR / RIGHTHOLDER
+Author / Rightholder
 ---------------------------------------------------------------------
 
 The author and rightholder (hereinafter referred to as the "Rightholder")
@@ -12,14 +12,14 @@ for this software (hereinafter referred to as the "Software")
 is Maxim Vladimirovich Rysevets.
 
 
-USAGE
+Usage
 ---------------------------------------------------------------------
 
 This Software shall be used to create websites,
 web portals and other information systems.
 
 
-MODIFICATION
+Modification
 ---------------------------------------------------------------------
 
 Allowed the modification of Software (without distribution
@@ -28,7 +28,7 @@ Any breach of the Software protection shall
 constitute a violation hereof.
 
 
-BORROWING
+Borrowing
 ---------------------------------------------------------------------
 
 Disallowed any borrowings from this Software except the next cases:
@@ -37,7 +37,7 @@ Disallowed any borrowings from this Software except the next cases:
   individual modules designed to work with Software.
 
 
-DISTRIBUTION
+Distribution
 ---------------------------------------------------------------------
 
 Disallowed any distribution of Software or any part thereof,
@@ -50,7 +50,7 @@ except the next cases:
   on technical forums for web developers (i.e. citation).
 
 
-WARRANTY AND RESPONSIBILITIES OF THE PARTIES
+Warranty and responsibilities of the parties
 ---------------------------------------------------------------------
 
 The author and/or Rightholder does not provide any warranty and does not assume
@@ -60,7 +60,7 @@ This Software can be used only under the terms and conditions hereof.
 Any violation thereof will result in a civil, administrative and criminal prosecution.
 
 
-OTHER TRADEMARKS
+Other trademarks
 ---------------------------------------------------------------------
 
 - Apple®, iPad®, iPad Air®, iPad mini™, iPad Pro®, iPhone®, macOS®, OS X®, Retina®,

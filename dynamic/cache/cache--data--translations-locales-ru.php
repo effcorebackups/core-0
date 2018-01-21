@@ -92,6 +92,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains an incorrect time!'] = 'Поле "%%_title" содержит неверное время!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" is not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
+  cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть отмечено!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a minimum of %%_num characters!'] = 'Поле "%%_title" должно содержать минимум %%_num символов!';
@@ -111,6 +112,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
   cache::$data['data--translations-locales-ru']->data['Home'] = 'Дом';
   cache::$data['data--translations-locales-ru']->data['Host name'] = 'Имя хоста';
+  cache::$data['data--translations-locales-ru']->data['I accept the terms of the license agreement'] = 'Я принимаю условия лицензионного соглашения';
   cache::$data['data--translations-locales-ru']->data['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
   cache::$data['data--translations-locales-ru']->data['Information'] = 'Информация';
   cache::$data['data--translations-locales-ru']->data['init.'] = 'инициал.';
