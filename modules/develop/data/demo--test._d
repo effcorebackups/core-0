@@ -1,0 +1,35 @@
+tests
+- register_user|test
+    id: register_user
+    https: true
+    url: user/registration
+    id_user: 0
+    scenario
+    - fill_email
+        action_type: fill
+        field: email
+        value: test@example.com
+    - fill_nick
+        action_type: fill
+        field: nick
+        value: test
+    - fill_password
+        action_type: fill
+        field: password
+        value: 12345
+    - fill_captcha
+        action_type: fill
+        field: captcha
+        value: 123456
+    - submit_register
+        action_type: submit
+        field: button
+        value: register
+    - check_result
+        action_type: check
+        when_error
+          action
+            return: false
+        when_success
+          action
+            return: true

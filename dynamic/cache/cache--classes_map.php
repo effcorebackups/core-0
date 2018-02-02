@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-01-21 17:03:01';
+  cache::$info['classes_map']['build'] = '2018-02-02 11:16:43';
   cache::$data['classes_map']['effectivecore\file'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\file']->type = 'class';
   cache::$data['classes_map']['effectivecore\file']->namespace = 'effectivecore';
@@ -141,6 +141,11 @@ namespace effectivecore { # cache for classes_map
   cache::$data['classes_map']['effectivecore\modules\develop\events_page']->name = 'events_page';
   cache::$data['classes_map']['effectivecore\modules\develop\events_page']->extends = '\\effectivecore\\events_page';
   cache::$data['classes_map']['effectivecore\modules\develop\events_page']->file = 'modules/develop/backend/events--page.php';
+  cache::$data['classes_map']['effectivecore\test'] = new \stdClass();
+  cache::$data['classes_map']['effectivecore\test']->type = 'class';
+  cache::$data['classes_map']['effectivecore\test']->namespace = 'effectivecore';
+  cache::$data['classes_map']['effectivecore\test']->name = 'test';
+  cache::$data['classes_map']['effectivecore\test']->file = 'modules/develop/backend/pattern--test.php';
   cache::$data['classes_map']['effectivecore\locale'] = new \stdClass();
   cache::$data['classes_map']['effectivecore\locale']->type = 'class';
   cache::$data['classes_map']['effectivecore\locale']->namespace = 'effectivecore';
