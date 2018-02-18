@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-02-02 11:16:44';
+  cache::$info['data_original']['build'] = '2018-02-18 14:07:57';
   cache::$data['data_original']['events']['core'] = new \stdClass();
   cache::$data['data_original']['events']['core']->on_form_init['installation'] = new \effectivecore\event();
   cache::$data['data_original']['events']['core']->on_form_init['installation']->for = 'installation';
@@ -2072,10 +2072,10 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['tests']['develop']['register_user']->scenario['fill_captcha']->action_type = 'fill';
   cache::$data['data_original']['tests']['develop']['register_user']->scenario['fill_captcha']->field = 'captcha';
   cache::$data['data_original']['tests']['develop']['register_user']->scenario['fill_captcha']->value = 123456;
-  cache::$data['data_original']['tests']['develop']['register_user']->scenario['click_register'] = new \stdClass();
-  cache::$data['data_original']['tests']['develop']['register_user']->scenario['click_register']->action_type = 'click';
-  cache::$data['data_original']['tests']['develop']['register_user']->scenario['click_register']->field = 'button';
-  cache::$data['data_original']['tests']['develop']['register_user']->scenario['click_register']->value = 'register';
+  cache::$data['data_original']['tests']['develop']['register_user']->scenario['submit_register'] = new \stdClass();
+  cache::$data['data_original']['tests']['develop']['register_user']->scenario['submit_register']->action_type = 'submit';
+  cache::$data['data_original']['tests']['develop']['register_user']->scenario['submit_register']->field = 'button';
+  cache::$data['data_original']['tests']['develop']['register_user']->scenario['submit_register']->value = 'register';
   cache::$data['data_original']['tests']['develop']['register_user']->scenario['check_result'] = new \stdClass();
   cache::$data['data_original']['tests']['develop']['register_user']->scenario['check_result']->action_type = 'check';
   cache::$data['data_original']['tests']['develop']['register_user']->scenario['check_result']->when_error = new \stdClass();

@@ -22,10 +22,10 @@ namespace effectivecore { # cache for data--tests
   cache::$data['data--tests']['develop']['register_user']->scenario['fill_captcha']->action_type = 'fill';
   cache::$data['data--tests']['develop']['register_user']->scenario['fill_captcha']->field = 'captcha';
   cache::$data['data--tests']['develop']['register_user']->scenario['fill_captcha']->value = 123456;
-  cache::$data['data--tests']['develop']['register_user']->scenario['click_register'] = new \stdClass();
-  cache::$data['data--tests']['develop']['register_user']->scenario['click_register']->action_type = 'click';
-  cache::$data['data--tests']['develop']['register_user']->scenario['click_register']->field = 'button';
-  cache::$data['data--tests']['develop']['register_user']->scenario['click_register']->value = 'register';
+  cache::$data['data--tests']['develop']['register_user']->scenario['submit_register'] = new \stdClass();
+  cache::$data['data--tests']['develop']['register_user']->scenario['submit_register']->action_type = 'submit';
+  cache::$data['data--tests']['develop']['register_user']->scenario['submit_register']->field = 'button';
+  cache::$data['data--tests']['develop']['register_user']->scenario['submit_register']->value = 'register';
   cache::$data['data--tests']['develop']['register_user']->scenario['check_result'] = new \stdClass();
   cache::$data['data--tests']['develop']['register_user']->scenario['check_result']->action_type = 'check';
   cache::$data['data--tests']['develop']['register_user']->scenario['check_result']->when_error = new \stdClass();
