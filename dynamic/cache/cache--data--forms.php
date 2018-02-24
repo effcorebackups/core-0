@@ -2,8 +2,8 @@
 
 namespace effectivecore { # cache for data--forms
 
-  cache::$data['data--forms']['core']['installation'] = new \effectivecore\different_cache();
-  cache::$data['data--forms']['core']['installation']->cache_name = 'data--forms-core-installation';
+  cache::$data['data--forms']['core']['install'] = new \effectivecore\different_cache();
+  cache::$data['data--forms']['core']['install']->cache_name = 'data--forms-core-install';
   cache::$data['data--forms']['develop']['demo'] = new \effectivecore\different_cache();
   cache::$data['data--forms']['develop']['demo']->cache_name = 'data--forms-develop-demo';
   cache::$data['data--forms']['page']['decoration'] = new \effectivecore\different_cache();

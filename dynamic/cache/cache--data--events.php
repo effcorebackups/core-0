@@ -3,15 +3,15 @@
 namespace effectivecore { # cache for data--events
 
   cache::$data['data--events']['core'] = new \stdClass();
-  cache::$data['data--events']['core']->on_form_init['installation'] = new \effectivecore\event();
-  cache::$data['data--events']['core']->on_form_init['installation']->for = 'installation';
-  cache::$data['data--events']['core']->on_form_init['installation']->handler = '\\effectivecore\\modules\\core\\events_form::on_init_installation';
-  cache::$data['data--events']['core']->on_form_validate['installation'] = new \effectivecore\event();
-  cache::$data['data--events']['core']->on_form_validate['installation']->for = 'installation';
-  cache::$data['data--events']['core']->on_form_validate['installation']->handler = '\\effectivecore\\modules\\core\\events_form::on_validate_installation';
-  cache::$data['data--events']['core']->on_form_submit['installation'] = new \effectivecore\event();
-  cache::$data['data--events']['core']->on_form_submit['installation']->for = 'installation';
-  cache::$data['data--events']['core']->on_form_submit['installation']->handler = '\\effectivecore\\modules\\core\\events_form::on_submit_installation';
+  cache::$data['data--events']['core']->on_form_init['install'] = new \effectivecore\event();
+  cache::$data['data--events']['core']->on_form_init['install']->for = 'install';
+  cache::$data['data--events']['core']->on_form_init['install']->handler = '\\effectivecore\\modules\\core\\events_form::on_init_install';
+  cache::$data['data--events']['core']->on_form_validate['install'] = new \effectivecore\event();
+  cache::$data['data--events']['core']->on_form_validate['install']->for = 'install';
+  cache::$data['data--events']['core']->on_form_validate['install']->handler = '\\effectivecore\\modules\\core\\events_form::on_validate_install';
+  cache::$data['data--events']['core']->on_form_submit['install'] = new \effectivecore\event();
+  cache::$data['data--events']['core']->on_form_submit['install']->for = 'install';
+  cache::$data['data--events']['core']->on_form_submit['install']->handler = '\\effectivecore\\modules\\core\\events_form::on_submit_install';
   cache::$data['data--events']['develop'] = new \stdClass();
   cache::$data['data--events']['develop']->on_module_start['develop'] = new \effectivecore\event();
   cache::$data['data--events']['develop']->on_module_start['develop']->for = 'develop';
