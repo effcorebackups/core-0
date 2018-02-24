@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-02-24 17:31:53';
+  cache::$info['data_original']['build'] = '2018-02-24 17:51:46';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -2129,7 +2129,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['avatar'] = 'аватар';
   cache::$data['data_original']['translations']['locales']['ru']->data['Background color'] = 'Цвет фона';
   cache::$data['data_original']['translations']['locales']['ru']->data['Build years'] = 'Года выпуска';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Bundle build'] = 'Сборка пакета';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Bundle build number'] = 'Номер сборки пакета';
   cache::$data['data_original']['translations']['locales']['ru']->data['button'] = 'кнопка';
   cache::$data['data_original']['translations']['locales']['ru']->data['cache'] = 'кэш';
   cache::$data['data_original']['translations']['locales']['ru']->data['Call %%_name'] = 'Вызов %%_name';
@@ -2326,6 +2326,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['storage'] = 'хранилище';
   cache::$data['data_original']['translations']['locales']['ru']->data['Storage'] = 'Хранилище';
   cache::$data['data_original']['translations']['locales']['ru']->data['submit'] = 'отправить';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Subscribe for updates to'] = 'Подписка на обновления до';
   cache::$data['data_original']['translations']['locales']['ru']->data['System name'] = 'Название системы';
   cache::$data['data_original']['translations']['locales']['ru']->data['System'] = 'Система';
   cache::$data['data_original']['translations']['locales']['ru']->data['Table prefix'] = 'Префикс таблиц';

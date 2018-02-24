@@ -25,7 +25,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['avatar'] = 'аватар';
   cache::$data['data--translations-locales-ru']->data['Background color'] = 'Цвет фона';
   cache::$data['data--translations-locales-ru']->data['Build years'] = 'Года выпуска';
-  cache::$data['data--translations-locales-ru']->data['Bundle build'] = 'Сборка пакета';
+  cache::$data['data--translations-locales-ru']->data['Bundle build number'] = 'Номер сборки пакета';
   cache::$data['data--translations-locales-ru']->data['button'] = 'кнопка';
   cache::$data['data--translations-locales-ru']->data['cache'] = 'кэш';
   cache::$data['data--translations-locales-ru']->data['Call %%_name'] = 'Вызов %%_name';
@@ -222,6 +222,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['storage'] = 'хранилище';
   cache::$data['data--translations-locales-ru']->data['Storage'] = 'Хранилище';
   cache::$data['data--translations-locales-ru']->data['submit'] = 'отправить';
+  cache::$data['data--translations-locales-ru']->data['Subscribe for updates to'] = 'Подписка на обновления до';
   cache::$data['data--translations-locales-ru']->data['System name'] = 'Название системы';
   cache::$data['data--translations-locales-ru']->data['System'] = 'Система';
   cache::$data['data--translations-locales-ru']->data['Table prefix'] = 'Префикс таблиц';
