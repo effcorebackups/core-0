@@ -17,7 +17,7 @@ namespace effectivecore { # cache for data--pages-user-user_edit
   cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->type = 'code';
   cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->handler = '\\effectivecore\\modules\\user\\events_access::on_check_access_user_edit';
   cache::$data['data--pages-user-user_edit']->content['block_menu_main'] = new \stdClass();
-  cache::$data['data--pages-user-user_edit']->content['block_menu_main']->region = 'head_1';
+  cache::$data['data--pages-user-user_edit']->content['block_menu_main']->region = 'main_menu';
   cache::$data['data--pages-user-user_edit']->content['block_menu_main']->type = 'link';
   cache::$data['data--pages-user-user_edit']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages-user-user_edit']->content['block_menu_user'] = new \stdClass();

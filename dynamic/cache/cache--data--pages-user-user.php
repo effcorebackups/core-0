@@ -13,7 +13,7 @@ namespace effectivecore { # cache for data--pages-user-user
   cache::$data['data--pages-user-user']->access->roles['registered'] = 'registered';
   cache::$data['data--pages-user-user']->args['id_user'] = 2;
   cache::$data['data--pages-user-user']->content['block_menu_main'] = new \stdClass();
-  cache::$data['data--pages-user-user']->content['block_menu_main']->region = 'head_1';
+  cache::$data['data--pages-user-user']->content['block_menu_main']->region = 'main_menu';
   cache::$data['data--pages-user-user']->content['block_menu_main']->type = 'link';
   cache::$data['data--pages-user-user']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages-user-user']->content['block_menu_user'] = new \stdClass();

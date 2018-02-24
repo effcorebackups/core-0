@@ -11,7 +11,7 @@ namespace effectivecore { # cache for data--pages-page-decoration
   cache::$data['data--pages-page-decoration']->access = new \stdClass();
   cache::$data['data--pages-page-decoration']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-page-decoration']->content['block_menu_main'] = new \stdClass();
-  cache::$data['data--pages-page-decoration']->content['block_menu_main']->region = 'head_1';
+  cache::$data['data--pages-page-decoration']->content['block_menu_main']->region = 'main_menu';
   cache::$data['data--pages-page-decoration']->content['block_menu_main']->type = 'link';
   cache::$data['data--pages-page-decoration']->content['block_menu_main']->dpath = 'trees/core/main';
   cache::$data['data--pages-page-decoration']->content['block_menu_user'] = new \stdClass();
