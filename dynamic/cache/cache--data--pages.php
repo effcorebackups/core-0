@@ -8,6 +8,13 @@ namespace effectivecore { # cache for data--pages
   cache::$data['data--pages']['core']['front']->display->check = 'url';
   cache::$data['data--pages']['core']['front']->display->match = '%^/$%';
   cache::$data['data--pages']['core']['front']->access = null;
+  cache::$data['data--pages']['core']['info'] = new \effectivecore\different_cache();
+  cache::$data['data--pages']['core']['info']->cache_name = 'data--pages-core-info';
+  cache::$data['data--pages']['core']['info']->display = new \stdClass();
+  cache::$data['data--pages']['core']['info']->display->check = 'url';
+  cache::$data['data--pages']['core']['info']->display->match = '%^/admin/info$%';
+  cache::$data['data--pages']['core']['info']->access = new \stdClass();
+  cache::$data['data--pages']['core']['info']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['core']['installation'] = new \effectivecore\different_cache();
   cache::$data['data--pages']['core']['installation']->cache_name = 'data--pages-core-installation';
   cache::$data['data--pages']['core']['installation']->display = new \stdClass();

@@ -18,6 +18,14 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['core']['modules']->attributes['class']['modules'] = 'modules';
   cache::$data['data--tree_items']['core']['modules']->access = new \stdClass();
   cache::$data['data--tree_items']['core']['modules']->access->roles['admins'] = 'admins';
+  cache::$data['data--tree_items']['core']['info'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['core']['info']->id = 'info';
+  cache::$data['data--tree_items']['core']['info']->id_parent = 'admin';
+  cache::$data['data--tree_items']['core']['info']->title = 'Information';
+  cache::$data['data--tree_items']['core']['info']->attributes['href'] = '/admin/info';
+  cache::$data['data--tree_items']['core']['info']->attributes['class']['info'] = 'info';
+  cache::$data['data--tree_items']['core']['info']->access = new \stdClass();
+  cache::$data['data--tree_items']['core']['info']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['develop']['develop'] = new \effectivecore\tree_item();
   cache::$data['data--tree_items']['develop']['develop']->id = 'develop';
   cache::$data['data--tree_items']['develop']['develop']->id_parent = 'main';

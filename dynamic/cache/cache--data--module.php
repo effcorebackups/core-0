@@ -47,7 +47,7 @@ namespace effectivecore { # cache for data--module
   cache::$data['data--module']['tree'] = new \effectivecore\module();
   cache::$data['data--module']['tree']->id = 'tree';
   cache::$data['data--module']['tree']->title = 'Tree';
-  cache::$data['data--module']['tree']->description = 'Module for working with trees (hierarchical structures).';
+  cache::$data['data--module']['tree']->description = 'Module for working with hierarchical structures like trees.';
   cache::$data['data--module']['tree']->version = 1;
   cache::$data['data--module']['tree']->state = 'always_on';
   cache::$data['data--module']['tree']->path = 'modules/tree/';

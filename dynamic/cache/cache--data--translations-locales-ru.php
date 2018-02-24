@@ -50,6 +50,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['credentials'] = 'учётные данные';
   cache::$data['data--translations-locales-ru']->data['Current field value: %%_value.'] = 'Текущее значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Current language'] = 'Текущий язык';
+  cache::$data['data--translations-locales-ru']->data['Current page information'] = 'Информация текущей страницы';
   cache::$data['data--translations-locales-ru']->data['Data was not updated!'] = 'Данные не были обновлены!';
   cache::$data['data--translations-locales-ru']->data['Date'] = 'Дата';
   cache::$data['data--translations-locales-ru']->data['Decoration'] = 'Оформление';
@@ -149,8 +150,8 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Module for development.'] = 'Модуль для разработки.';
   cache::$data['data--translations-locales-ru']->data['Module for internationalization.'] = 'Модуль для интернационализации.';
   cache::$data['data--translations-locales-ru']->data['Module for storages support.'] = 'Модуль поддержки хранилищ данных.';
+  cache::$data['data--translations-locales-ru']->data['Module for working with hierarchical structures like trees.'] = 'Модуль для работы с такими иерархическими структурами как деревья.';
   cache::$data['data--translations-locales-ru']->data['Module for working with pages.'] = 'Модуль работы со страницами.';
-  cache::$data['data--translations-locales-ru']->data['Module for working with trees (hierarchical structures).'] = 'Модуль работы с деревьями (иерархическими структурами).';
   cache::$data['data--translations-locales-ru']->data['Module for working with user accounts and permissions.'] = 'Модуль работы с пользовательскими аккаунтами и разрешениями.';
   cache::$data['data--translations-locales-ru']->data['Module information'] = 'Информация о модуле';
   cache::$data['data--translations-locales-ru']->data['Modules was installed.'] = 'Модули были установлены.';
@@ -202,6 +203,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Server load (sys_getloadavg)'] = 'Загр. серв. (sys_getloadavg)';
   cache::$data['data--translations-locales-ru']->data['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data--translations-locales-ru']->data['set'] = 'установка';
+  cache::$data['data--translations-locales-ru']->data['Shared information'] = 'Общая информация';
   cache::$data['data--translations-locales-ru']->data['sql state: %%_state'] = 'sql состояние: %%_state';
   cache::$data['data--translations-locales-ru']->data['state'] = 'состояние';
   cache::$data['data--translations-locales-ru']->data['State'] = 'Состояние';
