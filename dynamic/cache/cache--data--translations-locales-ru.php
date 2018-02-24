@@ -14,15 +14,18 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Administer'] = 'Администрирование';
   cache::$data['data--translations-locales-ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data--translations-locales-ru']->data['agree'] = 'согласен(а)';
-  cache::$data['data--translations-locales-ru']->data['All rights reserved.'] = 'Все права защищены.';
+  cache::$data['data--translations-locales-ru']->data['All rights reserved'] = 'Все права защищены';
   cache::$data['data--translations-locales-ru']->data['Allowable characters: %%_chars. Examples: %%_examples.'] = 'Допустимые символы: %%_chars. Примеры: %%_examples.';
   cache::$data['data--translations-locales-ru']->data['Allowable characters: %%_chars.'] = 'Допустимые символы: %%_chars.';
   cache::$data['data--translations-locales-ru']->data['always_enabled'] = 'всегда_вкл';
   cache::$data['data--translations-locales-ru']->data['Anonymous'] = 'Аноним';
+  cache::$data['data--translations-locales-ru']->data['Author'] = 'Автор';
   cache::$data['data--translations-locales-ru']->data['autoload'] = 'автозагрузка';
   cache::$data['data--translations-locales-ru']->data['Avatar'] = 'Аватар';
   cache::$data['data--translations-locales-ru']->data['avatar'] = 'аватар';
   cache::$data['data--translations-locales-ru']->data['Background color'] = 'Цвет фона';
+  cache::$data['data--translations-locales-ru']->data['Build years'] = 'Года выпуска';
+  cache::$data['data--translations-locales-ru']->data['Bundle build'] = 'Сборка пакета';
   cache::$data['data--translations-locales-ru']->data['button'] = 'кнопка';
   cache::$data['data--translations-locales-ru']->data['cache'] = 'кэш';
   cache::$data['data--translations-locales-ru']->data['Call %%_name'] = 'Вызов %%_name';
@@ -41,7 +44,6 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Console'] = 'Консоль';
   cache::$data['data--translations-locales-ru']->data['Control elements'] = 'Элементы управления';
   cache::$data['data--translations-locales-ru']->data['Cookies are disabled. You can not log in!'] = 'Cookies отключены. Вы не можете войти в систему!';
-  cache::$data['data--translations-locales-ru']->data['Copyright © %%_years %%_right_holder.'] = 'Авторские права © %%_years %%_right_holder.';
   cache::$data['data--translations-locales-ru']->data['Core'] = 'Ядро';
   cache::$data['data--translations-locales-ru']->data['created'] = 'создано';
   cache::$data['data--translations-locales-ru']->data['Created'] = 'Создано';
@@ -130,6 +132,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Is always on'] = 'Всегда включен';
   cache::$data['data--translations-locales-ru']->data['Is embed'] = 'Встроенный';
   cache::$data['data--translations-locales-ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
+  cache::$data['data--translations-locales-ru']->data['Legal information'] = 'Правовая информация';
   cache::$data['data--translations-locales-ru']->data['License agreement'] = 'Лицензионное соглашение';
   cache::$data['data--translations-locales-ru']->data['load'] = 'загрузка';
   cache::$data['data--translations-locales-ru']->data['Locales'] = 'Локализации';
@@ -139,6 +142,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Logout'] = 'Выход';
   cache::$data['data--translations-locales-ru']->data['Main menu'] = 'Главное меню';
   cache::$data['data--translations-locales-ru']->data['Main system module.'] = 'Основной модуль системы.';
+  cache::$data['data--translations-locales-ru']->data['Maxim Rysevets'] = 'Рысевец Максим Владимирович';
   cache::$data['data--translations-locales-ru']->data['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Memory for php (bytes)'] = 'Память для php (байт)';
@@ -218,6 +222,7 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['storage'] = 'хранилище';
   cache::$data['data--translations-locales-ru']->data['Storage'] = 'Хранилище';
   cache::$data['data--translations-locales-ru']->data['submit'] = 'отправить';
+  cache::$data['data--translations-locales-ru']->data['System name'] = 'Название системы';
   cache::$data['data--translations-locales-ru']->data['System'] = 'Система';
   cache::$data['data--translations-locales-ru']->data['Table prefix'] = 'Префикс таблиц';
   cache::$data['data--translations-locales-ru']->data['Telephone'] = 'Телефон';
@@ -254,7 +259,8 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Users'] = 'Пользователи';
   cache::$data['data--translations-locales-ru']->data['val.'] = 'знач.';
   cache::$data['data--translations-locales-ru']->data['Val.'] = 'Знач.';
-  cache::$data['data--translations-locales-ru']->data['Valid HTML5 markup | Valid CSS'] = 'Действительная разметка HTML5 | Действительный CSS';
+  cache::$data['data--translations-locales-ru']->data['Valid CSS'] = 'Действительный CSS';
+  cache::$data['data--translations-locales-ru']->data['Valid HTML5'] = 'Действительный HTML5';
   cache::$data['data--translations-locales-ru']->data['Value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache::$data['data--translations-locales-ru']->data['Value'] = 'Значение';
   cache::$data['data--translations-locales-ru']->data['Values'] = 'Значения';

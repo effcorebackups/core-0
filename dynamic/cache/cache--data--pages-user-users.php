@@ -31,9 +31,5 @@ namespace effectivecore { # cache for data--pages-user-users
   cache::$data['data--pages-user-users']->content['block_users']->region = 'main_1';
   cache::$data['data--pages-user-users']->content['block_users']->type = 'code';
   cache::$data['data--pages-user-users']->content['block_users']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_users';
-  cache::$data['data--pages-user-users']->content['block_copyright'] = new \stdClass();
-  cache::$data['data--pages-user-users']->content['block_copyright']->region = 'copyright';
-  cache::$data['data--pages-user-users']->content['block_copyright']->type = 'code';
-  cache::$data['data--pages-user-users']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
 
 }

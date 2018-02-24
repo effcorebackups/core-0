@@ -30,9 +30,5 @@ namespace effectivecore { # cache for data--pages-core-installation
   cache::$data['data--pages-core-installation']->content['form_installation']->region = 'main_1';
   cache::$data['data--pages-core-installation']->content['form_installation']->type = 'link';
   cache::$data['data--pages-core-installation']->content['form_installation']->dpath = 'forms/core/installation';
-  cache::$data['data--pages-core-installation']->content['block_copyright'] = new \stdClass();
-  cache::$data['data--pages-core-installation']->content['block_copyright']->region = 'copyright';
-  cache::$data['data--pages-core-installation']->content['block_copyright']->type = 'code';
-  cache::$data['data--pages-core-installation']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
 
 }

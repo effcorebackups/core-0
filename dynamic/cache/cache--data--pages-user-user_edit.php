@@ -36,9 +36,5 @@ namespace effectivecore { # cache for data--pages-user-user_edit
   cache::$data['data--pages-user-user_edit']->content['form_user_edit']->region = 'main_1';
   cache::$data['data--pages-user-user_edit']->content['form_user_edit']->type = 'link';
   cache::$data['data--pages-user-user_edit']->content['form_user_edit']->dpath = 'forms/user/user_edit';
-  cache::$data['data--pages-user-user_edit']->content['block_copyright'] = new \stdClass();
-  cache::$data['data--pages-user-user_edit']->content['block_copyright']->region = 'copyright';
-  cache::$data['data--pages-user-user_edit']->content['block_copyright']->type = 'code';
-  cache::$data['data--pages-user-user_edit']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
 
 }

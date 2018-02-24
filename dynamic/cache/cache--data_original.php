@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-02-24 16:58:01';
+  cache::$info['data_original']['build'] = '2018-02-24 17:31:53';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -932,10 +932,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['core']['front']->content['block_wellcome']->region = 'main_1';
   cache::$data['data_original']['pages']['core']['front']->content['block_wellcome']->type = 'text';
   cache::$data['data_original']['pages']['core']['front']->content['block_wellcome']->content = 'Wellcome to our site!';
-  cache::$data['data_original']['pages']['core']['front']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['core']['front']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['core']['front']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['core']['front']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['core']['info'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['core']['info']->title = 'Information';
   cache::$data['data_original']['pages']['core']['info']->https = true;
@@ -964,10 +960,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['core']['info']->content['block_info']->region = 'main_1';
   cache::$data['data_original']['pages']['core']['info']->content['block_info']->type = 'code';
   cache::$data['data_original']['pages']['core']['info']->content['block_info']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_info';
-  cache::$data['data_original']['pages']['core']['info']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['core']['info']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['core']['info']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['core']['info']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['core']['installation'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['core']['installation']->title = 'Installation';
   cache::$data['data_original']['pages']['core']['installation']->https = true;
@@ -996,10 +988,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['core']['installation']->content['form_installation']->region = 'main_1';
   cache::$data['data_original']['pages']['core']['installation']->content['form_installation']->type = 'link';
   cache::$data['data_original']['pages']['core']['installation']->content['form_installation']->dpath = 'forms/core/installation';
-  cache::$data['data_original']['pages']['core']['installation']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['core']['installation']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['core']['installation']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['core']['installation']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['core']['modules'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['core']['modules']->title = 'Modules';
   cache::$data['data_original']['pages']['core']['modules']->https = true;
@@ -1028,10 +1016,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->region = 'main_1';
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->type = 'code';
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_modules';
-  cache::$data['data_original']['pages']['core']['modules']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['core']['modules']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['core']['modules']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['core']['modules']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['develop']['demo'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['develop']['demo']->title = 'Demo';
   cache::$data['data_original']['pages']['develop']['demo']->https = true;
@@ -1068,10 +1052,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['demo']->content['block_demo_dynamic']->region = 'main_1';
   cache::$data['data_original']['pages']['develop']['demo']->content['block_demo_dynamic']->type = 'code';
   cache::$data['data_original']['pages']['develop']['demo']->content['block_demo_dynamic']->handler = '\\effectivecore\\modules\\develop\\events_page::on_show_block_demo_dynamic';
-  cache::$data['data_original']['pages']['develop']['demo']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['develop']['demo']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['develop']['demo']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['develop']['demo']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['page']['decoration'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['page']['decoration']->title = 'Decoration';
   cache::$data['data_original']['pages']['page']['decoration']->https = true;
@@ -1100,10 +1080,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['page']['decoration']->content['form_decoration']->region = 'main_1';
   cache::$data['data_original']['pages']['page']['decoration']->content['form_decoration']->type = 'link';
   cache::$data['data_original']['pages']['page']['decoration']->content['form_decoration']->dpath = 'forms/page/decoration';
-  cache::$data['data_original']['pages']['page']['decoration']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['page']['decoration']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['page']['decoration']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['page']['decoration']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['user']['login'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['user']['login']->title = 'Login';
   cache::$data['data_original']['pages']['user']['login']->https = true;
@@ -1132,10 +1108,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['login']->content['form_login']->region = 'main_1';
   cache::$data['data_original']['pages']['user']['login']->content['form_login']->type = 'link';
   cache::$data['data_original']['pages']['user']['login']->content['form_login']->dpath = 'forms/user/login';
-  cache::$data['data_original']['pages']['user']['login']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['user']['login']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['user']['login']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['user']['login']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['user']['logout'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['user']['logout']->title = 'Logout';
   cache::$data['data_original']['pages']['user']['logout']->https = true;
@@ -1164,10 +1136,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['logout']->content['form_logout']->region = 'main_1';
   cache::$data['data_original']['pages']['user']['logout']->content['form_logout']->type = 'link';
   cache::$data['data_original']['pages']['user']['logout']->content['form_logout']->dpath = 'forms/user/logout';
-  cache::$data['data_original']['pages']['user']['logout']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['user']['logout']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['user']['logout']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['user']['logout']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['user']['registration'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['user']['registration']->title = 'Registration';
   cache::$data['data_original']['pages']['user']['registration']->https = true;
@@ -1196,10 +1164,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['registration']->content['form_registration']->region = 'main_1';
   cache::$data['data_original']['pages']['user']['registration']->content['form_registration']->type = 'link';
   cache::$data['data_original']['pages']['user']['registration']->content['form_registration']->dpath = 'forms/user/registration';
-  cache::$data['data_original']['pages']['user']['registration']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['user']['registration']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['user']['registration']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['user']['registration']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['user']['roles'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['user']['roles']->title = 'Roles';
   cache::$data['data_original']['pages']['user']['roles']->https = true;
@@ -1229,10 +1193,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['roles']->content['block_roles']->region = 'main_1';
   cache::$data['data_original']['pages']['user']['roles']->content['block_roles']->type = 'code';
   cache::$data['data_original']['pages']['user']['roles']->content['block_roles']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_roles';
-  cache::$data['data_original']['pages']['user']['roles']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['user']['roles']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['user']['roles']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['user']['roles']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['user']['user'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['user']['user']->title = 'User %%_nick_context{2}';
   cache::$data['data_original']['pages']['user']['user']->https = true;
@@ -1263,10 +1223,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user']->content['block_user_info']->region = 'main_1';
   cache::$data['data_original']['pages']['user']['user']->content['block_user_info']->type = 'code';
   cache::$data['data_original']['pages']['user']['user']->content['block_user_info']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_user_info';
-  cache::$data['data_original']['pages']['user']['user']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['user']['user']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['user']['user']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['user']['user']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['user']['user_delete'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['user']['user_delete']->title = 'Delete user %%_nick_context{4}?';
   cache::$data['data_original']['pages']['user']['user_delete']->https = true;
@@ -1300,10 +1256,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_delete']->content['form_user_delete']->region = 'main_1';
   cache::$data['data_original']['pages']['user']['user_delete']->content['form_user_delete']->type = 'link';
   cache::$data['data_original']['pages']['user']['user_delete']->content['form_user_delete']->dpath = 'forms/user/user_delete';
-  cache::$data['data_original']['pages']['user']['user_delete']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['user']['user_delete']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['user']['user_delete']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['user']['user_delete']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['user']['user_edit'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['user']['user_edit']->title = 'Edit user %%_nick_context{2}';
   cache::$data['data_original']['pages']['user']['user_edit']->https = true;
@@ -1338,10 +1290,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_edit']->content['form_user_edit']->region = 'main_1';
   cache::$data['data_original']['pages']['user']['user_edit']->content['form_user_edit']->type = 'link';
   cache::$data['data_original']['pages']['user']['user_edit']->content['form_user_edit']->dpath = 'forms/user/user_edit';
-  cache::$data['data_original']['pages']['user']['user_edit']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['user']['user_edit']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['user']['user_edit']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['user']['user_edit']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['pages']['user']['users'] = new \effectivecore\page();
   cache::$data['data_original']['pages']['user']['users']->title = 'Users';
   cache::$data['data_original']['pages']['user']['users']->https = true;
@@ -1371,10 +1319,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['pages']['user']['users']->content['block_users']->region = 'main_1';
   cache::$data['data_original']['pages']['user']['users']->content['block_users']->type = 'code';
   cache::$data['data_original']['pages']['user']['users']->content['block_users']->handler = '\\effectivecore\\modules\\user\\events_page::on_show_block_users';
-  cache::$data['data_original']['pages']['user']['users']->content['block_copyright'] = new \stdClass();
-  cache::$data['data_original']['pages']['user']['users']->content['block_copyright']->region = 'copyright';
-  cache::$data['data_original']['pages']['user']['users']->content['block_copyright']->type = 'code';
-  cache::$data['data_original']['pages']['user']['users']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
   cache::$data['data_original']['settings']['core'] = new \stdClass();
   cache::$data['data_original']['settings']['core']->key = 'abcde01234abcde01234abcde01234abcde01234';
   cache::$data['data_original']['settings']['locales'] = new \stdClass();
@@ -1478,6 +1422,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['tree_items']['core']['info']->title = 'Information';
   cache::$data['data_original']['tree_items']['core']['info']->attributes['href'] = '/admin/info';
   cache::$data['data_original']['tree_items']['core']['info']->attributes['class']['info'] = 'info';
+  cache::$data['data_original']['tree_items']['core']['info']->weight = 100;
   cache::$data['data_original']['tree_items']['core']['info']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['core']['info']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['tree_items']['develop']['develop'] = new \effectivecore\tree_item();
@@ -2173,15 +2118,18 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Administer'] = 'Администрирование';
   cache::$data['data_original']['translations']['locales']['ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data_original']['translations']['locales']['ru']->data['agree'] = 'согласен(а)';
-  cache::$data['data_original']['translations']['locales']['ru']->data['All rights reserved.'] = 'Все права защищены.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['All rights reserved'] = 'Все права защищены';
   cache::$data['data_original']['translations']['locales']['ru']->data['Allowable characters: %%_chars. Examples: %%_examples.'] = 'Допустимые символы: %%_chars. Примеры: %%_examples.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Allowable characters: %%_chars.'] = 'Допустимые символы: %%_chars.';
   cache::$data['data_original']['translations']['locales']['ru']->data['always_enabled'] = 'всегда_вкл';
   cache::$data['data_original']['translations']['locales']['ru']->data['Anonymous'] = 'Аноним';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Author'] = 'Автор';
   cache::$data['data_original']['translations']['locales']['ru']->data['autoload'] = 'автозагрузка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Avatar'] = 'Аватар';
   cache::$data['data_original']['translations']['locales']['ru']->data['avatar'] = 'аватар';
   cache::$data['data_original']['translations']['locales']['ru']->data['Background color'] = 'Цвет фона';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Build years'] = 'Года выпуска';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Bundle build'] = 'Сборка пакета';
   cache::$data['data_original']['translations']['locales']['ru']->data['button'] = 'кнопка';
   cache::$data['data_original']['translations']['locales']['ru']->data['cache'] = 'кэш';
   cache::$data['data_original']['translations']['locales']['ru']->data['Call %%_name'] = 'Вызов %%_name';
@@ -2200,7 +2148,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Console'] = 'Консоль';
   cache::$data['data_original']['translations']['locales']['ru']->data['Control elements'] = 'Элементы управления';
   cache::$data['data_original']['translations']['locales']['ru']->data['Cookies are disabled. You can not log in!'] = 'Cookies отключены. Вы не можете войти в систему!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Copyright © %%_years %%_right_holder.'] = 'Авторские права © %%_years %%_right_holder.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Core'] = 'Ядро';
   cache::$data['data_original']['translations']['locales']['ru']->data['created'] = 'создано';
   cache::$data['data_original']['translations']['locales']['ru']->data['Created'] = 'Создано';
@@ -2289,6 +2236,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Is always on'] = 'Всегда включен';
   cache::$data['data_original']['translations']['locales']['ru']->data['Is embed'] = 'Встроенный';
   cache::$data['data_original']['translations']['locales']['ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Legal information'] = 'Правовая информация';
   cache::$data['data_original']['translations']['locales']['ru']->data['License agreement'] = 'Лицензионное соглашение';
   cache::$data['data_original']['translations']['locales']['ru']->data['load'] = 'загрузка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Locales'] = 'Локализации';
@@ -2298,6 +2246,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Logout'] = 'Выход';
   cache::$data['data_original']['translations']['locales']['ru']->data['Main menu'] = 'Главное меню';
   cache::$data['data_original']['translations']['locales']['ru']->data['Main system module.'] = 'Основной модуль системы.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Maxim Rysevets'] = 'Рысевец Максим Владимирович';
   cache::$data['data_original']['translations']['locales']['ru']->data['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Memory for php (bytes)'] = 'Память для php (байт)';
@@ -2377,6 +2326,7 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['storage'] = 'хранилище';
   cache::$data['data_original']['translations']['locales']['ru']->data['Storage'] = 'Хранилище';
   cache::$data['data_original']['translations']['locales']['ru']->data['submit'] = 'отправить';
+  cache::$data['data_original']['translations']['locales']['ru']->data['System name'] = 'Название системы';
   cache::$data['data_original']['translations']['locales']['ru']->data['System'] = 'Система';
   cache::$data['data_original']['translations']['locales']['ru']->data['Table prefix'] = 'Префикс таблиц';
   cache::$data['data_original']['translations']['locales']['ru']->data['Telephone'] = 'Телефон';
@@ -2413,7 +2363,8 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Users'] = 'Пользователи';
   cache::$data['data_original']['translations']['locales']['ru']->data['val.'] = 'знач.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Val.'] = 'Знач.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Valid HTML5 markup | Valid CSS'] = 'Действительная разметка HTML5 | Действительный CSS';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Valid CSS'] = 'Действительный CSS';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Valid HTML5'] = 'Действительный HTML5';
   cache::$data['data_original']['translations']['locales']['ru']->data['Value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Value'] = 'Значение';
   cache::$data['data_original']['translations']['locales']['ru']->data['Values'] = 'Значения';

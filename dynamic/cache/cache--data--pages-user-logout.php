@@ -30,9 +30,5 @@ namespace effectivecore { # cache for data--pages-user-logout
   cache::$data['data--pages-user-logout']->content['form_logout']->region = 'main_1';
   cache::$data['data--pages-user-logout']->content['form_logout']->type = 'link';
   cache::$data['data--pages-user-logout']->content['form_logout']->dpath = 'forms/user/logout';
-  cache::$data['data--pages-user-logout']->content['block_copyright'] = new \stdClass();
-  cache::$data['data--pages-user-logout']->content['block_copyright']->region = 'copyright';
-  cache::$data['data--pages-user-logout']->content['block_copyright']->type = 'code';
-  cache::$data['data--pages-user-logout']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
 
 }

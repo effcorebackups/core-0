@@ -35,9 +35,5 @@ namespace effectivecore { # cache for data--pages-user-user_delete
   cache::$data['data--pages-user-user_delete']->content['form_user_delete']->region = 'main_1';
   cache::$data['data--pages-user-user_delete']->content['form_user_delete']->type = 'link';
   cache::$data['data--pages-user-user_delete']->content['form_user_delete']->dpath = 'forms/user/user_delete';
-  cache::$data['data--pages-user-user_delete']->content['block_copyright'] = new \stdClass();
-  cache::$data['data--pages-user-user_delete']->content['block_copyright']->region = 'copyright';
-  cache::$data['data--pages-user-user_delete']->content['block_copyright']->type = 'code';
-  cache::$data['data--pages-user-user_delete']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
 
 }

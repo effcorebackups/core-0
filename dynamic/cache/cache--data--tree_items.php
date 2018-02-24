@@ -24,6 +24,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['core']['info']->title = 'Information';
   cache::$data['data--tree_items']['core']['info']->attributes['href'] = '/admin/info';
   cache::$data['data--tree_items']['core']['info']->attributes['class']['info'] = 'info';
+  cache::$data['data--tree_items']['core']['info']->weight = 100;
   cache::$data['data--tree_items']['core']['info']->access = new \stdClass();
   cache::$data['data--tree_items']['core']['info']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['develop']['develop'] = new \effectivecore\tree_item();

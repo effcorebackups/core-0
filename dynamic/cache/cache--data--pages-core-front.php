@@ -27,9 +27,5 @@ namespace effectivecore { # cache for data--pages-core-front
   cache::$data['data--pages-core-front']->content['block_wellcome']->region = 'main_1';
   cache::$data['data--pages-core-front']->content['block_wellcome']->type = 'text';
   cache::$data['data--pages-core-front']->content['block_wellcome']->content = 'Wellcome to our site!';
-  cache::$data['data--pages-core-front']->content['block_copyright'] = new \stdClass();
-  cache::$data['data--pages-core-front']->content['block_copyright']->region = 'copyright';
-  cache::$data['data--pages-core-front']->content['block_copyright']->type = 'code';
-  cache::$data['data--pages-core-front']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
 
 }

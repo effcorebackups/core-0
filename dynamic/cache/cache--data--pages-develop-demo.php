@@ -38,9 +38,5 @@ namespace effectivecore { # cache for data--pages-develop-demo
   cache::$data['data--pages-develop-demo']->content['block_demo_dynamic']->region = 'main_1';
   cache::$data['data--pages-develop-demo']->content['block_demo_dynamic']->type = 'code';
   cache::$data['data--pages-develop-demo']->content['block_demo_dynamic']->handler = '\\effectivecore\\modules\\develop\\events_page::on_show_block_demo_dynamic';
-  cache::$data['data--pages-develop-demo']->content['block_copyright'] = new \stdClass();
-  cache::$data['data--pages-develop-demo']->content['block_copyright']->region = 'copyright';
-  cache::$data['data--pages-develop-demo']->content['block_copyright']->type = 'code';
-  cache::$data['data--pages-develop-demo']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
 
 }

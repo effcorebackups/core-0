@@ -30,9 +30,5 @@ namespace effectivecore { # cache for data--pages-user-registration
   cache::$data['data--pages-user-registration']->content['form_registration']->region = 'main_1';
   cache::$data['data--pages-user-registration']->content['form_registration']->type = 'link';
   cache::$data['data--pages-user-registration']->content['form_registration']->dpath = 'forms/user/registration';
-  cache::$data['data--pages-user-registration']->content['block_copyright'] = new \stdClass();
-  cache::$data['data--pages-user-registration']->content['block_copyright']->region = 'copyright';
-  cache::$data['data--pages-user-registration']->content['block_copyright']->type = 'code';
-  cache::$data['data--pages-user-registration']->content['block_copyright']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_copyright';
 
 }
