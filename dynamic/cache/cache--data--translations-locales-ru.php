@@ -223,7 +223,6 @@ namespace effectivecore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Storage'] = 'Хранилище';
   cache::$data['data--translations-locales-ru']->data['submit'] = 'отправить';
   cache::$data['data--translations-locales-ru']->data['Subscribe for updates to'] = 'Подписка на обновления до';
-  cache::$data['data--translations-locales-ru']->data['System name'] = 'Название системы';
   cache::$data['data--translations-locales-ru']->data['System'] = 'Система';
   cache::$data['data--translations-locales-ru']->data['Table prefix'] = 'Префикс таблиц';
   cache::$data['data--translations-locales-ru']->data['Telephone'] = 'Телефон';

@@ -2,7 +2,7 @@
 
 namespace effectivecore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-02-24 18:00:15';
+  cache::$info['data_original']['build'] = '2018-02-26 15:30:01';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -2327,7 +2327,6 @@ namespace effectivecore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Storage'] = 'Хранилище';
   cache::$data['data_original']['translations']['locales']['ru']->data['submit'] = 'отправить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Subscribe for updates to'] = 'Подписка на обновления до';
-  cache::$data['data_original']['translations']['locales']['ru']->data['System name'] = 'Название системы';
   cache::$data['data_original']['translations']['locales']['ru']->data['System'] = 'Система';
   cache::$data['data_original']['translations']['locales']['ru']->data['Table prefix'] = 'Префикс таблиц';
   cache::$data['data_original']['translations']['locales']['ru']->data['Telephone'] = 'Телефон';
