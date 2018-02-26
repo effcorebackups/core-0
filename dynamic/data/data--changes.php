@@ -1,6 +1,6 @@
 <?php
 
-namespace effectivecore { # data for changes
+namespace effcore { # data for changes
 
   dynamic::$info['changes']['build'] = '2018-02-24 18:02:22';
   dynamic::$data['changes']['core'] = new \stdClass();
