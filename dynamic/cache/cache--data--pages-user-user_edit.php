@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--pages-user-user_edit
+namespace effcore { # cache for data--pages-user-user_edit
 
-  cache::$data['data--pages-user-user_edit'] = new \effectivecore\page();
+  cache::$data['data--pages-user-user_edit'] = new \effcore\page();
   cache::$data['data--pages-user-user_edit']->title = 'Edit user %%_nick_context{2}';
   cache::$data['data--pages-user-user_edit']->https = true;
   cache::$data['data--pages-user-user_edit']->display = new \stdClass();
@@ -15,7 +15,7 @@ namespace effectivecore { # cache for data--pages-user-user_edit
   cache::$data['data--pages-user-user_edit']->content['check_access_user_edit'] = new \stdClass();
   cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->region = 'head_1';
   cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->type = 'code';
-  cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->handler = '\\effectivecore\\modules\\user\\events_access::on_check_access_user_edit';
+  cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->handler = '\\effcore\\modules\\user\\events_access::on_check_access_user_edit';
   cache::$data['data--pages-user-user_edit']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages-user-user_edit']->content['block_menu_main']->region = 'main_menu';
   cache::$data['data--pages-user-user_edit']->content['block_menu_main']->type = 'link';
@@ -23,15 +23,15 @@ namespace effectivecore { # cache for data--pages-user-user_edit
   cache::$data['data--pages-user-user_edit']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages-user-user_edit']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages-user-user_edit']->content['block_menu_user']->type = 'code';
-  cache::$data['data--pages-user-user_edit']->content['block_menu_user']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_menu_user';
+  cache::$data['data--pages-user-user_edit']->content['block_menu_user']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_menu_user';
   cache::$data['data--pages-user-user_edit']->content['block_logo'] = new \stdClass();
   cache::$data['data--pages-user-user_edit']->content['block_logo']->region = 'head_3';
   cache::$data['data--pages-user-user_edit']->content['block_logo']->type = 'code';
-  cache::$data['data--pages-user-user_edit']->content['block_logo']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_logo';
+  cache::$data['data--pages-user-user_edit']->content['block_logo']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_logo';
   cache::$data['data--pages-user-user_edit']->content['block_title'] = new \stdClass();
   cache::$data['data--pages-user-user_edit']->content['block_title']->region = 'main_1';
   cache::$data['data--pages-user-user_edit']->content['block_title']->type = 'code';
-  cache::$data['data--pages-user-user_edit']->content['block_title']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_title';
+  cache::$data['data--pages-user-user_edit']->content['block_title']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_title';
   cache::$data['data--pages-user-user_edit']->content['form_user_edit'] = new \stdClass();
   cache::$data['data--pages-user-user_edit']->content['form_user_edit']->region = 'main_1';
   cache::$data['data--pages-user-user_edit']->content['form_user_edit']->type = 'link';

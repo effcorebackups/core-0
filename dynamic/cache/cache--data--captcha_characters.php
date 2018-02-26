@@ -1,6 +1,6 @@
 <?php
 
-namespace effectivecore { # cache for data--captcha_characters
+namespace effcore { # cache for data--captcha_characters
 
   cache::$data['data--captcha_characters']['page']['ch0'] = new \stdClass();
   cache::$data['data--captcha_characters']['page']['ch0']->character = 0;

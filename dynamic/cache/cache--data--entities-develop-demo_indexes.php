@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--entities-develop-demo_indexes
+namespace effcore { # cache for data--entities-develop-demo_indexes
 
-  cache::$data['data--entities-develop-demo_indexes'] = new \effectivecore\entity();
+  cache::$data['data--entities-develop-demo_indexes'] = new \effcore\entity();
   cache::$data['data--entities-develop-demo_indexes']->name = 'demo_indexes';
   cache::$data['data--entities-develop-demo_indexes']->storage_id = 'main';
   cache::$data['data--entities-develop-demo_indexes']->catalog_id = 'demo_indexes';

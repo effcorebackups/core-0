@@ -1,6 +1,6 @@
 <?php
 
-namespace effectivecore { # cache for data--colors
+namespace effcore { # cache for data--colors
 
   cache::$data['data--colors']['page']['lavender'] = new \stdClass();
   cache::$data['data--colors']['page']['lavender']->id = 'lavender';

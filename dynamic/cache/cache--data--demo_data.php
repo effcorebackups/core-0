@@ -1,6 +1,6 @@
 <?php
 
-namespace effectivecore { # cache for data--demo_data
+namespace effcore { # cache for data--demo_data
 
   cache::$data['data--demo_data']['develop'] = new \stdClass();
   cache::$data['data--demo_data']['develop']->demo_integer = 1;
@@ -8,7 +8,7 @@ namespace effectivecore { # cache for data--demo_data
   cache::$data['data--demo_data']['develop']->demo_boolean = true;
   cache::$data['data--demo_data']['develop']->demo_string_empty = '';
   cache::$data['data--demo_data']['develop']->demo_string = 'text';
-  cache::$data['data--demo_data']['develop']->demo_string_text = new \effectivecore\text();
+  cache::$data['data--demo_data']['develop']->demo_string_text = new \effcore\text();
   cache::$data['data--demo_data']['develop']->demo_string_text->text = 'like code: new text(\'any text\') # translated by default';
   cache::$data['data--demo_data']['develop']->demo_array_empty = [];
   cache::$data['data--demo_data']['develop']->demo_array['item_1'] = 'item value #1';

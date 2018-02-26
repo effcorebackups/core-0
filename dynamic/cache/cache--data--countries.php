@@ -1,6 +1,6 @@
 <?php
 
-namespace effectivecore { # cache for data--countries
+namespace effcore { # cache for data--countries
 
   cache::$data['data--countries']['locales']['usa'] = new \stdClass();
   cache::$data['data--countries']['locales']['usa']->code = 'usa';

@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--entities-tree-tree
+namespace effcore { # cache for data--entities-tree-tree
 
-  cache::$data['data--entities-tree-tree'] = new \effectivecore\entity();
+  cache::$data['data--entities-tree-tree'] = new \effcore\entity();
   cache::$data['data--entities-tree-tree']->name = 'tree';
   cache::$data['data--entities-tree-tree']->storage_id = 'main';
   cache::$data['data--entities-tree-tree']->catalog_id = 'trees';

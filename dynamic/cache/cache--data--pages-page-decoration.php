@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--pages-page-decoration
+namespace effcore { # cache for data--pages-page-decoration
 
-  cache::$data['data--pages-page-decoration'] = new \effectivecore\page();
+  cache::$data['data--pages-page-decoration'] = new \effcore\page();
   cache::$data['data--pages-page-decoration']->title = 'Decoration';
   cache::$data['data--pages-page-decoration']->https = true;
   cache::$data['data--pages-page-decoration']->display = new \stdClass();
@@ -17,15 +17,15 @@ namespace effectivecore { # cache for data--pages-page-decoration
   cache::$data['data--pages-page-decoration']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages-page-decoration']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages-page-decoration']->content['block_menu_user']->type = 'code';
-  cache::$data['data--pages-page-decoration']->content['block_menu_user']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_menu_user';
+  cache::$data['data--pages-page-decoration']->content['block_menu_user']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_menu_user';
   cache::$data['data--pages-page-decoration']->content['block_logo'] = new \stdClass();
   cache::$data['data--pages-page-decoration']->content['block_logo']->region = 'head_3';
   cache::$data['data--pages-page-decoration']->content['block_logo']->type = 'code';
-  cache::$data['data--pages-page-decoration']->content['block_logo']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_logo';
+  cache::$data['data--pages-page-decoration']->content['block_logo']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_logo';
   cache::$data['data--pages-page-decoration']->content['block_title'] = new \stdClass();
   cache::$data['data--pages-page-decoration']->content['block_title']->region = 'main_1';
   cache::$data['data--pages-page-decoration']->content['block_title']->type = 'code';
-  cache::$data['data--pages-page-decoration']->content['block_title']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_title';
+  cache::$data['data--pages-page-decoration']->content['block_title']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_title';
   cache::$data['data--pages-page-decoration']->content['form_decoration'] = new \stdClass();
   cache::$data['data--pages-page-decoration']->content['form_decoration']->region = 'main_1';
   cache::$data['data--pages-page-decoration']->content['form_decoration']->type = 'link';

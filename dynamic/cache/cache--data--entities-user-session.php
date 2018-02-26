@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--entities-user-session
+namespace effcore { # cache for data--entities-user-session
 
-  cache::$data['data--entities-user-session'] = new \effectivecore\entity();
+  cache::$data['data--entities-user-session'] = new \effcore\entity();
   cache::$data['data--entities-user-session']->name = 'session';
   cache::$data['data--entities-user-session']->storage_id = 'main';
   cache::$data['data--entities-user-session']->catalog_id = 'sessions';

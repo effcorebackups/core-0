@@ -1,6 +1,6 @@
 <?php
 
-namespace effectivecore { # cache for data--file_types
+namespace effcore { # cache for data--file_types
 
   cache::$data['data--file_types']['core']['code_php'] = new \stdClass();
   cache::$data['data--file_types']['core']['code_php']->type = 'php';

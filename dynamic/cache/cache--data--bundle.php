@@ -1,6 +1,6 @@
 <?php
 
-namespace effectivecore { # cache for data--bundle
+namespace effcore { # cache for data--bundle
 
   cache::$data['data--bundle']['global'] = new \stdClass();
   cache::$data['data--bundle']['global']->id = 'system';

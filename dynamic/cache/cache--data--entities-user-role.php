@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--entities-user-role
+namespace effcore { # cache for data--entities-user-role
 
-  cache::$data['data--entities-user-role'] = new \effectivecore\entity();
+  cache::$data['data--entities-user-role'] = new \effcore\entity();
   cache::$data['data--entities-user-role']->name = 'role';
   cache::$data['data--entities-user-role']->storage_id = 'main';
   cache::$data['data--entities-user-role']->catalog_id = 'roles';

@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--tree_items
+namespace effcore { # cache for data--tree_items
 
-  cache::$data['data--tree_items']['core']['admin'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['core']['admin'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['core']['admin']->id = 'admin';
   cache::$data['data--tree_items']['core']['admin']->id_parent = 'main';
   cache::$data['data--tree_items']['core']['admin']->parent_is_tree = true;
@@ -10,7 +10,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['core']['admin']->attributes['class']['admin'] = 'admin';
   cache::$data['data--tree_items']['core']['admin']->access = new \stdClass();
   cache::$data['data--tree_items']['core']['admin']->access->roles['admins'] = 'admins';
-  cache::$data['data--tree_items']['core']['modules'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['core']['modules'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['core']['modules']->id = 'modules';
   cache::$data['data--tree_items']['core']['modules']->id_parent = 'admin';
   cache::$data['data--tree_items']['core']['modules']->title = 'Modules';
@@ -18,7 +18,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['core']['modules']->attributes['class']['modules'] = 'modules';
   cache::$data['data--tree_items']['core']['modules']->access = new \stdClass();
   cache::$data['data--tree_items']['core']['modules']->access->roles['admins'] = 'admins';
-  cache::$data['data--tree_items']['core']['info'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['core']['info'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['core']['info']->id = 'info';
   cache::$data['data--tree_items']['core']['info']->id_parent = 'admin';
   cache::$data['data--tree_items']['core']['info']->title = 'Information';
@@ -27,7 +27,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['core']['info']->weight = 100;
   cache::$data['data--tree_items']['core']['info']->access = new \stdClass();
   cache::$data['data--tree_items']['core']['info']->access->roles['admins'] = 'admins';
-  cache::$data['data--tree_items']['develop']['develop'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['develop']['develop'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['develop']['develop']->id = 'develop';
   cache::$data['data--tree_items']['develop']['develop']->id_parent = 'main';
   cache::$data['data--tree_items']['develop']['develop']->parent_is_tree = true;
@@ -35,7 +35,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['develop']['develop']->attributes['class']['develop'] = 'develop';
   cache::$data['data--tree_items']['develop']['develop']->access = new \stdClass();
   cache::$data['data--tree_items']['develop']['develop']->access->roles['admins'] = 'admins';
-  cache::$data['data--tree_items']['develop']['demo'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['develop']['demo'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['develop']['demo']->id = 'demo';
   cache::$data['data--tree_items']['develop']['demo']->id_parent = 'develop';
   cache::$data['data--tree_items']['develop']['demo']->title = 'Demo';
@@ -43,7 +43,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['develop']['demo']->attributes['class']['demo'] = 'demo';
   cache::$data['data--tree_items']['develop']['demo']->access = new \stdClass();
   cache::$data['data--tree_items']['develop']['demo']->access->roles['admins'] = 'admins';
-  cache::$data['data--tree_items']['page']['decoration'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['page']['decoration'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['page']['decoration']->id = 'decoration';
   cache::$data['data--tree_items']['page']['decoration']->id_parent = 'admin';
   cache::$data['data--tree_items']['page']['decoration']->title = 'Decoration';
@@ -51,7 +51,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['page']['decoration']->attributes['class']['decoration'] = 'decoration';
   cache::$data['data--tree_items']['page']['decoration']->access = new \stdClass();
   cache::$data['data--tree_items']['page']['decoration']->access->roles['admins'] = 'admins';
-  cache::$data['data--tree_items']['user']['login'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['user']['login'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['user']['login']->id = 'login';
   cache::$data['data--tree_items']['user']['login']->id_parent = 'user_anonymous';
   cache::$data['data--tree_items']['user']['login']->parent_is_tree = true;
@@ -61,7 +61,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['login']->weight = -20;
   cache::$data['data--tree_items']['user']['login']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['login']->access->roles['anonymous'] = 'anonymous';
-  cache::$data['data--tree_items']['user']['registration'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['user']['registration'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['user']['registration']->id = 'registration';
   cache::$data['data--tree_items']['user']['registration']->id_parent = 'user_anonymous';
   cache::$data['data--tree_items']['user']['registration']->parent_is_tree = true;
@@ -71,7 +71,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['registration']->weight = -10;
   cache::$data['data--tree_items']['user']['registration']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['registration']->access->roles['anonymous'] = 'anonymous';
-  cache::$data['data--tree_items']['user']['user_edit'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['user']['user_edit'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['user']['user_edit']->id = 'user_edit';
   cache::$data['data--tree_items']['user']['user_edit']->id_parent = 'user_logged_in';
   cache::$data['data--tree_items']['user']['user_edit']->parent_is_tree = true;
@@ -82,7 +82,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['user_edit']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['user_edit']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['user']['user_edit']->access->roles['registered'] = 'registered';
-  cache::$data['data--tree_items']['user']['logout'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['user']['logout'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['user']['logout']->id = 'logout';
   cache::$data['data--tree_items']['user']['logout']->id_parent = 'user_logged_in';
   cache::$data['data--tree_items']['user']['logout']->parent_is_tree = true;
@@ -92,7 +92,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['logout']->weight = -10;
   cache::$data['data--tree_items']['user']['logout']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['logout']->access->roles['registered'] = 'registered';
-  cache::$data['data--tree_items']['user']['roles'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['user']['roles'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['user']['roles']->id = 'roles';
   cache::$data['data--tree_items']['user']['roles']->id_parent = 'admin';
   cache::$data['data--tree_items']['user']['roles']->title = 'Roles';
@@ -100,7 +100,7 @@ namespace effectivecore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['roles']->attributes['class']['roles'] = 'roles';
   cache::$data['data--tree_items']['user']['roles']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['roles']->access->roles['admins'] = 'admins';
-  cache::$data['data--tree_items']['user']['users'] = new \effectivecore\tree_item();
+  cache::$data['data--tree_items']['user']['users'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['user']['users']->id = 'users';
   cache::$data['data--tree_items']['user']['users']->id_parent = 'admin';
   cache::$data['data--tree_items']['user']['users']->title = 'Users';

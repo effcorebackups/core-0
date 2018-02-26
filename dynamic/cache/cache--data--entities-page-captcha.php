@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--entities-page-captcha
+namespace effcore { # cache for data--entities-page-captcha
 
-  cache::$data['data--entities-page-captcha'] = new \effectivecore\entity();
+  cache::$data['data--entities-page-captcha'] = new \effcore\entity();
   cache::$data['data--entities-page-captcha']->name = 'captcha';
   cache::$data['data--entities-page-captcha']->storage_id = 'main';
   cache::$data['data--entities-page-captcha']->catalog_id = 'captcha';

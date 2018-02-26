@@ -1,6 +1,6 @@
 <?php
 
-namespace effectivecore { # cache for data--frontend
+namespace effcore { # cache for data--frontend
 
   cache::$data['data--frontend']['page']['frontend_page_n'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->display = new \stdClass();

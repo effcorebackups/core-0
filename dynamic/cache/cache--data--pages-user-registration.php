@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--pages-user-registration
+namespace effcore { # cache for data--pages-user-registration
 
-  cache::$data['data--pages-user-registration'] = new \effectivecore\page();
+  cache::$data['data--pages-user-registration'] = new \effcore\page();
   cache::$data['data--pages-user-registration']->title = 'Registration';
   cache::$data['data--pages-user-registration']->https = true;
   cache::$data['data--pages-user-registration']->display = new \stdClass();
@@ -17,15 +17,15 @@ namespace effectivecore { # cache for data--pages-user-registration
   cache::$data['data--pages-user-registration']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages-user-registration']->content['block_menu_user']->region = 'head_2';
   cache::$data['data--pages-user-registration']->content['block_menu_user']->type = 'code';
-  cache::$data['data--pages-user-registration']->content['block_menu_user']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_menu_user';
+  cache::$data['data--pages-user-registration']->content['block_menu_user']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_menu_user';
   cache::$data['data--pages-user-registration']->content['block_logo'] = new \stdClass();
   cache::$data['data--pages-user-registration']->content['block_logo']->region = 'head_3';
   cache::$data['data--pages-user-registration']->content['block_logo']->type = 'code';
-  cache::$data['data--pages-user-registration']->content['block_logo']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_logo';
+  cache::$data['data--pages-user-registration']->content['block_logo']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_logo';
   cache::$data['data--pages-user-registration']->content['block_title'] = new \stdClass();
   cache::$data['data--pages-user-registration']->content['block_title']->region = 'main_1';
   cache::$data['data--pages-user-registration']->content['block_title']->type = 'code';
-  cache::$data['data--pages-user-registration']->content['block_title']->handler = '\\effectivecore\\modules\\core\\events_page::on_show_block_title';
+  cache::$data['data--pages-user-registration']->content['block_title']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_title';
   cache::$data['data--pages-user-registration']->content['form_registration'] = new \stdClass();
   cache::$data['data--pages-user-registration']->content['form_registration']->region = 'main_1';
   cache::$data['data--pages-user-registration']->content['form_registration']->type = 'link';

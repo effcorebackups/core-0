@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--entities-user-permission
+namespace effcore { # cache for data--entities-user-permission
 
-  cache::$data['data--entities-user-permission'] = new \effectivecore\entity();
+  cache::$data['data--entities-user-permission'] = new \effcore\entity();
   cache::$data['data--entities-user-permission']->name = 'permission';
   cache::$data['data--entities-user-permission']->storage_id = 'main';
   cache::$data['data--entities-user-permission']->catalog_id = 'permissions';

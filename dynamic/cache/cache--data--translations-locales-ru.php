@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--translations-locales-ru
+namespace effcore { # cache for data--translations-locales-ru
 
-  cache::$data['data--translations-locales-ru'] = new \effectivecore\translation();
+  cache::$data['data--translations-locales-ru'] = new \effcore\translation();
   cache::$data['data--translations-locales-ru']->code = 'ru';
   cache::$data['data--translations-locales-ru']->data['- select -'] = '- выбрать -';
   cache::$data['data--translations-locales-ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';

@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--entities-user-relation_role_ws_permission
+namespace effcore { # cache for data--entities-user-relation_role_ws_permission
 
-  cache::$data['data--entities-user-relation_role_ws_permission'] = new \effectivecore\entity();
+  cache::$data['data--entities-user-relation_role_ws_permission'] = new \effcore\entity();
   cache::$data['data--entities-user-relation_role_ws_permission']->name = 'relation_role_ws_permission';
   cache::$data['data--entities-user-relation_role_ws_permission']->storage_id = 'main';
   cache::$data['data--entities-user-relation_role_ws_permission']->catalog_id = 'relations_role_ws_permission';

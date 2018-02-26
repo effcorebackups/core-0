@@ -1,8 +1,8 @@
 <?php
 
-namespace effectivecore { # cache for data--tests
+namespace effcore { # cache for data--tests
 
-  cache::$data['data--tests']['develop']['register_user'] = new \effectivecore\test();
+  cache::$data['data--tests']['develop']['register_user'] = new \effcore\test();
   cache::$data['data--tests']['develop']['register_user']->id = 'register_user';
   cache::$data['data--tests']['develop']['register_user']->https = true;
   cache::$data['data--tests']['develop']['register_user']->url = 'user/registration';

@@ -1,6 +1,6 @@
 <?php
 
-namespace effectivecore { # cache for data--settings
+namespace effcore { # cache for data--settings
 
   cache::$data['data--settings']['core'] = new \stdClass();
   cache::$data['data--settings']['core']->key = '69eac3e85d7b1751cd8d6138039458f6233bda00';

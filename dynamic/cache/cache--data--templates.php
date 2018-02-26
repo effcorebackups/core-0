@@ -1,6 +1,6 @@
 <?php
 
-namespace effectivecore { # cache for data--templates
+namespace effcore { # cache for data--templates
 
   cache::$data['data--templates']['page']['markup_html'] = new \stdClass();
   cache::$data['data--templates']['page']['markup_html']->type = 'inline';
