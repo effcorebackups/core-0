@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-02-26 16:14:46';
+  cache::$info['data_original']['build'] = '2018-02-28 11:07:03';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1367,15 +1367,15 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tokens']['page']['color_ok'] = new \stdClass();
   cache::$data['data_original']['tokens']['page']['color_ok']->match = '%%_color_ok';
   cache::$data['data_original']['tokens']['page']['color_ok']->type = 'text';
-  cache::$data['data_original']['tokens']['page']['color_ok']->value = 'limegreen';
+  cache::$data['data_original']['tokens']['page']['color_ok']->value = '#30c432';
   cache::$data['data_original']['tokens']['page']['color_error'] = new \stdClass();
   cache::$data['data_original']['tokens']['page']['color_error']->match = '%%_color_error';
   cache::$data['data_original']['tokens']['page']['color_error']->type = 'text';
-  cache::$data['data_original']['tokens']['page']['color_error']->value = 'tomato';
+  cache::$data['data_original']['tokens']['page']['color_error']->value = '#fc5740';
   cache::$data['data_original']['tokens']['page']['color_warning'] = new \stdClass();
   cache::$data['data_original']['tokens']['page']['color_warning']->match = '%%_color_warning';
   cache::$data['data_original']['tokens']['page']['color_warning']->type = 'text';
-  cache::$data['data_original']['tokens']['page']['color_warning']->value = 'orange';
+  cache::$data['data_original']['tokens']['page']['color_warning']->value = '#fd9a1e';
   cache::$data['data_original']['tokens']['user']['id_user'] = new \stdClass();
   cache::$data['data_original']['tokens']['user']['id_user']->match = '%%_id_user';
   cache::$data['data_original']['tokens']['user']['id_user']->type = 'code';
