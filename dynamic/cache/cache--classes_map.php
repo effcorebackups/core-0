@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-03-01 12:01:42';
+  cache::$info['classes_map']['build'] = '2018-03-01 18:20:18';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->type = 'class';
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
@@ -123,6 +123,18 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\pattern']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\pattern']->name = 'pattern';
   cache::$data['classes_map']['effcore\pattern']->file = 'system/core/backend/pattern.php';
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_1'] = new \stdClass();
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_1']->type = 'class';
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_1']->namespace = 'effcore\\modules\\develop';
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_1']->name = 'demo_class_1';
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_1']->extends = '\\effcore\\factory';
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_1']->file = 'system/develop/backend/demo--classes.php';
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_2'] = new \stdClass();
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_2']->type = 'class';
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_2']->namespace = 'effcore\\modules\\develop';
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_2']->name = 'demo_class_2';
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_2']->extends = '\\effcore\\factory';
+  cache::$data['classes_map']['effcore\modules\develop\demo_class_2']->file = 'system/develop/backend/demo--classes.php';
   cache::$data['classes_map']['effcore\modules\develop\events_form'] = new \stdClass();
   cache::$data['classes_map']['effcore\modules\develop\events_form']->type = 'class';
   cache::$data['classes_map']['effcore\modules\develop\events_form']->namespace = 'effcore\\modules\\develop';

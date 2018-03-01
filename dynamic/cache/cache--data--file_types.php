@@ -6,6 +6,10 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['code_php']->type = 'php';
   cache::$data['data--file_types']['core']['code_php']->protected = 1;
   cache::$data['data--file_types']['core']['code_php']->headers['Content-type'] = 'text/html';
+  cache::$data['data--file_types']['core']['shell_script'] = new \stdClass();
+  cache::$data['data--file_types']['core']['shell_script']->type = 'sh';
+  cache::$data['data--file_types']['core']['shell_script']->protected = 1;
+  cache::$data['data--file_types']['core']['shell_script']->headers['Content-type'] = 'text/html';
   cache::$data['data--file_types']['core']['styles'] = new \stdClass();
   cache::$data['data--file_types']['core']['styles']->type = 'css';
   cache::$data['data--file_types']['core']['styles']->headers['Content-type'] = 'text/css';

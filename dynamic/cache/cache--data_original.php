@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-01 12:01:42';
+  cache::$info['data_original']['build'] = '2018-03-01 18:20:19';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -113,6 +113,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['code_php']->type = 'php';
   cache::$data['data_original']['file_types']['core']['code_php']->protected = 1;
   cache::$data['data_original']['file_types']['core']['code_php']->headers['Content-type'] = 'text/html';
+  cache::$data['data_original']['file_types']['core']['shell_script'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['shell_script']->type = 'sh';
+  cache::$data['data_original']['file_types']['core']['shell_script']->protected = 1;
+  cache::$data['data_original']['file_types']['core']['shell_script']->headers['Content-type'] = 'text/html';
   cache::$data['data_original']['file_types']['core']['styles'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['styles']->type = 'css';
   cache::$data['data_original']['file_types']['core']['styles']->headers['Content-type'] = 'text/css';
