@@ -37,30 +37,30 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->file = 'frontend/icon-192x192.png';
   cache::$data['data--frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->sizes = '192x192';
   cache::$data['data--frontend']['page']['frontend_page_n']->styles['style_page'] = new \stdClass();
-  cache::$data['data--frontend']['page']['frontend_page_n']->styles['style_page']->file = 'frontend/page.css';
+  cache::$data['data--frontend']['page']['frontend_page_n']->styles['style_page']->file = 'frontend/page._style';
   cache::$data['data--frontend']['page']['frontend_page_n']->styles['style_page']->media = 'all';
   cache::$data['data--frontend']['page']['frontend_page_n']->styles['style_console'] = new \stdClass();
-  cache::$data['data--frontend']['page']['frontend_page_n']->styles['style_console']->file = 'frontend/console.css';
+  cache::$data['data--frontend']['page']['frontend_page_n']->styles['style_console']->file = 'frontend/console._style';
   cache::$data['data--frontend']['page']['frontend_page_n']->styles['style_console']->media = 'all';
   cache::$data['data--frontend']['page']['frontend_page_n']->script['script_page'] = new \stdClass();
-  cache::$data['data--frontend']['page']['frontend_page_n']->script['script_page']->file = 'frontend/page.js';
+  cache::$data['data--frontend']['page']['frontend_page_n']->script['script_page']->file = 'frontend/page._script';
   cache::$data['data--frontend']['page']['frontend_form_n'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->display = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->display->check = 'dpath';
   cache::$data['data--frontend']['page']['frontend_form_n']->display->match = '%^forms/.*$%';
   cache::$data['data--frontend']['page']['frontend_form_n']->display->where = 'block';
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['style_form'] = new \stdClass();
-  cache::$data['data--frontend']['page']['frontend_form_n']->styles['style_form']->file = 'frontend/form.css';
+  cache::$data['data--frontend']['page']['frontend_form_n']->styles['style_form']->file = 'frontend/form._style';
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['style_form']->media = 'all';
   cache::$data['data--frontend']['page']['frontend_form_n']->script['script_form'] = new \stdClass();
-  cache::$data['data--frontend']['page']['frontend_form_n']->script['script_form']->file = 'frontend/form.js';
+  cache::$data['data--frontend']['page']['frontend_form_n']->script['script_form']->file = 'frontend/form._script';
   cache::$data['data--frontend']['tree']['frontend_block_tree'] = new \stdClass();
   cache::$data['data--frontend']['tree']['frontend_block_tree']->display = new \stdClass();
   cache::$data['data--frontend']['tree']['frontend_block_tree']->display->check = 'dpath';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->display->match = '%^trees/.*$%';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->display->where = 'block';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['style_tree'] = new \stdClass();
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['style_tree']->file = 'frontend/tree.css';
+  cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['style_tree']->file = 'frontend/tree._style';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['style_tree']->media = 'all';
 
 }
