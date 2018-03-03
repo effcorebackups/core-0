@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-03 15:40:41';
+  cache::$info['data_original']['build'] = '2018-03-03 18:01:44';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -118,6 +118,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['markdown_protected'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['markdown_protected']->type = '_mark';
   cache::$data['data_original']['file_types']['core']['markdown_protected']->protected = 1;
+  cache::$data['data_original']['file_types']['core']['template'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['template']->type = '_template';
+  cache::$data['data_original']['file_types']['core']['template']->protected = 1;
   cache::$data['data_original']['file_types']['core']['styles_dynamic'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['styles_dynamic']->type = '_style';
   cache::$data['data_original']['file_types']['core']['styles_dynamic']->use_tokens = 1;
@@ -2626,19 +2629,19 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['templates']['page']['form_container']->markup = '<%%_tag_name %%_attributes> %%_title_t %%_content %%_title_b %%_description </%%_tag_name>';
   cache::$data['data_original']['templates']['page']['page'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['page']->type = 'file';
-  cache::$data['data_original']['templates']['page']['page']->path = 'frontend/template--page.html';
+  cache::$data['data_original']['templates']['page']['page']->path = 'frontend/template--page._template';
   cache::$data['data_original']['templates']['page']['page_access_denided'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['page_access_denided']->type = 'file';
-  cache::$data['data_original']['templates']['page']['page_access_denided']->path = 'frontend/template--page--access_denided.html';
+  cache::$data['data_original']['templates']['page']['page_access_denided']->path = 'frontend/template--page--access_denided._template';
   cache::$data['data_original']['templates']['page']['page_not_found'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['page_not_found']->type = 'file';
-  cache::$data['data_original']['templates']['page']['page_not_found']->path = 'frontend/template--page--not_found.html';
+  cache::$data['data_original']['templates']['page']['page_not_found']->path = 'frontend/template--page--not_found._template';
   cache::$data['data_original']['templates']['page']['page_simple'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['page_simple']->type = 'file';
-  cache::$data['data_original']['templates']['page']['page_simple']->path = 'frontend/template--page_simple.html';
+  cache::$data['data_original']['templates']['page']['page_simple']->path = 'frontend/template--page_simple._template';
   cache::$data['data_original']['templates']['page']['canvas_svg'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['canvas_svg']->type = 'file';
-  cache::$data['data_original']['templates']['page']['canvas_svg']->path = 'frontend/template--canvas_svg.xml';
+  cache::$data['data_original']['templates']['page']['canvas_svg']->path = 'frontend/template--canvas_svg._template';
   cache::$data['data_original']['templates']['tree']['tree'] = new \stdClass();
   cache::$data['data_original']['templates']['tree']['tree']->type = 'inline';
   cache::$data['data_original']['templates']['tree']['tree']->markup = '<x-tree %%_attributes> <h3 class="hidden">%%_self</h3> <ul>%%_children</ul> </x-tree>';

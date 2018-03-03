@@ -11,6 +11,9 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['markdown_protected'] = new \stdClass();
   cache::$data['data--file_types']['core']['markdown_protected']->type = '_mark';
   cache::$data['data--file_types']['core']['markdown_protected']->protected = 1;
+  cache::$data['data--file_types']['core']['template'] = new \stdClass();
+  cache::$data['data--file_types']['core']['template']->type = '_template';
+  cache::$data['data--file_types']['core']['template']->protected = 1;
   cache::$data['data--file_types']['core']['styles_dynamic'] = new \stdClass();
   cache::$data['data--file_types']['core']['styles_dynamic']->type = '_style';
   cache::$data['data--file_types']['core']['styles_dynamic']->use_tokens = 1;
