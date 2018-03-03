@@ -14,7 +14,7 @@ namespace effcore {
 
   function build() {
     $lang_code = language::get_current();
-    $license_file = new file(dir_root.'license-'.$lang_code.'.md');
+    $license_file = new file(dir_root.'license-'.$lang_code.'._mark');
     $markup_license = new markup('x-license', [], markdown::markdown_to_markup($license_file->load()));
     $markup_agree = new form_container_checkboxes(['is_agree' => $this->title_for_agree], ['is_agree' => 'is_agree']);
     $markup_agree->input_attributes['name'] = 'is_agree';

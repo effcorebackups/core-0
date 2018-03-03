@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-03 15:07:58';
+  cache::$info['data_original']['build'] = '2018-03-03 15:40:41';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -115,20 +115,27 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['shell_script'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['shell_script']->type = 'sh';
   cache::$data['data_original']['file_types']['core']['shell_script']->protected = 1;
-  cache::$data['data_original']['file_types']['core']['styles'] = new \stdClass();
-  cache::$data['data_original']['file_types']['core']['styles']->type = 'css';
-  cache::$data['data_original']['file_types']['core']['styles']->headers['Content-type'] = 'text/css';
+  cache::$data['data_original']['file_types']['core']['markdown_protected'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['markdown_protected']->type = '_mark';
+  cache::$data['data_original']['file_types']['core']['markdown_protected']->protected = 1;
   cache::$data['data_original']['file_types']['core']['styles_dynamic'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['styles_dynamic']->type = '_style';
   cache::$data['data_original']['file_types']['core']['styles_dynamic']->use_tokens = 1;
   cache::$data['data_original']['file_types']['core']['styles_dynamic']->headers['Content-type'] = 'text/css';
-  cache::$data['data_original']['file_types']['core']['javascript'] = new \stdClass();
-  cache::$data['data_original']['file_types']['core']['javascript']->type = 'js';
-  cache::$data['data_original']['file_types']['core']['javascript']->headers['Content-type'] = 'text/javascript';
+  cache::$data['data_original']['file_types']['core']['image_svg_dynamic'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['image_svg_dynamic']->type = '_vector';
+  cache::$data['data_original']['file_types']['core']['image_svg_dynamic']->use_tokens = 1;
+  cache::$data['data_original']['file_types']['core']['image_svg_dynamic']->headers['Content-type'] = 'image/svg+xml';
   cache::$data['data_original']['file_types']['core']['javascript_dynamic'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['javascript_dynamic']->type = '_script';
   cache::$data['data_original']['file_types']['core']['javascript_dynamic']->use_tokens = 1;
   cache::$data['data_original']['file_types']['core']['javascript_dynamic']->headers['Content-type'] = 'text/javascript';
+  cache::$data['data_original']['file_types']['core']['styles'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['styles']->type = 'css';
+  cache::$data['data_original']['file_types']['core']['styles']->headers['Content-type'] = 'text/css';
+  cache::$data['data_original']['file_types']['core']['javascript'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['javascript']->type = 'js';
+  cache::$data['data_original']['file_types']['core']['javascript']->headers['Content-type'] = 'text/javascript';
   cache::$data['data_original']['file_types']['core']['markup_html'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['markup_html']->type = 'html';
   cache::$data['data_original']['file_types']['core']['markup_html']->headers['Content-type'] = 'text/html';
@@ -138,19 +145,15 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['text'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['text']->type = 'txt';
   cache::$data['data_original']['file_types']['core']['text']->headers['Content-type'] = 'text/plain';
-  cache::$data['data_original']['file_types']['core']['md'] = new \stdClass();
-  cache::$data['data_original']['file_types']['core']['md']->type = 'md';
-  cache::$data['data_original']['file_types']['core']['md']->headers['Content-type'] = 'text/markdown';
+  cache::$data['data_original']['file_types']['core']['markdown'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['markdown']->type = 'md';
+  cache::$data['data_original']['file_types']['core']['markdown']->headers['Content-type'] = 'text/markdown';
   cache::$data['data_original']['file_types']['core']['image_generic'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['image_generic']->type = 'image';
   cache::$data['data_original']['file_types']['core']['image_generic']->headers['Content-type'] = 'image/*';
   cache::$data['data_original']['file_types']['core']['image_svg'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['image_svg']->type = 'svg';
   cache::$data['data_original']['file_types']['core']['image_svg']->headers['Content-type'] = 'image/svg+xml';
-  cache::$data['data_original']['file_types']['core']['image_svg_dynamic'] = new \stdClass();
-  cache::$data['data_original']['file_types']['core']['image_svg_dynamic']->type = '_vector';
-  cache::$data['data_original']['file_types']['core']['image_svg_dynamic']->use_tokens = 1;
-  cache::$data['data_original']['file_types']['core']['image_svg_dynamic']->headers['Content-type'] = 'image/svg+xml';
   cache::$data['data_original']['file_types']['core']['image_ico'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['image_ico']->type = 'ico';
   cache::$data['data_original']['file_types']['core']['image_ico']->headers['Content-type'] = 'image/x-icon';
