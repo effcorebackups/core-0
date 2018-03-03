@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-03 09:29:52';
+  cache::$info['data_original']['build'] = '2018-03-03 09:44:46';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -163,12 +163,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['image_png']->type = 'png';
   cache::$data['data_original']['file_types']['core']['image_png']->headers['Content-type'] = 'image/png';
   cache::$data['data_original']['file_types']['storage']['db_files'] = new \stdClass();
-  cache::$data['data_original']['file_types']['storage']['db_files']->type = '_d';
+  cache::$data['data_original']['file_types']['storage']['db_files']->type = '_data';
   cache::$data['data_original']['file_types']['storage']['db_files']->protected = 1;
-  cache::$data['data_original']['file_types']['storage']['db_files']->headers['Content-type'] = 'text/data';
+  cache::$data['data_original']['file_types']['storage']['db_files']->headers['Content-type'] = 'text/html';
   cache::$data['data_original']['file_types']['storage']['db_sqlite'] = new \stdClass();
   cache::$data['data_original']['file_types']['storage']['db_sqlite']->type = 'sqlite';
   cache::$data['data_original']['file_types']['storage']['db_sqlite']->protected = 1;
+  cache::$data['data_original']['file_types']['storage']['db_sqlite']->headers['Content-type'] = 'text/html';
   cache::$data['data_original']['forms']['core']['install'] = new \effcore\form();
   cache::$data['data_original']['forms']['core']['install']->children['storage'] = new \effcore\form_container();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->tag_name = 'fieldset';

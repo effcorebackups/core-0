@@ -56,11 +56,12 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['image_png']->type = 'png';
   cache::$data['data--file_types']['core']['image_png']->headers['Content-type'] = 'image/png';
   cache::$data['data--file_types']['storage']['db_files'] = new \stdClass();
-  cache::$data['data--file_types']['storage']['db_files']->type = '_d';
+  cache::$data['data--file_types']['storage']['db_files']->type = '_data';
   cache::$data['data--file_types']['storage']['db_files']->protected = 1;
-  cache::$data['data--file_types']['storage']['db_files']->headers['Content-type'] = 'text/data';
+  cache::$data['data--file_types']['storage']['db_files']->headers['Content-type'] = 'text/html';
   cache::$data['data--file_types']['storage']['db_sqlite'] = new \stdClass();
   cache::$data['data--file_types']['storage']['db_sqlite']->type = 'sqlite';
   cache::$data['data--file_types']['storage']['db_sqlite']->protected = 1;
+  cache::$data['data--file_types']['storage']['db_sqlite']->headers['Content-type'] = 'text/html';
 
 }
