@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-03 08:38:25';
+  cache::$info['data_original']['build'] = '2018-03-03 09:29:52';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -2189,6 +2189,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Checkboxes (macro)'] = 'Флажки (макро)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Checkboxes'] = 'Флажки';
+  cache::$data['data_original']['translations']['locales']['ru']->data['class'] = 'класс';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Classes list'] = 'Список классов';
   cache::$data['data_original']['translations']['locales']['ru']->data['Classes'] = 'Классы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color'] = 'Цвет';
@@ -2280,6 +2282,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['installation'] = 'установка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Instances of entity %%_name was added.'] = 'Экземпляры сущности %%_name были добавлены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Instances of entity %%_name was not added!'] = 'Экземпляры сущности %%_name не были добавлены!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['interface'] = 'интерфейс';
+  cache::$data['data_original']['translations']['locales']['ru']->data['intr.'] = 'интр.';
   cache::$data['data_original']['translations']['locales']['ru']->data['invalid session was deleted!'] = 'Недействительный сеанс был удален!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Is always on'] = 'Всегда включен';
   cache::$data['data_original']['translations']['locales']['ru']->data['Is embed'] = 'Встроенный';
@@ -2312,6 +2316,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Module information'] = 'Информация о модуле';
   cache::$data['data_original']['translations']['locales']['ru']->data['Modules was installed.'] = 'Модули были установлены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Modules'] = 'Модули';
+  cache::$data['data_original']['translations']['locales']['ru']->data['name'] = 'имя';
   cache::$data['data_original']['translations']['locales']['ru']->data['Name'] = 'Имя';
   cache::$data['data_original']['translations']['locales']['ru']->data['New password must be different from the current password!'] = 'Новый пароль должен отличаться от текущего!';
   cache::$data['data_original']['translations']['locales']['ru']->data['New password'] = 'Новый пароль';
@@ -2391,6 +2396,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Total'] = 'Всего';
   cache::$data['data_original']['translations']['locales']['ru']->data['Translate'] = 'Перевод';
   cache::$data['data_original']['translations']['locales']['ru']->data['Tree'] = 'Дерево';
+  cache::$data['data_original']['translations']['locales']['ru']->data['type'] = 'тип';
   cache::$data['data_original']['translations']['locales']['ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
   cache::$data['data_original']['translations']['locales']['ru']->data['uninstall'] = 'удалить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
