@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-02 12:00:10';
+  cache::$info['data_original']['build'] = '2018-03-03 08:38:25';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1027,6 +1027,34 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->region = 'main_1';
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->type = 'code';
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->handler = '\\effcore\\modules\\core\\events_page::on_show_modules';
+  cache::$data['data_original']['pages']['develop']['classes'] = new \effcore\page();
+  cache::$data['data_original']['pages']['develop']['classes']->title = 'Classes';
+  cache::$data['data_original']['pages']['develop']['classes']->https = true;
+  cache::$data['data_original']['pages']['develop']['classes']->display = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->display->check = 'url';
+  cache::$data['data_original']['pages']['develop']['classes']->display->match = '%^/develop/classes$%';
+  cache::$data['data_original']['pages']['develop']['classes']->access = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->access->roles['admins'] = 'admins';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_menu_main'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_menu_main']->region = 'main_menu';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_menu_main']->type = 'link';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_menu_user'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_menu_user']->region = 'head_2';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_menu_user']->type = 'code';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_menu_user']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_logo'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_logo']->region = 'head_3';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_logo']->type = 'code';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_logo']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_logo';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_title'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_title']->region = 'main_1';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_title']->type = 'code';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_title']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes']->region = 'main_1';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes']->type = 'code';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_classes';
   cache::$data['data_original']['pages']['develop']['demo'] = new \effcore\page();
   cache::$data['data_original']['pages']['develop']['demo']->title = 'Demo';
   cache::$data['data_original']['pages']['develop']['demo']->https = true;
@@ -1452,6 +1480,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tree_items']['develop']['demo']->attributes['class']['demo'] = 'demo';
   cache::$data['data_original']['tree_items']['develop']['demo']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['develop']['demo']->access->roles['admins'] = 'admins';
+  cache::$data['data_original']['tree_items']['develop']['classes'] = new \effcore\tree_item();
+  cache::$data['data_original']['tree_items']['develop']['classes']->id = 'classes';
+  cache::$data['data_original']['tree_items']['develop']['classes']->id_parent = 'develop';
+  cache::$data['data_original']['tree_items']['develop']['classes']->title = 'Classes';
+  cache::$data['data_original']['tree_items']['develop']['classes']->attributes['href'] = '/develop/classes';
+  cache::$data['data_original']['tree_items']['develop']['classes']->attributes['class']['classes'] = 'classes';
+  cache::$data['data_original']['tree_items']['develop']['classes']->access = new \stdClass();
+  cache::$data['data_original']['tree_items']['develop']['classes']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['tree_items']['page']['decoration'] = new \effcore\tree_item();
   cache::$data['data_original']['tree_items']['page']['decoration']->id = 'decoration';
   cache::$data['data_original']['tree_items']['page']['decoration']->id_parent = 'admin';
@@ -2153,6 +2189,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Checkboxes (macro)'] = 'Флажки (макро)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Checkboxes'] = 'Флажки';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Classes'] = 'Классы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color'] = 'Цвет';
   cache::$data['data_original']['translations']['locales']['ru']->data['Colors'] = 'Цвета';

@@ -38,6 +38,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
   cache::$data['data--translations-locales-ru']->data['Checkboxes (macro)'] = 'Флажки (макро)';
   cache::$data['data--translations-locales-ru']->data['Checkboxes'] = 'Флажки';
+  cache::$data['data--translations-locales-ru']->data['Classes'] = 'Классы';
   cache::$data['data--translations-locales-ru']->data['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   cache::$data['data--translations-locales-ru']->data['Color'] = 'Цвет';
   cache::$data['data--translations-locales-ru']->data['Colors'] = 'Цвета';

@@ -29,6 +29,13 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['core']['modules']->display->match = '%^/admin/modules$%';
   cache::$data['data--pages']['core']['modules']->access = new \stdClass();
   cache::$data['data--pages']['core']['modules']->access->roles['admins'] = 'admins';
+  cache::$data['data--pages']['develop']['classes'] = new \effcore\different_cache();
+  cache::$data['data--pages']['develop']['classes']->cache_name = 'data--pages-develop-classes';
+  cache::$data['data--pages']['develop']['classes']->display = new \stdClass();
+  cache::$data['data--pages']['develop']['classes']->display->check = 'url';
+  cache::$data['data--pages']['develop']['classes']->display->match = '%^/develop/classes$%';
+  cache::$data['data--pages']['develop']['classes']->access = new \stdClass();
+  cache::$data['data--pages']['develop']['classes']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['develop']['demo'] = new \effcore\different_cache();
   cache::$data['data--pages']['develop']['demo']->cache_name = 'data--pages-develop-demo';
   cache::$data['data--pages']['develop']['demo']->display = new \stdClass();

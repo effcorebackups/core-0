@@ -43,6 +43,14 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['develop']['demo']->attributes['class']['demo'] = 'demo';
   cache::$data['data--tree_items']['develop']['demo']->access = new \stdClass();
   cache::$data['data--tree_items']['develop']['demo']->access->roles['admins'] = 'admins';
+  cache::$data['data--tree_items']['develop']['classes'] = new \effcore\tree_item();
+  cache::$data['data--tree_items']['develop']['classes']->id = 'classes';
+  cache::$data['data--tree_items']['develop']['classes']->id_parent = 'develop';
+  cache::$data['data--tree_items']['develop']['classes']->title = 'Classes';
+  cache::$data['data--tree_items']['develop']['classes']->attributes['href'] = '/develop/classes';
+  cache::$data['data--tree_items']['develop']['classes']->attributes['class']['classes'] = 'classes';
+  cache::$data['data--tree_items']['develop']['classes']->access = new \stdClass();
+  cache::$data['data--tree_items']['develop']['classes']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['page']['decoration'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['page']['decoration']->id = 'decoration';
   cache::$data['data--tree_items']['page']['decoration']->id_parent = 'admin';
