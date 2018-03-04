@@ -14,6 +14,9 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['_template'] = new \stdClass();
   cache::$data['data--file_types']['core']['_template']->type = '_template';
   cache::$data['data--file_types']['core']['_template']->protected = 1;
+  cache::$data['data--file_types']['core']['_protected'] = new \stdClass();
+  cache::$data['data--file_types']['core']['_protected']->type = '_protected';
+  cache::$data['data--file_types']['core']['_protected']->protected = 1;
   cache::$data['data--file_types']['core']['_style'] = new \stdClass();
   cache::$data['data--file_types']['core']['_style']->type = '_style';
   cache::$data['data--file_types']['core']['_style']->use_tokens = 1;
@@ -29,6 +32,9 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['7z'] = new \stdClass();
   cache::$data['data--file_types']['core']['7z']->type = '7z';
   cache::$data['data--file_types']['core']['7z']->headers['Content-type'] = 'application/x-7z-compressed';
+  cache::$data['data--file_types']['core']['aac'] = new \stdClass();
+  cache::$data['data--file_types']['core']['aac']->type = 'aac';
+  cache::$data['data--file_types']['core']['aac']->headers['Content-type'] = 'audio/aac';
   cache::$data['data--file_types']['core']['aiff'] = new \stdClass();
   cache::$data['data--file_types']['core']['aiff']->type = 'aiff';
   cache::$data['data--file_types']['core']['aiff']->headers['Content-type'] = 'audio/aiff';
@@ -53,6 +59,9 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['eot'] = new \stdClass();
   cache::$data['data--file_types']['core']['eot']->type = 'eot';
   cache::$data['data--file_types']['core']['eot']->headers['Content-type'] = 'application/vnd.ms-fontobject';
+  cache::$data['data--file_types']['core']['flac'] = new \stdClass();
+  cache::$data['data--file_types']['core']['flac']->type = 'flac';
+  cache::$data['data--file_types']['core']['flac']->headers['Content-type'] = 'audio/flac';
   cache::$data['data--file_types']['core']['flv'] = new \stdClass();
   cache::$data['data--file_types']['core']['flv']->type = 'flv';
   cache::$data['data--file_types']['core']['flv']->headers['Content-type'] = 'video/x-flv';
@@ -83,6 +92,9 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['js'] = new \stdClass();
   cache::$data['data--file_types']['core']['js']->type = 'js';
   cache::$data['data--file_types']['core']['js']->headers['Content-type'] = 'text/javascript';
+  cache::$data['data--file_types']['core']['m4a'] = new \stdClass();
+  cache::$data['data--file_types']['core']['m4a']->type = 'm4a';
+  cache::$data['data--file_types']['core']['m4a']->headers['Content-type'] = 'audio/mp4';
   cache::$data['data--file_types']['core']['midi'] = new \stdClass();
   cache::$data['data--file_types']['core']['midi']->type = 'midi';
   cache::$data['data--file_types']['core']['midi']->headers['Content-type'] = 'audio/midi';
@@ -97,7 +109,7 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['mp4']->headers['Content-type'] = 'audio/mp4';
   cache::$data['data--file_types']['core']['mpeg'] = new \stdClass();
   cache::$data['data--file_types']['core']['mpeg']->type = 'mpeg';
-  cache::$data['data--file_types']['core']['mpeg']->headers['Content-type'] = 'video/mp4';
+  cache::$data['data--file_types']['core']['mpeg']->headers['Content-type'] = 'video/mpeg';
   cache::$data['data--file_types']['core']['mpg'] = new \stdClass();
   cache::$data['data--file_types']['core']['mpg']->type = 'mpg';
   cache::$data['data--file_types']['core']['mpg']->headers['Content-type'] = 'video/mp4';
@@ -168,7 +180,7 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['woff']->type = 'woff';
   cache::$data['data--file_types']['core']['woff']->headers['Content-type'] = 'application/font-woff';
   cache::$data['data--file_types']['core']['woff2'] = new \stdClass();
-  cache::$data['data--file_types']['core']['woff2']->type = '7z';
+  cache::$data['data--file_types']['core']['woff2']->type = 'woff2';
   cache::$data['data--file_types']['core']['woff2']->headers['Content-type'] = 'application/font-woff2';
   cache::$data['data--file_types']['core']['xls'] = new \stdClass();
   cache::$data['data--file_types']['core']['xls']->type = 'xls';
