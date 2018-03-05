@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-04 18:08:17';
+  cache::$info['data_original']['build'] = '2018-03-05 09:10:50';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -135,7 +135,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['_script'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['_script']->type = '_script';
   cache::$data['data_original']['file_types']['core']['_script']->use_tokens = 1;
-  cache::$data['data_original']['file_types']['core']['_script']->headers['Content-type'] = 'text/javascript';
+  cache::$data['data_original']['file_types']['core']['_script']->headers['Content-type'] = 'application/javascript';
   cache::$data['data_original']['file_types']['core']['7z'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['7z']->type = '7z';
   cache::$data['data_original']['file_types']['core']['7z']->headers['Content-type'] = 'application/x-7z-compressed';
@@ -181,6 +181,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['gzip'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['gzip']->type = 'gzip';
   cache::$data['data_original']['file_types']['core']['gzip']->headers['Content-type'] = 'application/x-gzip';
+  cache::$data['data_original']['file_types']['core']['htm'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['htm']->type = 'htm';
+  cache::$data['data_original']['file_types']['core']['htm']->headers['Content-type'] = 'text/html';
   cache::$data['data_original']['file_types']['core']['html'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['html']->type = 'html';
   cache::$data['data_original']['file_types']['core']['html']->headers['Content-type'] = 'text/html';
@@ -198,7 +201,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['jpg']->headers['Content-type'] = 'image/jpeg';
   cache::$data['data_original']['file_types']['core']['js'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['js']->type = 'js';
-  cache::$data['data_original']['file_types']['core']['js']->headers['Content-type'] = 'text/javascript';
+  cache::$data['data_original']['file_types']['core']['js']->headers['Content-type'] = 'application/javascript';
   cache::$data['data_original']['file_types']['core']['keynote'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['keynote']->type = 'keynote';
   cache::$data['data_original']['file_types']['core']['keynote']->headers['Content-type'] = 'application/x-iwork-keynote-sffkey';
@@ -2736,32 +2739,32 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->rel = 'apple-touch-icon';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->file = 'frontend/icon-192x192.png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->sizes = '192x192';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['style_page'] = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['style_page']->file = 'frontend/page._style';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['style_page']->media = 'all';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['style_console'] = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['style_console']->file = 'frontend/console._style';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['style_console']->media = 'all';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->script['script_page'] = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->script['script_page']->file = 'frontend/page._script';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style'] = new \stdClass();
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style']->file = 'frontend/page._style';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style']->media = 'all';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['console_style'] = new \stdClass();
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['console_style']->file = 'frontend/console._style';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['console_style']->media = 'all';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_script'] = new \stdClass();
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_script']->file = 'frontend/page._script';
   cache::$data['data_original']['frontend']['page']['frontend_form_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->check = 'dpath';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->match = '%^forms/.*$%';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->where = 'block';
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['style_form'] = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['style_form']->file = 'frontend/form._style';
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['style_form']->media = 'all';
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->script['script_form'] = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->script['script_form']->file = 'frontend/form._script';
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style'] = new \stdClass();
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style']->file = 'frontend/form._style';
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style']->media = 'all';
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->scripts['form_script'] = new \stdClass();
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->scripts['form_script']->file = 'frontend/form._script';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree'] = new \stdClass();
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display = new \stdClass();
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->check = 'dpath';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->match = '%^trees/.*$%';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->where = 'block';
-  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree'] = new \stdClass();
-  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree']->file = 'frontend/tree._style';
-  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['style_tree']->media = 'all';
+  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['tree_style'] = new \stdClass();
+  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['tree_style']->file = 'frontend/tree._style';
+  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['tree_style']->media = 'all';
   cache::$data['data_original']['templates']['page']['markup_html'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['markup_html']->type = 'inline';
   cache::$data['data_original']['templates']['page']['markup_html']->markup = '<%%_tag_name %%_attributes>%%_content</%%_tag_name>';

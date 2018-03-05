@@ -28,7 +28,7 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['_script'] = new \stdClass();
   cache::$data['data--file_types']['core']['_script']->type = '_script';
   cache::$data['data--file_types']['core']['_script']->use_tokens = 1;
-  cache::$data['data--file_types']['core']['_script']->headers['Content-type'] = 'text/javascript';
+  cache::$data['data--file_types']['core']['_script']->headers['Content-type'] = 'application/javascript';
   cache::$data['data--file_types']['core']['7z'] = new \stdClass();
   cache::$data['data--file_types']['core']['7z']->type = '7z';
   cache::$data['data--file_types']['core']['7z']->headers['Content-type'] = 'application/x-7z-compressed';
@@ -74,6 +74,9 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['gzip'] = new \stdClass();
   cache::$data['data--file_types']['core']['gzip']->type = 'gzip';
   cache::$data['data--file_types']['core']['gzip']->headers['Content-type'] = 'application/x-gzip';
+  cache::$data['data--file_types']['core']['htm'] = new \stdClass();
+  cache::$data['data--file_types']['core']['htm']->type = 'htm';
+  cache::$data['data--file_types']['core']['htm']->headers['Content-type'] = 'text/html';
   cache::$data['data--file_types']['core']['html'] = new \stdClass();
   cache::$data['data--file_types']['core']['html']->type = 'html';
   cache::$data['data--file_types']['core']['html']->headers['Content-type'] = 'text/html';
@@ -91,7 +94,7 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['jpg']->headers['Content-type'] = 'image/jpeg';
   cache::$data['data--file_types']['core']['js'] = new \stdClass();
   cache::$data['data--file_types']['core']['js']->type = 'js';
-  cache::$data['data--file_types']['core']['js']->headers['Content-type'] = 'text/javascript';
+  cache::$data['data--file_types']['core']['js']->headers['Content-type'] = 'application/javascript';
   cache::$data['data--file_types']['core']['keynote'] = new \stdClass();
   cache::$data['data--file_types']['core']['keynote']->type = 'keynote';
   cache::$data['data--file_types']['core']['keynote']->headers['Content-type'] = 'application/x-iwork-keynote-sffkey';
