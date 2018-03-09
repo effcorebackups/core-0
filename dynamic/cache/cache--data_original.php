@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-05 10:31:32';
+  cache::$info['data_original']['build'] = '2018-03-09 11:02:02';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -2595,7 +2595,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Search'] = 'Поиск';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select (macro)'] = 'Список (макро)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select'] = 'Список';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Server load (sys_getloadavg)'] = 'Загр. серв. (sys_getloadavg)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data_original']['translations']['locales']['ru']->data['set'] = 'установка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Shared information'] = 'Общая информация';

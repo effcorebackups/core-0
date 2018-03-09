@@ -210,7 +210,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Search'] = 'Поиск';
   cache::$data['data--translations-locales-ru']->data['Select (macro)'] = 'Список (макро)';
   cache::$data['data--translations-locales-ru']->data['Select'] = 'Список';
-  cache::$data['data--translations-locales-ru']->data['Server load (sys_getloadavg)'] = 'Загр. серв. (sys_getloadavg)';
   cache::$data['data--translations-locales-ru']->data['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data--translations-locales-ru']->data['set'] = 'установка';
   cache::$data['data--translations-locales-ru']->data['Shared information'] = 'Общая информация';
