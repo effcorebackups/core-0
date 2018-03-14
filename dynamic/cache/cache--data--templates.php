@@ -41,5 +41,11 @@ namespace effcore { # cache for data--templates
   cache::$data['data--templates']['tree']['tree_item_children'] = new \stdClass();
   cache::$data['data--templates']['tree']['tree_item_children']->type = 'inline';
   cache::$data['data--templates']['tree']['tree_item_children']->markup = '<ul> %%_children </ul>';
+  cache::$data['data--templates']['tree']['tab_item'] = new \stdClass();
+  cache::$data['data--templates']['tree']['tab_item']->type = 'inline';
+  cache::$data['data--templates']['tree']['tab_item']->markup = '<li %%_attributes> %%_self %%_children </li>';
+  cache::$data['data--templates']['tree']['tab_item_children'] = new \stdClass();
+  cache::$data['data--templates']['tree']['tab_item_children']->type = 'inline';
+  cache::$data['data--templates']['tree']['tab_item_children']->markup = '<ul> %%_children </ul>';
 
 }
