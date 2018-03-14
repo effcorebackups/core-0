@@ -180,6 +180,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['ok'] = 'ок';
   cache::$data['data--translations-locales-ru']->data['on this ip'] = 'на этом ip';
   cache::$data['data--translations-locales-ru']->data['Operating System'] = 'Операционная система';
+  cache::$data['data--translations-locales-ru']->data['OS Version'] = 'Версия ОС';
   cache::$data['data--translations-locales-ru']->data['Page not found'] = 'Страница не найдена';
   cache::$data['data--translations-locales-ru']->data['Page'] = 'Страница';
   cache::$data['data--translations-locales-ru']->data['Parameter'] = 'Параметр';
@@ -190,7 +191,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['data--translations-locales-ru']->data['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache::$data['data--translations-locales-ru']->data['PHP Version'] = 'PHP Версия';
-  cache::$data['data--translations-locales-ru']->data['OS Version'] = 'Версия ОС';
   cache::$data['data--translations-locales-ru']->data['Provisioning key'] = 'Ключ обеспечения';
   cache::$data['data--translations-locales-ru']->data['Queries'] = 'Запросы';
   cache::$data['data--translations-locales-ru']->data['query = "%%_query"'] = 'запрос = "%%_query"';
