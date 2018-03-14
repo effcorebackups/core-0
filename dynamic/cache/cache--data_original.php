@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-13 08:04:47';
+  cache::$info['data_original']['build'] = '2018-03-14 08:26:07';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -2571,6 +2571,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Path'] = 'Путь';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Provisioning key'] = 'Ключ обеспечения';
   cache::$data['data_original']['translations']['locales']['ru']->data['Queries'] = 'Запросы';
   cache::$data['data_original']['translations']['locales']['ru']->data['query = "%%_query"'] = 'запрос = "%%_query"';
   cache::$data['data_original']['translations']['locales']['ru']->data['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
