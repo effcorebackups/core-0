@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-14 08:33:19';
+  cache::$info['data_original']['build'] = '2018-03-14 08:43:42';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -2404,6 +2404,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Allowable characters: %%_chars.'] = 'Допустимые символы: %%_chars.';
   cache::$data['data_original']['translations']['locales']['ru']->data['always_enabled'] = 'всегда_вкл';
   cache::$data['data_original']['translations']['locales']['ru']->data['Anonymous'] = 'Аноним';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Architecture'] = 'Архитектура';
   cache::$data['data_original']['translations']['locales']['ru']->data['Author'] = 'Автор';
   cache::$data['data_original']['translations']['locales']['ru']->data['autoload'] = 'автозагрузка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Avatar'] = 'Аватар';
@@ -2503,6 +2504,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
   cache::$data['data_original']['translations']['locales']['ru']->data['Home'] = 'Дом';
   cache::$data['data_original']['translations']['locales']['ru']->data['Host name'] = 'Имя хоста';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Hostname'] = 'Имя узла сети';
   cache::$data['data_original']['translations']['locales']['ru']->data['I accept the terms of the license agreement'] = 'Я принимаю условия лицензионного соглашения';
   cache::$data['data_original']['translations']['locales']['ru']->data['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Information'] = 'Информация';
@@ -2562,6 +2564,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Object'] = 'Объект';
   cache::$data['data_original']['translations']['locales']['ru']->data['ok'] = 'ок';
   cache::$data['data_original']['translations']['locales']['ru']->data['on this ip'] = 'на этом ip';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Operating System'] = 'Операционная система';
   cache::$data['data_original']['translations']['locales']['ru']->data['Page not found'] = 'Страница не найдена';
   cache::$data['data_original']['translations']['locales']['ru']->data['Page'] = 'Страница';
   cache::$data['data_original']['translations']['locales']['ru']->data['Parameter'] = 'Параметр';
@@ -2571,6 +2574,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Path'] = 'Путь';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['PHP Release'] = 'PHP Выпуск';
+  cache::$data['data_original']['translations']['locales']['ru']->data['PHP Version'] = 'PHP Версия';
   cache::$data['data_original']['translations']['locales']['ru']->data['Provisioning key'] = 'Ключ обеспечения';
   cache::$data['data_original']['translations']['locales']['ru']->data['Queries'] = 'Запросы';
   cache::$data['data_original']['translations']['locales']['ru']->data['query = "%%_query"'] = 'запрос = "%%_query"';
