@@ -196,7 +196,7 @@ namespace effcore { # cache for data--forms-develop-demo
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['not_selected']->tag_name = 'option';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['not_selected']->children['label'] = new \effcore\text();
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['not_selected']->children['label']->text = '- select -';
-  cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['not_selected']->attributes['value:'] = new \stdClass();
+  cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['not_selected']->attributes['value'] = '';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['option_1_1'] = new \effcore\markup();
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['option_1_1']->tag_name = 'option';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['option_1_1']->children['label'] = new \effcore\text();
