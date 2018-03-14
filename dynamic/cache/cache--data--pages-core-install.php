@@ -25,7 +25,7 @@ namespace effcore { # cache for data--pages-core-install
   cache::$data['data--pages-core-install']->content['block_title'] = new \stdClass();
   cache::$data['data--pages-core-install']->content['block_title']->region = 'content';
   cache::$data['data--pages-core-install']->content['block_title']->type = 'code';
-  cache::$data['data--pages-core-install']->content['block_title']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_title';
+  cache::$data['data--pages-core-install']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
   cache::$data['data--pages-core-install']->content['form_install'] = new \stdClass();
   cache::$data['data--pages-core-install']->content['form_install']->region = 'content';
   cache::$data['data--pages-core-install']->content['form_install']->type = 'link';

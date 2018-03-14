@@ -26,7 +26,7 @@ namespace effcore { # cache for data--pages-user-roles
   cache::$data['data--pages-user-roles']->content['block_title'] = new \stdClass();
   cache::$data['data--pages-user-roles']->content['block_title']->region = 'content';
   cache::$data['data--pages-user-roles']->content['block_title']->type = 'code';
-  cache::$data['data--pages-user-roles']->content['block_title']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_title';
+  cache::$data['data--pages-user-roles']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
   cache::$data['data--pages-user-roles']->content['block_roles'] = new \stdClass();
   cache::$data['data--pages-user-roles']->content['block_roles']->region = 'content';
   cache::$data['data--pages-user-roles']->content['block_roles']->type = 'code';

@@ -186,7 +186,7 @@ namespace effcore { # cache for data--forms-develop-demo
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['textarea']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['textarea']->children['element']->attributes['required'] = 'required';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select'] = new \effcore\form_field();
-  cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->title = 'Select';
+  cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->title = 'Selection list';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->description = new \effcore\text();
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->description->text = 'Element %%_info.';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->description->args['info'] = '&lt;select&gt;';
@@ -196,7 +196,7 @@ namespace effcore { # cache for data--forms-develop-demo
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['not_selected']->tag_name = 'option';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['not_selected']->children['label'] = new \effcore\text();
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['not_selected']->children['label']->text = '- select -';
-  cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['not_selected']->attributes['value'] = '';
+  cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['not_selected']->attributes['value:'] = new \stdClass();
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['option_1_1'] = new \effcore\markup();
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['option_1_1']->tag_name = 'option';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select']->children['element']->children['option_1_1']->children['label'] = new \effcore\text();
@@ -247,7 +247,7 @@ namespace effcore { # cache for data--forms-develop-demo
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select_macro']->values['group_2_1']->values['option_2_4'] = 'Option 2.4';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select_macro']->selected['option_2_1'] = 'option_2_1';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select_macro']->disabled['option_2_2'] = 'option_2_2';
-  cache::$data['data--forms-develop-demo']->children['form_elements']->children['select_macro']->title = 'Select (macro)';
+  cache::$data['data--forms-develop-demo']->children['form_elements']->children['select_macro']->title = 'Selection list (macro)';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select_macro']->description = new \effcore\text();
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select_macro']->description->text = 'Element %%_info.';
   cache::$data['data--forms-develop-demo']->children['form_elements']->children['select_macro']->description->args['info'] = '&lt;select&gt;';

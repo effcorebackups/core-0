@@ -62,6 +62,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Decoration'] = 'Оформление';
   cache::$data['data--translations-locales-ru']->data['delete file: %%_name'] = 'удалить файл: %%_name';
   cache::$data['data--translations-locales-ru']->data['Delete user %%_nick_context{4}?'] = 'Удалить пользователя %%_nick_context{4}?';
+  cache::$data['data--translations-locales-ru']->data['Delete'] = 'Удалить';
   cache::$data['data--translations-locales-ru']->data['delete'] = 'удалить';
   cache::$data['data--translations-locales-ru']->data['Demo sub module description.'] = 'Описание демонстрационного подмодуля';
   cache::$data['data--translations-locales-ru']->data['Demo sub module title'] = 'Заголовок демонстрационного подмодуля';
@@ -125,6 +126,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Information'] = 'Информация';
   cache::$data['data--translations-locales-ru']->data['init.'] = 'инициал.';
   cache::$data['data--translations-locales-ru']->data['initialization'] = 'инициализация';
+  cache::$data['data--translations-locales-ru']->data['Insert'] = 'Вставить';
   cache::$data['data--translations-locales-ru']->data['insertion'] = 'вставка';
   cache::$data['data--translations-locales-ru']->data['Install'] = 'Установить';
   cache::$data['data--translations-locales-ru']->data['install'] = 'установить';
@@ -214,8 +216,9 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['save'] = 'сохранить';
   cache::$data['data--translations-locales-ru']->data['search'] = 'поиск';
   cache::$data['data--translations-locales-ru']->data['Search'] = 'Поиск';
-  cache::$data['data--translations-locales-ru']->data['Select (macro)'] = 'Список (макро)';
-  cache::$data['data--translations-locales-ru']->data['Select'] = 'Список';
+  cache::$data['data--translations-locales-ru']->data['Select'] = 'Выбрать';
+  cache::$data['data--translations-locales-ru']->data['Selection list (macro)'] = 'Список выбора (макро)';
+  cache::$data['data--translations-locales-ru']->data['Selection list'] = 'Список выбора';
   cache::$data['data--translations-locales-ru']->data['Server software'] = 'Серверное ПО';
   cache::$data['data--translations-locales-ru']->data['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data--translations-locales-ru']->data['set'] = 'установка';
@@ -254,6 +257,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['type'] = 'тип';
   cache::$data['data--translations-locales-ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
   cache::$data['data--translations-locales-ru']->data['uninstall'] = 'удалить';
+  cache::$data['data--translations-locales-ru']->data['Update'] = 'Обновить';
   cache::$data['data--translations-locales-ru']->data['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   cache::$data['data--translations-locales-ru']->data['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';
   cache::$data['data--translations-locales-ru']->data['User %%_nick was not deleted!'] = 'Пользователь %%_nick не был удален.';

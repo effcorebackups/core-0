@@ -31,7 +31,7 @@ namespace effcore { # cache for data--pages-user-user_edit
   cache::$data['data--pages-user-user_edit']->content['block_title'] = new \stdClass();
   cache::$data['data--pages-user-user_edit']->content['block_title']->region = 'content';
   cache::$data['data--pages-user-user_edit']->content['block_title']->type = 'code';
-  cache::$data['data--pages-user-user_edit']->content['block_title']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_title';
+  cache::$data['data--pages-user-user_edit']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
   cache::$data['data--pages-user-user_edit']->content['form_user_edit'] = new \stdClass();
   cache::$data['data--pages-user-user_edit']->content['form_user_edit']->region = 'content';
   cache::$data['data--pages-user-user_edit']->content['form_user_edit']->type = 'link';
