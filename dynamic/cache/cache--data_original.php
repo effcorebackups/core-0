@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-15 08:28:09';
+  cache::$info['data_original']['build'] = '2018-03-15 08:57:05';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1609,6 +1609,33 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['settings']['page'] = new \stdClass();
   cache::$data['data_original']['settings']['page']->color_id = 'black';
   cache::$data['data_original']['settings']['page']->color_bg_id = 'modernblue';
+  cache::$data['data_original']['tab_items']['core']['entity_select'] = new \effcore\tab_item();
+  cache::$data['data_original']['tab_items']['core']['entity_select']->id = 'entity_select';
+  cache::$data['data_original']['tab_items']['core']['entity_select']->id_parent = 'entity';
+  cache::$data['data_original']['tab_items']['core']['entity_select']->title = 'Select';
+  cache::$data['data_original']['tab_items']['core']['entity_select']->attributes['href'] = 'select';
+  cache::$data['data_original']['tab_items']['core']['entity_select']->attributes['class']['entity-select'] = 'entity-select';
+  cache::$data['data_original']['tab_items']['core']['entity_insert'] = new \effcore\tab_item();
+  cache::$data['data_original']['tab_items']['core']['entity_insert']->id = 'entity_insert';
+  cache::$data['data_original']['tab_items']['core']['entity_insert']->id_parent = 'entity';
+  cache::$data['data_original']['tab_items']['core']['entity_insert']->title = 'Insert';
+  cache::$data['data_original']['tab_items']['core']['entity_insert']->attributes['href'] = 'insert';
+  cache::$data['data_original']['tab_items']['core']['entity_insert']->attributes['class']['entity-insert'] = 'entity-insert';
+  cache::$data['data_original']['tab_items']['core']['entity_update'] = new \effcore\tab_item();
+  cache::$data['data_original']['tab_items']['core']['entity_update']->id = 'entity_update';
+  cache::$data['data_original']['tab_items']['core']['entity_update']->id_parent = 'entity';
+  cache::$data['data_original']['tab_items']['core']['entity_update']->title = 'Update';
+  cache::$data['data_original']['tab_items']['core']['entity_update']->attributes['href'] = 'update';
+  cache::$data['data_original']['tab_items']['core']['entity_update']->attributes['class']['entity-update'] = 'entity-update';
+  cache::$data['data_original']['tab_items']['core']['entity_delete'] = new \effcore\tab_item();
+  cache::$data['data_original']['tab_items']['core']['entity_delete']->id = 'entity_delete';
+  cache::$data['data_original']['tab_items']['core']['entity_delete']->id_parent = 'entity';
+  cache::$data['data_original']['tab_items']['core']['entity_delete']->title = 'Delete';
+  cache::$data['data_original']['tab_items']['core']['entity_delete']->attributes['href'] = 'delete';
+  cache::$data['data_original']['tab_items']['core']['entity_delete']->attributes['class']['entity-delete'] = 'entity-delete';
+  cache::$data['data_original']['tabs']['core']['entity'] = new \effcore\tab();
+  cache::$data['data_original']['tabs']['core']['entity']->id = 'entity';
+  cache::$data['data_original']['tabs']['core']['entity']->attributes['class']['entity'] = 'entity';
   cache::$data['data_original']['tokens']['core']['text_no_items'] = new \stdClass();
   cache::$data['data_original']['tokens']['core']['text_no_items']->match = '%%_text_no_items';
   cache::$data['data_original']['tokens']['core']['text_no_items']->type = 'translated_text';
@@ -2906,37 +2933,5 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['storages']['storage']['storage_pdo_sql']->id = 'main';
   cache::$data['data_original']['storages']['storage']['storage_files_nosql'] = new \effcore\storage_files();
   cache::$data['data_original']['storages']['storage']['storage_files_nosql']->id = 'files';
-  cache::$data['data_original']['tab_items']['user']['users_select'] = new \effcore\tab_item();
-  cache::$data['data_original']['tab_items']['user']['users_select']->id = 'users_select';
-  cache::$data['data_original']['tab_items']['user']['users_select']->id_parent = 'users';
-  cache::$data['data_original']['tab_items']['user']['users_select']->title = 'Select';
-  cache::$data['data_original']['tab_items']['user']['users_select']->attributes['href'] = '/admin/users/select';
-  cache::$data['data_original']['tab_items']['user']['users_select']->attributes['class']['users-select'] = 'users-select';
-  cache::$data['data_original']['tab_items']['user']['users_select']->access = new \stdClass();
-  cache::$data['data_original']['tab_items']['user']['users_select']->access->roles['admins'] = 'admins';
-  cache::$data['data_original']['tab_items']['user']['users_insert'] = new \effcore\tab_item();
-  cache::$data['data_original']['tab_items']['user']['users_insert']->id = 'users_insert';
-  cache::$data['data_original']['tab_items']['user']['users_insert']->id_parent = 'users';
-  cache::$data['data_original']['tab_items']['user']['users_insert']->title = 'Insert';
-  cache::$data['data_original']['tab_items']['user']['users_insert']->attributes['href'] = '/admin/users/insert';
-  cache::$data['data_original']['tab_items']['user']['users_insert']->attributes['class']['users-insert'] = 'users-insert';
-  cache::$data['data_original']['tab_items']['user']['users_insert']->access = new \stdClass();
-  cache::$data['data_original']['tab_items']['user']['users_insert']->access->roles['admins'] = 'admins';
-  cache::$data['data_original']['tab_items']['user']['users_update'] = new \effcore\tab_item();
-  cache::$data['data_original']['tab_items']['user']['users_update']->id = 'users_update';
-  cache::$data['data_original']['tab_items']['user']['users_update']->id_parent = 'users';
-  cache::$data['data_original']['tab_items']['user']['users_update']->title = 'Update';
-  cache::$data['data_original']['tab_items']['user']['users_update']->attributes['href'] = '/admin/users/update';
-  cache::$data['data_original']['tab_items']['user']['users_update']->attributes['class']['users-update'] = 'users-update';
-  cache::$data['data_original']['tab_items']['user']['users_update']->access = new \stdClass();
-  cache::$data['data_original']['tab_items']['user']['users_update']->access->roles['admins'] = 'admins';
-  cache::$data['data_original']['tab_items']['user']['users_delete'] = new \effcore\tab_item();
-  cache::$data['data_original']['tab_items']['user']['users_delete']->id = 'users_delete';
-  cache::$data['data_original']['tab_items']['user']['users_delete']->id_parent = 'users';
-  cache::$data['data_original']['tab_items']['user']['users_delete']->title = 'Delete';
-  cache::$data['data_original']['tab_items']['user']['users_delete']->attributes['href'] = '/admin/users/delete';
-  cache::$data['data_original']['tab_items']['user']['users_delete']->attributes['class']['users-delete'] = 'users-delete';
-  cache::$data['data_original']['tab_items']['user']['users_delete']->access = new \stdClass();
-  cache::$data['data_original']['tab_items']['user']['users_delete']->access->roles['admins'] = 'admins';
 
 }
