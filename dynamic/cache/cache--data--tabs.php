@@ -2,8 +2,8 @@
 
 namespace effcore { # cache for data--tabs
 
-  cache::$data['data--tabs']['core']['entity'] = new \effcore\tabs();
-  cache::$data['data--tabs']['core']['entity']->id = 'entity';
-  cache::$data['data--tabs']['core']['entity']->attributes['class']['entity'] = 'entity';
+  cache::$data['data--tabs']['core']['instance_manage'] = new \effcore\tabs();
+  cache::$data['data--tabs']['core']['instance_manage']->id = 'instance_manage';
+  cache::$data['data--tabs']['core']['instance_manage']->attributes['class']['instance-manage'] = 'instance-manage';
 
 }

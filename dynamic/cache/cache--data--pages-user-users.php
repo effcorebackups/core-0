@@ -30,7 +30,7 @@ namespace effcore { # cache for data--pages-user-users
   cache::$data['data--pages-user-users']->content['block_tabs'] = new \stdClass();
   cache::$data['data--pages-user-users']->content['block_tabs']->region = 'tabs';
   cache::$data['data--pages-user-users']->content['block_tabs']->type = 'link';
-  cache::$data['data--pages-user-users']->content['block_tabs']->dpath = 'tabs/core/entity';
+  cache::$data['data--pages-user-users']->content['block_tabs']->dpath = 'tabs/core/instance_manage';
   cache::$data['data--pages-user-users']->content['block_users'] = new \stdClass();
   cache::$data['data--pages-user-users']->content['block_users']->region = 'content';
   cache::$data['data--pages-user-users']->content['block_users']->type = 'code';
