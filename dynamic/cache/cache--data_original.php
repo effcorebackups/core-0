@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-15 08:15:56';
+  cache::$info['data_original']['build'] = '2018-03-15 08:28:09';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -2893,6 +2893,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['templates']['tree']['tree_item_children'] = new \stdClass();
   cache::$data['data_original']['templates']['tree']['tree_item_children']->type = 'inline';
   cache::$data['data_original']['templates']['tree']['tree_item_children']->markup = '<ul> %%_children </ul>';
+  cache::$data['data_original']['templates']['tree']['tab'] = new \stdClass();
+  cache::$data['data_original']['templates']['tree']['tab']->type = 'inline';
+  cache::$data['data_original']['templates']['tree']['tab']->markup = '<x-tab %%_attributes> <h3 class="hidden">%%_self</h3> <ul>%%_children</ul> </x-tab>';
   cache::$data['data_original']['templates']['tree']['tab_item'] = new \stdClass();
   cache::$data['data_original']['templates']['tree']['tab_item']->type = 'inline';
   cache::$data['data_original']['templates']['tree']['tab_item']->markup = '<li %%_attributes> %%_self %%_children </li>';

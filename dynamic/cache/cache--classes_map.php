@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-03-15 08:15:56';
+  cache::$info['classes_map']['build'] = '2018-03-15 08:28:09';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->type = 'class';
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
@@ -419,6 +419,12 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\modules\tree\events_module']->name = 'events_module';
   cache::$data['classes_map']['effcore\modules\tree\events_module']->extends = '\\effcore\\events_module';
   cache::$data['classes_map']['effcore\modules\tree\events_module']->file = 'system/tree/backend/events--module.php';
+  cache::$data['classes_map']['effcore\tab'] = new \stdClass();
+  cache::$data['classes_map']['effcore\tab']->type = 'class';
+  cache::$data['classes_map']['effcore\tab']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\tab']->name = 'tab';
+  cache::$data['classes_map']['effcore\tab']->extends = '\\effcore\\node';
+  cache::$data['classes_map']['effcore\tab']->file = 'system/tree/backend/pattern--tab.php';
   cache::$data['classes_map']['effcore\tab_item'] = new \stdClass();
   cache::$data['classes_map']['effcore\tab_item']->type = 'class';
   cache::$data['classes_map']['effcore\tab_item']->namespace = 'effcore';
