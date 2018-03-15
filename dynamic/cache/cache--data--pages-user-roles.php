@@ -22,7 +22,7 @@ namespace effcore { # cache for data--pages-user-roles
   cache::$data['data--pages-user-roles']->content['block_logo'] = new \stdClass();
   cache::$data['data--pages-user-roles']->content['block_logo']->region = 'head';
   cache::$data['data--pages-user-roles']->content['block_logo']->type = 'code';
-  cache::$data['data--pages-user-roles']->content['block_logo']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_logo';
+  cache::$data['data--pages-user-roles']->content['block_logo']->handler = '\\effcore\\events_page::on_show_block_logo';
   cache::$data['data--pages-user-roles']->content['block_title'] = new \stdClass();
   cache::$data['data--pages-user-roles']->content['block_title']->region = 'content';
   cache::$data['data--pages-user-roles']->content['block_title']->type = 'code';
