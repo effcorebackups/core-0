@@ -23,7 +23,7 @@ namespace effcore { # cache for data--pages-user-logout
   cache::$data['data--pages-user-logout']->content['block_logo']->type = 'code';
   cache::$data['data--pages-user-logout']->content['block_logo']->handler = '\\effcore\\events_page::on_show_block_logo';
   cache::$data['data--pages-user-logout']->content['block_title'] = new \stdClass();
-  cache::$data['data--pages-user-logout']->content['block_title']->region = 'content';
+  cache::$data['data--pages-user-logout']->content['block_title']->region = 'title';
   cache::$data['data--pages-user-logout']->content['block_title']->type = 'code';
   cache::$data['data--pages-user-logout']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
   cache::$data['data--pages-user-logout']->content['form_logout'] = new \stdClass();
