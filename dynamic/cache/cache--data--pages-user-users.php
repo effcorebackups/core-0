@@ -7,7 +7,7 @@ namespace effcore { # cache for data--pages-user-users
   cache::$data['data--pages-user-users']->https = true;
   cache::$data['data--pages-user-users']->display = new \stdClass();
   cache::$data['data--pages-user-users']->display->check = 'url';
-  cache::$data['data--pages-user-users']->display->match = '%^/admin/users(/(?<action>[a-z]+)/(?<id_user>[0-9]+)|)$%';
+  cache::$data['data--pages-user-users']->display->match = '%^(?<base>/admin/users)(/(?<action>[a-z]+)/(?<id_user>[0-9]+)|)$%';
   cache::$data['data--pages-user-users']->access = new \stdClass();
   cache::$data['data--pages-user-users']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-user-users']->constants['items_per_page'] = 50;

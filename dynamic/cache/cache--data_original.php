@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-15 21:38:08';
+  cache::$info['data_original']['build'] = '2018-03-15 22:29:03';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1565,7 +1565,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['users']->https = true;
   cache::$data['data_original']['pages']['user']['users']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['users']->display->check = 'url';
-  cache::$data['data_original']['pages']['user']['users']->display->match = '%^/admin/users(/(?<action>[a-z]+)/(?<id_user>[0-9]+)|)$%';
+  cache::$data['data_original']['pages']['user']['users']->display->match = '%^(?<base>/admin/users)(/(?<action>[a-z]+)/(?<id_user>[0-9]+)|)$%';
   cache::$data['data_original']['pages']['user']['users']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['users']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['user']['users']->constants['items_per_page'] = 50;
