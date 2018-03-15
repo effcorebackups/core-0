@@ -28,9 +28,9 @@ namespace effcore { # cache for data--pages-user-users
   cache::$data['data--pages-user-users']->content['block_title']->type = 'code';
   cache::$data['data--pages-user-users']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
   cache::$data['data--pages-user-users']->content['block_tabs'] = new \stdClass();
-  cache::$data['data--pages-user-users']->content['block_tabs']->region = 'content';
-  cache::$data['data--pages-user-users']->content['block_tabs']->type = 'code';
-  cache::$data['data--pages-user-users']->content['block_tabs']->handler = '\\effcore\\events_page::on_show_block_tabs';
+  cache::$data['data--pages-user-users']->content['block_tabs']->region = 'tab';
+  cache::$data['data--pages-user-users']->content['block_tabs']->type = 'link';
+  cache::$data['data--pages-user-users']->content['block_tabs']->dpath = 'tabs/core/entity';
   cache::$data['data--pages-user-users']->content['block_users'] = new \stdClass();
   cache::$data['data--pages-user-users']->content['block_users']->region = 'content';
   cache::$data['data--pages-user-users']->content['block_users']->type = 'code';

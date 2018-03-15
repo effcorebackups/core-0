@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-15 09:14:18';
+  cache::$info['data_original']['build'] = '2018-03-15 09:35:55';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1589,9 +1589,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['users']->content['block_title']->type = 'code';
   cache::$data['data_original']['pages']['user']['users']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['user']['users']->content['block_tabs'] = new \stdClass();
-  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->region = 'content';
-  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->type = 'code';
-  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->handler = '\\effcore\\events_page::on_show_block_tabs';
+  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->region = 'tab';
+  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->type = 'link';
+  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->dpath = 'tabs/core/entity';
   cache::$data['data_original']['pages']['user']['users']->content['block_users'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['users']->content['block_users']->region = 'content';
   cache::$data['data_original']['pages']['user']['users']->content['block_users']->type = 'code';
@@ -1612,27 +1612,31 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tab_items']['core']['entity_select'] = new \effcore\tab_item();
   cache::$data['data_original']['tab_items']['core']['entity_select']->id = 'entity_select';
   cache::$data['data_original']['tab_items']['core']['entity_select']->id_parent = 'entity';
+  cache::$data['data_original']['tab_items']['core']['entity_select']->parent_is_tab = true;
   cache::$data['data_original']['tab_items']['core']['entity_select']->title = 'Select';
   cache::$data['data_original']['tab_items']['core']['entity_select']->attributes['href'] = 'select';
-  cache::$data['data_original']['tab_items']['core']['entity_select']->attributes['class']['entity-select'] = 'entity-select';
+  cache::$data['data_original']['tab_items']['core']['entity_select']->attributes['class']['select'] = 'select';
   cache::$data['data_original']['tab_items']['core']['entity_insert'] = new \effcore\tab_item();
   cache::$data['data_original']['tab_items']['core']['entity_insert']->id = 'entity_insert';
   cache::$data['data_original']['tab_items']['core']['entity_insert']->id_parent = 'entity';
+  cache::$data['data_original']['tab_items']['core']['entity_insert']->parent_is_tab = true;
   cache::$data['data_original']['tab_items']['core']['entity_insert']->title = 'Insert';
   cache::$data['data_original']['tab_items']['core']['entity_insert']->attributes['href'] = 'insert';
-  cache::$data['data_original']['tab_items']['core']['entity_insert']->attributes['class']['entity-insert'] = 'entity-insert';
+  cache::$data['data_original']['tab_items']['core']['entity_insert']->attributes['class']['insert'] = 'insert';
   cache::$data['data_original']['tab_items']['core']['entity_update'] = new \effcore\tab_item();
   cache::$data['data_original']['tab_items']['core']['entity_update']->id = 'entity_update';
   cache::$data['data_original']['tab_items']['core']['entity_update']->id_parent = 'entity';
+  cache::$data['data_original']['tab_items']['core']['entity_update']->parent_is_tab = true;
   cache::$data['data_original']['tab_items']['core']['entity_update']->title = 'Update';
   cache::$data['data_original']['tab_items']['core']['entity_update']->attributes['href'] = 'update';
-  cache::$data['data_original']['tab_items']['core']['entity_update']->attributes['class']['entity-update'] = 'entity-update';
+  cache::$data['data_original']['tab_items']['core']['entity_update']->attributes['class']['update'] = 'update';
   cache::$data['data_original']['tab_items']['core']['entity_delete'] = new \effcore\tab_item();
   cache::$data['data_original']['tab_items']['core']['entity_delete']->id = 'entity_delete';
   cache::$data['data_original']['tab_items']['core']['entity_delete']->id_parent = 'entity';
+  cache::$data['data_original']['tab_items']['core']['entity_delete']->parent_is_tab = true;
   cache::$data['data_original']['tab_items']['core']['entity_delete']->title = 'Delete';
   cache::$data['data_original']['tab_items']['core']['entity_delete']->attributes['href'] = 'delete';
-  cache::$data['data_original']['tab_items']['core']['entity_delete']->attributes['class']['entity-delete'] = 'entity-delete';
+  cache::$data['data_original']['tab_items']['core']['entity_delete']->attributes['class']['delete'] = 'delete';
   cache::$data['data_original']['tabs']['core']['entity'] = new \effcore\tab();
   cache::$data['data_original']['tabs']['core']['entity']->id = 'entity';
   cache::$data['data_original']['tabs']['core']['entity']->attributes['class']['entity'] = 'entity';
@@ -2922,7 +2926,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['templates']['tree']['tree_item_children']->markup = '<ul> %%_children </ul>';
   cache::$data['data_original']['templates']['tree']['tab'] = new \stdClass();
   cache::$data['data_original']['templates']['tree']['tab']->type = 'inline';
-  cache::$data['data_original']['templates']['tree']['tab']->markup = '<x-tab %%_attributes> <h3 class="hidden">%%_self</h3> <ul>%%_children</ul> </x-tab>';
+  cache::$data['data_original']['templates']['tree']['tab']->markup = '<x-tab %%_attributes> <ul>%%_children</ul> </x-tab>';
   cache::$data['data_original']['templates']['tree']['tab_item'] = new \stdClass();
   cache::$data['data_original']['templates']['tree']['tab_item']->type = 'inline';
   cache::$data['data_original']['templates']['tree']['tab_item']->markup = '<li %%_attributes> %%_self %%_children </li>';
