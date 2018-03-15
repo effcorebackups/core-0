@@ -82,7 +82,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['user']['user']->cache_name = 'data--pages-user-user';
   cache::$data['data--pages']['user']['user']->display = new \stdClass();
   cache::$data['data--pages']['user']['user']->display->check = 'url';
-  cache::$data['data--pages']['user']['user']->display->match = '%^/user/[0-9]+$%';
+  cache::$data['data--pages']['user']['user']->display->match = '%^/user/(?<id_user>[0-9]+)$%';
   cache::$data['data--pages']['user']['user']->access = new \stdClass();
   cache::$data['data--pages']['user']['user']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['user']['user']->access->roles['registered'] = 'registered';
@@ -90,14 +90,14 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['user']['user_delete']->cache_name = 'data--pages-user-user_delete';
   cache::$data['data--pages']['user']['user_delete']->display = new \stdClass();
   cache::$data['data--pages']['user']['user_delete']->display->check = 'url';
-  cache::$data['data--pages']['user']['user_delete']->display->match = '%^/admin/users/delete/[0-9]+$%';
+  cache::$data['data--pages']['user']['user_delete']->display->match = '%^/admin/users/delete/(?<id_user>[0-9]+)$%';
   cache::$data['data--pages']['user']['user_delete']->access = new \stdClass();
   cache::$data['data--pages']['user']['user_delete']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['user']['user_edit'] = new \effcore\different_cache();
   cache::$data['data--pages']['user']['user_edit']->cache_name = 'data--pages-user-user_edit';
   cache::$data['data--pages']['user']['user_edit']->display = new \stdClass();
   cache::$data['data--pages']['user']['user_edit']->display->check = 'url';
-  cache::$data['data--pages']['user']['user_edit']->display->match = '%^/user/[0-9]+/edit$%';
+  cache::$data['data--pages']['user']['user_edit']->display->match = '%^/user/(?<id_user>[0-9]+)/edit$%';
   cache::$data['data--pages']['user']['user_edit']->access = new \stdClass();
   cache::$data['data--pages']['user']['user_edit']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['user']['user_edit']->access->roles['registered'] = 'registered';

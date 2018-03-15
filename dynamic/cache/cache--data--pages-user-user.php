@@ -7,11 +7,10 @@ namespace effcore { # cache for data--pages-user-user
   cache::$data['data--pages-user-user']->https = true;
   cache::$data['data--pages-user-user']->display = new \stdClass();
   cache::$data['data--pages-user-user']->display->check = 'url';
-  cache::$data['data--pages-user-user']->display->match = '%^/user/[0-9]+$%';
+  cache::$data['data--pages-user-user']->display->match = '%^/user/(?<id_user>[0-9]+)$%';
   cache::$data['data--pages-user-user']->access = new \stdClass();
   cache::$data['data--pages-user-user']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-user-user']->access->roles['registered'] = 'registered';
-  cache::$data['data--pages-user-user']->args['id_user'] = 2;
   cache::$data['data--pages-user-user']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages-user-user']->content['block_menu_main']->region = 'main_menu';
   cache::$data['data--pages-user-user']->content['block_menu_main']->type = 'link';

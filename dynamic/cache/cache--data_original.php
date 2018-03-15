@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-15 13:34:56';
+  cache::$info['data_original']['build'] = '2018-03-15 14:52:02';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1471,11 +1471,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user']->https = true;
   cache::$data['data_original']['pages']['user']['user']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->display->check = 'url';
-  cache::$data['data_original']['pages']['user']['user']->display->match = '%^/user/[0-9]+$%';
+  cache::$data['data_original']['pages']['user']['user']->display->match = '%^/user/(?<id_user>[0-9]+)$%';
   cache::$data['data_original']['pages']['user']['user']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['user']['user']->access->roles['registered'] = 'registered';
-  cache::$data['data_original']['pages']['user']['user']->args['id_user'] = 2;
   cache::$data['data_original']['pages']['user']['user']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->content['block_menu_main']->region = 'main_menu';
   cache::$data['data_original']['pages']['user']['user']->content['block_menu_main']->type = 'link';
@@ -1501,10 +1500,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_delete']->https = true;
   cache::$data['data_original']['pages']['user']['user_delete']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_delete']->display->check = 'url';
-  cache::$data['data_original']['pages']['user']['user_delete']->display->match = '%^/admin/users/delete/[0-9]+$%';
+  cache::$data['data_original']['pages']['user']['user_delete']->display->match = '%^/admin/users/delete/(?<id_user>[0-9]+)$%';
   cache::$data['data_original']['pages']['user']['user_delete']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_delete']->access->roles['admins'] = 'admins';
-  cache::$data['data_original']['pages']['user']['user_delete']->args['id_user'] = 4;
   cache::$data['data_original']['pages']['user']['user_delete']->content['check_access_user_delete'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_delete']->content['check_access_user_delete']->region = 'head';
   cache::$data['data_original']['pages']['user']['user_delete']->content['check_access_user_delete']->type = 'code';
@@ -1534,11 +1532,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_edit']->https = true;
   cache::$data['data_original']['pages']['user']['user_edit']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->display->check = 'url';
-  cache::$data['data_original']['pages']['user']['user_edit']->display->match = '%^/user/[0-9]+/edit$%';
+  cache::$data['data_original']['pages']['user']['user_edit']->display->match = '%^/user/(?<id_user>[0-9]+)/edit$%';
   cache::$data['data_original']['pages']['user']['user_edit']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['user']['user_edit']->access->roles['registered'] = 'registered';
-  cache::$data['data_original']['pages']['user']['user_edit']->args['id_user'] = 2;
   cache::$data['data_original']['pages']['user']['user_edit']->content['check_access_user_edit'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->content['check_access_user_edit']->region = 'head';
   cache::$data['data_original']['pages']['user']['user_edit']->content['check_access_user_edit']->type = 'code';
