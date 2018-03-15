@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-15 09:10:13';
+  cache::$info['data_original']['build'] = '2018-03-15 09:14:18';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1584,14 +1584,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['users']->content['block_logo']->region = 'head';
   cache::$data['data_original']['pages']['user']['users']->content['block_logo']->type = 'code';
   cache::$data['data_original']['pages']['user']['users']->content['block_logo']->handler = '\\effcore\\events_page::on_show_block_logo';
-  cache::$data['data_original']['pages']['user']['users']->content['block_tabs'] = new \stdClass();
-  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->region = 'content';
-  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->type = 'code';
-  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->handler = '\\effcore\\events_page::on_show_block_tabs';
   cache::$data['data_original']['pages']['user']['users']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['users']->content['block_title']->region = 'content';
   cache::$data['data_original']['pages']['user']['users']->content['block_title']->type = 'code';
   cache::$data['data_original']['pages']['user']['users']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['user']['users']->content['block_tabs'] = new \stdClass();
+  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->region = 'content';
+  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->type = 'code';
+  cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->handler = '\\effcore\\events_page::on_show_block_tabs';
   cache::$data['data_original']['pages']['user']['users']->content['block_users'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['users']->content['block_users']->region = 'content';
   cache::$data['data_original']['pages']['user']['users']->content['block_users']->type = 'code';
