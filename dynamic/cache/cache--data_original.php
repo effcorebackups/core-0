@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-15 22:29:03';
+  cache::$info['data_original']['build'] = '2018-03-16 08:23:54';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1589,10 +1589,38 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->region = 'tabs';
   cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->type = 'link';
   cache::$data['data_original']['pages']['user']['users']->content['block_tabs']->dpath = 'tabs/core/instance_manage';
-  cache::$data['data_original']['pages']['user']['users']->content['block_users'] = new \stdClass();
-  cache::$data['data_original']['pages']['user']['users']->content['block_users']->region = 'content';
-  cache::$data['data_original']['pages']['user']['users']->content['block_users']->type = 'code';
-  cache::$data['data_original']['pages']['user']['users']->content['block_users']->handler = '\\effcore\\modules\\user\\events_page::on_show_block_users';
+  cache::$data['data_original']['pages']['user']['users']->content['users_insert'] = new \stdClass();
+  cache::$data['data_original']['pages']['user']['users']->content['users_insert']->display = new \stdClass();
+  cache::$data['data_original']['pages']['user']['users']->content['users_insert']->display->check = 'args';
+  cache::$data['data_original']['pages']['user']['users']->content['users_insert']->display->where = 'action';
+  cache::$data['data_original']['pages']['user']['users']->content['users_insert']->display->match = 'insert';
+  cache::$data['data_original']['pages']['user']['users']->content['users_insert']->region = 'content';
+  cache::$data['data_original']['pages']['user']['users']->content['users_insert']->type = 'code';
+  cache::$data['data_original']['pages']['user']['users']->content['users_insert']->handler = '\\effcore\\selector::users_insert';
+  cache::$data['data_original']['pages']['user']['users']->content['users_select'] = new \stdClass();
+  cache::$data['data_original']['pages']['user']['users']->content['users_select']->display = new \stdClass();
+  cache::$data['data_original']['pages']['user']['users']->content['users_select']->display->check = 'args';
+  cache::$data['data_original']['pages']['user']['users']->content['users_select']->display->where = 'action';
+  cache::$data['data_original']['pages']['user']['users']->content['users_select']->display->match = 'select';
+  cache::$data['data_original']['pages']['user']['users']->content['users_select']->region = 'content';
+  cache::$data['data_original']['pages']['user']['users']->content['users_select']->type = 'code';
+  cache::$data['data_original']['pages']['user']['users']->content['users_select']->handler = '\\effcore\\selector::users_select';
+  cache::$data['data_original']['pages']['user']['users']->content['users_update'] = new \stdClass();
+  cache::$data['data_original']['pages']['user']['users']->content['users_update']->display = new \stdClass();
+  cache::$data['data_original']['pages']['user']['users']->content['users_update']->display->check = 'args';
+  cache::$data['data_original']['pages']['user']['users']->content['users_update']->display->where = 'action';
+  cache::$data['data_original']['pages']['user']['users']->content['users_update']->display->match = 'update';
+  cache::$data['data_original']['pages']['user']['users']->content['users_update']->region = 'content';
+  cache::$data['data_original']['pages']['user']['users']->content['users_update']->type = 'code';
+  cache::$data['data_original']['pages']['user']['users']->content['users_update']->handler = '\\effcore\\selector::users_update';
+  cache::$data['data_original']['pages']['user']['users']->content['users_delete'] = new \stdClass();
+  cache::$data['data_original']['pages']['user']['users']->content['users_delete']->display = new \stdClass();
+  cache::$data['data_original']['pages']['user']['users']->content['users_delete']->display->check = 'args';
+  cache::$data['data_original']['pages']['user']['users']->content['users_delete']->display->where = 'action';
+  cache::$data['data_original']['pages']['user']['users']->content['users_delete']->display->match = 'delete';
+  cache::$data['data_original']['pages']['user']['users']->content['users_delete']->region = 'content';
+  cache::$data['data_original']['pages']['user']['users']->content['users_delete']->type = 'code';
+  cache::$data['data_original']['pages']['user']['users']->content['users_delete']->handler = '\\effcore\\selector::users_delete';
   cache::$data['data_original']['settings']['core'] = new \stdClass();
   cache::$data['data_original']['settings']['core']->key = 'abcde01234abcde01234abcde01234abcde01234';
   cache::$data['data_original']['settings']['locales'] = new \stdClass();
