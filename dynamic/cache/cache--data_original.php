@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-16 18:41:58';
+  cache::$info['data_original']['build'] = '2018-03-16 22:01:53';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1823,7 +1823,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['trees']['core']['main']->id = 'main';
   cache::$data['data_original']['trees']['core']['main']->title = 'Main menu';
   cache::$data['data_original']['trees']['core']['main']->attributes['class']['main'] = 'main';
-  cache::$data['data_original']['trees']['core']['main']->weight = 2;
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2947,13 +2946,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs']['storage']['instance_manage'] = new \effcore\tabs();
   cache::$data['data_original']['tabs']['storage']['instance_manage']->id = 'instance_manage';
   cache::$data['data_original']['tabs']['storage']['instance_manage']->attributes['class']['instance-manage'] = 'instance-manage';
-  cache::$data['data_original']['tabs_items']['storage']['select'] = new \effcore\tabs_item();
-  cache::$data['data_original']['tabs_items']['storage']['select']->id = 'select';
-  cache::$data['data_original']['tabs_items']['storage']['select']->id_parent = 'instance_manage';
-  cache::$data['data_original']['tabs_items']['storage']['select']->parent_is_tab = true;
-  cache::$data['data_original']['tabs_items']['storage']['select']->action_name = 'select';
-  cache::$data['data_original']['tabs_items']['storage']['select']->title = 'Select';
-  cache::$data['data_original']['tabs_items']['storage']['select']->attributes['class']['select'] = 'select';
   cache::$data['data_original']['tabs_items']['storage']['insert'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['storage']['insert']->id = 'insert';
   cache::$data['data_original']['tabs_items']['storage']['insert']->id_parent = 'instance_manage';
@@ -2961,6 +2953,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['storage']['insert']->action_name = 'insert';
   cache::$data['data_original']['tabs_items']['storage']['insert']->title = 'Insert';
   cache::$data['data_original']['tabs_items']['storage']['insert']->attributes['class']['insert'] = 'insert';
+  cache::$data['data_original']['tabs_items']['storage']['select'] = new \effcore\tabs_item();
+  cache::$data['data_original']['tabs_items']['storage']['select']->id = 'select';
+  cache::$data['data_original']['tabs_items']['storage']['select']->id_parent = 'instance_manage';
+  cache::$data['data_original']['tabs_items']['storage']['select']->parent_is_tab = true;
+  cache::$data['data_original']['tabs_items']['storage']['select']->action_name = 'select';
+  cache::$data['data_original']['tabs_items']['storage']['select']->title = 'Select';
+  cache::$data['data_original']['tabs_items']['storage']['select']->attributes['class']['select'] = 'select';
+  cache::$data['data_original']['tabs_items']['storage']['select']->weight = -10;
   cache::$data['data_original']['tabs_items']['storage']['update'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['storage']['update']->id = 'update';
   cache::$data['data_original']['tabs_items']['storage']['update']->id_parent = 'instance_manage';
