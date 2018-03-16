@@ -10,7 +10,6 @@ namespace effcore { # cache for data--pages-user-roles
   cache::$data['data--pages-user-roles']->display->match = '%^/admin/roles$%';
   cache::$data['data--pages-user-roles']->access = new \stdClass();
   cache::$data['data--pages-user-roles']->access->roles['admins'] = 'admins';
-  cache::$data['data--pages-user-roles']->constants['items_per_page'] = 50;
   cache::$data['data--pages-user-roles']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages-user-roles']->content['block_menu_main']->region = 'main_menu';
   cache::$data['data--pages-user-roles']->content['block_menu_main']->type = 'link';

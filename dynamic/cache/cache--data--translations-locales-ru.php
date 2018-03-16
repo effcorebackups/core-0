@@ -135,6 +135,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['installation'] = 'установка';
   cache::$data['data--translations-locales-ru']->data['Instances of entity %%_name was added.'] = 'Экземпляры сущности %%_name были добавлены.';
   cache::$data['data--translations-locales-ru']->data['Instances of entity %%_name was not added!'] = 'Экземпляры сущности %%_name не были добавлены!';
+  cache::$data['data--translations-locales-ru']->data['Instances'] = 'Экземпляры';
   cache::$data['data--translations-locales-ru']->data['interface'] = 'интерфейс';
   cache::$data['data--translations-locales-ru']->data['intr.'] = 'интр.';
   cache::$data['data--translations-locales-ru']->data['invalid session was deleted!'] = 'Недействительный сеанс был удален!';

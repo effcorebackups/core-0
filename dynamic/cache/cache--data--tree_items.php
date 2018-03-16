@@ -59,6 +59,14 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['page']['decoration']->attributes['class']['decoration'] = 'decoration';
   cache::$data['data--tree_items']['page']['decoration']->access = new \stdClass();
   cache::$data['data--tree_items']['page']['decoration']->access->roles['admins'] = 'admins';
+  cache::$data['data--tree_items']['storage']['instances_manager'] = new \effcore\tree_item();
+  cache::$data['data--tree_items']['storage']['instances_manager']->id = 'instances_manager';
+  cache::$data['data--tree_items']['storage']['instances_manager']->id_parent = 'admin';
+  cache::$data['data--tree_items']['storage']['instances_manager']->title = 'Instances';
+  cache::$data['data--tree_items']['storage']['instances_manager']->attributes['href'] = '/admin/instances/users/select';
+  cache::$data['data--tree_items']['storage']['instances_manager']->attributes['class']['instances'] = 'instances';
+  cache::$data['data--tree_items']['storage']['instances_manager']->access = new \stdClass();
+  cache::$data['data--tree_items']['storage']['instances_manager']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['user']['login'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['user']['login']->id = 'login';
   cache::$data['data--tree_items']['user']['login']->id_parent = 'user_anonymous';
@@ -108,13 +116,5 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['roles']->attributes['class']['roles'] = 'roles';
   cache::$data['data--tree_items']['user']['roles']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['roles']->access->roles['admins'] = 'admins';
-  cache::$data['data--tree_items']['user']['users'] = new \effcore\tree_item();
-  cache::$data['data--tree_items']['user']['users']->id = 'users';
-  cache::$data['data--tree_items']['user']['users']->id_parent = 'admin';
-  cache::$data['data--tree_items']['user']['users']->title = 'Users';
-  cache::$data['data--tree_items']['user']['users']->attributes['href'] = '/admin/users';
-  cache::$data['data--tree_items']['user']['users']->attributes['class']['users'] = 'users';
-  cache::$data['data--tree_items']['user']['users']->access = new \stdClass();
-  cache::$data['data--tree_items']['user']['users']->access->roles['admins'] = 'admins';
 
 }
