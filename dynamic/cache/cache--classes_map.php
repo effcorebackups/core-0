@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-03-16 18:16:07';
+  cache::$info['classes_map']['build'] = '2018-03-16 18:41:58';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->type = 'class';
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
@@ -360,11 +360,11 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\table_head_row_cell']->name = 'table_head_row_cell';
   cache::$data['classes_map']['effcore\table_head_row_cell']->extends = '\\effcore\\markup';
   cache::$data['classes_map']['effcore\table_head_row_cell']->file = 'system/page/backend/pattern--table_head_row_cell.php';
-  cache::$data['classes_map']['effcore\selector'] = new \stdClass();
-  cache::$data['classes_map']['effcore\selector']->type = 'class';
-  cache::$data['classes_map']['effcore\selector']->namespace = 'effcore';
-  cache::$data['classes_map']['effcore\selector']->name = 'selector';
-  cache::$data['classes_map']['effcore\selector']->file = 'system/storage/backend/class_ab--gl--selector.php';
+  cache::$data['classes_map']['effcore\instances_manager'] = new \stdClass();
+  cache::$data['classes_map']['effcore\instances_manager']->type = 'class';
+  cache::$data['classes_map']['effcore\instances_manager']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\instances_manager']->name = 'instances_manager';
+  cache::$data['classes_map']['effcore\instances_manager']->file = 'system/storage/backend/class_ab--gl--instances_manager.php';
   cache::$data['classes_map']['effcore\storage'] = new \stdClass();
   cache::$data['classes_map']['effcore\storage']->type = 'class';
   cache::$data['classes_map']['effcore\storage']->namespace = 'effcore';
