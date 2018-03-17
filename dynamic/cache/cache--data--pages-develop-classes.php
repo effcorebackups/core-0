@@ -6,7 +6,8 @@ namespace effcore { # cache for data--pages-develop-classes
   cache::$data['data--pages-develop-classes']->title = 'Classes';
   cache::$data['data--pages-develop-classes']->https = true;
   cache::$data['data--pages-develop-classes']->display = new \stdClass();
-  cache::$data['data--pages-develop-classes']->display->check = 'url';
+  cache::$data['data--pages-develop-classes']->display->check = 'path';
+  cache::$data['data--pages-develop-classes']->display->where = 'url';
   cache::$data['data--pages-develop-classes']->display->match = '%^/develop/classes$%';
   cache::$data['data--pages-develop-classes']->access = new \stdClass();
   cache::$data['data--pages-develop-classes']->access->roles['admins'] = 'admins';

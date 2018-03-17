@@ -5,7 +5,8 @@ namespace effcore { # cache for data--pages-core-front
   cache::$data['data--pages-core-front'] = new \effcore\page();
   cache::$data['data--pages-core-front']->title = 'Front page';
   cache::$data['data--pages-core-front']->display = new \stdClass();
-  cache::$data['data--pages-core-front']->display->check = 'url';
+  cache::$data['data--pages-core-front']->display->check = 'path';
+  cache::$data['data--pages-core-front']->display->where = 'url';
   cache::$data['data--pages-core-front']->display->match = '%^/$%';
   cache::$data['data--pages-core-front']->content['block_menu_main'] = new \stdClass();
   cache::$data['data--pages-core-front']->content['block_menu_main']->region = 'main_menu';

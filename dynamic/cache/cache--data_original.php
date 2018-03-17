@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-17 09:21:31';
+  cache::$info['data_original']['build'] = '2018-03-17 09:43:53';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1155,7 +1155,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['front'] = new \effcore\page();
   cache::$data['data_original']['pages']['core']['front']->title = 'Front page';
   cache::$data['data_original']['pages']['core']['front']->display = new \stdClass();
-  cache::$data['data_original']['pages']['core']['front']->display->check = 'url';
+  cache::$data['data_original']['pages']['core']['front']->display->check = 'path';
+  cache::$data['data_original']['pages']['core']['front']->display->where = 'url';
   cache::$data['data_original']['pages']['core']['front']->display->match = '%^/$%';
   cache::$data['data_original']['pages']['core']['front']->content['block_menu_main'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['front']->content['block_menu_main']->region = 'main_menu';
@@ -1181,7 +1182,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['info']->title = 'Information';
   cache::$data['data_original']['pages']['core']['info']->https = true;
   cache::$data['data_original']['pages']['core']['info']->display = new \stdClass();
-  cache::$data['data_original']['pages']['core']['info']->display->check = 'url';
+  cache::$data['data_original']['pages']['core']['info']->display->check = 'path';
+  cache::$data['data_original']['pages']['core']['info']->display->where = 'url';
   cache::$data['data_original']['pages']['core']['info']->display->match = '%^/admin/info$%';
   cache::$data['data_original']['pages']['core']['info']->access = new \stdClass();
   cache::$data['data_original']['pages']['core']['info']->access->roles['admins'] = 'admins';
@@ -1209,7 +1211,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['install']->title = 'Installation';
   cache::$data['data_original']['pages']['core']['install']->https = true;
   cache::$data['data_original']['pages']['core']['install']->display = new \stdClass();
-  cache::$data['data_original']['pages']['core']['install']->display->check = 'url';
+  cache::$data['data_original']['pages']['core']['install']->display->check = 'path';
+  cache::$data['data_original']['pages']['core']['install']->display->where = 'url';
   cache::$data['data_original']['pages']['core']['install']->display->match = '%^/install$%';
   cache::$data['data_original']['pages']['core']['install']->access = new \stdClass();
   cache::$data['data_original']['pages']['core']['install']->access->roles['anonymous'] = 'anonymous';
@@ -1237,7 +1240,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['modules']->title = 'Modules';
   cache::$data['data_original']['pages']['core']['modules']->https = true;
   cache::$data['data_original']['pages']['core']['modules']->display = new \stdClass();
-  cache::$data['data_original']['pages']['core']['modules']->display->check = 'url';
+  cache::$data['data_original']['pages']['core']['modules']->display->check = 'path';
+  cache::$data['data_original']['pages']['core']['modules']->display->where = 'url';
   cache::$data['data_original']['pages']['core']['modules']->display->match = '%^/admin/modules$%';
   cache::$data['data_original']['pages']['core']['modules']->access = new \stdClass();
   cache::$data['data_original']['pages']['core']['modules']->access->roles['admins'] = 'admins';
@@ -1265,7 +1269,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['classes']->title = 'Classes';
   cache::$data['data_original']['pages']['develop']['classes']->https = true;
   cache::$data['data_original']['pages']['develop']['classes']->display = new \stdClass();
-  cache::$data['data_original']['pages']['develop']['classes']->display->check = 'url';
+  cache::$data['data_original']['pages']['develop']['classes']->display->check = 'path';
+  cache::$data['data_original']['pages']['develop']['classes']->display->where = 'url';
   cache::$data['data_original']['pages']['develop']['classes']->display->match = '%^/develop/classes$%';
   cache::$data['data_original']['pages']['develop']['classes']->access = new \stdClass();
   cache::$data['data_original']['pages']['develop']['classes']->access->roles['admins'] = 'admins';
@@ -1293,7 +1298,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['demo']->title = 'Demo';
   cache::$data['data_original']['pages']['develop']['demo']->https = true;
   cache::$data['data_original']['pages']['develop']['demo']->display = new \stdClass();
-  cache::$data['data_original']['pages']['develop']['demo']->display->check = 'url';
+  cache::$data['data_original']['pages']['develop']['demo']->display->check = 'path';
+  cache::$data['data_original']['pages']['develop']['demo']->display->where = 'url';
   cache::$data['data_original']['pages']['develop']['demo']->display->match = '%^/develop/demo$%';
   cache::$data['data_original']['pages']['develop']['demo']->access = new \stdClass();
   cache::$data['data_original']['pages']['develop']['demo']->access->roles['admins'] = 'admins';
@@ -1329,7 +1335,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['page']['decoration']->title = 'Decoration';
   cache::$data['data_original']['pages']['page']['decoration']->https = true;
   cache::$data['data_original']['pages']['page']['decoration']->display = new \stdClass();
-  cache::$data['data_original']['pages']['page']['decoration']->display->check = 'url';
+  cache::$data['data_original']['pages']['page']['decoration']->display->check = 'path';
+  cache::$data['data_original']['pages']['page']['decoration']->display->where = 'url';
   cache::$data['data_original']['pages']['page']['decoration']->display->match = '%^/admin/decoration$%';
   cache::$data['data_original']['pages']['page']['decoration']->access = new \stdClass();
   cache::$data['data_original']['pages']['page']['decoration']->access->roles['admins'] = 'admins';
@@ -1357,7 +1364,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instances_manager']->title = 'Manage instance User';
   cache::$data['data_original']['pages']['storage']['instances_manager']->https = true;
   cache::$data['data_original']['pages']['storage']['instances_manager']->display = new \stdClass();
-  cache::$data['data_original']['pages']['storage']['instances_manager']->display->check = 'url';
+  cache::$data['data_original']['pages']['storage']['instances_manager']->display->check = 'path';
+  cache::$data['data_original']['pages']['storage']['instances_manager']->display->where = 'url';
   cache::$data['data_original']['pages']['storage']['instances_manager']->display->match = '%^(?<base>/admin/instances/(?<entity>[a-z]+))/(?<action>[a-z]+)(/(?<id_user>[a-z0-9]+)|)$%';
   cache::$data['data_original']['pages']['storage']['instances_manager']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances_manager']->access->roles['admins'] = 'admins';
@@ -1418,7 +1426,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['login']->title = 'Login';
   cache::$data['data_original']['pages']['user']['login']->https = true;
   cache::$data['data_original']['pages']['user']['login']->display = new \stdClass();
-  cache::$data['data_original']['pages']['user']['login']->display->check = 'url';
+  cache::$data['data_original']['pages']['user']['login']->display->check = 'path';
+  cache::$data['data_original']['pages']['user']['login']->display->where = 'url';
   cache::$data['data_original']['pages']['user']['login']->display->match = '%^/user/login$%';
   cache::$data['data_original']['pages']['user']['login']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['login']->access->roles['anonymous'] = 'anonymous';
@@ -1446,7 +1455,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['logout']->title = 'Logout';
   cache::$data['data_original']['pages']['user']['logout']->https = true;
   cache::$data['data_original']['pages']['user']['logout']->display = new \stdClass();
-  cache::$data['data_original']['pages']['user']['logout']->display->check = 'url';
+  cache::$data['data_original']['pages']['user']['logout']->display->check = 'path';
+  cache::$data['data_original']['pages']['user']['logout']->display->where = 'url';
   cache::$data['data_original']['pages']['user']['logout']->display->match = '%^/user/logout$%';
   cache::$data['data_original']['pages']['user']['logout']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['logout']->access->roles['registered'] = 'registered';
@@ -1474,7 +1484,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['registration']->title = 'Registration';
   cache::$data['data_original']['pages']['user']['registration']->https = true;
   cache::$data['data_original']['pages']['user']['registration']->display = new \stdClass();
-  cache::$data['data_original']['pages']['user']['registration']->display->check = 'url';
+  cache::$data['data_original']['pages']['user']['registration']->display->check = 'path';
+  cache::$data['data_original']['pages']['user']['registration']->display->where = 'url';
   cache::$data['data_original']['pages']['user']['registration']->display->match = '%^/user/registration$%';
   cache::$data['data_original']['pages']['user']['registration']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['registration']->access->roles['anonymous'] = 'anonymous';
@@ -1502,7 +1513,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['roles']->title = 'Roles';
   cache::$data['data_original']['pages']['user']['roles']->https = true;
   cache::$data['data_original']['pages']['user']['roles']->display = new \stdClass();
-  cache::$data['data_original']['pages']['user']['roles']->display->check = 'url';
+  cache::$data['data_original']['pages']['user']['roles']->display->check = 'path';
+  cache::$data['data_original']['pages']['user']['roles']->display->where = 'url';
   cache::$data['data_original']['pages']['user']['roles']->display->match = '%^/admin/roles$%';
   cache::$data['data_original']['pages']['user']['roles']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['roles']->access->roles['admins'] = 'admins';
@@ -1530,7 +1542,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user']->title = 'User %%_nick_context{2}';
   cache::$data['data_original']['pages']['user']['user']->https = true;
   cache::$data['data_original']['pages']['user']['user']->display = new \stdClass();
-  cache::$data['data_original']['pages']['user']['user']->display->check = 'url';
+  cache::$data['data_original']['pages']['user']['user']->display->check = 'path';
+  cache::$data['data_original']['pages']['user']['user']->display->where = 'url';
   cache::$data['data_original']['pages']['user']['user']->display->match = '%^/user/(?<id_user>[0-9]+)$%';
   cache::$data['data_original']['pages']['user']['user']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->access->roles['admins'] = 'admins';
@@ -1559,7 +1572,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_delete']->title = 'Delete user %%_nick_context{4}?';
   cache::$data['data_original']['pages']['user']['user_delete']->https = true;
   cache::$data['data_original']['pages']['user']['user_delete']->display = new \stdClass();
-  cache::$data['data_original']['pages']['user']['user_delete']->display->check = 'url';
+  cache::$data['data_original']['pages']['user']['user_delete']->display->check = 'path';
+  cache::$data['data_original']['pages']['user']['user_delete']->display->where = 'url';
   cache::$data['data_original']['pages']['user']['user_delete']->display->match = '%^/admin/users/delete/(?<id_user>[0-9]+)$%';
   cache::$data['data_original']['pages']['user']['user_delete']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_delete']->access->roles['admins'] = 'admins';
@@ -1591,7 +1605,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_edit']->title = 'Edit user %%_nick_context{2}';
   cache::$data['data_original']['pages']['user']['user_edit']->https = true;
   cache::$data['data_original']['pages']['user']['user_edit']->display = new \stdClass();
-  cache::$data['data_original']['pages']['user']['user_edit']->display->check = 'url';
+  cache::$data['data_original']['pages']['user']['user_edit']->display->check = 'path';
+  cache::$data['data_original']['pages']['user']['user_edit']->display->where = 'url';
   cache::$data['data_original']['pages']['user']['user_edit']->display->match = '%^/user/(?<id_user>[0-9]+)/edit$%';
   cache::$data['data_original']['pages']['user']['user_edit']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->access->roles['admins'] = 'admins';
@@ -2829,7 +2844,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['colors']['page']['black']->is_dark = true;
   cache::$data['data_original']['frontend']['page']['frontend_page_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->check = 'url';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->check = 'path';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->where = 'url';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->match = '%.*%';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->type = 'image/x-icon';

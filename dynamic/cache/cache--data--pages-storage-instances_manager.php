@@ -6,7 +6,8 @@ namespace effcore { # cache for data--pages-storage-instances_manager
   cache::$data['data--pages-storage-instances_manager']->title = 'Manage instance User';
   cache::$data['data--pages-storage-instances_manager']->https = true;
   cache::$data['data--pages-storage-instances_manager']->display = new \stdClass();
-  cache::$data['data--pages-storage-instances_manager']->display->check = 'url';
+  cache::$data['data--pages-storage-instances_manager']->display->check = 'path';
+  cache::$data['data--pages-storage-instances_manager']->display->where = 'url';
   cache::$data['data--pages-storage-instances_manager']->display->match = '%^(?<base>/admin/instances/(?<entity>[a-z]+))/(?<action>[a-z]+)(/(?<id_user>[a-z0-9]+)|)$%';
   cache::$data['data--pages-storage-instances_manager']->access = new \stdClass();
   cache::$data['data--pages-storage-instances_manager']->access->roles['admins'] = 'admins';

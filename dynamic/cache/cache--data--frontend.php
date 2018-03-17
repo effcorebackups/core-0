@@ -4,7 +4,8 @@ namespace effcore { # cache for data--frontend
 
   cache::$data['data--frontend']['page']['frontend_page_n'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->display = new \stdClass();
-  cache::$data['data--frontend']['page']['frontend_page_n']->display->check = 'url';
+  cache::$data['data--frontend']['page']['frontend_page_n']->display->check = 'path';
+  cache::$data['data--frontend']['page']['frontend_page_n']->display->where = 'url';
   cache::$data['data--frontend']['page']['frontend_page_n']->display->match = '%.*%';
   cache::$data['data--frontend']['page']['frontend_page_n']->favicons['icon_32_classic'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->type = 'image/x-icon';
