@@ -162,6 +162,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Module for development.'] = 'Модуль для разработки.';
   cache::$data['data--translations-locales-ru']->data['Module for internationalization.'] = 'Модуль для интернационализации.';
   cache::$data['data--translations-locales-ru']->data['Module for storages support.'] = 'Модуль поддержки хранилищ данных.';
+  cache::$data['data--translations-locales-ru']->data['Module for testing.'] = 'Модуль для тестирования.';
   cache::$data['data--translations-locales-ru']->data['Module for working with hierarchical structures like trees.'] = 'Модуль для работы с такими иерархическими структурами как деревья.';
   cache::$data['data--translations-locales-ru']->data['Module for working with pages.'] = 'Модуль работы со страницами.';
   cache::$data['data--translations-locales-ru']->data['Module for working with user accounts and permissions.'] = 'Модуль работы с пользовательскими аккаунтами и разрешениями.';
@@ -240,6 +241,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['System'] = 'Система';
   cache::$data['data--translations-locales-ru']->data['Table prefix'] = 'Префикс таблиц';
   cache::$data['data--translations-locales-ru']->data['Telephone'] = 'Телефон';
+  cache::$data['data--translations-locales-ru']->data['Test'] = 'Тест';
   cache::$data['data--translations-locales-ru']->data['Text'] = 'Текст';
   cache::$data['data--translations-locales-ru']->data['Textarea'] = 'Текстовая область';
   cache::$data['data--translations-locales-ru']->data['the size of uploaded file more than %%_size'] = 'размер загруженного файла больше чем %%_size';
