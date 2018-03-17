@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-16 22:01:53';
+  cache::$info['data_original']['build'] = '2018-03-17 08:47:21';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1389,7 +1389,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_insert']->region = 'content';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_insert']->type = 'code';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_insert']->handler = '\\effcore\\instances_manager::instance_insert';
-  cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_insert']->handler_args = 'users';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_select'] = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_select']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_select']->display->check = 'args';
@@ -1398,7 +1397,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_select']->region = 'content';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_select']->type = 'code';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_select']->handler = '\\effcore\\instances_manager::instance_select';
-  cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_select']->handler_args = 'users';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_select']->items_per_page = 50;
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_update'] = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_update']->display = new \stdClass();
@@ -1408,7 +1406,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_update']->region = 'content';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_update']->type = 'code';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_update']->handler = '\\effcore\\instances_manager::instance_update';
-  cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_update']->handler_args = 'users';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_delete'] = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_delete']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_delete']->display->check = 'args';
@@ -1417,7 +1414,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_delete']->region = 'content';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_delete']->type = 'code';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_delete']->handler = '\\effcore\\instances_manager::instance_delete';
-  cache::$data['data_original']['pages']['storage']['instances_manager']->content['users_delete']->handler_args = 'users';
   cache::$data['data_original']['pages']['user']['login'] = new \effcore\page();
   cache::$data['data_original']['pages']['user']['login']->title = 'Login';
   cache::$data['data_original']['pages']['user']['login']->https = true;
@@ -2876,8 +2872,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_form_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->check = 'dpath';
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->match = '%^forms/.*$%';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->where = 'block';
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->match = '%^forms/.*$%';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style']->file = 'frontend/form._style';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style']->media = 'all';
@@ -2886,8 +2882,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree'] = new \stdClass();
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display = new \stdClass();
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->check = 'dpath';
-  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->match = '%^trees/.*$%';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->where = 'block';
+  cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->display->match = '%^trees/.*$%';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['tree_style'] = new \stdClass();
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['tree_style']->file = 'frontend/tree._style';
   cache::$data['data_original']['frontend']['tree']['frontend_block_tree']->styles['tree_style']->media = 'all';

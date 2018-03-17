@@ -47,8 +47,8 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['page']['frontend_form_n'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->display = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->display->check = 'dpath';
-  cache::$data['data--frontend']['page']['frontend_form_n']->display->match = '%^forms/.*$%';
   cache::$data['data--frontend']['page']['frontend_form_n']->display->where = 'block';
+  cache::$data['data--frontend']['page']['frontend_form_n']->display->match = '%^forms/.*$%';
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['form_style'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['form_style']->file = 'frontend/form._style';
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['form_style']->media = 'all';
@@ -57,8 +57,8 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['tree']['frontend_block_tree'] = new \stdClass();
   cache::$data['data--frontend']['tree']['frontend_block_tree']->display = new \stdClass();
   cache::$data['data--frontend']['tree']['frontend_block_tree']->display->check = 'dpath';
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->match = '%^trees/.*$%';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->display->where = 'block';
+  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->match = '%^trees/.*$%';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['tree_style'] = new \stdClass();
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['tree_style']->file = 'frontend/tree._style';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['tree_style']->media = 'all';

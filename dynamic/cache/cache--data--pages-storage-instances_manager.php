@@ -38,7 +38,6 @@ namespace effcore { # cache for data--pages-storage-instances_manager
   cache::$data['data--pages-storage-instances_manager']->content['users_insert']->region = 'content';
   cache::$data['data--pages-storage-instances_manager']->content['users_insert']->type = 'code';
   cache::$data['data--pages-storage-instances_manager']->content['users_insert']->handler = '\\effcore\\instances_manager::instance_insert';
-  cache::$data['data--pages-storage-instances_manager']->content['users_insert']->handler_args = 'users';
   cache::$data['data--pages-storage-instances_manager']->content['users_select'] = new \stdClass();
   cache::$data['data--pages-storage-instances_manager']->content['users_select']->display = new \stdClass();
   cache::$data['data--pages-storage-instances_manager']->content['users_select']->display->check = 'args';
@@ -47,7 +46,6 @@ namespace effcore { # cache for data--pages-storage-instances_manager
   cache::$data['data--pages-storage-instances_manager']->content['users_select']->region = 'content';
   cache::$data['data--pages-storage-instances_manager']->content['users_select']->type = 'code';
   cache::$data['data--pages-storage-instances_manager']->content['users_select']->handler = '\\effcore\\instances_manager::instance_select';
-  cache::$data['data--pages-storage-instances_manager']->content['users_select']->handler_args = 'users';
   cache::$data['data--pages-storage-instances_manager']->content['users_select']->items_per_page = 50;
   cache::$data['data--pages-storage-instances_manager']->content['users_update'] = new \stdClass();
   cache::$data['data--pages-storage-instances_manager']->content['users_update']->display = new \stdClass();
@@ -57,7 +55,6 @@ namespace effcore { # cache for data--pages-storage-instances_manager
   cache::$data['data--pages-storage-instances_manager']->content['users_update']->region = 'content';
   cache::$data['data--pages-storage-instances_manager']->content['users_update']->type = 'code';
   cache::$data['data--pages-storage-instances_manager']->content['users_update']->handler = '\\effcore\\instances_manager::instance_update';
-  cache::$data['data--pages-storage-instances_manager']->content['users_update']->handler_args = 'users';
   cache::$data['data--pages-storage-instances_manager']->content['users_delete'] = new \stdClass();
   cache::$data['data--pages-storage-instances_manager']->content['users_delete']->display = new \stdClass();
   cache::$data['data--pages-storage-instances_manager']->content['users_delete']->display->check = 'args';
@@ -66,6 +63,5 @@ namespace effcore { # cache for data--pages-storage-instances_manager
   cache::$data['data--pages-storage-instances_manager']->content['users_delete']->region = 'content';
   cache::$data['data--pages-storage-instances_manager']->content['users_delete']->type = 'code';
   cache::$data['data--pages-storage-instances_manager']->content['users_delete']->handler = '\\effcore\\instances_manager::instance_delete';
-  cache::$data['data--pages-storage-instances_manager']->content['users_delete']->handler_args = 'users';
 
 }
