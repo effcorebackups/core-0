@@ -6,6 +6,7 @@ namespace effcore { # cache for data--entities-tree-tree
   cache::$data['data--entities-tree-tree']->name = 'tree';
   cache::$data['data--entities-tree-tree']->storage_id = 'main';
   cache::$data['data--entities-tree-tree']->catalog_id = 'trees';
+  cache::$data['data--entities-tree-tree']->title = 'Tree';
   cache::$data['data--entities-tree-tree']->fields = new \stdClass();
   cache::$data['data--entities-tree-tree']->fields->id = new \stdClass();
   cache::$data['data--entities-tree-tree']->fields->id->type = 'autoincrement';

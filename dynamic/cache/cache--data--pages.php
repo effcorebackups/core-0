@@ -62,7 +62,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['storage']['instances_manager']->display = new \stdClass();
   cache::$data['data--pages']['storage']['instances_manager']->display->check = 'path';
   cache::$data['data--pages']['storage']['instances_manager']->display->where = 'url';
-  cache::$data['data--pages']['storage']['instances_manager']->display->match = '%^(?<base>/admin/instances/(?<entity>[a-z]+))/(?<action>[a-z]+)(/(?<id_user>[a-z0-9]+)|)$%';
+  cache::$data['data--pages']['storage']['instances_manager']->display->match = '%^(?<base>/admin/instances/(?<entity>[a-z_]+))/(?<action>[a-z]+)(/(?<id_user>[a-z0-9]+)|)$%';
   cache::$data['data--pages']['storage']['instances_manager']->access = new \stdClass();
   cache::$data['data--pages']['storage']['instances_manager']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['user']['login'] = new \effcore\different_cache();
