@@ -64,8 +64,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Delete user %%_nick_context{4}?'] = 'Удалить пользователя %%_nick_context{4}?';
   cache::$data['data--translations-locales-ru']->data['Delete'] = 'Удалить';
   cache::$data['data--translations-locales-ru']->data['delete'] = 'удалить';
-  cache::$data['data--translations-locales-ru']->data['Demo sub module description.'] = 'Описание демонстрационного подмодуля';
-  cache::$data['data--translations-locales-ru']->data['Demo sub module title'] = 'Заголовок демонстрационного подмодуля';
   cache::$data['data--translations-locales-ru']->data['Demo'] = 'Демо';
   cache::$data['data--translations-locales-ru']->data['Description'] = 'Описание';
   cache::$data['data--translations-locales-ru']->data['Develop'] = 'Разработка';

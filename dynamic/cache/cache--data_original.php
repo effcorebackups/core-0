@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-17 15:20:56';
+  cache::$info['data_original']['build'] = '2018-03-17 17:13:15';
   cache::$data['data_original']['bundle']['global'] = new \stdClass();
   cache::$data['data_original']['bundle']['global']->id = 'system';
   cache::$data['data_original']['bundle']['global']->title = 'System';
@@ -1851,13 +1851,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['module']['core']->version = 1;
   cache::$data['data_original']['module']['core']->state = 'always_on';
   cache::$data['data_original']['module']['core']->path = 'system/core/';
-  cache::$data['data_original']['module']['demo_sub_module'] = new \stdClass();
-  cache::$data['data_original']['module']['demo_sub_module']->id = 'demo_sub_module';
-  cache::$data['data_original']['module']['demo_sub_module']->title = 'Demo sub module title';
-  cache::$data['data_original']['module']['demo_sub_module']->description = 'Demo sub module description.';
-  cache::$data['data_original']['module']['demo_sub_module']->version = 1;
-  cache::$data['data_original']['module']['demo_sub_module']->state = 'off';
-  cache::$data['data_original']['module']['demo_sub_module']->path = 'system/develop/demo_sub_module/';
+  cache::$data['data_original']['module']['demo'] = new \effcore\module();
+  cache::$data['data_original']['module']['demo']->id = 'demo';
+  cache::$data['data_original']['module']['demo']->title = 'Demo';
+  cache::$data['data_original']['module']['demo']->description = 'Module for demonstrating capabilities.';
+  cache::$data['data_original']['module']['demo']->version = 1;
+  cache::$data['data_original']['module']['demo']->state = 'off';
+  cache::$data['data_original']['module']['demo']->path = 'system/develop/demo/';
   cache::$data['data_original']['module']['develop'] = new \effcore\module();
   cache::$data['data_original']['module']['develop']->id = 'develop';
   cache::$data['data_original']['module']['develop']->title = 'Develop';
@@ -2513,8 +2513,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Delete user %%_nick_context{4}?'] = 'Удалить пользователя %%_nick_context{4}?';
   cache::$data['data_original']['translations']['locales']['ru']->data['Delete'] = 'Удалить';
   cache::$data['data_original']['translations']['locales']['ru']->data['delete'] = 'удалить';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Demo sub module description.'] = 'Описание демонстрационного подмодуля';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Demo sub module title'] = 'Заголовок демонстрационного подмодуля';
   cache::$data['data_original']['translations']['locales']['ru']->data['Demo'] = 'Демо';
   cache::$data['data_original']['translations']['locales']['ru']->data['Description'] = 'Описание';
   cache::$data['data_original']['translations']['locales']['ru']->data['Develop'] = 'Разработка';
