@@ -77,6 +77,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['edit'] = 'редактировать';
   cache::$data['data--translations-locales-ru']->data['Element %%_info.'] = 'Элемент %%_info.';
   cache::$data['data--translations-locales-ru']->data['Elements'] = 'Элементы';
+  cache::$data['data--translations-locales-ru']->data['email'] = 'адрес электронной почты';
   cache::$data['data--translations-locales-ru']->data['EMail'] = 'Адрес электронной почты';
   cache::$data['data--translations-locales-ru']->data['Enable cookies before login.'] = 'Включите cookies до начала входа в систему.';
   cache::$data['data--translations-locales-ru']->data['enable'] = 'включить';
@@ -173,6 +174,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Name'] = 'Имя';
   cache::$data['data--translations-locales-ru']->data['New password must be different from the current password!'] = 'Новый пароль должен отличаться от текущего!';
   cache::$data['data--translations-locales-ru']->data['New password'] = 'Новый пароль';
+  cache::$data['data--translations-locales-ru']->data['nick'] = 'ник';
   cache::$data['data--translations-locales-ru']->data['Nick'] = 'Ник';
   cache::$data['data--translations-locales-ru']->data['no items'] = 'нет элементов';
   cache::$data['data--translations-locales-ru']->data['No'] = 'Нет';
@@ -212,6 +214,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
   cache::$data['data--translations-locales-ru']->data['restore'] = 'восстановить';
   cache::$data['data--translations-locales-ru']->data['return'] = 'возврат';
+  cache::$data['data--translations-locales-ru']->data['roles'] = 'роли';
   cache::$data['data--translations-locales-ru']->data['Roles'] = 'Роли';
   cache::$data['data--translations-locales-ru']->data['save'] = 'сохранить';
   cache::$data['data--translations-locales-ru']->data['search'] = 'поиск';
@@ -259,6 +262,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
   cache::$data['data--translations-locales-ru']->data['uninstall'] = 'удалить';
   cache::$data['data--translations-locales-ru']->data['Update'] = 'Обновить';
+  cache::$data['data--translations-locales-ru']->data['updated'] = 'обновлено';
   cache::$data['data--translations-locales-ru']->data['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   cache::$data['data--translations-locales-ru']->data['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';
   cache::$data['data--translations-locales-ru']->data['User %%_nick was not deleted!'] = 'Пользователь %%_nick не был удален.';

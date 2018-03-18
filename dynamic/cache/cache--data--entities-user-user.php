@@ -6,6 +6,8 @@ namespace effcore { # cache for data--entities-user-user
   cache::$data['data--entities-user-user']->name = 'user';
   cache::$data['data--entities-user-user']->storage_id = 'main';
   cache::$data['data--entities-user-user']->catalog_id = 'users';
+  cache::$data['data--entities-user-user']->ws_created = true;
+  cache::$data['data--entities-user-user']->ws_updated = true;
   cache::$data['data--entities-user-user']->title = 'User';
   cache::$data['data--entities-user-user']->fields = new \stdClass();
   cache::$data['data--entities-user-user']->fields->id = new \stdClass();
@@ -29,6 +31,12 @@ namespace effcore { # cache for data--entities-user-user
   cache::$data['data--entities-user-user']->fields->avatar_path_relative = new \stdClass();
   cache::$data['data--entities-user-user']->fields->avatar_path_relative->type = 'varchar';
   cache::$data['data--entities-user-user']->fields->avatar_path_relative->size = 1024;
+  cache::$data['data--entities-user-user']->fields->created = new \stdClass();
+  cache::$data['data--entities-user-user']->fields->created->type = 'datetime';
+  cache::$data['data--entities-user-user']->fields->created->not_null = true;
+  cache::$data['data--entities-user-user']->fields->updated = new \stdClass();
+  cache::$data['data--entities-user-user']->fields->updated->type = 'datetime';
+  cache::$data['data--entities-user-user']->fields->updated->not_null = true;
   cache::$data['data--entities-user-user']->constraints['key_id'] = new \stdClass();
   cache::$data['data--entities-user-user']->constraints['key_id']->type = 'primary key';
   cache::$data['data--entities-user-user']->constraints['key_id']->fields['id'] = 'id';
@@ -38,5 +46,12 @@ namespace effcore { # cache for data--entities-user-user
   cache::$data['data--entities-user-user']->constraints['key_nick'] = new \stdClass();
   cache::$data['data--entities-user-user']->constraints['key_nick']->type = 'unique';
   cache::$data['data--entities-user-user']->constraints['key_nick']->fields['nick'] = 'nick';
+  cache::$data['data--entities-user-user']->indexes['idx_created'] = new \stdClass();
+  cache::$data['data--entities-user-user']->indexes['idx_created']->type = 'index';
+  cache::$data['data--entities-user-user']->indexes['idx_created']->fields['created'] = 'created';
+  cache::$data['data--entities-user-user']->indexes['idx_updated'] = new \stdClass();
+  cache::$data['data--entities-user-user']->indexes['idx_updated']->type = 'index';
+  cache::$data['data--entities-user-user']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data--entities-user-user']->__post_init();
 
 }
