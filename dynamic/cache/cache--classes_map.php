@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-03-18 15:31:05';
+  cache::$info['classes_map']['build'] = '2018-03-18 15:58:21';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->type = 'class';
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
@@ -397,17 +397,22 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\has_different_cache']->type = 'interface';
   cache::$data['classes_map']['effcore\has_different_cache']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\has_different_cache']->name = 'has_different_cache';
-  cache::$data['classes_map']['effcore\has_different_cache']->file = 'system/storage/backend/marker--gl--has_different_cache.php';
+  cache::$data['classes_map']['effcore\has_different_cache']->file = 'system/storage/backend/marker--has_different_cache.php';
   cache::$data['classes_map']['effcore\post_constructor'] = new \stdClass();
   cache::$data['classes_map']['effcore\post_constructor']->type = 'interface';
   cache::$data['classes_map']['effcore\post_constructor']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\post_constructor']->name = 'post_constructor';
-  cache::$data['classes_map']['effcore\post_constructor']->file = 'system/storage/backend/marker--gl--post_constructor.php';
+  cache::$data['classes_map']['effcore\post_constructor']->file = 'system/storage/backend/marker--post_constructor.php';
   cache::$data['classes_map']['effcore\post_init'] = new \stdClass();
   cache::$data['classes_map']['effcore\post_init']->type = 'interface';
   cache::$data['classes_map']['effcore\post_init']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\post_init']->name = 'post_init';
-  cache::$data['classes_map']['effcore\post_init']->file = 'system/storage/backend/marker--gl--post_init.php';
+  cache::$data['classes_map']['effcore\post_init']->file = 'system/storage/backend/marker--post_init.php';
+  cache::$data['classes_map']['effcore\post_parsing'] = new \stdClass();
+  cache::$data['classes_map']['effcore\post_parsing']->type = 'interface';
+  cache::$data['classes_map']['effcore\post_parsing']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\post_parsing']->name = 'post_parsing';
+  cache::$data['classes_map']['effcore\post_parsing']->file = 'system/storage/backend/marker--post_parsing.php';
   cache::$data['classes_map']['effcore\different_cache'] = new \stdClass();
   cache::$data['classes_map']['effcore\different_cache']->type = 'class';
   cache::$data['classes_map']['effcore\different_cache']->namespace = 'effcore';
@@ -417,7 +422,7 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\entity']->type = 'class';
   cache::$data['classes_map']['effcore\entity']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\entity']->name = 'entity';
-  cache::$data['classes_map']['effcore\entity']->implements = '\\effcore\\has_different_cache, \\effcore\\post_init';
+  cache::$data['classes_map']['effcore\entity']->implements = '\\effcore\\has_different_cache, \\effcore\\post_parsing';
   cache::$data['classes_map']['effcore\entity']->file = 'system/storage/backend/pattern--entity.php';
   cache::$data['classes_map']['effcore\instance'] = new \stdClass();
   cache::$data['classes_map']['effcore\instance']->type = 'class';

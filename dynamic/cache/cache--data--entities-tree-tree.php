@@ -32,6 +32,5 @@ namespace effcore { # cache for data--entities-tree-tree
   cache::$data['data--entities-tree-tree']->indexes['idx_updated'] = new \stdClass();
   cache::$data['data--entities-tree-tree']->indexes['idx_updated']->type = 'index';
   cache::$data['data--entities-tree-tree']->indexes['idx_updated']->fields['updated'] = 'updated';
-  cache::$data['data--entities-tree-tree']->__post_init();
 
 }

@@ -22,6 +22,5 @@ namespace effcore { # cache for data--entities-demo-demo_constraints
   cache::$data['data--entities-demo-demo_constraints']->constraints['key_f_integer_2'] = new \stdClass();
   cache::$data['data--entities-demo-demo_constraints']->constraints['key_f_integer_2']->type = 'unique';
   cache::$data['data--entities-demo-demo_constraints']->constraints['key_f_integer_2']->fields['f_integer_2'] = 'f_integer_2';
-  cache::$data['data--entities-demo-demo_constraints']->__post_init();
 
 }

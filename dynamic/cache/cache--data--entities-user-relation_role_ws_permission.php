@@ -34,6 +34,5 @@ namespace effcore { # cache for data--entities-user-relation_role_ws_permission
   cache::$data['data--entities-user-relation_role_ws_permission']->indexes['idx_updated'] = new \stdClass();
   cache::$data['data--entities-user-relation_role_ws_permission']->indexes['idx_updated']->type = 'index';
   cache::$data['data--entities-user-relation_role_ws_permission']->indexes['idx_updated']->fields['updated'] = 'updated';
-  cache::$data['data--entities-user-relation_role_ws_permission']->__post_init();
 
 }

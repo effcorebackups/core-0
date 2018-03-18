@@ -25,6 +25,5 @@ namespace effcore { # cache for data--entities-page-captcha
   cache::$data['data--entities-page-captcha']->constraints['key_id'] = new \stdClass();
   cache::$data['data--entities-page-captcha']->constraints['key_id']->type = 'primary key';
   cache::$data['data--entities-page-captcha']->constraints['key_id']->fields['ip_address'] = 'ip_address';
-  cache::$data['data--entities-page-captcha']->__post_init();
 
 }

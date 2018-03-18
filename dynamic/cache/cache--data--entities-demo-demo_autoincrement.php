@@ -14,6 +14,5 @@ namespace effcore { # cache for data--entities-demo-demo_autoincrement
   cache::$data['data--entities-demo-demo_autoincrement']->constraints['key_f_integer_1'] = new \stdClass();
   cache::$data['data--entities-demo-demo_autoincrement']->constraints['key_f_integer_1']->type = 'primary key';
   cache::$data['data--entities-demo-demo_autoincrement']->constraints['key_f_integer_1']->fields['f_integer_1'] = 'f_integer_1';
-  cache::$data['data--entities-demo-demo_autoincrement']->__post_init();
 
 }
