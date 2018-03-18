@@ -22,9 +22,6 @@ namespace effcore { # cache for data--entities-user-user
   cache::$data['data--entities-user-user']->fields->password_hash = new \stdClass();
   cache::$data['data--entities-user-user']->fields->password_hash->type = 'varchar';
   cache::$data['data--entities-user-user']->fields->password_hash->size = 255;
-  cache::$data['data--entities-user-user']->fields->created = new \stdClass();
-  cache::$data['data--entities-user-user']->fields->created->type = 'datetime';
-  cache::$data['data--entities-user-user']->fields->created->not_null = true;
   cache::$data['data--entities-user-user']->fields->is_embed = new \stdClass();
   cache::$data['data--entities-user-user']->fields->is_embed->type = 'integer';
   cache::$data['data--entities-user-user']->fields->is_embed->not_null = true;

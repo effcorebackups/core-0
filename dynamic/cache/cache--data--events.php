@@ -12,13 +12,6 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['core']->on_form_submit['install'] = new \effcore\event();
   cache::$data['data--events']['core']->on_form_submit['install']->for = 'install';
   cache::$data['data--events']['core']->on_form_submit['install']->handler = '\\effcore\\modules\\core\\events_form::on_submit_install';
-  cache::$data['data--events']['develop'] = new \stdClass();
-  cache::$data['data--events']['develop']->on_module_start['develop'] = new \effcore\event();
-  cache::$data['data--events']['develop']->on_module_start['develop']->for = 'develop';
-  cache::$data['data--events']['develop']->on_module_start['develop']->handler = '\\effcore\\modules\\develop\\events_module::on_start';
-  cache::$data['data--events']['develop']->on_module_install['develop'] = new \effcore\event();
-  cache::$data['data--events']['develop']->on_module_install['develop']->for = 'develop';
-  cache::$data['data--events']['develop']->on_module_install['develop']->handler = '\\effcore\\modules\\develop\\events_module::on_install';
   cache::$data['data--events']['demo'] = new \stdClass();
   cache::$data['data--events']['demo']->on_module_start['demo'] = new \effcore\event();
   cache::$data['data--events']['demo']->on_module_start['demo']->for = 'demo';

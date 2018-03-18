@@ -2,10 +2,10 @@
 
 namespace effcore { # cache for data--bundle
 
-  cache::$data['data--bundle']['global'] = new \stdClass();
-  cache::$data['data--bundle']['global']->id = 'system';
-  cache::$data['data--bundle']['global']->title = 'System';
-  cache::$data['data--bundle']['global']->description = 'Bundle with system.';
-  cache::$data['data--bundle']['global']->build = 1000;
+  cache::$data['data--bundle']['system'] = new \stdClass();
+  cache::$data['data--bundle']['system']->id = 'system';
+  cache::$data['data--bundle']['system']->title = 'System';
+  cache::$data['data--bundle']['system']->description = 'Bundle with system.';
+  cache::$data['data--bundle']['system']->build = 1000;
 
 }
