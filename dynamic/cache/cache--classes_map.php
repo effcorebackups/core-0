@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-03-18 15:09:17';
+  cache::$info['classes_map']['build'] = '2018-03-18 15:31:05';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->type = 'class';
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
@@ -175,7 +175,7 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\test']->type = 'class';
   cache::$data['classes_map']['effcore\test']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\test']->name = 'test';
-  cache::$data['classes_map']['effcore\test']->implements['\effcore\has_different_cache'] = '\\effcore\\has_different_cache';
+  cache::$data['classes_map']['effcore\test']->implements = '\\effcore\\has_different_cache';
   cache::$data['classes_map']['effcore\test']->file = 'system/develop/test/backend/pattern--test.php';
   cache::$data['classes_map']['effcore\locale'] = new \stdClass();
   cache::$data['classes_map']['effcore\locale']->type = 'class';
@@ -191,7 +191,7 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\translation']->type = 'class';
   cache::$data['classes_map']['effcore\translation']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\translation']->name = 'translation';
-  cache::$data['classes_map']['effcore\translation']->implements['\effcore\has_different_cache'] = '\\effcore\\has_different_cache';
+  cache::$data['classes_map']['effcore\translation']->implements = '\\effcore\\has_different_cache';
   cache::$data['classes_map']['effcore\translation']->file = 'system/locales/backend/patterrn--translation.php';
   cache::$data['classes_map']['effcore\template'] = new \stdClass();
   cache::$data['classes_map']['effcore\template']->type = 'class';
@@ -238,7 +238,7 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\form']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\form']->name = 'form';
   cache::$data['classes_map']['effcore\form']->extends = '\\effcore\\markup';
-  cache::$data['classes_map']['effcore\form']->implements['\effcore\has_different_cache'] = '\\effcore\\has_different_cache';
+  cache::$data['classes_map']['effcore\form']->implements = '\\effcore\\has_different_cache';
   cache::$data['classes_map']['effcore\form']->file = 'system/page/backend/pattern--form.php';
   cache::$data['classes_map']['effcore\form_container'] = new \stdClass();
   cache::$data['classes_map']['effcore\form_container']->type = 'class';
@@ -328,7 +328,7 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\page']->type = 'class';
   cache::$data['classes_map']['effcore\page']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\page']->name = 'page';
-  cache::$data['classes_map']['effcore\page']->implements['\effcore\has_different_cache'] = '\\effcore\\has_different_cache';
+  cache::$data['classes_map']['effcore\page']->implements = '\\effcore\\has_different_cache';
   cache::$data['classes_map']['effcore\page']->file = 'system/page/backend/pattern--page.php';
   cache::$data['classes_map']['effcore\pager'] = new \stdClass();
   cache::$data['classes_map']['effcore\pager']->type = 'class';
@@ -417,7 +417,7 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\entity']->type = 'class';
   cache::$data['classes_map']['effcore\entity']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\entity']->name = 'entity';
-  cache::$data['classes_map']['effcore\entity']->implements['\effcore\has_different_cache,'] = '\\effcore\\has_different_cache,';
+  cache::$data['classes_map']['effcore\entity']->implements = '\\effcore\\has_different_cache, \\effcore\\post_init';
   cache::$data['classes_map']['effcore\entity']->file = 'system/storage/backend/pattern--entity.php';
   cache::$data['classes_map']['effcore\instance'] = new \stdClass();
   cache::$data['classes_map']['effcore\instance']->type = 'class';
@@ -428,13 +428,13 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\storage_files']->type = 'class';
   cache::$data['classes_map']['effcore\storage_files']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\storage_files']->name = 'storage_files';
-  cache::$data['classes_map']['effcore\storage_files']->implements['\effcore\has_different_cache'] = '\\effcore\\has_different_cache';
+  cache::$data['classes_map']['effcore\storage_files']->implements = '\\effcore\\has_different_cache';
   cache::$data['classes_map']['effcore\storage_files']->file = 'system/storage/backend/pattern--storage_files.php';
   cache::$data['classes_map']['effcore\storage_pdo'] = new \stdClass();
   cache::$data['classes_map']['effcore\storage_pdo']->type = 'class';
   cache::$data['classes_map']['effcore\storage_pdo']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\storage_pdo']->name = 'storage_pdo';
-  cache::$data['classes_map']['effcore\storage_pdo']->implements['\effcore\has_different_cache'] = '\\effcore\\has_different_cache';
+  cache::$data['classes_map']['effcore\storage_pdo']->implements = '\\effcore\\has_different_cache';
   cache::$data['classes_map']['effcore\storage_pdo']->file = 'system/storage/backend/pattern--storage_pdo.php';
   cache::$data['classes_map']['effcore\modules\tree\events_module'] = new \stdClass();
   cache::$data['classes_map']['effcore\modules\tree\events_module']->type = 'class';
