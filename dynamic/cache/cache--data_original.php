@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-18 16:42:48';
+  cache::$info['data_original']['build'] = '2018-03-19 09:00:39';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -2833,6 +2833,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Values'] = 'Значения';
   cache::$data['data_original']['translations']['locales']['ru']->data['Version'] = 'Версия';
   cache::$data['data_original']['translations']['locales']['ru']->data['view'] = 'просмотреть';
+  cache::$data['data_original']['translations']['locales']['ru']->data['warning'] = 'предупреждение';
   cache::$data['data_original']['translations']['locales']['ru']->data['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Yes'] = 'Да';
