@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-19 09:27:24';
+  cache::$info['data_original']['build'] = '2018-03-19 09:43:26';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -1916,11 +1916,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph_title'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph_title']->tag_name = 'h3';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph_title']->children['content'] = new \effcore\text();
-  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph_title']->children['content']->text = 'Paragraph [h3]';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph_title']->children['content']->text = 'Paragraph';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->tag_name = 'p';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['content'] = new \effcore\text();
-  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['content']->text = 'Paragraph content. Paragraph content. Paragraph content. Paragraph content.                 Paragraph content. Paragraph content. Paragraph content. Paragraph content.                 Paragraph content. Paragraph content. Paragraph content. Paragraph content.                 Paragraph content. Paragraph content. Paragraph content. Paragraph content.';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['content']->text = 'Paragraph content. Paragraph content. Paragraph content. Paragraph content.                 Paragraph content. Paragraph content. Paragraph content. Paragraph content.                 Paragraph content. Paragraph content. Paragraph content. Paragraph content.                 Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['link_view_more'] = new \effcore\markup();
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['link_view_more']->tag_name = 'a';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['link_view_more']->children['content'] = new \effcore\text();
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['link_view_more']->children['content']->text = 'View more';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['link_view_more']->attributes['href'] = '/';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_table_title'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_table_title']->tag_name = 'h3';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_table_title']->children['content'] = new \effcore\text();
