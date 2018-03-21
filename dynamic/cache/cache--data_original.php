@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-21 09:19:12';
+  cache::$info['data_original']['build'] = '2018-03-21 15:05:25';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -1271,7 +1271,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['classes']->display = new \stdClass();
   cache::$data['data_original']['pages']['develop']['classes']->display->check = 'path';
   cache::$data['data_original']['pages']['develop']['classes']->display->where = 'url';
-  cache::$data['data_original']['pages']['develop']['classes']->display->match = '%^/develop/classes$%';
+  cache::$data['data_original']['pages']['develop']['classes']->display->match = '%^(?<base>/develop/classes)/(?<action>list|diagrams)$%';
   cache::$data['data_original']['pages']['develop']['classes']->access = new \stdClass();
   cache::$data['data_original']['pages']['develop']['classes']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['develop']['classes']->content['block_menu_main'] = new \stdClass();
@@ -1290,11 +1290,23 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['classes']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['develop']['classes']->content['block_title']->type = 'code';
   cache::$data['data_original']['pages']['develop']['classes']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_tabs'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_tabs']->region = 'tabs';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_tabs']->type = 'link';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_tabs']->dpath = 'tabs/develop/classes';
   cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_list'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_list']->display = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_list']->display->check = 'action';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_list']->display->where = 'page_args';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_list']->display->match = '%list%';
   cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_list']->region = 'content';
   cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_list']->type = 'code';
   cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_list']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_classes_list';
   cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_diagrams'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_diagrams']->display = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_diagrams']->display->check = 'action';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_diagrams']->display->where = 'page_args';
+  cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_diagrams']->display->match = '%diagrams%';
   cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_diagrams']->region = 'content';
   cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_diagrams']->type = 'code';
   cache::$data['data_original']['pages']['develop']['classes']->content['block_classes_diagrams']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_classes_diagrams';
@@ -1757,7 +1769,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tree_items']['develop']['classes']->id = 'classes';
   cache::$data['data_original']['tree_items']['develop']['classes']->id_parent = 'develop';
   cache::$data['data_original']['tree_items']['develop']['classes']->title = 'Classes';
-  cache::$data['data_original']['tree_items']['develop']['classes']->attributes['href'] = '/develop/classes';
+  cache::$data['data_original']['tree_items']['develop']['classes']->attributes['href'] = '/develop/classes/list';
   cache::$data['data_original']['tree_items']['develop']['classes']->attributes['class']['classes'] = 'classes';
   cache::$data['data_original']['tree_items']['develop']['classes']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['develop']['classes']->access->roles['admins'] = 'admins';
@@ -2125,6 +2137,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Delete'] = 'Удалить';
   cache::$data['data_original']['translations']['locales']['ru']->data['delete'] = 'удалить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Description'] = 'Описание';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Diagrams'] = 'Диаграммы';
   cache::$data['data_original']['translations']['locales']['ru']->data['disable'] = 'выключить';
   cache::$data['data_original']['translations']['locales']['ru']->data['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data_original']['translations']['locales']['ru']->data['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
@@ -2192,6 +2205,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Legal information'] = 'Правовая информация';
   cache::$data['data_original']['translations']['locales']['ru']->data['License agreement'] = 'Лицензионное соглашение';
+  cache::$data['data_original']['translations']['locales']['ru']->data['List'] = 'Список';
   cache::$data['data_original']['translations']['locales']['ru']->data['load'] = 'загрузка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Locales'] = 'Локализации';
   cache::$data['data_original']['translations']['locales']['ru']->data['login'] = 'вход';
