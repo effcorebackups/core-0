@@ -2,6 +2,14 @@
 
 namespace effcore { # cache for data--frontend
 
+  cache::$data['data--frontend']['develop']['frontend_page_n'] = new \stdClass();
+  cache::$data['data--frontend']['develop']['frontend_page_n']->display = new \stdClass();
+  cache::$data['data--frontend']['develop']['frontend_page_n']->display->check = 'path';
+  cache::$data['data--frontend']['develop']['frontend_page_n']->display->where = 'url';
+  cache::$data['data--frontend']['develop']['frontend_page_n']->display->match = '%.*%';
+  cache::$data['data--frontend']['develop']['frontend_page_n']->styles['develop_style'] = new \stdClass();
+  cache::$data['data--frontend']['develop']['frontend_page_n']->styles['develop_style']->file = 'frontend/develop._style';
+  cache::$data['data--frontend']['develop']['frontend_page_n']->styles['develop_style']->media = 'all';
   cache::$data['data--frontend']['page']['frontend_page_n'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->display = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->display->check = 'path';
@@ -40,9 +48,6 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['page']['frontend_page_n']->styles['page_style'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->styles['page_style']->file = 'frontend/page._style';
   cache::$data['data--frontend']['page']['frontend_page_n']->styles['page_style']->media = 'all';
-  cache::$data['data--frontend']['page']['frontend_page_n']->styles['console_style'] = new \stdClass();
-  cache::$data['data--frontend']['page']['frontend_page_n']->styles['console_style']->file = 'frontend/console._style';
-  cache::$data['data--frontend']['page']['frontend_page_n']->styles['console_style']->media = 'all';
   cache::$data['data--frontend']['page']['frontend_page_n']->scripts['page_script'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->scripts['page_script']->file = 'frontend/page._script';
   cache::$data['data--frontend']['page']['frontend_form_n'] = new \stdClass();

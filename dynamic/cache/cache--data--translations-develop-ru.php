@@ -41,6 +41,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Textarea'] = 'Текстовая область';
   cache::$data['data--translations-develop-ru']->data['Total build time'] = 'Общее время сборки';
   cache::$data['data--translations-develop-ru']->data['Total load'] = 'Общая загрука';
+  cache::$data['data--translations-develop-ru']->data['UML Diagram'] = 'UML Диаграмма';
   cache::$data['data--translations-develop-ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
   cache::$data['data--translations-develop-ru']->data['Unordered list'] = 'Неупорядоченный список';
   cache::$data['data--translations-develop-ru']->data['Warning message #%%_num.'] = 'Предупреждающее сообщение #%%_num.';
