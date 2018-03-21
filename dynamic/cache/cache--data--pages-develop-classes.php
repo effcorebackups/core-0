@@ -27,9 +27,13 @@ namespace effcore { # cache for data--pages-develop-classes
   cache::$data['data--pages-develop-classes']->content['block_title']->region = 'title';
   cache::$data['data--pages-develop-classes']->content['block_title']->type = 'code';
   cache::$data['data--pages-develop-classes']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
-  cache::$data['data--pages-develop-classes']->content['block_classes'] = new \stdClass();
-  cache::$data['data--pages-develop-classes']->content['block_classes']->region = 'content';
-  cache::$data['data--pages-develop-classes']->content['block_classes']->type = 'code';
-  cache::$data['data--pages-develop-classes']->content['block_classes']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_classes';
+  cache::$data['data--pages-develop-classes']->content['block_classes_list'] = new \stdClass();
+  cache::$data['data--pages-develop-classes']->content['block_classes_list']->region = 'content';
+  cache::$data['data--pages-develop-classes']->content['block_classes_list']->type = 'code';
+  cache::$data['data--pages-develop-classes']->content['block_classes_list']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_classes_list';
+  cache::$data['data--pages-develop-classes']->content['block_classes_diagrams'] = new \stdClass();
+  cache::$data['data--pages-develop-classes']->content['block_classes_diagrams']->region = 'content';
+  cache::$data['data--pages-develop-classes']->content['block_classes_diagrams']->type = 'code';
+  cache::$data['data--pages-develop-classes']->content['block_classes_diagrams']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_classes_diagrams';
 
 }
