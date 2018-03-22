@@ -2,7 +2,7 @@
 
 namespace effcore { # data for changes
 
-  dynamic::$info['changes']['build'] = '2018-03-18 16:43:27';
+  dynamic::$info['changes']['build'] = '2018-03-22 18:51:19';
   dynamic::$data['changes']['core'] = new \stdClass();
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql'] = new \stdClass();
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->driver = 'mysql';
@@ -13,6 +13,6 @@ namespace effcore { # data for changes
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->credentials->user_name = 'root';
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->credentials->password = '123';
   dynamic::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->table_prefix = '';
-  dynamic::$data['changes']['core']->update['settings/core/key'] = 'f59bdeccc3b28ee8df59caa22b05b5f321788cd7';
+  dynamic::$data['changes']['core']->update['settings/core/key'] = '7ea19062d74d3ef1ec6d6f078420277c9a546237';
 
 }
