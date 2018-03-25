@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-24 14:28:35';
+  cache::$info['data_original']['build'] = '2018-03-25 07:43:48';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -2075,7 +2075,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Selection list'] = 'Список выбора';
   cache::$data['data_original']['translations']['develop']['ru']->data['Static block'] = 'Статический блок';
   cache::$data['data_original']['translations']['develop']['ru']->data['Textarea'] = 'Текстовая область';
-  cache::$data['data_original']['translations']['develop']['ru']->data['Total build time'] = 'Общее время сборки';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Total generation time'] = 'Общее время генерации';
   cache::$data['data_original']['translations']['develop']['ru']->data['Total load'] = 'Общая загрука';
   cache::$data['data_original']['translations']['develop']['ru']->data['UML Diagram'] = 'UML Диаграмма';
   cache::$data['data_original']['translations']['develop']['ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
