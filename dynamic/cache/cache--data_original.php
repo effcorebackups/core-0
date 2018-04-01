@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-03-31 20:44:56';
+  cache::$info['data_original']['build'] = '2018-04-01 16:13:46';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -1271,7 +1271,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['structures']->display = new \stdClass();
   cache::$data['data_original']['pages']['develop']['structures']->display->check = 'path';
   cache::$data['data_original']['pages']['develop']['structures']->display->where = 'url';
-  cache::$data['data_original']['pages']['develop']['structures']->display->match = '%^(?<base>/develop/structures)/(?<action>list|diagrams)$%';
+  cache::$data['data_original']['pages']['develop']['structures']->display->match = '%^(?<base>/develop/structures)/(?<type>class|interface|trait)/(?<view>list|diagrams)$%';
   cache::$data['data_original']['pages']['develop']['structures']->access = new \stdClass();
   cache::$data['data_original']['pages']['develop']['structures']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_menu_main'] = new \stdClass();
@@ -1296,7 +1296,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['structures']->content['block_tabs']->dpath = 'tabs/develop/structures';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_list'] = new \stdClass();
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_list']->display = new \stdClass();
-  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_list']->display->check = 'action';
+  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_list']->display->check = 'view';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_list']->display->where = 'page_args';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_list']->display->match = '%list%';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_list']->region = 'content';
@@ -1304,7 +1304,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_list']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_structures_list';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams'] = new \stdClass();
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams']->display = new \stdClass();
-  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams']->display->check = 'action';
+  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams']->display->check = 'view';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams']->display->where = 'page_args';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams']->display->match = '%diagrams%';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams']->region = 'content';
@@ -1769,7 +1769,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tree_items']['develop']['structures']->id = 'structures';
   cache::$data['data_original']['tree_items']['develop']['structures']->id_parent = 'develop';
   cache::$data['data_original']['tree_items']['develop']['structures']->title = 'Structures';
-  cache::$data['data_original']['tree_items']['develop']['structures']->attributes['href'] = '/develop/structures/list';
+  cache::$data['data_original']['tree_items']['develop']['structures']->attributes['href'] = '/develop/structures/class/list';
   cache::$data['data_original']['tree_items']['develop']['structures']->attributes['class']['structures'] = 'structures';
   cache::$data['data_original']['tree_items']['develop']['structures']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['develop']['structures']->access->roles['admins'] = 'admins';
@@ -1995,20 +1995,27 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs']['storage']['instance_manage'] = new \effcore\tabs();
   cache::$data['data_original']['tabs']['storage']['instance_manage']->id = 'instance_manage';
   cache::$data['data_original']['tabs']['storage']['instance_manage']->attributes['class']['instance-manage'] = 'instance-manage';
-  cache::$data['data_original']['tabs_items']['develop']['list'] = new \effcore\tabs_item();
-  cache::$data['data_original']['tabs_items']['develop']['list']->id = 'list';
-  cache::$data['data_original']['tabs_items']['develop']['list']->id_parent = 'structures';
-  cache::$data['data_original']['tabs_items']['develop']['list']->parent_is_tab = true;
-  cache::$data['data_original']['tabs_items']['develop']['list']->action_name = 'list';
-  cache::$data['data_original']['tabs_items']['develop']['list']->title = 'List';
-  cache::$data['data_original']['tabs_items']['develop']['list']->attributes['class']['list'] = 'list';
-  cache::$data['data_original']['tabs_items']['develop']['diagrams'] = new \effcore\tabs_item();
-  cache::$data['data_original']['tabs_items']['develop']['diagrams']->id = 'diagrams';
-  cache::$data['data_original']['tabs_items']['develop']['diagrams']->id_parent = 'structures';
-  cache::$data['data_original']['tabs_items']['develop']['diagrams']->parent_is_tab = true;
-  cache::$data['data_original']['tabs_items']['develop']['diagrams']->action_name = 'diagrams';
-  cache::$data['data_original']['tabs_items']['develop']['diagrams']->title = 'Diagrams';
-  cache::$data['data_original']['tabs_items']['develop']['diagrams']->attributes['class']['diagrams'] = 'diagrams';
+  cache::$data['data_original']['tabs_items']['develop']['class'] = new \effcore\tabs_item();
+  cache::$data['data_original']['tabs_items']['develop']['class']->id = 'class';
+  cache::$data['data_original']['tabs_items']['develop']['class']->id_parent = 'structures';
+  cache::$data['data_original']['tabs_items']['develop']['class']->parent_is_tab = true;
+  cache::$data['data_original']['tabs_items']['develop']['class']->action_name = 'class/list';
+  cache::$data['data_original']['tabs_items']['develop']['class']->title = 'Classes';
+  cache::$data['data_original']['tabs_items']['develop']['class']->attributes['class']['class'] = 'class';
+  cache::$data['data_original']['tabs_items']['develop']['interface'] = new \effcore\tabs_item();
+  cache::$data['data_original']['tabs_items']['develop']['interface']->id = 'interface';
+  cache::$data['data_original']['tabs_items']['develop']['interface']->id_parent = 'structures';
+  cache::$data['data_original']['tabs_items']['develop']['interface']->parent_is_tab = true;
+  cache::$data['data_original']['tabs_items']['develop']['interface']->action_name = 'interface/list';
+  cache::$data['data_original']['tabs_items']['develop']['interface']->title = 'Interfaces';
+  cache::$data['data_original']['tabs_items']['develop']['interface']->attributes['class']['interface'] = 'interface';
+  cache::$data['data_original']['tabs_items']['develop']['trait'] = new \effcore\tabs_item();
+  cache::$data['data_original']['tabs_items']['develop']['trait']->id = 'trait';
+  cache::$data['data_original']['tabs_items']['develop']['trait']->id_parent = 'structures';
+  cache::$data['data_original']['tabs_items']['develop']['trait']->parent_is_tab = true;
+  cache::$data['data_original']['tabs_items']['develop']['trait']->action_name = 'trait/list';
+  cache::$data['data_original']['tabs_items']['develop']['trait']->title = 'Traits';
+  cache::$data['data_original']['tabs_items']['develop']['trait']->attributes['class']['trait'] = 'trait';
   cache::$data['data_original']['tabs_items']['storage']['insert'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['storage']['insert']->id = 'insert';
   cache::$data['data_original']['tabs_items']['storage']['insert']->id_parent = 'instance_manage';
@@ -2060,6 +2067,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['head cell %%_num'] = 'заглавная ячейка %%_num';
   cache::$data['data_original']['translations']['develop']['ru']->data['init.'] = 'инициал.';
   cache::$data['data_original']['translations']['develop']['ru']->data['interface'] = 'интерфейс';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Interfaces'] = 'Интерфейсы';
   cache::$data['data_original']['translations']['develop']['ru']->data['intr.'] = 'интр.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for development.'] = 'Модуль для разработки.';
@@ -2078,6 +2086,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Textarea'] = 'Текстовая область';
   cache::$data['data_original']['translations']['develop']['ru']->data['Total generation time'] = 'Общее время генерации';
   cache::$data['data_original']['translations']['develop']['ru']->data['Total load'] = 'Общая загрука';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Traits'] = 'Трейты';
   cache::$data['data_original']['translations']['develop']['ru']->data['UML Diagram'] = 'UML Диаграмма';
   cache::$data['data_original']['translations']['develop']['ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
   cache::$data['data_original']['translations']['develop']['ru']->data['Unordered list'] = 'Неупорядоченный список';

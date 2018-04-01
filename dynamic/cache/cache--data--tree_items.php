@@ -39,7 +39,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['develop']['structures']->id = 'structures';
   cache::$data['data--tree_items']['develop']['structures']->id_parent = 'develop';
   cache::$data['data--tree_items']['develop']['structures']->title = 'Structures';
-  cache::$data['data--tree_items']['develop']['structures']->attributes['href'] = '/develop/structures/list';
+  cache::$data['data--tree_items']['develop']['structures']->attributes['href'] = '/develop/structures/class/list';
   cache::$data['data--tree_items']['develop']['structures']->attributes['class']['structures'] = 'structures';
   cache::$data['data--tree_items']['develop']['structures']->access = new \stdClass();
   cache::$data['data--tree_items']['develop']['structures']->access->roles['admins'] = 'admins';

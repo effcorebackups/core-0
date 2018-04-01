@@ -38,7 +38,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['develop']['structures']->display = new \stdClass();
   cache::$data['data--pages']['develop']['structures']->display->check = 'path';
   cache::$data['data--pages']['develop']['structures']->display->where = 'url';
-  cache::$data['data--pages']['develop']['structures']->display->match = '%^(?<base>/develop/structures)/(?<action>list|diagrams)$%';
+  cache::$data['data--pages']['develop']['structures']->display->match = '%^(?<base>/develop/structures)/(?<type>class|interface|trait)/(?<view>list|diagrams)$%';
   cache::$data['data--pages']['develop']['structures']->access = new \stdClass();
   cache::$data['data--pages']['develop']['structures']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['demo']['demo'] = new \effcore\different_cache();

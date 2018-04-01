@@ -24,6 +24,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['head cell %%_num'] = 'заглавная ячейка %%_num';
   cache::$data['data--translations-develop-ru']->data['init.'] = 'инициал.';
   cache::$data['data--translations-develop-ru']->data['interface'] = 'интерфейс';
+  cache::$data['data--translations-develop-ru']->data['Interfaces'] = 'Интерфейсы';
   cache::$data['data--translations-develop-ru']->data['intr.'] = 'интр.';
   cache::$data['data--translations-develop-ru']->data['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   cache::$data['data--translations-develop-ru']->data['Module for development.'] = 'Модуль для разработки.';
@@ -42,6 +43,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Textarea'] = 'Текстовая область';
   cache::$data['data--translations-develop-ru']->data['Total generation time'] = 'Общее время генерации';
   cache::$data['data--translations-develop-ru']->data['Total load'] = 'Общая загрука';
+  cache::$data['data--translations-develop-ru']->data['Traits'] = 'Трейты';
   cache::$data['data--translations-develop-ru']->data['UML Diagram'] = 'UML Диаграмма';
   cache::$data['data--translations-develop-ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
   cache::$data['data--translations-develop-ru']->data['Unordered list'] = 'Неупорядоченный список';
