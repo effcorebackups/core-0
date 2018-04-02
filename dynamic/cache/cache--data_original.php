@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-02 18:28:39';
+  cache::$info['data_original']['build'] = '2018-04-02 21:18:06';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -2002,6 +2002,18 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['develop']['class']->action_name = 'class/list';
   cache::$data['data_original']['tabs_items']['develop']['class']->title = 'Classes';
   cache::$data['data_original']['tabs_items']['develop']['class']->attributes['class']['class'] = 'class';
+  cache::$data['data_original']['tabs_items']['develop']['class_list'] = new \effcore\tabs_item();
+  cache::$data['data_original']['tabs_items']['develop']['class_list']->id = 'class_list';
+  cache::$data['data_original']['tabs_items']['develop']['class_list']->id_parent = 'class';
+  cache::$data['data_original']['tabs_items']['develop']['class_list']->action_name = 'class/list';
+  cache::$data['data_original']['tabs_items']['develop']['class_list']->title = 'List';
+  cache::$data['data_original']['tabs_items']['develop']['class_list']->attributes['class']['list'] = 'list';
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams'] = new \effcore\tabs_item();
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->id = 'class_diagrams';
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->id_parent = 'class';
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->action_name = 'class/diagrams';
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->title = 'Diagrams';
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->attributes['class']['diagrams'] = 'diagrams';
   cache::$data['data_original']['tabs_items']['develop']['interface'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['develop']['interface']->id = 'interface';
   cache::$data['data_original']['tabs_items']['develop']['interface']->id_parent = 'structures';
@@ -3260,7 +3272,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['templates']['tree']['tree_item_children']->markup = '<ul> %%_children </ul>';
   cache::$data['data_original']['templates']['tree']['tabs'] = new \stdClass();
   cache::$data['data_original']['templates']['tree']['tabs']->type = 'inline';
-  cache::$data['data_original']['templates']['tree']['tabs']->markup = '<x-tabs> %%_top_items %%_sub_items </x-tabs>';
+  cache::$data['data_original']['templates']['tree']['tabs']->markup = '<x-tabs> %%_children </x-tabs>';
   cache::$data['data_original']['templates']['tree']['tabs_top_items'] = new \stdClass();
   cache::$data['data_original']['templates']['tree']['tabs_top_items']->type = 'inline';
   cache::$data['data_original']['templates']['tree']['tabs_top_items']->markup = '<x-top-items> %%_children </x-top-items>';
