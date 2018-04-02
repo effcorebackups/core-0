@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-01 16:13:46';
+  cache::$info['data_original']['build'] = '2018-04-02 18:28:39';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -3260,13 +3260,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['templates']['tree']['tree_item_children']->markup = '<ul> %%_children </ul>';
   cache::$data['data_original']['templates']['tree']['tabs'] = new \stdClass();
   cache::$data['data_original']['templates']['tree']['tabs']->type = 'inline';
-  cache::$data['data_original']['templates']['tree']['tabs']->markup = '<x-tabs %%_attributes> <ul>%%_children</ul> </x-tabs>';
+  cache::$data['data_original']['templates']['tree']['tabs']->markup = '<x-tabs> %%_top_items %%_sub_items </x-tabs>';
+  cache::$data['data_original']['templates']['tree']['tabs_top_items'] = new \stdClass();
+  cache::$data['data_original']['templates']['tree']['tabs_top_items']->type = 'inline';
+  cache::$data['data_original']['templates']['tree']['tabs_top_items']->markup = '<x-top-items> %%_children </x-top-items>';
+  cache::$data['data_original']['templates']['tree']['tabs_sub_items'] = new \stdClass();
+  cache::$data['data_original']['templates']['tree']['tabs_sub_items']->type = 'inline';
+  cache::$data['data_original']['templates']['tree']['tabs_sub_items']->markup = '<x-sub-items> %%_children </x-sub-items>';
   cache::$data['data_original']['templates']['tree']['tabs_item'] = new \stdClass();
   cache::$data['data_original']['templates']['tree']['tabs_item']->type = 'inline';
-  cache::$data['data_original']['templates']['tree']['tabs_item']->markup = '<li %%_attributes> %%_self %%_children </li>';
-  cache::$data['data_original']['templates']['tree']['tabs_item_children'] = new \stdClass();
-  cache::$data['data_original']['templates']['tree']['tabs_item_children']->type = 'inline';
-  cache::$data['data_original']['templates']['tree']['tabs_item_children']->markup = '<ul> %%_children </ul>';
+  cache::$data['data_original']['templates']['tree']['tabs_item']->markup = '%%_self %%_children';
   cache::$data['data_original']['storages']['storage']['storage_pdo_sql'] = new \effcore\storage_pdo();
   cache::$data['data_original']['storages']['storage']['storage_pdo_sql']->id = 'main';
   cache::$data['data_original']['storages']['storage']['storage_files_nosql'] = new \effcore\storage_files();
