@@ -145,7 +145,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Moderators'] = 'Модераторы';
   cache::$data['data--translations-locales-ru']->data['Module for internationalization.'] = 'Модуль для интернационализации.';
   cache::$data['data--translations-locales-ru']->data['Module for storages support.'] = 'Модуль поддержки хранилищ данных.';
-  cache::$data['data--translations-locales-ru']->data['Module for working with hierarchical structures like trees.'] = 'Модуль для работы с такими иерархическими структурами как деревья.';
+  cache::$data['data--translations-locales-ru']->data['Module for working with navigation elements.'] = 'Модуль для работы с элементами навигации.';
   cache::$data['data--translations-locales-ru']->data['Module for working with pages.'] = 'Модуль работы со страницами.';
   cache::$data['data--translations-locales-ru']->data['Module for working with user accounts and permissions.'] = 'Модуль работы с пользовательскими аккаунтами и разрешениями.';
   cache::$data['data--translations-locales-ru']->data['Module information'] = 'Информация о модуле';

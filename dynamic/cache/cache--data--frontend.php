@@ -10,6 +10,22 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['develop']['frontend_page_n']->styles['develop_style'] = new \stdClass();
   cache::$data['data--frontend']['develop']['frontend_page_n']->styles['develop_style']->file = 'frontend/develop._style';
   cache::$data['data--frontend']['develop']['frontend_page_n']->styles['develop_style']->media = 'all';
+  cache::$data['data--frontend']['menu']['frontend_block_tree'] = new \stdClass();
+  cache::$data['data--frontend']['menu']['frontend_block_tree']->display = new \stdClass();
+  cache::$data['data--frontend']['menu']['frontend_block_tree']->display->check = 'dpath';
+  cache::$data['data--frontend']['menu']['frontend_block_tree']->display->where = 'block';
+  cache::$data['data--frontend']['menu']['frontend_block_tree']->display->match = '%^trees/.*$%';
+  cache::$data['data--frontend']['menu']['frontend_block_tree']->styles['tree_style'] = new \stdClass();
+  cache::$data['data--frontend']['menu']['frontend_block_tree']->styles['tree_style']->file = 'frontend/tree._style';
+  cache::$data['data--frontend']['menu']['frontend_block_tree']->styles['tree_style']->media = 'all';
+  cache::$data['data--frontend']['menu']['frontend_block_tabs'] = new \stdClass();
+  cache::$data['data--frontend']['menu']['frontend_block_tabs']->display = new \stdClass();
+  cache::$data['data--frontend']['menu']['frontend_block_tabs']->display->check = 'dpath';
+  cache::$data['data--frontend']['menu']['frontend_block_tabs']->display->where = 'block';
+  cache::$data['data--frontend']['menu']['frontend_block_tabs']->display->match = '%^tabs/.*$%';
+  cache::$data['data--frontend']['menu']['frontend_block_tabs']->styles['tabs_style'] = new \stdClass();
+  cache::$data['data--frontend']['menu']['frontend_block_tabs']->styles['tabs_style']->file = 'frontend/tabs._style';
+  cache::$data['data--frontend']['menu']['frontend_block_tabs']->styles['tabs_style']->media = 'all';
   cache::$data['data--frontend']['page']['frontend_page_n'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->display = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->display->check = 'path';
@@ -60,21 +76,5 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['form_style']->media = 'all';
   cache::$data['data--frontend']['page']['frontend_form_n']->scripts['form_script'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->scripts['form_script']->file = 'frontend/form._script';
-  cache::$data['data--frontend']['tree']['frontend_block_tree'] = new \stdClass();
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->display = new \stdClass();
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->check = 'dpath';
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->where = 'block';
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->display->match = '%^trees/.*$%';
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['tree_style'] = new \stdClass();
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['tree_style']->file = 'frontend/tree._style';
-  cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['tree_style']->media = 'all';
-  cache::$data['data--frontend']['tree']['frontend_block_tabs'] = new \stdClass();
-  cache::$data['data--frontend']['tree']['frontend_block_tabs']->display = new \stdClass();
-  cache::$data['data--frontend']['tree']['frontend_block_tabs']->display->check = 'dpath';
-  cache::$data['data--frontend']['tree']['frontend_block_tabs']->display->where = 'block';
-  cache::$data['data--frontend']['tree']['frontend_block_tabs']->display->match = '%^tabs/.*$%';
-  cache::$data['data--frontend']['tree']['frontend_block_tabs']->styles['tabs_style'] = new \stdClass();
-  cache::$data['data--frontend']['tree']['frontend_block_tabs']->styles['tabs_style']->file = 'frontend/tabs._style';
-  cache::$data['data--frontend']['tree']['frontend_block_tabs']->styles['tabs_style']->media = 'all';
 
 }

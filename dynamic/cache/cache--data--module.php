@@ -37,6 +37,13 @@ namespace effcore { # cache for data--module
   cache::$data['data--module']['locales']->version = 1;
   cache::$data['data--module']['locales']->state = 'on';
   cache::$data['data--module']['locales']->path = 'system/locales/';
+  cache::$data['data--module']['menu'] = new \effcore\module();
+  cache::$data['data--module']['menu']->id = 'menu';
+  cache::$data['data--module']['menu']->title = 'Menu';
+  cache::$data['data--module']['menu']->description = 'Module for working with navigation elements.';
+  cache::$data['data--module']['menu']->version = 1;
+  cache::$data['data--module']['menu']->state = 'always_on';
+  cache::$data['data--module']['menu']->path = 'system/menu/';
   cache::$data['data--module']['page'] = new \effcore\module();
   cache::$data['data--module']['page']->id = 'page';
   cache::$data['data--module']['page']->title = 'Page';
@@ -51,13 +58,6 @@ namespace effcore { # cache for data--module
   cache::$data['data--module']['storage']->version = 1;
   cache::$data['data--module']['storage']->state = 'always_on';
   cache::$data['data--module']['storage']->path = 'system/storage/';
-  cache::$data['data--module']['tree'] = new \effcore\module();
-  cache::$data['data--module']['tree']->id = 'tree';
-  cache::$data['data--module']['tree']->title = 'Tree';
-  cache::$data['data--module']['tree']->description = 'Module for working with hierarchical structures like trees.';
-  cache::$data['data--module']['tree']->version = 1;
-  cache::$data['data--module']['tree']->state = 'always_on';
-  cache::$data['data--module']['tree']->path = 'system/tree/';
   cache::$data['data--module']['user'] = new \effcore\module();
   cache::$data['data--module']['user']->id = 'user';
   cache::$data['data--module']['user']->title = 'User';

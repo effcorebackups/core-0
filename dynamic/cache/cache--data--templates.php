@@ -2,6 +2,30 @@
 
 namespace effcore { # cache for data--templates
 
+  cache::$data['data--templates']['menu']['tree'] = new \stdClass();
+  cache::$data['data--templates']['menu']['tree']->type = 'inline';
+  cache::$data['data--templates']['menu']['tree']->markup = '<x-tree %%_attributes> <h3 class="hidden">%%_self</h3> <ul>%%_children</ul> </x-tree>';
+  cache::$data['data--templates']['menu']['tree_item'] = new \stdClass();
+  cache::$data['data--templates']['menu']['tree_item']->type = 'inline';
+  cache::$data['data--templates']['menu']['tree_item']->markup = '<li %%_attributes> %%_self %%_children </li>';
+  cache::$data['data--templates']['menu']['tree_item_children'] = new \stdClass();
+  cache::$data['data--templates']['menu']['tree_item_children']->type = 'inline';
+  cache::$data['data--templates']['menu']['tree_item_children']->markup = '<ul> %%_children </ul>';
+  cache::$data['data--templates']['menu']['tabs'] = new \stdClass();
+  cache::$data['data--templates']['menu']['tabs']->type = 'inline';
+  cache::$data['data--templates']['menu']['tabs']->markup = '<x-tabs> %%_top_items %%_sub_items </x-tabs>';
+  cache::$data['data--templates']['menu']['tabs_top_items'] = new \stdClass();
+  cache::$data['data--templates']['menu']['tabs_top_items']->type = 'inline';
+  cache::$data['data--templates']['menu']['tabs_top_items']->markup = '<x-top-items> %%_children </x-top-items>';
+  cache::$data['data--templates']['menu']['tabs_sub_items'] = new \stdClass();
+  cache::$data['data--templates']['menu']['tabs_sub_items']->type = 'inline';
+  cache::$data['data--templates']['menu']['tabs_sub_items']->markup = '<x-sub-items> %%_children </x-sub-items>';
+  cache::$data['data--templates']['menu']['tabs_item'] = new \stdClass();
+  cache::$data['data--templates']['menu']['tabs_item']->type = 'inline';
+  cache::$data['data--templates']['menu']['tabs_item']->markup = '<li %%_attributes> %%_self %%_children </li>';
+  cache::$data['data--templates']['menu']['tabs_item_children'] = new \stdClass();
+  cache::$data['data--templates']['menu']['tabs_item_children']->type = 'inline';
+  cache::$data['data--templates']['menu']['tabs_item_children']->markup = '<ul> %%_children </ul>';
   cache::$data['data--templates']['page']['markup_html'] = new \stdClass();
   cache::$data['data--templates']['page']['markup_html']->type = 'inline';
   cache::$data['data--templates']['page']['markup_html']->markup = '<%%_tag_name %%_attributes>%%_content</%%_tag_name>';
@@ -32,29 +56,5 @@ namespace effcore { # cache for data--templates
   cache::$data['data--templates']['page']['canvas_svg'] = new \stdClass();
   cache::$data['data--templates']['page']['canvas_svg']->type = 'file';
   cache::$data['data--templates']['page']['canvas_svg']->path = 'frontend/template--canvas_svg._template';
-  cache::$data['data--templates']['tree']['tree'] = new \stdClass();
-  cache::$data['data--templates']['tree']['tree']->type = 'inline';
-  cache::$data['data--templates']['tree']['tree']->markup = '<x-tree %%_attributes> <h3 class="hidden">%%_self</h3> <ul>%%_children</ul> </x-tree>';
-  cache::$data['data--templates']['tree']['tree_item'] = new \stdClass();
-  cache::$data['data--templates']['tree']['tree_item']->type = 'inline';
-  cache::$data['data--templates']['tree']['tree_item']->markup = '<li %%_attributes> %%_self %%_children </li>';
-  cache::$data['data--templates']['tree']['tree_item_children'] = new \stdClass();
-  cache::$data['data--templates']['tree']['tree_item_children']->type = 'inline';
-  cache::$data['data--templates']['tree']['tree_item_children']->markup = '<ul> %%_children </ul>';
-  cache::$data['data--templates']['tree']['tabs'] = new \stdClass();
-  cache::$data['data--templates']['tree']['tabs']->type = 'inline';
-  cache::$data['data--templates']['tree']['tabs']->markup = '<x-tabs> %%_top_items %%_sub_items </x-tabs>';
-  cache::$data['data--templates']['tree']['tabs_top_items'] = new \stdClass();
-  cache::$data['data--templates']['tree']['tabs_top_items']->type = 'inline';
-  cache::$data['data--templates']['tree']['tabs_top_items']->markup = '<x-top-items> %%_children </x-top-items>';
-  cache::$data['data--templates']['tree']['tabs_sub_items'] = new \stdClass();
-  cache::$data['data--templates']['tree']['tabs_sub_items']->type = 'inline';
-  cache::$data['data--templates']['tree']['tabs_sub_items']->markup = '<x-sub-items> %%_children </x-sub-items>';
-  cache::$data['data--templates']['tree']['tabs_item'] = new \stdClass();
-  cache::$data['data--templates']['tree']['tabs_item']->type = 'inline';
-  cache::$data['data--templates']['tree']['tabs_item']->markup = '<li %%_attributes> %%_self %%_children </li>';
-  cache::$data['data--templates']['tree']['tabs_item_children'] = new \stdClass();
-  cache::$data['data--templates']['tree']['tabs_item_children']->type = 'inline';
-  cache::$data['data--templates']['tree']['tabs_item_children']->markup = '<ul> %%_children </ul>';
 
 }
