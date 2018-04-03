@@ -68,5 +68,13 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['tree_style'] = new \stdClass();
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['tree_style']->file = 'frontend/tree._style';
   cache::$data['data--frontend']['tree']['frontend_block_tree']->styles['tree_style']->media = 'all';
+  cache::$data['data--frontend']['tree']['frontend_block_tabs'] = new \stdClass();
+  cache::$data['data--frontend']['tree']['frontend_block_tabs']->display = new \stdClass();
+  cache::$data['data--frontend']['tree']['frontend_block_tabs']->display->check = 'dpath';
+  cache::$data['data--frontend']['tree']['frontend_block_tabs']->display->where = 'block';
+  cache::$data['data--frontend']['tree']['frontend_block_tabs']->display->match = '%^tabs/.*$%';
+  cache::$data['data--frontend']['tree']['frontend_block_tabs']->styles['tabs_style'] = new \stdClass();
+  cache::$data['data--frontend']['tree']['frontend_block_tabs']->styles['tabs_style']->file = 'frontend/tabs._style';
+  cache::$data['data--frontend']['tree']['frontend_block_tabs']->styles['tabs_style']->media = 'all';
 
 }
