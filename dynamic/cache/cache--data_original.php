@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-03 11:19:11';
+  cache::$info['data_original']['build'] = '2018-04-04 11:26:09';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -2005,7 +2005,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs']['storage']['instance_manage']->attributes['class']['instance-manage'] = 'instance-manage';
   cache::$data['data_original']['tabs_items']['develop']['class'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['develop']['class']->parent_is_tab = true;
-  cache::$data['data_original']['tabs_items']['develop']['class']->action_name = 'class/list';
+  cache::$data['data_original']['tabs_items']['develop']['class']->action_name = 'class';
+  cache::$data['data_original']['tabs_items']['develop']['class']->action_default_name = 'class/list';
   cache::$data['data_original']['tabs_items']['develop']['class']->title = 'Classes';
   cache::$data['data_original']['tabs_items']['develop']['class']->id = 'class';
   cache::$data['data_original']['tabs_items']['develop']['class']->id_parent = 'structures';
@@ -2024,14 +2025,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->attributes['class']['diagrams'] = 'diagrams';
   cache::$data['data_original']['tabs_items']['develop']['interface'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['develop']['interface']->parent_is_tab = true;
-  cache::$data['data_original']['tabs_items']['develop']['interface']->action_name = 'interface/list';
+  cache::$data['data_original']['tabs_items']['develop']['interface']->action_name = 'interface';
+  cache::$data['data_original']['tabs_items']['develop']['interface']->action_default_name = 'interface/list';
   cache::$data['data_original']['tabs_items']['develop']['interface']->title = 'Interfaces';
   cache::$data['data_original']['tabs_items']['develop']['interface']->id = 'interface';
   cache::$data['data_original']['tabs_items']['develop']['interface']->id_parent = 'structures';
   cache::$data['data_original']['tabs_items']['develop']['interface']->attributes['class']['interface'] = 'interface';
   cache::$data['data_original']['tabs_items']['develop']['trait'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['develop']['trait']->parent_is_tab = true;
-  cache::$data['data_original']['tabs_items']['develop']['trait']->action_name = 'trait/list';
+  cache::$data['data_original']['tabs_items']['develop']['trait']->action_name = 'trait';
+  cache::$data['data_original']['tabs_items']['develop']['trait']->action_default_name = 'trait/list';
   cache::$data['data_original']['tabs_items']['develop']['trait']->title = 'Traits';
   cache::$data['data_original']['tabs_items']['develop']['trait']->id = 'trait';
   cache::$data['data_original']['tabs_items']['develop']['trait']->id_parent = 'structures';
