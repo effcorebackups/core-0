@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-04 12:51:53';
+  cache::$info['classes_map']['build'] = '2018-04-05 11:58:58';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -148,7 +148,7 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\modules\demo\demo_class_2']->namespace = 'effcore\\modules\\demo';
   cache::$data['classes_map']['effcore\modules\demo\demo_class_2']->name = 'demo_class_2';
   cache::$data['classes_map']['effcore\modules\demo\demo_class_2']->type = 'class';
-  cache::$data['classes_map']['effcore\modules\demo\demo_class_2']->extends = 'demo_class_1';
+  cache::$data['classes_map']['effcore\modules\demo\demo_class_2']->extends = 'effcore\\modules\\demo\\demo_class_1';
   cache::$data['classes_map']['effcore\modules\demo\demo_class_2']->file = 'system/develop/demo/backend/demo--classes.php';
   cache::$data['classes_map']['effcore\modules\demo\demo_class_ab_1'] = new \stdClass();
   cache::$data['classes_map']['effcore\modules\demo\demo_class_ab_1']->namespace = 'effcore\\modules\\demo';
@@ -159,7 +159,7 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\modules\demo\demo_class_ab_2']->namespace = 'effcore\\modules\\demo';
   cache::$data['classes_map']['effcore\modules\demo\demo_class_ab_2']->name = 'demo_class_ab_2';
   cache::$data['classes_map']['effcore\modules\demo\demo_class_ab_2']->type = 'class';
-  cache::$data['classes_map']['effcore\modules\demo\demo_class_ab_2']->extends = 'demo_class_ab_1';
+  cache::$data['classes_map']['effcore\modules\demo\demo_class_ab_2']->extends = 'effcore\\modules\\demo\\demo_class_ab_1';
   cache::$data['classes_map']['effcore\modules\demo\demo_class_ab_2']->file = 'system/develop/demo/backend/demo--classes_ab.php';
   cache::$data['classes_map']['effcore\demo_interface'] = new \stdClass();
   cache::$data['classes_map']['effcore\demo_interface']->namespace = 'effcore';
