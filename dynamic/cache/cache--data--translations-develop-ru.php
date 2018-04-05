@@ -15,6 +15,8 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Console'] = 'Консоль';
   cache::$data['data--translations-develop-ru']->data['Demo'] = 'Демо';
   cache::$data['data--translations-develop-ru']->data['Develop'] = 'Разработка';
+  cache::$data['data--translations-develop-ru']->data['Diagrams (export)'] = 'Диаграммы (экспорт)';
+  cache::$data['data--translations-develop-ru']->data['Diagrams'] = 'Диаграммы';
   cache::$data['data--translations-develop-ru']->data['Dynamic block'] = 'Динамический блок';
   cache::$data['data--translations-develop-ru']->data['Element %%_info.'] = 'Элемент %%_info.';
   cache::$data['data--translations-develop-ru']->data['Elements'] = 'Элементы';

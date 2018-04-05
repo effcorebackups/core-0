@@ -22,6 +22,12 @@ namespace effcore { # cache for data--tabs_items
   cache::$data['data--tabs_items']['develop']['class_diagrams']->id = 'class_diagrams';
   cache::$data['data--tabs_items']['develop']['class_diagrams']->id_parent = 'class';
   cache::$data['data--tabs_items']['develop']['class_diagrams']->attributes['class']['diagrams'] = 'diagrams';
+  cache::$data['data--tabs_items']['develop']['class_diagrams_export'] = new \effcore\tabs_item();
+  cache::$data['data--tabs_items']['develop']['class_diagrams_export']->action_name = 'class/diagrams_export';
+  cache::$data['data--tabs_items']['develop']['class_diagrams_export']->title = 'Diagrams (export)';
+  cache::$data['data--tabs_items']['develop']['class_diagrams_export']->id = 'class_diagrams_export';
+  cache::$data['data--tabs_items']['develop']['class_diagrams_export']->id_parent = 'class';
+  cache::$data['data--tabs_items']['develop']['class_diagrams_export']->attributes['class']['diagrams-export'] = 'diagrams-export';
   cache::$data['data--tabs_items']['develop']['interface'] = new \effcore\tabs_item();
   cache::$data['data--tabs_items']['develop']['interface']->parent_is_tab = true;
   cache::$data['data--tabs_items']['develop']['interface']->action_name = 'interface';

@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-05 14:26:59';
+  cache::$info['data_original']['build'] = '2018-04-05 20:01:43';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -1271,7 +1271,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['structures']->display = new \stdClass();
   cache::$data['data_original']['pages']['develop']['structures']->display->check = 'path';
   cache::$data['data_original']['pages']['develop']['structures']->display->where = 'url';
-  cache::$data['data_original']['pages']['develop']['structures']->display->match = '%^(?<base>/develop/structures)/(?<type>class|interface|trait)/(?<view>list|diagrams)$%';
+  cache::$data['data_original']['pages']['develop']['structures']->display->match = '%^(?<base>/develop/structures)/(?<type>class|interface|trait)/(?<view>list|diagrams|diagrams_export)$%';
   cache::$data['data_original']['pages']['develop']['structures']->access = new \stdClass();
   cache::$data['data_original']['pages']['develop']['structures']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_menu_main'] = new \stdClass();
@@ -1310,6 +1310,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams']->region = 'content';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams']->type = 'code';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_structures_diagrams';
+  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams_export'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams_export']->display = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams_export']->display->check = 'view';
+  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams_export']->display->where = 'page_args';
+  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams_export']->display->match = '%diagrams_export%';
+  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams_export']->region = 'content';
+  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams_export']->type = 'code';
+  cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagrams_export']->handler = '\\effcore\\modules\\develop\\events_page::on_export_diagrams';
   cache::$data['data_original']['pages']['demo']['demo'] = new \effcore\page();
   cache::$data['data_original']['pages']['demo']['demo']->title = 'Demo';
   cache::$data['data_original']['pages']['demo']['demo']->https = true;
@@ -2023,6 +2031,12 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->id = 'class_diagrams';
   cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->id_parent = 'class';
   cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->attributes['class']['diagrams'] = 'diagrams';
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export'] = new \effcore\tabs_item();
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export']->action_name = 'class/diagrams_export';
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export']->title = 'Diagrams (export)';
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export']->id = 'class_diagrams_export';
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export']->id_parent = 'class';
+  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export']->attributes['class']['diagrams-export'] = 'diagrams-export';
   cache::$data['data_original']['tabs_items']['develop']['interface'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['develop']['interface']->parent_is_tab = true;
   cache::$data['data_original']['tabs_items']['develop']['interface']->action_name = 'interface';
@@ -2081,6 +2095,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Console'] = 'Консоль';
   cache::$data['data_original']['translations']['develop']['ru']->data['Demo'] = 'Демо';
   cache::$data['data_original']['translations']['develop']['ru']->data['Develop'] = 'Разработка';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Diagrams (export)'] = 'Диаграммы (экспорт)';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Diagrams'] = 'Диаграммы';
   cache::$data['data_original']['translations']['develop']['ru']->data['Dynamic block'] = 'Динамический блок';
   cache::$data['data_original']['translations']['develop']['ru']->data['Element %%_info.'] = 'Элемент %%_info.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Elements'] = 'Элементы';
@@ -2171,7 +2187,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Delete'] = 'Удалить';
   cache::$data['data_original']['translations']['locales']['ru']->data['delete'] = 'удалить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Description'] = 'Описание';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Diagrams'] = 'Диаграммы';
   cache::$data['data_original']['translations']['locales']['ru']->data['disable'] = 'выключить';
   cache::$data['data_original']['translations']['locales']['ru']->data['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data_original']['translations']['locales']['ru']->data['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
