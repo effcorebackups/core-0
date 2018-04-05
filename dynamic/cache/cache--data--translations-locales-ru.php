@@ -35,6 +35,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Changes was removed.'] = 'Изменения были удалены.';
   cache::$data['data--translations-locales-ru']->data['Changes was saved.'] = 'Изменения были сохранены.';
   cache::$data['data--translations-locales-ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
+  cache::$data['data--translations-locales-ru']->data['collapse'] = 'свернуть';
   cache::$data['data--translations-locales-ru']->data['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   cache::$data['data--translations-locales-ru']->data['Color'] = 'Цвет';
   cache::$data['data--translations-locales-ru']->data['Colors'] = 'Цвета';
@@ -77,6 +78,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Event'] = 'Событие';
   cache::$data['data--translations-locales-ru']->data['events'] = 'события';
   cache::$data['data--translations-locales-ru']->data['Events'] = 'События';
+  cache::$data['data--translations-locales-ru']->data['expand'] = 'развернуть';
   cache::$data['data--translations-locales-ru']->data['failed to write file to disk'] = 'не удалось записать файл на диск';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" after trying to upload the file returned an error: %%_error!'] = 'Поле "%%_title" после попытки загрузить файл вернуло ошибку: %%_error!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';

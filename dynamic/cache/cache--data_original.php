@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-05 12:44:18';
+  cache::$info['data_original']['build'] = '2018-04-05 14:26:59';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -2147,6 +2147,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Changes was removed.'] = 'Изменения были удалены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Changes was saved.'] = 'Изменения были сохранены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['collapse'] = 'свернуть';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color'] = 'Цвет';
   cache::$data['data_original']['translations']['locales']['ru']->data['Colors'] = 'Цвета';
@@ -2189,6 +2190,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Event'] = 'Событие';
   cache::$data['data_original']['translations']['locales']['ru']->data['events'] = 'события';
   cache::$data['data_original']['translations']['locales']['ru']->data['Events'] = 'События';
+  cache::$data['data_original']['translations']['locales']['ru']->data['expand'] = 'развернуть';
   cache::$data['data_original']['translations']['locales']['ru']->data['failed to write file to disk'] = 'не удалось записать файл на диск';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" after trying to upload the file returned an error: %%_error!'] = 'Поле "%%_title" после попытки загрузить файл вернуло ошибку: %%_error!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
