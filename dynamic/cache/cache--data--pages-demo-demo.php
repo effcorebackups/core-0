@@ -39,5 +39,9 @@ namespace effcore { # cache for data--pages-demo-demo
   cache::$data['data--pages-demo-demo']->content['block_demo_dynamic']->region = 'content';
   cache::$data['data--pages-demo-demo']->content['block_demo_dynamic']->type = 'code';
   cache::$data['data--pages-demo-demo']->content['block_demo_dynamic']->handler = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_dynamic';
+  cache::$data['data--pages-demo-demo']->content['block_demo_canvas'] = new \stdClass();
+  cache::$data['data--pages-demo-demo']->content['block_demo_canvas']->region = 'content';
+  cache::$data['data--pages-demo-demo']->content['block_demo_canvas']->type = 'code';
+  cache::$data['data--pages-demo-demo']->content['block_demo_canvas']->handler = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_canvas';
 
 }

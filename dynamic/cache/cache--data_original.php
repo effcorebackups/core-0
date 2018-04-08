@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-08 12:27:42';
+  cache::$info['data_original']['build'] = '2018-04-08 16:08:15';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -1355,6 +1355,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_dynamic']->region = 'content';
   cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_dynamic']->type = 'code';
   cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_dynamic']->handler = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_dynamic';
+  cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_canvas'] = new \stdClass();
+  cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_canvas']->region = 'content';
+  cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_canvas']->type = 'code';
+  cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_canvas']->handler = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_canvas';
   cache::$data['data_original']['pages']['page']['decoration'] = new \effcore\page();
   cache::$data['data_original']['pages']['page']['decoration']->title = 'Decoration';
   cache::$data['data_original']['pages']['page']['decoration']->https = true;
@@ -2094,6 +2098,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['develop']['ru']->data['Call %%_name'] = 'Вызов %%_name';
   cache::$data['data_original']['translations']['develop']['ru']->data['call'] = 'вызов';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Canvas'] = 'Холст';
   cache::$data['data_original']['translations']['develop']['ru']->data['cell %%_num'] = 'ячейка %%_num';
   cache::$data['data_original']['translations']['develop']['ru']->data['Checkboxes (macro)'] = 'Флажки (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Checkboxes'] = 'Флажки';
