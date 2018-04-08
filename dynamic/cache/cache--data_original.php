@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-06 13:05:54';
+  cache::$info['data_original']['build'] = '2018-04-08 12:11:16';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -1939,6 +1939,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['develop']['frontend_page_n']->styles['develop_style'] = new \stdClass();
   cache::$data['data_original']['frontend']['develop']['frontend_page_n']->styles['develop_style']->file = 'frontend/develop._style';
   cache::$data['data_original']['frontend']['develop']['frontend_page_n']->styles['develop_style']->media = 'all';
+  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter'] = new \stdClass();
+  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display = new \stdClass();
+  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display->check = 'path';
+  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display->where = 'url';
+  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display->match = '%/develop/structures/.*%';
+  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->styles['form_style'] = new \stdClass();
+  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->styles['form_style']->file = '/page/frontend/form._style';
+  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->styles['form_style']->media = 'all';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree'] = new \stdClass();
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->display = new \stdClass();
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->display->check = 'dpath';

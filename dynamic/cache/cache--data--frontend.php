@@ -10,6 +10,14 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['develop']['frontend_page_n']->styles['develop_style'] = new \stdClass();
   cache::$data['data--frontend']['develop']['frontend_page_n']->styles['develop_style']->file = 'frontend/develop._style';
   cache::$data['data--frontend']['develop']['frontend_page_n']->styles['develop_style']->media = 'all';
+  cache::$data['data--frontend']['develop']['frontend_diagram_filter'] = new \stdClass();
+  cache::$data['data--frontend']['develop']['frontend_diagram_filter']->display = new \stdClass();
+  cache::$data['data--frontend']['develop']['frontend_diagram_filter']->display->check = 'path';
+  cache::$data['data--frontend']['develop']['frontend_diagram_filter']->display->where = 'url';
+  cache::$data['data--frontend']['develop']['frontend_diagram_filter']->display->match = '%/develop/structures/.*%';
+  cache::$data['data--frontend']['develop']['frontend_diagram_filter']->styles['form_style'] = new \stdClass();
+  cache::$data['data--frontend']['develop']['frontend_diagram_filter']->styles['form_style']->file = '/page/frontend/form._style';
+  cache::$data['data--frontend']['develop']['frontend_diagram_filter']->styles['form_style']->media = 'all';
   cache::$data['data--frontend']['menu']['frontend_block_tree'] = new \stdClass();
   cache::$data['data--frontend']['menu']['frontend_block_tree']->display = new \stdClass();
   cache::$data['data--frontend']['menu']['frontend_block_tree']->display->check = 'dpath';
