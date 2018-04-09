@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-09 15:51:33';
+  cache::$info['data_original']['build'] = '2018-04-09 18:54:48';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -1937,32 +1937,32 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->type = 'image/x-icon';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->rel = 'icon';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->file = 'frontend/icon-32x32.ico';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->file = 'frontend/images/icon-32x32.ico';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->sizes = '32x32';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_modern'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_modern']->type = 'image/png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_modern']->rel = 'icon';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_modern']->file = 'frontend/icon-32x32.png';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_modern']->file = 'frontend/images/icon-32x32.png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_modern']->sizes = '32x32';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_76'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_76']->type = 'image/png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_76']->rel = 'apple-touch-icon';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_76']->file = 'frontend/icon-76x76.png';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_76']->file = 'frontend/images/icon-76x76.png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_76']->sizes = '76x76';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_120'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_120']->type = 'image/png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_120']->rel = 'apple-touch-icon';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_120']->file = 'frontend/icon-120x120.png';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_120']->file = 'frontend/images/icon-120x120.png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_120']->sizes = '120x120';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_152'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_152']->type = 'image/png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_152']->rel = 'apple-touch-icon';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_152']->file = 'frontend/icon-152x152.png';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_152']->file = 'frontend/images/icon-152x152.png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_152']->sizes = '152x152';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_192'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->type = 'image/png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->rel = 'apple-touch-icon';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->file = 'frontend/icon-192x192.png';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->file = 'frontend/images/icon-192x192.png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->sizes = '192x192';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style']->file = 'frontend/page._style';
