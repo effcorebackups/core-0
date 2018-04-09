@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-09 14:20:32';
+  cache::$info['classes_map']['build'] = '2018-04-09 14:26:58';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -303,11 +303,17 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\canvas_svg']->type = 'class';
   cache::$data['classes_map']['effcore\canvas_svg']->extends = 'effcore\\node_simple';
   cache::$data['classes_map']['effcore\canvas_svg']->file = 'system/page/backend/pattern--canvas_svg.php';
+  cache::$data['classes_map']['effcore\container'] = new \stdClass();
+  cache::$data['classes_map']['effcore\container']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\container']->name = 'container';
+  cache::$data['classes_map']['effcore\container']->type = 'class';
+  cache::$data['classes_map']['effcore\container']->extends = 'effcore\\markup';
+  cache::$data['classes_map']['effcore\container']->file = 'system/page/backend/pattern--container.php';
   cache::$data['classes_map']['effcore\control_actions_list'] = new \stdClass();
   cache::$data['classes_map']['effcore\control_actions_list']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\control_actions_list']->name = 'control_actions_list';
   cache::$data['classes_map']['effcore\control_actions_list']->type = 'class';
-  cache::$data['classes_map']['effcore\control_actions_list']->extends = 'effcore\\form_container';
+  cache::$data['classes_map']['effcore\control_actions_list']->extends = 'effcore\\container';
   cache::$data['classes_map']['effcore\control_actions_list']->file = 'system/page/backend/pattern--controll_actions_list.php';
   cache::$data['classes_map']['effcore\form'] = new \stdClass();
   cache::$data['classes_map']['effcore\form']->namespace = 'effcore';
@@ -316,23 +322,17 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\form']->extends = 'effcore\\markup';
   cache::$data['classes_map']['effcore\form']->implements['effcore\has_different_cache'] = 'effcore\\has_different_cache';
   cache::$data['classes_map']['effcore\form']->file = 'system/page/backend/pattern--form.php';
-  cache::$data['classes_map']['effcore\form_container'] = new \stdClass();
-  cache::$data['classes_map']['effcore\form_container']->namespace = 'effcore';
-  cache::$data['classes_map']['effcore\form_container']->name = 'form_container';
-  cache::$data['classes_map']['effcore\form_container']->type = 'class';
-  cache::$data['classes_map']['effcore\form_container']->extends = 'effcore\\markup';
-  cache::$data['classes_map']['effcore\form_container']->file = 'system/page/backend/pattern--form_container.php';
   cache::$data['classes_map']['effcore\form_container_checkboxes'] = new \stdClass();
   cache::$data['classes_map']['effcore\form_container_checkboxes']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\form_container_checkboxes']->name = 'form_container_checkboxes';
   cache::$data['classes_map']['effcore\form_container_checkboxes']->type = 'class';
-  cache::$data['classes_map']['effcore\form_container_checkboxes']->extends = 'effcore\\form_container';
+  cache::$data['classes_map']['effcore\form_container_checkboxes']->extends = 'effcore\\container';
   cache::$data['classes_map']['effcore\form_container_checkboxes']->file = 'system/page/backend/pattern--form_container_checkboxes.php';
   cache::$data['classes_map']['effcore\form_container_license_agreement'] = new \stdClass();
   cache::$data['classes_map']['effcore\form_container_license_agreement']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\form_container_license_agreement']->name = 'form_container_license_agreement';
   cache::$data['classes_map']['effcore\form_container_license_agreement']->type = 'class';
-  cache::$data['classes_map']['effcore\form_container_license_agreement']->extends = 'effcore\\form_container';
+  cache::$data['classes_map']['effcore\form_container_license_agreement']->extends = 'effcore\\container';
   cache::$data['classes_map']['effcore\form_container_license_agreement']->file = 'system/page/backend/pattern--form_container_license_agreement.php';
   cache::$data['classes_map']['effcore\form_container_palette'] = new \stdClass();
   cache::$data['classes_map']['effcore\form_container_palette']->namespace = 'effcore';
@@ -350,7 +350,7 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\form_field']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\form_field']->name = 'form_field';
   cache::$data['classes_map']['effcore\form_field']->type = 'class';
-  cache::$data['classes_map']['effcore\form_field']->extends = 'effcore\\form_container';
+  cache::$data['classes_map']['effcore\form_field']->extends = 'effcore\\container';
   cache::$data['classes_map']['effcore\form_field']->file = 'system/page/backend/pattern--form_field.php';
   cache::$data['classes_map']['effcore\form_field_captcha'] = new \stdClass();
   cache::$data['classes_map']['effcore\form_field_captcha']->namespace = 'effcore';

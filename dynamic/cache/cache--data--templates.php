@@ -38,9 +38,9 @@ namespace effcore { # cache for data--templates
   cache::$data['data--templates']['page']['markup_xml_simple'] = new \stdClass();
   cache::$data['data--templates']['page']['markup_xml_simple']->type = 'inline';
   cache::$data['data--templates']['page']['markup_xml_simple']->markup = '<%%_tag_name %%_attributes />';
-  cache::$data['data--templates']['page']['form_container'] = new \stdClass();
-  cache::$data['data--templates']['page']['form_container']->type = 'inline';
-  cache::$data['data--templates']['page']['form_container']->markup = '<%%_tag_name %%_attributes> %%_title_t %%_content %%_title_b %%_description </%%_tag_name>';
+  cache::$data['data--templates']['page']['container'] = new \stdClass();
+  cache::$data['data--templates']['page']['container']->type = 'inline';
+  cache::$data['data--templates']['page']['container']->markup = '<%%_tag_name %%_attributes> %%_title_t %%_content %%_title_b %%_description </%%_tag_name>';
   cache::$data['data--templates']['page']['page'] = new \stdClass();
   cache::$data['data--templates']['page']['page']->type = 'file';
   cache::$data['data--templates']['page']['page']->path = 'frontend/template--page._template';

@@ -3,7 +3,7 @@
 namespace effcore { # cache for data--forms-user-registration
 
   cache::$data['data--forms-user-registration'] = new \effcore\form();
-  cache::$data['data--forms-user-registration']->children['credentials'] = new \effcore\form_container();
+  cache::$data['data--forms-user-registration']->children['credentials'] = new \effcore\container();
   cache::$data['data--forms-user-registration']->children['credentials']->tag_name = 'fieldset';
   cache::$data['data--forms-user-registration']->children['credentials']->title = 'Credentials';
   cache::$data['data--forms-user-registration']->children['credentials']->title_tag_name = 'legend';

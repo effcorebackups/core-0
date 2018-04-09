@@ -3,7 +3,7 @@
 namespace effcore { # cache for data--forms-demo-demo
 
   cache::$data['data--forms-demo-demo'] = new \effcore\form();
-  cache::$data['data--forms-demo-demo']->children['form_elements'] = new \effcore\form_container();
+  cache::$data['data--forms-demo-demo']->children['form_elements'] = new \effcore\container();
   cache::$data['data--forms-demo-demo']->children['form_elements']->tag_name = 'fieldset';
   cache::$data['data--forms-demo-demo']->children['form_elements']->title = 'Form elements';
   cache::$data['data--forms-demo-demo']->children['form_elements']->title_tag_name = 'legend';
@@ -239,7 +239,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['select_macro']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['select_macro']->description->text = 'Element %%_info.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['select_macro']->description->args['info'] = '&lt;select&gt;';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes'] = new \effcore\form_container();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes'] = new \effcore\container();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes']->title = 'Checkboxes';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes']->description->text = 'Element %%_info.';
@@ -292,7 +292,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro']->description->text = 'Element %%_info.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro']->description->args['info'] = '&lt;input type="checkbox"&gt;';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios'] = new \effcore\form_container();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios'] = new \effcore\container();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios']->title = 'Radios';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios']->description->text = 'Element %%_info.';
