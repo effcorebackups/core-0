@@ -11,7 +11,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->title = 'MySQL';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->title_position = 'bottom';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->children['element']->tag_name = 'input';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->children['element']->attributes['type'] = 'radio';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->children['element']->attributes['name'] = 'driver';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->children['element']->attributes['value'] = 'mysql';
@@ -26,7 +25,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->children['element']->tag_name = 'input';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['type'] = 'text';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['name'] = 'storage_id';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['required'] = 'required';
@@ -41,7 +39,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->description->args['examples'] = '127.0.0.1, example.com';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", "."';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->children['element']->tag_name = 'input';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->children['element']->attributes['type'] = 'text';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->children['element']->attributes['name'] = 'host_name';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->children['element']->attributes['required'] = 'required';
@@ -52,7 +49,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['port'] = new \effcore\form_field();
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['port']->title = 'Port';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['port']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['port']->children['element']->tag_name = 'input';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['port']->children['element']->attributes['type'] = 'number';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['port']->children['element']->attributes['name'] = 'port';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['port']->children['element']->attributes['required'] = 'required';
@@ -65,7 +61,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->children['element']->tag_name = 'input';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['type'] = 'text';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['name'] = 'user_name';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['required'] = 'required';
@@ -76,7 +71,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password'] = new \effcore\form_field();
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->title = 'Password';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->children['element']->tag_name = 'input';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->children['element']->attributes['type'] = 'password';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->children['element']->attributes['name'] = 'password';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->children['element']->attributes['maxlength'] = 255;
@@ -85,7 +79,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->title = 'SQLite';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->title_position = 'bottom';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->children['element']->tag_name = 'input';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->children['element']->attributes['type'] = 'radio';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->children['element']->attributes['name'] = 'driver';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->children['element']->attributes['value'] = 'sqlite';
@@ -100,7 +93,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['sqlite']->children['file_name']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data--forms-core-install']->children['storage']->children['sqlite']->children['file_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", ".", "/"';
   cache::$data['data--forms-core-install']->children['storage']->children['sqlite']->children['file_name']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-core-install']->children['storage']->children['sqlite']->children['file_name']->children['element']->tag_name = 'input';
   cache::$data['data--forms-core-install']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['type'] = 'text';
   cache::$data['data--forms-core-install']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['name'] = 'file_name';
   cache::$data['data--forms-core-install']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['required'] = 'required';
@@ -116,7 +108,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->children['element']->tag_name = 'input';
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['type'] = 'text';
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['name'] = 'table_prefix';
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['maxlength'] = 10;

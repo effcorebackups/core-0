@@ -10,7 +10,6 @@ namespace effcore { # cache for data--forms-user-login
   cache::$data['data--forms-user-login']->children['credentials']->children['email'] = new \effcore\form_field();
   cache::$data['data--forms-user-login']->children['credentials']->children['email']->title = 'EMail';
   cache::$data['data--forms-user-login']->children['credentials']->children['email']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-user-login']->children['credentials']->children['email']->children['element']->tag_name = 'input';
   cache::$data['data--forms-user-login']->children['credentials']->children['email']->children['element']->attributes['type'] = 'email';
   cache::$data['data--forms-user-login']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
   cache::$data['data--forms-user-login']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
@@ -19,7 +18,6 @@ namespace effcore { # cache for data--forms-user-login
   cache::$data['data--forms-user-login']->children['credentials']->children['password'] = new \effcore\form_field();
   cache::$data['data--forms-user-login']->children['credentials']->children['password']->title = 'Password';
   cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element']->tag_name = 'input';
   cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element']->attributes['type'] = 'password';
   cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element']->attributes['name'] = 'password';
   cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element']->attributes['required'] = 'required';

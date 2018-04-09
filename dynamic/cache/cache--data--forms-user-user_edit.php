@@ -10,7 +10,6 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['email'] = new \effcore\form_field();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['email']->title = 'EMail';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['email']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['email']->children['element']->tag_name = 'input';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['email']->children['element']->attributes['type'] = 'email';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
@@ -19,7 +18,6 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick'] = new \effcore\form_field();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->title = 'Nick';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->children['element']->tag_name = 'input';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->children['element']->attributes['type'] = 'text';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->children['element']->attributes['name'] = 'nick';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->children['element']->attributes['required'] = 'required';
@@ -32,7 +30,6 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->fixed_type = 'image';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->children['element']->tag_name = 'input';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->children['element']->attributes['type'] = 'file';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->children['element']->attributes['name'] = 'avatar';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->children['element']->attributes['accept'] = 'image/*';
@@ -40,7 +37,6 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->title = 'New password';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->description = 'Leave the field blank if you do not want to change its value.';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->children['element']->tag_name = 'input';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->children['element']->attributes['type'] = 'password';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->children['element']->attributes['name'] = 'password_new';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->children['element']->attributes['minlength'] = 5;
@@ -49,7 +45,6 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password'] = new \effcore\form_field();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password']->title = 'Password';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['password']->children['element']->tag_name = 'input';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password']->children['element']->attributes['type'] = 'password';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password']->children['element']->attributes['name'] = 'password';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password']->children['element']->attributes['required'] = 'required';

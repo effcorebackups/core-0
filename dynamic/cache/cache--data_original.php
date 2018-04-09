@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-08 16:08:15';
+  cache::$info['data_original']['build'] = '2018-04-09 09:17:20';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -412,7 +412,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->title = 'MySQL';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->title_position = 'bottom';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->children['element']->attributes['type'] = 'radio';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->children['element']->attributes['name'] = 'driver';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->children['element']->attributes['value'] = 'mysql';
@@ -427,7 +426,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['type'] = 'text';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['name'] = 'storage_id';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->children['element']->attributes['required'] = 'required';
@@ -442,7 +440,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->description->args['examples'] = '127.0.0.1, example.com';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", "."';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->children['element']->attributes['type'] = 'text';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->children['element']->attributes['name'] = 'host_name';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->children['element']->attributes['required'] = 'required';
@@ -453,7 +450,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->title = 'Port';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->children['element']->attributes['type'] = 'number';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->children['element']->attributes['name'] = 'port';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->children['element']->attributes['required'] = 'required';
@@ -466,7 +462,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['type'] = 'text';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['name'] = 'user_name';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['required'] = 'required';
@@ -477,7 +472,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->title = 'Password';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->children['element']->attributes['type'] = 'password';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->children['element']->attributes['name'] = 'password';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->children['element']->attributes['maxlength'] = 255;
@@ -486,7 +480,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->title = 'SQLite';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->title_position = 'bottom';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->children['element']->attributes['type'] = 'radio';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->children['element']->attributes['name'] = 'driver';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->children['element']->attributes['value'] = 'sqlite';
@@ -501,7 +494,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", ".", "/"';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['type'] = 'text';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['name'] = 'file_name';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->children['element']->attributes['required'] = 'required';
@@ -517,7 +509,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['type'] = 'text';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['name'] = 'table_prefix';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['maxlength'] = 10;
@@ -552,7 +543,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->args['info'] = '&lt;input type="text"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['type'] = 'text';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['name'] = 'text';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['required'] = 'required';
@@ -566,7 +556,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description->args['info'] = '&lt;input type="password"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->children['element']->attributes['type'] = 'password';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->children['element']->attributes['name'] = 'password';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->children['element']->attributes['required'] = 'required';
@@ -580,7 +569,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->description->args['info'] = '&lt;input type="search"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->children['element']->attributes['type'] = 'search';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->children['element']->attributes['name'] = 'search';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->children['element']->attributes['required'] = 'required';
@@ -593,7 +581,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->description->args['info'] = '&lt;input type="url"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->children['element']->attributes['type'] = 'url';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->children['element']->attributes['name'] = 'url';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->children['element']->attributes['required'] = 'required';
@@ -605,7 +592,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->description->text = 'Use international format of mobile phone numbers.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element']->attributes['type'] = 'tel';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element']->attributes['name'] = 'tel';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element']->attributes['required'] = 'required';
@@ -618,7 +604,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->description->args['info'] = '&lt;input type="email"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->attributes['type'] = 'email';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->attributes['name'] = 'email';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->attributes['required'] = 'required';
@@ -634,7 +619,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->description->args['info'] = '&lt;input type="file"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->children['element']->attributes['type'] = 'file';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->children['element']->attributes['name'] = 'file[]';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->children['element']->attributes['accept'] = 'image/*,audio/*,video/*';
@@ -645,7 +629,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->description->args['info'] = '&lt;input type="number"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->children['element']->attributes['type'] = 'number';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->children['element']->attributes['name'] = 'number';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->children['element']->attributes['required'] = 'required';
@@ -659,7 +642,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->description->args['info'] = '&lt;input type="range"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->children['element']->attributes['type'] = 'range';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->children['element']->attributes['name'] = 'range';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->children['element']->attributes['required'] = 'required';
@@ -673,7 +655,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description->args['info'] = '&lt;input type="date"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->children['element']->attributes['type'] = 'date';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->children['element']->attributes['name'] = 'date';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->children['element']->attributes['required'] = 'required';
@@ -686,7 +667,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->args['info'] = '&lt;input type="time"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->children['element']->attributes['type'] = 'time';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->children['element']->attributes['name'] = 'time';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->children['element']->attributes['required'] = 'required';
@@ -705,7 +685,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->description->args['info'] = '&lt;input type="color"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->children['element']->attributes['type'] = 'color';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->children['element']->attributes['name'] = 'color';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->children['element']->attributes['value'] = '#ffffff';
@@ -799,7 +778,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_1']->title = 'Checkbox 1.1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_1']->title_position = 'bottom';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_1']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_1']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_1']->children['element']->attributes['type'] = 'checkbox';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_1']->children['element']->attributes['name'] = 'checkbox_1_1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_1']->children['element']->attributes['value'] = 'checkbox_1_1';
@@ -807,7 +785,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_2']->title = 'Checkbox 1.2 (checked)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_2']->title_position = 'bottom';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_2']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_2']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_2']->children['element']->attributes['type'] = 'checkbox';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_2']->children['element']->attributes['name'] = 'checkbox_1_2';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_2']->children['element']->attributes['value'] = 'checkbox_1_2';
@@ -816,7 +793,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_3']->title = 'Checkbox 1.3 (disabled)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_3']->title_position = 'bottom';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_3']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_3']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_3']->children['element']->attributes['type'] = 'checkbox';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_3']->children['element']->attributes['name'] = 'checkbox_1_3';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_3']->children['element']->attributes['value'] = 'checkbox_1_3';
@@ -825,7 +801,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->title = 'Checkbox 1.4 (disabled + checked)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->title_position = 'bottom';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->children['element']->attributes['type'] = 'checkbox';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->children['element']->attributes['name'] = 'checkbox_1_4';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->children['element']->attributes['value'] = 'checkbox_1_4';
@@ -856,7 +831,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_1']->title = 'Radio 1.1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_1']->title_position = 'bottom';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_1']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_1']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_1']->children['element']->attributes['type'] = 'radio';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_1']->children['element']->attributes['name'] = 'radio';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_1']->children['element']->attributes['value'] = 'radio_1_1';
@@ -864,7 +838,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_2']->title = 'Radio 1.2 (checked)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_2']->title_position = 'bottom';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_2']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_2']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_2']->children['element']->attributes['type'] = 'radio';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_2']->children['element']->attributes['name'] = 'radio';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_2']->children['element']->attributes['value'] = 'radio_1_2';
@@ -873,7 +846,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_3']->title = 'Radio 1.3 (disabled)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_3']->title_position = 'bottom';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_3']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_3']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_3']->children['element']->attributes['type'] = 'radio';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_3']->children['element']->attributes['name'] = 'radio';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_3']->children['element']->attributes['value'] = 'radio_1_3';
@@ -958,7 +930,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->title = 'EMail';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['type'] = 'email';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
@@ -967,7 +938,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->title = 'Password';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['type'] = 'password';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['name'] = 'password';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['required'] = 'required';
@@ -1018,7 +988,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->title = 'EMail';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['type'] = 'email';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
@@ -1027,7 +996,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->title = 'Nick';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['type'] = 'text';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['name'] = 'nick';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['required'] = 'required';
@@ -1036,7 +1004,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->title = 'Password';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['type'] = 'password';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['name'] = 'password';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['required'] = 'required';
@@ -1087,7 +1054,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->title = 'EMail';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['type'] = 'email';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
@@ -1096,7 +1062,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->title = 'Nick';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['type'] = 'text';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['name'] = 'nick';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['required'] = 'required';
@@ -1109,7 +1074,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->fixed_type = 'image';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['type'] = 'file';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['name'] = 'avatar';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['accept'] = 'image/*';
@@ -1117,7 +1081,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->title = 'New password';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->description = 'Leave the field blank if you do not want to change its value.';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['type'] = 'password';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['name'] = 'password_new';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['minlength'] = 5;
@@ -1126,7 +1089,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->title = 'Password';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->tag_name = 'input';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['type'] = 'password';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['name'] = 'password';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['required'] = 'required';
