@@ -32,7 +32,7 @@ namespace effcore { # cache for data--forms-user-registration
   cache::$data['data--forms-user-registration']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
   cache::$data['data--forms-user-registration']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data--forms-user-registration']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
-  cache::$data['data--forms-user-registration']->children['credentials']->children['session_params'] = new \effcore\form_container_checkboxes();
+  cache::$data['data--forms-user-registration']->children['credentials']->children['session_params'] = new \effcore\form_checkboxes();
   cache::$data['data--forms-user-registration']->children['credentials']->children['session_params']->input_attributes['name'] = 'session_params[]';
   cache::$data['data--forms-user-registration']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
   cache::$data['data--forms-user-registration']->children['credentials']->children['session_params']->values['fixed_ip'] = 'on this ip';

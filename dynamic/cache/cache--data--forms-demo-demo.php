@@ -278,7 +278,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->children['element']->attributes['checked'] = 'checked';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes']->attributes['class']['boxes'] = 'boxes';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes']->attributes['class']['checkboxes'] = 'checkboxes';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro'] = new \effcore\form_container_checkboxes();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro'] = new \effcore\form_checkboxes();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro']->input_attributes['name'] = 'checkbox_macro[]';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_1'] = 'Checkbox 2.1';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_2'] = 'Checkbox 2.2 (checked)';
@@ -322,7 +322,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios']->children['radio_1_3']->children['element']->attributes['disabled'] = 'disabled';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios']->attributes['class']['boxes'] = 'boxes';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios']->attributes['class']['radioboxes'] = 'radioboxes';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios_macro'] = new \effcore\form_container_radios();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios_macro'] = new \effcore\form_radios();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios_macro']->input_attributes['name'] = 'radio_macro';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios_macro']->values['radio_2_1'] = 'Radio 2.1';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios_macro']->values['radio_2_2'] = 'Radio 2.2 (checked)';
@@ -333,7 +333,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios_macro']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios_macro']->description->text = 'Element %%_info.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radios_macro']->description->args['info'] = '&lt;input type="radio"&gt;';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['color_macro'] = new \effcore\form_container_palette();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['color_macro'] = new \effcore\form_palette();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['color_macro']->input_attributes['name'] = 'color';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['color_macro']->title = 'Color';
   cache::$data['data--forms-demo-demo']->children['button_submit'] = new \effcore\markup();

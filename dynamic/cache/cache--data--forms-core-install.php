@@ -112,7 +112,7 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['name'] = 'table_prefix';
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['maxlength'] = 10;
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
-  cache::$data['data--forms-core-install']->children['license_agreement'] = new \effcore\form_container_license_agreement();
+  cache::$data['data--forms-core-install']->children['license_agreement'] = new \effcore\form_license_agreement();
   cache::$data['data--forms-core-install']->children['button_install'] = new \effcore\markup();
   cache::$data['data--forms-core-install']->children['button_install']->tag_name = 'button';
   cache::$data['data--forms-core-install']->children['button_install']->children['label'] = new \effcore\text();
