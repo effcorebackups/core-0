@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-09 13:56:51';
+  cache::$info['classes_map']['build'] = '2018-04-09 14:20:32';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -307,7 +307,7 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\control_actions_list']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\control_actions_list']->name = 'control_actions_list';
   cache::$data['classes_map']['effcore\control_actions_list']->type = 'class';
-  cache::$data['classes_map']['effcore\control_actions_list']->extends = 'effcore\\markup';
+  cache::$data['classes_map']['effcore\control_actions_list']->extends = 'effcore\\form_container';
   cache::$data['classes_map']['effcore\control_actions_list']->file = 'system/page/backend/pattern--controll_actions_list.php';
   cache::$data['classes_map']['effcore\form'] = new \stdClass();
   cache::$data['classes_map']['effcore\form']->namespace = 'effcore';
