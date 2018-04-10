@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-10 12:01:29';
+  cache::$info['classes_map']['build'] = '2018-04-10 14:07:37';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -340,6 +340,12 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\form_field_captcha']->type = 'class';
   cache::$data['classes_map']['effcore\form_field_captcha']->extends = 'effcore\\form_field';
   cache::$data['classes_map']['effcore\form_field_captcha']->file = 'system/page/backend/pattern--form_field_captcha.php';
+  cache::$data['classes_map']['effcore\form_field_email'] = new \stdClass();
+  cache::$data['classes_map']['effcore\form_field_email']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\form_field_email']->name = 'form_field_email';
+  cache::$data['classes_map']['effcore\form_field_email']->type = 'class';
+  cache::$data['classes_map']['effcore\form_field_email']->extends = 'effcore\\form_field';
+  cache::$data['classes_map']['effcore\form_field_email']->file = 'system/page/backend/pattern--form_field_email.php';
   cache::$data['classes_map']['effcore\form_field_file'] = new \stdClass();
   cache::$data['classes_map']['effcore\form_field_file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\form_field_file']->name = 'form_field_file';

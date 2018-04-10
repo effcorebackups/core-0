@@ -21,6 +21,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Dynamic block'] = 'Динамический блок';
   cache::$data['data--translations-develop-ru']->data['Element %%_info.'] = 'Элемент %%_info.';
   cache::$data['data--translations-develop-ru']->data['Elements'] = 'Элементы';
+  cache::$data['data--translations-develop-ru']->data['EMail (macro)'] = 'Адрес электронной почты (макро)';
   cache::$data['data--translations-develop-ru']->data['Error message #%%_num.'] = 'Сообщение об ошибке #%%_num.';
   cache::$data['data--translations-develop-ru']->data['event system was initialized'] = 'система событий была инициализирована';
   cache::$data['data--translations-develop-ru']->data['Execute plan'] = 'План выполнения';

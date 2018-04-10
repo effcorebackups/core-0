@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-10 12:01:29';
+  cache::$info['data_original']['build'] = '2018-04-10 14:07:38';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -611,6 +611,15 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->attributes['maxlength'] = 64;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->attributes['multiple'] = 'multiple';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro'] = new \effcore\form_field_email();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['name'] = 'email_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['required'] = 'required';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['value'] = 'test3@example.com,test4@example.com';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['multiple'] = 'multiple';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->title = 'EMail (macro)';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->description->text = 'Element %%_info.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->description->args['info'] = '&lt;input type="email"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file'] = new \effcore\form_field_file();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->max_file_size = '1M';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->upload_subdir = 'demo/';
@@ -2075,6 +2084,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Dynamic block'] = 'Динамический блок';
   cache::$data['data_original']['translations']['develop']['ru']->data['Element %%_info.'] = 'Элемент %%_info.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Elements'] = 'Элементы';
+  cache::$data['data_original']['translations']['develop']['ru']->data['EMail (macro)'] = 'Адрес электронной почты (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Error message #%%_num.'] = 'Сообщение об ошибке #%%_num.';
   cache::$data['data_original']['translations']['develop']['ru']->data['event system was initialized'] = 'система событий была инициализирована';
   cache::$data['data_original']['translations']['develop']['ru']->data['Execute plan'] = 'План выполнения';
