@@ -33,6 +33,13 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->children['element']->attributes['minlength'] = 5;
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->children['element']->attributes['autocomplete'] = 'off';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro'] = new \effcore\form_field_password();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->title = 'Password (macro)';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->element_attributes['value'] = 'text in password';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->element_attributes['name'] = 'password_macro';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->description = new \effcore\text();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->description->text = 'Element %%_info.';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->description->args['info'] = '&lt;input type="password"&gt;';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search'] = new \effcore\form_field();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->title = 'Search';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->description = new \effcore\text();

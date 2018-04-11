@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-11 09:30:52';
+  cache::$info['data_original']['build'] = '2018-04-11 10:43:00';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -563,6 +563,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->children['element']->attributes['autocomplete'] = 'off';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password_macro'] = new \effcore\form_field_password();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password_macro']->title = 'Password (macro)';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password_macro']->element_attributes['value'] = 'text in password';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password_macro']->element_attributes['name'] = 'password_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password_macro']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password_macro']->description->text = 'Element %%_info.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password_macro']->description->args['info'] = '&lt;input type="password"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->title = 'Search';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->description = new \effcore\text();
@@ -2078,6 +2085,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Notice message #%%_num.'] = 'Уведомление #%%_num.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Ok message #%%_num.'] = 'Хорошее сообщение #%%_num.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Ordered list'] = 'Упорядоченный список';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Password (macro)'] = 'Пароль (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"'] = 'запрос = "%%_query"';
   cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radios (macro)'] = 'Переключатели (макро)';
