@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-11 11:48:44';
+  cache::$info['data_original']['build'] = '2018-04-11 19:05:49';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -2526,16 +2526,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->actions['delete'] = 'delete';
   cache::$data['data_original']['blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->active['edit'] = 'edit';
   cache::$data['data_original']['blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->attributes['class']['demo-actions-list'] = 'demo-actions-list';
-  cache::$data['data_original']['blocks']['demo']['demo']->attributes['id'] = 'demo';
+  cache::$data['data_original']['blocks']['demo']['demo']->attributes['class']['demo'] = 'demo';
   cache::$data['data_original']['blocks']['page']['logo'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['page']['logo']->tag_name = 'x-block';
   cache::$data['data_original']['blocks']['page']['logo']->children['link'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['page']['logo']->children['link']->tag_name = 'a';
-  cache::$data['data_original']['blocks']['page']['logo']->children['link']->attributes['id'] = 'to_front';
+  cache::$data['data_original']['blocks']['page']['logo']->children['link']->attributes['class']['to_front'] = 'to_front';
   cache::$data['data_original']['blocks']['page']['logo']->children['link']->attributes['href'] = '/';
   cache::$data['data_original']['blocks']['page']['logo']->children['link']->attributes['title'] = new \effcore\text();
   cache::$data['data_original']['blocks']['page']['logo']->children['link']->attributes['title']->text = 'to front page';
-  cache::$data['data_original']['blocks']['page']['logo']->attributes['id'] = 'logo';
+  cache::$data['data_original']['blocks']['page']['logo']->attributes['class']['logo'] = 'logo';
   cache::$data['data_original']['changes']['demo'] = new \stdClass();
   cache::$data['data_original']['changes']['demo']->insert['demo_data/demo/demo_object'] = new \stdClass();
   cache::$data['data_original']['changes']['demo']->insert['demo_data/demo/demo_object']->prop_4 = 'property value #4 (insert)';
