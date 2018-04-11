@@ -68,13 +68,8 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['minlength'] = 1;
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['maxlength'] = 64;
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password'] = new \effcore\form_field();
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->title = 'Password';
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->children['element']->attributes['type'] = 'password';
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->children['element']->attributes['name'] = 'password';
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->children['element']->attributes['maxlength'] = 255;
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->children['element']->attributes['autocomplete'] = 'off';
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password'] = new \effcore\form_field_password();
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->element_attributes['minlength'] = 0;
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite'] = new \effcore\form_field();
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->title = 'SQLite';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->title_position = 'bottom';
