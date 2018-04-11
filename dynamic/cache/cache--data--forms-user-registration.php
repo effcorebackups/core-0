@@ -7,14 +7,7 @@ namespace effcore { # cache for data--forms-user-registration
   cache::$data['data--forms-user-registration']->children['credentials']->tag_name = 'fieldset';
   cache::$data['data--forms-user-registration']->children['credentials']->title = 'Credentials';
   cache::$data['data--forms-user-registration']->children['credentials']->title_tag_name = 'legend';
-  cache::$data['data--forms-user-registration']->children['credentials']->children['email'] = new \effcore\form_field();
-  cache::$data['data--forms-user-registration']->children['credentials']->children['email']->title = 'EMail';
-  cache::$data['data--forms-user-registration']->children['credentials']->children['email']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-user-registration']->children['credentials']->children['email']->children['element']->attributes['type'] = 'email';
-  cache::$data['data--forms-user-registration']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
-  cache::$data['data--forms-user-registration']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
-  cache::$data['data--forms-user-registration']->children['credentials']->children['email']->children['element']->attributes['minlength'] = 5;
-  cache::$data['data--forms-user-registration']->children['credentials']->children['email']->children['element']->attributes['maxlength'] = 64;
+  cache::$data['data--forms-user-registration']->children['credentials']->children['email'] = new \effcore\form_field_email();
   cache::$data['data--forms-user-registration']->children['credentials']->children['nick'] = new \effcore\form_field();
   cache::$data['data--forms-user-registration']->children['credentials']->children['nick']->title = 'Nick';
   cache::$data['data--forms-user-registration']->children['credentials']->children['nick']->children['element'] = new \effcore\markup_simple();

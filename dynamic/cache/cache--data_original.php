@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-10 14:07:38';
+  cache::$info['data_original']['build'] = '2018-04-11 09:30:52';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -612,11 +612,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->attributes['maxlength'] = 64;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->attributes['multiple'] = 'multiple';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro'] = new \effcore\form_field_email();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->title = 'EMail (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['name'] = 'email_macro';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['required'] = 'required';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['value'] = 'test3@example.com,test4@example.com';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['multiple'] = 'multiple';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->title = 'EMail (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->description->args['info'] = '&lt;input type="email"&gt;';
@@ -936,14 +936,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->tag_name = 'fieldset';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->title = 'Credentials';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->title_tag_name = 'legend';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email'] = new \effcore\form_field();
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->title = 'EMail';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['type'] = 'email';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['minlength'] = 5;
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email']->children['element']->attributes['maxlength'] = 64;
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email'] = new \effcore\form_field_email();
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->title = 'Password';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element'] = new \effcore\markup_simple();
@@ -994,14 +987,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->tag_name = 'fieldset';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->title = 'Credentials';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->title_tag_name = 'legend';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email'] = new \effcore\form_field();
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->title = 'EMail';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['type'] = 'email';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['minlength'] = 5;
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email']->children['element']->attributes['maxlength'] = 64;
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email'] = new \effcore\form_field_email();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->title = 'Nick';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element'] = new \effcore\markup_simple();
@@ -1060,14 +1046,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->tag_name = 'fieldset';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->title = 'Credentials';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->title_tag_name = 'legend';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email'] = new \effcore\form_field();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->title = 'EMail';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['type'] = 'email';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['name'] = 'email';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['minlength'] = 5;
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email']->children['element']->attributes['maxlength'] = 64;
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email'] = new \effcore\form_field_email();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->title = 'Nick';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element'] = new \effcore\markup_simple();
