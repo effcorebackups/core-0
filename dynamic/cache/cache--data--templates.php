@@ -16,10 +16,10 @@ namespace effcore { # cache for data--templates
   cache::$data['data--templates']['menu']['tabs']->markup = '<x-tabs> %%_top_items %%_sub_items </x-tabs>';
   cache::$data['data--templates']['menu']['tabs_top_items'] = new \stdClass();
   cache::$data['data--templates']['menu']['tabs_top_items']->type = 'inline';
-  cache::$data['data--templates']['menu']['tabs_top_items']->markup = '<x-top-items> %%_children </x-top-items>';
+  cache::$data['data--templates']['menu']['tabs_top_items']->markup = '<x-top-items><ul> %%_children </ul></x-top-items>';
   cache::$data['data--templates']['menu']['tabs_sub_items'] = new \stdClass();
   cache::$data['data--templates']['menu']['tabs_sub_items']->type = 'inline';
-  cache::$data['data--templates']['menu']['tabs_sub_items']->markup = '<x-sub-items> %%_children </x-sub-items>';
+  cache::$data['data--templates']['menu']['tabs_sub_items']->markup = '<x-sub-items><ul> %%_children </ul></x-sub-items>';
   cache::$data['data--templates']['menu']['tabs_item'] = new \stdClass();
   cache::$data['data--templates']['menu']['tabs_item']->type = 'inline';
   cache::$data['data--templates']['menu']['tabs_item']->markup = '<li %%_attributes> %%_self %%_children </li>';
