@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-11 10:43:00';
+  cache::$info['data_original']['build'] = '2018-04-11 10:51:11';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -944,15 +944,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->title = 'Credentials';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->title_tag_name = 'legend';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email'] = new \effcore\form_field_email();
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password'] = new \effcore\form_field();
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->title = 'Password';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['type'] = 'password';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['name'] = 'password';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password'] = new \effcore\form_field_password();
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params'] = new \effcore\form_checkboxes();
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->input_attributes['name'] = 'session_params[]';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
@@ -1003,15 +995,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['required'] = 'required';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['minlength'] = 4;
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['maxlength'] = 32;
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password'] = new \effcore\form_field();
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->title = 'Password';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['type'] = 'password';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['name'] = 'password';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password'] = new \effcore\form_field_password();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params'] = new \effcore\form_checkboxes();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->input_attributes['name'] = 'session_params[]';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->values['remember'] = 'remember me';

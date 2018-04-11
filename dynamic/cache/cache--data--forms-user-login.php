@@ -8,15 +8,7 @@ namespace effcore { # cache for data--forms-user-login
   cache::$data['data--forms-user-login']->children['credentials']->title = 'Credentials';
   cache::$data['data--forms-user-login']->children['credentials']->title_tag_name = 'legend';
   cache::$data['data--forms-user-login']->children['credentials']->children['email'] = new \effcore\form_field_email();
-  cache::$data['data--forms-user-login']->children['credentials']->children['password'] = new \effcore\form_field();
-  cache::$data['data--forms-user-login']->children['credentials']->children['password']->title = 'Password';
-  cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element']->attributes['type'] = 'password';
-  cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element']->attributes['name'] = 'password';
-  cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element']->attributes['required'] = 'required';
-  cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
-  cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
-  cache::$data['data--forms-user-login']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
+  cache::$data['data--forms-user-login']->children['credentials']->children['password'] = new \effcore\form_field_password();
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params'] = new \effcore\form_checkboxes();
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->input_attributes['name'] = 'session_params[]';
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
