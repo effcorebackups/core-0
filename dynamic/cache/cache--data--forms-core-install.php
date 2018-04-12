@@ -69,7 +69,8 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['maxlength'] = 64;
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password'] = new \effcore\form_field_password();
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->element_attributes['minlength'] = 0;
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->element_attributes['minlength'] = null;
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->element_attributes['required'] = null;
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite'] = new \effcore\form_field();
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->title = 'SQLite';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->title_position = 'bottom';

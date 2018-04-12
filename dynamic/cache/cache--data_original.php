@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-11 19:05:49';
+  cache::$info['data_original']['build'] = '2018-04-12 11:56:29';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -470,7 +470,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['maxlength'] = 64;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password'] = new \effcore\form_field_password();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->element_attributes['minlength'] = 0;
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->element_attributes['minlength'] = null;
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->element_attributes['required'] = null;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->title = 'SQLite';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->title_position = 'bottom';
