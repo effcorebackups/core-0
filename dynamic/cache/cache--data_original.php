@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-12 12:39:34';
+  cache::$info['data_original']['build'] = '2018-04-12 14:02:20';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -542,10 +542,19 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['type'] = 'text';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['name'] = 'text';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['value'] = 'text in input';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['value'] = 'text in input 1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['pattern'] = '[a-zA-Z0-9]+';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro'] = new \effcore\form_field_text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->title = 'Text (macro)';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->element_attributes['value'] = 'text in input 2';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->element_attributes['name'] = 'text_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->element_attributes['minlength'] = 5;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->element_attributes['pattern'] = '[a-zA-Z0-9]+';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->description->text = 'Element %%_info.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->description->args['info'] = '&lt;input type="text"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->title = 'Password';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description = new \effcore\text();
@@ -2062,6 +2071,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Selection list'] = 'Список выбора';
   cache::$data['data_original']['translations']['develop']['ru']->data['Static block'] = 'Статический блок';
   cache::$data['data_original']['translations']['develop']['ru']->data['Structures'] = 'Структуры';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Text (macro)'] = 'Текст (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Textarea'] = 'Текстовая область';
   cache::$data['data_original']['translations']['develop']['ru']->data['Total generation time'] = 'Общее время генерации';
   cache::$data['data_original']['translations']['develop']['ru']->data['Total load'] = 'Общая загрука';
