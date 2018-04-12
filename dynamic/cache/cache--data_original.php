@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-12 12:17:39';
+  cache::$info['data_original']['build'] = '2018-04-12 12:39:34';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -1052,24 +1052,12 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['type'] = 'file';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['name'] = 'avatar';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['accept'] = 'image/*';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new'] = new \effcore\form_field();
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new'] = new \effcore\form_field_password();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->title = 'New password';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->element_attributes['name'] = 'password_new';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->element_attributes['required'] = null;
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->description = 'Leave the field blank if you do not want to change its value.';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['type'] = 'password';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['name'] = 'password_new';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['minlength'] = 5;
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['maxlength'] = 255;
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->children['element']->attributes['autocomplete'] = 'off';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password'] = new \effcore\form_field();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->title = 'Password';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['type'] = 'password';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['name'] = 'password';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['minlength'] = 5;
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['maxlength'] = 255;
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password']->children['element']->attributes['autocomplete'] = 'off';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password'] = new \effcore\form_field_password();
   cache::$data['data_original']['forms']['user']['user_edit']->children['button_save'] = new \effcore\markup();
   cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->tag_name = 'button';
   cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->children['label'] = new \effcore\text();
