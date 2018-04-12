@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-12 11:56:28';
+  cache::$info['classes_map']['build'] = '2018-04-12 12:17:39';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
