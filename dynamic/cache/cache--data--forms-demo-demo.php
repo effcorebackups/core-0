@@ -58,9 +58,16 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->children['element']->attributes['type'] = 'search';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->children['element']->attributes['name'] = 'search';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->children['element']->attributes['required'] = 'required';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->children['element']->attributes['value'] = 'text in search';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->children['element']->attributes['value'] = 'text in search 1';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->children['element']->attributes['minlength'] = 5;
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->children['element']->attributes['maxlength'] = 255;
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro'] = new \effcore\form_field_search();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->title = 'Search (macro)';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->element_attributes['value'] = 'text in search 2';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->element_attributes['name'] = 'search_macro';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->description = new \effcore\text();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->description->text = 'Element %%_info.';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->description->args['info'] = '&lt;input type="search"&gt;';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['url'] = new \effcore\form_field();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['url']->title = 'URL';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['url']->description = new \effcore\text();
