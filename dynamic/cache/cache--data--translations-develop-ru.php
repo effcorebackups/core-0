@@ -48,6 +48,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Static block'] = 'Статический блок';
   cache::$data['data--translations-develop-ru']->data['Structures'] = 'Структуры';
   cache::$data['data--translations-develop-ru']->data['Text (macro)'] = 'Текст (макро)';
+  cache::$data['data--translations-develop-ru']->data['Textarea (macro)'] = 'Текстовая область (макро)';
   cache::$data['data--translations-develop-ru']->data['Textarea'] = 'Текстовая область';
   cache::$data['data--translations-develop-ru']->data['Total generation time'] = 'Общее время генерации';
   cache::$data['data--translations-develop-ru']->data['Total load'] = 'Общая загрука';
