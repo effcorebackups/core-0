@@ -54,6 +54,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['UML Diagram'] = 'UML Диаграмма';
   cache::$data['data--translations-develop-ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
   cache::$data['data--translations-develop-ru']->data['Unordered list'] = 'Неупорядоченный список';
+  cache::$data['data--translations-develop-ru']->data['URL (macro)'] = 'URL (макро)';
   cache::$data['data--translations-develop-ru']->data['Warning message #%%_num.'] = 'Предупреждающее сообщение #%%_num.';
 
 }

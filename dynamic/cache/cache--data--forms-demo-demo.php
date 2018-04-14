@@ -22,8 +22,8 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->children['element']->attributes['pattern'] = '[a-zA-Z0-9]+';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text_macro'] = new \effcore\form_field_text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text_macro']->title = 'Text (macro)';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['text_macro']->element_attributes['value'] = 'text in input 2';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text_macro']->element_attributes['name'] = 'text_macro';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['text_macro']->element_attributes['value'] = 'text in input 2';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text_macro']->element_attributes['minlength'] = 5;
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text_macro']->element_attributes['pattern'] = '[a-zA-Z0-9]+';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text_macro']->description = new \effcore\text();
@@ -44,8 +44,8 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->children['element']->attributes['autocomplete'] = 'off';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro'] = new \effcore\form_field_password();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->title = 'Password (macro)';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->element_attributes['value'] = 'text in password';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->element_attributes['name'] = 'password_macro';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->element_attributes['value'] = 'text in password';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->description->text = 'Element %%_info.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password_macro']->description->args['info'] = '&lt;input type="password"&gt;';
@@ -63,8 +63,8 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro'] = new \effcore\form_field_search();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->title = 'Search (macro)';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->element_attributes['value'] = 'text in search 2';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->element_attributes['name'] = 'search_macro';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->element_attributes['value'] = 'text in search 2';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->description->text = 'Element %%_info.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search_macro']->description->args['info'] = '&lt;input type="search"&gt;';
@@ -77,9 +77,16 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['url']->children['element']->attributes['type'] = 'url';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['url']->children['element']->attributes['name'] = 'url';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['url']->children['element']->attributes['required'] = 'required';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['url']->children['element']->attributes['value'] = 'http://example.com';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['url']->children['element']->attributes['value'] = 'http://1.example.com';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['url']->children['element']->attributes['minlength'] = 5;
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['url']->children['element']->attributes['maxlength'] = 255;
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['url_macro'] = new \effcore\form_field_url();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['url_macro']->title = 'URL (macro)';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['url_macro']->element_attributes['name'] = 'url_macro';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['url_macro']->element_attributes['value'] = 'http://2.example.com';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['url_macro']->description = new \effcore\text();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['url_macro']->description->text = 'Element %%_info.';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['url_macro']->description->args['info'] = '&lt;input type="url"&gt;';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['tel'] = new \effcore\form_field();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['tel']->title = 'Telephone';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['tel']->description = new \effcore\text();
@@ -107,8 +114,8 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro'] = new \effcore\form_field_email();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->title = 'EMail (macro)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->element_attributes['name'] = 'email_macro';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->element_attributes['required'] = 'required';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->element_attributes['value'] = 'test3@example.com,test4@example.com';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->element_attributes['required'] = 'required';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->element_attributes['multiple'] = 'multiple';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->description->text = 'Element %%_info.';
