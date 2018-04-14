@@ -175,6 +175,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Password'] = 'Пароль';
   cache::$data['data--translations-locales-ru']->data['Path to file'] = 'Путь к файлу';
   cache::$data['data--translations-locales-ru']->data['Path'] = 'Путь';
+  cache::$data['data--translations-locales-ru']->data['Phone'] = 'Телефон';
   cache::$data['data--translations-locales-ru']->data['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['data--translations-locales-ru']->data['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache::$data['data--translations-locales-ru']->data['PHP Version'] = 'PHP Версия';
@@ -221,7 +222,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['System'] = 'Система';
   cache::$data['data--translations-locales-ru']->data['Table prefix'] = 'Префикс таблиц';
   cache::$data['data--translations-locales-ru']->data['Table'] = 'Таблица';
-  cache::$data['data--translations-locales-ru']->data['Telephone'] = 'Телефон';
   cache::$data['data--translations-locales-ru']->data['Test'] = 'Тест';
   cache::$data['data--translations-locales-ru']->data['Text'] = 'Текст';
   cache::$data['data--translations-locales-ru']->data['the size of uploaded file more than %%_size'] = 'размер загруженного файла больше чем %%_size';

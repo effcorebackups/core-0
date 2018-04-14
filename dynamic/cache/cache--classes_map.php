@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-14 09:37:37';
+  cache::$info['classes_map']['build'] = '2018-04-14 09:57:54';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -358,6 +358,12 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\form_field_password']->type = 'class';
   cache::$data['classes_map']['effcore\form_field_password']->extends = 'effcore\\form_field';
   cache::$data['classes_map']['effcore\form_field_password']->file = 'system/page/backend/pattern--form_field_password.php';
+  cache::$data['classes_map']['effcore\form_field_phone'] = new \stdClass();
+  cache::$data['classes_map']['effcore\form_field_phone']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\form_field_phone']->name = 'form_field_phone';
+  cache::$data['classes_map']['effcore\form_field_phone']->type = 'class';
+  cache::$data['classes_map']['effcore\form_field_phone']->extends = 'effcore\\form_field';
+  cache::$data['classes_map']['effcore\form_field_phone']->file = 'system/page/backend/pattern--form_field_phone.php';
   cache::$data['classes_map']['effcore\form_field_search'] = new \stdClass();
   cache::$data['classes_map']['effcore\form_field_search']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\form_field_search']->name = 'form_field_search';

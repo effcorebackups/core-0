@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-14 09:37:37';
+  cache::$info['data_original']['build'] = '2018-04-14 09:57:54';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -613,17 +613,23 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url_macro']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url_macro']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url_macro']->description->args['info'] = '&lt;input type="url"&gt;';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel'] = new \effcore\form_field();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->title = 'Telephone';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->description = new \effcore\text();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->description->text = 'Use international format of mobile phone numbers.';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element']->attributes['type'] = 'tel';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element']->attributes['name'] = 'tel';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element']->attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element']->attributes['value'] = '&#43;0123456789';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element']->attributes['minlength'] = 5;
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['tel']->children['element']->attributes['maxlength'] = 15;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone'] = new \effcore\form_field();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->title = 'Phone';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description->text = 'Use international format of mobile phone numbers.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->children['element'] = new \effcore\markup_simple();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->children['element']->attributes['type'] = 'tel';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->children['element']->attributes['name'] = 'phone';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->children['element']->attributes['required'] = 'required';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->children['element']->attributes['value'] = '&#43;0001112222222';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->children['element']->attributes['minlength'] = 5;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->children['element']->attributes['maxlength'] = 15;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone_macro'] = new \effcore\form_field_phone();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone_macro']->title = 'Phone (macro)';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone_macro']->element_attributes['name'] = 'phone_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone_macro']->element_attributes['value'] = '&#43;0003334444444';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone_macro']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone_macro']->description->text = 'Use international format of mobile phone numbers.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->title = 'EMail';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->description = new \effcore\text();
@@ -2077,6 +2083,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Ok message #%%_num.'] = 'Хорошее сообщение #%%_num.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Ordered list'] = 'Упорядоченный список';
   cache::$data['data_original']['translations']['develop']['ru']->data['Password (macro)'] = 'Пароль (макро)';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Phone (macro)'] = 'Телефон (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"'] = 'запрос = "%%_query"';
   cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radios (macro)'] = 'Переключатели (макро)';
@@ -2269,6 +2276,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Password'] = 'Пароль';
   cache::$data['data_original']['translations']['locales']['ru']->data['Path to file'] = 'Путь к файлу';
   cache::$data['data_original']['translations']['locales']['ru']->data['Path'] = 'Путь';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Phone'] = 'Телефон';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP Version'] = 'PHP Версия';
@@ -2315,7 +2323,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['System'] = 'Система';
   cache::$data['data_original']['translations']['locales']['ru']->data['Table prefix'] = 'Префикс таблиц';
   cache::$data['data_original']['translations']['locales']['ru']->data['Table'] = 'Таблица';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Telephone'] = 'Телефон';
   cache::$data['data_original']['translations']['locales']['ru']->data['Test'] = 'Тест';
   cache::$data['data_original']['translations']['locales']['ru']->data['Text'] = 'Текст';
   cache::$data['data_original']['translations']['locales']['ru']->data['the size of uploaded file more than %%_size'] = 'размер загруженного файла больше чем %%_size';
