@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-14 10:42:06';
+  cache::$info['data_original']['build'] = '2018-04-15 14:55:17';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -677,6 +677,15 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->children['element']->attributes['min'] = -1000;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->children['element']->attributes['max'] = 1000;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->children['element']->attributes['step'] = 0.2;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro'] = new \effcore\form_field_number();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro']->title = 'Number (macro)';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro']->element_attributes['name'] = 'number_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro']->element_attributes['min'] = -1000;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro']->element_attributes['max'] = 1000;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro']->element_attributes['step'] = 0.2;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro']->description->text = 'Element %%_info.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro']->description->args['info'] = '&lt;input type="number"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->title = 'Range';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->description = new \effcore\text();
@@ -2087,6 +2096,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for development.'] = 'Модуль для разработки.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for testing.'] = 'Модуль для тестирования.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Notice message #%%_num.'] = 'Уведомление #%%_num.';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Number (macro)'] = 'Число (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Ok message #%%_num.'] = 'Хорошее сообщение #%%_num.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Ordered list'] = 'Упорядоченный список';
   cache::$data['data_original']['translations']['develop']['ru']->data['Password (macro)'] = 'Пароль (макро)';

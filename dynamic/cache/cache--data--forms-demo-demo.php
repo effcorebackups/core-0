@@ -151,6 +151,15 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['number']->children['element']->attributes['min'] = -1000;
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['number']->children['element']->attributes['max'] = 1000;
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['number']->children['element']->attributes['step'] = 0.2;
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['number_macro'] = new \effcore\form_field_number();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['number_macro']->title = 'Number (macro)';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['number_macro']->element_attributes['name'] = 'number_macro';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['number_macro']->element_attributes['min'] = -1000;
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['number_macro']->element_attributes['max'] = 1000;
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['number_macro']->element_attributes['step'] = 0.2;
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['number_macro']->description = new \effcore\text();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['number_macro']->description->text = 'Element %%_info.';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['number_macro']->description->args['info'] = '&lt;input type="number"&gt;';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['range'] = new \effcore\form_field();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['range']->title = 'Range';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['range']->description = new \effcore\text();

@@ -34,6 +34,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Module for development.'] = 'Модуль для разработки.';
   cache::$data['data--translations-develop-ru']->data['Module for testing.'] = 'Модуль для тестирования.';
   cache::$data['data--translations-develop-ru']->data['Notice message #%%_num.'] = 'Уведомление #%%_num.';
+  cache::$data['data--translations-develop-ru']->data['Number (macro)'] = 'Число (макро)';
   cache::$data['data--translations-develop-ru']->data['Ok message #%%_num.'] = 'Хорошее сообщение #%%_num.';
   cache::$data['data--translations-develop-ru']->data['Ordered list'] = 'Упорядоченный список';
   cache::$data['data--translations-develop-ru']->data['Password (macro)'] = 'Пароль (макро)';
