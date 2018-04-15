@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-15 16:49:26';
+  cache::$info['data_original']['build'] = '2018-04-15 16:51:57';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -751,7 +751,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro'] = new \effcore\form_field_color();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->title = 'Color (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->element_attributes['name'] = 'color_macro';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->element_attributes['value'] = '#dddddd';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->element_attributes['value'] = '#eeeeee';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->description->args['info'] = '&lt;input type="color"&gt;';
