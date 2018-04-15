@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-15 16:34:39';
+  cache::$info['data_original']['build'] = '2018-04-15 16:49:26';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -748,6 +748,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->children['element']->attributes['name'] = 'color';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->children['element']->attributes['value'] = '#ffffff';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->children['element']->attributes['required'] = 'required';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro'] = new \effcore\form_field_color();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->title = 'Color (macro)';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->element_attributes['name'] = 'color_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->element_attributes['value'] = '#dddddd';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->description->text = 'Element %%_info.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->description->args['info'] = '&lt;input type="color"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['textarea'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['textarea']->title = 'Textarea';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['textarea']->description = new \effcore\text();
@@ -929,9 +936,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios_macro']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios_macro']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios_macro']->description->args['info'] = '&lt;input type="radio"&gt;';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro'] = new \effcore\form_palette();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->input_attributes['name'] = 'color';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->title = 'Color';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['palette'] = new \effcore\form_palette();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['palette']->input_attributes['name'] = 'color';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['palette']->title = 'Color';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit'] = new \effcore\markup();
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->tag_name = 'button';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->children['label'] = new \effcore\text();
@@ -2084,6 +2091,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['class'] = 'класс';
   cache::$data['data_original']['translations']['develop']['ru']->data['Classes list'] = 'Список классов';
   cache::$data['data_original']['translations']['develop']['ru']->data['Classes'] = 'Классы';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Color (macro)'] = 'Цвет (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Console'] = 'Консоль';
   cache::$data['data_original']['translations']['develop']['ru']->data['Demo'] = 'Демо';
   cache::$data['data_original']['translations']['develop']['ru']->data['Develop'] = 'Разработка';

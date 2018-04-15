@@ -13,6 +13,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['class'] = 'класс';
   cache::$data['data--translations-develop-ru']->data['Classes list'] = 'Список классов';
   cache::$data['data--translations-develop-ru']->data['Classes'] = 'Классы';
+  cache::$data['data--translations-develop-ru']->data['Color (macro)'] = 'Цвет (макро)';
   cache::$data['data--translations-develop-ru']->data['Console'] = 'Консоль';
   cache::$data['data--translations-develop-ru']->data['Demo'] = 'Демо';
   cache::$data['data--translations-develop-ru']->data['Develop'] = 'Разработка';
