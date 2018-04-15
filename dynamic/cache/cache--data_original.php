@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-15 18:21:29';
+  cache::$info['data_original']['build'] = '2018-04-15 19:20:19';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -741,6 +741,15 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->children['element']->attributes['min'] = '01:02:00';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->children['element']->attributes['max'] = '05:06:00';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->children['element']->attributes['step'] = 60;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro'] = new \effcore\form_field_time();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->title = 'Time (macro)';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->element_attributes['name'] = 'time_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->element_attributes['value'] = '03:04:00';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->element_attributes['min'] = '01:02:00';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->element_attributes['max'] = '05:06:00';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->description->text = 'Element %%_info.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->description->args['info'] = '&lt;input type="time"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone'] = new \effcore\form_field_select_timezone();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone']->select_attributes['name'] = 'select_timezone';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone']->select_attributes['required'] = 'required';
@@ -2140,6 +2149,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Text (macro)'] = 'Текст (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Textarea (macro)'] = 'Текстовая область (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Textarea'] = 'Текстовая область';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Time (macro)'] = 'Время (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Total generation time'] = 'Общее время генерации';
   cache::$data['data_original']['translations']['develop']['ru']->data['Total load'] = 'Общая загрука';
   cache::$data['data_original']['translations']['develop']['ru']->data['Traits'] = 'Трейты';

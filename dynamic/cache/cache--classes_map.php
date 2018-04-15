@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-15 18:21:29';
+  cache::$info['classes_map']['build'] = '2018-04-15 19:20:19';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -418,6 +418,12 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\form_field_textarea']->type = 'class';
   cache::$data['classes_map']['effcore\form_field_textarea']->extends = 'effcore\\form_field';
   cache::$data['classes_map']['effcore\form_field_textarea']->file = 'system/page/backend/pattern--form_field_textarea.php';
+  cache::$data['classes_map']['effcore\form_field_time'] = new \stdClass();
+  cache::$data['classes_map']['effcore\form_field_time']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\form_field_time']->name = 'form_field_time';
+  cache::$data['classes_map']['effcore\form_field_time']->type = 'class';
+  cache::$data['classes_map']['effcore\form_field_time']->extends = 'effcore\\form_field';
+  cache::$data['classes_map']['effcore\form_field_time']->file = 'system/page/backend/pattern--form_field_time.php';
   cache::$data['classes_map']['effcore\form_field_url'] = new \stdClass();
   cache::$data['classes_map']['effcore\form_field_url']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\form_field_url']->name = 'form_field_url';

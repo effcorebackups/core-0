@@ -215,6 +215,15 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time']->children['element']->attributes['min'] = '01:02:00';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time']->children['element']->attributes['max'] = '05:06:00';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time']->children['element']->attributes['step'] = 60;
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro'] = new \effcore\form_field_time();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->title = 'Time (macro)';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->element_attributes['name'] = 'time_macro';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->element_attributes['value'] = '03:04:00';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->element_attributes['min'] = '01:02:00';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->element_attributes['max'] = '05:06:00';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->description = new \effcore\text();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->description->text = 'Element %%_info.';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->description->args['info'] = '&lt;input type="time"&gt;';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['select_timezone'] = new \effcore\form_field_select_timezone();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['select_timezone']->select_attributes['name'] = 'select_timezone';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['select_timezone']->select_attributes['required'] = 'required';
