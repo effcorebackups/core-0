@@ -43,6 +43,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data--translations-develop-ru']->data['Radios (macro)'] = 'Переключатели (макро)';
   cache::$data['data--translations-develop-ru']->data['Radios'] = 'Переключатели';
+  cache::$data['data--translations-develop-ru']->data['Range (macro)'] = 'Диапазон (макро)';
   cache::$data['data--translations-develop-ru']->data['Search (macro)'] = 'Поиск (макро)';
   cache::$data['data--translations-develop-ru']->data['Selection list (macro)'] = 'Список выбора (макро)';
   cache::$data['data--translations-develop-ru']->data['Selection list'] = 'Список выбора';

@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-15 14:55:17';
+  cache::$info['data_original']['build'] = '2018-04-15 16:34:39';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -699,6 +699,15 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->children['element']->attributes['min'] = -1;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->children['element']->attributes['max'] = 1;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->children['element']->attributes['step'] = 0.2;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro'] = new \effcore\form_field_range();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro']->title = 'Range (macro)';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro']->element_attributes['name'] = 'range_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro']->element_attributes['min'] = -1;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro']->element_attributes['max'] = 1;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro']->element_attributes['step'] = 0.2;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro']->description->text = 'Element %%_info.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro']->description->args['info'] = '&lt;input type="range"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->title = 'Date';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description = new \effcore\text();
@@ -2105,6 +2114,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radios (macro)'] = 'Переключатели (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radios'] = 'Переключатели';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Range (macro)'] = 'Диапазон (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Search (macro)'] = 'Поиск (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Selection list (macro)'] = 'Список выбора (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Selection list'] = 'Список выбора';
