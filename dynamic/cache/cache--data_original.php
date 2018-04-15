@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-15 16:51:57';
+  cache::$info['data_original']['build'] = '2018-04-15 18:06:03';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -720,6 +720,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->children['element']->attributes['value'] = '2020-01-01';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->children['element']->attributes['min'] = '2000-01-01';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->children['element']->attributes['max'] = '2050-01-01';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date_macro'] = new \effcore\form_field_date();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date_macro']->title = 'Date (macro)';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date_macro']->element_attributes['name'] = 'date_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date_macro']->element_attributes['min'] = '2000-01-01';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date_macro']->element_attributes['max'] = '2050-01-01';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date_macro']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date_macro']->description->text = 'Element %%_info.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date_macro']->description->args['info'] = '&lt;input type="date"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time'] = new \effcore\form_field();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->title = 'Time';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description = new \effcore\text();
@@ -2093,6 +2101,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Classes'] = 'Классы';
   cache::$data['data_original']['translations']['develop']['ru']->data['Color (macro)'] = 'Цвет (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Console'] = 'Консоль';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Date (macro)'] = 'Дата (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Demo'] = 'Демо';
   cache::$data['data_original']['translations']['develop']['ru']->data['Develop'] = 'Разработка';
   cache::$data['data_original']['translations']['develop']['ru']->data['Diagrams (export)'] = 'Диаграммы (экспорт)';
