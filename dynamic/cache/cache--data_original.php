@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-15 19:20:19';
+  cache::$info['data_original']['build'] = '2018-04-15 19:24:15';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -744,7 +744,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro'] = new \effcore\form_field_time();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->title = 'Time (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->element_attributes['name'] = 'time_macro';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->element_attributes['value'] = '03:04:00';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->element_attributes['min'] = '01:02:00';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->element_attributes['max'] = '05:06:00';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->description = new \effcore\text();

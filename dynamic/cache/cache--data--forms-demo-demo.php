@@ -218,7 +218,6 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro'] = new \effcore\form_field_time();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->title = 'Time (macro)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->element_attributes['name'] = 'time_macro';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->element_attributes['value'] = '03:04:00';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->element_attributes['min'] = '01:02:00';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->element_attributes['max'] = '05:06:00';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->description = new \effcore\text();
