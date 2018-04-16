@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-16 19:35:01';
+  cache::$info['classes_map']['build'] = '2018-04-16 19:45:04';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -387,12 +387,6 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\field_select']->type = 'class';
   cache::$data['classes_map']['effcore\field_select']->extends = 'effcore\\field';
   cache::$data['classes_map']['effcore\field_select']->file = 'system/page/backend/pattern--field_select.php';
-  cache::$data['classes_map']['effcore\field_select_timezone'] = new \stdClass();
-  cache::$data['classes_map']['effcore\field_select_timezone']->namespace = 'effcore';
-  cache::$data['classes_map']['effcore\field_select_timezone']->name = 'field_select_timezone';
-  cache::$data['classes_map']['effcore\field_select_timezone']->type = 'class';
-  cache::$data['classes_map']['effcore\field_select_timezone']->extends = 'effcore\\field_select';
-  cache::$data['classes_map']['effcore\field_select_timezone']->file = 'system/page/backend/pattern--field_select_timezone.php';
   cache::$data['classes_map']['effcore\field_text'] = new \stdClass();
   cache::$data['classes_map']['effcore\field_text']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\field_text']->name = 'field_text';
@@ -411,6 +405,12 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\field_time']->type = 'class';
   cache::$data['classes_map']['effcore\field_time']->extends = 'effcore\\field';
   cache::$data['classes_map']['effcore\field_time']->file = 'system/page/backend/pattern--field_time.php';
+  cache::$data['classes_map']['effcore\field_timezone'] = new \stdClass();
+  cache::$data['classes_map']['effcore\field_timezone']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\field_timezone']->name = 'field_timezone';
+  cache::$data['classes_map']['effcore\field_timezone']->type = 'class';
+  cache::$data['classes_map']['effcore\field_timezone']->extends = 'effcore\\field_select';
+  cache::$data['classes_map']['effcore\field_timezone']->file = 'system/page/backend/pattern--field_timezone.php';
   cache::$data['classes_map']['effcore\field_url'] = new \stdClass();
   cache::$data['classes_map']['effcore\field_url']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\field_url']->name = 'field_url';
