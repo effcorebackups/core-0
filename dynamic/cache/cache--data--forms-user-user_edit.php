@@ -7,8 +7,8 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials']->tag_name = 'fieldset';
   cache::$data['data--forms-user-user_edit']->children['credentials']->title = 'Credentials';
   cache::$data['data--forms-user-user_edit']->children['credentials']->title_tag_name = 'legend';
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['email'] = new \effcore\form_field_email();
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick'] = new \effcore\form_field();
+  cache::$data['data--forms-user-user_edit']->children['credentials']->children['email'] = new \effcore\field_email();
+  cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick'] = new \effcore\field();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->title = 'Nick';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->children['element'] = new \effcore\markup_simple();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->children['element']->attributes['type'] = 'text';
@@ -16,7 +16,7 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->children['element']->attributes['required'] = 'required';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->children['element']->attributes['minlength'] = 4;
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->children['element']->attributes['maxlength'] = 32;
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar'] = new \effcore\form_field_file();
+  cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar'] = new \effcore\field_file();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->max_file_size = '10K';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->upload_subdir = 'avatar/';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->fixed_name = '%%_id_user';
@@ -26,12 +26,12 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->children['element']->attributes['type'] = 'file';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->children['element']->attributes['name'] = 'avatar';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->children['element']->attributes['accept'] = 'image/*';
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new'] = new \effcore\form_field_password();
+  cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new'] = new \effcore\field_password();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->title = 'New password';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->element_attributes['name'] = 'password_new';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->element_attributes['required'] = null;
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->description = 'Leave the field blank if you do not want to change its value.';
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['password'] = new \effcore\form_field_password();
+  cache::$data['data--forms-user-user_edit']->children['credentials']->children['password'] = new \effcore\field_password();
   cache::$data['data--forms-user-user_edit']->children['button_save'] = new \effcore\markup();
   cache::$data['data--forms-user-user_edit']->children['button_save']->tag_name = 'button';
   cache::$data['data--forms-user-user_edit']->children['button_save']->children['label'] = new \effcore\text();
