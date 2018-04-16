@@ -9,7 +9,7 @@ namespace effcore { # cache for data--forms-user-login
   cache::$data['data--forms-user-login']->children['credentials']->title_tag_name = 'legend';
   cache::$data['data--forms-user-login']->children['credentials']->children['email'] = new \effcore\field_email();
   cache::$data['data--forms-user-login']->children['credentials']->children['password'] = new \effcore\field_password();
-  cache::$data['data--forms-user-login']->children['credentials']->children['session_params'] = new \effcore\form_checkboxes();
+  cache::$data['data--forms-user-login']->children['credentials']->children['session_params'] = new \effcore\group_checkboxes();
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->element_attributes['name'] = 'session_params[]';
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->values['fixed_ip'] = 'on this ip';

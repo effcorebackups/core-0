@@ -197,8 +197,6 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['date_macro'] = new \effcore\field_date();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['date_macro']->title = 'Date (macro)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['date_macro']->element_attributes['name'] = 'date_macro';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['date_macro']->element_attributes['min'] = '2000-01-01';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['date_macro']->element_attributes['max'] = '2050-01-01';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['date_macro']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['date_macro']->description->text = 'Element %%_info.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['date_macro']->description->args['info'] = '&lt;input type="date"&gt;';
@@ -218,8 +216,6 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro'] = new \effcore\field_time();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->title = 'Time (macro)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->element_attributes['name'] = 'time_macro';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->element_attributes['min'] = '01:02:00';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->element_attributes['max'] = '05:06:00';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->description->text = 'Element %%_info.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time_macro']->description->args['info'] = '&lt;input type="time"&gt;';
@@ -371,7 +367,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes']->children['checkbox_1_4']->children['element']->attributes['checked'] = 'checked';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes']->attributes['class']['boxes'] = 'boxes';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes']->attributes['class']['checkboxes'] = 'checkboxes';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro'] = new \effcore\form_checkboxes();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro'] = new \effcore\group_checkboxes();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro']->element_attributes['name'] = 'checkbox_macro[]';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_1'] = 'Checkbox 2.1';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_2'] = 'Checkbox 2.2 (checked)';

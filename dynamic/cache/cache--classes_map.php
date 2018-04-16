@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-16 19:54:40';
+  cache::$info['classes_map']['build'] = '2018-04-16 20:04:51';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -424,12 +424,6 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\form']->extends = 'effcore\\markup';
   cache::$data['classes_map']['effcore\form']->implements['effcore\has_different_cache'] = 'effcore\\has_different_cache';
   cache::$data['classes_map']['effcore\form']->file = 'system/page/backend/pattern--form.php';
-  cache::$data['classes_map']['effcore\form_checkboxes'] = new \stdClass();
-  cache::$data['classes_map']['effcore\form_checkboxes']->namespace = 'effcore';
-  cache::$data['classes_map']['effcore\form_checkboxes']->name = 'form_checkboxes';
-  cache::$data['classes_map']['effcore\form_checkboxes']->type = 'class';
-  cache::$data['classes_map']['effcore\form_checkboxes']->extends = 'effcore\\container';
-  cache::$data['classes_map']['effcore\form_checkboxes']->file = 'system/page/backend/pattern--form_checkboxes.php';
   cache::$data['classes_map']['effcore\form_palette'] = new \stdClass();
   cache::$data['classes_map']['effcore\form_palette']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\form_palette']->name = 'form_palette';
@@ -440,8 +434,14 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\form_radios']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\form_radios']->name = 'form_radios';
   cache::$data['classes_map']['effcore\form_radios']->type = 'class';
-  cache::$data['classes_map']['effcore\form_radios']->extends = 'effcore\\form_checkboxes';
+  cache::$data['classes_map']['effcore\form_radios']->extends = 'effcore\\group_checkboxes';
   cache::$data['classes_map']['effcore\form_radios']->file = 'system/page/backend/pattern--form_radios.php';
+  cache::$data['classes_map']['effcore\group_checkboxes'] = new \stdClass();
+  cache::$data['classes_map']['effcore\group_checkboxes']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\group_checkboxes']->name = 'group_checkboxes';
+  cache::$data['classes_map']['effcore\group_checkboxes']->type = 'class';
+  cache::$data['classes_map']['effcore\group_checkboxes']->extends = 'effcore\\container';
+  cache::$data['classes_map']['effcore\group_checkboxes']->file = 'system/page/backend/pattern--group_checkboxes.php';
   cache::$data['classes_map']['effcore\group_license_agreement'] = new \stdClass();
   cache::$data['classes_map']['effcore\group_license_agreement']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\group_license_agreement']->name = 'group_license_agreement';
