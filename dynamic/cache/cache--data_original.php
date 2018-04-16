@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-16 20:04:51';
+  cache::$info['data_original']['build'] = '2018-04-16 20:09:04';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -937,7 +937,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->children['radio_1_3']->children['element']->attributes['disabled'] = 'disabled';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->attributes['class']['boxes'] = 'boxes';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->attributes['class']['radioboxes'] = 'radioboxes';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios_macro'] = new \effcore\form_radios();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios_macro'] = new \effcore\group_radios();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios_macro']->element_attributes['name'] = 'radio_macro';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios_macro']->values['radio_2_1'] = 'Radio 2.1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios_macro']->values['radio_2_2'] = 'Radio 2.2 (checked)';
