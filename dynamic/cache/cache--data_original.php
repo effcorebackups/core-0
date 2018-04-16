@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-16 20:09:04';
+  cache::$info['data_original']['build'] = '2018-04-16 20:11:49';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -948,7 +948,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios_macro']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios_macro']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios_macro']->description->args['info'] = '&lt;input type="radio"&gt;';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['palette'] = new \effcore\form_palette();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['palette'] = new \effcore\group_palette();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['palette']->element_attributes['name'] = 'color';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['palette']->title = 'Color';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit'] = new \effcore\markup();
@@ -981,11 +981,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->tag_name = 'fieldset';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->title = 'Colors';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->title_tag_name = 'legend';
-  cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id'] = new \effcore\form_palette();
+  cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id'] = new \effcore\group_palette();
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id']->element_attributes['name'] = 'color_id';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id']->title = 'Color';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id']->attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id'] = new \effcore\form_palette();
+  cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id'] = new \effcore\group_palette();
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->element_attributes['name'] = 'color_bg_id';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->title = 'Background color';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->attributes['required'] = 'required';
