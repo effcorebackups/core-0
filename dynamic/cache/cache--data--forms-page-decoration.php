@@ -8,11 +8,11 @@ namespace effcore { # cache for data--forms-page-decoration
   cache::$data['data--forms-page-decoration']->children['colors']->title = 'Colors';
   cache::$data['data--forms-page-decoration']->children['colors']->title_tag_name = 'legend';
   cache::$data['data--forms-page-decoration']->children['colors']->children['color_id'] = new \effcore\form_palette();
-  cache::$data['data--forms-page-decoration']->children['colors']->children['color_id']->input_attributes['name'] = 'color_id';
+  cache::$data['data--forms-page-decoration']->children['colors']->children['color_id']->element_attributes['name'] = 'color_id';
   cache::$data['data--forms-page-decoration']->children['colors']->children['color_id']->title = 'Color';
   cache::$data['data--forms-page-decoration']->children['colors']->children['color_id']->attributes['required'] = 'required';
   cache::$data['data--forms-page-decoration']->children['colors']->children['color_bg_id'] = new \effcore\form_palette();
-  cache::$data['data--forms-page-decoration']->children['colors']->children['color_bg_id']->input_attributes['name'] = 'color_bg_id';
+  cache::$data['data--forms-page-decoration']->children['colors']->children['color_bg_id']->element_attributes['name'] = 'color_bg_id';
   cache::$data['data--forms-page-decoration']->children['colors']->children['color_bg_id']->title = 'Background color';
   cache::$data['data--forms-page-decoration']->children['colors']->children['color_bg_id']->attributes['required'] = 'required';
   cache::$data['data--forms-page-decoration']->children['button_save'] = new \effcore\markup();

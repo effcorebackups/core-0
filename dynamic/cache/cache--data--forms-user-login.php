@@ -10,7 +10,7 @@ namespace effcore { # cache for data--forms-user-login
   cache::$data['data--forms-user-login']->children['credentials']->children['email'] = new \effcore\form_field_email();
   cache::$data['data--forms-user-login']->children['credentials']->children['password'] = new \effcore\form_field_password();
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params'] = new \effcore\form_checkboxes();
-  cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->input_attributes['name'] = 'session_params[]';
+  cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->element_attributes['name'] = 'session_params[]';
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->values['fixed_ip'] = 'on this ip';
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->checked['remember'] = 'remember';

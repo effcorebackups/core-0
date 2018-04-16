@@ -3,7 +3,7 @@
 namespace effcore { # cache for data--settings
 
   cache::$data['data--settings']['core'] = new \stdClass();
-  cache::$data['data--settings']['core']->key = '2b759a41bb9d666022f73479e3bdd2e5cfb7361e';
+  cache::$data['data--settings']['core']->key = '1a3315c77dbc258535955efeac0bbec56204cdfb';
   cache::$data['data--settings']['locales'] = new \stdClass();
   cache::$data['data--settings']['locales']->lang_code = 'ru';
   cache::$data['data--settings']['locales']->decimal_point = ',';
