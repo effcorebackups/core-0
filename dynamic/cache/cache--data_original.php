@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-16 19:45:04';
+  cache::$info['data_original']['build'] = '2018-04-16 19:54:40';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -509,7 +509,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['name'] = 'table_prefix';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['maxlength'] = 10;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->children['element']->attributes['pattern'] = '[a-zA-Z0-9-_]+';
-  cache::$data['data_original']['forms']['core']['install']->children['license_agreement'] = new \effcore\form_license_agreement();
+  cache::$data['data_original']['forms']['core']['install']->children['license_agreement'] = new \effcore\group_license_agreement();
   cache::$data['data_original']['forms']['core']['install']->children['button_install'] = new \effcore\markup();
   cache::$data['data_original']['forms']['core']['install']->children['button_install']->tag_name = 'button';
   cache::$data['data_original']['forms']['core']['install']->children['button_install']->children['label'] = new \effcore\text();

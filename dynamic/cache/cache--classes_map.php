@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-16 19:45:04';
+  cache::$info['classes_map']['build'] = '2018-04-16 19:54:40';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -430,12 +430,6 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\form_checkboxes']->type = 'class';
   cache::$data['classes_map']['effcore\form_checkboxes']->extends = 'effcore\\container';
   cache::$data['classes_map']['effcore\form_checkboxes']->file = 'system/page/backend/pattern--form_checkboxes.php';
-  cache::$data['classes_map']['effcore\form_license_agreement'] = new \stdClass();
-  cache::$data['classes_map']['effcore\form_license_agreement']->namespace = 'effcore';
-  cache::$data['classes_map']['effcore\form_license_agreement']->name = 'form_license_agreement';
-  cache::$data['classes_map']['effcore\form_license_agreement']->type = 'class';
-  cache::$data['classes_map']['effcore\form_license_agreement']->extends = 'effcore\\container';
-  cache::$data['classes_map']['effcore\form_license_agreement']->file = 'system/page/backend/pattern--form_license_agreement.php';
   cache::$data['classes_map']['effcore\form_palette'] = new \stdClass();
   cache::$data['classes_map']['effcore\form_palette']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\form_palette']->name = 'form_palette';
@@ -448,6 +442,12 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\form_radios']->type = 'class';
   cache::$data['classes_map']['effcore\form_radios']->extends = 'effcore\\form_checkboxes';
   cache::$data['classes_map']['effcore\form_radios']->file = 'system/page/backend/pattern--form_radios.php';
+  cache::$data['classes_map']['effcore\group_license_agreement'] = new \stdClass();
+  cache::$data['classes_map']['effcore\group_license_agreement']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\group_license_agreement']->name = 'group_license_agreement';
+  cache::$data['classes_map']['effcore\group_license_agreement']->type = 'class';
+  cache::$data['classes_map']['effcore\group_license_agreement']->extends = 'effcore\\container';
+  cache::$data['classes_map']['effcore\group_license_agreement']->file = 'system/page/backend/pattern--group_license_agreement.php';
   cache::$data['classes_map']['effcore\markup'] = new \stdClass();
   cache::$data['classes_map']['effcore\markup']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\markup']->name = 'markup';
