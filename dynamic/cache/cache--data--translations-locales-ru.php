@@ -99,6 +99,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Field value is not in valid range.'] = 'Значение поля не соответствует допустимому диапазону.';
   cache::$data['data--translations-locales-ru']->data['File %%_name was uploaded.'] = 'Файл %%_name был загружен.';
   cache::$data['data--translations-locales-ru']->data['file is empty'] = 'файл пуст';
+  cache::$data['data--translations-locales-ru']->data['File name'] = 'Имя файла';
   cache::$data['data--translations-locales-ru']->data['file of this type is protected by: %%_name'] = 'файл этого типа защищен с помощью: %%_name';
   cache::$data['data--translations-locales-ru']->data['File'] = 'Файл';
   cache::$data['data--translations-locales-ru']->data['file'] = 'файл';
@@ -173,7 +174,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Parameter'] = 'Параметр';
   cache::$data['data--translations-locales-ru']->data['Password hash'] = 'Хеш пароля';
   cache::$data['data--translations-locales-ru']->data['Password'] = 'Пароль';
-  cache::$data['data--translations-locales-ru']->data['Path to file'] = 'Путь к файлу';
   cache::$data['data--translations-locales-ru']->data['Path'] = 'Путь';
   cache::$data['data--translations-locales-ru']->data['Phone'] = 'Телефон';
   cache::$data['data--translations-locales-ru']->data['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
