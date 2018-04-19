@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-19 09:57:23';
+  cache::$info['data_original']['build'] = '2018-04-19 11:51:12';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -858,6 +858,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox_macro']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox_macro']->description->args['info'] = '&lt;checkbox&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes'] = new \effcore\container();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->tag_name = 'x-group';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->title = 'Checkboxes';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->description->text = 'Element %%_info.';
@@ -911,6 +912,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_macro']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_macro']->description->args['info'] = '&lt;input type="checkbox"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios'] = new \effcore\container();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->tag_name = 'x-group';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->title = 'Radios';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radios']->description->text = 'Element %%_info.';
