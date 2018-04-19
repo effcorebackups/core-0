@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-19 11:51:12';
+  cache::$info['data_original']['build'] = '2018-04-19 12:04:28';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -484,6 +484,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", ".", "/"';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params'] = new \effcore\container();
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->tag_name = 'fieldset';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->title = 'Shared params';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->title_tag_name = 'legend';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix'] = new \effcore\field_text();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->title = 'Table prefix';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->element_attributes['name'] = 'table_prefix';
@@ -2362,6 +2365,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data_original']['translations']['locales']['ru']->data['set'] = 'установка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Shared information'] = 'Общая информация';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Shared params'] = 'Общие параметры';
   cache::$data['data_original']['translations']['locales']['ru']->data['Show more'] = 'Показать больше';
   cache::$data['data_original']['translations']['locales']['ru']->data['sql state: %%_state'] = 'sql состояние: %%_state';
   cache::$data['data_original']['translations']['locales']['ru']->data['state'] = 'состояние';

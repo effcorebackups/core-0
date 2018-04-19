@@ -83,6 +83,9 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['sqlite']->children['file_name']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data--forms-core-install']->children['storage']->children['sqlite']->children['file_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", ".", "/"';
   cache::$data['data--forms-core-install']->children['storage']->children['params'] = new \effcore\container();
+  cache::$data['data--forms-core-install']->children['storage']->children['params']->tag_name = 'fieldset';
+  cache::$data['data--forms-core-install']->children['storage']->children['params']->title = 'Shared params';
+  cache::$data['data--forms-core-install']->children['storage']->children['params']->title_tag_name = 'legend';
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix'] = new \effcore\field_text();
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->title = 'Table prefix';
   cache::$data['data--forms-core-install']->children['storage']->children['params']->children['table_prefix']->element_attributes['name'] = 'table_prefix';

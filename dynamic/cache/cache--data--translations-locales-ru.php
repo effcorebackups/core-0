@@ -205,6 +205,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data--translations-locales-ru']->data['set'] = 'установка';
   cache::$data['data--translations-locales-ru']->data['Shared information'] = 'Общая информация';
+  cache::$data['data--translations-locales-ru']->data['Shared params'] = 'Общие параметры';
   cache::$data['data--translations-locales-ru']->data['Show more'] = 'Показать больше';
   cache::$data['data--translations-locales-ru']->data['sql state: %%_state'] = 'sql состояние: %%_state';
   cache::$data['data--translations-locales-ru']->data['state'] = 'состояние';
