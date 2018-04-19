@@ -8,6 +8,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['call'] = 'вызов';
   cache::$data['data--translations-develop-ru']->data['Canvas'] = 'Холст';
   cache::$data['data--translations-develop-ru']->data['cell %%_num'] = 'ячейка %%_num';
+  cache::$data['data--translations-develop-ru']->data['Checkbox (macro)'] = 'Флаг (макро)';
   cache::$data['data--translations-develop-ru']->data['Checkboxes (macro)'] = 'Флажки (макро)';
   cache::$data['data--translations-develop-ru']->data['Checkboxes'] = 'Флажки';
   cache::$data['data--translations-develop-ru']->data['class'] = 'класс';

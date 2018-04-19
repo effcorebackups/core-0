@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-17 14:12:00';
+  cache::$info['data_original']['build'] = '2018-04-19 09:52:05';
   cache::$data['data_original']['bundle']['system'] = new \stdClass();
   cache::$data['data_original']['bundle']['system']->id = 'system';
   cache::$data['data_original']['bundle']['system']->title = 'System';
@@ -838,6 +838,25 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->description->args['info'] = '&lt;select&gt;';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox'] = new \effcore\field();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox']->title = 'Checkbox';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox']->title_position = 'bottom';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox']->description->text = 'Element %%_info.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox']->description->args['info'] = '&lt;checkbox&gt;';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox']->children['element'] = new \effcore\markup_simple();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox']->children['element']->attributes['type'] = 'checkbox';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox']->children['element']->attributes['name'] = 'checkbox';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox']->children['element']->attributes['value'] = 'checkbox ';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox']->children['element']->attributes['checked'] = 'checked';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox_macro'] = new \effcore\field_checkbox();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox_macro']->title = 'Checkbox (macro)';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox_macro']->element_attributes['name'] = 'checkbox_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox_macro']->element_attributes['value'] = 'checkbox_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox_macro']->element_attributes['checked'] = 'checked';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox_macro']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox_macro']->description->text = 'Element %%_info.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkbox_macro']->description->args['info'] = '&lt;checkbox&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes'] = new \effcore\container();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->title = 'Checkboxes';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->description = new \effcore\text();
@@ -878,7 +897,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->attributes['class']['boxes'] = 'boxes';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes']->attributes['class']['checkboxes'] = 'checkboxes';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_macro'] = new \effcore\group_checkboxes();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_macro']->element_attributes['name'] = 'checkbox_macro[]';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_macro']->element_attributes['name'] = 'checkboxes_macro[]';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_1'] = 'Checkbox 2.1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_2'] = 'Checkbox 2.2 (checked)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_macro']->values['checkbox_2_3'] = 'Checkbox 2.3 (disabled)';
@@ -2082,6 +2101,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['call'] = 'вызов';
   cache::$data['data_original']['translations']['develop']['ru']->data['Canvas'] = 'Холст';
   cache::$data['data_original']['translations']['develop']['ru']->data['cell %%_num'] = 'ячейка %%_num';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Checkbox (macro)'] = 'Флаг (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Checkboxes (macro)'] = 'Флажки (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Checkboxes'] = 'Флажки';
   cache::$data['data_original']['translations']['develop']['ru']->data['class'] = 'класс';
@@ -2170,6 +2190,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Changes was removed.'] = 'Изменения были удалены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Changes was saved.'] = 'Изменения были сохранены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Checkbox'] = 'Флаг';
   cache::$data['data_original']['translations']['locales']['ru']->data['collapse'] = 'свернуть';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color'] = 'Цвет';

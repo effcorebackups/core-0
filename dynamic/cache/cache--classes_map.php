@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-17 14:12:00';
+  cache::$info['classes_map']['build'] = '2018-04-19 09:52:05';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -327,6 +327,12 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\field_captcha']->type = 'class';
   cache::$data['classes_map']['effcore\field_captcha']->extends = 'effcore\\field';
   cache::$data['classes_map']['effcore\field_captcha']->file = 'system/page/backend/pattern--field_captcha.php';
+  cache::$data['classes_map']['effcore\field_checkbox'] = new \stdClass();
+  cache::$data['classes_map']['effcore\field_checkbox']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\field_checkbox']->name = 'field_checkbox';
+  cache::$data['classes_map']['effcore\field_checkbox']->type = 'class';
+  cache::$data['classes_map']['effcore\field_checkbox']->extends = 'effcore\\field';
+  cache::$data['classes_map']['effcore\field_checkbox']->file = 'system/page/backend/pattern--field_checkbox.php';
   cache::$data['classes_map']['effcore\field_color'] = new \stdClass();
   cache::$data['classes_map']['effcore\field_color']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\field_color']->name = 'field_color';
