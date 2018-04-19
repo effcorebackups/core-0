@@ -2,6 +2,15 @@
 
 namespace effcore { # cache for data--blocks
 
+  cache::$data['data--blocks']['page']['logo'] = new \effcore\markup();
+  cache::$data['data--blocks']['page']['logo']->tag_name = 'x-block';
+  cache::$data['data--blocks']['page']['logo']->children['link'] = new \effcore\markup();
+  cache::$data['data--blocks']['page']['logo']->children['link']->tag_name = 'a';
+  cache::$data['data--blocks']['page']['logo']->children['link']->attributes['class']['to_front'] = 'to_front';
+  cache::$data['data--blocks']['page']['logo']->children['link']->attributes['href'] = '/';
+  cache::$data['data--blocks']['page']['logo']->children['link']->attributes['title'] = new \effcore\text();
+  cache::$data['data--blocks']['page']['logo']->children['link']->attributes['title']->text = 'to front page';
+  cache::$data['data--blocks']['page']['logo']->attributes['class']['logo'] = 'logo';
   cache::$data['data--blocks']['demo']['demo'] = new \effcore\markup();
   cache::$data['data--blocks']['demo']['demo']->tag_name = 'x-block';
   cache::$data['data--blocks']['demo']['demo']->children['block_title'] = new \effcore\markup();
@@ -182,14 +191,5 @@ namespace effcore { # cache for data--blocks
   cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->active['edit'] = 'edit';
   cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->attributes['class']['demo-actions-list'] = 'demo-actions-list';
   cache::$data['data--blocks']['demo']['demo']->attributes['class']['demo'] = 'demo';
-  cache::$data['data--blocks']['page']['logo'] = new \effcore\markup();
-  cache::$data['data--blocks']['page']['logo']->tag_name = 'x-block';
-  cache::$data['data--blocks']['page']['logo']->children['link'] = new \effcore\markup();
-  cache::$data['data--blocks']['page']['logo']->children['link']->tag_name = 'a';
-  cache::$data['data--blocks']['page']['logo']->children['link']->attributes['class']['to_front'] = 'to_front';
-  cache::$data['data--blocks']['page']['logo']->children['link']->attributes['href'] = '/';
-  cache::$data['data--blocks']['page']['logo']->children['link']->attributes['title'] = new \effcore\text();
-  cache::$data['data--blocks']['page']['logo']->children['link']->attributes['title']->text = 'to front page';
-  cache::$data['data--blocks']['page']['logo']->attributes['class']['logo'] = 'logo';
 
 }

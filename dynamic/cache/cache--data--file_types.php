@@ -2,6 +2,12 @@
 
 namespace effcore { # cache for data--file_types
 
+  cache::$data['data--file_types']['storage']['_data'] = new \stdClass();
+  cache::$data['data--file_types']['storage']['_data']->type = '_data';
+  cache::$data['data--file_types']['storage']['_data']->protected = 1;
+  cache::$data['data--file_types']['storage']['sqlite'] = new \stdClass();
+  cache::$data['data--file_types']['storage']['sqlite']->type = 'sqlite';
+  cache::$data['data--file_types']['storage']['sqlite']->protected = 1;
   cache::$data['data--file_types']['core']['php'] = new \stdClass();
   cache::$data['data--file_types']['core']['php']->type = 'php';
   cache::$data['data--file_types']['core']['php']->protected = 1;
@@ -290,11 +296,5 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['zip'] = new \stdClass();
   cache::$data['data--file_types']['core']['zip']->type = 'zip';
   cache::$data['data--file_types']['core']['zip']->headers['Content-type'] = 'application/zip';
-  cache::$data['data--file_types']['storage']['_data'] = new \stdClass();
-  cache::$data['data--file_types']['storage']['_data']->type = '_data';
-  cache::$data['data--file_types']['storage']['_data']->protected = 1;
-  cache::$data['data--file_types']['storage']['sqlite'] = new \stdClass();
-  cache::$data['data--file_types']['storage']['sqlite']->type = 'sqlite';
-  cache::$data['data--file_types']['storage']['sqlite']->protected = 1;
 
 }

@@ -2,20 +2,6 @@
 
 namespace effcore { # cache for data--instances
 
-  cache::$data['data--instances']['demo']['demo_types_example_1'] = new \effcore\instance();
-  cache::$data['data--instances']['demo']['demo_types_example_1']->entity_name = 'demo_types';
-  cache::$data['data--instances']['demo']['demo_types_example_1']->values['id'] = 1;
-  cache::$data['data--instances']['demo']['demo_types_example_1']->values['description'] = 'use default values';
-  cache::$data['data--instances']['demo']['demo_types_example_2'] = new \effcore\instance();
-  cache::$data['data--instances']['demo']['demo_types_example_2']->entity_name = 'demo_types';
-  cache::$data['data--instances']['demo']['demo_types_example_2']->values['id'] = 2;
-  cache::$data['data--instances']['demo']['demo_types_example_2']->values['description'] = 'use own values';
-  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_integer'] = 123;
-  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_varchar'] = 'own text';
-  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_time'] = '12:34:56';
-  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_date'] = '2020-12-31';
-  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_datetime'] = '2020-12-31 12:34:56';
-  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_blob'] = 12345;
   cache::$data['data--instances']['user']['user_1'] = new \effcore\instance();
   cache::$data['data--instances']['user']['user_1']->entity_name = 'user';
   cache::$data['data--instances']['user']['user_1']->values['id'] = 1;
@@ -76,5 +62,19 @@ namespace effcore { # cache for data--instances
   cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_insert']->entity_name = 'relation_role_ws_permission';
   cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_insert']->values['id_role'] = 'admins';
   cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_insert']->values['id_permission'] = 'user_insert';
+  cache::$data['data--instances']['demo']['demo_types_example_1'] = new \effcore\instance();
+  cache::$data['data--instances']['demo']['demo_types_example_1']->entity_name = 'demo_types';
+  cache::$data['data--instances']['demo']['demo_types_example_1']->values['id'] = 1;
+  cache::$data['data--instances']['demo']['demo_types_example_1']->values['description'] = 'use default values';
+  cache::$data['data--instances']['demo']['demo_types_example_2'] = new \effcore\instance();
+  cache::$data['data--instances']['demo']['demo_types_example_2']->entity_name = 'demo_types';
+  cache::$data['data--instances']['demo']['demo_types_example_2']->values['id'] = 2;
+  cache::$data['data--instances']['demo']['demo_types_example_2']->values['description'] = 'use own values';
+  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_integer'] = 123;
+  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_varchar'] = 'own text';
+  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_time'] = '12:34:56';
+  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_date'] = '2020-12-31';
+  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_datetime'] = '2020-12-31 12:34:56';
+  cache::$data['data--instances']['demo']['demo_types_example_2']->values['f_blob'] = 12345;
 
 }

@@ -2,10 +2,30 @@
 
 namespace effcore { # cache for data--tokens
 
-  cache::$data['data--tokens']['core']['text_no_items'] = new \stdClass();
-  cache::$data['data--tokens']['core']['text_no_items']->match = '%%_text_no_items';
-  cache::$data['data--tokens']['core']['text_no_items']->type = 'translated_text';
-  cache::$data['data--tokens']['core']['text_no_items']->value = 'no items';
+  cache::$data['data--tokens']['user']['id_user'] = new \stdClass();
+  cache::$data['data--tokens']['user']['id_user']->match = '%%_id_user';
+  cache::$data['data--tokens']['user']['id_user']->type = 'code';
+  cache::$data['data--tokens']['user']['id_user']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
+  cache::$data['data--tokens']['user']['email'] = new \stdClass();
+  cache::$data['data--tokens']['user']['email']->match = '%%_email';
+  cache::$data['data--tokens']['user']['email']->type = 'code';
+  cache::$data['data--tokens']['user']['email']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
+  cache::$data['data--tokens']['user']['nick'] = new \stdClass();
+  cache::$data['data--tokens']['user']['nick']->match = '%%_nick';
+  cache::$data['data--tokens']['user']['nick']->type = 'code';
+  cache::$data['data--tokens']['user']['nick']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
+  cache::$data['data--tokens']['user']['id_user_context'] = new \stdClass();
+  cache::$data['data--tokens']['user']['id_user_context']->match = '%%_id_user_context';
+  cache::$data['data--tokens']['user']['id_user_context']->type = 'code';
+  cache::$data['data--tokens']['user']['id_user_context']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
+  cache::$data['data--tokens']['user']['email_context'] = new \stdClass();
+  cache::$data['data--tokens']['user']['email_context']->match = '%%_email_context';
+  cache::$data['data--tokens']['user']['email_context']->type = 'code';
+  cache::$data['data--tokens']['user']['email_context']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
+  cache::$data['data--tokens']['user']['nick_context'] = new \stdClass();
+  cache::$data['data--tokens']['user']['nick_context']->match = '%%_nick_context';
+  cache::$data['data--tokens']['user']['nick_context']->type = 'code';
+  cache::$data['data--tokens']['user']['nick_context']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
   cache::$data['data--tokens']['page']['color'] = new \stdClass();
   cache::$data['data--tokens']['page']['color']->match = '%%_color';
   cache::$data['data--tokens']['page']['color']->type = 'code';
@@ -46,29 +66,9 @@ namespace effcore { # cache for data--tokens
   cache::$data['data--tokens']['page']['color_warning']->match = '%%_color_warning';
   cache::$data['data--tokens']['page']['color_warning']->type = 'text';
   cache::$data['data--tokens']['page']['color_warning']->value = '#fd9a1e';
-  cache::$data['data--tokens']['user']['id_user'] = new \stdClass();
-  cache::$data['data--tokens']['user']['id_user']->match = '%%_id_user';
-  cache::$data['data--tokens']['user']['id_user']->type = 'code';
-  cache::$data['data--tokens']['user']['id_user']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
-  cache::$data['data--tokens']['user']['email'] = new \stdClass();
-  cache::$data['data--tokens']['user']['email']->match = '%%_email';
-  cache::$data['data--tokens']['user']['email']->type = 'code';
-  cache::$data['data--tokens']['user']['email']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
-  cache::$data['data--tokens']['user']['nick'] = new \stdClass();
-  cache::$data['data--tokens']['user']['nick']->match = '%%_nick';
-  cache::$data['data--tokens']['user']['nick']->type = 'code';
-  cache::$data['data--tokens']['user']['nick']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
-  cache::$data['data--tokens']['user']['id_user_context'] = new \stdClass();
-  cache::$data['data--tokens']['user']['id_user_context']->match = '%%_id_user_context';
-  cache::$data['data--tokens']['user']['id_user_context']->type = 'code';
-  cache::$data['data--tokens']['user']['id_user_context']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
-  cache::$data['data--tokens']['user']['email_context'] = new \stdClass();
-  cache::$data['data--tokens']['user']['email_context']->match = '%%_email_context';
-  cache::$data['data--tokens']['user']['email_context']->type = 'code';
-  cache::$data['data--tokens']['user']['email_context']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
-  cache::$data['data--tokens']['user']['nick_context'] = new \stdClass();
-  cache::$data['data--tokens']['user']['nick_context']->match = '%%_nick_context';
-  cache::$data['data--tokens']['user']['nick_context']->type = 'code';
-  cache::$data['data--tokens']['user']['nick_context']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
+  cache::$data['data--tokens']['core']['text_no_items'] = new \stdClass();
+  cache::$data['data--tokens']['core']['text_no_items']->match = '%%_text_no_items';
+  cache::$data['data--tokens']['core']['text_no_items']->type = 'translated_text';
+  cache::$data['data--tokens']['core']['text_no_items']->value = 'no items';
 
 }
