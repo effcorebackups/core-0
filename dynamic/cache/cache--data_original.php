@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-19 15:27:45';
+  cache::$info['data_original']['build'] = '2018-04-19 15:47:06';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -96,6 +96,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tree_items']['develop']['develop']->parent_is_tree = true;
   cache::$data['data_original']['tree_items']['develop']['develop']->title = 'Develop';
   cache::$data['data_original']['tree_items']['develop']['develop']->attributes['class']['develop'] = 'develop';
+  cache::$data['data_original']['tree_items']['develop']['develop']->weight = 100;
   cache::$data['data_original']['tree_items']['develop']['develop']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['develop']['develop']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['tree_items']['develop']['structures'] = new \effcore\tree_item();

@@ -81,6 +81,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['develop']['develop']->parent_is_tree = true;
   cache::$data['data--tree_items']['develop']['develop']->title = 'Develop';
   cache::$data['data--tree_items']['develop']['develop']->attributes['class']['develop'] = 'develop';
+  cache::$data['data--tree_items']['develop']['develop']->weight = 100;
   cache::$data['data--tree_items']['develop']['develop']->access = new \stdClass();
   cache::$data['data--tree_items']['develop']['develop']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['develop']['structures'] = new \effcore\tree_item();
