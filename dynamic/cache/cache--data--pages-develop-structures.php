@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-develop-structures
   cache::$data['data--pages-develop-structures']->display = new \stdClass();
   cache::$data['data--pages-develop-structures']->display->check = 'path';
   cache::$data['data--pages-develop-structures']->display->where = 'url';
-  cache::$data['data--pages-develop-structures']->display->match = '%^(?<base>/develop/structures)/(?<type>class|interface|trait)/(?<view>list|diagrams|diagrams_export)$%';
+  cache::$data['data--pages-develop-structures']->display->match = '%^(?<base>/develop/structures)/(?<type>class|interface|trait)/(?<view>list|diagram|diagram_export)$%';
   cache::$data['data--pages-develop-structures']->access = new \stdClass();
   cache::$data['data--pages-develop-structures']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-develop-structures']->content['block_menu_main'] = new \stdClass();
@@ -39,21 +39,21 @@ namespace effcore { # cache for data--pages-develop-structures
   cache::$data['data--pages-develop-structures']->content['block_structures_list']->region = 'content';
   cache::$data['data--pages-develop-structures']->content['block_structures_list']->type = 'code';
   cache::$data['data--pages-develop-structures']->content['block_structures_list']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_structures_list';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams'] = new \stdClass();
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams']->display = new \stdClass();
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams']->display->check = 'view';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams']->display->where = 'page_args';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams']->display->match = '%diagrams%';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams']->region = 'content';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams']->type = 'code';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_structures_diagrams';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams_export'] = new \stdClass();
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams_export']->display = new \stdClass();
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams_export']->display->check = 'view';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams_export']->display->where = 'page_args';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams_export']->display->match = '%diagrams_export%';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams_export']->region = 'content';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams_export']->type = 'code';
-  cache::$data['data--pages-develop-structures']->content['block_structures_diagrams_export']->handler = '\\effcore\\modules\\develop\\events_page::on_export_diagrams';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram'] = new \stdClass();
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram']->display = new \stdClass();
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram']->display->check = 'view';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram']->display->where = 'page_args';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram']->display->match = '%diagram%';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram']->region = 'content';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram']->type = 'code';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_structures_diagram';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram_export'] = new \stdClass();
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram_export']->display = new \stdClass();
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram_export']->display->check = 'view';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram_export']->display->where = 'page_args';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram_export']->display->match = '%diagram_export%';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram_export']->region = 'content';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram_export']->type = 'code';
+  cache::$data['data--pages-develop-structures']->content['block_structures_diagram_export']->handler = '\\effcore\\modules\\develop\\events_page::on_export_diagram';
 
 }
