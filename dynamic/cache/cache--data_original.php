@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-20 07:48:03';
+  cache::$info['data_original']['build'] = '2018-04-20 07:49:51';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2083,7 +2083,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['module']['demo']->description = 'Module for demonstrating capabilities.';
   cache::$data['data_original']['module']['demo']->version = 1;
   cache::$data['data_original']['module']['demo']->state = 'on';
-  cache::$data['data_original']['module']['demo']->path = 'system/develop/demo/';
+  cache::$data['data_original']['module']['demo']->path = 'system/develop/module_demo/';
   cache::$data['data_original']['module']['develop'] = new \effcore\module();
   cache::$data['data_original']['module']['develop']->id = 'develop';
   cache::$data['data_original']['module']['develop']->title = 'Develop';

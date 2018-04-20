@@ -50,7 +50,7 @@ namespace effcore { # cache for data--module
   cache::$data['data--module']['demo']->description = 'Module for demonstrating capabilities.';
   cache::$data['data--module']['demo']->version = 1;
   cache::$data['data--module']['demo']->state = 'on';
-  cache::$data['data--module']['demo']->path = 'system/develop/demo/';
+  cache::$data['data--module']['demo']->path = 'system/develop/module_demo/';
   cache::$data['data--module']['develop'] = new \effcore\module();
   cache::$data['data--module']['develop']->id = 'develop';
   cache::$data['data--module']['develop']->title = 'Develop';
