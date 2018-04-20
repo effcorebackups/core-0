@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-20 09:44:08';
+  cache::$info['data_original']['build'] = '2018-04-20 10:06:46';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2620,7 +2620,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display->where = 'url';
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display->match = '%/develop/structures/.*%';
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->styles['form_style'] = new \stdClass();
-  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->styles['form_style']->file = '/page/frontend/form._style';
+  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->styles['form_style']->file = '/system/module_page/frontend/form._style';
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->styles['form_style']->media = 'all';
   cache::$data['data_original']['colors']['page']['lavender'] = new \stdClass();
   cache::$data['data_original']['colors']['page']['lavender']->id = 'lavender';
