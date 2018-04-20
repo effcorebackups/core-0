@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-19 15:47:06';
+  cache::$info['classes_map']['build'] = '2018-04-20 07:48:02';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -216,7 +216,7 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\test']->name = 'test';
   cache::$data['classes_map']['effcore\test']->type = 'class';
   cache::$data['classes_map']['effcore\test']->implements['effcore\has_different_cache'] = 'effcore\\has_different_cache';
-  cache::$data['classes_map']['effcore\test']->file = 'system/develop/test/backend/pattern--test.php';
+  cache::$data['classes_map']['effcore\test']->file = 'system/develop/module_test/backend/pattern--test.php';
   cache::$data['classes_map']['effcore\locale'] = new \stdClass();
   cache::$data['classes_map']['effcore\locale']->modifier = 'abstract';
   cache::$data['classes_map']['effcore\locale']->namespace = 'effcore';

@@ -43,7 +43,7 @@ namespace effcore { # cache for data--module
   cache::$data['data--module']['test']->description = 'Module for testing.';
   cache::$data['data--module']['test']->version = 1;
   cache::$data['data--module']['test']->state = 'on';
-  cache::$data['data--module']['test']->path = 'system/develop/test/';
+  cache::$data['data--module']['test']->path = 'system/develop/module_test/';
   cache::$data['data--module']['demo'] = new \effcore\module();
   cache::$data['data--module']['demo']->id = 'demo';
   cache::$data['data--module']['demo']->title = 'Demo';
