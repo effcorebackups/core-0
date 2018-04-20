@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-20 10:33:38';
+  cache::$info['data_original']['build'] = '2018-04-20 12:12:40';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2147,12 +2147,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->id = 'class_diagrams';
   cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->id_parent = 'class';
   cache::$data['data_original']['tabs_items']['develop']['class_diagrams']->attributes['class']['diagrams'] = 'diagrams';
-  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export'] = new \effcore\tabs_item();
-  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export']->action_name = 'class/diagrams_export';
-  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export']->title = 'Diagrams (export)';
-  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export']->id = 'class_diagrams_export';
-  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export']->id_parent = 'class';
-  cache::$data['data_original']['tabs_items']['develop']['class_diagrams_export']->attributes['class']['diagrams-export'] = 'diagrams-export';
   cache::$data['data_original']['tabs_items']['develop']['interface'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['develop']['interface']->parent_is_tab = true;
   cache::$data['data_original']['tabs_items']['develop']['interface']->action_name = 'interface';
@@ -3223,6 +3217,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Error message #%%_num.'] = 'Сообщение об ошибке #%%_num.';
   cache::$data['data_original']['translations']['develop']['ru']->data['event system was initialized'] = 'система событий была инициализирована';
   cache::$data['data_original']['translations']['develop']['ru']->data['Execute plan'] = 'План выполнения';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Export diagram to %%_file for using with StarUML software.'] = 'Экспорт диаграммы в файл %%_file для использования в программе StarUML.';
   cache::$data['data_original']['translations']['develop']['ru']->data['head cell %%_num'] = 'заглавная ячейка %%_num';
   cache::$data['data_original']['translations']['develop']['ru']->data['init.'] = 'инициал.';
   cache::$data['data_original']['translations']['develop']['ru']->data['interface'] = 'интерфейс';
