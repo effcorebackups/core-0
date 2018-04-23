@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-23 12:34:02';
+  cache::$info['classes_map']['build'] = '2018-04-23 13:07:34';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -381,6 +381,12 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\field_phone']->type = 'class';
   cache::$data['classes_map']['effcore\field_phone']->extends = 'effcore\\field';
   cache::$data['classes_map']['effcore\field_phone']->file = 'system/module_page/backend/pattern--field_phone.php';
+  cache::$data['classes_map']['effcore\field_radiobutton'] = new \stdClass();
+  cache::$data['classes_map']['effcore\field_radiobutton']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\field_radiobutton']->name = 'field_radiobutton';
+  cache::$data['classes_map']['effcore\field_radiobutton']->type = 'class';
+  cache::$data['classes_map']['effcore\field_radiobutton']->extends = 'effcore\\field';
+  cache::$data['classes_map']['effcore\field_radiobutton']->file = 'system/module_page/backend/pattern--field_radiobutton.php';
   cache::$data['classes_map']['effcore\field_range'] = new \stdClass();
   cache::$data['classes_map']['effcore\field_range']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\field_range']->name = 'field_range';
