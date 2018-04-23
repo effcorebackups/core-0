@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-user-roles
   cache::$data['data--pages-user-roles']->display = new \stdClass();
   cache::$data['data--pages-user-roles']->display->check = 'path';
   cache::$data['data--pages-user-roles']->display->where = 'url';
-  cache::$data['data--pages-user-roles']->display->match = '%^/admin/roles$%';
+  cache::$data['data--pages-user-roles']->display->match = '%^/manage/roles$%';
   cache::$data['data--pages-user-roles']->access = new \stdClass();
   cache::$data['data--pages-user-roles']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-user-roles']->content['block_menu_main'] = new \stdClass();

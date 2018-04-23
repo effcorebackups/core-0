@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-core-modules
   cache::$data['data--pages-core-modules']->display = new \stdClass();
   cache::$data['data--pages-core-modules']->display->check = 'path';
   cache::$data['data--pages-core-modules']->display->where = 'url';
-  cache::$data['data--pages-core-modules']->display->match = '%^/admin/modules$%';
+  cache::$data['data--pages-core-modules']->display->match = '%^/manage/modules$%';
   cache::$data['data--pages-core-modules']->access = new \stdClass();
   cache::$data['data--pages-core-modules']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-core-modules']->content['block_menu_main'] = new \stdClass();

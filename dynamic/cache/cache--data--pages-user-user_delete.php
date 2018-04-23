@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-user-user_delete
   cache::$data['data--pages-user-user_delete']->display = new \stdClass();
   cache::$data['data--pages-user-user_delete']->display->check = 'path';
   cache::$data['data--pages-user-user_delete']->display->where = 'url';
-  cache::$data['data--pages-user-user_delete']->display->match = '%^/admin/users/delete/(?<id_user>[0-9]+)$%';
+  cache::$data['data--pages-user-user_delete']->display->match = '%^/manage/users/delete/(?<id_user>[0-9]+)$%';
   cache::$data['data--pages-user-user_delete']->access = new \stdClass();
   cache::$data['data--pages-user-user_delete']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-user-user_delete']->content['check_access_user_delete'] = new \stdClass();

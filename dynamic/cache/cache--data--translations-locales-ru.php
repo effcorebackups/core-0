@@ -11,7 +11,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Action'] = 'Действие';
   cache::$data['data--translations-locales-ru']->data['actions'] = 'действия';
   cache::$data['data--translations-locales-ru']->data['Actions'] = 'Действия';
-  cache::$data['data--translations-locales-ru']->data['Administer'] = 'Администрирование';
   cache::$data['data--translations-locales-ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data--translations-locales-ru']->data['agree'] = 'согласен(а)';
   cache::$data['data--translations-locales-ru']->data['All rights reserved'] = 'Все права защищены';
@@ -138,6 +137,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Logout'] = 'Выход';
   cache::$data['data--translations-locales-ru']->data['Main menu'] = 'Главное меню';
   cache::$data['data--translations-locales-ru']->data['Main system module.'] = 'Основной модуль системы.';
+  cache::$data['data--translations-locales-ru']->data['Management'] = 'Управление';
   cache::$data['data--translations-locales-ru']->data['Maxim Rysevets'] = 'Рысевец Максим Владимирович';
   cache::$data['data--translations-locales-ru']->data['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
