@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for classes_map
 
-  cache::$info['classes_map']['build'] = '2018-04-23 10:22:00';
+  cache::$info['classes_map']['build'] = '2018-04-23 12:34:02';
   cache::$data['classes_map']['effcore\file'] = new \stdClass();
   cache::$data['classes_map']['effcore\file']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\file']->name = 'file';
@@ -452,14 +452,14 @@ namespace effcore { # cache for classes_map
   cache::$data['classes_map']['effcore\group_palette']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\group_palette']->name = 'group_palette';
   cache::$data['classes_map']['effcore\group_palette']->type = 'class';
-  cache::$data['classes_map']['effcore\group_palette']->extends = 'effcore\\group_radios';
+  cache::$data['classes_map']['effcore\group_palette']->extends = 'effcore\\group_radiobuttons';
   cache::$data['classes_map']['effcore\group_palette']->file = 'system/module_page/backend/pattern--group_palette.php';
-  cache::$data['classes_map']['effcore\group_radios'] = new \stdClass();
-  cache::$data['classes_map']['effcore\group_radios']->namespace = 'effcore';
-  cache::$data['classes_map']['effcore\group_radios']->name = 'group_radios';
-  cache::$data['classes_map']['effcore\group_radios']->type = 'class';
-  cache::$data['classes_map']['effcore\group_radios']->extends = 'effcore\\group_checkboxes';
-  cache::$data['classes_map']['effcore\group_radios']->file = 'system/module_page/backend/pattern--group_radios.php';
+  cache::$data['classes_map']['effcore\group_radiobuttons'] = new \stdClass();
+  cache::$data['classes_map']['effcore\group_radiobuttons']->namespace = 'effcore';
+  cache::$data['classes_map']['effcore\group_radiobuttons']->name = 'group_radiobuttons';
+  cache::$data['classes_map']['effcore\group_radiobuttons']->type = 'class';
+  cache::$data['classes_map']['effcore\group_radiobuttons']->extends = 'effcore\\group_checkboxes';
+  cache::$data['classes_map']['effcore\group_radiobuttons']->file = 'system/module_page/backend/pattern--group_radiobuttons.php';
   cache::$data['classes_map']['effcore\markup'] = new \stdClass();
   cache::$data['classes_map']['effcore\markup']->namespace = 'effcore';
   cache::$data['classes_map']['effcore\markup']->name = 'markup';
