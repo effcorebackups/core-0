@@ -15,7 +15,7 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->children['element']->attributes['name'] = 'driver';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->children['element']->attributes['value'] = 'mysql';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->attributes['class']['boxes'] = 'boxes';
-  cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->attributes['class']['radioboxes'] = 'radioboxes';
+  cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->attributes['class']['radiobuttons'] = 'radiobuttons';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql'] = new \effcore\container();
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->tag_name = 'fieldset';
@@ -67,7 +67,7 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->children['element']->attributes['name'] = 'driver';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->children['element']->attributes['value'] = 'sqlite';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->attributes['class']['boxes'] = 'boxes';
-  cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->attributes['class']['radioboxes'] = 'radioboxes';
+  cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->attributes['class']['radiobuttons'] = 'radiobuttons';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data--forms-core-install']->children['storage']->children['sqlite'] = new \effcore\container();
   cache::$data['data--forms-core-install']->children['storage']->children['sqlite']->tag_name = 'fieldset';
