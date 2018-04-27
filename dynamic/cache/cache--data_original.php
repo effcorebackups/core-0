@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-27 17:00:00';
+  cache::$info['data_original']['build'] = '2018-04-27 17:11:06';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3020,18 +3020,18 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Events'] = 'События';
   cache::$data['data_original']['translations']['locales']['ru']->data['expand'] = 'развернуть';
   cache::$data['data_original']['translations']['locales']['ru']->data['failed to write file to disk'] = 'не удалось записать файл на диск';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" after trying to upload the file returned an error: %%_error!'] = 'Поле "%%_title" после попытки загрузить файл вернуло ошибку: %%_error!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" contains an incorrect characters from image!'] = 'Поле "%%_title" содержит неверные символы с изображения!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" contains an incorrect date!'] = 'Поле "%%_title" содержит неверную дату!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" contains an incorrect email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" contains an incorrect time!'] = 'Поле "%%_title" содержит неверное время!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" is not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" must be checked!'] = 'Поле "%%_title" должно быть отмечено!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field \"%%_title\" must contain a minimum of %%_num characters!'] = 'Поле "%%_title" должно содержать минимум %%_num символов!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" after trying to upload the file returned an error: %%_error!'] = 'Поле "%%_title" после попытки загрузить файл вернуло ошибку: %%_error!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect characters from image!'] = 'Поле "%%_title" содержит неверные символы с изображения!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect date!'] = 'Поле "%%_title" содержит неверную дату!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect time!'] = 'Поле "%%_title" содержит неверное время!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" is not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть отмечено!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a minimum of %%_num characters!'] = 'Поле "%%_title" должно содержать минимум %%_num символов!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain a maximum of %%_num characters.'] = 'Поле должно содержать максимум %%_num символов.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain a minimum of %%_num characters.'] = 'Поле должно содержать минимум %%_num символов.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
@@ -3046,7 +3046,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['file'] = 'файл';
   cache::$data['data_original']['translations']['locales']['ru']->data['Form elements'] = 'Элементы формы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Front page'] = 'Главная страница';
-  cache::$data['data_original']['translations']['locales']['ru']->data['go to <a href=\"/\">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
+  cache::$data['data_original']['translations']['locales']['ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
   cache::$data['data_original']['translations']['locales']['ru']->data['Hostname'] = 'Имя узла сети';
   cache::$data['data_original']['translations']['locales']['ru']->data['I accept the terms of the license agreement'] = 'Я принимаю условия лицензионного соглашения';
   cache::$data['data_original']['translations']['locales']['ru']->data['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
@@ -3133,7 +3133,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Registration'] = 'Регистрация';
   cache::$data['data_original']['translations']['locales']['ru']->data['remember me'] = 'запомнить меня';
   cache::$data['data_original']['translations']['locales']['ru']->data['reset'] = 'сбросить';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Restore the storage credentials in \"%%_path\" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
   cache::$data['data_original']['translations']['locales']['ru']->data['restore'] = 'восстановить';
   cache::$data['data_original']['translations']['locales']['ru']->data['return'] = 'возврат';
   cache::$data['data_original']['translations']['locales']['ru']->data['roles'] = 'роли';
@@ -3251,8 +3251,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Ordered list'] = 'Упорядоченный список';
   cache::$data['data_original']['translations']['develop']['ru']->data['Password (macro)'] = 'Пароль (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Phone (macro)'] = 'Телефон (макро)';
-  cache::$data['data_original']['translations']['develop']['ru']->data['query = \"%%_query\"'] = 'запрос = "%%_query"';
-  cache::$data['data_original']['translations']['develop']['ru']->data['query = \"%%_query\"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
+  cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"'] = 'запрос = "%%_query"';
+  cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobutton'] = 'Переключатель';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobuttons (macro)'] = 'Переключатели (макро)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobuttons'] = 'Переключатели';
