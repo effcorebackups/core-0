@@ -29,6 +29,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Execute plan'] = 'План выполнения';
   cache::$data['data--translations-develop-ru']->data['Export diagram to %%_file for using with StarUML software.'] = 'Экспорт диаграммы в файл %%_file для использования в программе StarUML.';
   cache::$data['data--translations-develop-ru']->data['head cell %%_num'] = 'заглавная ячейка %%_num';
+  cache::$data['data--translations-develop-ru']->data['hide inherited'] = 'спрятать унаследованное';
   cache::$data['data--translations-develop-ru']->data['init.'] = 'инициал.';
   cache::$data['data--translations-develop-ru']->data['interface'] = 'интерфейс';
   cache::$data['data--translations-develop-ru']->data['Interfaces'] = 'Интерфейсы';
