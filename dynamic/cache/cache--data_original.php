@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-04-29 14:26:37';
+  cache::$info['data_original']['build'] = '2018-04-29 15:06:44';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1280,7 +1280,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->selected['option_2_1'] = 'option_2_1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->disabled['option_2_2'] = 'option_2_2';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->element_attributes['name'] = 'select_macro';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->element_attributes['required'] = 'required';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->title = 'Selection list (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->description->text = 'Element %%_info.';

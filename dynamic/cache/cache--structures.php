@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-04-29 14:26:36';
+  cache::$info['structures']['build'] = '2018-04-29 15:06:44';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -191,7 +191,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\field_select']->namespace = 'effcore';
   cache::$data['structures']['effcore\\field_select']->name = 'field_select';
   cache::$data['structures']['effcore\\field_select']->type = 'class';
-  cache::$data['structures']['effcore\\field_select']->extends = 'effcore\\field';
+  cache::$data['structures']['effcore\\field_select']->extends = 'effcore\\field_simple';
   cache::$data['structures']['effcore\\field_select']->file = 'system/module_page/backend/pattern--field_select.php';
   cache::$data['structures']['effcore\\field_simple'] = new \stdClass();
   cache::$data['structures']['effcore\\field_simple']->namespace = 'effcore';
