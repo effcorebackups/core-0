@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-04-29 13:45:29';
+  cache::$info['structures']['build'] = '2018-04-29 13:48:33';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -125,7 +125,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\field_checkbox']->namespace = 'effcore';
   cache::$data['structures']['effcore\\field_checkbox']->name = 'field_checkbox';
   cache::$data['structures']['effcore\\field_checkbox']->type = 'class';
-  cache::$data['structures']['effcore\\field_checkbox']->extends = 'effcore\\field';
+  cache::$data['structures']['effcore\\field_checkbox']->extends = 'effcore\\field_simple';
   cache::$data['structures']['effcore\\field_checkbox']->file = 'system/module_page/backend/pattern--field_checkbox.php';
   cache::$data['structures']['effcore\\field_color'] = new \stdClass();
   cache::$data['structures']['effcore\\field_color']->namespace = 'effcore';
