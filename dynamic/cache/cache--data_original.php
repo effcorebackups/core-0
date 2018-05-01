@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-01 14:53:08';
+  cache::$info['data_original']['build'] = '2018-05-01 15:31:16';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -932,13 +932,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->title = 'Colors';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->title_tag_name = 'legend';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id'] = new \effcore\group_palette();
+  cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id']->attributes['required'] = 'required';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id']->element_attributes['name'] = 'color_id';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id']->title = 'Color';
-  cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id']->attributes['required'] = 'required';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id'] = new \effcore\group_palette();
+  cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->attributes['required'] = 'required';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->element_attributes['name'] = 'color_bg_id';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->title = 'Background color';
-  cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->attributes['required'] = 'required';
   cache::$data['data_original']['forms']['page']['decoration']->children['button_save'] = new \effcore\markup();
   cache::$data['data_original']['forms']['page']['decoration']->children['button_save']->tag_name = 'button';
   cache::$data['data_original']['forms']['page']['decoration']->children['button_save']->children['label'] = new \effcore\text();
