@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-01 12:19:11';
+  cache::$info['data_original']['build'] = '2018-05-01 14:53:08';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -800,15 +800,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['minlength'] = 4;
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->children['element']->attributes['maxlength'] = 32;
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar'] = new \effcore\field_file();
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->max_file_size = '10K';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->upload_subdir = 'avatar/';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->upload_dir = 'avatar/';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->fixed_name = '%%_id_user';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->fixed_type = 'image';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['type'] = 'file';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['name'] = 'avatar';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->children['element']->attributes['accept'] = 'image/*';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->element_attributes['name'] = 'avatar';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->element_attributes['accept'] = 'image/*';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->title = 'New password';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->element_attributes['name'] = 'password_new';
@@ -1085,16 +1083,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->description->args['info'] = '&lt;input type="email"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file'] = new \effcore\field_file();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->max_file_size = '1M';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->upload_subdir = 'demo/';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->title = 'File';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->upload_dir = 'demo/';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->element_attributes['name'] = 'file[]';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->element_attributes['multiple'] = 'multiple';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->element_attributes['accept'] = 'image/*,audio/*,video/*';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->description->args['info'] = '&lt;input type="file"&gt;';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->children['element']->attributes['type'] = 'file';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->children['element']->attributes['name'] = 'file[]';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->children['element']->attributes['accept'] = 'image/*,audio/*,video/*';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->children['element']->attributes['multiple'] = 'multiple';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number'] = new \effcore\field();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->title = 'Number';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->description = new \effcore\text();
