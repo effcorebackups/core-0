@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-02 11:31:25';
+  cache::$info['data_original']['build'] = '2018-05-02 11:47:45';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1443,15 +1443,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->tag_name = 'fieldset';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->title = 'Storage params';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->title_tag_name = 'legend';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql'] = new \effcore\field();
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql'] = new \effcore\field_radiobutton();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->title = 'MySQL';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->title_position = 'bottom';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->children['element']->attributes['type'] = 'radio';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->children['element']->attributes['name'] = 'driver';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->children['element']->attributes['value'] = 'mysql';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->attributes['class']['boxes'] = 'boxes';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->attributes['class']['radiobuttons'] = 'radiobuttons';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->element_attributes['name'] = 'driver';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->element_attributes['value'] = 'mysql';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql'] = new \effcore\container();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->tag_name = 'fieldset';
@@ -1495,15 +1490,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->element_attributes['minlength'] = null;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->element_attributes['required'] = null;
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite'] = new \effcore\field();
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite'] = new \effcore\field_radiobutton();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->title = 'SQLite';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->title_position = 'bottom';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->children['element']->attributes['type'] = 'radio';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->children['element']->attributes['name'] = 'driver';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->children['element']->attributes['value'] = 'sqlite';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->attributes['class']['boxes'] = 'boxes';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->attributes['class']['radiobuttons'] = 'radiobuttons';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->element_attributes['name'] = 'driver';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->element_attributes['value'] = 'sqlite';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite'] = new \effcore\container();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->tag_name = 'fieldset';
