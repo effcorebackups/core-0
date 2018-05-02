@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-02 13:42:57';
+  cache::$info['data_original']['build'] = '2018-05-02 13:52:52';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -969,6 +969,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['pattern'] = '[a-zA-Z0-9]+';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->attributes['x-type'] = 'text';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro'] = new \effcore\field_text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->title = 'Text (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->element_attributes['name'] = 'text_macro';
@@ -991,6 +992,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->children['element']->attributes['autocomplete'] = 'off';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->attributes['x-type'] = 'password';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password_macro'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password_macro']->title = 'Password (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password_macro']->element_attributes['name'] = 'password_macro';
@@ -1010,6 +1012,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->children['element']->attributes['value'] = 'text in search 1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->children['element']->attributes['maxlength'] = 255;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->attributes['x-type'] = 'search';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search_macro'] = new \effcore\field_search();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search_macro']->title = 'Search (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search_macro']->element_attributes['name'] = 'search_macro';
@@ -1029,6 +1032,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->children['element']->attributes['value'] = 'http://1.example.com';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->children['element']->attributes['maxlength'] = 255;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->attributes['x-type'] = 'url';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url_macro'] = new \effcore\field_url();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url_macro']->title = 'URL (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url_macro']->element_attributes['name'] = 'url_macro';
@@ -1047,6 +1051,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->children['element']->attributes['value'] = '&#43;0001112222222';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->children['element']->attributes['maxlength'] = 15;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->attributes['x-type'] = 'phone';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone_macro'] = new \effcore\field_phone();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone_macro']->title = 'Phone (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone_macro']->element_attributes['name'] = 'phone_macro';
@@ -1066,6 +1071,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->attributes['maxlength'] = 64;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->children['element']->attributes['multiple'] = 'multiple';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->attributes['x-type'] = 'email';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro'] = new \effcore\field_email();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->title = 'EMail (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['name'] = 'email_macro';
@@ -1097,6 +1103,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->children['element']->attributes['min'] = -1000;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->children['element']->attributes['max'] = 1000;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->children['element']->attributes['step'] = 0.2;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number']->attributes['x-type'] = 'number';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro'] = new \effcore\field_number();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro']->title = 'Number (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['number_macro']->element_attributes['name'] = 'number_macro';
@@ -1119,6 +1126,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->children['element']->attributes['min'] = -1;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->children['element']->attributes['max'] = 1;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->children['element']->attributes['step'] = 0.2;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->attributes['x-type'] = 'range';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro'] = new \effcore\field_range();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro']->title = 'Range (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range_macro']->element_attributes['name'] = 'range_macro';
@@ -1140,6 +1148,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->children['element']->attributes['value'] = '2020-01-01';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->children['element']->attributes['min'] = '2000-01-01';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->children['element']->attributes['max'] = '2050-01-01';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->attributes['x-type'] = 'date';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date_macro'] = new \effcore\field_date();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date_macro']->title = 'Date (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date_macro']->element_attributes['name'] = 'date_macro';
@@ -1159,6 +1168,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->children['element']->attributes['min'] = '01:02:00';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->children['element']->attributes['max'] = '05:06:00';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->children['element']->attributes['step'] = 60;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->attributes['x-type'] = 'time';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro'] = new \effcore\field_time();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->title = 'Time (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time_macro']->element_attributes['name'] = 'time_macro';
@@ -1180,6 +1190,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->children['element']->attributes['name'] = 'color';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->children['element']->attributes['value'] = '#ffffff';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->children['element']->attributes['required'] = 'required';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->attributes['x-type'] = 'color';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro'] = new \effcore\field_color();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->title = 'Color (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color_macro']->element_attributes['name'] = 'color_macro';
@@ -1201,6 +1212,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['textarea']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['textarea']->children['element']->attributes['maxlength'] = 255;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['textarea']->children['element']->attributes['required'] = 'required';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['textarea']->attributes['x-type'] = 'textarea';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['textarea_macro'] = new \effcore\field_textarea();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['textarea_macro']->title = 'Textarea (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['textarea_macro']->element_attributes['name'] = 'textarea_macro';
@@ -1258,6 +1270,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->children['element']->children['group_1_1']->attributes['label'] = 'Group 1.1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->children['element']->attributes['name'] = 'select';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->children['element']->attributes['required'] = 'required';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->attributes['x-type'] = 'select';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro'] = new \effcore\field_select();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->values['not_selected'] = '- select -';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_macro']->values['option_2_1'] = 'Option 2.1 (selected)';
