@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-02 11:47:45';
+  cache::$info['data_original']['build'] = '2018-05-02 12:17:51';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1334,8 +1334,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['value'] = 'checkboxes_4';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['disabled'] = 'disabled';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['checked'] = 'checked';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->attributes['class']['boxes'] = 'boxes';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->attributes['class']['checkboxes'] = 'checkboxes';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->attributes['x-type'] = 'checkboxes';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes_macro'] = new \effcore\group_checkboxes();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes_macro']->element_attributes['name'] = 'checkboxes_macro[]';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes_macro']->values['checkboxes_macro_1'] = 'Checkbox macro 1';
@@ -1397,8 +1396,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_3']->children['element']->attributes['name'] = 'radios';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_3']->children['element']->attributes['value'] = 'radios_3';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_3']->children['element']->attributes['disabled'] = 'disabled';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->attributes['class']['boxes'] = 'boxes';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->attributes['class']['radiobuttons'] = 'radiobuttons';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->attributes['x-type'] = 'radiobuttons';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radios_macro'] = new \effcore\group_radiobuttons();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radios_macro']->element_attributes['name'] = 'radios_macro';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radios_macro']->values['radios_macro_1'] = 'Radio macro 1';
