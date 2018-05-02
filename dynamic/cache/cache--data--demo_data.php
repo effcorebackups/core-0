@@ -9,7 +9,9 @@ namespace effcore { # cache for data--demo_data
   cache::$data['data--demo_data']['demo']->demo_string_empty = '';
   cache::$data['data--demo_data']['demo']->demo_string = 'text';
   cache::$data['data--demo_data']['demo']->demo_string_text = new \effcore\text();
-  cache::$data['data--demo_data']['demo']->demo_string_text->text = 'like code: new text(\'any text\') # translated by default';
+  cache::$data['data--demo_data']['demo']->demo_string_text->text = 'some translated text';
+  cache::$data['data--demo_data']['demo']->demo_string_text_simple = new \effcore\text_simple();
+  cache::$data['data--demo_data']['demo']->demo_string_text_simple->text = 'some raw text';
   cache::$data['data--demo_data']['demo']->demo_array_empty = [];
   cache::$data['data--demo_data']['demo']->demo_array['item_1'] = 'item value #1';
   cache::$data['data--demo_data']['demo']->demo_array['item_2'] = 'item value #2';
