@@ -7,7 +7,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->tag_name = 'fieldset';
   cache::$data['data--forms-demo-demo']->children['form_elements']->title = 'Form elements';
   cache::$data['data--forms-demo-demo']->children['form_elements']->title_tag_name = 'legend';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['text'] = new \effcore\field();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['text'] = new \effcore\field_simple();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->title = 'Text';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->description->text = 'Element %%_info.';

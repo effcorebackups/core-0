@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-02 10:48:41';
+  cache::$info['data_original']['build'] = '2018-05-02 10:54:38';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -962,7 +962,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->tag_name = 'fieldset';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->title = 'Form elements';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->title_tag_name = 'legend';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text'] = new \effcore\field();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text'] = new \effcore\field_simple();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->title = 'Text';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->text = 'Element %%_info.';
