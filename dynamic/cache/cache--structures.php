@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-05-02 15:07:37';
+  cache::$info['structures']['build'] = '2018-05-02 17:08:36';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -50,11 +50,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\demo_trait']->name = 'demo_trait';
   cache::$data['structures']['effcore\\demo_trait']->type = 'trait';
   cache::$data['structures']['effcore\\demo_trait']->file = 'system/module_develop/module_demo/backend/demo--trait.php';
-  cache::$data['structures']['effcore\\different_cache'] = new \stdClass();
-  cache::$data['structures']['effcore\\different_cache']->namespace = 'effcore';
-  cache::$data['structures']['effcore\\different_cache']->name = 'different_cache';
-  cache::$data['structures']['effcore\\different_cache']->type = 'class';
-  cache::$data['structures']['effcore\\different_cache']->file = 'system/module_storage/backend/pattern--different_cache.php';
   cache::$data['structures']['effcore\\dynamic'] = new \stdClass();
   cache::$data['structures']['effcore\\dynamic']->modifier = 'abstract';
   cache::$data['structures']['effcore\\dynamic']->namespace = 'effcore';
@@ -65,7 +60,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\entity']->namespace = 'effcore';
   cache::$data['structures']['effcore\\entity']->name = 'entity';
   cache::$data['structures']['effcore\\entity']->type = 'class';
-  cache::$data['structures']['effcore\\entity']->implements['effcore\\has_different_cache'] = 'effcore\\has_different_cache';
+  cache::$data['structures']['effcore\\entity']->implements['effcore\\external'] = 'effcore\\external';
   cache::$data['structures']['effcore\\entity']->implements['effcore\\post_parsing'] = 'effcore\\post_parsing';
   cache::$data['structures']['effcore\\entity']->file = 'system/module_storage/backend/pattern--entity.php';
   cache::$data['structures']['effcore\\event'] = new \stdClass();
@@ -103,6 +98,16 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\events_token']->name = 'events_token';
   cache::$data['structures']['effcore\\events_token']->type = 'class';
   cache::$data['structures']['effcore\\events_token']->file = 'system/module_core/backend/events--gl--token.php';
+  cache::$data['structures']['effcore\\external'] = new \stdClass();
+  cache::$data['structures']['effcore\\external']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\external']->name = 'external';
+  cache::$data['structures']['effcore\\external']->type = 'interface';
+  cache::$data['structures']['effcore\\external']->file = 'system/module_storage/backend/marker--external.php';
+  cache::$data['structures']['effcore\\external_cache'] = new \stdClass();
+  cache::$data['structures']['effcore\\external_cache']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\external_cache']->name = 'external_cache';
+  cache::$data['structures']['effcore\\external_cache']->type = 'class';
+  cache::$data['structures']['effcore\\external_cache']->file = 'system/module_storage/backend/pattern--external_cache.php';
   cache::$data['structures']['effcore\\factory'] = new \stdClass();
   cache::$data['structures']['effcore\\factory']->modifier = 'abstract';
   cache::$data['structures']['effcore\\factory']->namespace = 'effcore';
@@ -233,7 +238,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\form']->name = 'form';
   cache::$data['structures']['effcore\\form']->type = 'class';
   cache::$data['structures']['effcore\\form']->extends = 'effcore\\markup';
-  cache::$data['structures']['effcore\\form']->implements['effcore\\has_different_cache'] = 'effcore\\has_different_cache';
+  cache::$data['structures']['effcore\\form']->implements['effcore\\external'] = 'effcore\\external';
   cache::$data['structures']['effcore\\form']->file = 'system/module_page/backend/pattern--form.php';
   cache::$data['structures']['effcore\\group_checkboxes'] = new \stdClass();
   cache::$data['structures']['effcore\\group_checkboxes']->namespace = 'effcore';
@@ -259,11 +264,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\group_radiobuttons']->type = 'class';
   cache::$data['structures']['effcore\\group_radiobuttons']->extends = 'effcore\\group_checkboxes';
   cache::$data['structures']['effcore\\group_radiobuttons']->file = 'system/module_page/backend/pattern--group_radiobuttons.php';
-  cache::$data['structures']['effcore\\has_different_cache'] = new \stdClass();
-  cache::$data['structures']['effcore\\has_different_cache']->namespace = 'effcore';
-  cache::$data['structures']['effcore\\has_different_cache']->name = 'has_different_cache';
-  cache::$data['structures']['effcore\\has_different_cache']->type = 'interface';
-  cache::$data['structures']['effcore\\has_different_cache']->file = 'system/module_storage/backend/marker--has_different_cache.php';
   cache::$data['structures']['effcore\\instance'] = new \stdClass();
   cache::$data['structures']['effcore\\instance']->namespace = 'effcore';
   cache::$data['structures']['effcore\\instance']->name = 'instance';
@@ -478,7 +478,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\page']->namespace = 'effcore';
   cache::$data['structures']['effcore\\page']->name = 'page';
   cache::$data['structures']['effcore\\page']->type = 'class';
-  cache::$data['structures']['effcore\\page']->implements['effcore\\has_different_cache'] = 'effcore\\has_different_cache';
+  cache::$data['structures']['effcore\\page']->implements['effcore\\external'] = 'effcore\\external';
   cache::$data['structures']['effcore\\page']->file = 'system/module_page/backend/pattern--page.php';
   cache::$data['structures']['effcore\\pager'] = new \stdClass();
   cache::$data['structures']['effcore\\pager']->namespace = 'effcore';
@@ -522,13 +522,13 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\storage_files']->namespace = 'effcore';
   cache::$data['structures']['effcore\\storage_files']->name = 'storage_files';
   cache::$data['structures']['effcore\\storage_files']->type = 'class';
-  cache::$data['structures']['effcore\\storage_files']->implements['effcore\\has_different_cache'] = 'effcore\\has_different_cache';
+  cache::$data['structures']['effcore\\storage_files']->implements['effcore\\external'] = 'effcore\\external';
   cache::$data['structures']['effcore\\storage_files']->file = 'system/module_storage/backend/pattern--storage_files.php';
   cache::$data['structures']['effcore\\storage_pdo'] = new \stdClass();
   cache::$data['structures']['effcore\\storage_pdo']->namespace = 'effcore';
   cache::$data['structures']['effcore\\storage_pdo']->name = 'storage_pdo';
   cache::$data['structures']['effcore\\storage_pdo']->type = 'class';
-  cache::$data['structures']['effcore\\storage_pdo']->implements['effcore\\has_different_cache'] = 'effcore\\has_different_cache';
+  cache::$data['structures']['effcore\\storage_pdo']->implements['effcore\\external'] = 'effcore\\external';
   cache::$data['structures']['effcore\\storage_pdo']->file = 'system/module_storage/backend/pattern--storage_pdo.php';
   cache::$data['structures']['effcore\\table'] = new \stdClass();
   cache::$data['structures']['effcore\\table']->namespace = 'effcore';
@@ -600,7 +600,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\test']->namespace = 'effcore';
   cache::$data['structures']['effcore\\test']->name = 'test';
   cache::$data['structures']['effcore\\test']->type = 'class';
-  cache::$data['structures']['effcore\\test']->implements['effcore\\has_different_cache'] = 'effcore\\has_different_cache';
+  cache::$data['structures']['effcore\\test']->implements['effcore\\external'] = 'effcore\\external';
   cache::$data['structures']['effcore\\test']->file = 'system/module_develop/module_test/backend/pattern--test.php';
   cache::$data['structures']['effcore\\text'] = new \stdClass();
   cache::$data['structures']['effcore\\text']->namespace = 'effcore';
@@ -629,7 +629,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\translation']->namespace = 'effcore';
   cache::$data['structures']['effcore\\translation']->name = 'translation';
   cache::$data['structures']['effcore\\translation']->type = 'class';
-  cache::$data['structures']['effcore\\translation']->implements['effcore\\has_different_cache'] = 'effcore\\has_different_cache';
+  cache::$data['structures']['effcore\\translation']->implements['effcore\\external'] = 'effcore\\external';
   cache::$data['structures']['effcore\\translation']->file = 'system/module_locales/backend/patterrn--translation.php';
   cache::$data['structures']['effcore\\tree'] = new \stdClass();
   cache::$data['structures']['effcore\\tree']->namespace = 'effcore';
