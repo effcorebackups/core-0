@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-02 11:27:47';
+  cache::$info['data_original']['build'] = '2018-05-02 11:31:25';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -854,14 +854,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->title = 'Credentials';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->title_tag_name = 'legend';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email'] = new \effcore\field_email();
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick'] = new \effcore\field_simple();
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick'] = new \effcore\field_text();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->title = 'Nick';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element'] = new \effcore\markup_simple();
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['type'] = 'text';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['name'] = 'nick';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['minlength'] = 4;
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->children['element']->attributes['maxlength'] = 32;
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->element_attributes['name'] = 'nick';
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->element_attributes['minlength'] = 4;
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->element_attributes['maxlength'] = 32;
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params'] = new \effcore\group_checkboxes();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->element_attributes['name'] = 'session_params[]';
