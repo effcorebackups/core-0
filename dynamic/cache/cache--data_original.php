@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-02 14:56:28';
+  cache::$info['data_original']['build'] = '2018-05-02 15:07:37';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1480,7 +1480,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name'] = new \effcore\field_text();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->title = 'Host name';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->title = 'Hostname';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['name'] = 'host_name';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['value'] = '127.0.0.1';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['minlength'] = 1;
@@ -3138,6 +3138,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP Version'] = 'PHP Версия';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Port'] = 'Порт';
   cache::$data['data_original']['translations']['locales']['ru']->data['Provisioning key'] = 'Ключ обеспечения';
   cache::$data['data_original']['translations']['locales']['ru']->data['Queries'] = 'Запросы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Query error!'] = 'Ошибка запроса!';

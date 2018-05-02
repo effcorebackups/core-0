@@ -180,6 +180,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
   cache::$data['data--translations-locales-ru']->data['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache::$data['data--translations-locales-ru']->data['PHP Version'] = 'PHP Версия';
+  cache::$data['data--translations-locales-ru']->data['Port'] = 'Порт';
   cache::$data['data--translations-locales-ru']->data['Provisioning key'] = 'Ключ обеспечения';
   cache::$data['data--translations-locales-ru']->data['Queries'] = 'Запросы';
   cache::$data['data--translations-locales-ru']->data['Query error!'] = 'Ошибка запроса!';
