@@ -339,6 +339,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->children['element']->attributes['name'] = 'checkbox';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->children['element']->attributes['value'] = 'checkbox';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->children['element']->attributes['checked'] = 'checked';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->attributes['x-type'] = 'checkbox';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox_macro'] = new \effcore\field_checkbox();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox_macro']->title = 'Checkbox (macro)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox_macro']->element_attributes['name'] = 'checkbox_macro';
@@ -360,6 +361,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_1']->children['element']->attributes['type'] = 'checkbox';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_1']->children['element']->attributes['name'] = 'checkboxes_1';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_1']->children['element']->attributes['value'] = 'checkboxes_1';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_1']->attributes['x-type'] = 'checkbox';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2'] = new \effcore\field_simple();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->title = 'Checkbox 2 (checked)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->title_position = 'bottom';
@@ -368,6 +370,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->children['element']->attributes['name'] = 'checkboxes_2';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->children['element']->attributes['value'] = 'checkboxes_2';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->children['element']->attributes['checked'] = 'checked';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->attributes['x-type'] = 'checkbox';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3'] = new \effcore\field_simple();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->title = 'Checkbox 3 (disabled)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->title_position = 'bottom';
@@ -376,6 +379,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->children['element']->attributes['name'] = 'checkboxes_3';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->children['element']->attributes['value'] = 'checkboxes_3';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->children['element']->attributes['disabled'] = 'disabled';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->attributes['x-type'] = 'checkbox';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4'] = new \effcore\field_simple();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->title = 'Checkbox 4 (disabled + checked)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->title_position = 'bottom';
@@ -385,6 +389,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['value'] = 'checkboxes_4';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['disabled'] = 'disabled';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['checked'] = 'checked';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->attributes['x-type'] = 'checkbox';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->attributes['x-type'] = 'checkboxes';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes_macro'] = new \effcore\group_checkboxes();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes_macro']->element_attributes['name'] = 'checkboxes_macro[]';
@@ -431,6 +436,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_1']->children['element']->attributes['type'] = 'radio';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_1']->children['element']->attributes['name'] = 'radios';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_1']->children['element']->attributes['value'] = 'radios_1';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_1']->attributes['x-type'] = 'radiobutton';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_2'] = new \effcore\field_simple();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_2']->title = 'Radio 2 (checked)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_2']->title_position = 'bottom';
@@ -439,6 +445,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_2']->children['element']->attributes['name'] = 'radios';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_2']->children['element']->attributes['value'] = 'radios_2';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_2']->children['element']->attributes['checked'] = 'checked';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_2']->attributes['x-type'] = 'radiobutton';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_3'] = new \effcore\field_simple();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_3']->title = 'Radio 3 (disabled)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_3']->title_position = 'bottom';
@@ -447,6 +454,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_3']->children['element']->attributes['name'] = 'radios';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_3']->children['element']->attributes['value'] = 'radios_3';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_3']->children['element']->attributes['disabled'] = 'disabled';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->children['radios_3']->attributes['x-type'] = 'radiobutton';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios']->attributes['x-type'] = 'radiobuttons';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios_macro'] = new \effcore\group_radiobuttons();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radios_macro']->element_attributes['name'] = 'radios_macro';
