@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-02 08:50:08';
+  cache::$info['data_original']['build'] = '2018-05-02 10:48:41';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1363,12 +1363,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1'] = new \effcore\field_radiobutton();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->title = 'Radiobutton 1 (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->element_attributes['name'] = 'radio_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->element_attributes['value'] = 'radio_macro_1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->description->args['info'] = '&lt;input type="radio"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2'] = new \effcore\field_radiobutton();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->title = 'Radiobutton 2 (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->element_attributes['name'] = 'radio_macro';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->element_attributes['value'] = 'radio_macro_2';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->description->text = 'Element %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->description->args['info'] = '&lt;input type="radio"&gt;';

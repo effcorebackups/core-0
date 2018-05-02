@@ -408,12 +408,14 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1'] = new \effcore\field_radiobutton();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->title = 'Radiobutton 1 (macro)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->element_attributes['name'] = 'radio_macro';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->element_attributes['value'] = 'radio_macro_1';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->description->text = 'Element %%_info.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_1']->description->args['info'] = '&lt;input type="radio"&gt;';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2'] = new \effcore\field_radiobutton();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->title = 'Radiobutton 2 (macro)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->element_attributes['name'] = 'radio_macro';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->element_attributes['value'] = 'radio_macro_2';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->description->text = 'Element %%_info.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radio_macro_2']->description->args['info'] = '&lt;input type="radio"&gt;';
