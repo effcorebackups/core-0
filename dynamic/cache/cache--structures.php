@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-05-02 12:37:36';
+  cache::$info['structures']['build'] = '2018-05-02 13:06:19';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -109,12 +109,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\factory']->name = 'factory';
   cache::$data['structures']['effcore\\factory']->type = 'class';
   cache::$data['structures']['effcore\\factory']->file = 'system/module_core/backend/class_ab--gl--factory.php';
-  cache::$data['structures']['effcore\\field'] = new \stdClass();
-  cache::$data['structures']['effcore\\field']->namespace = 'effcore';
-  cache::$data['structures']['effcore\\field']->name = 'field';
-  cache::$data['structures']['effcore\\field']->type = 'class';
-  cache::$data['structures']['effcore\\field']->extends = 'effcore\\container';
-  cache::$data['structures']['effcore\\field']->file = 'system/module_page/backend/pattern--field.php';
   cache::$data['structures']['effcore\\field_captcha'] = new \stdClass();
   cache::$data['structures']['effcore\\field_captcha']->namespace = 'effcore';
   cache::$data['structures']['effcore\\field_captcha']->name = 'field_captcha';
