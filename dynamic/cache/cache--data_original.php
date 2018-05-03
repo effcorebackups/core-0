@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-03 12:27:19';
+  cache::$info['data_original']['build'] = '2018-05-03 12:32:41';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2637,14 +2637,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->styles['tabs_style'] = new \stdClass();
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->styles['tabs_style']->file = 'frontend/tabs._style';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->styles['tabs_style']->media = 'all';
-  cache::$data['data_original']['frontend']['develop']['frontend_page_n'] = new \stdClass();
-  cache::$data['data_original']['frontend']['develop']['frontend_page_n']->display = new \stdClass();
-  cache::$data['data_original']['frontend']['develop']['frontend_page_n']->display->check = 'path';
-  cache::$data['data_original']['frontend']['develop']['frontend_page_n']->display->where = 'url';
-  cache::$data['data_original']['frontend']['develop']['frontend_page_n']->display->match = '%.*%';
-  cache::$data['data_original']['frontend']['develop']['frontend_page_n']->styles['develop_style'] = new \stdClass();
-  cache::$data['data_original']['frontend']['develop']['frontend_page_n']->styles['develop_style']->file = 'frontend/develop._style';
-  cache::$data['data_original']['frontend']['develop']['frontend_page_n']->styles['develop_style']->media = 'all';
+  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n'] = new \stdClass();
+  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display = new \stdClass();
+  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->check = 'path';
+  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->where = 'url';
+  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->match = '%.*%';
+  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style'] = new \stdClass();
+  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->file = 'frontend/develop._style';
+  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->media = 'all';
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter'] = new \stdClass();
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display = new \stdClass();
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display->check = 'path';
