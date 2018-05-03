@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-02 17:08:37';
+  cache::$info['data_original']['build'] = '2018-05-03 09:07:28';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3022,6 +3022,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
   cache::$data['data_original']['translations']['locales']['ru']->data['Driver is not selected!'] = 'Драйвер не выбран!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Driver'] = 'Драйвер';
+  cache::$data['data_original']['translations']['locales']['ru']->data['duplicate of %%_type "%%_id" was found'] = 'был найден дубликат "%%_id" типа %%_type';
   cache::$data['data_original']['translations']['locales']['ru']->data['Edit user %%_nick_context{2}'] = 'Редактировать пользователя %%_nick_context{2}';
   cache::$data['data_original']['translations']['locales']['ru']->data['edit'] = 'редактировать';
   cache::$data['data_original']['translations']['locales']['ru']->data['email'] = 'адрес электронной почты';
@@ -3191,6 +3192,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Timezone'] = 'Часовой пояс';
   cache::$data['data_original']['translations']['locales']['ru']->data['Title'] = 'Заголовок';
   cache::$data['data_original']['translations']['locales']['ru']->data['to front page'] = 'на главную страницу';
+  cache::$data['data_original']['translations']['locales']['ru']->data['token'] = 'токен';
   cache::$data['data_original']['translations']['locales']['ru']->data['Total'] = 'Всего';
   cache::$data['data_original']['translations']['locales']['ru']->data['Translate'] = 'Перевод';
   cache::$data['data_original']['translations']['locales']['ru']->data['Tree'] = 'Дерево';
