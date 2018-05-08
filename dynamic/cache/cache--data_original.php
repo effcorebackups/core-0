@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-08 09:24:33';
+  cache::$info['data_original']['build'] = '2018-05-08 10:39:01';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1076,7 +1076,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->title = 'EMail (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['name'] = 'email_macro';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['value'] = 'test3@example.com,test4@example.com';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['required'] = 'required';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->element_attributes['multiple'] = 'multiple';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email_macro']->description->args['info'] = '&lt;input type="email"&gt;';

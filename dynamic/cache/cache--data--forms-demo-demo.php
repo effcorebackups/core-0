@@ -127,7 +127,6 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->title = 'EMail (macro)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->element_attributes['name'] = 'email_macro';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->element_attributes['value'] = 'test3@example.com,test4@example.com';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->element_attributes['required'] = 'required';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->element_attributes['multiple'] = 'multiple';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email_macro']->description->args['info'] = '&lt;input type="email"&gt;';
