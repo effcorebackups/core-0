@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-08 10:39:01';
+  cache::$info['data_original']['build'] = '2018-05-08 10:48:58';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3257,7 +3257,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Execute plan'] = 'План выполнения';
   cache::$data['data_original']['translations']['develop']['ru']->data['Export diagram to %%_file for using with StarUML software.'] = 'Экспорт диаграммы в файл %%_file для использования в программе StarUML.';
   cache::$data['data_original']['translations']['develop']['ru']->data['head cell %%_num'] = 'заглавная ячейка %%_num';
-  cache::$data['data_original']['translations']['develop']['ru']->data['hide inherited'] = 'спрятать унаследованное';
   cache::$data['data_original']['translations']['develop']['ru']->data['init.'] = 'инициал.';
   cache::$data['data_original']['translations']['develop']['ru']->data['interface'] = 'интерфейс';
   cache::$data['data_original']['translations']['develop']['ru']->data['Interfaces'] = 'Интерфейсы';
