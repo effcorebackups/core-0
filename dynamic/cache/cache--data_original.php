@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-09 11:33:04';
+  cache::$info['data_original']['build'] = '2018-05-10 14:04:50';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3044,7 +3044,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect time!'] = 'Поле "%%_title" содержит неверное время!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" is not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" does not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть отмечено!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
