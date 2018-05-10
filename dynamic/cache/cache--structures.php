@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-05-10 14:04:50';
+  cache::$info['structures']['build'] = '2018-05-10 16:13:24';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -178,7 +178,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\field_radiobutton']->namespace = 'effcore';
   cache::$data['structures']['effcore\\field_radiobutton']->name = 'field_radiobutton';
   cache::$data['structures']['effcore\\field_radiobutton']->type = 'class';
-  cache::$data['structures']['effcore\\field_radiobutton']->extends = 'effcore\\field';
+  cache::$data['structures']['effcore\\field_radiobutton']->extends = 'effcore\\field_checkbox';
   cache::$data['structures']['effcore\\field_radiobutton']->file = 'system/module_page/backend/pattern--field_radiobutton.php';
   cache::$data['structures']['effcore\\field_range'] = new \stdClass();
   cache::$data['structures']['effcore\\field_range']->namespace = 'effcore';
