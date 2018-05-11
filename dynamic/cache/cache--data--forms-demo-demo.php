@@ -245,9 +245,6 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['color_macro']->title = 'Color (macro)';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['color_macro']->element_attributes['name'] = 'color_macro';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['color_macro']->element_attributes['value'] = '#eeeeee';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['color_macro']->description = new \effcore\text();
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['color_macro']->description->args['info'] = '&lt;input type="color"&gt;';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['color_macro']->description->text = 'Element %%_info.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['textarea'] = new \effcore\field();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['textarea']->title = 'Textarea';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['textarea']->description = new \effcore\text();
