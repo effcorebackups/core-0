@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-11 10:30:14';
+  cache::$info['data_original']['build'] = '2018-05-11 11:45:28';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3039,7 +3039,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect characters from image!'] = 'Поле "%%_title" содержит неверные символы с изображения!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect date!'] = 'Поле "%%_title" содержит неверную дату!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect phone!'] = 'Поле "%%_title" содержит неверный телефон!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect time!'] = 'Поле "%%_title" содержит неверное время!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect URL!'] = 'Поле "%%_title" содержит неверный URL!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" does not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть отмечено!';

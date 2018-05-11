@@ -85,7 +85,9 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains an incorrect characters from image!'] = 'Поле "%%_title" содержит неверные символы с изображения!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains an incorrect date!'] = 'Поле "%%_title" содержит неверную дату!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains an incorrect email address!'] = 'Поле "%%_title" содержит неверный адрес электронной почты!';
+  cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains an incorrect phone!'] = 'Поле "%%_title" содержит неверный телефон!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains an incorrect time!'] = 'Поле "%%_title" содержит неверное время!';
+  cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains an incorrect URL!'] = 'Поле "%%_title" содержит неверный URL!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" does not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть отмечено!';
