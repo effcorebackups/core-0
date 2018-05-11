@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-11 07:24:44';
+  cache::$info['data_original']['build'] = '2018-05-11 07:59:36';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -968,14 +968,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['value'] = 'text in input 1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['maxlength'] = 255;
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['pattern'] = '[a-zA-Z0-9]+';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->children['element']->attributes['pattern'] = '%^[a-zA-Z0-9 ]+$%';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->attributes['x-type'] = 'text';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro'] = new \effcore\field_text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->title = 'Text (macro)';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->element_attributes['name'] = 'text_macro';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->element_attributes['value'] = 'text in input 2';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->element_attributes['minlength'] = 5;
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->element_attributes['pattern'] = '[a-zA-Z0-9]+';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->element_attributes['pattern'] = '%^[a-zA-Z0-9 ]+$%';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->description->args['info'] = '&lt;input type="text"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text_macro']->description->text = 'Element %%_info.';
@@ -3051,10 +3051,12 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a minimum of %%_num characters!'] = 'Поле "%%_title" должно содержать минимум %%_num символов!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain a maximum of %%_num characters.'] = 'Поле должно содержать максимум %%_num символов.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain a minimum of %%_num characters.'] = 'Поле должно содержать минимум %%_num символов.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field value does not match the regular expression %%_expression.'] = 'Значение поля не соответствует регулярному выражению %%_expression.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is not a valid number.'] = 'Значение поля не является допустимым числом.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is not in valid range.'] = 'Значение поля не соответствует допустимому диапазону.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field value should match the regular expression %%_expression.'] = 'Значение поля должно соответствовать регулярному выражению %%_expression.';
   cache::$data['data_original']['translations']['locales']['ru']->data['File %%_name was uploaded.'] = 'Файл %%_name был загружен.';
   cache::$data['data_original']['translations']['locales']['ru']->data['file is empty'] = 'файл пуст';
   cache::$data['data_original']['translations']['locales']['ru']->data['File name'] = 'Имя файла';

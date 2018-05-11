@@ -94,10 +94,12 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a minimum of %%_num characters!'] = 'Поле "%%_title" должно содержать минимум %%_num символов!';
   cache::$data['data--translations-locales-ru']->data['Field must contain a maximum of %%_num characters.'] = 'Поле должно содержать максимум %%_num символов.';
   cache::$data['data--translations-locales-ru']->data['Field must contain a minimum of %%_num characters.'] = 'Поле должно содержать минимум %%_num символов.';
+  cache::$data['data--translations-locales-ru']->data['Field value does not match the regular expression %%_expression.'] = 'Значение поля не соответствует регулярному выражению %%_expression.';
   cache::$data['data--translations-locales-ru']->data['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache::$data['data--translations-locales-ru']->data['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
   cache::$data['data--translations-locales-ru']->data['Field value is not a valid number.'] = 'Значение поля не является допустимым числом.';
   cache::$data['data--translations-locales-ru']->data['Field value is not in valid range.'] = 'Значение поля не соответствует допустимому диапазону.';
+  cache::$data['data--translations-locales-ru']->data['Field value should match the regular expression %%_expression.'] = 'Значение поля должно соответствовать регулярному выражению %%_expression.';
   cache::$data['data--translations-locales-ru']->data['File %%_name was uploaded.'] = 'Файл %%_name был загружен.';
   cache::$data['data--translations-locales-ru']->data['file is empty'] = 'файл пуст';
   cache::$data['data--translations-locales-ru']->data['File name'] = 'Имя файла';
