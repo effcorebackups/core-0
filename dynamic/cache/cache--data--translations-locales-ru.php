@@ -28,6 +28,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Bundle build number'] = 'Номер сборки пакета';
   cache::$data['data--translations-locales-ru']->data['button'] = 'кнопка';
   cache::$data['data--translations-locales-ru']->data['cache'] = 'кэш';
+  cache::$data['data--translations-locales-ru']->data['Can not copy file from "%%_from" to "%%_to"!'] = 'Невозможно скопировать файл из "%%_from" в "%%_to"!';
   cache::$data['data--translations-locales-ru']->data['Cancel'] = 'Отмена';
   cache::$data['data--translations-locales-ru']->data['cancel'] = 'отмена';
   cache::$data['data--translations-locales-ru']->data['Captcha'] = 'Защитный код';

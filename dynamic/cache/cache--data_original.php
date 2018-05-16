@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-16 07:50:58';
+  cache::$info['data_original']['build'] = '2018-05-16 16:21:31';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2982,6 +2982,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Bundle build number'] = 'Номер сборки пакета';
   cache::$data['data_original']['translations']['locales']['ru']->data['button'] = 'кнопка';
   cache::$data['data_original']['translations']['locales']['ru']->data['cache'] = 'кэш';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Can not copy file from "%%_from" to "%%_to"!'] = 'Невозможно скопировать файл из "%%_from" в "%%_to"!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Cancel'] = 'Отмена';
   cache::$data['data_original']['translations']['locales']['ru']->data['cancel'] = 'отмена';
   cache::$data['data_original']['translations']['locales']['ru']->data['Captcha'] = 'Защитный код';
