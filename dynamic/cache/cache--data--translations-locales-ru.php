@@ -91,6 +91,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains an incorrect URL!'] = 'Поле "%%_title" содержит неверный URL!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" does not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
+  cache::$data['data--translations-locales-ru']->data['Field "%%_title" does not support loading this file type!'] = 'Поле "%%_title" не поддерживает загрузку такого типа файла!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть отмечено!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';

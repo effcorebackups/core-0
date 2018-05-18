@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-18 18:13:13';
+  cache::$info['data_original']['build'] = '2018-05-18 19:04:53';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3050,6 +3050,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect URL!'] = 'Поле "%%_title" содержит неверный URL!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" does not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" does not support loading this file type!'] = 'Поле "%%_title" не поддерживает загрузку такого типа файла!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть отмечено!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
