@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-05-18 19:34:03';
+  cache::$info['structures']['build'] = '2018-05-18 20:00:57';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -40,6 +40,12 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\control_actions_list']->type = 'class';
   cache::$data['structures']['effcore\\control_actions_list']->extends = 'effcore\\container';
   cache::$data['structures']['effcore\\control_actions_list']->file = 'system/module_page/backend/pattern--controll_actions_list.php';
+  cache::$data['structures']['effcore\\core'] = new \stdClass();
+  cache::$data['structures']['effcore\\core']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\core']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\core']->name = 'core';
+  cache::$data['structures']['effcore\\core']->type = 'class';
+  cache::$data['structures']['effcore\\core']->file = 'system/module_core/backend/class_ab--gl--core.php';
   cache::$data['structures']['effcore\\demo_interface'] = new \stdClass();
   cache::$data['structures']['effcore\\demo_interface']->namespace = 'effcore';
   cache::$data['structures']['effcore\\demo_interface']->name = 'demo_interface';
@@ -108,12 +114,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\external_cache']->name = 'external_cache';
   cache::$data['structures']['effcore\\external_cache']->type = 'class';
   cache::$data['structures']['effcore\\external_cache']->file = 'system/module_storage/backend/pattern--external_cache.php';
-  cache::$data['structures']['effcore\\factory'] = new \stdClass();
-  cache::$data['structures']['effcore\\factory']->modifier = 'abstract';
-  cache::$data['structures']['effcore\\factory']->namespace = 'effcore';
-  cache::$data['structures']['effcore\\factory']->name = 'factory';
-  cache::$data['structures']['effcore\\factory']->type = 'class';
-  cache::$data['structures']['effcore\\factory']->file = 'system/module_core/backend/class_ab--gl--factory.php';
   cache::$data['structures']['effcore\\field'] = new \stdClass();
   cache::$data['structures']['effcore\\field']->namespace = 'effcore';
   cache::$data['structures']['effcore\\field']->name = 'field';
