@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-05-19 14:23:38';
+  cache::$info['structures']['build'] = '2018-05-19 15:32:37';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -264,6 +264,11 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\has_external_cache']->name = 'has_external_cache';
   cache::$data['structures']['effcore\\has_external_cache']->type = 'interface';
   cache::$data['structures']['effcore\\has_external_cache']->file = 'system/module_storage/backend/has_external_cache.php';
+  cache::$data['structures']['effcore\\has_post_constructor'] = new \stdClass();
+  cache::$data['structures']['effcore\\has_post_constructor']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\has_post_constructor']->name = 'has_post_constructor';
+  cache::$data['structures']['effcore\\has_post_constructor']->type = 'interface';
+  cache::$data['structures']['effcore\\has_post_constructor']->file = 'system/module_storage/backend/has_post_constructor.php';
   cache::$data['structures']['effcore\\instance'] = new \stdClass();
   cache::$data['structures']['effcore\\instance']->namespace = 'effcore';
   cache::$data['structures']['effcore\\instance']->name = 'instance';
@@ -491,11 +496,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\pattern']->name = 'pattern';
   cache::$data['structures']['effcore\\pattern']->type = 'class';
   cache::$data['structures']['effcore\\pattern']->file = 'system/module_core/backend/pattern.php';
-  cache::$data['structures']['effcore\\post_constructor'] = new \stdClass();
-  cache::$data['structures']['effcore\\post_constructor']->namespace = 'effcore';
-  cache::$data['structures']['effcore\\post_constructor']->name = 'post_constructor';
-  cache::$data['structures']['effcore\\post_constructor']->type = 'interface';
-  cache::$data['structures']['effcore\\post_constructor']->file = 'system/module_storage/backend/marker--post_constructor.php';
   cache::$data['structures']['effcore\\post_init'] = new \stdClass();
   cache::$data['structures']['effcore\\post_init']->namespace = 'effcore';
   cache::$data['structures']['effcore\\post_init']->name = 'post_init';
