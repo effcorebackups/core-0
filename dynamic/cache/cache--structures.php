@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-05-19 15:32:37';
+  cache::$info['structures']['build'] = '2018-05-19 15:51:16';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -67,7 +67,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\entity']->name = 'entity';
   cache::$data['structures']['effcore\\entity']->type = 'class';
   cache::$data['structures']['effcore\\entity']->implements['effcore\\has_external_cache'] = 'effcore\\has_external_cache';
-  cache::$data['structures']['effcore\\entity']->implements['effcore\\post_parsing'] = 'effcore\\post_parsing';
+  cache::$data['structures']['effcore\\entity']->implements['effcore\\has_post_parsing'] = 'effcore\\has_post_parsing';
   cache::$data['structures']['effcore\\entity']->file = 'system/module_storage/backend/pattern--entity.php';
   cache::$data['structures']['effcore\\event'] = new \stdClass();
   cache::$data['structures']['effcore\\event']->namespace = 'effcore';
@@ -269,6 +269,16 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\has_post_constructor']->name = 'has_post_constructor';
   cache::$data['structures']['effcore\\has_post_constructor']->type = 'interface';
   cache::$data['structures']['effcore\\has_post_constructor']->file = 'system/module_storage/backend/has_post_constructor.php';
+  cache::$data['structures']['effcore\\has_post_init'] = new \stdClass();
+  cache::$data['structures']['effcore\\has_post_init']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\has_post_init']->name = 'has_post_init';
+  cache::$data['structures']['effcore\\has_post_init']->type = 'interface';
+  cache::$data['structures']['effcore\\has_post_init']->file = 'system/module_storage/backend/has_post_init.php';
+  cache::$data['structures']['effcore\\has_post_parsing'] = new \stdClass();
+  cache::$data['structures']['effcore\\has_post_parsing']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\has_post_parsing']->name = 'has_post_parsing';
+  cache::$data['structures']['effcore\\has_post_parsing']->type = 'interface';
+  cache::$data['structures']['effcore\\has_post_parsing']->file = 'system/module_storage/backend/has_post_parsing.php';
   cache::$data['structures']['effcore\\instance'] = new \stdClass();
   cache::$data['structures']['effcore\\instance']->namespace = 'effcore';
   cache::$data['structures']['effcore\\instance']->name = 'instance';
@@ -496,16 +506,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\pattern']->name = 'pattern';
   cache::$data['structures']['effcore\\pattern']->type = 'class';
   cache::$data['structures']['effcore\\pattern']->file = 'system/module_core/backend/pattern.php';
-  cache::$data['structures']['effcore\\post_init'] = new \stdClass();
-  cache::$data['structures']['effcore\\post_init']->namespace = 'effcore';
-  cache::$data['structures']['effcore\\post_init']->name = 'post_init';
-  cache::$data['structures']['effcore\\post_init']->type = 'interface';
-  cache::$data['structures']['effcore\\post_init']->file = 'system/module_storage/backend/marker--post_init.php';
-  cache::$data['structures']['effcore\\post_parsing'] = new \stdClass();
-  cache::$data['structures']['effcore\\post_parsing']->namespace = 'effcore';
-  cache::$data['structures']['effcore\\post_parsing']->name = 'post_parsing';
-  cache::$data['structures']['effcore\\post_parsing']->type = 'interface';
-  cache::$data['structures']['effcore\\post_parsing']->file = 'system/module_storage/backend/marker--post_parsing.php';
   cache::$data['structures']['effcore\\session'] = new \stdClass();
   cache::$data['structures']['effcore\\session']->modifier = 'abstract';
   cache::$data['structures']['effcore\\session']->namespace = 'effcore';
