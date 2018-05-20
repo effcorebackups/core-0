@@ -17,7 +17,7 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->max_file_size = '10K';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->upload_dir = 'avatar/';
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->fixed_name = '%%_id_user';
+  cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->fixed_name = 'avatar-%%_id_user';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->allowed_types['gif'] = 'gif';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->allowed_types['jpeg'] = 'jpeg';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->allowed_types['jpg'] = 'jpg';

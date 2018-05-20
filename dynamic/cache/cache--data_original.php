@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-19 15:59:10';
+  cache::$info['data_original']['build'] = '2018-05-20 12:28:25';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -800,7 +800,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->max_file_size = '10K';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->upload_dir = 'avatar/';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->fixed_name = '%%_id_user';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->fixed_name = 'avatar-%%_id_user';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->allowed_types['gif'] = 'gif';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->allowed_types['jpeg'] = 'jpeg';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->allowed_types['jpg'] = 'jpg';
