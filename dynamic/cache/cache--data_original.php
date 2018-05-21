@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-20 19:47:53';
+  cache::$info['data_original']['build'] = '2018-05-21 09:46:09';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1476,21 +1476,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->element_attributes['value'] = 'main';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->element_attributes['minlength'] = 1;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->element_attributes['maxlength'] = 128;
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->element_attributes['pattern'] = '[a-zA-Z0-9-_]+';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->description = new \effcore\text();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->description->text = 'Allowable characters: %%_chars.';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_id']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_]+$%';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name'] = new \effcore\field_text();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->title = 'Hostname';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['name'] = 'host_name';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['value'] = '127.0.0.1';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['minlength'] = 1;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['maxlength'] = 253;
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['pattern'] = '[a-zA-Z0-9-_.]+';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->description = new \effcore\text();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->description->args['examples'] = '127.0.0.1, example.com';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", "."';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->description->text = 'Allowable characters: %%_chars. Examples: %%_examples.';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_.]+$%';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port'] = new \effcore\field_number();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->title = 'Port';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->element_attributes['name'] = 'port';
@@ -1503,10 +1496,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->element_attributes['value'] = 'root';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->element_attributes['minlength'] = 1;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->element_attributes['maxlength'] = 64;
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->element_attributes['pattern'] = '[a-zA-Z0-9-_]+';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->description = new \effcore\text();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->description->text = 'Allowable characters: %%_chars.';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_]+$%';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->element_attributes['minlength'] = null;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->element_attributes['required'] = null;
@@ -1523,11 +1513,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->element_attributes['value'] = 'data.sqlite';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->element_attributes['minlength'] = 1;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->element_attributes['maxlength'] = 255;
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->element_attributes['pattern'] = '[a-zA-Z0-9-_./]+';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_./]+$%';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->element_attributes['readonly'] = 'readonly';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->description = new \effcore\text();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_", ".", "/"';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['sqlite']->children['file_name']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params'] = new \effcore\container();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->tag_name = 'fieldset';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->title = 'Shared params';
@@ -1536,11 +1523,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->title = 'Table prefix';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->element_attributes['name'] = 'table_prefix';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->element_attributes['maxlength'] = 10;
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->element_attributes['pattern'] = '[a-zA-Z0-9-_]+';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_]+$%';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->element_attributes['required'] = null;
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->description = new \effcore\text();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->description->args['chars'] = '"a"-"z", "A"-"Z", "0"-"9", "-", "_"';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->description->text = 'Allowable characters: %%_chars.';
   cache::$data['data_original']['forms']['core']['install']->children['license_agreement'] = new \effcore\group_license_agreement();
   cache::$data['data_original']['forms']['core']['install']->children['button_install'] = new \effcore\markup();
   cache::$data['data_original']['forms']['core']['install']->children['button_install']->tag_name = 'button';
@@ -2973,8 +2957,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data_original']['translations']['locales']['ru']->data['agree'] = 'согласен(а)';
   cache::$data['data_original']['translations']['locales']['ru']->data['All rights reserved'] = 'Все права защищены';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Allowable characters: %%_chars. Examples: %%_examples.'] = 'Допустимые символы: %%_chars. Примеры: %%_examples.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Allowable characters: %%_chars.'] = 'Допустимые символы: %%_chars.';
   cache::$data['data_original']['translations']['locales']['ru']->data['always_enabled'] = 'всегда_вкл';
   cache::$data['data_original']['translations']['locales']['ru']->data['Anonymous'] = 'Аноним';
   cache::$data['data_original']['translations']['locales']['ru']->data['Architecture'] = 'Архитектура';
@@ -3049,12 +3031,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect time!'] = 'Поле "%%_title" содержит неверное время!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains an incorrect URL!'] = 'Поле "%%_title" содержит неверный URL!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" does not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" does not support loading this file type!'] = 'Поле "%%_title" не поддерживает загрузку такого типа файла!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" does not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть отмечено!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a minimum of %%_num characters!'] = 'Поле "%%_title" должно содержать минимум %%_num символов!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain %%_num characters.'] = 'Поле должно содержать %%_num символов.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain a maximum of %%_num characters.'] = 'Поле должно содержать максимум %%_num символов.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain a minimum of %%_num characters.'] = 'Поле должно содержать минимум %%_num символов.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value does not match the regular expression %%_expression.'] = 'Значение поля не соответствует регулярному выражению %%_expression.';

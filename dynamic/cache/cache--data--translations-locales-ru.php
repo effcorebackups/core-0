@@ -14,8 +14,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data--translations-locales-ru']->data['agree'] = 'согласен(а)';
   cache::$data['data--translations-locales-ru']->data['All rights reserved'] = 'Все права защищены';
-  cache::$data['data--translations-locales-ru']->data['Allowable characters: %%_chars. Examples: %%_examples.'] = 'Допустимые символы: %%_chars. Примеры: %%_examples.';
-  cache::$data['data--translations-locales-ru']->data['Allowable characters: %%_chars.'] = 'Допустимые символы: %%_chars.';
   cache::$data['data--translations-locales-ru']->data['always_enabled'] = 'всегда_вкл';
   cache::$data['data--translations-locales-ru']->data['Anonymous'] = 'Аноним';
   cache::$data['data--translations-locales-ru']->data['Architecture'] = 'Архитектура';
@@ -90,12 +88,13 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains an incorrect time!'] = 'Поле "%%_title" содержит неверное время!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains an incorrect URL!'] = 'Поле "%%_title" содержит неверный URL!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
-  cache::$data['data--translations-locales-ru']->data['Field "%%_title" does not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" does not support loading this file type!'] = 'Поле "%%_title" не поддерживает загрузку такого типа файла!';
+  cache::$data['data--translations-locales-ru']->data['Field "%%_title" does not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть отмечено!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a minimum of %%_num characters!'] = 'Поле "%%_title" должно содержать минимум %%_num символов!';
+  cache::$data['data--translations-locales-ru']->data['Field must contain %%_num characters.'] = 'Поле должно содержать %%_num символов.';
   cache::$data['data--translations-locales-ru']->data['Field must contain a maximum of %%_num characters.'] = 'Поле должно содержать максимум %%_num символов.';
   cache::$data['data--translations-locales-ru']->data['Field must contain a minimum of %%_num characters.'] = 'Поле должно содержать минимум %%_num символов.';
   cache::$data['data--translations-locales-ru']->data['Field value does not match the regular expression %%_expression.'] = 'Значение поля не соответствует регулярному выражению %%_expression.';
