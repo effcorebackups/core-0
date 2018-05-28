@@ -104,6 +104,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['File %%_name was uploaded.'] = 'Файл %%_name был загружен.';
   cache::$data['data--translations-locales-ru']->data['file is empty'] = 'файл пуст';
   cache::$data['data--translations-locales-ru']->data['File name'] = 'Имя файла';
+  cache::$data['data--translations-locales-ru']->data['File not found'] = 'Файл не найден';
   cache::$data['data--translations-locales-ru']->data['file of this type is protected by: %%_name'] = 'файл этого типа защищен с помощью: %%_name';
   cache::$data['data--translations-locales-ru']->data['File'] = 'Файл';
   cache::$data['data--translations-locales-ru']->data['file'] = 'файл';

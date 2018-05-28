@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-27 17:29:10';
+  cache::$info['data_original']['build'] = '2018-05-28 18:21:03';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3047,6 +3047,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['File %%_name was uploaded.'] = 'Файл %%_name был загружен.';
   cache::$data['data_original']['translations']['locales']['ru']->data['file is empty'] = 'файл пуст';
   cache::$data['data_original']['translations']['locales']['ru']->data['File name'] = 'Имя файла';
+  cache::$data['data_original']['translations']['locales']['ru']->data['File not found'] = 'Файл не найден';
   cache::$data['data_original']['translations']['locales']['ru']->data['file of this type is protected by: %%_name'] = 'файл этого типа защищен с помощью: %%_name';
   cache::$data['data_original']['translations']['locales']['ru']->data['File'] = 'Файл';
   cache::$data['data_original']['translations']['locales']['ru']->data['file'] = 'файл';

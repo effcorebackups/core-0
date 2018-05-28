@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-05-27 17:29:10';
+  cache::$info['structures']['build'] = '2018-05-28 18:21:03';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -46,6 +46,13 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\core']->name = 'core';
   cache::$data['structures']['effcore\\core']->type = 'class';
   cache::$data['structures']['effcore\\core']->file = 'system/module_core/backend/class_ab--gl--core.php';
+  cache::$data['structures']['effcore\\data'] = new \stdClass();
+  cache::$data['structures']['effcore\\data']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\data']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\data']->name = 'data';
+  cache::$data['structures']['effcore\\data']->type = 'class';
+  cache::$data['structures']['effcore\\data']->extends = 'effcore\\dynamic';
+  cache::$data['structures']['effcore\\data']->file = 'system/module_core/backend/class_ab--gl--data.php';
   cache::$data['structures']['effcore\\demo_interface'] = new \stdClass();
   cache::$data['structures']['effcore\\demo_interface']->namespace = 'effcore';
   cache::$data['structures']['effcore\\demo_interface']->name = 'demo_interface';
