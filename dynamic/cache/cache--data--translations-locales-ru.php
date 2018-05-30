@@ -27,10 +27,12 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['button'] = 'кнопка';
   cache::$data['data--translations-locales-ru']->data['cache'] = 'кэш';
   cache::$data['data--translations-locales-ru']->data['Can not copy file from "%%_from" to "%%_to"!'] = 'Невозможно скопировать файл из "%%_from" в "%%_to"!';
+  cache::$data['data--translations-locales-ru']->data['Can not write file "%%_file" to the directory "%%_directory"!'] = 'Не удалось записать файл "%%_file" в каталог "%%_directory"!';
   cache::$data['data--translations-locales-ru']->data['Cancel'] = 'Отмена';
   cache::$data['data--translations-locales-ru']->data['cancel'] = 'отмена';
   cache::$data['data--translations-locales-ru']->data['Captcha'] = 'Защитный код';
   cache::$data['data--translations-locales-ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
+  cache::$data['data--translations-locales-ru']->data['Check file (if exists) and directory permissions.'] = 'Проверьте разрешения файла (если существует) и каталога.';
   cache::$data['data--translations-locales-ru']->data['Checkbox'] = 'Флаг';
   cache::$data['data--translations-locales-ru']->data['collapse'] = 'свернуть';
   cache::$data['data--translations-locales-ru']->data['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
