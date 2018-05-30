@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-29 10:02:11';
+  cache::$info['data_original']['build'] = '2018-05-30 08:10:18';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3212,7 +3212,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Users'] = 'Пользователи';
   cache::$data['data_original']['translations']['locales']['ru']->data['val.'] = 'знач.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Val.'] = 'Знач.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Valid CSS'] = 'Действительный CSS';
   cache::$data['data_original']['translations']['locales']['ru']->data['Valid HTML5'] = 'Действительный HTML5';
   cache::$data['data_original']['translations']['locales']['ru']->data['Value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Value'] = 'Значение';

@@ -269,7 +269,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Users'] = 'Пользователи';
   cache::$data['data--translations-locales-ru']->data['val.'] = 'знач.';
   cache::$data['data--translations-locales-ru']->data['Val.'] = 'Знач.';
-  cache::$data['data--translations-locales-ru']->data['Valid CSS'] = 'Действительный CSS';
   cache::$data['data--translations-locales-ru']->data['Valid HTML5'] = 'Действительный HTML5';
   cache::$data['data--translations-locales-ru']->data['Value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
   cache::$data['data--translations-locales-ru']->data['Value'] = 'Значение';
