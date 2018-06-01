@@ -46,6 +46,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Credentials for storage %%_id was not setted!'] = 'Учётные данные для хранилища %%_id не были заданы!';
   cache::$data['data--translations-locales-ru']->data['Credentials'] = 'Учётные данные';
   cache::$data['data--translations-locales-ru']->data['credentials'] = 'учётные данные';
+  cache::$data['data--translations-locales-ru']->data['Cron job was done.'] = 'Задача Cron была выполнена.';
   cache::$data['data--translations-locales-ru']->data['Current field value: %%_value.'] = 'Текущее значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Current language'] = 'Текущий язык';
   cache::$data['data--translations-locales-ru']->data['Current page information'] = 'Информация текущей страницы';
@@ -132,6 +133,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Is always on'] = 'Всегда включен';
   cache::$data['data--translations-locales-ru']->data['Is embed'] = 'Встроенный';
   cache::$data['data--translations-locales-ru']->data['item %%_num'] = 'пункт %%_num';
+  cache::$data['data--translations-locales-ru']->data['Key "%%_name" does not exist!'] = 'Ключ "%%_name" не существует!';
   cache::$data['data--translations-locales-ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache::$data['data--translations-locales-ru']->data['Legal information'] = 'Правовая информация';
   cache::$data['data--translations-locales-ru']->data['License agreement'] = 'Лицензионное соглашение';

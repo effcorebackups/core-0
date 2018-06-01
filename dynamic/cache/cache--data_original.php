@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-05-31 19:06:57';
+  cache::$info['data_original']['build'] = '2018-06-01 12:42:55';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -711,6 +711,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['front']->content['block_wellcome']->region = 'content';
   cache::$data['data_original']['pages']['core']['front']->content['block_wellcome']->type = 'text';
   cache::$data['data_original']['pages']['core']['front']->content['block_wellcome']->content = 'Wellcome to our site!';
+  cache::$data['data_original']['pages']['core']['cron'] = new \effcore\page();
+  cache::$data['data_original']['pages']['core']['cron']->title = 'Cron';
+  cache::$data['data_original']['pages']['core']['cron']->display = new \stdClass();
+  cache::$data['data_original']['pages']['core']['cron']->display->check = 'path';
+  cache::$data['data_original']['pages']['core']['cron']->display->where = 'url';
+  cache::$data['data_original']['pages']['core']['cron']->display->match = '%^/cron/(?<key>[a-z0-9]{40})$%';
+  cache::$data['data_original']['pages']['core']['cron']->content['block_cron'] = new \stdClass();
+  cache::$data['data_original']['pages']['core']['cron']->content['block_cron']->region = 'content';
+  cache::$data['data_original']['pages']['core']['cron']->content['block_cron']->type = 'code';
+  cache::$data['data_original']['pages']['core']['cron']->content['block_cron']->handler = '\\effcore\\modules\\core\\events_page::on_cron_run';
   cache::$data['data_original']['instances']['user']['user_1'] = new \effcore\instance();
   cache::$data['data_original']['instances']['user']['user_1']->entity_name = 'user';
   cache::$data['data_original']['instances']['user']['user_1']->values['id'] = 1;
@@ -1602,6 +1612,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['events']['page']->on_module_start['page'] = new \effcore\event();
   cache::$data['data_original']['events']['page']->on_module_start['page']->for = 'page';
   cache::$data['data_original']['events']['page']->on_module_start['page']->handler = '\\effcore\\modules\\page\\events_module::on_start';
+  cache::$data['data_original']['events']['page']->on_cron['page'] = new \effcore\event();
+  cache::$data['data_original']['events']['page']->on_cron['page']->for = 'page';
+  cache::$data['data_original']['events']['page']->on_cron['page']->handler = '\\effcore\\modules\\page\\events_module::on_cron';
   cache::$data['data_original']['events']['page']->on_form_init['decoration'] = new \effcore\event();
   cache::$data['data_original']['events']['page']->on_form_init['decoration']->for = 'decoration';
   cache::$data['data_original']['events']['page']->on_form_init['decoration']->handler = '\\effcore\\modules\\page\\events_form::on_init_decoration';
@@ -1636,6 +1649,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['events']['demo']->on_form_submit['demo']->for = 'demo';
   cache::$data['data_original']['events']['demo']->on_form_submit['demo']->handler = '\\effcore\\modules\\demo\\events_form::on_submit_demo';
   cache::$data['data_original']['events']['core'] = new \stdClass();
+  cache::$data['data_original']['events']['core']->on_module_install['core'] = new \effcore\event();
+  cache::$data['data_original']['events']['core']->on_module_install['core']->for = 'core';
+  cache::$data['data_original']['events']['core']->on_module_install['core']->handler = '\\effcore\\modules\\core\\events_module::on_install';
   cache::$data['data_original']['events']['core']->on_form_init['install'] = new \effcore\event();
   cache::$data['data_original']['events']['core']->on_form_init['install']->for = 'install';
   cache::$data['data_original']['events']['core']->on_form_init['install']->handler = '\\effcore\\modules\\core\\events_form::on_init_install';
@@ -2555,7 +2571,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['settings']['locales']->format_datetime = 'd.m.Y H:i:s';
   cache::$data['data_original']['settings']['locales']->timezone = 'Europe/Minsk';
   cache::$data['data_original']['settings']['core'] = new \stdClass();
-  cache::$data['data_original']['settings']['core']->key = 'abcde01234abcde01234abcde01234abcde01234';
+  cache::$data['data_original']['settings']['core']->keys['cron'] = 'abcde01234abcde01234abcde01234abcde01234';
+  cache::$data['data_original']['settings']['core']->keys['form_validation'] = 'abcde01234abcde01234abcde01234abcde01234';
+  cache::$data['data_original']['settings']['core']->keys['session'] = 'abcde01234abcde01234abcde01234abcde01234';
   cache::$data['data_original']['frontend']['page']['frontend_page_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->check = 'path';
@@ -2989,6 +3007,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Credentials for storage %%_id was not setted!'] = 'Учётные данные для хранилища %%_id не были заданы!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Credentials'] = 'Учётные данные';
   cache::$data['data_original']['translations']['locales']['ru']->data['credentials'] = 'учётные данные';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Cron job was done.'] = 'Задача Cron была выполнена.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Current field value: %%_value.'] = 'Текущее значение поля: %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Current language'] = 'Текущий язык';
   cache::$data['data_original']['translations']['locales']['ru']->data['Current page information'] = 'Информация текущей страницы';
@@ -3075,6 +3094,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Is always on'] = 'Всегда включен';
   cache::$data['data_original']['translations']['locales']['ru']->data['Is embed'] = 'Встроенный';
   cache::$data['data_original']['translations']['locales']['ru']->data['item %%_num'] = 'пункт %%_num';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Key "%%_name" does not exist!'] = 'Ключ "%%_name" не существует!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Legal information'] = 'Правовая информация';
   cache::$data['data_original']['translations']['locales']['ru']->data['License agreement'] = 'Лицензионное соглашение';

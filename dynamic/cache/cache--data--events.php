@@ -60,6 +60,9 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['page']->on_module_start['page'] = new \effcore\event();
   cache::$data['data--events']['page']->on_module_start['page']->for = 'page';
   cache::$data['data--events']['page']->on_module_start['page']->handler = '\\effcore\\modules\\page\\events_module::on_start';
+  cache::$data['data--events']['page']->on_cron['page'] = new \effcore\event();
+  cache::$data['data--events']['page']->on_cron['page']->for = 'page';
+  cache::$data['data--events']['page']->on_cron['page']->handler = '\\effcore\\modules\\page\\events_module::on_cron';
   cache::$data['data--events']['page']->on_form_init['decoration'] = new \effcore\event();
   cache::$data['data--events']['page']->on_form_init['decoration']->for = 'decoration';
   cache::$data['data--events']['page']->on_form_init['decoration']->handler = '\\effcore\\modules\\page\\events_form::on_init_decoration';
@@ -94,6 +97,9 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['demo']->on_form_submit['demo']->for = 'demo';
   cache::$data['data--events']['demo']->on_form_submit['demo']->handler = '\\effcore\\modules\\demo\\events_form::on_submit_demo';
   cache::$data['data--events']['core'] = new \stdClass();
+  cache::$data['data--events']['core']->on_module_install['core'] = new \effcore\event();
+  cache::$data['data--events']['core']->on_module_install['core']->for = 'core';
+  cache::$data['data--events']['core']->on_module_install['core']->handler = '\\effcore\\modules\\core\\events_module::on_install';
   cache::$data['data--events']['core']->on_form_init['install'] = new \effcore\event();
   cache::$data['data--events']['core']->on_form_init['install']->for = 'install';
   cache::$data['data--events']['core']->on_form_init['install']->handler = '\\effcore\\modules\\core\\events_form::on_init_install';

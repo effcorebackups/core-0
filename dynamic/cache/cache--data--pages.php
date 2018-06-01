@@ -123,5 +123,12 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['core']['front']->display->where = 'url';
   cache::$data['data--pages']['core']['front']->display->match = '%^/$%';
   cache::$data['data--pages']['core']['front']->access = null;
+  cache::$data['data--pages']['core']['cron'] = new \effcore\external_cache();
+  cache::$data['data--pages']['core']['cron']->cache_name = 'data--pages-core-cron';
+  cache::$data['data--pages']['core']['cron']->display = new \stdClass();
+  cache::$data['data--pages']['core']['cron']->display->check = 'path';
+  cache::$data['data--pages']['core']['cron']->display->where = 'url';
+  cache::$data['data--pages']['core']['cron']->display->match = '%^/cron/(?<key>[a-z0-9]{40})$%';
+  cache::$data['data--pages']['core']['cron']->access = null;
 
 }
