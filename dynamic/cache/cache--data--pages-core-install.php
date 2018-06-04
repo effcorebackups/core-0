@@ -6,8 +6,8 @@ namespace effcore { # cache for data--pages-core-install
   cache::$data['data--pages-core-install']->title = 'Installation';
   cache::$data['data--pages-core-install']->https = true;
   cache::$data['data--pages-core-install']->display = new \stdClass();
-  cache::$data['data--pages-core-install']->display->check = 'path';
-  cache::$data['data--pages-core-install']->display->where = 'url';
+  cache::$data['data--pages-core-install']->display->check = 'url';
+  cache::$data['data--pages-core-install']->display->where = 'path';
   cache::$data['data--pages-core-install']->display->match = '%^/install$%';
   cache::$data['data--pages-core-install']->access = new \stdClass();
   cache::$data['data--pages-core-install']->access->roles['anonymous'] = 'anonymous';

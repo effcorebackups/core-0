@@ -6,8 +6,8 @@ namespace effcore { # cache for data--pages-page-decoration
   cache::$data['data--pages-page-decoration']->title = 'Decoration';
   cache::$data['data--pages-page-decoration']->https = true;
   cache::$data['data--pages-page-decoration']->display = new \stdClass();
-  cache::$data['data--pages-page-decoration']->display->check = 'path';
-  cache::$data['data--pages-page-decoration']->display->where = 'url';
+  cache::$data['data--pages-page-decoration']->display->check = 'url';
+  cache::$data['data--pages-page-decoration']->display->where = 'path';
   cache::$data['data--pages-page-decoration']->display->match = '%^/manage/decoration$%';
   cache::$data['data--pages-page-decoration']->access = new \stdClass();
   cache::$data['data--pages-page-decoration']->access->roles['admins'] = 'admins';

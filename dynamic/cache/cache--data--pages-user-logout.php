@@ -6,8 +6,8 @@ namespace effcore { # cache for data--pages-user-logout
   cache::$data['data--pages-user-logout']->title = 'Logout';
   cache::$data['data--pages-user-logout']->https = true;
   cache::$data['data--pages-user-logout']->display = new \stdClass();
-  cache::$data['data--pages-user-logout']->display->check = 'path';
-  cache::$data['data--pages-user-logout']->display->where = 'url';
+  cache::$data['data--pages-user-logout']->display->check = 'url';
+  cache::$data['data--pages-user-logout']->display->where = 'path';
   cache::$data['data--pages-user-logout']->display->match = '%^/user/logout$%';
   cache::$data['data--pages-user-logout']->access = new \stdClass();
   cache::$data['data--pages-user-logout']->access->roles['registered'] = 'registered';

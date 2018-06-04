@@ -6,8 +6,8 @@ namespace effcore { # cache for data--pages-user-user_edit
   cache::$data['data--pages-user-user_edit']->title = 'Edit user %%_nick_context{2}';
   cache::$data['data--pages-user-user_edit']->https = true;
   cache::$data['data--pages-user-user_edit']->display = new \stdClass();
-  cache::$data['data--pages-user-user_edit']->display->check = 'path';
-  cache::$data['data--pages-user-user_edit']->display->where = 'url';
+  cache::$data['data--pages-user-user_edit']->display->check = 'url';
+  cache::$data['data--pages-user-user_edit']->display->where = 'path';
   cache::$data['data--pages-user-user_edit']->display->match = '%^/user/(?<id_user>[0-9]+)/edit$%';
   cache::$data['data--pages-user-user_edit']->access = new \stdClass();
   cache::$data['data--pages-user-user_edit']->access->roles['admins'] = 'admins';
