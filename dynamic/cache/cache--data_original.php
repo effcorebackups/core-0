@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-06 12:14:54';
+  cache::$info['data_original']['build'] = '2018-06-08 13:51:19';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1332,7 +1332,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_1']->title_position = 'bottom';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_1']->children['element'] = new \effcore\markup_simple();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_1']->children['element']->attributes['type'] = 'checkbox';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_1']->children['element']->attributes['name'] = 'checkboxes_1';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_1']->children['element']->attributes['name'] = 'checkboxes[]';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_1']->children['element']->attributes['value'] = 'checkboxes_1';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_1']->attributes['x-type'] = 'checkbox';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2'] = new \effcore\field();
@@ -1340,7 +1340,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->title_position = 'bottom';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->children['element'] = new \effcore\markup_simple();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->children['element']->attributes['type'] = 'checkbox';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->children['element']->attributes['name'] = 'checkboxes_2';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->children['element']->attributes['name'] = 'checkboxes[]';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->children['element']->attributes['value'] = 'checkboxes_2';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->children['element']->attributes['checked'] = 'checked';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_2']->attributes['x-type'] = 'checkbox';
@@ -1349,7 +1349,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->title_position = 'bottom';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->children['element'] = new \effcore\markup_simple();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->children['element']->attributes['type'] = 'checkbox';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->children['element']->attributes['name'] = 'checkboxes_3';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->children['element']->attributes['name'] = 'checkboxes[]';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->children['element']->attributes['value'] = 'checkboxes_3';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->children['element']->attributes['disabled'] = 'disabled';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_3']->attributes['x-type'] = 'checkbox';
@@ -1358,7 +1358,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->title_position = 'bottom';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element'] = new \effcore\markup_simple();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['type'] = 'checkbox';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['name'] = 'checkboxes_4';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['name'] = 'checkboxes[]';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['value'] = 'checkboxes_4';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['disabled'] = 'disabled';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->children['checkboxes_4']->children['element']->attributes['checked'] = 'checked';
