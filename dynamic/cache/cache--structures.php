@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-06-12 15:48:21';
+  cache::$info['structures']['build'] = '2018-06-12 16:25:29';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -132,7 +132,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\field_checkbox']->namespace = 'effcore';
   cache::$data['structures']['effcore\\field_checkbox']->name = 'field_checkbox';
   cache::$data['structures']['effcore\\field_checkbox']->type = 'class';
-  cache::$data['structures']['effcore\\field_checkbox']->extends = 'effcore\\field';
+  cache::$data['structures']['effcore\\field_checkbox']->extends = 'effcore\\field_radiobutton';
   cache::$data['structures']['effcore\\field_checkbox']->file = 'system/module_page/backend/pattern--field_checkbox.php';
   cache::$data['structures']['effcore\\field_color'] = new \stdClass();
   cache::$data['structures']['effcore\\field_color']->namespace = 'effcore';
@@ -180,7 +180,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\field_radiobutton']->namespace = 'effcore';
   cache::$data['structures']['effcore\\field_radiobutton']->name = 'field_radiobutton';
   cache::$data['structures']['effcore\\field_radiobutton']->type = 'class';
-  cache::$data['structures']['effcore\\field_radiobutton']->extends = 'effcore\\field_checkbox';
+  cache::$data['structures']['effcore\\field_radiobutton']->extends = 'effcore\\field';
   cache::$data['structures']['effcore\\field_radiobutton']->file = 'system/module_page/backend/pattern--field_radiobutton.php';
   cache::$data['structures']['effcore\\field_range'] = new \stdClass();
   cache::$data['structures']['effcore\\field_range']->namespace = 'effcore';
