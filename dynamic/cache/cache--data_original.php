@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-12 08:33:59';
+  cache::$info['data_original']['build'] = '2018-06-12 12:47:58';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1447,7 +1447,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radiobuttons_macro']->description->args['info'] = '&lt;input type="radio"&gt;';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radiobuttons_macro']->description->text = 'Elements %%_info.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['palette'] = new \effcore\group_palette();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['palette']->element_attributes['name'] = 'color';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['palette']->element_attributes['name'] = 'palette_color';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['palette']->title = 'Color (group_palette)';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit'] = new \effcore\markup();
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->tag_name = 'button';

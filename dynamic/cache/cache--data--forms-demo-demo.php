@@ -486,7 +486,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radiobuttons_macro']->description->args['info'] = '&lt;input type="radio"&gt;';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radiobuttons_macro']->description->text = 'Elements %%_info.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['palette'] = new \effcore\group_palette();
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['palette']->element_attributes['name'] = 'color';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['palette']->element_attributes['name'] = 'palette_color';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['palette']->title = 'Color (group_palette)';
   cache::$data['data--forms-demo-demo']->children['button_submit'] = new \effcore\markup();
   cache::$data['data--forms-demo-demo']->children['button_submit']->tag_name = 'button';
