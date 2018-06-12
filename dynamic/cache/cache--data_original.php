@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-11 15:38:11';
+  cache::$info['data_original']['build'] = '2018-06-12 08:33:59';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2802,7 +2802,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->tag_name = 'p';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['content'] = new \effcore\text();
-  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['content']->text = 'Paragraph content. Paragraph content. Paragraph content. Paragraph content.                 Paragraph content. Paragraph content. Paragraph content. Paragraph content.                 Paragraph content. Paragraph content. Paragraph content. Paragraph content.                 Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['content']->text = ' Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['link_view_more'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['link_view_more']->tag_name = 'a';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['link_view_more']->children['content'] = new \effcore\text();
@@ -3254,6 +3254,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['yes'] = 'да';
   cache::$data['data_original']['translations']['develop']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['develop']['ru']->code = 'ru';
+  cache::$data['data_original']['translations']['develop']['ru']->data[' Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;'] = ' Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа.&#10;';
   cache::$data['data_original']['translations']['develop']['ru']->data['Call %%_name'] = 'Вызов %%_name';
   cache::$data['data_original']['translations']['develop']['ru']->data['call'] = 'вызов';
   cache::$data['data_original']['translations']['develop']['ru']->data['Canvas'] = 'Холст';

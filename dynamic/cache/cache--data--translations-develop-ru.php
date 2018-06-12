@@ -4,6 +4,7 @@ namespace effcore { # cache for data--translations-develop-ru
 
   cache::$data['data--translations-develop-ru'] = new \effcore\translation();
   cache::$data['data--translations-develop-ru']->code = 'ru';
+  cache::$data['data--translations-develop-ru']->data[' Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;'] = ' Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа.&#10;';
   cache::$data['data--translations-develop-ru']->data['Call %%_name'] = 'Вызов %%_name';
   cache::$data['data--translations-develop-ru']->data['call'] = 'вызов';
   cache::$data['data--translations-develop-ru']->data['Canvas'] = 'Холст';
