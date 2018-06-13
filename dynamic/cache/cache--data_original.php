@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-13 09:59:31';
+  cache::$info['data_original']['build'] = '2018-06-13 12:57:45';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1009,9 +1009,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone'] = new \effcore\field_phone();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->element_attributes['name'] = 'phone';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->element_attributes['value'] = '&#43;000112334455';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description = new \effcore\text_multiline();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description->text['0'] = 'Use international format of mobile phone numbers.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description->args['type'] = 'field_phone';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description->text = 'Field %%_type. Use international format of mobile phone numbers.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email'] = new \effcore\field_email();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->element_attributes['name'] = 'email';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['email']->element_attributes['value'] = 'test1@example.com,test2@example.com';
@@ -1044,9 +1045,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time'] = new \effcore\field_time();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->element_attributes['name'] = 'time';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->element_attributes['value'] = '01:23:45';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description = new \effcore\text_multiline();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->text['0'] = 'If the initial value is not specified, the current value in the UTC time zone will be used.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->args['type'] = 'field_time';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->text = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone'] = new \effcore\field_timezone();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone']->selected['424'] = 424;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone']->element_attributes['name'] = 'select_timezone';
@@ -1079,9 +1081,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->disabled['option_2'] = 'option_2';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->element_attributes['name'] = 'select';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->title = 'Selection list';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description = new \effcore\text_multiline();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description->text['0'] = 'Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description->args['type'] = 'field_select';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description->text = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all'] = new \effcore\container();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->tag_name = 'fieldset';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->title = 'Checkboxes';
@@ -2669,6 +2672,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['always_enabled'] = 'всегда_вкл';
   cache::$data['data_original']['translations']['locales']['ru']->data['Anonymous'] = 'Аноним';
   cache::$data['data_original']['translations']['locales']['ru']->data['Architecture'] = 'Архитектура';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).'] = 'Атрибут "multiple" не поддерживается на сенсорных устройствах (планшеты, смартфоны, мониторы с сенсорными экранами).';
   cache::$data['data_original']['translations']['locales']['ru']->data['Author'] = 'Автор';
   cache::$data['data_original']['translations']['locales']['ru']->data['autoload'] = 'автозагрузка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Avatar'] = 'Аватар';
@@ -2770,6 +2774,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
   cache::$data['data_original']['translations']['locales']['ru']->data['Hostname'] = 'Имя узла сети';
   cache::$data['data_original']['translations']['locales']['ru']->data['I accept the terms of the license agreement'] = 'Я принимаю условия лицензионного соглашения';
+  cache::$data['data_original']['translations']['locales']['ru']->data['If the initial value is not specified, the current value in the UTC time zone will be used.'] = 'Если начальное значение не задано, то будет использовано текущее значение в часовом поясе UTC.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Information'] = 'Информация';
   cache::$data['data_original']['translations']['locales']['ru']->data['initialization'] = 'инициализация';

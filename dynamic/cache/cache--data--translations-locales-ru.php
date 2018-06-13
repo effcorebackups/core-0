@@ -17,6 +17,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['always_enabled'] = 'всегда_вкл';
   cache::$data['data--translations-locales-ru']->data['Anonymous'] = 'Аноним';
   cache::$data['data--translations-locales-ru']->data['Architecture'] = 'Архитектура';
+  cache::$data['data--translations-locales-ru']->data['Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).'] = 'Атрибут "multiple" не поддерживается на сенсорных устройствах (планшеты, смартфоны, мониторы с сенсорными экранами).';
   cache::$data['data--translations-locales-ru']->data['Author'] = 'Автор';
   cache::$data['data--translations-locales-ru']->data['autoload'] = 'автозагрузка';
   cache::$data['data--translations-locales-ru']->data['Avatar'] = 'Аватар';
@@ -118,6 +119,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
   cache::$data['data--translations-locales-ru']->data['Hostname'] = 'Имя узла сети';
   cache::$data['data--translations-locales-ru']->data['I accept the terms of the license agreement'] = 'Я принимаю условия лицензионного соглашения';
+  cache::$data['data--translations-locales-ru']->data['If the initial value is not specified, the current value in the UTC time zone will be used.'] = 'Если начальное значение не задано, то будет использовано текущее значение в часовом поясе UTC.';
   cache::$data['data--translations-locales-ru']->data['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
   cache::$data['data--translations-locales-ru']->data['Information'] = 'Информация';
   cache::$data['data--translations-locales-ru']->data['initialization'] = 'инициализация';

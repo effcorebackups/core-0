@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-06-13 09:59:31';
+  cache::$info['structures']['build'] = '2018-06-13 12:57:45';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -617,6 +617,12 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\text']->type = 'class';
   cache::$data['structures']['effcore\\text']->extends = 'effcore\\text_simple';
   cache::$data['structures']['effcore\\text']->file = 'system/module_core/backend/pattern--text.php';
+  cache::$data['structures']['effcore\\text_multiline'] = new \stdClass();
+  cache::$data['structures']['effcore\\text_multiline']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\text_multiline']->name = 'text_multiline';
+  cache::$data['structures']['effcore\\text_multiline']->type = 'class';
+  cache::$data['structures']['effcore\\text_multiline']->extends = 'effcore\\text';
+  cache::$data['structures']['effcore\\text_multiline']->file = 'system/module_core/backend/pattern--text_multiline.php';
   cache::$data['structures']['effcore\\text_simple'] = new \stdClass();
   cache::$data['structures']['effcore\\text_simple']->namespace = 'effcore';
   cache::$data['structures']['effcore\\text_simple']->name = 'text_simple';
