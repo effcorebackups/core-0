@@ -94,6 +94,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" does not support loading this file type!'] = 'Поле "%%_title" не поддерживает загрузку такого типа файла!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" does not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
+  cache::$data['data--translations-locales-ru']->data['Field "%%_title" has a changed value.'] = 'Поле "%%_title" имеет измененное значение.';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть установлено!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
@@ -117,6 +118,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Form elements'] = 'Элементы формы';
   cache::$data['data--translations-locales-ru']->data['Front page'] = 'Главная страница';
   cache::$data['data--translations-locales-ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
+  cache::$data['data--translations-locales-ru']->data['Group "%%_title" has a changed value.'] = 'Группа "%%_title" имеет измененное значение.';
   cache::$data['data--translations-locales-ru']->data['Hostname'] = 'Имя узла сети';
   cache::$data['data--translations-locales-ru']->data['I accept the terms of the license agreement'] = 'Я принимаю условия лицензионного соглашения';
   cache::$data['data--translations-locales-ru']->data['If the initial value is not specified, the current value in the UTC time zone will be used.'] = 'Если начальное значение не задано, то будет использовано текущее значение в часовом поясе UTC.';

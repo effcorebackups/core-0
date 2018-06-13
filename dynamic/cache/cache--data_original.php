@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-13 12:57:45';
+  cache::$info['data_original']['build'] = '2018-06-13 14:40:58';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1049,14 +1049,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->text['0'] = 'If the initial value is not specified, the current value in the UTC time zone will be used.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->args['type'] = 'field_time';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone'] = new \effcore\field_timezone();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone']->selected['424'] = 424;
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone']->element_attributes['name'] = 'select_timezone';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone']->element_attributes['required'] = 'required';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone']->title = 'Timezone';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone']->description = new \effcore\text();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone']->description->args['type'] = 'field_timezone';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select_timezone']->description->text = 'Field %%_type.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone'] = new \effcore\field_timezone();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->selected['424'] = 424;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->element_attributes['name'] = 'timezone';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->element_attributes['required'] = 'required';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->title = 'Timezone';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->description->args['type'] = 'field_timezone';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->description->text = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color'] = new \effcore\field_color();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->description->args['type'] = 'field_color';
@@ -2749,6 +2749,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" contains incorrect value!'] = 'Поле "%%_title" содержит неверное значение!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" does not support loading this file type!'] = 'Поле "%%_title" не поддерживает загрузку такого типа файла!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" does not support multiple select!'] = 'Поле "%%_title" не поддерживает множественный выбор!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" has a changed value.'] = 'Поле "%%_title" имеет измененное значение.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть установлено!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
@@ -2772,6 +2773,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Form elements'] = 'Элементы формы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Front page'] = 'Главная страница';
   cache::$data['data_original']['translations']['locales']['ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Group "%%_title" has a changed value.'] = 'Группа "%%_title" имеет измененное значение.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Hostname'] = 'Имя узла сети';
   cache::$data['data_original']['translations']['locales']['ru']->data['I accept the terms of the license agreement'] = 'Я принимаю условия лицензионного соглашения';
   cache::$data['data_original']['translations']['locales']['ru']->data['If the initial value is not specified, the current value in the UTC time zone will be used.'] = 'Если начальное значение не задано, то будет использовано текущее значение в часовом поясе UTC.';
