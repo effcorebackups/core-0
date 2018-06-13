@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-13 09:48:14';
+  cache::$info['data_original']['build'] = '2018-06-13 09:59:31';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2969,6 +2969,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Export diagram to %%_file for using with StarUML software.'] = 'Экспорт диаграммы в файл %%_file для использования в программе StarUML.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Field %%_type.'] = 'Поле %%_type.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Group %%_type.'] = 'Группа %%_type.';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Group 1'] = 'Группа 1';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Group 2 (inserted from code)'] = 'Группа 2 (вставлена из кода)';
   cache::$data['data_original']['translations']['develop']['ru']->data['head cell %%_num'] = 'заглавная ячейка %%_num';
   cache::$data['data_original']['translations']['develop']['ru']->data['init.'] = 'инициал.';
   cache::$data['data_original']['translations']['develop']['ru']->data['interface'] = 'интерфейс';
@@ -2979,6 +2981,15 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for testing.'] = 'Модуль для тестирования.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Notice message #%%_num.'] = 'Уведомление #%%_num.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Ok message #%%_num.'] = 'Хорошее сообщение #%%_num.';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Option 1 (selected)'] = 'Опция 1 (выбрана)';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Option 2 (disabled)'] = 'Опция 2 (отключёна) ';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Option 3'] = 'Опция 3';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Option 4'] = 'Опция 4';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Option 5 (inserted + disabled from code)'] = 'Опция 5 (вставлена + отключёна из кода)';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Option 6 (inserted from code)'] = 'Опция 6 (вставлена из кода)';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Option 7 (inserted from code)'] = 'Опция 7 (вставлена из кода)';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Option 8 (inserted from code)'] = 'Опция 8 (вставлена из кода)';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Option 9 (inserted from code)'] = 'Опция 9 (вставлена из кода)';
   cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"'] = 'запрос = "%%_query"';
   cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobutton 1'] = 'Переключатель 1';
