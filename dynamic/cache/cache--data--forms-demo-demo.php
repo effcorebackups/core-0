@@ -100,9 +100,10 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['timezone']->description->args['type'] = 'field_timezone';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['timezone']->description->text = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['color'] = new \effcore\field_color();
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['color']->description = new \effcore\text();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['color']->description = new \effcore\text_multiline();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['color']->description->text[0] = 'The color should be in the format "#abcdef", where "ab" is the value of the red component, "cd" - green and "ef" - blue.';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['color']->description->text[1] = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['color']->description->args['type'] = 'field_color';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['color']->description->text = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['color']->element_attributes['name'] = 'color';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['color']->element_attributes['value'] = '#ffffff';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['textarea'] = new \effcore\field_textarea();
