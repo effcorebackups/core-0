@@ -76,12 +76,15 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['range']->description->args['type'] = 'field_range';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['range']->description->text = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['date'] = new \effcore\field_date();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['date']->title = 'UTC Date';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['date']->element_attributes['name'] = 'date';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['date']->element_attributes['value'] = '2020-01-01';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['date']->description = new \effcore\text();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['date']->description = new \effcore\text_multiline();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['date']->description->text[0] = 'If the initial value is not specified, the current value in the UTC time zone will be used.';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['date']->description->text[1] = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['date']->description->args['type'] = 'field_date';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['date']->description->text = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time'] = new \effcore\field_time();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['time']->title = 'UTC Time';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time']->element_attributes['name'] = 'time';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time']->element_attributes['value'] = '01:23:45';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['time']->description = new \effcore\text_multiline();

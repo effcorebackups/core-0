@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-13 14:40:58';
+  cache::$info['data_original']['build'] = '2018-06-13 20:03:47';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1037,12 +1037,15 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->description->args['type'] = 'field_range';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['range']->description->text = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date'] = new \effcore\field_date();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->title = 'UTC Date';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->element_attributes['name'] = 'date';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->element_attributes['value'] = '2020-01-01';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description = new \effcore\text_multiline();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description->text['0'] = 'If the initial value is not specified, the current value in the UTC time zone will be used.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description->args['type'] = 'field_date';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description->text = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time'] = new \effcore\field_time();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->title = 'UTC Time';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->element_attributes['name'] = 'time';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->element_attributes['value'] = '01:23:45';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description = new \effcore\text_multiline();
@@ -2938,6 +2941,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['User with this Nick was already registered!'] = 'Пользователь с таким Ником уже был зарегистрирован!';
   cache::$data['data_original']['translations']['locales']['ru']->data['User'] = 'Пользователь';
   cache::$data['data_original']['translations']['locales']['ru']->data['Users'] = 'Пользователи';
+  cache::$data['data_original']['translations']['locales']['ru']->data['UTC Date'] = 'UTC Дата';
+  cache::$data['data_original']['translations']['locales']['ru']->data['UTC Time'] = 'UTC Время';
   cache::$data['data_original']['translations']['locales']['ru']->data['val.'] = 'знач.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Val.'] = 'Знач.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';

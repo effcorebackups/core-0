@@ -283,6 +283,8 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['User with this Nick was already registered!'] = 'Пользователь с таким Ником уже был зарегистрирован!';
   cache::$data['data--translations-locales-ru']->data['User'] = 'Пользователь';
   cache::$data['data--translations-locales-ru']->data['Users'] = 'Пользователи';
+  cache::$data['data--translations-locales-ru']->data['UTC Date'] = 'UTC Дата';
+  cache::$data['data--translations-locales-ru']->data['UTC Time'] = 'UTC Время';
   cache::$data['data--translations-locales-ru']->data['val.'] = 'знач.';
   cache::$data['data--translations-locales-ru']->data['Val.'] = 'Знач.';
   cache::$data['data--translations-locales-ru']->data['Value was trimmed to the required length!'] = 'Значение было обрезано до требуемой длинны!';
