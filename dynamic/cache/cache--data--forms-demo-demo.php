@@ -46,12 +46,12 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['url']->description->args['type'] = 'field_url';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['url']->description->text = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['phone'] = new \effcore\field_phone();
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['phone']->element_attributes['name'] = 'phone';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['phone']->element_attributes['value'] = '&#43;000112334455';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['phone']->description = new \effcore\text_multiline();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['phone']->description->text[0] = 'Use international format of mobile phone numbers.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['phone']->description->text[1] = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['phone']->description->args['type'] = 'field_phone';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['phone']->element_attributes['name'] = 'phone';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['phone']->element_attributes['value'] = '&#43;000112334455';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email'] = new \effcore\field_email();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email']->element_attributes['name'] = 'email';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['email']->element_attributes['value'] = 'test1@example.com,test2@example.com';
