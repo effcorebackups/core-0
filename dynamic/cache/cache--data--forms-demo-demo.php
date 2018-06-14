@@ -107,7 +107,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['color']->element_attributes['name'] = 'color';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['color']->element_attributes['value'] = '#ffffff';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['textarea'] = new \effcore\field_textarea();
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['textarea']->element_attributes['name'] = 'textarea_macro';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['textarea']->element_attributes['name'] = 'textarea';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['textarea']->element_attributes['value'] = 'text in textarea';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['textarea']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['textarea']->description->args['type'] = 'field_textarea';
