@@ -14,8 +14,8 @@ namespace effcore { # cache for data--settings
   cache::$data['data--settings']['locales']->format_datetime = 'd.m.Y H:i:s';
   cache::$data['data--settings']['locales']->timezone = 'Europe/Minsk';
   cache::$data['data--settings']['core'] = new \stdClass();
-  cache::$data['data--settings']['core']->keys['cron'] = '386f7310a0fee58c4599a6e0fff2517dfdc4d79e';
-  cache::$data['data--settings']['core']->keys['form_validation'] = '98b80f2af1fcabf8385e751ab8446062809587f6';
-  cache::$data['data--settings']['core']->keys['session'] = 'dc13942ee4e1858fc0b7bae321e0884fddb357fa';
+  cache::$data['data--settings']['core']->keys['cron'] = '5b1cdbe6f171fafc87e607f90130106676897a49';
+  cache::$data['data--settings']['core']->keys['form_validation'] = '77930419249f89d8c24fcfc35d9daf7d7c725782';
+  cache::$data['data--settings']['core']->keys['session'] = '3c485fdfe53c63b9652160b6ea721c67db4e1a42';
 
 }
