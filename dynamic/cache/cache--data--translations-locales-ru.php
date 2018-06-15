@@ -247,8 +247,8 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Test'] = 'Тест';
   cache::$data['data--translations-locales-ru']->data['Text'] = 'Текст';
   cache::$data['data--translations-locales-ru']->data['Textarea'] = 'Текстовая область';
-  cache::$data['data--translations-locales-ru']->data['The changes have been deleted.'] = 'Изменения были удалены.';
-  cache::$data['data--translations-locales-ru']->data['The changes have been saved.'] = 'Изменения были сохранены.';
+  cache::$data['data--translations-locales-ru']->data['The changes was deleted.'] = 'Изменения были удалены.';
+  cache::$data['data--translations-locales-ru']->data['The changes was saved.'] = 'Изменения были сохранены.';
   cache::$data['data--translations-locales-ru']->data['The color should be in the format "#abcdef", where "ab" is the value of the red component, "cd" - green and "ef" - blue.'] = 'Цвет должен быть в формате "#abcdef", где "ab" - это значение красной компоненты, "cd" - зеленой и "ef" - синей.';
   cache::$data['data--translations-locales-ru']->data['The color should be specified in a special format.'] = 'Цвет должен указываться в специальном формате.';
   cache::$data['data--translations-locales-ru']->data['the size of uploaded file more than %%_size'] = 'размер загруженного файла больше чем %%_size';

@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-15 22:08:01';
+  cache::$info['data_original']['build'] = '2018-06-15 23:05:12';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1148,18 +1148,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->attributes['value'] = 'submit';
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_button'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_button']->tag_name = 'button';
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_button']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_button']->children['label']->text = 'button';
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_button']->attributes['type'] = 'button';
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_button']->attributes['name'] = 'button';
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_button']->attributes['value'] = 'button';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_reset'] = new \effcore\markup();
   cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->tag_name = 'button';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->children['label'] = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->children['label']->text = 'reset';
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->attributes['type'] = 'reset';
+  cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->attributes['value'] = 'reset';
   cache::$data['data_original']['forms']['demo']['demo']->attributes['id'] = 'demo';
@@ -2906,8 +2899,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Test'] = 'Тест';
   cache::$data['data_original']['translations']['locales']['ru']->data['Text'] = 'Текст';
   cache::$data['data_original']['translations']['locales']['ru']->data['Textarea'] = 'Текстовая область';
-  cache::$data['data_original']['translations']['locales']['ru']->data['The changes have been deleted.'] = 'Изменения были удалены.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['The changes have been saved.'] = 'Изменения были сохранены.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['The changes was deleted.'] = 'Изменения были удалены.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['The changes was saved.'] = 'Изменения были сохранены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['The color should be in the format "#abcdef", where "ab" is the value of the red component, "cd" - green and "ef" - blue.'] = 'Цвет должен быть в формате "#abcdef", где "ab" - это значение красной компоненты, "cd" - зеленой и "ef" - синей.';
   cache::$data['data_original']['translations']['locales']['ru']->data['The color should be specified in a special format.'] = 'Цвет должен указываться в специальном формате.';
   cache::$data['data_original']['translations']['locales']['ru']->data['the size of uploaded file more than %%_size'] = 'размер загруженного файла больше чем %%_size';
