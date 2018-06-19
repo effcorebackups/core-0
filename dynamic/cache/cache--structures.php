@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-06-19 08:40:25';
+  cache::$info['structures']['build'] = '2018-06-19 09:36:58';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -254,6 +254,11 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\group_license_agreement']->type = 'class';
   cache::$data['structures']['effcore\\group_license_agreement']->extends = 'effcore\\container';
   cache::$data['structures']['effcore\\group_license_agreement']->file = 'system/module_page/backend/pattern--group_license_agreement.php';
+  cache::$data['structures']['effcore\\group_mono'] = new \stdClass();
+  cache::$data['structures']['effcore\\group_mono']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\group_mono']->name = 'group_mono';
+  cache::$data['structures']['effcore\\group_mono']->type = 'interface';
+  cache::$data['structures']['effcore\\group_mono']->file = 'system/module_page/backend/markers.php';
   cache::$data['structures']['effcore\\group_palette'] = new \stdClass();
   cache::$data['structures']['effcore\\group_palette']->namespace = 'effcore';
   cache::$data['structures']['effcore\\group_palette']->name = 'group_palette';
@@ -265,6 +270,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\group_radiobuttons']->name = 'group_radiobuttons';
   cache::$data['structures']['effcore\\group_radiobuttons']->type = 'class';
   cache::$data['structures']['effcore\\group_radiobuttons']->extends = 'effcore\\container';
+  cache::$data['structures']['effcore\\group_radiobuttons']->implements['effcore\\group_mono'] = 'effcore\\group_mono';
   cache::$data['structures']['effcore\\group_radiobuttons']->file = 'system/module_page/backend/pattern--group_radiobuttons.php';
   cache::$data['structures']['effcore\\has_external_cache'] = new \stdClass();
   cache::$data['structures']['effcore\\has_external_cache']->namespace = 'effcore';
