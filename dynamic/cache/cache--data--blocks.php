@@ -170,6 +170,8 @@ namespace effcore { # cache for data--blocks
   cache::$data['data--blocks']['demo']['demo']->children['demo_table']->children['body']->children['tr_4']->children['td_1']->children['content'] = new \effcore\text();
   cache::$data['data--blocks']['demo']['demo']->children['demo_table']->children['body']->children['tr_4']->children['td_1']->attributes['colspan'] = 3;
   cache::$data['data--blocks']['demo']['demo']->children['demo_pager_1'] = new \effcore\pager();
+  cache::$data['data--blocks']['demo']['demo']->children['demo_pager_1']->max = 50;
+  cache::$data['data--blocks']['demo']['demo']->children['demo_pager_1']->cur = 0;
   cache::$data['data--blocks']['demo']['demo']->children['controls_title'] = new \effcore\markup();
   cache::$data['data--blocks']['demo']['demo']->children['controls_title']->tag_name = 'h2';
   cache::$data['data--blocks']['demo']['demo']->children['controls_title']->children['content'] = new \effcore\text();

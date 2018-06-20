@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-19 12:43:04';
+  cache::$info['data_original']['build'] = '2018-06-20 13:25:00';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2633,6 +2633,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_table']->children['body']->children['tr_4']->children['td_1']->children['content'] = new \effcore\text();
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_table']->children['body']->children['tr_4']->children['td_1']->attributes['colspan'] = 3;
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_pager_1'] = new \effcore\pager();
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_pager_1']->max = 50;
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_pager_1']->cur = 0;
   cache::$data['data_original']['blocks']['demo']['demo']->children['controls_title'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['demo']['demo']->children['controls_title']->tag_name = 'h2';
   cache::$data['data_original']['blocks']['demo']['demo']->children['controls_title']->children['content'] = new \effcore\text();
