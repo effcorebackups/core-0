@@ -264,6 +264,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Tree'] = 'Дерево';
   cache::$data['data--translations-locales-ru']->data['type'] = 'тип';
   cache::$data['data--translations-locales-ru']->data['uninstall'] = 'удалить';
+  cache::$data['data--translations-locales-ru']->data['Unordered list'] = 'Неупорядоченный список';
   cache::$data['data--translations-locales-ru']->data['Update'] = 'Обновить';
   cache::$data['data--translations-locales-ru']->data['updated'] = 'обновлено';
   cache::$data['data--translations-locales-ru']->data['URL'] = 'URL';

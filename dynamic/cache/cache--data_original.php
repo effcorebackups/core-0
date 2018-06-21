@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-20 13:25:00';
+  cache::$info['data_original']['build'] = '2018-06-21 16:04:06';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2632,9 +2632,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_table']->children['body']->children['tr_4']->children['td_1'] = new \effcore\table_body_row_cell();
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_table']->children['body']->children['tr_4']->children['td_1']->children['content'] = new \effcore\text();
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_table']->children['body']->children['tr_4']->children['td_1']->attributes['colspan'] = 3;
-  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_pager_1'] = new \effcore\pager();
-  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_pager_1']->max = 50;
-  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_pager_1']->cur = 0;
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_pager_2'] = new \effcore\pager();
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_pager_2']->id = 'pager';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_pager_2']->prefix = 'my';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_pager_2']->max = 10000;
   cache::$data['data_original']['blocks']['demo']['demo']->children['controls_title'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['demo']['demo']->children['controls_title']->tag_name = 'h2';
   cache::$data['data_original']['blocks']['demo']['demo']->children['controls_title']->children['content'] = new \effcore\text();
@@ -2917,6 +2918,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Tree'] = 'Дерево';
   cache::$data['data_original']['translations']['locales']['ru']->data['type'] = 'тип';
   cache::$data['data_original']['translations']['locales']['ru']->data['uninstall'] = 'удалить';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Unordered list'] = 'Неупорядоченный список';
   cache::$data['data_original']['translations']['locales']['ru']->data['Update'] = 'Обновить';
   cache::$data['data_original']['translations']['locales']['ru']->data['updated'] = 'обновлено';
   cache::$data['data_original']['translations']['locales']['ru']->data['URL'] = 'URL';
