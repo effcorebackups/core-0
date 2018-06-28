@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-28 13:11:06';
+  cache::$info['data_original']['build'] = '2018-06-28 13:29:05';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2198,7 +2198,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['templates']['page']['container'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['container']->name = 'container';
   cache::$data['data_original']['templates']['page']['container']->type = 'text';
-  cache::$data['data_original']['templates']['page']['container']->data = '<%%_tag_name %%_attributes> %%_title_t %%_content %%_title_b %%_description </%%_tag_name>';
+  cache::$data['data_original']['templates']['page']['container']->data = '<%%_tag_name %%_attributes>%%_title_t%%_content%%_title_b%%_description</%%_tag_name>';
   cache::$data['data_original']['templates']['page']['page'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['page']->name = 'page';
   cache::$data['data_original']['templates']['page']['page']->type = 'file';
