@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-28 13:29:05';
+  cache::$info['data_original']['build'] = '2018-06-28 16:20:47';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2222,35 +2222,35 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['templates']['menu']['tree'] = new \stdClass();
   cache::$data['data_original']['templates']['menu']['tree']->name = 'tree';
   cache::$data['data_original']['templates']['menu']['tree']->type = 'text';
-  cache::$data['data_original']['templates']['menu']['tree']->data = '<x-tree %%_attributes> <h3 class="hidden">%%_self</h3> <ul>%%_children</ul> </x-tree>';
+  cache::$data['data_original']['templates']['menu']['tree']->data = '<x-tree %%_attributes><h3 class="hidden">%%_self</h3><ul>%%_children</ul></x-tree>';
   cache::$data['data_original']['templates']['menu']['tree_item'] = new \stdClass();
   cache::$data['data_original']['templates']['menu']['tree_item']->name = 'tree_item';
   cache::$data['data_original']['templates']['menu']['tree_item']->type = 'text';
-  cache::$data['data_original']['templates']['menu']['tree_item']->data = '<li %%_attributes> %%_self %%_children </li>';
+  cache::$data['data_original']['templates']['menu']['tree_item']->data = '<li %%_attributes>%%_self%%_children</li>';
   cache::$data['data_original']['templates']['menu']['tree_item_children'] = new \stdClass();
   cache::$data['data_original']['templates']['menu']['tree_item_children']->name = 'tree_item_children';
   cache::$data['data_original']['templates']['menu']['tree_item_children']->type = 'text';
-  cache::$data['data_original']['templates']['menu']['tree_item_children']->data = '<ul> %%_children </ul>';
+  cache::$data['data_original']['templates']['menu']['tree_item_children']->data = '<ul>%%_children</ul>';
   cache::$data['data_original']['templates']['menu']['tabs'] = new \stdClass();
   cache::$data['data_original']['templates']['menu']['tabs']->name = 'tabs';
   cache::$data['data_original']['templates']['menu']['tabs']->type = 'text';
-  cache::$data['data_original']['templates']['menu']['tabs']->data = '<x-tabs> %%_top_items %%_sub_items </x-tabs>';
+  cache::$data['data_original']['templates']['menu']['tabs']->data = '<x-tabs>%%_top_items%%_sub_items</x-tabs>';
   cache::$data['data_original']['templates']['menu']['tabs_top_items'] = new \stdClass();
   cache::$data['data_original']['templates']['menu']['tabs_top_items']->name = 'tabs_top_items';
   cache::$data['data_original']['templates']['menu']['tabs_top_items']->type = 'text';
-  cache::$data['data_original']['templates']['menu']['tabs_top_items']->data = '<x-top-items><ul> %%_children </ul></x-top-items>';
+  cache::$data['data_original']['templates']['menu']['tabs_top_items']->data = '<x-top-items><ul>%%_children</ul></x-top-items>';
   cache::$data['data_original']['templates']['menu']['tabs_sub_items'] = new \stdClass();
   cache::$data['data_original']['templates']['menu']['tabs_sub_items']->name = 'tabs_sub_items';
   cache::$data['data_original']['templates']['menu']['tabs_sub_items']->type = 'text';
-  cache::$data['data_original']['templates']['menu']['tabs_sub_items']->data = '<x-sub-items><ul> %%_children </ul></x-sub-items>';
+  cache::$data['data_original']['templates']['menu']['tabs_sub_items']->data = '<x-sub-items><ul>%%_children</ul></x-sub-items>';
   cache::$data['data_original']['templates']['menu']['tabs_item'] = new \stdClass();
   cache::$data['data_original']['templates']['menu']['tabs_item']->name = 'tabs_item';
   cache::$data['data_original']['templates']['menu']['tabs_item']->type = 'text';
-  cache::$data['data_original']['templates']['menu']['tabs_item']->data = '<li %%_attributes> %%_self %%_children </li>';
+  cache::$data['data_original']['templates']['menu']['tabs_item']->data = '<li %%_attributes>%%_self%%_children</li>';
   cache::$data['data_original']['templates']['menu']['tabs_item_children'] = new \stdClass();
   cache::$data['data_original']['templates']['menu']['tabs_item_children']->name = 'tabs_item_children';
   cache::$data['data_original']['templates']['menu']['tabs_item_children']->type = 'text';
-  cache::$data['data_original']['templates']['menu']['tabs_item_children']->data = '<ul> %%_children </ul>';
+  cache::$data['data_original']['templates']['menu']['tabs_item_children']->data = '<ul>%%_children</ul>';
   cache::$data['data_original']['settings']['page'] = new \stdClass();
   cache::$data['data_original']['settings']['page']->color_id = 'black';
   cache::$data['data_original']['settings']['page']->color_bg_id = 'modernblue';
