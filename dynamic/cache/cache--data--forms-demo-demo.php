@@ -25,9 +25,10 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->element_attributes['minlength'] = 5;
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->element_attributes['pattern'] = '%^[a-zA-Z0-9 ]+$%';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->description_state = 'expanded';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->description = new \effcore\text();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->description = new \effcore\text_multiline();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->description->text[0] = 'This description is always shown.';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->description->text[1] = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->description->args['type'] = 'field_text';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['text']->description->text = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password'] = new \effcore\field_password();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->element_attributes['name'] = 'password';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->element_attributes['value'] = 'text in password';

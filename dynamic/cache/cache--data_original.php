@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-28 16:20:47';
+  cache::$info['data_original']['build'] = '2018-06-28 21:43:50';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -986,9 +986,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->element_attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->element_attributes['pattern'] = '%^[a-zA-Z0-9 ]+$%';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description_state = 'expanded';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description = new \effcore\text_multiline();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->text['0'] = 'This description is always shown.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->args['type'] = 'field_text';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->text = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->element_attributes['name'] = 'password';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->element_attributes['value'] = 'text in password';
@@ -3007,6 +3008,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobutton 3 (disabled)'] = 'Переключатель 3 (отключён)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Static block'] = 'Статический блок';
   cache::$data['data_original']['translations']['develop']['ru']->data['Structures'] = 'Структуры';
+  cache::$data['data_original']['translations']['develop']['ru']->data['This description is always shown.'] = 'Это описание всегда показывается.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Total generation time'] = 'Общее время генерации';
   cache::$data['data_original']['translations']['develop']['ru']->data['Total load'] = 'Общая загрука';
   cache::$data['data_original']['translations']['develop']['ru']->data['Traits'] = 'Трейты';
