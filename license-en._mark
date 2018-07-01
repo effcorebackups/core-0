@@ -4,7 +4,7 @@ Software license agreement
 ==========================
 
 
-Author / Rightholder
+Author | Rightholder
 ---------------------------------------------------------------------
 
 The author and rightholder (hereinafter referred to as the "Rightholder")
@@ -53,7 +53,7 @@ except the next cases:
 Warranty and responsibilities of the parties
 ---------------------------------------------------------------------
 
-The author and/or Rightholder does not provide any warranty and does not assume
+The author and|or Rightholder does not provide any warranty and does not assume
 any responsibility or liability for the use of this Software.
 This license agreement shall form an integral part of this Software.
 This Software can be used only under the terms and conditions hereof.
@@ -73,15 +73,17 @@ Other trademarks
 - Firefox® is registered trademarks of Mozilla Foundation.
 - FreeBSD is a registered trademark of The FreeBSD Foundation.
 - Google™, Google Chrome™ are registered trademarks of Google Inc.
-- Intel, Intel Xeon/i7/i9 are trademarks or registered trademarks of Intel Corporation.
+- Intel are trademarks or registered trademarks of Intel Corporation.
 - iOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used by Apple under license.
 - Kaleidoscope is registered trademarks or trademarks of Black Pixel.
 - Monodraw is registered trademarks or trademarks of Helftone Ltd.
+- MySQL is registered trademarks or trademarks of Oracle Corporation and|or its affiliates.
 - NGINX is registered trademarks of Nginx Software Inc.
 - Opera® is registered trademarks or trademarks of Opera Software AS in Norway, the European Union and other countries.
 - SequelPro is registered trademarks or trademarks of Sequel Pro Developers.
+- SQLite is in the public domain and does not require a license.
 - StarUML is registered trademarks or trademarks of MKLab Co.
 - Tower is registered trademarks or trademarks of fournova Software GmbH.
 - UNIX® is a registered trademark of The Open Group.
-- Windows®, Internet Explorer®, Edge® are registered trademarks or trademarks of Microsoft Corporation in the U.S. and/or other countries.
+- Windows®, Internet Explorer®, Edge®, Internet Information Services (IIS) are registered trademarks or trademarks of Microsoft Corporation in the U.S. and|or other countries.
 
