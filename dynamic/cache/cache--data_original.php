@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-06-30 09:56:08';
+  cache::$info['data_original']['build'] = '2018-07-10 13:09:34';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2878,6 +2878,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Select'] = 'Выбрать';
   cache::$data['data_original']['translations']['locales']['ru']->data['Selection list'] = 'Список выбора';
   cache::$data['data_original']['translations']['locales']['ru']->data['Server software'] = 'Серверное ПО';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Server timezone'] = 'Часовой пояс сервера';
   cache::$data['data_original']['translations']['locales']['ru']->data['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data_original']['translations']['locales']['ru']->data['set'] = 'установка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Shared information'] = 'Общая информация';
