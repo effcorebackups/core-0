@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-17 08:38:31';
+  cache::$info['data_original']['build'] = '2018-07-17 11:33:06';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2791,6 +2791,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Instances of entity %%_name was added.'] = 'Экземпляры сущности %%_name были добавлены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Instances of entity %%_name was not added!'] = 'Экземпляры сущности %%_name не были добавлены!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Instances'] = 'Экземпляры';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Internet Explorer below version %%_version no longer supported!'] = 'Internet Explorer ниже версии %%_version больше не поддерживается!';
   cache::$data['data_original']['translations']['locales']['ru']->data['invalid session was deleted!'] = 'Недействительный сеанс был удален!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Is always on'] = 'Всегда включен';
   cache::$data['data_original']['translations']['locales']['ru']->data['Is embed'] = 'Встроенный';

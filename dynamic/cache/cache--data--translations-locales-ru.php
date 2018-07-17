@@ -135,6 +135,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Instances of entity %%_name was added.'] = 'Экземпляры сущности %%_name были добавлены.';
   cache::$data['data--translations-locales-ru']->data['Instances of entity %%_name was not added!'] = 'Экземпляры сущности %%_name не были добавлены!';
   cache::$data['data--translations-locales-ru']->data['Instances'] = 'Экземпляры';
+  cache::$data['data--translations-locales-ru']->data['Internet Explorer below version %%_version no longer supported!'] = 'Internet Explorer ниже версии %%_version больше не поддерживается!';
   cache::$data['data--translations-locales-ru']->data['invalid session was deleted!'] = 'Недействительный сеанс был удален!';
   cache::$data['data--translations-locales-ru']->data['Is always on'] = 'Всегда включен';
   cache::$data['data--translations-locales-ru']->data['Is embed'] = 'Встроенный';
