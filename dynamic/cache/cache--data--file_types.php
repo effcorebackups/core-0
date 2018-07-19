@@ -35,6 +35,7 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['_style']->type = '_style';
   cache::$data['data--file_types']['core']['_style']->use_tokens = 1;
   cache::$data['data--file_types']['core']['_style']->headers['Content-type'] = 'text/css';
+  cache::$data['data--file_types']['core']['_style']->headers['X-Content-Type-Options'] = 'nosniff';
   cache::$data['data--file_types']['core']['3gp'] = new \stdClass();
   cache::$data['data--file_types']['core']['3gp']->type = '3gp';
   cache::$data['data--file_types']['core']['3gp']->headers['Content-type'] = 'video/3gpp';
@@ -71,6 +72,7 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['css'] = new \stdClass();
   cache::$data['data--file_types']['core']['css']->type = 'css';
   cache::$data['data--file_types']['core']['css']->headers['Content-type'] = 'text/css';
+  cache::$data['data--file_types']['core']['css']->headers['X-Content-Type-Options'] = 'nosniff';
   cache::$data['data--file_types']['core']['der'] = new \stdClass();
   cache::$data['data--file_types']['core']['der']->type = 'der';
   cache::$data['data--file_types']['core']['der']->headers['Content-type'] = 'application/x-x509-ca-cert';
@@ -134,6 +136,7 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['js'] = new \stdClass();
   cache::$data['data--file_types']['core']['js']->type = 'js';
   cache::$data['data--file_types']['core']['js']->headers['Content-type'] = 'application/javascript';
+  cache::$data['data--file_types']['core']['js']->headers['X-Content-Type-Options'] = 'nosniff';
   cache::$data['data--file_types']['core']['keynote'] = new \stdClass();
   cache::$data['data--file_types']['core']['keynote']->type = 'keynote';
   cache::$data['data--file_types']['core']['keynote']->headers['Content-type'] = 'application/x-iwork-keynote-sffkey';
