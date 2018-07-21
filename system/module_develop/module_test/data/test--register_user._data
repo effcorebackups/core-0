@@ -1,35 +1,52 @@
 tests
 - register_user|test
     id: register_user
-    https: true
-    url: user/registration
-    id_user: 0
     scenario
-    - fill_email
-        action_type: fill
-        field: email
+    - form_id_set|step
+        type: set
+        name: form_id
+        value: registration
+    - validation_id_set|step
+        type: set
+        name: validation_id
+        value: %%_validation_id
+    - email_set|step
+        type: set
+        name: email
         value: test@example.com
-    - fill_nick
-        action_type: fill
-        field: nick
+    - nick_set|step
+        type: set
+        name: nick
         value: test
-    - fill_password
-        action_type: fill
-        field: password
+    - password_set|step
+        type: set
+        name: password
         value: 12345
-    - fill_captcha
-        action_type: fill
-        field: captcha
-        value: 123456
-    - submit_register
-        action_type: submit
-        field: button
+    - session_params_remember_set|step
+        type: set
+        name: session_params[]
+        value: remember
+    - session_params_fixed_ip_set|step
+        type: set
+        name: session_params[]
+        value: fixed_ip
+    - captcha_set|step
+        type: set
+        name: captcha
+        value: %%_captcha
+    - button_set|step
+        type: set
+        name: button
         value: register
-    - check_result
-        action_type: check
-        when_error
-          action
-            return: false
-        when_success
-          action
-            return: true
+    - form_submit|step
+        type: request
+        url: /user/registration
+        https: false
+    - response_check|step
+        type: check
+        where: response
+        match: 200
+        on_success
+        - return_result|step
+            type: return
+            value: true
