@@ -86,7 +86,7 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['button_to_front']->attributes['value'] = 'to_front';
   cache::$data['data--forms-core-install']->children['button_to_front']->novalidate = true;
   cache::$data['data--forms-core-install']->attributes['id'] = 'install';
-  cache::$data['data--forms-core-install']->attributes['novalidate'] = 'novalidate';
   cache::$data['data--forms-core-install']->attributes['method'] = 'post';
+  cache::$data['data--forms-core-install']->attributes['novalidate'] = 'novalidate';
 
 }

@@ -31,7 +31,7 @@ namespace effcore { # cache for data--forms-page-decoration
   cache::$data['data--forms-page-decoration']->children['button_restore']->attributes['value'] = 'restore';
   cache::$data['data--forms-page-decoration']->children['button_restore']->attributes['disabled'] = 'disabled';
   cache::$data['data--forms-page-decoration']->attributes['id'] = 'decoration';
-  cache::$data['data--forms-page-decoration']->attributes['novalidate'] = 'novalidate';
   cache::$data['data--forms-page-decoration']->attributes['method'] = 'post';
+  cache::$data['data--forms-page-decoration']->attributes['novalidate'] = 'novalidate';
 
 }

@@ -29,7 +29,7 @@ namespace effcore { # cache for data--forms-user-registration
   cache::$data['data--forms-user-registration']->children['button_register']->attributes['name'] = 'button';
   cache::$data['data--forms-user-registration']->children['button_register']->attributes['value'] = 'register';
   cache::$data['data--forms-user-registration']->attributes['id'] = 'registration';
-  cache::$data['data--forms-user-registration']->attributes['novalidate'] = 'novalidate';
   cache::$data['data--forms-user-registration']->attributes['method'] = 'post';
+  cache::$data['data--forms-user-registration']->attributes['novalidate'] = 'novalidate';
 
 }

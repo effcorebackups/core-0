@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-19 20:07:53';
+  cache::$info['data_original']['build'] = '2018-07-21 13:33:52';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -838,9 +838,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->attributes['value'] = 'cancel';
   cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->novalidate = true;
   cache::$data['data_original']['forms']['user']['user_edit']->attributes['id'] = 'user_edit';
-  cache::$data['data_original']['forms']['user']['user_edit']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['user']['user_edit']->attributes['enctype'] = 'multipart/form-data';
   cache::$data['data_original']['forms']['user']['user_edit']->attributes['method'] = 'post';
+  cache::$data['data_original']['forms']['user']['user_edit']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['user']['user_delete'] = new \effcore\form();
   cache::$data['data_original']['forms']['user']['user_delete']->children['button_delete'] = new \effcore\markup();
   cache::$data['data_original']['forms']['user']['user_delete']->children['button_delete']->tag_name = 'button';
@@ -858,8 +858,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_delete']->children['button_cancel']->attributes['value'] = 'cancel';
   cache::$data['data_original']['forms']['user']['user_delete']->children['button_cancel']->novalidate = true;
   cache::$data['data_original']['forms']['user']['user_delete']->attributes['id'] = 'user_delete';
-  cache::$data['data_original']['forms']['user']['user_delete']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['user']['user_delete']->attributes['method'] = 'post';
+  cache::$data['data_original']['forms']['user']['user_delete']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['user']['registration'] = new \effcore\form();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials'] = new \effcore\container();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->tag_name = 'fieldset';
@@ -887,8 +887,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->children['button_register']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['user']['registration']->children['button_register']->attributes['value'] = 'register';
   cache::$data['data_original']['forms']['user']['registration']->attributes['id'] = 'registration';
-  cache::$data['data_original']['forms']['user']['registration']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['user']['registration']->attributes['method'] = 'post';
+  cache::$data['data_original']['forms']['user']['registration']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['user']['logout'] = new \effcore\form();
   cache::$data['data_original']['forms']['user']['logout']->children['button_logout'] = new \effcore\markup();
   cache::$data['data_original']['forms']['user']['logout']->children['button_logout']->tag_name = 'button';
@@ -906,8 +906,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['logout']->children['button_cancel']->attributes['value'] = 'cancel';
   cache::$data['data_original']['forms']['user']['logout']->children['button_cancel']->novalidate = true;
   cache::$data['data_original']['forms']['user']['logout']->attributes['id'] = 'logout';
-  cache::$data['data_original']['forms']['user']['logout']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['user']['logout']->attributes['method'] = 'post';
+  cache::$data['data_original']['forms']['user']['logout']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['user']['login'] = new \effcore\form();
   cache::$data['data_original']['forms']['user']['login']->children['credentials'] = new \effcore\container();
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->tag_name = 'fieldset';
@@ -930,8 +930,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->children['button_login']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['user']['login']->children['button_login']->attributes['value'] = 'login';
   cache::$data['data_original']['forms']['user']['login']->attributes['id'] = 'login';
-  cache::$data['data_original']['forms']['user']['login']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['user']['login']->attributes['method'] = 'post';
+  cache::$data['data_original']['forms']['user']['login']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['page']['decoration'] = new \effcore\form();
   cache::$data['data_original']['forms']['page']['decoration']->children['colors'] = new \effcore\container();
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->tag_name = 'fieldset';
@@ -961,8 +961,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['page']['decoration']->children['button_restore']->attributes['value'] = 'restore';
   cache::$data['data_original']['forms']['page']['decoration']->children['button_restore']->attributes['disabled'] = 'disabled';
   cache::$data['data_original']['forms']['page']['decoration']->attributes['id'] = 'decoration';
-  cache::$data['data_original']['forms']['page']['decoration']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['page']['decoration']->attributes['method'] = 'post';
+  cache::$data['data_original']['forms']['page']['decoration']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['demo']['demo'] = new \effcore\form();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements'] = new \effcore\container();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->tag_name = 'fieldset';
@@ -1158,9 +1158,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->attributes['value'] = 'reset';
   cache::$data['data_original']['forms']['demo']['demo']->attributes['id'] = 'demo';
-  cache::$data['data_original']['forms']['demo']['demo']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['demo']['demo']->attributes['enctype'] = 'multipart/form-data';
   cache::$data['data_original']['forms']['demo']['demo']->attributes['method'] = 'post';
+  cache::$data['data_original']['forms']['demo']['demo']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['core']['install'] = new \effcore\form();
   cache::$data['data_original']['forms']['core']['install']->children['storage'] = new \effcore\container();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->tag_name = 'fieldset';
@@ -1245,8 +1245,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['button_to_front']->attributes['value'] = 'to_front';
   cache::$data['data_original']['forms']['core']['install']->children['button_to_front']->novalidate = true;
   cache::$data['data_original']['forms']['core']['install']->attributes['id'] = 'install';
-  cache::$data['data_original']['forms']['core']['install']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['core']['install']->attributes['method'] = 'post';
+  cache::$data['data_original']['forms']['core']['install']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['events']['user'] = new \stdClass();
   cache::$data['data_original']['events']['user']->on_module_start['user'] = new \effcore\event();
   cache::$data['data_original']['events']['user']->on_module_start['user']->for = 'user';

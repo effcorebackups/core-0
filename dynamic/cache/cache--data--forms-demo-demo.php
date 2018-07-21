@@ -197,8 +197,8 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['button_reset']->attributes['name'] = 'button';
   cache::$data['data--forms-demo-demo']->children['button_reset']->attributes['value'] = 'reset';
   cache::$data['data--forms-demo-demo']->attributes['id'] = 'demo';
-  cache::$data['data--forms-demo-demo']->attributes['novalidate'] = 'novalidate';
   cache::$data['data--forms-demo-demo']->attributes['enctype'] = 'multipart/form-data';
   cache::$data['data--forms-demo-demo']->attributes['method'] = 'post';
+  cache::$data['data--forms-demo-demo']->attributes['novalidate'] = 'novalidate';
 
 }

@@ -24,7 +24,7 @@ namespace effcore { # cache for data--forms-user-login
   cache::$data['data--forms-user-login']->children['button_login']->attributes['name'] = 'button';
   cache::$data['data--forms-user-login']->children['button_login']->attributes['value'] = 'login';
   cache::$data['data--forms-user-login']->attributes['id'] = 'login';
-  cache::$data['data--forms-user-login']->attributes['novalidate'] = 'novalidate';
   cache::$data['data--forms-user-login']->attributes['method'] = 'post';
+  cache::$data['data--forms-user-login']->attributes['novalidate'] = 'novalidate';
 
 }

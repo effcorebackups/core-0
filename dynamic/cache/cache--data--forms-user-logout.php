@@ -19,7 +19,7 @@ namespace effcore { # cache for data--forms-user-logout
   cache::$data['data--forms-user-logout']->children['button_cancel']->attributes['value'] = 'cancel';
   cache::$data['data--forms-user-logout']->children['button_cancel']->novalidate = true;
   cache::$data['data--forms-user-logout']->attributes['id'] = 'logout';
-  cache::$data['data--forms-user-logout']->attributes['novalidate'] = 'novalidate';
   cache::$data['data--forms-user-logout']->attributes['method'] = 'post';
+  cache::$data['data--forms-user-logout']->attributes['novalidate'] = 'novalidate';
 
 }

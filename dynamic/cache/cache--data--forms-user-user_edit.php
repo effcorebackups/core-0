@@ -45,8 +45,8 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['button_cancel']->attributes['value'] = 'cancel';
   cache::$data['data--forms-user-user_edit']->children['button_cancel']->novalidate = true;
   cache::$data['data--forms-user-user_edit']->attributes['id'] = 'user_edit';
-  cache::$data['data--forms-user-user_edit']->attributes['novalidate'] = 'novalidate';
   cache::$data['data--forms-user-user_edit']->attributes['enctype'] = 'multipart/form-data';
   cache::$data['data--forms-user-user_edit']->attributes['method'] = 'post';
+  cache::$data['data--forms-user-user_edit']->attributes['novalidate'] = 'novalidate';
 
 }

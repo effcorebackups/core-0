@@ -19,7 +19,7 @@ namespace effcore { # cache for data--forms-user-user_delete
   cache::$data['data--forms-user-user_delete']->children['button_cancel']->attributes['value'] = 'cancel';
   cache::$data['data--forms-user-user_delete']->children['button_cancel']->novalidate = true;
   cache::$data['data--forms-user-user_delete']->attributes['id'] = 'user_delete';
-  cache::$data['data--forms-user-user_delete']->attributes['novalidate'] = 'novalidate';
   cache::$data['data--forms-user-user_delete']->attributes['method'] = 'post';
+  cache::$data['data--forms-user-user_delete']->attributes['novalidate'] = 'novalidate';
 
 }
