@@ -26,6 +26,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Execute plan'] = 'План выполнения';
   cache::$data['data--translations-develop-ru']->data['Export diagram to %%_file for using with StarUML software.'] = 'Экспорт диаграммы в файл %%_file для использования в программе StarUML.';
   cache::$data['data--translations-develop-ru']->data['Field %%_type.'] = 'Поле %%_type.';
+  cache::$data['data--translations-develop-ru']->data['Function'] = 'Функция';
   cache::$data['data--translations-develop-ru']->data['Group %%_type.'] = 'Группа %%_type.';
   cache::$data['data--translations-develop-ru']->data['Group 1'] = 'Группа 1';
   cache::$data['data--translations-develop-ru']->data['Group 2 (inserted from code)'] = 'Группа 2 (вставлена из кода)';
@@ -37,6 +38,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   cache::$data['data--translations-develop-ru']->data['Module for development.'] = 'Модуль для разработки.';
   cache::$data['data--translations-develop-ru']->data['Module for testing.'] = 'Модуль для тестирования.';
+  cache::$data['data--translations-develop-ru']->data['Module'] = 'Модуль';
   cache::$data['data--translations-develop-ru']->data['Notice message #%%_num.'] = 'Уведомление #%%_num.';
   cache::$data['data--translations-develop-ru']->data['Ok message #%%_num.'] = 'Хорошее сообщение #%%_num.';
   cache::$data['data--translations-develop-ru']->data['Option 1 (selected)'] = 'Опция 1 (выбрана)';
@@ -48,6 +50,9 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Option 7 (inserted from code)'] = 'Опция 7 (вставлена из кода)';
   cache::$data['data--translations-develop-ru']->data['Option 8 (inserted from code)'] = 'Опция 8 (вставлена из кода)';
   cache::$data['data--translations-develop-ru']->data['Option 9 (inserted from code)'] = 'Опция 9 (вставлена из кода)';
+  cache::$data['data--translations-develop-ru']->data['PHP modules usage'] = 'Использование PHP модулей';
+  cache::$data['data--translations-develop-ru']->data['PHP modules'] = 'PHP модули';
+  cache::$data['data--translations-develop-ru']->data['Pos.'] = 'Поз.';
   cache::$data['data--translations-develop-ru']->data['query = "%%_query"'] = 'запрос = "%%_query"';
   cache::$data['data--translations-develop-ru']->data['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data--translations-develop-ru']->data['Radiobutton 1'] = 'Переключатель 1';

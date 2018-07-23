@@ -92,6 +92,14 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['develop']['structures']->attributes['class']['structures'] = 'structures';
   cache::$data['data--tree_items']['develop']['structures']->access = new \stdClass();
   cache::$data['data--tree_items']['develop']['structures']->access->roles['admins'] = 'admins';
+  cache::$data['data--tree_items']['develop']['php_mod_usage'] = new \effcore\tree_item();
+  cache::$data['data--tree_items']['develop']['php_mod_usage']->id = 'php_mod_usage';
+  cache::$data['data--tree_items']['develop']['php_mod_usage']->id_parent = 'develop';
+  cache::$data['data--tree_items']['develop']['php_mod_usage']->title = 'PHP modules';
+  cache::$data['data--tree_items']['develop']['php_mod_usage']->attributes['href'] = '/develop/php_mod_usage';
+  cache::$data['data--tree_items']['develop']['php_mod_usage']->attributes['class']['php_mod_usage'] = 'php_mod_usage';
+  cache::$data['data--tree_items']['develop']['php_mod_usage']->access = new \stdClass();
+  cache::$data['data--tree_items']['develop']['php_mod_usage']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['core']['manage'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['core']['manage']->id = 'manage';
   cache::$data['data--tree_items']['core']['manage']->id_parent = 'main';

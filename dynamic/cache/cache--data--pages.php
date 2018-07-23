@@ -92,6 +92,14 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['develop']['structures']->display->match = '%^(?<base>/develop/structures)/(?<type>class|interface|trait)/(?<view>list|diagram|diagram_export)$%';
   cache::$data['data--pages']['develop']['structures']->access = new \stdClass();
   cache::$data['data--pages']['develop']['structures']->access->roles['admins'] = 'admins';
+  cache::$data['data--pages']['develop']['php_mod_usage'] = new \effcore\external_cache();
+  cache::$data['data--pages']['develop']['php_mod_usage']->cache_name = 'data--pages-develop-php_mod_usage';
+  cache::$data['data--pages']['develop']['php_mod_usage']->display = new \stdClass();
+  cache::$data['data--pages']['develop']['php_mod_usage']->display->check = 'url';
+  cache::$data['data--pages']['develop']['php_mod_usage']->display->where = 'path';
+  cache::$data['data--pages']['develop']['php_mod_usage']->display->match = '%^/develop/php_mod_usage$%';
+  cache::$data['data--pages']['develop']['php_mod_usage']->access = new \stdClass();
+  cache::$data['data--pages']['develop']['php_mod_usage']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['core']['modules'] = new \effcore\external_cache();
   cache::$data['data--pages']['core']['modules']->cache_name = 'data--pages-core-modules';
   cache::$data['data--pages']['core']['modules']->display = new \stdClass();

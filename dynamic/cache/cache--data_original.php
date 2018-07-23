@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-21 22:14:27';
+  cache::$info['data_original']['build'] = '2018-07-23 14:04:23';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -107,6 +107,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tree_items']['develop']['structures']->attributes['class']['structures'] = 'structures';
   cache::$data['data_original']['tree_items']['develop']['structures']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['develop']['structures']->access->roles['admins'] = 'admins';
+  cache::$data['data_original']['tree_items']['develop']['php_mod_usage'] = new \effcore\tree_item();
+  cache::$data['data_original']['tree_items']['develop']['php_mod_usage']->id = 'php_mod_usage';
+  cache::$data['data_original']['tree_items']['develop']['php_mod_usage']->id_parent = 'develop';
+  cache::$data['data_original']['tree_items']['develop']['php_mod_usage']->title = 'PHP modules';
+  cache::$data['data_original']['tree_items']['develop']['php_mod_usage']->attributes['href'] = '/develop/php_mod_usage';
+  cache::$data['data_original']['tree_items']['develop']['php_mod_usage']->attributes['class']['php_mod_usage'] = 'php_mod_usage';
+  cache::$data['data_original']['tree_items']['develop']['php_mod_usage']->access = new \stdClass();
+  cache::$data['data_original']['tree_items']['develop']['php_mod_usage']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['tree_items']['core']['manage'] = new \effcore\tree_item();
   cache::$data['data_original']['tree_items']['core']['manage']->id = 'manage';
   cache::$data['data_original']['tree_items']['core']['manage']->id_parent = 'main';
@@ -598,6 +606,35 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagram_export']->region = 'content';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagram_export']->type = 'code';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_structures_diagram_export']->handler = '\\effcore\\modules\\develop\\events_page::on_export_diagram';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage'] = new \effcore\page();
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->title = 'PHP modules usage';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->https = true;
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->display = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->display->check = 'url';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->display->where = 'path';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->display->match = '%^/develop/php_mod_usage$%';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->access = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->access->roles['admins'] = 'admins';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_menu_main'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_menu_main']->region = 'main_menu';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_menu_main']->type = 'link';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_menu_user'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_menu_user']->region = 'head';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_menu_user']->type = 'code';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_menu_user']->handler = '\\effcore\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_logo'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_logo']->region = 'head';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_logo']->type = 'link';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_logo']->dpath = 'blocks/page/logo';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_title'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_title']->region = 'title';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_title']->type = 'code';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_php_mod_usage_list'] = new \stdClass();
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_php_mod_usage_list']->region = 'content';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_php_mod_usage_list']->type = 'code';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_php_mod_usage_list']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_php_mod_usage_list';
   cache::$data['data_original']['pages']['core']['modules'] = new \effcore\page();
   cache::$data['data_original']['pages']['core']['modules']->title = 'Modules';
   cache::$data['data_original']['pages']['core']['modules']->https = true;
@@ -2985,6 +3022,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Execute plan'] = 'План выполнения';
   cache::$data['data_original']['translations']['develop']['ru']->data['Export diagram to %%_file for using with StarUML software.'] = 'Экспорт диаграммы в файл %%_file для использования в программе StarUML.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Field %%_type.'] = 'Поле %%_type.';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Function'] = 'Функция';
   cache::$data['data_original']['translations']['develop']['ru']->data['Group %%_type.'] = 'Группа %%_type.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Group 1'] = 'Группа 1';
   cache::$data['data_original']['translations']['develop']['ru']->data['Group 2 (inserted from code)'] = 'Группа 2 (вставлена из кода)';
@@ -2996,6 +3034,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for development.'] = 'Модуль для разработки.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for testing.'] = 'Модуль для тестирования.';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Module'] = 'Модуль';
   cache::$data['data_original']['translations']['develop']['ru']->data['Notice message #%%_num.'] = 'Уведомление #%%_num.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Ok message #%%_num.'] = 'Хорошее сообщение #%%_num.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Option 1 (selected)'] = 'Опция 1 (выбрана)';
@@ -3007,6 +3046,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Option 7 (inserted from code)'] = 'Опция 7 (вставлена из кода)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Option 8 (inserted from code)'] = 'Опция 8 (вставлена из кода)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Option 9 (inserted from code)'] = 'Опция 9 (вставлена из кода)';
+  cache::$data['data_original']['translations']['develop']['ru']->data['PHP modules usage'] = 'Использование PHP модулей';
+  cache::$data['data_original']['translations']['develop']['ru']->data['PHP modules'] = 'PHP модули';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Pos.'] = 'Поз.';
   cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"'] = 'запрос = "%%_query"';
   cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobutton 1'] = 'Переключатель 1';
