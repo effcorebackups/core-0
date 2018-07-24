@@ -254,8 +254,11 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['The changes was saved.'] = 'Изменения были сохранены.';
   cache::$data['data--translations-locales-ru']->data['The color should be in the format "#abcdef", where "ab" is the value of the red component, "cd" - green and "ef" - blue.'] = 'Цвет должен быть в формате "#abcdef", где "ab" - это значение красной компоненты, "cd" - зеленой и "ef" - синей.';
   cache::$data['data--translations-locales-ru']->data['The color should be specified in a special format.'] = 'Цвет должен указываться в специальном формате.';
+  cache::$data['data--translations-locales-ru']->data['The report was generated in real time but the list of classes is depend on the cache!'] = 'Отчет был создан в режиме реального времени, но список классов зависит от кеша!';
+  cache::$data['data--translations-locales-ru']->data['The report was generated in real time.'] = 'Отчет был создан в режиме реального времени.';
   cache::$data['data--translations-locales-ru']->data['the size of uploaded file more than %%_size'] = 'размер загруженного файла больше чем %%_size';
   cache::$data['data--translations-locales-ru']->data['the size of uploaded file more than MAX_FILE_SIZE (MAX_FILE_SIZE is not supported)'] = 'размер загруженного файла больше чем MAX_FILE_SIZE (MAX_FILE_SIZE не поддерживается)';
+  cache::$data['data--translations-locales-ru']->data['The system can search for the used functions only for enabled PHP modules!'] = 'Система может искать используемые функции только для включенных PHP модулей!';
   cache::$data['data--translations-locales-ru']->data['the uploaded file was only partially uploaded'] = 'загружаемый файл был загружен только частично';
   cache::$data['data--translations-locales-ru']->data['Time'] = 'Время';
   cache::$data['data--translations-locales-ru']->data['Timezone'] = 'Часовой пояс';
