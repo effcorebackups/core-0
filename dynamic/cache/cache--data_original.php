@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-24 14:59:05';
+  cache::$info['data_original']['build'] = '2018-07-26 14:47:54';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -663,7 +663,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->region = 'content';
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->type = 'code';
-  cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->handler = '\\effcore\\modules\\core\\events_page::on_show_modules';
+  cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_modules';
   cache::$data['data_original']['pages']['core']['install'] = new \effcore\page();
   cache::$data['data_original']['pages']['core']['install']->title = 'Installation';
   cache::$data['data_original']['pages']['core']['install']->https = true;
@@ -721,7 +721,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['info']->content['block_info'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['info']->content['block_info']->region = 'content';
   cache::$data['data_original']['pages']['core']['info']->content['block_info']->type = 'code';
-  cache::$data['data_original']['pages']['core']['info']->content['block_info']->handler = '\\effcore\\modules\\core\\events_page::on_show_info';
+  cache::$data['data_original']['pages']['core']['info']->content['block_info']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_info';
   cache::$data['data_original']['pages']['core']['front'] = new \effcore\page();
   cache::$data['data_original']['pages']['core']['front']->title = 'Front page';
   cache::$data['data_original']['pages']['core']['front']->display = new \stdClass();
