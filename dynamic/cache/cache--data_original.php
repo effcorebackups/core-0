@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-26 14:47:54';
+  cache::$info['data_original']['build'] = '2018-07-27 10:22:37';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2701,6 +2701,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['locales']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['locales']['ru']->data['- select -'] = '- выбрать -';
+  cache::$data['data_original']['translations']['locales']['ru']->data['© 2017—2018 Maxim Rysevets. All rights reserved.'] = '© 2017—2018 Рысевец Максим Владимирович. Все права защищены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
   cache::$data['data_original']['translations']['locales']['ru']->data['Access denided'] = 'Доступ запрещен';
   cache::$data['data_original']['translations']['locales']['ru']->data['action'] = 'действие';
@@ -2709,17 +2710,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Actions'] = 'Действия';
   cache::$data['data_original']['translations']['locales']['ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data_original']['translations']['locales']['ru']->data['agree'] = 'согласен(а)';
-  cache::$data['data_original']['translations']['locales']['ru']->data['All rights reserved'] = 'Все права защищены';
   cache::$data['data_original']['translations']['locales']['ru']->data['always_enabled'] = 'всегда_вкл';
   cache::$data['data_original']['translations']['locales']['ru']->data['Anonymous'] = 'Аноним';
   cache::$data['data_original']['translations']['locales']['ru']->data['Architecture'] = 'Архитектура';
   cache::$data['data_original']['translations']['locales']['ru']->data['Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).'] = 'Атрибут "multiple" не поддерживается на сенсорных устройствах (планшеты, смартфоны, мониторы с сенсорными экранами).';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Author'] = 'Автор';
   cache::$data['data_original']['translations']['locales']['ru']->data['autoload'] = 'автозагрузка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Avatar'] = 'Аватар';
   cache::$data['data_original']['translations']['locales']['ru']->data['avatar'] = 'аватар';
   cache::$data['data_original']['translations']['locales']['ru']->data['Background color'] = 'Цвет фона';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Build years'] = 'Года выпуска';
   cache::$data['data_original']['translations']['locales']['ru']->data['Bundle build number'] = 'Номер сборки пакета';
   cache::$data['data_original']['translations']['locales']['ru']->data['button'] = 'кнопка';
   cache::$data['data_original']['translations']['locales']['ru']->data['cache'] = 'кэш';
@@ -2739,6 +2737,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Colors'] = 'Цвета';
   cache::$data['data_original']['translations']['locales']['ru']->data['Control elements'] = 'Элементы управления';
   cache::$data['data_original']['translations']['locales']['ru']->data['Cookies are disabled. You can not log in!'] = 'Cookies отключены. Вы не можете войти в систему!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Copyright'] = 'Авторские права';
   cache::$data['data_original']['translations']['locales']['ru']->data['Core'] = 'Ядро';
   cache::$data['data_original']['translations']['locales']['ru']->data['created'] = 'создано';
   cache::$data['data_original']['translations']['locales']['ru']->data['Created'] = 'Создано';
@@ -2850,7 +2849,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Main menu'] = 'Главное меню';
   cache::$data['data_original']['translations']['locales']['ru']->data['Main system module.'] = 'Основной модуль системы.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Management'] = 'Управление';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Maxim Rysevets'] = 'Рысевец Максим Владимирович';
   cache::$data['data_original']['translations']['locales']['ru']->data['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Memory for php (bytes)'] = 'Память для php (байт)';
