@@ -2,50 +2,30 @@ tests
 - register_user|test
     id: register_user
     scenario
-    - form_id_set|step
+    - init_captcha|step
+        type: request
+        url: /user/resister
+        https: false
+    - values_set|step
         type: set
-        name: form_id
-        value: registration
-    - validation_id_set|step
-        type: set
-        name: validation_id
-        value: %%_validation_id
-    - email_set|step
-        type: set
-        name: email
-        value: test@example.com
-    - nick_set|step
-        type: set
-        name: nick
-        value: test
-    - password_set|step
-        type: set
-        name: password
-        value: 12345
-    - session_params_remember_set|step
-        type: set
-        name: session_params[]
-        value: remember
-    - session_params_fixed_ip_set|step
-        type: set
-        name: session_params[]
-        value: fixed_ip
-    - captcha_set|step
-        type: set
-        name: captcha
-        value: %%_captcha
-    - button_set|step
-        type: set
-        name: button
-        value: register
+        values
+        - form_id: registration
+        - validation_id: %%_validation_id
+        - email: test@example.com
+        - nick: test
+        - password: 12345
+        - session_params[0]: remember
+        - session_params[1]: fixed_ip
+        - captcha: xxxxxx
+        - button: register
     - form_submit|step
         type: request
         url: /user/registration
         https: false
     - response_check|step
         type: check
-        where: response
-        match: 200
+        where: http_code
+        match: 302
         on_success
         - return_result|step
             type: return
