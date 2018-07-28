@@ -249,6 +249,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Table prefix'] = 'Префикс таблиц';
   cache::$data['data--translations-locales-ru']->data['Table'] = 'Таблица';
   cache::$data['data--translations-locales-ru']->data['Test'] = 'Тест';
+  cache::$data['data--translations-locales-ru']->data['Tests'] = 'Тесты';
   cache::$data['data--translations-locales-ru']->data['Text'] = 'Текст';
   cache::$data['data--translations-locales-ru']->data['Textarea'] = 'Текстовая область';
   cache::$data['data--translations-locales-ru']->data['The changes was deleted.'] = 'Изменения были удалены.';
