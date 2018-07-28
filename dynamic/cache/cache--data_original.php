@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-28 16:48:48';
+  cache::$info['data_original']['build'] = '2018-07-28 16:59:21';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1037,12 +1037,12 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['page']['decoration']->attributes['method'] = 'post';
   cache::$data['data_original']['forms']['page']['decoration']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['test']['test'] = new \effcore\form();
-  cache::$data['data_original']['forms']['test']['test']->children['colors'] = new \effcore\container();
-  cache::$data['data_original']['forms']['test']['test']->children['colors']->tag_name = 'fieldset';
-  cache::$data['data_original']['forms']['test']['test']->children['colors']->title_tag_name = 'legend';
-  cache::$data['data_original']['forms']['test']['test']->children['colors']->children['select_test'] = new \effcore\field_select();
-  cache::$data['data_original']['forms']['test']['test']->children['colors']->children['select_test']->element_attributes['name'] = 'select_test';
-  cache::$data['data_original']['forms']['test']['test']->children['colors']->children['select_test']->title = 'Select the test';
+  cache::$data['data_original']['forms']['test']['test']->children['test_params'] = new \effcore\container();
+  cache::$data['data_original']['forms']['test']['test']->children['test_params']->tag_name = 'fieldset';
+  cache::$data['data_original']['forms']['test']['test']->children['test_params']->title_tag_name = 'legend';
+  cache::$data['data_original']['forms']['test']['test']->children['test_params']->children['select_test'] = new \effcore\field_select();
+  cache::$data['data_original']['forms']['test']['test']->children['test_params']->children['select_test']->element_attributes['name'] = 'select_test';
+  cache::$data['data_original']['forms']['test']['test']->children['test_params']->children['select_test']->title = 'Select the test';
   cache::$data['data_original']['forms']['test']['test']->children['button_run'] = new \effcore\markup();
   cache::$data['data_original']['forms']['test']['test']->children['button_run']->tag_name = 'button';
   cache::$data['data_original']['forms']['test']['test']->children['button_run']->children['label'] = new \effcore\text();
