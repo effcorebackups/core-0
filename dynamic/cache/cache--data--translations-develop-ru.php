@@ -58,8 +58,10 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Radiobutton 1'] = 'Переключатель 1';
   cache::$data['data--translations-develop-ru']->data['Radiobutton 2 (checked)'] = 'Переключатель 2 (установлен)';
   cache::$data['data--translations-develop-ru']->data['Radiobutton 3 (disabled)'] = 'Переключатель 3 (отключён)';
+  cache::$data['data--translations-develop-ru']->data['Select the test'] = 'Выберите тест';
   cache::$data['data--translations-develop-ru']->data['Static block'] = 'Статический блок';
   cache::$data['data--translations-develop-ru']->data['Structures'] = 'Структуры';
+  cache::$data['data--translations-develop-ru']->data['The test was successful.'] = 'Тест выполнен успешно.';
   cache::$data['data--translations-develop-ru']->data['This description is always shown.'] = 'Это описание всегда показывается.';
   cache::$data['data--translations-develop-ru']->data['Total generation time'] = 'Общее время генерации';
   cache::$data['data--translations-develop-ru']->data['Total load'] = 'Общая загрука';

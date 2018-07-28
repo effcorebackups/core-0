@@ -4,6 +4,7 @@ namespace effcore { # cache for data--tests-test-load
 
   cache::$data['data--tests-test-load'] = new \effcore\test();
   cache::$data['data--tests-test-load']->id = 'load';
+  cache::$data['data--tests-test-load']->title = 'Load';
   cache::$data['data--tests-test-load']->scenario['request_page_login'] = new \effcore\step();
   cache::$data['data--tests-test-load']->scenario['request_page_login']->type = 'request';
   cache::$data['data--tests-test-load']->scenario['request_page_login']->url = '/user/login';

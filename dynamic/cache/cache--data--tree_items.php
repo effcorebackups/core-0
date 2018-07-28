@@ -9,7 +9,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['login']->title = 'login';
   cache::$data['data--tree_items']['user']['login']->attributes['href'] = '/user/login';
   cache::$data['data--tree_items']['user']['login']->attributes['class']['login'] = 'login';
-  cache::$data['data--tree_items']['user']['login']->weight = -20;
+  cache::$data['data--tree_items']['user']['login']->weight = 100;
   cache::$data['data--tree_items']['user']['login']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['login']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data--tree_items']['user']['registration'] = new \effcore\tree_item();
@@ -19,7 +19,6 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['registration']->title = 'registration';
   cache::$data['data--tree_items']['user']['registration']->attributes['href'] = '/user/registration';
   cache::$data['data--tree_items']['user']['registration']->attributes['class']['registration'] = 'registration';
-  cache::$data['data--tree_items']['user']['registration']->weight = -10;
   cache::$data['data--tree_items']['user']['registration']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['registration']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data--tree_items']['user']['user_edit'] = new \effcore\tree_item();
@@ -29,7 +28,6 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['user_edit']->title = 'edit';
   cache::$data['data--tree_items']['user']['user_edit']->attributes['href'] = '/user/%%_id_user/edit';
   cache::$data['data--tree_items']['user']['user_edit']->attributes['class']['user-edit'] = 'user-edit';
-  cache::$data['data--tree_items']['user']['user_edit']->weight = -20;
   cache::$data['data--tree_items']['user']['user_edit']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['user_edit']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['user']['user_edit']->access->roles['registered'] = 'registered';
@@ -40,7 +38,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['logout']->title = 'logout';
   cache::$data['data--tree_items']['user']['logout']->attributes['href'] = '/user/logout';
   cache::$data['data--tree_items']['user']['logout']->attributes['class']['logout'] = 'logout';
-  cache::$data['data--tree_items']['user']['logout']->weight = -10;
+  cache::$data['data--tree_items']['user']['logout']->weight = -100;
   cache::$data['data--tree_items']['user']['logout']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['logout']->access->roles['registered'] = 'registered';
   cache::$data['data--tree_items']['user']['roles'] = new \effcore\tree_item();
@@ -67,12 +65,21 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['page']['decoration']->attributes['class']['decoration'] = 'decoration';
   cache::$data['data--tree_items']['page']['decoration']->access = new \stdClass();
   cache::$data['data--tree_items']['page']['decoration']->access->roles['admins'] = 'admins';
+  cache::$data['data--tree_items']['test']['test'] = new \effcore\tree_item();
+  cache::$data['data--tree_items']['test']['test']->id = 'test';
+  cache::$data['data--tree_items']['test']['test']->id_parent = 'develop';
+  cache::$data['data--tree_items']['test']['test']->title = 'Test';
+  cache::$data['data--tree_items']['test']['test']->attributes['href'] = '/develop/test';
+  cache::$data['data--tree_items']['test']['test']->attributes['class']['test'] = 'test';
+  cache::$data['data--tree_items']['test']['test']->access = new \stdClass();
+  cache::$data['data--tree_items']['test']['test']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['demo']['demo'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['demo']['demo']->id = 'demo';
   cache::$data['data--tree_items']['demo']['demo']->id_parent = 'develop';
   cache::$data['data--tree_items']['demo']['demo']->title = 'Demo';
   cache::$data['data--tree_items']['demo']['demo']->attributes['href'] = '/develop/demo';
   cache::$data['data--tree_items']['demo']['demo']->attributes['class']['demo'] = 'demo';
+  cache::$data['data--tree_items']['demo']['demo']->weight = 100;
   cache::$data['data--tree_items']['demo']['demo']->access = new \stdClass();
   cache::$data['data--tree_items']['demo']['demo']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['develop']['develop'] = new \effcore\tree_item();
@@ -81,7 +88,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['develop']['develop']->parent_is_tree = true;
   cache::$data['data--tree_items']['develop']['develop']->title = 'Develop';
   cache::$data['data--tree_items']['develop']['develop']->attributes['class']['develop'] = 'develop';
-  cache::$data['data--tree_items']['develop']['develop']->weight = 100;
+  cache::$data['data--tree_items']['develop']['develop']->weight = -100;
   cache::$data['data--tree_items']['develop']['develop']->access = new \stdClass();
   cache::$data['data--tree_items']['develop']['develop']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['develop']['structures'] = new \effcore\tree_item();
@@ -122,7 +129,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['core']['info']->title = 'Information';
   cache::$data['data--tree_items']['core']['info']->attributes['href'] = '/manage/info';
   cache::$data['data--tree_items']['core']['info']->attributes['class']['info'] = 'info';
-  cache::$data['data--tree_items']['core']['info']->weight = 100;
+  cache::$data['data--tree_items']['core']['info']->weight = -100;
   cache::$data['data--tree_items']['core']['info']->access = new \stdClass();
   cache::$data['data--tree_items']['core']['info']->access->roles['admins'] = 'admins';
 

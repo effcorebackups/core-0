@@ -1,6 +1,7 @@
 tests
 - register_user|test
     id: register_user
+    title: Register user
     scenario
     - init_captcha|step
         type: request
@@ -16,7 +17,7 @@ tests
         - password: 12345
         - session_params[0]: remember
         - session_params[1]: fixed_ip
-        - captcha: xxxxxx
+        - captcha: %%_captcha
         - button: register
     - form_submit|step
         type: request

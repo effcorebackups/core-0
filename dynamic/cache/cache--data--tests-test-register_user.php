@@ -4,6 +4,7 @@ namespace effcore { # cache for data--tests-test-register_user
 
   cache::$data['data--tests-test-register_user'] = new \effcore\test();
   cache::$data['data--tests-test-register_user']->id = 'register_user';
+  cache::$data['data--tests-test-register_user']->title = 'Register user';
   cache::$data['data--tests-test-register_user']->scenario['init_captcha'] = new \effcore\step();
   cache::$data['data--tests-test-register_user']->scenario['init_captcha']->type = 'request';
   cache::$data['data--tests-test-register_user']->scenario['init_captcha']->url = '/user/resister';
@@ -17,7 +18,7 @@ namespace effcore { # cache for data--tests-test-register_user
   cache::$data['data--tests-test-register_user']->scenario['values_set']->values['password'] = 12345;
   cache::$data['data--tests-test-register_user']->scenario['values_set']->values['session_params[0]'] = 'remember';
   cache::$data['data--tests-test-register_user']->scenario['values_set']->values['session_params[1]'] = 'fixed_ip';
-  cache::$data['data--tests-test-register_user']->scenario['values_set']->values['captcha'] = 'xxxxxx';
+  cache::$data['data--tests-test-register_user']->scenario['values_set']->values['captcha'] = '%%_captcha';
   cache::$data['data--tests-test-register_user']->scenario['values_set']->values['button'] = 'register';
   cache::$data['data--tests-test-register_user']->scenario['form_submit'] = new \effcore\step();
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->type = 'request';

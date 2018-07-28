@@ -144,6 +144,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Legal information'] = 'Правовая информация';
   cache::$data['data--translations-locales-ru']->data['License agreement'] = 'Лицензионное соглашение';
   cache::$data['data--translations-locales-ru']->data['List'] = 'Список';
+  cache::$data['data--translations-locales-ru']->data['Load'] = 'Загрузка';
   cache::$data['data--translations-locales-ru']->data['load'] = 'загрузка';
   cache::$data['data--translations-locales-ru']->data['Locales'] = 'Локализации';
   cache::$data['data--translations-locales-ru']->data['login'] = 'вход';
@@ -205,6 +206,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Radiobutton'] = 'Переключатель';
   cache::$data['data--translations-locales-ru']->data['Radiobuttons'] = 'Переключатели';
   cache::$data['data--translations-locales-ru']->data['Range'] = 'Диапазон';
+  cache::$data['data--translations-locales-ru']->data['Register user'] = 'Зарегистрировать пользователя';
   cache::$data['data--translations-locales-ru']->data['register'] = 'зарегистрировать';
   cache::$data['data--translations-locales-ru']->data['Registered'] = 'Зарегистрированные';
   cache::$data['data--translations-locales-ru']->data['registration'] = 'регистрация';
@@ -216,6 +218,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['return'] = 'возврат';
   cache::$data['data--translations-locales-ru']->data['roles'] = 'роли';
   cache::$data['data--translations-locales-ru']->data['Roles'] = 'Роли';
+  cache::$data['data--translations-locales-ru']->data['run'] = 'запустить';
   cache::$data['data--translations-locales-ru']->data['save'] = 'сохранить';
   cache::$data['data--translations-locales-ru']->data['Search'] = 'Поиск';
   cache::$data['data--translations-locales-ru']->data['search'] = 'поиск';
