@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-07-28 17:06:36';
+  cache::$info['structures']['build'] = '2018-07-29 17:25:30';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -534,11 +534,21 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\session']->name = 'session';
   cache::$data['structures']['effcore\\session']->type = 'class';
   cache::$data['structures']['effcore\\session']->file = 'system/module_user/backend/session.php';
-  cache::$data['structures']['effcore\\step'] = new \stdClass();
-  cache::$data['structures']['effcore\\step']->namespace = 'effcore';
-  cache::$data['structures']['effcore\\step']->name = 'step';
-  cache::$data['structures']['effcore\\step']->type = 'class';
-  cache::$data['structures']['effcore\\step']->file = 'system/module_develop/module_test/backend/pattern--step.php';
+  cache::$data['structures']['effcore\\step_check'] = new \stdClass();
+  cache::$data['structures']['effcore\\step_check']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\step_check']->name = 'step_check';
+  cache::$data['structures']['effcore\\step_check']->type = 'class';
+  cache::$data['structures']['effcore\\step_check']->file = 'system/module_develop/module_test/backend/pattern--step_check.php';
+  cache::$data['structures']['effcore\\step_request'] = new \stdClass();
+  cache::$data['structures']['effcore\\step_request']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\step_request']->name = 'step_request';
+  cache::$data['structures']['effcore\\step_request']->type = 'class';
+  cache::$data['structures']['effcore\\step_request']->file = 'system/module_develop/module_test/backend/pattern--step_request.php';
+  cache::$data['structures']['effcore\\step_return'] = new \stdClass();
+  cache::$data['structures']['effcore\\step_return']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\step_return']->name = 'step_return';
+  cache::$data['structures']['effcore\\step_return']->type = 'class';
+  cache::$data['structures']['effcore\\step_return']->file = 'system/module_develop/module_test/backend/pattern--step_return.php';
   cache::$data['structures']['effcore\\storage'] = new \stdClass();
   cache::$data['structures']['effcore\\storage']->modifier = 'abstract';
   cache::$data['structures']['effcore\\storage']->namespace = 'effcore';

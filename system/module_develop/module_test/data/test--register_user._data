@@ -3,13 +3,11 @@ tests
     id: register_user
     title: Register user
     scenario
-    - init_captcha|step
-        type: request
-        url: /user/resister
-        https: false
-    - values_set|step
-        type: set
-        values
+    - init_captcha|step_request
+        url: /user/registration
+    - form_submit|step_request
+        url: /user/registration
+        post
         - form_id: registration
         - validation_id: %%_validation_id
         - email: test@example.com
@@ -19,15 +17,9 @@ tests
         - session_params[1]: fixed_ip
         - captcha: %%_captcha
         - button: register
-    - form_submit|step
-        type: request
-        url: /user/registration
-        https: false
-    - response_check|step
-        type: check
+    - response_check|step_check
         where: http_code
         match: 302
         on_success
-        - return_result|step
-            type: return
+        - return_result|step_return
             value: true
