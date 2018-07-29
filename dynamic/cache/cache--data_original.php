@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-29 17:25:31';
+  cache::$info['data_original']['build'] = '2018-07-29 20:04:59';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1037,12 +1037,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['page']['decoration']->attributes['method'] = 'post';
   cache::$data['data_original']['forms']['page']['decoration']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['test']['test'] = new \effcore\form();
-  cache::$data['data_original']['forms']['test']['test']->children['test_params'] = new \effcore\container();
-  cache::$data['data_original']['forms']['test']['test']->children['test_params']->tag_name = 'fieldset';
-  cache::$data['data_original']['forms']['test']['test']->children['test_params']->title_tag_name = 'legend';
-  cache::$data['data_original']['forms']['test']['test']->children['test_params']->children['select_test'] = new \effcore\field_select();
-  cache::$data['data_original']['forms']['test']['test']->children['test_params']->children['select_test']->element_attributes['name'] = 'select_test';
-  cache::$data['data_original']['forms']['test']['test']->children['test_params']->children['select_test']->title = 'Select the test';
+  cache::$data['data_original']['forms']['test']['test']->children['test'] = new \effcore\fieldset();
+  cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test'] = new \effcore\field_select();
+  cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test']->element_attributes['name'] = 'select_test';
+  cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test']->title = 'Select the test';
   cache::$data['data_original']['forms']['test']['test']->children['button_run'] = new \effcore\markup();
   cache::$data['data_original']['forms']['test']['test']->children['button_run']->tag_name = 'button';
   cache::$data['data_original']['forms']['test']['test']->children['button_run']->children['label'] = new \effcore\text();
@@ -2968,6 +2966,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['registration'] = 'регистрация';
   cache::$data['data_original']['translations']['locales']['ru']->data['Registration'] = 'Регистрация';
   cache::$data['data_original']['translations']['locales']['ru']->data['remember me'] = 'запомнить меня';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Report'] = 'Отчёт';
   cache::$data['data_original']['translations']['locales']['ru']->data['reset'] = 'сбросить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
   cache::$data['data_original']['translations']['locales']['ru']->data['restore'] = 'восстановить';

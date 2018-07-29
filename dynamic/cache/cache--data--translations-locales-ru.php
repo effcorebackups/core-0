@@ -212,6 +212,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['registration'] = 'регистрация';
   cache::$data['data--translations-locales-ru']->data['Registration'] = 'Регистрация';
   cache::$data['data--translations-locales-ru']->data['remember me'] = 'запомнить меня';
+  cache::$data['data--translations-locales-ru']->data['Report'] = 'Отчёт';
   cache::$data['data--translations-locales-ru']->data['reset'] = 'сбросить';
   cache::$data['data--translations-locales-ru']->data['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
   cache::$data['data--translations-locales-ru']->data['restore'] = 'восстановить';

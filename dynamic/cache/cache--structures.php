@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-07-29 17:25:30';
+  cache::$info['structures']['build'] = '2018-07-29 20:04:59';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -230,6 +230,12 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\field_url']->type = 'class';
   cache::$data['structures']['effcore\\field_url']->extends = 'effcore\\field_text';
   cache::$data['structures']['effcore\\field_url']->file = 'system/module_page/backend/pattern--field_url.php';
+  cache::$data['structures']['effcore\\fieldset'] = new \stdClass();
+  cache::$data['structures']['effcore\\fieldset']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\fieldset']->name = 'fieldset';
+  cache::$data['structures']['effcore\\fieldset']->type = 'class';
+  cache::$data['structures']['effcore\\fieldset']->extends = 'effcore\\container';
+  cache::$data['structures']['effcore\\fieldset']->file = 'system/module_page/backend/pattern--fieldset.php';
   cache::$data['structures']['effcore\\file'] = new \stdClass();
   cache::$data['structures']['effcore\\file']->namespace = 'effcore';
   cache::$data['structures']['effcore\\file']->name = 'file';
