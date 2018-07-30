@@ -46,7 +46,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Core'] = 'Ядро';
   cache::$data['data--translations-locales-ru']->data['created'] = 'создано';
   cache::$data['data--translations-locales-ru']->data['Created'] = 'Создано';
-  cache::$data['data--translations-locales-ru']->data['Credentials for storage %%_id was not setted!'] = 'Учётные данные для хранилища %%_id не были заданы!';
+  cache::$data['data--translations-locales-ru']->data['Credentials for storage %%_id was not set!'] = 'Учётные данные для хранилища %%_id не были заданы!';
   cache::$data['data--translations-locales-ru']->data['Credentials'] = 'Учётные данные';
   cache::$data['data--translations-locales-ru']->data['credentials'] = 'учётные данные';
   cache::$data['data--translations-locales-ru']->data['Cron job was done.'] = 'Задача Cron была выполнена.';
@@ -129,7 +129,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['insertion'] = 'вставка';
   cache::$data['data--translations-locales-ru']->data['Install'] = 'Установить';
   cache::$data['data--translations-locales-ru']->data['install'] = 'установить';
-  cache::$data['data--translations-locales-ru']->data['Installation is not available because storage credentials was setted!'] = 'Установка недоступна потому, что учетные данные хранилища уже были установлены.';
+  cache::$data['data--translations-locales-ru']->data['Installation is not available because storage credentials was set!'] = 'Установка недоступна потому, что учетные данные хранилища уже были установлены.';
   cache::$data['data--translations-locales-ru']->data['Installation'] = 'Установка';
   cache::$data['data--translations-locales-ru']->data['installation'] = 'установка';
   cache::$data['data--translations-locales-ru']->data['Instances of entity %%_name was added.'] = 'Экземпляры сущности %%_name были добавлены.';
