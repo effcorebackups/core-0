@@ -3,10 +3,8 @@
 namespace effcore { # cache for data--forms-demo-demo
 
   cache::$data['data--forms-demo-demo'] = new \effcore\form();
-  cache::$data['data--forms-demo-demo']->children['form_elements'] = new \effcore\container();
-  cache::$data['data--forms-demo-demo']->children['form_elements']->tag_name = 'fieldset';
+  cache::$data['data--forms-demo-demo']->children['form_elements'] = new \effcore\fieldset();
   cache::$data['data--forms-demo-demo']->children['form_elements']->title = 'Form elements';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->title_tag_name = 'legend';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['file'] = new \effcore\field_file();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['file']->max_file_size = '10K';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['file']->allowed_types['gif'] = 'gif';
@@ -130,10 +128,8 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['select']->description->text[0] = 'Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['select']->description->text[1] = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['select']->description->args['type'] = 'field_select';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all'] = new \effcore\container();
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->tag_name = 'fieldset';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all'] = new \effcore\fieldset();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->title = 'Checkboxes';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->title_tag_name = 'legend';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox'] = new \effcore\field_checkbox();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->element_attributes['name'] = 'checkbox';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->element_attributes['value'] = 'checkbox';
@@ -155,10 +151,8 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->description->args['type'] = 'group_checkboxes';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->description->text = 'Group %%_type.';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all'] = new \effcore\container();
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->tag_name = 'fieldset';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all'] = new \effcore\fieldset();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->title = 'Radiobuttons';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->title_tag_name = 'legend';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radiobutton'] = new \effcore\field_radiobutton();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radiobutton']->element_attributes['name'] = 'radiobutton';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['radiobuttons_all']->children['radiobutton']->element_attributes['value'] = 'radiobutton';

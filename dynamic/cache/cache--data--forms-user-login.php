@@ -3,10 +3,8 @@
 namespace effcore { # cache for data--forms-user-login
 
   cache::$data['data--forms-user-login'] = new \effcore\form();
-  cache::$data['data--forms-user-login']->children['credentials'] = new \effcore\container();
-  cache::$data['data--forms-user-login']->children['credentials']->tag_name = 'fieldset';
+  cache::$data['data--forms-user-login']->children['credentials'] = new \effcore\fieldset();
   cache::$data['data--forms-user-login']->children['credentials']->title = 'Credentials';
-  cache::$data['data--forms-user-login']->children['credentials']->title_tag_name = 'legend';
   cache::$data['data--forms-user-login']->children['credentials']->children['email'] = new \effcore\field_email();
   cache::$data['data--forms-user-login']->children['credentials']->children['password'] = new \effcore\field_password();
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params'] = new \effcore\group_checkboxes();

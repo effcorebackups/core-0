@@ -3,10 +3,8 @@
 namespace effcore { # cache for data--forms-page-decoration
 
   cache::$data['data--forms-page-decoration'] = new \effcore\form();
-  cache::$data['data--forms-page-decoration']->children['colors'] = new \effcore\container();
-  cache::$data['data--forms-page-decoration']->children['colors']->tag_name = 'fieldset';
+  cache::$data['data--forms-page-decoration']->children['colors'] = new \effcore\fieldset();
   cache::$data['data--forms-page-decoration']->children['colors']->title = 'Colors';
-  cache::$data['data--forms-page-decoration']->children['colors']->title_tag_name = 'legend';
   cache::$data['data--forms-page-decoration']->children['colors']->children['color_id'] = new \effcore\group_palette();
   cache::$data['data--forms-page-decoration']->children['colors']->children['color_id']->attributes['required'] = 'required';
   cache::$data['data--forms-page-decoration']->children['colors']->children['color_id']->element_attributes['name'] = 'color_id';

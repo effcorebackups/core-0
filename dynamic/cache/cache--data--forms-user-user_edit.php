@@ -3,10 +3,8 @@
 namespace effcore { # cache for data--forms-user-user_edit
 
   cache::$data['data--forms-user-user_edit'] = new \effcore\form();
-  cache::$data['data--forms-user-user_edit']->children['credentials'] = new \effcore\container();
-  cache::$data['data--forms-user-user_edit']->children['credentials']->tag_name = 'fieldset';
+  cache::$data['data--forms-user-user_edit']->children['credentials'] = new \effcore\fieldset();
   cache::$data['data--forms-user-user_edit']->children['credentials']->title = 'Credentials';
-  cache::$data['data--forms-user-user_edit']->children['credentials']->title_tag_name = 'legend';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['email'] = new \effcore\field_email();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick'] = new \effcore\field_text();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->title = 'Nick';
