@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-30 20:56:50';
+  cache::$info['data_original']['build'] = '2018-07-30 21:05:42';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3042,6 +3042,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['develop']['ru']->data[' Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;'] = ' Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа.&#10;';
   cache::$data['data_original']['translations']['develop']['ru']->data['&ndash; request post param "%%_name" = "%%_value"'] = '&ndash; post параметр запроса "%%_name" = "%%_value"';
+  cache::$data['data_original']['translations']['develop']['ru']->data['&ndash; result of checking is = "%%_result"'] = '&ndash; результат проверки = "%%_result"';
   cache::$data['data_original']['translations']['develop']['ru']->data['Call %%_name'] = 'Вызов %%_name';
   cache::$data['data_original']['translations']['develop']['ru']->data['call'] = 'вызов';
   cache::$data['data_original']['translations']['develop']['ru']->data['cell %%_num'] = 'ячейка %%_num';
@@ -3049,6 +3050,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Checkbox 2 (checked)'] = 'Флаг 2 (установлен)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Checkbox 3 (disabled)'] = 'Флаг 3 (отключён)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Checkbox 4 (disabled + checked)'] = 'Флаг 4 (установлен + отключён)';
+  cache::$data['data_original']['translations']['develop']['ru']->data['checking on "%%_name" = "%%_value"'] = 'проверка на "%%_name" = "%%_value"';
   cache::$data['data_original']['translations']['develop']['ru']->data['class'] = 'класс';
   cache::$data['data_original']['translations']['develop']['ru']->data['Classes list'] = 'Список классов';
   cache::$data['data_original']['translations']['develop']['ru']->data['Classes'] = 'Классы';
@@ -3096,7 +3098,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobutton 1'] = 'Переключатель 1';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobutton 2 (checked)'] = 'Переключатель 2 (установлен)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobutton 3 (disabled)'] = 'Переключатель 3 (отключён)';
-  cache::$data['data_original']['translations']['develop']['ru']->data['result of checking is = "%%_result"'] = 'результат проверки = "%%_result"';
   cache::$data['data_original']['translations']['develop']['ru']->data['return = "%%_return"'] = 'возврат = "%%_return"';
   cache::$data['data_original']['translations']['develop']['ru']->data['Select the test'] = 'Выберите тест';
   cache::$data['data_original']['translations']['develop']['ru']->data['Static block'] = 'Статический блок';
