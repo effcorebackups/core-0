@@ -2,19 +2,13 @@
 
 namespace effcore { # cache for data--instances
 
-  cache::$data['data--instances']['user']['user_1'] = new \effcore\instance();
-  cache::$data['data--instances']['user']['user_1']->entity_name = 'user';
-  cache::$data['data--instances']['user']['user_1']->values['id'] = 1;
-  cache::$data['data--instances']['user']['user_1']->values['nick'] = 'admin';
-  cache::$data['data--instances']['user']['user_1']->values['email'] = 'admin@example.com';
-  cache::$data['data--instances']['user']['user_1']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
-  cache::$data['data--instances']['user']['user_1']->values['is_embed'] = 1;
-  cache::$data['data--instances']['user']['user_2'] = new \effcore\instance();
-  cache::$data['data--instances']['user']['user_2']->entity_name = 'user';
-  cache::$data['data--instances']['user']['user_2']->values['id'] = 2;
-  cache::$data['data--instances']['user']['user_2']->values['nick'] = 'user';
-  cache::$data['data--instances']['user']['user_2']->values['email'] = 'user@example.com';
-  cache::$data['data--instances']['user']['user_2']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
+  cache::$data['data--instances']['user']['user_admin'] = new \effcore\instance();
+  cache::$data['data--instances']['user']['user_admin']->entity_name = 'user';
+  cache::$data['data--instances']['user']['user_admin']->values['id'] = 1;
+  cache::$data['data--instances']['user']['user_admin']->values['nick'] = 'admin';
+  cache::$data['data--instances']['user']['user_admin']->values['email'] = 'admin@example.com';
+  cache::$data['data--instances']['user']['user_admin']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
+  cache::$data['data--instances']['user']['user_admin']->values['is_embed'] = 1;
   cache::$data['data--instances']['user']['role_anonymous'] = new \effcore\instance();
   cache::$data['data--instances']['user']['role_anonymous']->entity_name = 'role';
   cache::$data['data--instances']['user']['role_anonymous']->values['id'] = 'anonymous';

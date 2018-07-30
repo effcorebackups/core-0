@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-30 11:18:12';
+  cache::$info['data_original']['build'] = '2018-07-30 13:00:41';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -794,19 +794,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['cron']->content['block_cron']->region = 'content';
   cache::$data['data_original']['pages']['core']['cron']->content['block_cron']->type = 'code';
   cache::$data['data_original']['pages']['core']['cron']->content['block_cron']->handler = '\\effcore\\modules\\core\\events_page::on_cron_run';
-  cache::$data['data_original']['instances']['user']['user_1'] = new \effcore\instance();
-  cache::$data['data_original']['instances']['user']['user_1']->entity_name = 'user';
-  cache::$data['data_original']['instances']['user']['user_1']->values['id'] = 1;
-  cache::$data['data_original']['instances']['user']['user_1']->values['nick'] = 'admin';
-  cache::$data['data_original']['instances']['user']['user_1']->values['email'] = 'admin@example.com';
-  cache::$data['data_original']['instances']['user']['user_1']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
-  cache::$data['data_original']['instances']['user']['user_1']->values['is_embed'] = 1;
-  cache::$data['data_original']['instances']['user']['user_2'] = new \effcore\instance();
-  cache::$data['data_original']['instances']['user']['user_2']->entity_name = 'user';
-  cache::$data['data_original']['instances']['user']['user_2']->values['id'] = 2;
-  cache::$data['data_original']['instances']['user']['user_2']->values['nick'] = 'user';
-  cache::$data['data_original']['instances']['user']['user_2']->values['email'] = 'user@example.com';
-  cache::$data['data_original']['instances']['user']['user_2']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
+  cache::$data['data_original']['instances']['user']['user_admin'] = new \effcore\instance();
+  cache::$data['data_original']['instances']['user']['user_admin']->entity_name = 'user';
+  cache::$data['data_original']['instances']['user']['user_admin']->values['id'] = 1;
+  cache::$data['data_original']['instances']['user']['user_admin']->values['nick'] = 'admin';
+  cache::$data['data_original']['instances']['user']['user_admin']->values['email'] = 'admin@example.com';
+  cache::$data['data_original']['instances']['user']['user_admin']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
+  cache::$data['data_original']['instances']['user']['user_admin']->values['is_embed'] = 1;
   cache::$data['data_original']['instances']['user']['role_anonymous'] = new \effcore\instance();
   cache::$data['data_original']['instances']['user']['role_anonymous']->entity_name = 'role';
   cache::$data['data_original']['instances']['user']['role_anonymous']->values['id'] = 'anonymous';
@@ -2765,6 +2759,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['cancel'] = 'отмена';
   cache::$data['data_original']['translations']['locales']['ru']->data['Canvas'] = 'Холст';
   cache::$data['data_original']['translations']['locales']['ru']->data['Captcha'] = 'Защитный код';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Change your EMail and Password after login to the system!'] = 'Измените свой Адрес электронной почты и Пароль после входа в систему!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Check file (if exists) and directory permissions.'] = 'Проверьте разрешения файла (если существует) и каталога.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Checkbox'] = 'Флаг';
@@ -3042,6 +3037,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Yes'] = 'Да';
   cache::$data['data_original']['translations']['locales']['ru']->data['yes'] = 'да';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Your account name is "%%_name" and your password is "%%_password".'] = 'Имя вашей учетной записи "%%_name" и ваш пароль "%%_password".';
   cache::$data['data_original']['translations']['develop']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['develop']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['develop']['ru']->data[' Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;'] = ' Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа.&#10;';
