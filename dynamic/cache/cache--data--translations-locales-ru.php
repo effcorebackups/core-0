@@ -31,7 +31,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['cancel'] = 'отмена';
   cache::$data['data--translations-locales-ru']->data['Canvas'] = 'Холст';
   cache::$data['data--translations-locales-ru']->data['Captcha'] = 'Защитный код';
-  cache::$data['data--translations-locales-ru']->data['Change your EMail and Password after login to the system!'] = 'Измените свой Адрес электронной почты и Пароль после входа в систему!';
+  cache::$data['data--translations-locales-ru']->data['Change this EMail and Password after login to the system!'] = 'Измените этот Адрес электронной почты и Пароль после входа в систему!';
   cache::$data['data--translations-locales-ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
   cache::$data['data--translations-locales-ru']->data['Check file (if exists) and directory permissions.'] = 'Проверьте разрешения файла (если существует) и каталога.';
   cache::$data['data--translations-locales-ru']->data['Checkbox'] = 'Флаг';
@@ -115,6 +115,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['file of this type is protected by: %%_name'] = 'файл этого типа защищен с помощью: %%_name';
   cache::$data['data--translations-locales-ru']->data['File'] = 'Файл';
   cache::$data['data--translations-locales-ru']->data['file'] = 'файл';
+  cache::$data['data--translations-locales-ru']->data['For login to the system was set the EMail "%%_email" and the password "%%_password".'] = 'Для входа в систему был задан Адрес электронной почты "%%_email" и пароль "%%_password".';
   cache::$data['data--translations-locales-ru']->data['Form elements'] = 'Элементы формы';
   cache::$data['data--translations-locales-ru']->data['Front page'] = 'Главная страница';
   cache::$data['data--translations-locales-ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
@@ -309,6 +310,5 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache::$data['data--translations-locales-ru']->data['Yes'] = 'Да';
   cache::$data['data--translations-locales-ru']->data['yes'] = 'да';
-  cache::$data['data--translations-locales-ru']->data['Your account name is "%%_name" and your password is "%%_password".'] = 'Имя вашей учетной записи "%%_name" и ваш пароль "%%_password".';
 
 }
