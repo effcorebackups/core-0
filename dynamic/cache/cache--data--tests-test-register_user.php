@@ -22,6 +22,8 @@ namespace effcore { # cache for data--tests-test-register_user
   cache::$data['data--tests-test-register_user']->scenario['response_check']->where = 'http_code';
   cache::$data['data--tests-test-register_user']->scenario['response_check']->match = 302;
   cache::$data['data--tests-test-register_user']->scenario['response_check']->on_success['return_result'] = new \effcore\step_return();
-  cache::$data['data--tests-test-register_user']->scenario['response_check']->on_success['return_result']->value = true;
+  cache::$data['data--tests-test-register_user']->scenario['response_check']->on_success['return_result']->value = 1;
+  cache::$data['data--tests-test-register_user']->scenario['response_check']->on_failure['return_result'] = new \effcore\step_return();
+  cache::$data['data--tests-test-register_user']->scenario['response_check']->on_failure['return_result']->value = 0;
 
 }

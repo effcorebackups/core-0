@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-30 21:05:42';
+  cache::$info['data_original']['build'] = '2018-07-30 21:11:26';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3163,7 +3163,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->where = 'http_code';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->match = 302;
   cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->on_success['return_result'] = new \effcore\step_return();
-  cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->on_success['return_result']->value = true;
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->on_success['return_result']->value = 1;
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->on_failure['return_result'] = new \effcore\step_return();
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->on_failure['return_result']->value = 0;
   cache::$data['data_original']['tests']['test']['load'] = new \effcore\test();
   cache::$data['data_original']['tests']['test']['load']->id = 'load';
   cache::$data['data_original']['tests']['test']['load']->title = 'Load';
@@ -3178,7 +3180,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tests']['test']['load']->scenario['response_check']->on_success['response_check']->where = 'http_code';
   cache::$data['data_original']['tests']['test']['load']->scenario['response_check']->on_success['response_check']->match = 200;
   cache::$data['data_original']['tests']['test']['load']->scenario['response_check']->on_success['response_check']->on_success['return_result'] = new \effcore\step_return();
-  cache::$data['data_original']['tests']['test']['load']->scenario['response_check']->on_success['response_check']->on_success['return_result']->value = true;
+  cache::$data['data_original']['tests']['test']['load']->scenario['response_check']->on_success['response_check']->on_success['return_result']->value = 1;
   cache::$data['data_original']['changes']['demo'] = new \stdClass();
   cache::$data['data_original']['changes']['demo']->insert['demo_data/demo/demo_object'] = new \stdClass();
   cache::$data['data_original']['changes']['demo']->insert['demo_data/demo/demo_object']->prop_4 = 'property value #4 (insert)';
