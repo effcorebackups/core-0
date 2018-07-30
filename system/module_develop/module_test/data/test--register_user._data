@@ -18,8 +18,8 @@ tests
         - captcha: %%_captcha
         - button: register
     - response_check|step_check
-        where: http_code
-        match: 302
+        where: subm_errs
+        match: 0
         on_success
         - return_result|step_return
             value: 1

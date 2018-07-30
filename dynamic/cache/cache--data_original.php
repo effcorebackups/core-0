@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-30 21:11:26';
+  cache::$info['data_original']['build'] = '2018-07-30 21:45:01';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3160,8 +3160,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['captcha'] = '%%_captcha';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['button'] = 'register';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check'] = new \effcore\step_check();
-  cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->where = 'http_code';
-  cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->match = 302;
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->where = 'subm_errs';
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->match = 0;
   cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->on_success['return_result'] = new \effcore\step_return();
   cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->on_success['return_result']->value = 1;
   cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check']->on_failure['return_result'] = new \effcore\step_return();
