@@ -11,9 +11,9 @@ namespace effcore { # cache for data--tests-test-register_user
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->url = '/user/registration';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['form_id'] = 'registration';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['validation_id'] = '%%_validation_id';
-  cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['email'] = 'test@example.com';
-  cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['nick'] = 'test';
-  cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['password'] = 12345;
+  cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['email'] = '%%_email_random';
+  cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['nick'] = '%%_nick_random';
+  cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['password'] = '%%_password_random';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['session_params[0]'] = 'remember';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['session_params[1]'] = 'fixed_ip';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['captcha'] = '%%_captcha';

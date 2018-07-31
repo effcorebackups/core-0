@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-07-30 21:45:01';
+  cache::$info['data_original']['build'] = '2018-07-31 10:18:16';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3152,9 +3152,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->url = '/user/registration';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['form_id'] = 'registration';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['validation_id'] = '%%_validation_id';
-  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['email'] = 'test@example.com';
-  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['nick'] = 'test';
-  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['password'] = 12345;
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['email'] = '%%_email_random';
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['nick'] = '%%_nick_random';
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['password'] = '%%_password_random';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['session_params[0]'] = 'remember';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['session_params[1]'] = 'fixed_ip';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['captcha'] = '%%_captcha';

@@ -10,9 +10,9 @@ tests
         post
         - form_id: registration
         - validation_id: %%_validation_id
-        - email: test@example.com
-        - nick: test
-        - password: 12345
+        - email: %%_email_random
+        - nick: %%_nick_random
+        - password: %%_password_random
         - session_params[0]: remember
         - session_params[1]: fixed_ip
         - captcha: %%_captcha
