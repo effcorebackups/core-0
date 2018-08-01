@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-08-01 21:21:20';
+  cache::$info['structures']['build'] = '2018-08-01 21:29:51';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -258,7 +258,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\group_license_agreement']->namespace = 'effcore';
   cache::$data['structures']['effcore\\group_license_agreement']->name = 'group_license_agreement';
   cache::$data['structures']['effcore\\group_license_agreement']->type = 'class';
-  cache::$data['structures']['effcore\\group_license_agreement']->extends = 'effcore\\container';
+  cache::$data['structures']['effcore\\group_license_agreement']->extends = 'effcore\\fieldset';
   cache::$data['structures']['effcore\\group_license_agreement']->file = 'system/module_page/backend/pattern--group_license_agreement.php';
   cache::$data['structures']['effcore\\group_mono'] = new \stdClass();
   cache::$data['structures']['effcore\\group_mono']->namespace = 'effcore';

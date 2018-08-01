@@ -7,7 +7,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->title = 'Storage params';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql'] = new \effcore\field_radiobutton();
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->title = 'MySQL';
-  cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->attributes['data-type'] = 'radiobutton';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->element_attributes['name'] = 'driver';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->element_attributes['value'] = 'mysql';
@@ -44,7 +43,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->element_attributes['required'] = null;
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite'] = new \effcore\field_radiobutton();
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->title = 'SQLite';
-  cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->attributes['data-type'] = 'radiobutton';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->element_attributes['name'] = 'driver';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->element_attributes['value'] = 'sqlite';
