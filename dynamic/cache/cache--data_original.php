@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-01 11:06:25';
+  cache::$info['data_original']['build'] = '2018-08-01 21:00:53';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1057,7 +1057,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->element_attributes['value'] = 'text in input';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->element_attributes['minlength'] = 5;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->element_attributes['pattern'] = '%^[a-zA-Z0-9 ]+$%';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description_state = 'expanded';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description_state = 'opened';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description = new \effcore\text_multiline();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->text['0'] = 'This description is always shown.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->text[1] = 'Field %%_type.';
@@ -2272,6 +2272,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['templates']['page']['container']->name = 'container';
   cache::$data['data_original']['templates']['page']['container']->type = 'text';
   cache::$data['data_original']['templates']['page']['container']->data = '<%%_tag_name %%_attributes>%%_title_t%%_content%%_title_b%%_description</%%_tag_name>';
+  cache::$data['data_original']['templates']['page']['fieldset'] = new \stdClass();
+  cache::$data['data_original']['templates']['page']['fieldset']->name = 'fieldset';
+  cache::$data['data_original']['templates']['page']['fieldset']->type = 'text';
+  cache::$data['data_original']['templates']['page']['fieldset']->data = '<%%_tag_name %%_attributes>%%_title%%_description%%_content</%%_tag_name>';
   cache::$data['data_original']['templates']['page']['page'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['page']->name = 'page';
   cache::$data['data_original']['templates']['page']['page']->type = 'file';
