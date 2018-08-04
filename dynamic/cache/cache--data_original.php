@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-04 13:46:47';
+  cache::$info['data_original']['build'] = '2018-08-04 18:26:43';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1166,8 +1166,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description->args['type'] = 'field_select';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all'] = new \effcore\fieldset();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->title = 'Checkboxes';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->state = 'opened';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->title = 'Checkboxes';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkbox'] = new \effcore\field_checkbox();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->element_attributes['name'] = 'checkbox';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->element_attributes['value'] = 'checkbox';
@@ -1190,8 +1190,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->description->args['type'] = 'group_checkboxes';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->description->text = 'Group %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all'] = new \effcore\fieldset();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->title = 'Radiobuttons';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->state = 'opened';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->title = 'Radiobuttons';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radiobutton'] = new \effcore\field_radiobutton();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radiobutton']->element_attributes['name'] = 'radiobutton';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radiobutton']->element_attributes['value'] = 'radiobutton';
@@ -2276,10 +2276,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['templates']['page']['container']->name = 'container';
   cache::$data['data_original']['templates']['page']['container']->type = 'text';
   cache::$data['data_original']['templates']['page']['container']->data = '<%%_tag_name %%_attributes>%%_title_t%%_description_t%%_content%%_title_b%%_description_b</%%_tag_name>';
-  cache::$data['data_original']['templates']['page']['fieldset'] = new \stdClass();
-  cache::$data['data_original']['templates']['page']['fieldset']->name = 'fieldset';
-  cache::$data['data_original']['templates']['page']['fieldset']->type = 'text';
-  cache::$data['data_original']['templates']['page']['fieldset']->data = '<%%_tag_name %%_attributes>%%_title%%_description%%_content</%%_tag_name>';
   cache::$data['data_original']['templates']['page']['page'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['page']->name = 'page';
   cache::$data['data_original']['templates']['page']['page']->type = 'file';
