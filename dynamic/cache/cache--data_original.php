@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-04 10:20:56';
+  cache::$info['data_original']['build'] = '2018-08-04 11:36:03';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2967,7 +2967,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['set'] = 'установка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Shared information'] = 'Общая информация';
   cache::$data['data_original']['translations']['locales']['ru']->data['Shared params'] = 'Общие параметры';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Show description'] = 'Показать описание';
   cache::$data['data_original']['translations']['locales']['ru']->data['Show more'] = 'Показать больше';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Show or hide content'] = 'Показать или скрыть контент';
   cache::$data['data_original']['translations']['locales']['ru']->data['sql state: %%_state'] = 'sql состояние: %%_state';
   cache::$data['data_original']['translations']['locales']['ru']->data['state'] = 'состояние';
   cache::$data['data_original']['translations']['locales']['ru']->data['State'] = 'Состояние';
