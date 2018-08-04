@@ -30,9 +30,11 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password'] = new \effcore\field_password();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->element_attributes['name'] = 'password';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->element_attributes['value'] = 'text in password';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->description = new \effcore\text();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->description = new \effcore\text_multiline();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->description->text[0] = 'This description is shown on top.';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->description->text[1] = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->description->args['type'] = 'field_password';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->description->text = 'Field %%_type.';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['password']->description_position = 'top';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search'] = new \effcore\field_search();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->element_attributes['name'] = 'search';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['search']->element_attributes['value'] = 'text in search';

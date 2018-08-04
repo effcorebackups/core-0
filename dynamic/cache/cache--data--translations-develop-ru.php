@@ -70,6 +70,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['The test was failed!'] = 'Тест не удался!';
   cache::$data['data--translations-develop-ru']->data['The test was successful.'] = 'Тест выполнен успешно.';
   cache::$data['data--translations-develop-ru']->data['This description is always shown.'] = 'Это описание всегда показывается.';
+  cache::$data['data--translations-develop-ru']->data['This description is shown on top.'] = 'Это описание показано сверху.';
   cache::$data['data--translations-develop-ru']->data['Total generation time'] = 'Общее время генерации';
   cache::$data['data--translations-develop-ru']->data['Total load'] = 'Общая загрука';
   cache::$data['data--translations-develop-ru']->data['Traits'] = 'Трейты';

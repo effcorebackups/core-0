@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-04 13:09:49';
+  cache::$info['data_original']['build'] = '2018-08-04 13:46:47';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1065,9 +1065,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->element_attributes['name'] = 'password';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->element_attributes['value'] = 'text in password';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description = new \effcore\text();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description = new \effcore\text_multiline();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description->text['0'] = 'This description is shown on top.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description->args['type'] = 'field_password';
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description->text = 'Field %%_type.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description_position = 'top';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search'] = new \effcore\field_search();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->element_attributes['name'] = 'search';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['search']->element_attributes['value'] = 'text in search';
@@ -2273,7 +2275,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['templates']['page']['container'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['container']->name = 'container';
   cache::$data['data_original']['templates']['page']['container']->type = 'text';
-  cache::$data['data_original']['templates']['page']['container']->data = '<%%_tag_name %%_attributes>%%_title_t%%_content%%_title_b%%_description</%%_tag_name>';
+  cache::$data['data_original']['templates']['page']['container']->data = '<%%_tag_name %%_attributes>%%_title_t%%_description_t%%_content%%_title_b%%_description_b</%%_tag_name>';
   cache::$data['data_original']['templates']['page']['fieldset'] = new \stdClass();
   cache::$data['data_original']['templates']['page']['fieldset']->name = 'fieldset';
   cache::$data['data_original']['templates']['page']['fieldset']->type = 'text';
@@ -3114,6 +3116,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['The test was failed!'] = 'Тест не удался!';
   cache::$data['data_original']['translations']['develop']['ru']->data['The test was successful.'] = 'Тест выполнен успешно.';
   cache::$data['data_original']['translations']['develop']['ru']->data['This description is always shown.'] = 'Это описание всегда показывается.';
+  cache::$data['data_original']['translations']['develop']['ru']->data['This description is shown on top.'] = 'Это описание показано сверху.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Total generation time'] = 'Общее время генерации';
   cache::$data['data_original']['translations']['develop']['ru']->data['Total load'] = 'Общая загрука';
   cache::$data['data_original']['translations']['develop']['ru']->data['Traits'] = 'Трейты';
