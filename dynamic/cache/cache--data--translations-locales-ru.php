@@ -140,7 +140,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['invalid session was deleted!'] = 'Недействительный сеанс был удален!';
   cache::$data['data--translations-locales-ru']->data['Is always on'] = 'Всегда включен';
   cache::$data['data--translations-locales-ru']->data['Is embed'] = 'Встроенный';
-  cache::$data['data--translations-locales-ru']->data['item %%_num'] = 'пункт %%_num';
+  cache::$data['data--translations-locales-ru']->data['item #%%_number'] = 'пункт №%%_number';
   cache::$data['data--translations-locales-ru']->data['Key "%%_name" does not exist!'] = 'Ключ "%%_name" не существует!';
   cache::$data['data--translations-locales-ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache::$data['data--translations-locales-ru']->data['Legal information'] = 'Правовая информация';
