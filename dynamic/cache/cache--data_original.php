@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-08 15:04:35';
+  cache::$info['data_original']['build'] = '2018-08-08 15:45:52';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2746,7 +2746,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Actions'] = 'Действия';
   cache::$data['data_original']['translations']['locales']['ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data_original']['translations']['locales']['ru']->data['agree'] = 'согласен(а)';
-  cache::$data['data_original']['translations']['locales']['ru']->data['always_enabled'] = 'всегда_вкл';
   cache::$data['data_original']['translations']['locales']['ru']->data['Anonymous'] = 'Аноним';
   cache::$data['data_original']['translations']['locales']['ru']->data['Architecture'] = 'Архитектура';
   cache::$data['data_original']['translations']['locales']['ru']->data['Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).'] = 'Атрибут "multiple" не поддерживается на сенсорных устройствах (планшеты, смартфоны, мониторы с сенсорными экранами).';
@@ -2785,7 +2784,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Current field value: %%_value.'] = 'Текущее значение поля: %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Current language'] = 'Текущий язык';
   cache::$data['data_original']['translations']['locales']['ru']->data['Current page information'] = 'Информация текущей страницы';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Data was not updated!'] = 'Данные не были обновлены!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Date'] = 'Дата';
   cache::$data['data_original']['translations']['locales']['ru']->data['Decoration'] = 'Оформление';
   cache::$data['data_original']['translations']['locales']['ru']->data['default type'] = 'тип по умолчанию';
@@ -2840,7 +2838,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is not a valid number.'] = 'Значение поля не является допустимым числом.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is not in valid range.'] = 'Значение поля не соответствует допустимому диапазону.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value should match the regular expression %%_expression.'] = 'Значение поля должно соответствовать регулярному выражению %%_expression.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['File %%_name was uploaded.'] = 'Файл %%_name был загружен.';
   cache::$data['data_original']['translations']['locales']['ru']->data['file is empty'] = 'файл пуст';
   cache::$data['data_original']['translations']['locales']['ru']->data['File name'] = 'Имя файла';
   cache::$data['data_original']['translations']['locales']['ru']->data['File not found'] = 'Файл не найден';
@@ -2857,7 +2854,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['If the initial value is not specified, the current value in the UTC time zone will be used.'] = 'Если начальное значение не задано, то будет использовано текущее значение в часовом поясе UTC.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Information'] = 'Информация';
-  cache::$data['data_original']['translations']['locales']['ru']->data['initialization'] = 'инициализация';
   cache::$data['data_original']['translations']['locales']['ru']->data['Insert'] = 'Вставить';
   cache::$data['data_original']['translations']['locales']['ru']->data['insertion'] = 'вставка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Install'] = 'Установить';
@@ -2870,12 +2866,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Instances'] = 'Экземпляры';
   cache::$data['data_original']['translations']['locales']['ru']->data['Internet Explorer below version %%_version no longer supported!'] = 'Internet Explorer ниже версии %%_version больше не поддерживается!';
   cache::$data['data_original']['translations']['locales']['ru']->data['invalid session was deleted!'] = 'Недействительный сеанс был удален!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Is always on'] = 'Всегда включен';
   cache::$data['data_original']['translations']['locales']['ru']->data['Is embed'] = 'Встроенный';
   cache::$data['data_original']['translations']['locales']['ru']->data['item #%%_number'] = 'пункт №%%_number';
   cache::$data['data_original']['translations']['locales']['ru']->data['Key "%%_name" does not exist!'] = 'Ключ "%%_name" не существует!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Legal information'] = 'Правовая информация';
   cache::$data['data_original']['translations']['locales']['ru']->data['License agreement'] = 'Лицензионное соглашение';
   cache::$data['data_original']['translations']['locales']['ru']->data['List'] = 'Список';
   cache::$data['data_original']['translations']['locales']['ru']->data['Load'] = 'Загрузка';
@@ -2924,7 +2918,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Page'] = 'Страница';
   cache::$data['data_original']['translations']['locales']['ru']->data['Paragraph'] = 'Параграф';
   cache::$data['data_original']['translations']['locales']['ru']->data['Parameter'] = 'Параметр';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Password hash'] = 'Хеш пароля';
   cache::$data['data_original']['translations']['locales']['ru']->data['Password'] = 'Пароль';
   cache::$data['data_original']['translations']['locales']['ru']->data['Path'] = 'Путь';
   cache::$data['data_original']['translations']['locales']['ru']->data['Phone'] = 'Телефон';
@@ -2966,7 +2959,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Shared information'] = 'Общая информация';
   cache::$data['data_original']['translations']['locales']['ru']->data['Shared params'] = 'Общие параметры';
   cache::$data['data_original']['translations']['locales']['ru']->data['Show description'] = 'Показать описание';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Show more'] = 'Показать больше';
   cache::$data['data_original']['translations']['locales']['ru']->data['Show or hide content'] = 'Показать или скрыть контент';
   cache::$data['data_original']['translations']['locales']['ru']->data['sql state: %%_state'] = 'sql состояние: %%_state';
   cache::$data['data_original']['translations']['locales']['ru']->data['state'] = 'состояние';
@@ -3020,10 +3012,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['User %%_nick was updated.'] = 'Пользователь %%_nick был обновлен.';
   cache::$data['data_original']['translations']['locales']['ru']->data['User %%_nick_context{2}'] = 'Пользователь %%_nick_context{2}';
   cache::$data['data_original']['translations']['locales']['ru']->data['User %%_nick'] = 'Пользователь %%_nick';
-  cache::$data['data_original']['translations']['locales']['ru']->data['User menu'] = 'Меню пользователя';
   cache::$data['data_original']['translations']['locales']['ru']->data['User name'] = 'Имя пользователя';
   cache::$data['data_original']['translations']['locales']['ru']->data['User roles'] = 'Роли пользователя';
-  cache::$data['data_original']['translations']['locales']['ru']->data['User was not deleted!'] = 'Пользователь не был удален!';
   cache::$data['data_original']['translations']['locales']['ru']->data['User was not registered!'] = 'Пользователь не был зарегистрирован!';
   cache::$data['data_original']['translations']['locales']['ru']->data['User with this EMail was already registered!'] = 'Пользователь с таким Адресом электронной почты уже был зарегистрирован!';
   cache::$data['data_original']['translations']['locales']['ru']->data['User with this Nick was already registered!'] = 'Пользователь с таким Ником уже был зарегистрирован!';
@@ -3058,7 +3048,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Checkbox 4 (disabled + checked)'] = 'Флаг 4 (установлен + отключён)';
   cache::$data['data_original']['translations']['develop']['ru']->data['checking on "%%_name" = "%%_value"'] = 'проверка на "%%_name" = "%%_value"';
   cache::$data['data_original']['translations']['develop']['ru']->data['class'] = 'класс';
-  cache::$data['data_original']['translations']['develop']['ru']->data['Classes list'] = 'Список классов';
   cache::$data['data_original']['translations']['develop']['ru']->data['Classes'] = 'Классы';
   cache::$data['data_original']['translations']['develop']['ru']->data['Console'] = 'Консоль';
   cache::$data['data_original']['translations']['develop']['ru']->data['Demo'] = 'Демо';
@@ -3079,7 +3068,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['init.'] = 'инициал.';
   cache::$data['data_original']['translations']['develop']['ru']->data['interface'] = 'интерфейс';
   cache::$data['data_original']['translations']['develop']['ru']->data['Interfaces'] = 'Интерфейсы';
-  cache::$data['data_original']['translations']['develop']['ru']->data['intr.'] = 'интр.';
   cache::$data['data_original']['translations']['develop']['ru']->data['make request to "%%_url"'] = 'сделать запрос на "%%_url"';
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for development.'] = 'Модуль для разработки.';

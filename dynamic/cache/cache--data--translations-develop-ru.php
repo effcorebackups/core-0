@@ -16,7 +16,6 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Checkbox 4 (disabled + checked)'] = 'Флаг 4 (установлен + отключён)';
   cache::$data['data--translations-develop-ru']->data['checking on "%%_name" = "%%_value"'] = 'проверка на "%%_name" = "%%_value"';
   cache::$data['data--translations-develop-ru']->data['class'] = 'класс';
-  cache::$data['data--translations-develop-ru']->data['Classes list'] = 'Список классов';
   cache::$data['data--translations-develop-ru']->data['Classes'] = 'Классы';
   cache::$data['data--translations-develop-ru']->data['Console'] = 'Консоль';
   cache::$data['data--translations-develop-ru']->data['Demo'] = 'Демо';
@@ -37,7 +36,6 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['init.'] = 'инициал.';
   cache::$data['data--translations-develop-ru']->data['interface'] = 'интерфейс';
   cache::$data['data--translations-develop-ru']->data['Interfaces'] = 'Интерфейсы';
-  cache::$data['data--translations-develop-ru']->data['intr.'] = 'интр.';
   cache::$data['data--translations-develop-ru']->data['make request to "%%_url"'] = 'сделать запрос на "%%_url"';
   cache::$data['data--translations-develop-ru']->data['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   cache::$data['data--translations-develop-ru']->data['Module for development.'] = 'Модуль для разработки.';
