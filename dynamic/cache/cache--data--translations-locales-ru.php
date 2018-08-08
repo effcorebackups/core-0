@@ -97,11 +97,11 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" has a changed value.'] = 'Поле "%%_title" имеет измененное значение.';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть установлено!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
-  cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
-  cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a minimum of %%_num characters!'] = 'Поле "%%_title" должно содержать минимум %%_num символов!';
-  cache::$data['data--translations-locales-ru']->data['Field must contain %%_num characters.'] = 'Поле должно содержать %%_num символов.';
-  cache::$data['data--translations-locales-ru']->data['Field must contain a maximum of %%_num characters.'] = 'Поле должно содержать максимум %%_num символов.';
-  cache::$data['data--translations-locales-ru']->data['Field must contain a minimum of %%_num characters.'] = 'Поле должно содержать минимум %%_num символов.';
+  cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a maximum of %%_number characters!'] = 'Поле "%%_title" должно содержать максимум %%_number символов!';
+  cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a minimum of %%_number characters!'] = 'Поле "%%_title" должно содержать минимум %%_number символов!';
+  cache::$data['data--translations-locales-ru']->data['Field must contain %%_number characters.'] = 'Поле должно содержать %%_number символов.';
+  cache::$data['data--translations-locales-ru']->data['Field must contain a maximum of %%_number characters.'] = 'Поле должно содержать максимум %%_number символов.';
+  cache::$data['data--translations-locales-ru']->data['Field must contain a minimum of %%_number characters.'] = 'Поле должно содержать минимум %%_number символов.';
   cache::$data['data--translations-locales-ru']->data['Field value does not match the regular expression %%_expression.'] = 'Значение поля не соответствует регулярному выражению %%_expression.';
   cache::$data['data--translations-locales-ru']->data['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache::$data['data--translations-locales-ru']->data['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';

@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-08 10:54:22';
+  cache::$info['data_original']['build'] = '2018-08-08 14:14:13';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2829,11 +2829,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" has a changed value.'] = 'Поле "%%_title" имеет измененное значение.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть установлено!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a maximum of %%_num characters!'] = 'Поле "%%_title" должно содержать максимум %%_num символов!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a minimum of %%_num characters!'] = 'Поле "%%_title" должно содержать минимум %%_num символов!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain %%_num characters.'] = 'Поле должно содержать %%_num символов.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain a maximum of %%_num characters.'] = 'Поле должно содержать максимум %%_num символов.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain a minimum of %%_num characters.'] = 'Поле должно содержать минимум %%_num символов.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a maximum of %%_number characters!'] = 'Поле "%%_title" должно содержать максимум %%_number символов!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a minimum of %%_number characters!'] = 'Поле "%%_title" должно содержать минимум %%_number символов!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain %%_number characters.'] = 'Поле должно содержать %%_number символов.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain a maximum of %%_number characters.'] = 'Поле должно содержать максимум %%_number символов.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain a minimum of %%_number characters.'] = 'Поле должно содержать минимум %%_number символов.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value does not match the regular expression %%_expression.'] = 'Значение поля не соответствует регулярному выражению %%_expression.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
@@ -3051,7 +3051,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['&ndash; result of checking is = "%%_result"'] = '&ndash; результат проверки = "%%_result"';
   cache::$data['data_original']['translations']['develop']['ru']->data['Call %%_name'] = 'Вызов %%_name';
   cache::$data['data_original']['translations']['develop']['ru']->data['call'] = 'вызов';
-  cache::$data['data_original']['translations']['develop']['ru']->data['cell %%_num'] = 'ячейка %%_num';
+  cache::$data['data_original']['translations']['develop']['ru']->data['cell #%%_number'] = 'ячейка №%%_number';
   cache::$data['data_original']['translations']['develop']['ru']->data['Checkbox 1'] = 'Флаг 1';
   cache::$data['data_original']['translations']['develop']['ru']->data['Checkbox 2 (checked)'] = 'Флаг 2 (установлен)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Checkbox 3 (disabled)'] = 'Флаг 3 (отключён)';
@@ -3066,7 +3066,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Diagram'] = 'Диаграмма';
   cache::$data['data_original']['translations']['develop']['ru']->data['Dynamic block'] = 'Динамический блок';
   cache::$data['data_original']['translations']['develop']['ru']->data['Elements'] = 'Элементы';
-  cache::$data['data_original']['translations']['develop']['ru']->data['Error message #%%_num.'] = 'Сообщение об ошибке #%%_num.';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Error message #%%_number.'] = 'Сообщение об ошибке №%%_number.';
   cache::$data['data_original']['translations']['develop']['ru']->data['event system was initialized'] = 'система событий была инициализирована';
   cache::$data['data_original']['translations']['develop']['ru']->data['Execute plan'] = 'План выполнения';
   cache::$data['data_original']['translations']['develop']['ru']->data['Export diagram to %%_file for using with StarUML software.'] = 'Экспорт диаграммы в файл %%_file для использования в программе StarUML.';
@@ -3075,7 +3075,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Group %%_type.'] = 'Группа %%_type.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Group 1'] = 'Группа 1';
   cache::$data['data_original']['translations']['develop']['ru']->data['Group 2 (inserted from code)'] = 'Группа 2 (вставлена из кода)';
-  cache::$data['data_original']['translations']['develop']['ru']->data['head cell %%_num'] = 'заглавная ячейка %%_num';
+  cache::$data['data_original']['translations']['develop']['ru']->data['head cell #%%_number'] = 'заглавная ячейка №%%_number';
   cache::$data['data_original']['translations']['develop']['ru']->data['init.'] = 'инициал.';
   cache::$data['data_original']['translations']['develop']['ru']->data['interface'] = 'интерфейс';
   cache::$data['data_original']['translations']['develop']['ru']->data['Interfaces'] = 'Интерфейсы';
@@ -3085,8 +3085,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for development.'] = 'Модуль для разработки.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Module for testing.'] = 'Модуль для тестирования.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Module'] = 'Модуль';
-  cache::$data['data_original']['translations']['develop']['ru']->data['Notice message #%%_num.'] = 'Уведомление #%%_num.';
-  cache::$data['data_original']['translations']['develop']['ru']->data['Ok message #%%_num.'] = 'Хорошее сообщение #%%_num.';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Notice message #%%_number.'] = 'Уведомление №%%_number.';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Ok message #%%_number.'] = 'Хорошее сообщение №%%_number.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Option 1 (selected)'] = 'Опция 1 (выбрана)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Option 2 (disabled)'] = 'Опция 2 (отключёна) ';
   cache::$data['data_original']['translations']['develop']['ru']->data['Option 3'] = 'Опция 3';
@@ -3118,7 +3118,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Traits'] = 'Трейты';
   cache::$data['data_original']['translations']['develop']['ru']->data['UML Diagram'] = 'UML Диаграмма';
   cache::$data['data_original']['translations']['develop']['ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
-  cache::$data['data_original']['translations']['develop']['ru']->data['Warning message #%%_num.'] = 'Предупреждающее сообщение #%%_num.';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Warning message #%%_number.'] = 'Предупреждающее сообщение №%%_number.';
   cache::$data['data_original']['languages']['locales']['en'] = new \effcore\language();
   cache::$data['data_original']['languages']['locales']['en']->code = 'en';
   cache::$data['data_original']['languages']['locales']['en']->title = new \stdClass();

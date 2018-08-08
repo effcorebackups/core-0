@@ -9,7 +9,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['&ndash; result of checking is = "%%_result"'] = '&ndash; результат проверки = "%%_result"';
   cache::$data['data--translations-develop-ru']->data['Call %%_name'] = 'Вызов %%_name';
   cache::$data['data--translations-develop-ru']->data['call'] = 'вызов';
-  cache::$data['data--translations-develop-ru']->data['cell %%_num'] = 'ячейка %%_num';
+  cache::$data['data--translations-develop-ru']->data['cell #%%_number'] = 'ячейка №%%_number';
   cache::$data['data--translations-develop-ru']->data['Checkbox 1'] = 'Флаг 1';
   cache::$data['data--translations-develop-ru']->data['Checkbox 2 (checked)'] = 'Флаг 2 (установлен)';
   cache::$data['data--translations-develop-ru']->data['Checkbox 3 (disabled)'] = 'Флаг 3 (отключён)';
@@ -24,7 +24,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Diagram'] = 'Диаграмма';
   cache::$data['data--translations-develop-ru']->data['Dynamic block'] = 'Динамический блок';
   cache::$data['data--translations-develop-ru']->data['Elements'] = 'Элементы';
-  cache::$data['data--translations-develop-ru']->data['Error message #%%_num.'] = 'Сообщение об ошибке #%%_num.';
+  cache::$data['data--translations-develop-ru']->data['Error message #%%_number.'] = 'Сообщение об ошибке №%%_number.';
   cache::$data['data--translations-develop-ru']->data['event system was initialized'] = 'система событий была инициализирована';
   cache::$data['data--translations-develop-ru']->data['Execute plan'] = 'План выполнения';
   cache::$data['data--translations-develop-ru']->data['Export diagram to %%_file for using with StarUML software.'] = 'Экспорт диаграммы в файл %%_file для использования в программе StarUML.';
@@ -33,7 +33,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Group %%_type.'] = 'Группа %%_type.';
   cache::$data['data--translations-develop-ru']->data['Group 1'] = 'Группа 1';
   cache::$data['data--translations-develop-ru']->data['Group 2 (inserted from code)'] = 'Группа 2 (вставлена из кода)';
-  cache::$data['data--translations-develop-ru']->data['head cell %%_num'] = 'заглавная ячейка %%_num';
+  cache::$data['data--translations-develop-ru']->data['head cell #%%_number'] = 'заглавная ячейка №%%_number';
   cache::$data['data--translations-develop-ru']->data['init.'] = 'инициал.';
   cache::$data['data--translations-develop-ru']->data['interface'] = 'интерфейс';
   cache::$data['data--translations-develop-ru']->data['Interfaces'] = 'Интерфейсы';
@@ -43,8 +43,8 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Module for development.'] = 'Модуль для разработки.';
   cache::$data['data--translations-develop-ru']->data['Module for testing.'] = 'Модуль для тестирования.';
   cache::$data['data--translations-develop-ru']->data['Module'] = 'Модуль';
-  cache::$data['data--translations-develop-ru']->data['Notice message #%%_num.'] = 'Уведомление #%%_num.';
-  cache::$data['data--translations-develop-ru']->data['Ok message #%%_num.'] = 'Хорошее сообщение #%%_num.';
+  cache::$data['data--translations-develop-ru']->data['Notice message #%%_number.'] = 'Уведомление №%%_number.';
+  cache::$data['data--translations-develop-ru']->data['Ok message #%%_number.'] = 'Хорошее сообщение №%%_number.';
   cache::$data['data--translations-develop-ru']->data['Option 1 (selected)'] = 'Опция 1 (выбрана)';
   cache::$data['data--translations-develop-ru']->data['Option 2 (disabled)'] = 'Опция 2 (отключёна) ';
   cache::$data['data--translations-develop-ru']->data['Option 3'] = 'Опция 3';
@@ -76,6 +76,6 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Traits'] = 'Трейты';
   cache::$data['data--translations-develop-ru']->data['UML Diagram'] = 'UML Диаграмма';
   cache::$data['data--translations-develop-ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
-  cache::$data['data--translations-develop-ru']->data['Warning message #%%_num.'] = 'Предупреждающее сообщение #%%_num.';
+  cache::$data['data--translations-develop-ru']->data['Warning message #%%_number.'] = 'Предупреждающее сообщение №%%_number.';
 
 }
