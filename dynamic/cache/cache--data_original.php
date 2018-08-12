@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-12 09:00:47';
+  cache::$info['data_original']['build'] = '2018-08-12 15:59:14';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2736,6 +2736,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['blocks']['demo']['demo']->attributes['class']['demo'] = 'demo';
   cache::$data['data_original']['translations']['locales']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['locales']['ru']->code = 'ru';
+  cache::$data['data_original']['translations']['locales']['ru']->data['allowed only %%_number file%%_plural{number,s}'] = 'допускается только %%_number файл%%_plural{number,ov-a}';
   cache::$data['data_original']['translations']['locales']['ru']->data['- select -'] = '- выбрать -';
   cache::$data['data_original']['translations']['locales']['ru']->data['© 2017—2018 Maxim Rysevets. All rights reserved.'] = '© 2017—2018 Рысевец Максим Владимирович. Все права защищены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
@@ -3116,11 +3117,18 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['languages']['locales']['en']->title = new \stdClass();
   cache::$data['data_original']['languages']['locales']['en']->title->en = 'English';
   cache::$data['data_original']['languages']['locales']['en']->title->native = 'English';
+  cache::$data['data_original']['languages']['locales']['en']->plurals['s'] = new \stdClass();
+  cache::$data['data_original']['languages']['locales']['en']->plurals['s']->formula = '%^(?<t1>[02-9]|[0-9]{2,})$%S';
+  cache::$data['data_original']['languages']['locales']['en']->plurals['s']->matches['t1'] = 's';
   cache::$data['data_original']['languages']['locales']['ru'] = new \effcore\language();
   cache::$data['data_original']['languages']['locales']['ru']->code = 'ru';
   cache::$data['data_original']['languages']['locales']['ru']->title = new \stdClass();
   cache::$data['data_original']['languages']['locales']['ru']->title->en = 'Russian';
   cache::$data['data_original']['languages']['locales']['ru']->title->native = 'Русский';
+  cache::$data['data_original']['languages']['locales']['ru']->plurals['ov-a'] = new \stdClass();
+  cache::$data['data_original']['languages']['locales']['ru']->plurals['ov-a']->formula = '%^(?<t1>[05-9]|.*[1][0-9]|.*[^1][05-9])$|^(?<t2>[234]|.*[^1][234])$%S';
+  cache::$data['data_original']['languages']['locales']['ru']->plurals['ov-a']->matches['t1'] = 'ов';
+  cache::$data['data_original']['languages']['locales']['ru']->plurals['ov-a']->matches['t2'] = 'а';
   cache::$data['data_original']['countries']['locales']['usa'] = new \stdClass();
   cache::$data['data_original']['countries']['locales']['usa']->code = 'usa';
   cache::$data['data_original']['countries']['locales']['usa']->title = new \stdClass();

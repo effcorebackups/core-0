@@ -4,6 +4,7 @@ namespace effcore { # cache for data--translations-locales-ru
 
   cache::$data['data--translations-locales-ru'] = new \effcore\translation();
   cache::$data['data--translations-locales-ru']->code = 'ru';
+  cache::$data['data--translations-locales-ru']->data['allowed only %%_number file%%_plural{number,s}'] = 'допускается только %%_number файл%%_plural{number,ov-a}';
   cache::$data['data--translations-locales-ru']->data['- select -'] = '- выбрать -';
   cache::$data['data--translations-locales-ru']->data['© 2017—2018 Maxim Rysevets. All rights reserved.'] = '© 2017—2018 Рысевец Максим Владимирович. Все права защищены.';
   cache::$data['data--translations-locales-ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
