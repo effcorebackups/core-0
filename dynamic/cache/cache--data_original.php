@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-13 12:31:21';
+  cache::$info['data_original']['build'] = '2018-08-13 16:42:02';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2737,7 +2737,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['locales']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['locales']['ru']->data['- select -'] = '- выбрать -';
-  cache::$data['data_original']['translations']['locales']['ru']->data['© 2017—2018 Maxim Rysevets. All rights reserved.'] = '© 2017—2018 Рысевец Максим Владимирович. Все права защищены.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['© 2017—2019 Maxim Rysevets. All rights reserved.'] = '© 2017—2019 Рысевец Максим Владимирович. Все права защищены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
   cache::$data['data_original']['translations']['locales']['ru']->data['Access denided'] = 'Доступ запрещен';
   cache::$data['data_original']['translations']['locales']['ru']->data['action'] = 'действие';
