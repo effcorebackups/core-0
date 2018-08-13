@@ -4,7 +4,6 @@ namespace effcore { # cache for data--translations-locales-ru
 
   cache::$data['data--translations-locales-ru'] = new \effcore\translation();
   cache::$data['data--translations-locales-ru']->code = 'ru';
-  cache::$data['data--translations-locales-ru']->data['allowed only %%_number file%%_plural{number,s}'] = 'допускается только %%_number файл%%_plural{number,ov-a}';
   cache::$data['data--translations-locales-ru']->data['- select -'] = '- выбрать -';
   cache::$data['data--translations-locales-ru']->data['© 2017—2018 Maxim Rysevets. All rights reserved.'] = '© 2017—2018 Рысевец Максим Владимирович. Все права защищены.';
   cache::$data['data--translations-locales-ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
@@ -15,7 +14,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Actions'] = 'Действия';
   cache::$data['data--translations-locales-ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data--translations-locales-ru']->data['agree'] = 'согласен(а)';
-  cache::$data['data--translations-locales-ru']->data['Already been uploaded %%_number files.'] = 'Уже было загружено %%_number файла/ов.';
+  cache::$data['data--translations-locales-ru']->data['Already been uploaded %%_number file%%_plural{number,s}.'] = 'Уже было загружено %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['Anonymous'] = 'Аноним';
   cache::$data['data--translations-locales-ru']->data['Architecture'] = 'Архитектура';
   cache::$data['data--translations-locales-ru']->data['Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).'] = 'Атрибут "multiple" не поддерживается на сенсорных устройствах (планшеты, смартфоны, мониторы с сенсорными экранами).';
@@ -97,12 +96,12 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" has a changed value.'] = 'Поле "%%_title" имеет измененное значение.';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be checked!'] = 'Поле "%%_title" должно быть установлено!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
-  cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a maximum of %%_number characters!'] = 'Поле "%%_title" должно содержать максимум %%_number символов!';
-  cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a minimum of %%_number characters!'] = 'Поле "%%_title" должно содержать минимум %%_number символов!';
-  cache::$data['data--translations-locales-ru']->data['Field must contain %%_number characters.'] = 'Поле должно содержать %%_number символов.';
-  cache::$data['data--translations-locales-ru']->data['Field must contain a maximum of %%_number characters.'] = 'Поле должно содержать максимум %%_number символов.';
-  cache::$data['data--translations-locales-ru']->data['Field must contain a minimum of %%_number characters.'] = 'Поле должно содержать минимум %%_number символов.';
-  cache::$data['data--translations-locales-ru']->data['Field must contain maximum %%_number files.'] = 'Поле должно содержать максимум %%_number файлов.';
+  cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a maximum of %%_number character%%_plural{number,s}!'] = 'Поле "%%_title" должно содержать максимум %%_number символ%%_plural{number,ov-a}!';
+  cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a minimum of %%_number character%%_plural{number,s}!'] = 'Поле "%%_title" должно содержать минимум %%_number символ%%_plural{number,ov-a}!';
+  cache::$data['data--translations-locales-ru']->data['Field must contain %%_number character%%_plural{number,s}.'] = 'Поле должно содержать %%_number символ%%_plural{number,ov-a}.';
+  cache::$data['data--translations-locales-ru']->data['Field must contain a maximum of %%_number character%%_plural{number,s}.'] = 'Поле должно содержать максимум %%_number символ%%_plural{number,ov-a}.';
+  cache::$data['data--translations-locales-ru']->data['Field must contain a minimum of %%_number character%%_plural{number,s}.'] = 'Поле должно содержать минимум %%_number символ%%_plural{number,ov-a}.';
+  cache::$data['data--translations-locales-ru']->data['Field must contain maximum %%_number file%%_plural{number,s}.'] = 'Поле должно содержать максимум %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['Field value does not match the regular expression %%_expression.'] = 'Значение поля не соответствует регулярному выражению %%_expression.';
   cache::$data['data--translations-locales-ru']->data['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache::$data['data--translations-locales-ru']->data['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
@@ -155,7 +154,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Management'] = 'Управление';
   cache::$data['data--translations-locales-ru']->data['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
-  cache::$data['data--translations-locales-ru']->data['Maximum allowed only %%_number files.'] = 'Допускается максимально только %%_number файла/ов.';
+  cache::$data['data--translations-locales-ru']->data['Maximum allowed only %%_number file%%_plural{number,s}.'] = 'Допускается максимально только %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['Memory for php (bytes)'] = 'Память для php (байт)';
   cache::$data['data--translations-locales-ru']->data['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache::$data['data--translations-locales-ru']->data['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
