@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-13 10:22:13';
+  cache::$info['data_original']['build'] = '2018-08-13 10:42:06';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2746,7 +2746,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Actions'] = 'Действия';
   cache::$data['data_original']['translations']['locales']['ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data_original']['translations']['locales']['ru']->data['agree'] = 'согласен(а)';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Already been uploaded %%_number file%%_plural{number,s}.'] = 'Уже было загружено %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Anonymous'] = 'Аноним';
   cache::$data['data_original']['translations']['locales']['ru']->data['Architecture'] = 'Архитектура';
   cache::$data['data_original']['translations']['locales']['ru']->data['Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).'] = 'Атрибут "multiple" не поддерживается на сенсорных устройствах (планшеты, смартфоны, мониторы с сенсорными экранами).';
@@ -3037,6 +3036,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Yes'] = 'Да';
   cache::$data['data_original']['translations']['locales']['ru']->data['yes'] = 'да';
+  cache::$data['data_original']['translations']['locales']['ru']->data['You have already uploaded %%_number file%%_plural{number,s}.'] = 'Вы уже загрузили %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['You try to upload too much files!'] = 'Вы пытаетесь загрузить слишком много файлов!';
   cache::$data['data_original']['translations']['develop']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['develop']['ru']->code = 'ru';

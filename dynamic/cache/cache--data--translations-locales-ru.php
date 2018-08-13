@@ -14,7 +14,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Actions'] = 'Действия';
   cache::$data['data--translations-locales-ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data--translations-locales-ru']->data['agree'] = 'согласен(а)';
-  cache::$data['data--translations-locales-ru']->data['Already been uploaded %%_number file%%_plural{number,s}.'] = 'Уже было загружено %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['Anonymous'] = 'Аноним';
   cache::$data['data--translations-locales-ru']->data['Architecture'] = 'Архитектура';
   cache::$data['data--translations-locales-ru']->data['Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).'] = 'Атрибут "multiple" не поддерживается на сенсорных устройствах (планшеты, смартфоны, мониторы с сенсорными экранами).';
@@ -305,6 +304,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache::$data['data--translations-locales-ru']->data['Yes'] = 'Да';
   cache::$data['data--translations-locales-ru']->data['yes'] = 'да';
+  cache::$data['data--translations-locales-ru']->data['You have already uploaded %%_number file%%_plural{number,s}.'] = 'Вы уже загрузили %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['You try to upload too much files!'] = 'Вы пытаетесь загрузить слишком много файлов!';
 
 }
