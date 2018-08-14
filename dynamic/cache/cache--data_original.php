@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-13 16:42:02';
+  cache::$info['data_original']['build'] = '2018-08-14 13:23:39';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -873,7 +873,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->element_attributes['maxlength'] = 32;
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar'] = new \effcore\field_file();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->max_file_size = '10K';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->allowed_types['gif'] = 'gif';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->allowed_types['jpeg'] = 'jpeg';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->allowed_types['jpg'] = 'jpg';
@@ -1041,7 +1040,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->title = 'Form elements';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file'] = new \effcore\field_file();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->max_file_size = '10K';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->max_files_number = 3;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->allowed_types['gif'] = 'gif';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->allowed_types['jpeg'] = 'jpeg';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->allowed_types['jpg'] = 'jpg';

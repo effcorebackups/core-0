@@ -13,7 +13,6 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->element_attributes['maxlength'] = 32;
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar'] = new \effcore\field_file();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->max_file_size = '10K';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->allowed_types['gif'] = 'gif';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->allowed_types['jpeg'] = 'jpeg';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->allowed_types['jpg'] = 'jpg';
