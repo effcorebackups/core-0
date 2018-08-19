@@ -56,7 +56,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['PHP modules'] = 'PHP модули';
   cache::$data['data--translations-develop-ru']->data['Pos.'] = 'Поз.';
   cache::$data['data--translations-develop-ru']->data['query = "%%_query"'] = 'запрос = "%%_query"';
-  cache::$data['data--translations-develop-ru']->data['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
+  cache::$data['data--translations-develop-ru']->data['query = "%%_query"<br>args = [%%_args]'] = 'запрос = "%%_query"<br>аргументы = [%%_args]';
   cache::$data['data--translations-develop-ru']->data['Radiobutton 1'] = 'Переключатель 1';
   cache::$data['data--translations-develop-ru']->data['Radiobutton 2 (checked)'] = 'Переключатель 2 (установлен)';
   cache::$data['data--translations-develop-ru']->data['Radiobutton 3 (disabled)'] = 'Переключатель 3 (отключён)';

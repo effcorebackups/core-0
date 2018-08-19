@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-19 13:20:50';
+  cache::$info['data_original']['build'] = '2018-08-19 13:58:02';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3091,7 +3091,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['PHP modules'] = 'PHP модули';
   cache::$data['data_original']['translations']['develop']['ru']->data['Pos.'] = 'Поз.';
   cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"'] = 'запрос = "%%_query"';
-  cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"<br/>args = [%%_args]'] = 'запрос = "%%_query"<br/>аргументы = [%%_args]';
+  cache::$data['data_original']['translations']['develop']['ru']->data['query = "%%_query"<br>args = [%%_args]'] = 'запрос = "%%_query"<br>аргументы = [%%_args]';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobutton 1'] = 'Переключатель 1';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobutton 2 (checked)'] = 'Переключатель 2 (установлен)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Radiobutton 3 (disabled)'] = 'Переключатель 3 (отключён)';
