@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-20 15:25:45';
+  cache::$info['data_original']['build'] = '2018-08-20 16:23:57';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1454,6 +1454,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['permission']->indexes['idx_updated'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['permission']->indexes['idx_updated']->type = 'index';
   cache::$data['data_original']['entities']['user']['permission']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data_original']['entities']['user']['permission']->__post_init();
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission'] = new \effcore\entity();
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->name = 'relation_role_ws_permission';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->storage_id = 'main';
@@ -1486,6 +1487,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->indexes['idx_updated'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->indexes['idx_updated']->type = 'index';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->__post_init();
   cache::$data['data_original']['entities']['user']['relation_role_ws_user'] = new \effcore\entity();
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->name = 'relation_role_ws_user';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->storage_id = 'main';
@@ -1517,6 +1519,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->indexes['idx_updated'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->indexes['idx_updated']->type = 'index';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->__post_init();
   cache::$data['data_original']['entities']['user']['role'] = new \effcore\entity();
   cache::$data['data_original']['entities']['user']['role']->name = 'role';
   cache::$data['data_original']['entities']['user']['role']->storage_id = 'main';
@@ -1552,6 +1555,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['role']->indexes['idx_updated'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['role']->indexes['idx_updated']->type = 'index';
   cache::$data['data_original']['entities']['user']['role']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data_original']['entities']['user']['role']->__post_init();
   cache::$data['data_original']['entities']['user']['session'] = new \effcore\entity();
   cache::$data['data_original']['entities']['user']['session']->name = 'session';
   cache::$data['data_original']['entities']['user']['session']->storage_id = 'main';
@@ -1581,6 +1585,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['session']->constraints['key_id'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['session']->constraints['key_id']->type = 'primary key';
   cache::$data['data_original']['entities']['user']['session']->constraints['key_id']->fields['id'] = 'id';
+  cache::$data['data_original']['entities']['user']['session']->__post_init();
   cache::$data['data_original']['entities']['user']['user'] = new \effcore\entity();
   cache::$data['data_original']['entities']['user']['user']->name = 'user';
   cache::$data['data_original']['entities']['user']['user']->storage_id = 'main';
@@ -1631,6 +1636,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['user']->indexes['idx_updated'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['user']->indexes['idx_updated']->type = 'index';
   cache::$data['data_original']['entities']['user']['user']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data_original']['entities']['user']['user']->__post_init();
   cache::$data['data_original']['entities']['page']['captcha'] = new \effcore\entity();
   cache::$data['data_original']['entities']['page']['captcha']->name = 'captcha';
   cache::$data['data_original']['entities']['page']['captcha']->storage_id = 'main';
@@ -1661,6 +1667,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['page']['captcha']->indexes['idx_created'] = new \stdClass();
   cache::$data['data_original']['entities']['page']['captcha']->indexes['idx_created']->type = 'index';
   cache::$data['data_original']['entities']['page']['captcha']->indexes['idx_created']->fields['created'] = 'created';
+  cache::$data['data_original']['entities']['page']['captcha']->__post_init();
   cache::$data['data_original']['entities']['menu']['tree'] = new \effcore\entity();
   cache::$data['data_original']['entities']['menu']['tree']->name = 'tree';
   cache::$data['data_original']['entities']['menu']['tree']->storage_id = 'main';
@@ -1691,6 +1698,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['menu']['tree']->indexes['idx_updated'] = new \stdClass();
   cache::$data['data_original']['entities']['menu']['tree']->indexes['idx_updated']->type = 'index';
   cache::$data['data_original']['entities']['menu']['tree']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data_original']['entities']['menu']['tree']->__post_init();
   cache::$data['data_original']['entities']['menu']['tree_item'] = new \effcore\entity();
   cache::$data['data_original']['entities']['menu']['tree_item']->name = 'tree_item';
   cache::$data['data_original']['entities']['menu']['tree_item']->storage_id = 'main';
@@ -1728,6 +1736,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['menu']['tree_item']->indexes['idx_updated'] = new \stdClass();
   cache::$data['data_original']['entities']['menu']['tree_item']->indexes['idx_updated']->type = 'index';
   cache::$data['data_original']['entities']['menu']['tree_item']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data_original']['entities']['menu']['tree_item']->__post_init();
   cache::$data['data_original']['entities']['demo']['demo_types'] = new \effcore\entity();
   cache::$data['data_original']['entities']['demo']['demo_types']->name = 'demo_types';
   cache::$data['data_original']['entities']['demo']['demo_types']->storage_id = 'main';
@@ -1765,6 +1774,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_types']->fields->f_blob = new \stdClass();
   cache::$data['data_original']['entities']['demo']['demo_types']->fields->f_blob->type = 'blob';
   cache::$data['data_original']['entities']['demo']['demo_types']->fields->f_blob->null = true;
+  cache::$data['data_original']['entities']['demo']['demo_types']->__post_init();
   cache::$data['data_original']['entities']['demo']['demo_autoincrement'] = new \effcore\entity();
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->name = 'demo_autoincrement';
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->storage_id = 'main';
@@ -1777,6 +1787,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->constraints['key_f_integer_1'] = new \stdClass();
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->constraints['key_f_integer_1']->type = 'primary key';
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->constraints['key_f_integer_1']->fields['f_integer_1'] = 'f_integer_1';
+  cache::$data['data_original']['entities']['demo']['demo_autoincrement']->__post_init();
   cache::$data['data_original']['entities']['demo']['demo_constraints'] = new \effcore\entity();
   cache::$data['data_original']['entities']['demo']['demo_constraints']->name = 'demo_constraints';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->storage_id = 'main';
@@ -1797,6 +1808,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['key_f_integer_2'] = new \stdClass();
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['key_f_integer_2']->type = 'unique';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['key_f_integer_2']->fields['f_integer_2'] = 'f_integer_2';
+  cache::$data['data_original']['entities']['demo']['demo_constraints']->__post_init();
   cache::$data['data_original']['entities']['demo']['demo_indexes'] = new \effcore\entity();
   cache::$data['data_original']['entities']['demo']['demo_indexes']->name = 'demo_indexes';
   cache::$data['data_original']['entities']['demo']['demo_indexes']->storage_id = 'main';
@@ -1817,6 +1829,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_indexes']->indexes['idx_f_integer_2'] = new \stdClass();
   cache::$data['data_original']['entities']['demo']['demo_indexes']->indexes['idx_f_integer_2']->type = 'unique index';
   cache::$data['data_original']['entities']['demo']['demo_indexes']->indexes['idx_f_integer_2']->fields['f_integer_2'] = 'f_integer_2';
+  cache::$data['data_original']['entities']['demo']['demo_indexes']->__post_init();
   cache::$data['data_original']['module']['user'] = new \effcore\module();
   cache::$data['data_original']['module']['user']->id = 'user';
   cache::$data['data_original']['module']['user']->title = 'User';

@@ -33,5 +33,6 @@ namespace effcore { # cache for data--entities-user-relation_role_ws_user
   cache::$data['data--entities-user-relation_role_ws_user']->indexes['idx_updated'] = new \stdClass();
   cache::$data['data--entities-user-relation_role_ws_user']->indexes['idx_updated']->type = 'index';
   cache::$data['data--entities-user-relation_role_ws_user']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data--entities-user-relation_role_ws_user']->__post_init();
 
 }

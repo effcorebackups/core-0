@@ -32,5 +32,6 @@ namespace effcore { # cache for data--entities-page-captcha
   cache::$data['data--entities-page-captcha']->indexes['idx_created'] = new \stdClass();
   cache::$data['data--entities-page-captcha']->indexes['idx_created']->type = 'index';
   cache::$data['data--entities-page-captcha']->indexes['idx_created']->fields['created'] = 'created';
+  cache::$data['data--entities-page-captcha']->__post_init();
 
 }

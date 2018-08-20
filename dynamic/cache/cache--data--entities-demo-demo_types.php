@@ -39,5 +39,6 @@ namespace effcore { # cache for data--entities-demo-demo_types
   cache::$data['data--entities-demo-demo_types']->fields->f_blob = new \stdClass();
   cache::$data['data--entities-demo-demo_types']->fields->f_blob->type = 'blob';
   cache::$data['data--entities-demo-demo_types']->fields->f_blob->null = true;
+  cache::$data['data--entities-demo-demo_types']->__post_init();
 
 }
