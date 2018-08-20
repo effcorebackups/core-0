@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-20 11:15:16';
+  cache::$info['data_original']['build'] = '2018-08-20 15:25:45';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1376,9 +1376,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['events']['page']->on_form_init['decoration'] = new \effcore\event();
   cache::$data['data_original']['events']['page']->on_form_init['decoration']->for = 'decoration';
   cache::$data['data_original']['events']['page']->on_form_init['decoration']->handler = '\\effcore\\modules\\page\\events_form::on_init_decoration';
-  cache::$data['data_original']['events']['page']->on_form_validate['decoration'] = new \effcore\event();
-  cache::$data['data_original']['events']['page']->on_form_validate['decoration']->for = 'decoration';
-  cache::$data['data_original']['events']['page']->on_form_validate['decoration']->handler = '\\effcore\\modules\\page\\events_form::on_validate_decoration';
   cache::$data['data_original']['events']['page']->on_form_submit['decoration'] = new \effcore\event();
   cache::$data['data_original']['events']['page']->on_form_submit['decoration']->for = 'decoration';
   cache::$data['data_original']['events']['page']->on_form_submit['decoration']->handler = '\\effcore\\modules\\page\\events_form::on_submit_decoration';

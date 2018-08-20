@@ -66,9 +66,6 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['page']->on_form_init['decoration'] = new \effcore\event();
   cache::$data['data--events']['page']->on_form_init['decoration']->for = 'decoration';
   cache::$data['data--events']['page']->on_form_init['decoration']->handler = '\\effcore\\modules\\page\\events_form::on_init_decoration';
-  cache::$data['data--events']['page']->on_form_validate['decoration'] = new \effcore\event();
-  cache::$data['data--events']['page']->on_form_validate['decoration']->for = 'decoration';
-  cache::$data['data--events']['page']->on_form_validate['decoration']->handler = '\\effcore\\modules\\page\\events_form::on_validate_decoration';
   cache::$data['data--events']['page']->on_form_submit['decoration'] = new \effcore\event();
   cache::$data['data--events']['page']->on_form_submit['decoration']->for = 'decoration';
   cache::$data['data--events']['page']->on_form_submit['decoration']->handler = '\\effcore\\modules\\page\\events_form::on_submit_decoration';
