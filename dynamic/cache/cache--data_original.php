@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-21 16:51:26';
+  cache::$info['data_original']['build'] = '2018-08-21 16:54:50';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -996,10 +996,12 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['page']['decoration']->children['colors'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->title = 'Colors';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id'] = new \effcore\group_palette();
+  cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id']->attributes['data-type'] = 'palette';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id']->attributes['required'] = 'required';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id']->element_attributes['name'] = 'color_id';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_id']->title = 'Color';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id'] = new \effcore\group_palette();
+  cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->attributes['data-type'] = 'palette';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->attributes['required'] = 'required';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->element_attributes['name'] = 'color_bg_id';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->title = 'Background color';
@@ -1058,14 +1060,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->element_attributes['pattern'] = '%^[a-zA-Z0-9 ]+$%';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description_state = 'opened';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description = new \effcore\text_multiline();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->text['0'] = 'This description is always shown.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->text[0] = 'This description is always shown.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['text']->description->args['type'] = 'field_text';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->element_attributes['name'] = 'password';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->element_attributes['value'] = 'text in password';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description = new \effcore\text_multiline();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description->text['0'] = 'This description is shown on top.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description->text[0] = 'This description is shown on top.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description->args['type'] = 'field_password';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['password']->description_position = 'top';
@@ -1083,7 +1085,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['url']->description->text = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone'] = new \effcore\field_phone();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description = new \effcore\text_multiline();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description->text['0'] = 'Use international format of mobile phone numbers.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description->text[0] = 'Use international format of mobile phone numbers.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->description->args['type'] = 'field_phone';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['phone']->element_attributes['name'] = 'phone';
@@ -1116,7 +1118,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->element_attributes['name'] = 'date';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->element_attributes['value'] = '2020-01-01';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description = new \effcore\text_multiline();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description->text['0'] = 'If the initial value is not specified, the current value in the UTC time zone will be used.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description->text[0] = 'If the initial value is not specified, the current value in the UTC time zone will be used.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['date']->description->args['type'] = 'field_date';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time'] = new \effcore\field_time();
@@ -1124,11 +1126,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->element_attributes['name'] = 'time';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->element_attributes['value'] = '01:23:45';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description = new \effcore\text_multiline();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->text['0'] = 'If the initial value is not specified, the current value in the UTC time zone will be used.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->text[0] = 'If the initial value is not specified, the current value in the UTC time zone will be used.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['time']->description->args['type'] = 'field_time';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone'] = new \effcore\field_timezone();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->selected['424'] = 424;
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->selected[424] = 424;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->element_attributes['name'] = 'timezone';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->element_attributes['required'] = 'required';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->title = 'Timezone';
@@ -1137,7 +1139,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['timezone']->description->text = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color'] = new \effcore\field_color();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->description = new \effcore\text_multiline();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->description->text['0'] = 'The color should be in the format "#abcdef", where "ab" is the value of the red component, "cd" - green and "ef" - blue.';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->description->text[0] = 'The color should be in the format "#abcdef", where "ab" is the value of the red component, "cd" - green and "ef" - blue.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->description->args['type'] = 'field_color';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['color']->element_attributes['name'] = 'color';
@@ -1161,7 +1163,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->element_attributes['name'] = 'select';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->title = 'Selection list';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description = new \effcore\text_multiline();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description->text['0'] = 'Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).';
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description->text[0] = 'Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description->text[1] = 'Field %%_type.';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['select']->description->args['type'] = 'field_select';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all'] = new \effcore\fieldset();
@@ -1237,6 +1239,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->title = 'Storage params';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql'] = new \effcore\field_radiobutton();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->title = 'MySQL';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->attributes['data-type'] = 'radiobutton';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->element_attributes['name'] = 'driver';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_mysql']->element_attributes['value'] = 'mysql';
@@ -1273,6 +1276,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->element_attributes['required'] = null;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite'] = new \effcore\field_radiobutton();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->title = 'SQLite';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->attributes['data-type'] = 'radiobutton';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->attributes['class']['before-container'] = 'before-container';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->element_attributes['name'] = 'driver';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['is_sqlite']->element_attributes['value'] = 'sqlite';
