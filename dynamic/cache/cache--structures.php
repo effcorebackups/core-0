@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-08-21 13:26:25';
+  cache::$info['structures']['build'] = '2018-08-21 16:08:24';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -74,7 +74,7 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\entity']->name = 'entity';
   cache::$data['structures']['effcore\\entity']->type = 'class';
   cache::$data['structures']['effcore\\entity']->implements['effcore\\has_external_cache'] = 'effcore\\has_external_cache';
-  cache::$data['structures']['effcore\\entity']->implements['effcore\\has_post_init'] = 'effcore\\has_post_init';
+  cache::$data['structures']['effcore\\entity']->implements['effcore\\has_post_parse'] = 'effcore\\has_post_parse';
   cache::$data['structures']['effcore\\entity']->file = 'system/module_storage/backend/pattern--entity.php';
   cache::$data['structures']['effcore\\event'] = new \stdClass();
   cache::$data['structures']['effcore\\event']->namespace = 'effcore';
@@ -293,6 +293,11 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\has_post_init']->name = 'has_post_init';
   cache::$data['structures']['effcore\\has_post_init']->type = 'interface';
   cache::$data['structures']['effcore\\has_post_init']->file = 'system/module_storage/backend/markers.php';
+  cache::$data['structures']['effcore\\has_post_parse'] = new \stdClass();
+  cache::$data['structures']['effcore\\has_post_parse']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\has_post_parse']->name = 'has_post_parse';
+  cache::$data['structures']['effcore\\has_post_parse']->type = 'interface';
+  cache::$data['structures']['effcore\\has_post_parse']->file = 'system/module_storage/backend/markers.php';
   cache::$data['structures']['effcore\\instance'] = new \stdClass();
   cache::$data['structures']['effcore\\instance']->namespace = 'effcore';
   cache::$data['structures']['effcore\\instance']->name = 'instance';
