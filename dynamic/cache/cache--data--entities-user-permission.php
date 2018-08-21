@@ -17,6 +17,12 @@ namespace effcore { # cache for data--entities-user-permission
   cache::$data['data--entities-user-permission']->fields['title']->type = 'varchar';
   cache::$data['data--entities-user-permission']->fields['title']->size = 255;
   cache::$data['data--entities-user-permission']->fields['title']->not_null = true;
+  cache::$data['data--entities-user-permission']->fields['created'] = new \stdClass();
+  cache::$data['data--entities-user-permission']->fields['created']->type = 'datetime';
+  cache::$data['data--entities-user-permission']->fields['created']->not_null = true;
+  cache::$data['data--entities-user-permission']->fields['updated'] = new \stdClass();
+  cache::$data['data--entities-user-permission']->fields['updated']->type = 'datetime';
+  cache::$data['data--entities-user-permission']->fields['updated']->not_null = true;
   cache::$data['data--entities-user-permission']->constraints['key_id'] = new \stdClass();
   cache::$data['data--entities-user-permission']->constraints['key_id']->type = 'primary key';
   cache::$data['data--entities-user-permission']->constraints['key_id']->fields['id'] = 'id';

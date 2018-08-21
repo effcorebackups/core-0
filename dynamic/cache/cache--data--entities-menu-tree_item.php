@@ -23,6 +23,12 @@ namespace effcore { # cache for data--entities-menu-tree_item
   cache::$data['data--entities-menu-tree_item']->fields['title']->type = 'varchar';
   cache::$data['data--entities-menu-tree_item']->fields['title']->size = 255;
   cache::$data['data--entities-menu-tree_item']->fields['title']->not_null = true;
+  cache::$data['data--entities-menu-tree_item']->fields['created'] = new \stdClass();
+  cache::$data['data--entities-menu-tree_item']->fields['created']->type = 'datetime';
+  cache::$data['data--entities-menu-tree_item']->fields['created']->not_null = true;
+  cache::$data['data--entities-menu-tree_item']->fields['updated'] = new \stdClass();
+  cache::$data['data--entities-menu-tree_item']->fields['updated']->type = 'datetime';
+  cache::$data['data--entities-menu-tree_item']->fields['updated']->not_null = true;
   cache::$data['data--entities-menu-tree_item']->constraints['key_id'] = new \stdClass();
   cache::$data['data--entities-menu-tree_item']->constraints['key_id']->type = 'primary key';
   cache::$data['data--entities-menu-tree_item']->constraints['key_id']->fields['id'] = 'id';

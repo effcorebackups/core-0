@@ -16,6 +16,12 @@ namespace effcore { # cache for data--entities-user-relation_role_ws_user
   cache::$data['data--entities-user-relation_role_ws_user']->fields['id_user'] = new \stdClass();
   cache::$data['data--entities-user-relation_role_ws_user']->fields['id_user']->type = 'integer';
   cache::$data['data--entities-user-relation_role_ws_user']->fields['id_user']->not_null = true;
+  cache::$data['data--entities-user-relation_role_ws_user']->fields['created'] = new \stdClass();
+  cache::$data['data--entities-user-relation_role_ws_user']->fields['created']->type = 'datetime';
+  cache::$data['data--entities-user-relation_role_ws_user']->fields['created']->not_null = true;
+  cache::$data['data--entities-user-relation_role_ws_user']->fields['updated'] = new \stdClass();
+  cache::$data['data--entities-user-relation_role_ws_user']->fields['updated']->type = 'datetime';
+  cache::$data['data--entities-user-relation_role_ws_user']->fields['updated']->not_null = true;
   cache::$data['data--entities-user-relation_role_ws_user']->constraints['key_id'] = new \stdClass();
   cache::$data['data--entities-user-relation_role_ws_user']->constraints['key_id']->type = 'primary key';
   cache::$data['data--entities-user-relation_role_ws_user']->constraints['key_id']->fields['id_role'] = 'id_role';

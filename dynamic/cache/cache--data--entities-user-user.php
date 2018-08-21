@@ -30,6 +30,12 @@ namespace effcore { # cache for data--entities-user-user
   cache::$data['data--entities-user-user']->fields['avatar_path_relative'] = new \stdClass();
   cache::$data['data--entities-user-user']->fields['avatar_path_relative']->type = 'varchar';
   cache::$data['data--entities-user-user']->fields['avatar_path_relative']->size = 1024;
+  cache::$data['data--entities-user-user']->fields['created'] = new \stdClass();
+  cache::$data['data--entities-user-user']->fields['created']->type = 'datetime';
+  cache::$data['data--entities-user-user']->fields['created']->not_null = true;
+  cache::$data['data--entities-user-user']->fields['updated'] = new \stdClass();
+  cache::$data['data--entities-user-user']->fields['updated']->type = 'datetime';
+  cache::$data['data--entities-user-user']->fields['updated']->not_null = true;
   cache::$data['data--entities-user-user']->constraints['key_id'] = new \stdClass();
   cache::$data['data--entities-user-user']->constraints['key_id']->type = 'primary key';
   cache::$data['data--entities-user-user']->constraints['key_id']->fields['id'] = 'id';

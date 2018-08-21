@@ -22,6 +22,9 @@ namespace effcore { # cache for data--entities-page-captcha
   cache::$data['data--entities-page-captcha']->fields['canvas_data'] = new \stdClass();
   cache::$data['data--entities-page-captcha']->fields['canvas_data']->type = 'blob';
   cache::$data['data--entities-page-captcha']->fields['canvas_data']->not_null = true;
+  cache::$data['data--entities-page-captcha']->fields['created'] = new \stdClass();
+  cache::$data['data--entities-page-captcha']->fields['created']->type = 'datetime';
+  cache::$data['data--entities-page-captcha']->fields['created']->not_null = true;
   cache::$data['data--entities-page-captcha']->constraints['key_id'] = new \stdClass();
   cache::$data['data--entities-page-captcha']->constraints['key_id']->type = 'primary key';
   cache::$data['data--entities-page-captcha']->constraints['key_id']->fields['ip_address'] = 'ip_address';

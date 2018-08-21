@@ -16,6 +16,12 @@ namespace effcore { # cache for data--entities-menu-tree
   cache::$data['data--entities-menu-tree']->fields['title']->type = 'varchar';
   cache::$data['data--entities-menu-tree']->fields['title']->size = 255;
   cache::$data['data--entities-menu-tree']->fields['title']->not_null = true;
+  cache::$data['data--entities-menu-tree']->fields['created'] = new \stdClass();
+  cache::$data['data--entities-menu-tree']->fields['created']->type = 'datetime';
+  cache::$data['data--entities-menu-tree']->fields['created']->not_null = true;
+  cache::$data['data--entities-menu-tree']->fields['updated'] = new \stdClass();
+  cache::$data['data--entities-menu-tree']->fields['updated']->type = 'datetime';
+  cache::$data['data--entities-menu-tree']->fields['updated']->not_null = true;
   cache::$data['data--entities-menu-tree']->constraints['key_id'] = new \stdClass();
   cache::$data['data--entities-menu-tree']->constraints['key_id']->type = 'primary key';
   cache::$data['data--entities-menu-tree']->constraints['key_id']->fields['id'] = 'id';

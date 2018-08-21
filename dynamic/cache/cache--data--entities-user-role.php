@@ -21,6 +21,12 @@ namespace effcore { # cache for data--entities-user-role
   cache::$data['data--entities-user-role']->fields['is_embed']->type = 'integer';
   cache::$data['data--entities-user-role']->fields['is_embed']->not_null = true;
   cache::$data['data--entities-user-role']->fields['is_embed']->default = 0;
+  cache::$data['data--entities-user-role']->fields['created'] = new \stdClass();
+  cache::$data['data--entities-user-role']->fields['created']->type = 'datetime';
+  cache::$data['data--entities-user-role']->fields['created']->not_null = true;
+  cache::$data['data--entities-user-role']->fields['updated'] = new \stdClass();
+  cache::$data['data--entities-user-role']->fields['updated']->type = 'datetime';
+  cache::$data['data--entities-user-role']->fields['updated']->not_null = true;
   cache::$data['data--entities-user-role']->constraints['key_id'] = new \stdClass();
   cache::$data['data--entities-user-role']->constraints['key_id']->type = 'primary key';
   cache::$data['data--entities-user-role']->constraints['key_id']->fields['id'] = 'id';
