@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-22 12:31:12';
+  cache::$info['data_original']['build'] = '2018-08-22 12:39:17';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -952,20 +952,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->attributes['method'] = 'post';
   cache::$data['data_original']['forms']['user']['registration']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['user']['logout'] = new \effcore\form();
-  cache::$data['data_original']['forms']['user']['logout']->children['button_logout'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['user']['logout']->children['button_logout']->tag_name = 'button';
-  cache::$data['data_original']['forms']['user']['logout']->children['button_logout']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['user']['logout']->children['button_logout']->children['label']->text = 'logout';
+  cache::$data['data_original']['forms']['user']['logout']->children['button_logout'] = new \effcore\button();
   cache::$data['data_original']['forms']['user']['logout']->children['button_logout']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['user']['logout']->children['button_logout']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['user']['logout']->children['button_logout']->attributes['value'] = 'logout';
-  cache::$data['data_original']['forms']['user']['logout']->children['button_cancel'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['user']['logout']->children['button_cancel']->tag_name = 'button';
-  cache::$data['data_original']['forms']['user']['logout']->children['button_cancel']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['user']['logout']->children['button_cancel']->children['label']->text = 'cancel';
+  cache::$data['data_original']['forms']['user']['logout']->children['button_logout']->title = 'logout';
+  cache::$data['data_original']['forms']['user']['logout']->children['button_cancel'] = new \effcore\button();
   cache::$data['data_original']['forms']['user']['logout']->children['button_cancel']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['user']['logout']->children['button_cancel']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['user']['logout']->children['button_cancel']->attributes['value'] = 'cancel';
+  cache::$data['data_original']['forms']['user']['logout']->children['button_cancel']->title = 'cancel';
   cache::$data['data_original']['forms']['user']['logout']->children['button_cancel']->novalidate = true;
   cache::$data['data_original']['forms']['user']['logout']->attributes['id'] = 'logout';
   cache::$data['data_original']['forms']['user']['logout']->attributes['method'] = 'post';
