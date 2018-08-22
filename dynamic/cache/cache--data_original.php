@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-22 15:47:30';
+  cache::$info['data_original']['build'] = '2018-08-22 15:50:54';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1016,13 +1016,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test'] = new \effcore\field_select();
   cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test']->element_attributes['name'] = 'select_test';
   cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test']->title = 'Select the test';
-  cache::$data['data_original']['forms']['test']['test']->children['button_run'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['test']['test']->children['button_run']->tag_name = 'button';
-  cache::$data['data_original']['forms']['test']['test']->children['button_run']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['test']['test']->children['button_run']->children['label']->text = 'run';
+  cache::$data['data_original']['forms']['test']['test']->children['button_run'] = new \effcore\button();
   cache::$data['data_original']['forms']['test']['test']->children['button_run']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['test']['test']->children['button_run']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['test']['test']->children['button_run']->attributes['value'] = 'run';
+  cache::$data['data_original']['forms']['test']['test']->children['button_run']->title = 'run';
   cache::$data['data_original']['forms']['test']['test']->attributes['id'] = 'test';
   cache::$data['data_original']['forms']['test']['test']->attributes['method'] = 'post';
   cache::$data['data_original']['forms']['test']['test']->attributes['novalidate'] = 'novalidate';
