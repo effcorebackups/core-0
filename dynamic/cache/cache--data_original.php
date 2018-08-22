@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-22 12:18:08';
+  cache::$info['data_original']['build'] = '2018-08-22 12:23:18';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1212,20 +1212,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['palette']->description = new \effcore\text();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['palette']->description->args['type'] = 'group_palette';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['palette']->description->text = 'Group %%_type.';
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_submit'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->tag_name = 'button';
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->children['label']->text = 'submit';
+  cache::$data['data_original']['forms']['demo']['demo']->children['button_submit'] = new \effcore\button();
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->attributes['value'] = 'submit';
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_reset'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->tag_name = 'button';
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->children['label']->text = 'reset';
+  cache::$data['data_original']['forms']['demo']['demo']->children['button_submit']->title = 'submit';
+  cache::$data['data_original']['forms']['demo']['demo']->children['button_reset'] = new \effcore\button();
   cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->attributes['value'] = 'reset';
+  cache::$data['data_original']['forms']['demo']['demo']->children['button_reset']->title = 'reset';
   cache::$data['data_original']['forms']['demo']['demo']->attributes['id'] = 'demo';
   cache::$data['data_original']['forms']['demo']['demo']->attributes['enctype'] = 'multipart/form-data';
   cache::$data['data_original']['forms']['demo']['demo']->attributes['method'] = 'post';
