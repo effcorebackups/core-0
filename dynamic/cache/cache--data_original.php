@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-22 15:50:54';
+  cache::$info['data_original']['build'] = '2018-08-22 15:55:04';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -886,21 +886,17 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->element_attributes['required'] = null;
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->description = 'Leave the field blank if you do not want to change its value.';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password'] = new \effcore\field_password();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_save'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->tag_name = 'button';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->children['label']->text = 'save';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_save'] = new \effcore\button();
   cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->attributes['value'] = 'save';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->tag_name = 'button';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->children['label']->text = 'cancel';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->attributes['type'] = 'submit';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->attributes['name'] = 'button';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->attributes['value'] = 'cancel';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->novalidate = true;
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->title = 'save';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new'] = new \effcore\button();
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new']->attributes['type'] = 'submit';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new']->attributes['name'] = 'button';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new']->attributes['value'] = 'cancel';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new']->title = 'cancel';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new']->novalidate = true;
   cache::$data['data_original']['forms']['user']['user_edit']->attributes['id'] = 'user_edit';
   cache::$data['data_original']['forms']['user']['user_edit']->attributes['enctype'] = 'multipart/form-data';
   cache::$data['data_original']['forms']['user']['user_edit']->attributes['method'] = 'post';
