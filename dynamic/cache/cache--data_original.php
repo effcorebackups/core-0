@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-22 12:23:18';
+  cache::$info['data_original']['build'] = '2018-08-22 12:31:12';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1290,20 +1290,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_]+$%';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['params']->children['table_prefix']->element_attributes['required'] = null;
   cache::$data['data_original']['forms']['core']['install']->children['license_agreement'] = new \effcore\group_license_agreement();
-  cache::$data['data_original']['forms']['core']['install']->children['button_install'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['core']['install']->children['button_install']->tag_name = 'button';
-  cache::$data['data_original']['forms']['core']['install']->children['button_install']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['core']['install']->children['button_install']->children['label']->text = 'install';
+  cache::$data['data_original']['forms']['core']['install']->children['button_install'] = new \effcore\button();
   cache::$data['data_original']['forms']['core']['install']->children['button_install']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['core']['install']->children['button_install']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['core']['install']->children['button_install']->attributes['value'] = 'install';
-  cache::$data['data_original']['forms']['core']['install']->children['button_to_front'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['core']['install']->children['button_to_front']->tag_name = 'button';
-  cache::$data['data_original']['forms']['core']['install']->children['button_to_front']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['core']['install']->children['button_to_front']->children['label']->text = 'to front page';
+  cache::$data['data_original']['forms']['core']['install']->children['button_install']->title = 'install';
+  cache::$data['data_original']['forms']['core']['install']->children['button_to_front'] = new \effcore\button();
   cache::$data['data_original']['forms']['core']['install']->children['button_to_front']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['core']['install']->children['button_to_front']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['core']['install']->children['button_to_front']->attributes['value'] = 'to_front';
+  cache::$data['data_original']['forms']['core']['install']->children['button_to_front']->title = 'to front page';
   cache::$data['data_original']['forms']['core']['install']->children['button_to_front']->novalidate = true;
   cache::$data['data_original']['forms']['core']['install']->attributes['id'] = 'install';
   cache::$data['data_original']['forms']['core']['install']->attributes['method'] = 'post';
