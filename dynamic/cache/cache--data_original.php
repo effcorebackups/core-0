@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-22 15:55:04';
+  cache::$info['data_original']['build'] = '2018-08-22 15:56:21';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -891,12 +891,12 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->attributes['value'] = 'save';
   cache::$data['data_original']['forms']['user']['user_edit']->children['button_save']->title = 'save';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new'] = new \effcore\button();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new']->attributes['type'] = 'submit';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new']->attributes['name'] = 'button';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new']->attributes['value'] = 'cancel';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new']->title = 'cancel';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel_new']->novalidate = true;
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel'] = new \effcore\button();
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->attributes['type'] = 'submit';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->attributes['name'] = 'button';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->attributes['value'] = 'cancel';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->title = 'cancel';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['button_cancel']->novalidate = true;
   cache::$data['data_original']['forms']['user']['user_edit']->attributes['id'] = 'user_edit';
   cache::$data['data_original']['forms']['user']['user_edit']->attributes['enctype'] = 'multipart/form-data';
   cache::$data['data_original']['forms']['user']['user_edit']->attributes['method'] = 'post';
