@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-22 12:39:17';
+  cache::$info['data_original']['build'] = '2018-08-22 15:47:30';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -941,13 +941,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->checked['remember'] = 'remember';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->checked['fixed_ip'] = 'fixed_ip';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['captcha'] = new \effcore\field_captcha();
-  cache::$data['data_original']['forms']['user']['registration']->children['button_register'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['user']['registration']->children['button_register']->tag_name = 'button';
-  cache::$data['data_original']['forms']['user']['registration']->children['button_register']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['user']['registration']->children['button_register']->children['label']->text = 'register';
+  cache::$data['data_original']['forms']['user']['registration']->children['button_register'] = new \effcore\button();
   cache::$data['data_original']['forms']['user']['registration']->children['button_register']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['user']['registration']->children['button_register']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['user']['registration']->children['button_register']->attributes['value'] = 'register';
+  cache::$data['data_original']['forms']['user']['registration']->children['button_register']->title = 'register';
   cache::$data['data_original']['forms']['user']['registration']->attributes['id'] = 'registration';
   cache::$data['data_original']['forms']['user']['registration']->attributes['method'] = 'post';
   cache::$data['data_original']['forms']['user']['registration']->attributes['novalidate'] = 'novalidate';
@@ -978,13 +976,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->checked['remember'] = 'remember';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->checked['fixed_ip'] = 'fixed_ip';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['captcha'] = new \effcore\field_captcha();
-  cache::$data['data_original']['forms']['user']['login']->children['button_login'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['user']['login']->children['button_login']->tag_name = 'button';
-  cache::$data['data_original']['forms']['user']['login']->children['button_login']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['user']['login']->children['button_login']->children['label']->text = 'login';
+  cache::$data['data_original']['forms']['user']['login']->children['button_login'] = new \effcore\button();
   cache::$data['data_original']['forms']['user']['login']->children['button_login']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['user']['login']->children['button_login']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['user']['login']->children['button_login']->attributes['value'] = 'login';
+  cache::$data['data_original']['forms']['user']['login']->children['button_login']->title = 'login';
   cache::$data['data_original']['forms']['user']['login']->attributes['id'] = 'login';
   cache::$data['data_original']['forms']['user']['login']->attributes['method'] = 'post';
   cache::$data['data_original']['forms']['user']['login']->attributes['novalidate'] = 'novalidate';

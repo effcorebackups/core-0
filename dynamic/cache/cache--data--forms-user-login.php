@@ -14,13 +14,11 @@ namespace effcore { # cache for data--forms-user-login
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->checked['remember'] = 'remember';
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->checked['fixed_ip'] = 'fixed_ip';
   cache::$data['data--forms-user-login']->children['credentials']->children['captcha'] = new \effcore\field_captcha();
-  cache::$data['data--forms-user-login']->children['button_login'] = new \effcore\markup();
-  cache::$data['data--forms-user-login']->children['button_login']->tag_name = 'button';
-  cache::$data['data--forms-user-login']->children['button_login']->children['label'] = new \effcore\text();
-  cache::$data['data--forms-user-login']->children['button_login']->children['label']->text = 'login';
+  cache::$data['data--forms-user-login']->children['button_login'] = new \effcore\button();
   cache::$data['data--forms-user-login']->children['button_login']->attributes['type'] = 'submit';
   cache::$data['data--forms-user-login']->children['button_login']->attributes['name'] = 'button';
   cache::$data['data--forms-user-login']->children['button_login']->attributes['value'] = 'login';
+  cache::$data['data--forms-user-login']->children['button_login']->title = 'login';
   cache::$data['data--forms-user-login']->attributes['id'] = 'login';
   cache::$data['data--forms-user-login']->attributes['method'] = 'post';
   cache::$data['data--forms-user-login']->attributes['novalidate'] = 'novalidate';

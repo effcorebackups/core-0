@@ -19,13 +19,11 @@ namespace effcore { # cache for data--forms-user-registration
   cache::$data['data--forms-user-registration']->children['credentials']->children['session_params']->checked['remember'] = 'remember';
   cache::$data['data--forms-user-registration']->children['credentials']->children['session_params']->checked['fixed_ip'] = 'fixed_ip';
   cache::$data['data--forms-user-registration']->children['credentials']->children['captcha'] = new \effcore\field_captcha();
-  cache::$data['data--forms-user-registration']->children['button_register'] = new \effcore\markup();
-  cache::$data['data--forms-user-registration']->children['button_register']->tag_name = 'button';
-  cache::$data['data--forms-user-registration']->children['button_register']->children['label'] = new \effcore\text();
-  cache::$data['data--forms-user-registration']->children['button_register']->children['label']->text = 'register';
+  cache::$data['data--forms-user-registration']->children['button_register'] = new \effcore\button();
   cache::$data['data--forms-user-registration']->children['button_register']->attributes['type'] = 'submit';
   cache::$data['data--forms-user-registration']->children['button_register']->attributes['name'] = 'button';
   cache::$data['data--forms-user-registration']->children['button_register']->attributes['value'] = 'register';
+  cache::$data['data--forms-user-registration']->children['button_register']->title = 'register';
   cache::$data['data--forms-user-registration']->attributes['id'] = 'registration';
   cache::$data['data--forms-user-registration']->attributes['method'] = 'post';
   cache::$data['data--forms-user-registration']->attributes['novalidate'] = 'novalidate';
