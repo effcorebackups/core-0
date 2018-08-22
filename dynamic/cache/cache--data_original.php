@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-21 16:54:50';
+  cache::$info['data_original']['build'] = '2018-08-22 11:45:23';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2816,10 +2816,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must be selected!'] = 'Поле "%%_title" должно быть выбрано!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a maximum of %%_number character%%_plural{number,s}!'] = 'Поле "%%_title" должно содержать максимум %%_number символ%%_plural{number,ov-a}!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a minimum of %%_number character%%_plural{number,s}!'] = 'Поле "%%_title" должно содержать минимум %%_number символ%%_plural{number,ov-a}!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain %%_number character%%_plural{number,s}.'] = 'Поле должно содержать %%_number символ%%_plural{number,ov-a}.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain a maximum %%_number file%%_plural{number,s}.'] = 'Поле может содержать максимум %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain a maximum of %%_number character%%_plural{number,s}.'] = 'Поле может содержать максимум %%_number символ%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain a minimum of %%_number character%%_plural{number,s}.'] = 'Поле может содержать минимум %%_number символ%%_plural{number,ov-a}.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain a maximum %%_number file%%_plural{number,s}.'] = 'Поле может содержать максимум %%_number файл%%_plural{number,ov-a}.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain %%_number character%%_plural{number,s}.'] = 'Поле должно содержать %%_number символ%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value does not match the regular expression %%_expression.'] = 'Значение поля не соответствует регулярному выражению %%_expression.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
@@ -2910,8 +2910,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Password'] = 'Пароль';
   cache::$data['data_original']['translations']['locales']['ru']->data['Path'] = 'Путь';
   cache::$data['data_original']['translations']['locales']['ru']->data['Phone'] = 'Телефон';
-  cache::$data['data_original']['translations']['locales']['ru']->data['PHP PDO driver for %%_name is not available.'] = 'PHP PDO драйвер для %%_name не доступен.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['PHP PDO extension is not available.'] = 'PHP PDO расширение не доступно.';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP Version'] = 'PHP Версия';
   cache::$data['data_original']['translations']['locales']['ru']->data['Port'] = 'Порт';
   cache::$data['data_original']['translations']['locales']['ru']->data['Provisioning key'] = 'Ключ обеспечения';
@@ -2974,6 +2972,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['The changes was saved.'] = 'Изменения были сохранены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['The color should be in the format "#abcdef", where "ab" is the value of the red component, "cd" - green and "ef" - blue.'] = 'Цвет должен быть в формате "#abcdef", где "ab" - это значение красной компоненты, "cd" - зеленой и "ef" - синей.';
   cache::$data['data_original']['translations']['locales']['ru']->data['The color should be specified in a special format.'] = 'Цвет должен указываться в специальном формате.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['The PHP extension "%%_name" is not available!'] = 'PHP расширение "%%_name" не доступно!';
   cache::$data['data_original']['translations']['locales']['ru']->data['The report was generated in real time but the list of classes is depend on the cache!'] = 'Отчет был создан в режиме реального времени, но список классов зависит от кеша!';
   cache::$data['data_original']['translations']['locales']['ru']->data['The report was generated in real time.'] = 'Отчет был создан в режиме реального времени.';
   cache::$data['data_original']['translations']['locales']['ru']->data['the size of uploaded file more than %%_size'] = 'размер загруженного файла больше чем %%_size';
