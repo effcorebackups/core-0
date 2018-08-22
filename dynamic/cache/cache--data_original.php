@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-22 11:45:23';
+  cache::$info['data_original']['build'] = '2018-08-22 12:18:08';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1005,21 +1005,17 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->attributes['required'] = 'required';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->element_attributes['name'] = 'color_bg_id';
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->children['color_bg_id']->title = 'Background color';
-  cache::$data['data_original']['forms']['page']['decoration']->children['button_save'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['page']['decoration']->children['button_save']->tag_name = 'button';
-  cache::$data['data_original']['forms']['page']['decoration']->children['button_save']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['page']['decoration']->children['button_save']->children['label']->text = 'save';
+  cache::$data['data_original']['forms']['page']['decoration']->children['button_save'] = new \effcore\button();
   cache::$data['data_original']['forms']['page']['decoration']->children['button_save']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['page']['decoration']->children['button_save']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['page']['decoration']->children['button_save']->attributes['value'] = 'save';
-  cache::$data['data_original']['forms']['page']['decoration']->children['button_restore'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['page']['decoration']->children['button_restore']->tag_name = 'button';
-  cache::$data['data_original']['forms']['page']['decoration']->children['button_restore']->children['label'] = new \effcore\text();
-  cache::$data['data_original']['forms']['page']['decoration']->children['button_restore']->children['label']->text = 'restore';
+  cache::$data['data_original']['forms']['page']['decoration']->children['button_save']->title = 'save';
+  cache::$data['data_original']['forms']['page']['decoration']->children['button_restore'] = new \effcore\button();
   cache::$data['data_original']['forms']['page']['decoration']->children['button_restore']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['page']['decoration']->children['button_restore']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['page']['decoration']->children['button_restore']->attributes['value'] = 'restore';
   cache::$data['data_original']['forms']['page']['decoration']->children['button_restore']->attributes['disabled'] = 'disabled';
+  cache::$data['data_original']['forms']['page']['decoration']->children['button_restore']->title = 'restore';
   cache::$data['data_original']['forms']['page']['decoration']->attributes['id'] = 'decoration';
   cache::$data['data_original']['forms']['page']['decoration']->attributes['method'] = 'post';
   cache::$data['data_original']['forms']['page']['decoration']->attributes['novalidate'] = 'novalidate';
