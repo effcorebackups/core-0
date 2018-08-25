@@ -35,6 +35,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Check file (if exists) and directory permissions.'] = 'Проверьте разрешения файла (если существует) и каталога.';
   cache::$data['data--translations-locales-ru']->data['Checkbox'] = 'Флаг';
   cache::$data['data--translations-locales-ru']->data['Checkboxes'] = 'Флажки';
+  cache::$data['data--translations-locales-ru']->data['Circular diagram'] = 'Круговая диаграмма';
   cache::$data['data--translations-locales-ru']->data['collapse'] = 'свернуть';
   cache::$data['data--translations-locales-ru']->data['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   cache::$data['data--translations-locales-ru']->data['Color'] = 'Цвет';
@@ -60,6 +61,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Delete'] = 'Удалить';
   cache::$data['data--translations-locales-ru']->data['delete'] = 'удалить';
   cache::$data['data--translations-locales-ru']->data['Description'] = 'Описание';
+  cache::$data['data--translations-locales-ru']->data['Diagrams'] = 'Диаграммы';
   cache::$data['data--translations-locales-ru']->data['disable'] = 'выключить';
   cache::$data['data--translations-locales-ru']->data['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data--translations-locales-ru']->data['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
@@ -140,6 +142,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Key "%%_name" does not exist!'] = 'Ключ "%%_name" не существует!';
   cache::$data['data--translations-locales-ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache::$data['data--translations-locales-ru']->data['License agreement'] = 'Лицензионное соглашение';
+  cache::$data['data--translations-locales-ru']->data['Linear diagram'] = 'Линейная диаграмма';
   cache::$data['data--translations-locales-ru']->data['List'] = 'Список';
   cache::$data['data--translations-locales-ru']->data['Load'] = 'Загрузка';
   cache::$data['data--translations-locales-ru']->data['load'] = 'загрузка';

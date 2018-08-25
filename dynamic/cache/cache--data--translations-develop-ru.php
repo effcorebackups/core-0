@@ -52,6 +52,10 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Option 7 (inserted from code)'] = 'Опция 7 (вставлена из кода)';
   cache::$data['data--translations-develop-ru']->data['Option 8 (inserted from code)'] = 'Опция 8 (вставлена из кода)';
   cache::$data['data--translations-develop-ru']->data['Option 9 (inserted from code)'] = 'Опция 9 (вставлена из кода)';
+  cache::$data['data--translations-develop-ru']->data['Parameter 1'] = 'Параметр 1';
+  cache::$data['data--translations-develop-ru']->data['Parameter 2'] = 'Параметр 2';
+  cache::$data['data--translations-develop-ru']->data['Parameter 3'] = 'Параметр 3';
+  cache::$data['data--translations-develop-ru']->data['Parameter 4'] = 'Параметр 4';
   cache::$data['data--translations-develop-ru']->data['PHP modules usage'] = 'Использование PHP модулей';
   cache::$data['data--translations-develop-ru']->data['PHP modules'] = 'PHP модули';
   cache::$data['data--translations-develop-ru']->data['Pos.'] = 'Поз.';

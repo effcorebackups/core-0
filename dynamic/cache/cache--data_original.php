@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-23 09:03:15';
+  cache::$info['data_original']['build'] = '2018-08-25 11:02:46';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -589,6 +589,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_canvas']->region = 'content';
   cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_canvas']->type = 'code';
   cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_canvas']->handler = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_canvas';
+  cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_diagrams'] = new \stdClass();
+  cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_diagrams']->region = 'content';
+  cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_diagrams']->type = 'code';
+  cache::$data['data_original']['pages']['demo']['demo']->content['block_demo_diagrams']->handler = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_diagrams';
   cache::$data['data_original']['pages']['develop']['structures'] = new \effcore\page();
   cache::$data['data_original']['pages']['develop']['structures']->title = 'Structures';
   cache::$data['data_original']['pages']['develop']['structures']->https = true;
@@ -2724,6 +2728,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Check file (if exists) and directory permissions.'] = 'Проверьте разрешения файла (если существует) и каталога.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Checkbox'] = 'Флаг';
   cache::$data['data_original']['translations']['locales']['ru']->data['Checkboxes'] = 'Флажки';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Circular diagram'] = 'Круговая диаграмма';
   cache::$data['data_original']['translations']['locales']['ru']->data['collapse'] = 'свернуть';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color'] = 'Цвет';
@@ -2749,6 +2754,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Delete'] = 'Удалить';
   cache::$data['data_original']['translations']['locales']['ru']->data['delete'] = 'удалить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Description'] = 'Описание';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Diagrams'] = 'Диаграммы';
   cache::$data['data_original']['translations']['locales']['ru']->data['disable'] = 'выключить';
   cache::$data['data_original']['translations']['locales']['ru']->data['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data_original']['translations']['locales']['ru']->data['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
@@ -2829,6 +2835,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Key "%%_name" does not exist!'] = 'Ключ "%%_name" не существует!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache::$data['data_original']['translations']['locales']['ru']->data['License agreement'] = 'Лицензионное соглашение';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Linear diagram'] = 'Линейная диаграмма';
   cache::$data['data_original']['translations']['locales']['ru']->data['List'] = 'Список';
   cache::$data['data_original']['translations']['locales']['ru']->data['Load'] = 'Загрузка';
   cache::$data['data_original']['translations']['locales']['ru']->data['load'] = 'загрузка';
@@ -3044,6 +3051,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Option 7 (inserted from code)'] = 'Опция 7 (вставлена из кода)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Option 8 (inserted from code)'] = 'Опция 8 (вставлена из кода)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Option 9 (inserted from code)'] = 'Опция 9 (вставлена из кода)';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Parameter 1'] = 'Параметр 1';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Parameter 2'] = 'Параметр 2';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Parameter 3'] = 'Параметр 3';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Parameter 4'] = 'Параметр 4';
   cache::$data['data_original']['translations']['develop']['ru']->data['PHP modules usage'] = 'Использование PHP модулей';
   cache::$data['data_original']['translations']['develop']['ru']->data['PHP modules'] = 'PHP модули';
   cache::$data['data_original']['translations']['develop']['ru']->data['Pos.'] = 'Поз.';

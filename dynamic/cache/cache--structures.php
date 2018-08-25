@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-08-23 09:03:15';
+  cache::$info['structures']['build'] = '2018-08-25 11:02:46';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -69,6 +69,12 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\demo_trait']->name = 'demo_trait';
   cache::$data['structures']['effcore\\demo_trait']->type = 'trait';
   cache::$data['structures']['effcore\\demo_trait']->file = 'system/module_develop/module_demo/backend/demo--trait.php';
+  cache::$data['structures']['effcore\\diagram'] = new \stdClass();
+  cache::$data['structures']['effcore\\diagram']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\diagram']->name = 'diagram';
+  cache::$data['structures']['effcore\\diagram']->type = 'class';
+  cache::$data['structures']['effcore\\diagram']->extends = 'effcore\\container';
+  cache::$data['structures']['effcore\\diagram']->file = 'system/module_page/backend/pattern--diagram.php';
   cache::$data['structures']['effcore\\dynamic'] = new \stdClass();
   cache::$data['structures']['effcore\\dynamic']->modifier = 'abstract';
   cache::$data['structures']['effcore\\dynamic']->namespace = 'effcore';
