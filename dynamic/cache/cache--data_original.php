@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-25 11:02:46';
+  cache::$info['data_original']['build'] = '2018-08-25 21:19:20';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2728,7 +2728,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Check file (if exists) and directory permissions.'] = 'Проверьте разрешения файла (если существует) и каталога.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Checkbox'] = 'Флаг';
   cache::$data['data_original']['translations']['locales']['ru']->data['Checkboxes'] = 'Флажки';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Circular diagram'] = 'Круговая диаграмма';
   cache::$data['data_original']['translations']['locales']['ru']->data['collapse'] = 'свернуть';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Color'] = 'Цвет';
@@ -2894,6 +2893,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Query error!'] = 'Ошибка запроса!';
   cache::$data['data_original']['translations']['locales']['ru']->data['query prepare return the false'] = 'подготовка запроса вернула false';
   cache::$data['data_original']['translations']['locales']['ru']->data['query'] = 'запрос';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Radial diagram'] = 'Круговая диаграмма';
   cache::$data['data_original']['translations']['locales']['ru']->data['Radiobutton'] = 'Переключатель';
   cache::$data['data_original']['translations']['locales']['ru']->data['Radiobuttons'] = 'Переключатели';
   cache::$data['data_original']['translations']['locales']['ru']->data['Range'] = 'Диапазон';

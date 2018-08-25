@@ -35,7 +35,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Check file (if exists) and directory permissions.'] = 'Проверьте разрешения файла (если существует) и каталога.';
   cache::$data['data--translations-locales-ru']->data['Checkbox'] = 'Флаг';
   cache::$data['data--translations-locales-ru']->data['Checkboxes'] = 'Флажки';
-  cache::$data['data--translations-locales-ru']->data['Circular diagram'] = 'Круговая диаграмма';
   cache::$data['data--translations-locales-ru']->data['collapse'] = 'свернуть';
   cache::$data['data--translations-locales-ru']->data['Color ID = %%_id (value = %%_value)'] = 'ID цвета = %%_id (значение = %%_value)';
   cache::$data['data--translations-locales-ru']->data['Color'] = 'Цвет';
@@ -201,6 +200,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Query error!'] = 'Ошибка запроса!';
   cache::$data['data--translations-locales-ru']->data['query prepare return the false'] = 'подготовка запроса вернула false';
   cache::$data['data--translations-locales-ru']->data['query'] = 'запрос';
+  cache::$data['data--translations-locales-ru']->data['Radial diagram'] = 'Круговая диаграмма';
   cache::$data['data--translations-locales-ru']->data['Radiobutton'] = 'Переключатель';
   cache::$data['data--translations-locales-ru']->data['Radiobuttons'] = 'Переключатели';
   cache::$data['data--translations-locales-ru']->data['Range'] = 'Диапазон';
