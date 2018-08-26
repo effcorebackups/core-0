@@ -2,13 +2,19 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-08-25 21:19:20';
+  cache::$info['structures']['build'] = '2018-08-26 13:11:20';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
   cache::$data['structures']['effcore\\access']->name = 'access';
   cache::$data['structures']['effcore\\access']->type = 'class';
   cache::$data['structures']['effcore\\access']->file = 'system/module_user/backend/access.php';
+  cache::$data['structures']['effcore\\block'] = new \stdClass();
+  cache::$data['structures']['effcore\\block']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\block']->name = 'block';
+  cache::$data['structures']['effcore\\block']->type = 'class';
+  cache::$data['structures']['effcore\\block']->extends = 'effcore\\markup';
+  cache::$data['structures']['effcore\\block']->file = 'system/module_page/backend/pattern--block.php';
   cache::$data['structures']['effcore\\button'] = new \stdClass();
   cache::$data['structures']['effcore\\button']->namespace = 'effcore';
   cache::$data['structures']['effcore\\button']->name = 'button';

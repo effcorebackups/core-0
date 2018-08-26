@@ -2,8 +2,7 @@
 
 namespace effcore { # cache for data--blocks
 
-  cache::$data['data--blocks']['page']['logo'] = new \effcore\markup();
-  cache::$data['data--blocks']['page']['logo']->tag_name = 'x-block';
+  cache::$data['data--blocks']['page']['logo'] = new \effcore\block();
   cache::$data['data--blocks']['page']['logo']->children['link'] = new \effcore\markup();
   cache::$data['data--blocks']['page']['logo']->children['link']->tag_name = 'a';
   cache::$data['data--blocks']['page']['logo']->children['link']->attributes['class']['to_front'] = 'to_front';
@@ -11,12 +10,8 @@ namespace effcore { # cache for data--blocks
   cache::$data['data--blocks']['page']['logo']->children['link']->attributes['title'] = new \effcore\text();
   cache::$data['data--blocks']['page']['logo']->children['link']->attributes['title']->text = 'to front page';
   cache::$data['data--blocks']['page']['logo']->attributes['class']['logo'] = 'logo';
-  cache::$data['data--blocks']['demo']['demo'] = new \effcore\markup();
-  cache::$data['data--blocks']['demo']['demo']->tag_name = 'x-block';
-  cache::$data['data--blocks']['demo']['demo']->children['block_title'] = new \effcore\markup();
-  cache::$data['data--blocks']['demo']['demo']->children['block_title']->tag_name = 'h2';
-  cache::$data['data--blocks']['demo']['demo']->children['block_title']->children['content'] = new \effcore\text();
-  cache::$data['data--blocks']['demo']['demo']->children['block_title']->children['content']->text = 'Static block';
+  cache::$data['data--blocks']['demo']['demo'] = new \effcore\block();
+  cache::$data['data--blocks']['demo']['demo']->title = 'Static block';
   cache::$data['data--blocks']['demo']['demo']->children['demo_paragraph_title'] = new \effcore\markup();
   cache::$data['data--blocks']['demo']['demo']->children['demo_paragraph_title']->tag_name = 'h3';
   cache::$data['data--blocks']['demo']['demo']->children['demo_paragraph_title']->children['content'] = new \effcore\text();

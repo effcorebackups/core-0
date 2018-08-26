@@ -22,6 +22,10 @@ namespace effcore { # cache for data--templates
   cache::$data['data--templates']['page']['container']->name = 'container';
   cache::$data['data--templates']['page']['container']->type = 'text';
   cache::$data['data--templates']['page']['container']->data = '<%%_tag_name %%_attributes>%%_title_t%%_description_t%%_content%%_title_b%%_description_b</%%_tag_name>';
+  cache::$data['data--templates']['page']['block'] = new \stdClass();
+  cache::$data['data--templates']['page']['block']->name = 'block';
+  cache::$data['data--templates']['page']['block']->type = 'text';
+  cache::$data['data--templates']['page']['block']->data = '<%%_tag_name %%_attributes>%%_title%%_content</%%_tag_name>';
   cache::$data['data--templates']['page']['page'] = new \stdClass();
   cache::$data['data--templates']['page']['page']->name = 'page';
   cache::$data['data--templates']['page']['page']->type = 'file';
