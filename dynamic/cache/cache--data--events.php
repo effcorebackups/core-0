@@ -30,7 +30,7 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['user']->on_form_submit['login']->handler = '\\effcore\\modules\\user\\events_form_login::on_submit_login';
   cache::$data['data--events']['user']->on_form_submit['logout'] = new \effcore\event();
   cache::$data['data--events']['user']->on_form_submit['logout']->for = 'logout';
-  cache::$data['data--events']['user']->on_form_submit['logout']->handler = '\\effcore\\modules\\user\\events_form::on_submit_logout';
+  cache::$data['data--events']['user']->on_form_submit['logout']->handler = '\\effcore\\modules\\user\\events_form_logout::on_submit_logout';
   cache::$data['data--events']['user']->on_form_submit['user_delete'] = new \effcore\event();
   cache::$data['data--events']['user']->on_form_submit['user_delete']->for = 'user_delete';
   cache::$data['data--events']['user']->on_form_submit['user_delete']->handler = '\\effcore\\modules\\user\\events_form_user_delete::on_submit_user_delete';
