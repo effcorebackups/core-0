@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-08-27 08:17:12';
+  cache::$info['structures']['build'] = '2018-08-27 20:00:39';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -379,13 +379,13 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\module']->name = 'module';
   cache::$data['structures']['effcore\\module']->type = 'class';
   cache::$data['structures']['effcore\\module']->file = 'system/module_core/backend/pattern--module.php';
-  cache::$data['structures']['effcore\\modules\\core\\events_form'] = new \stdClass();
-  cache::$data['structures']['effcore\\modules\\core\\events_form']->modifier = 'abstract';
-  cache::$data['structures']['effcore\\modules\\core\\events_form']->namespace = 'effcore\\modules\\core';
-  cache::$data['structures']['effcore\\modules\\core\\events_form']->name = 'events_form';
-  cache::$data['structures']['effcore\\modules\\core\\events_form']->type = 'class';
-  cache::$data['structures']['effcore\\modules\\core\\events_form']->extends = 'effcore\\events_form';
-  cache::$data['structures']['effcore\\modules\\core\\events_form']->file = 'system/module_core/backend/events--form.php';
+  cache::$data['structures']['effcore\\modules\\core\\events_form_install'] = new \stdClass();
+  cache::$data['structures']['effcore\\modules\\core\\events_form_install']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\modules\\core\\events_form_install']->namespace = 'effcore\\modules\\core';
+  cache::$data['structures']['effcore\\modules\\core\\events_form_install']->name = 'events_form_install';
+  cache::$data['structures']['effcore\\modules\\core\\events_form_install']->type = 'class';
+  cache::$data['structures']['effcore\\modules\\core\\events_form_install']->extends = 'effcore\\events_form';
+  cache::$data['structures']['effcore\\modules\\core\\events_form_install']->file = 'system/module_core/backend/events--form-install.php';
   cache::$data['structures']['effcore\\modules\\core\\events_module'] = new \stdClass();
   cache::$data['structures']['effcore\\modules\\core\\events_module']->modifier = 'abstract';
   cache::$data['structures']['effcore\\modules\\core\\events_module']->namespace = 'effcore\\modules\\core';
