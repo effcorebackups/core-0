@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-27 20:08:44';
+  cache::$info['data_original']['build'] = '2018-08-27 20:15:25';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1321,7 +1321,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['events']['user']->on_form_submit['logout']->handler = '\\effcore\\modules\\user\\events_form::on_submit_logout';
   cache::$data['data_original']['events']['user']->on_form_submit['user_delete'] = new \effcore\event();
   cache::$data['data_original']['events']['user']->on_form_submit['user_delete']->for = 'user_delete';
-  cache::$data['data_original']['events']['user']->on_form_submit['user_delete']->handler = '\\effcore\\modules\\user\\events_form::on_submit_user_delete';
+  cache::$data['data_original']['events']['user']->on_form_submit['user_delete']->handler = '\\effcore\\modules\\user\\events_form_user_delete::on_submit_user_delete';
   cache::$data['data_original']['events']['user']->on_form_submit['user_edit'] = new \effcore\event();
   cache::$data['data_original']['events']['user']->on_form_submit['user_edit']->for = 'user_edit';
   cache::$data['data_original']['events']['user']->on_form_submit['user_edit']->handler = '\\effcore\\modules\\user\\events_form::on_submit_user_edit';
