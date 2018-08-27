@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-08-27 20:04:00';
+  cache::$info['structures']['build'] = '2018-08-27 20:05:50';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -487,13 +487,13 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\modules\\storage\\events_storage']->name = 'events_storage';
   cache::$data['structures']['effcore\\modules\\storage\\events_storage']->type = 'class';
   cache::$data['structures']['effcore\\modules\\storage\\events_storage']->file = 'system/module_storage/backend/events--storage.php';
-  cache::$data['structures']['effcore\\modules\\test\\events_form'] = new \stdClass();
-  cache::$data['structures']['effcore\\modules\\test\\events_form']->modifier = 'abstract';
-  cache::$data['structures']['effcore\\modules\\test\\events_form']->namespace = 'effcore\\modules\\test';
-  cache::$data['structures']['effcore\\modules\\test\\events_form']->name = 'events_form';
-  cache::$data['structures']['effcore\\modules\\test\\events_form']->type = 'class';
-  cache::$data['structures']['effcore\\modules\\test\\events_form']->extends = 'effcore\\events_form';
-  cache::$data['structures']['effcore\\modules\\test\\events_form']->file = 'system/module_develop/module_test/backend/events--form.php';
+  cache::$data['structures']['effcore\\modules\\test\\events_form_test'] = new \stdClass();
+  cache::$data['structures']['effcore\\modules\\test\\events_form_test']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\modules\\test\\events_form_test']->namespace = 'effcore\\modules\\test';
+  cache::$data['structures']['effcore\\modules\\test\\events_form_test']->name = 'events_form_test';
+  cache::$data['structures']['effcore\\modules\\test\\events_form_test']->type = 'class';
+  cache::$data['structures']['effcore\\modules\\test\\events_form_test']->extends = 'effcore\\events_form';
+  cache::$data['structures']['effcore\\modules\\test\\events_form_test']->file = 'system/module_develop/module_test/backend/events--form-test.php';
   cache::$data['structures']['effcore\\modules\\user\\events_access'] = new \stdClass();
   cache::$data['structures']['effcore\\modules\\user\\events_access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\modules\\user\\events_access']->namespace = 'effcore\\modules\\user';
