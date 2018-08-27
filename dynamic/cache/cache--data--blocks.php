@@ -3,6 +3,7 @@
 namespace effcore { # cache for data--blocks
 
   cache::$data['data--blocks']['page']['logo'] = new \effcore\block();
+  cache::$data['data--blocks']['page']['logo']->content_tag_name = null;
   cache::$data['data--blocks']['page']['logo']->children['link'] = new \effcore\markup();
   cache::$data['data--blocks']['page']['logo']->children['link']->tag_name = 'a';
   cache::$data['data--blocks']['page']['logo']->children['link']->attributes['class']['to_front'] = 'to_front';

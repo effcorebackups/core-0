@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-26 13:11:20';
+  cache::$info['data_original']['build'] = '2018-08-27 08:17:12';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2509,6 +2509,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['captcha_characters']['page']['ch9']->character = 9;
   cache::$data['data_original']['captcha_characters']['page']['ch9']->glyphs['default'] = '01000|00100|00010|00001|01110|10001|10001|10001|10001|01110';
   cache::$data['data_original']['blocks']['page']['logo'] = new \effcore\block();
+  cache::$data['data_original']['blocks']['page']['logo']->content_tag_name = null;
   cache::$data['data_original']['blocks']['page']['logo']->children['link'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['page']['logo']->children['link']->tag_name = 'a';
   cache::$data['data_original']['blocks']['page']['logo']->children['link']->attributes['class']['to_front'] = 'to_front';
