@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-08-28 11:19:14';
+  cache::$info['structures']['build'] = '2018-08-28 11:24:15';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -99,12 +99,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\event']->name = 'event';
   cache::$data['structures']['effcore\\event']->type = 'class';
   cache::$data['structures']['effcore\\event']->file = 'system/module_core/backend/pattern--event.php';
-  cache::$data['structures']['effcore\\events_token'] = new \stdClass();
-  cache::$data['structures']['effcore\\events_token']->modifier = 'abstract';
-  cache::$data['structures']['effcore\\events_token']->namespace = 'effcore';
-  cache::$data['structures']['effcore\\events_token']->name = 'events_token';
-  cache::$data['structures']['effcore\\events_token']->type = 'class';
-  cache::$data['structures']['effcore\\events_token']->file = 'system/module_core/backend/events--gl--token.php';
   cache::$data['structures']['effcore\\external_cache'] = new \stdClass();
   cache::$data['structures']['effcore\\external_cache']->namespace = 'effcore';
   cache::$data['structures']['effcore\\external_cache']->name = 'external_cache';
@@ -457,7 +451,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\modules\\page\\events_token']->namespace = 'effcore\\modules\\page';
   cache::$data['structures']['effcore\\modules\\page\\events_token']->name = 'events_token';
   cache::$data['structures']['effcore\\modules\\page\\events_token']->type = 'class';
-  cache::$data['structures']['effcore\\modules\\page\\events_token']->extends = 'effcore\\events_token';
   cache::$data['structures']['effcore\\modules\\page\\events_token']->file = 'system/module_page/backend/events--token.php';
   cache::$data['structures']['effcore\\modules\\storage\\events_storage'] = new \stdClass();
   cache::$data['structures']['effcore\\modules\\storage\\events_storage']->modifier = 'abstract';
@@ -524,7 +517,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\modules\\user\\events_token']->namespace = 'effcore\\modules\\user';
   cache::$data['structures']['effcore\\modules\\user\\events_token']->name = 'events_token';
   cache::$data['structures']['effcore\\modules\\user\\events_token']->type = 'class';
-  cache::$data['structures']['effcore\\modules\\user\\events_token']->extends = 'effcore\\events_token';
   cache::$data['structures']['effcore\\modules\\user\\events_token']->file = 'system/module_user/backend/events--token.php';
   cache::$data['structures']['effcore\\node'] = new \stdClass();
   cache::$data['structures']['effcore\\node']->namespace = 'effcore';
