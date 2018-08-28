@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-08-28 11:14:12';
+  cache::$info['structures']['build'] = '2018-08-28 11:19:14';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -99,12 +99,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\event']->name = 'event';
   cache::$data['structures']['effcore\\event']->type = 'class';
   cache::$data['structures']['effcore\\event']->file = 'system/module_core/backend/pattern--event.php';
-  cache::$data['structures']['effcore\\events_access'] = new \stdClass();
-  cache::$data['structures']['effcore\\events_access']->modifier = 'abstract';
-  cache::$data['structures']['effcore\\events_access']->namespace = 'effcore';
-  cache::$data['structures']['effcore\\events_access']->name = 'events_access';
-  cache::$data['structures']['effcore\\events_access']->type = 'class';
-  cache::$data['structures']['effcore\\events_access']->file = 'system/module_core/backend/events--gl--access.php';
   cache::$data['structures']['effcore\\events_token'] = new \stdClass();
   cache::$data['structures']['effcore\\events_token']->modifier = 'abstract';
   cache::$data['structures']['effcore\\events_token']->namespace = 'effcore';
@@ -482,7 +476,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\modules\\user\\events_access']->namespace = 'effcore\\modules\\user';
   cache::$data['structures']['effcore\\modules\\user\\events_access']->name = 'events_access';
   cache::$data['structures']['effcore\\modules\\user\\events_access']->type = 'class';
-  cache::$data['structures']['effcore\\modules\\user\\events_access']->extends = 'effcore\\events_access';
   cache::$data['structures']['effcore\\modules\\user\\events_access']->file = 'system/module_user/backend/events--access.php';
   cache::$data['structures']['effcore\\modules\\user\\events_form_login'] = new \stdClass();
   cache::$data['structures']['effcore\\modules\\user\\events_form_login']->modifier = 'abstract';
