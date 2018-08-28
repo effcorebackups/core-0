@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-08-28 08:53:55';
+  cache::$info['structures']['build'] = '2018-08-28 08:58:46';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -429,7 +429,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\modules\\demo\\events_form_demo']->namespace = 'effcore\\modules\\demo';
   cache::$data['structures']['effcore\\modules\\demo\\events_form_demo']->name = 'events_form_demo';
   cache::$data['structures']['effcore\\modules\\demo\\events_form_demo']->type = 'class';
-  cache::$data['structures']['effcore\\modules\\demo\\events_form_demo']->extends = 'effcore\\events_form';
   cache::$data['structures']['effcore\\modules\\demo\\events_form_demo']->file = 'system/module_develop/module_demo/backend/events--form-demo.php';
   cache::$data['structures']['effcore\\modules\\demo\\events_module'] = new \stdClass();
   cache::$data['structures']['effcore\\modules\\demo\\events_module']->modifier = 'abstract';

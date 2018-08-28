@@ -93,13 +93,13 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['demo']->on_module_install['demo']->handler = '\\effcore\\modules\\demo\\events_module::on_install';
   cache::$data['data--events']['demo']->on_form_init['demo'] = new \effcore\event();
   cache::$data['data--events']['demo']->on_form_init['demo']->for = 'demo';
-  cache::$data['data--events']['demo']->on_form_init['demo']->handler = '\\effcore\\modules\\demo\\events_form_demo::on_init_demo';
+  cache::$data['data--events']['demo']->on_form_init['demo']->handler = '\\effcore\\modules\\demo\\events_form_demo::on_init';
   cache::$data['data--events']['demo']->on_form_validate['demo'] = new \effcore\event();
   cache::$data['data--events']['demo']->on_form_validate['demo']->for = 'demo';
-  cache::$data['data--events']['demo']->on_form_validate['demo']->handler = '\\effcore\\modules\\demo\\events_form_demo::on_validate_demo';
+  cache::$data['data--events']['demo']->on_form_validate['demo']->handler = '\\effcore\\modules\\demo\\events_form_demo::on_validate';
   cache::$data['data--events']['demo']->on_form_submit['demo'] = new \effcore\event();
   cache::$data['data--events']['demo']->on_form_submit['demo']->for = 'demo';
-  cache::$data['data--events']['demo']->on_form_submit['demo']->handler = '\\effcore\\modules\\demo\\events_form_demo::on_submit_demo';
+  cache::$data['data--events']['demo']->on_form_submit['demo']->handler = '\\effcore\\modules\\demo\\events_form_demo::on_submit';
   cache::$data['data--events']['core'] = new \stdClass();
   cache::$data['data--events']['core']->on_module_install['core'] = new \effcore\event();
   cache::$data['data--events']['core']->on_module_install['core']->for = 'core';
