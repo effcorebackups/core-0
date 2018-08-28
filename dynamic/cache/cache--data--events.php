@@ -106,12 +106,12 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['core']->on_module_install['core']->handler = '\\effcore\\modules\\core\\events_module::on_install';
   cache::$data['data--events']['core']->on_form_init['install'] = new \effcore\event();
   cache::$data['data--events']['core']->on_form_init['install']->for = 'install';
-  cache::$data['data--events']['core']->on_form_init['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_init_install';
+  cache::$data['data--events']['core']->on_form_init['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_init';
   cache::$data['data--events']['core']->on_form_validate['install'] = new \effcore\event();
   cache::$data['data--events']['core']->on_form_validate['install']->for = 'install';
-  cache::$data['data--events']['core']->on_form_validate['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_validate_install';
+  cache::$data['data--events']['core']->on_form_validate['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_validate';
   cache::$data['data--events']['core']->on_form_submit['install'] = new \effcore\event();
   cache::$data['data--events']['core']->on_form_submit['install']->for = 'install';
-  cache::$data['data--events']['core']->on_form_submit['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_submit_install';
+  cache::$data['data--events']['core']->on_form_submit['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_submit';
 
 }

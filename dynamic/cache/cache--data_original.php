@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-27 20:37:46';
+  cache::$info['data_original']['build'] = '2018-08-28 08:53:56';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1394,13 +1394,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['events']['core']->on_module_install['core']->handler = '\\effcore\\modules\\core\\events_module::on_install';
   cache::$data['data_original']['events']['core']->on_form_init['install'] = new \effcore\event();
   cache::$data['data_original']['events']['core']->on_form_init['install']->for = 'install';
-  cache::$data['data_original']['events']['core']->on_form_init['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_init_install';
+  cache::$data['data_original']['events']['core']->on_form_init['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_init';
   cache::$data['data_original']['events']['core']->on_form_validate['install'] = new \effcore\event();
   cache::$data['data_original']['events']['core']->on_form_validate['install']->for = 'install';
-  cache::$data['data_original']['events']['core']->on_form_validate['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_validate_install';
+  cache::$data['data_original']['events']['core']->on_form_validate['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_validate';
   cache::$data['data_original']['events']['core']->on_form_submit['install'] = new \effcore\event();
   cache::$data['data_original']['events']['core']->on_form_submit['install']->for = 'install';
-  cache::$data['data_original']['events']['core']->on_form_submit['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_submit_install';
+  cache::$data['data_original']['events']['core']->on_form_submit['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_submit';
   cache::$data['data_original']['entities']['user']['permission'] = new \effcore\entity();
   cache::$data['data_original']['entities']['user']['permission']->name = 'permission';
   cache::$data['data_original']['entities']['user']['permission']->storage_id = 'main';
