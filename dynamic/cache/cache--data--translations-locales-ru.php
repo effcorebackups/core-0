@@ -100,8 +100,10 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" must contain a minimum of %%_number character%%_plural{number,s}!'] = 'Поле "%%_title" должно содержать минимум %%_number символ%%_plural{number,ov-a}!';
   cache::$data['data--translations-locales-ru']->data['Field can contain a maximum %%_number file%%_plural{number,s}.'] = 'Поле может содержать максимум %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['Field can contain a maximum of %%_number character%%_plural{number,s}.'] = 'Поле может содержать максимум %%_number символ%%_plural{number,ov-a}.';
+  cache::$data['data--translations-locales-ru']->data['Field can contain a minimum %%_number file%%_plural{number,s}.'] = 'Поле может содержать минимум %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['Field can contain a minimum of %%_number character%%_plural{number,s}.'] = 'Поле может содержать минимум %%_number символ%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['Field must contain %%_number character%%_plural{number,s}.'] = 'Поле должно содержать %%_number символ%%_plural{number,ov-a}.';
+  cache::$data['data--translations-locales-ru']->data['Field must contain %%_number file%%_plural{number,s}.'] = 'Поле должно содержать %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['Field value does not match the regular expression %%_expression.'] = 'Значение поля не соответствует регулярному выражению %%_expression.';
   cache::$data['data--translations-locales-ru']->data['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache::$data['data--translations-locales-ru']->data['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';

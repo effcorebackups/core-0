@@ -6,6 +6,7 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements'] = new \effcore\fieldset();
   cache::$data['data--forms-demo-demo']->children['form_elements']->title = 'Form elements';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['file'] = new \effcore\field_file();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['file']->min_files_number = 3;
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['file']->max_files_number = 3;
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['file']->allowed_types['gif'] = 'gif';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['file']->allowed_types['jpeg'] = 'jpeg';

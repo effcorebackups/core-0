@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-28 13:14:14';
+  cache::$info['data_original']['build'] = '2018-08-28 15:39:54';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1024,6 +1024,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->title = 'Form elements';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file'] = new \effcore\field_file();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->min_files_number = 3;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->max_files_number = 3;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->allowed_types['gif'] = 'gif';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->allowed_types['jpeg'] = 'jpeg';
@@ -2793,8 +2794,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" must contain a minimum of %%_number character%%_plural{number,s}!'] = 'Поле "%%_title" должно содержать минимум %%_number символ%%_plural{number,ov-a}!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain a maximum %%_number file%%_plural{number,s}.'] = 'Поле может содержать максимум %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain a maximum of %%_number character%%_plural{number,s}.'] = 'Поле может содержать максимум %%_number символ%%_plural{number,ov-a}.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain a minimum %%_number file%%_plural{number,s}.'] = 'Поле может содержать минимум %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain a minimum of %%_number character%%_plural{number,s}.'] = 'Поле может содержать минимум %%_number символ%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain %%_number character%%_plural{number,s}.'] = 'Поле должно содержать %%_number символ%%_plural{number,ov-a}.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain %%_number file%%_plural{number,s}.'] = 'Поле должно содержать %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value does not match the regular expression %%_expression.'] = 'Значение поля не соответствует регулярному выражению %%_expression.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is less than %%_value.'] = 'Значение поля меньше чем %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value is more than %%_value.'] = 'Значение поля больше чем %%_value.';
