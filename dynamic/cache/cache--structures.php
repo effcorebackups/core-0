@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-08-28 09:06:11';
+  cache::$info['structures']['build'] = '2018-08-28 09:08:30';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -508,7 +508,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\modules\\user\\events_form_logout']->namespace = 'effcore\\modules\\user';
   cache::$data['structures']['effcore\\modules\\user\\events_form_logout']->name = 'events_form_logout';
   cache::$data['structures']['effcore\\modules\\user\\events_form_logout']->type = 'class';
-  cache::$data['structures']['effcore\\modules\\user\\events_form_logout']->extends = 'effcore\\events_form';
   cache::$data['structures']['effcore\\modules\\user\\events_form_logout']->file = 'system/module_user/backend/events--form-logout.php';
   cache::$data['structures']['effcore\\modules\\user\\events_form_registration'] = new \stdClass();
   cache::$data['structures']['effcore\\modules\\user\\events_form_registration']->modifier = 'abstract';
