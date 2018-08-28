@@ -65,10 +65,10 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['page']->on_cron['page']->handler = '\\effcore\\modules\\page\\events_module::on_cron';
   cache::$data['data--events']['page']->on_form_init['decoration'] = new \effcore\event();
   cache::$data['data--events']['page']->on_form_init['decoration']->for = 'decoration';
-  cache::$data['data--events']['page']->on_form_init['decoration']->handler = '\\effcore\\modules\\page\\events_form_decoration::on_init_decoration';
+  cache::$data['data--events']['page']->on_form_init['decoration']->handler = '\\effcore\\modules\\page\\events_form_decoration::on_init';
   cache::$data['data--events']['page']->on_form_submit['decoration'] = new \effcore\event();
   cache::$data['data--events']['page']->on_form_submit['decoration']->for = 'decoration';
-  cache::$data['data--events']['page']->on_form_submit['decoration']->handler = '\\effcore\\modules\\page\\events_form_decoration::on_submit_decoration';
+  cache::$data['data--events']['page']->on_form_submit['decoration']->handler = '\\effcore\\modules\\page\\events_form_decoration::on_submit';
   cache::$data['data--events']['menu'] = new \stdClass();
   cache::$data['data--events']['menu']->on_module_start['menu'] = new \effcore\event();
   cache::$data['data--events']['menu']->on_module_start['menu']->for = 'menu';
