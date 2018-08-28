@@ -22,7 +22,7 @@ namespace effcore { # cache for data--pages-user-user_delete
   cache::$data['data--pages-user-user_delete']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages-user-user_delete']->content['block_menu_user']->region = 'head';
   cache::$data['data--pages-user-user_delete']->content['block_menu_user']->type = 'code';
-  cache::$data['data--pages-user-user_delete']->content['block_menu_user']->handler = '\\effcore\\events_page::on_show_block_menu_user';
+  cache::$data['data--pages-user-user_delete']->content['block_menu_user']->handler = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
   cache::$data['data--pages-user-user_delete']->content['block_logo'] = new \stdClass();
   cache::$data['data--pages-user-user_delete']->content['block_logo']->region = 'head';
   cache::$data['data--pages-user-user_delete']->content['block_logo']->type = 'link';
