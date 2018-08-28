@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-08-28 09:10:01';
+  cache::$info['structures']['build'] = '2018-08-28 09:13:17';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -520,7 +520,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\modules\\user\\events_form_user_delete']->namespace = 'effcore\\modules\\user';
   cache::$data['structures']['effcore\\modules\\user\\events_form_user_delete']->name = 'events_form_user_delete';
   cache::$data['structures']['effcore\\modules\\user\\events_form_user_delete']->type = 'class';
-  cache::$data['structures']['effcore\\modules\\user\\events_form_user_delete']->extends = 'effcore\\events_form';
   cache::$data['structures']['effcore\\modules\\user\\events_form_user_delete']->file = 'system/module_user/backend/events--form-user_delete.php';
   cache::$data['structures']['effcore\\modules\\user\\events_form_user_edit'] = new \stdClass();
   cache::$data['structures']['effcore\\modules\\user\\events_form_user_edit']->modifier = 'abstract';
