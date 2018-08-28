@@ -26,7 +26,7 @@ namespace effcore { # cache for data--pages-user-registration
   cache::$data['data--pages-user-registration']->content['block_title'] = new \stdClass();
   cache::$data['data--pages-user-registration']->content['block_title']->region = 'title';
   cache::$data['data--pages-user-registration']->content['block_title']->type = 'code';
-  cache::$data['data--pages-user-registration']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data--pages-user-registration']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data--pages-user-registration']->content['form_registration'] = new \stdClass();
   cache::$data['data--pages-user-registration']->content['form_registration']->region = 'content';
   cache::$data['data--pages-user-registration']->content['form_registration']->type = 'link';

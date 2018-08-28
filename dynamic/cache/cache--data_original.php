@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-28 11:03:10';
+  cache::$info['data_original']['build'] = '2018-08-28 11:14:12';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -244,7 +244,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_edit']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['user']['user_edit']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['user']['user_edit']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['user']['user_edit']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['user']['user_edit']->content['form_user_edit'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->content['form_user_edit']->region = 'content';
   cache::$data['data_original']['pages']['user']['user_edit']->content['form_user_edit']->type = 'link';
@@ -277,7 +277,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_delete']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_delete']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['user']['user_delete']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['user']['user_delete']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['user']['user_delete']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['user']['user_delete']->content['form_user_delete'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_delete']->content['form_user_delete']->region = 'content';
   cache::$data['data_original']['pages']['user']['user_delete']->content['form_user_delete']->type = 'link';
@@ -307,7 +307,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['user']['user']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['user']['user']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['user']['user']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['user']['user']->content['block_user_info'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->content['block_user_info']->region = 'content';
   cache::$data['data_original']['pages']['user']['user']->content['block_user_info']->type = 'code';
@@ -336,7 +336,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['roles']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['roles']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['user']['roles']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['user']['roles']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['user']['roles']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['user']['roles']->content['block_roles'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['roles']->content['block_roles']->region = 'content';
   cache::$data['data_original']['pages']['user']['roles']->content['block_roles']->type = 'code';
@@ -365,7 +365,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['registration']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['registration']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['user']['registration']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['user']['registration']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['user']['registration']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['user']['registration']->content['form_registration'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['registration']->content['form_registration']->region = 'content';
   cache::$data['data_original']['pages']['user']['registration']->content['form_registration']->type = 'link';
@@ -394,7 +394,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['logout']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['logout']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['user']['logout']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['user']['logout']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['user']['logout']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['user']['logout']->content['form_logout'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['logout']->content['form_logout']->region = 'content';
   cache::$data['data_original']['pages']['user']['logout']->content['form_logout']->type = 'link';
@@ -423,7 +423,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['login']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['login']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['user']['login']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['user']['login']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['user']['login']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['user']['login']->content['form_login'] = new \stdClass();
   cache::$data['data_original']['pages']['user']['login']->content['form_login']->region = 'content';
   cache::$data['data_original']['pages']['user']['login']->content['form_login']->type = 'link';
@@ -452,7 +452,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['storage']['instances_manager']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['storage']['instances_manager']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['block_tabs'] = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['block_tabs']->region = 'tabs';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['block_tabs']->type = 'link';
@@ -514,7 +514,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['page']['decoration']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['page']['decoration']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['page']['decoration']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['page']['decoration']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['page']['decoration']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['page']['decoration']->content['form_decoration'] = new \stdClass();
   cache::$data['data_original']['pages']['page']['decoration']->content['form_decoration']->region = 'content';
   cache::$data['data_original']['pages']['page']['decoration']->content['form_decoration']->type = 'link';
@@ -543,7 +543,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['test']['tests']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['test']['tests']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['test']['tests']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['test']['tests']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['test']['tests']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['test']['tests']->content['form_test'] = new \stdClass();
   cache::$data['data_original']['pages']['test']['tests']->content['form_test']->region = 'content';
   cache::$data['data_original']['pages']['test']['tests']->content['form_test']->type = 'link';
@@ -572,7 +572,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['demo']['demo']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['demo']['demo']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['demo']['demo']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['demo']['demo']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['demo']['demo']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['demo']['demo']->content['form_demo'] = new \stdClass();
   cache::$data['data_original']['pages']['demo']['demo']->content['form_demo']->region = 'content';
   cache::$data['data_original']['pages']['demo']['demo']->content['form_demo']->type = 'link';
@@ -617,7 +617,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['structures']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['develop']['structures']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['develop']['structures']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['develop']['structures']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_tabs'] = new \stdClass();
   cache::$data['data_original']['pages']['develop']['structures']->content['block_tabs']->region = 'tabs';
   cache::$data['data_original']['pages']['develop']['structures']->content['block_tabs']->type = 'link';
@@ -670,7 +670,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_php_mod_usage_list'] = new \stdClass();
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_php_mod_usage_list']->region = 'content';
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->content['block_php_mod_usage_list']->type = 'code';
@@ -699,7 +699,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['modules']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['modules']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['core']['modules']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['core']['modules']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['core']['modules']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->region = 'content';
   cache::$data['data_original']['pages']['core']['modules']->content['block_modules']->type = 'code';
@@ -728,7 +728,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['install']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['install']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['core']['install']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['core']['install']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['core']['install']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['core']['install']->content['form_install'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['install']->content['form_install']->region = 'content';
   cache::$data['data_original']['pages']['core']['install']->content['form_install']->type = 'link';
@@ -757,7 +757,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['info']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['info']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['core']['info']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['core']['info']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['core']['info']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['core']['info']->content['block_info'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['info']->content['block_info']->region = 'content';
   cache::$data['data_original']['pages']['core']['info']->content['block_info']->type = 'code';
@@ -783,7 +783,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['front']->content['block_title'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['front']->content['block_title']->region = 'title';
   cache::$data['data_original']['pages']['core']['front']->content['block_title']->type = 'code';
-  cache::$data['data_original']['pages']['core']['front']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data_original']['pages']['core']['front']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data_original']['pages']['core']['front']->content['block_wellcome'] = new \stdClass();
   cache::$data['data_original']['pages']['core']['front']->content['block_wellcome']->region = 'content';
   cache::$data['data_original']['pages']['core']['front']->content['block_wellcome']->type = 'text';

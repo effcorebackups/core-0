@@ -26,7 +26,7 @@ namespace effcore { # cache for data--pages-test-tests
   cache::$data['data--pages-test-tests']->content['block_title'] = new \stdClass();
   cache::$data['data--pages-test-tests']->content['block_title']->region = 'title';
   cache::$data['data--pages-test-tests']->content['block_title']->type = 'code';
-  cache::$data['data--pages-test-tests']->content['block_title']->handler = '\\effcore\\events_page::on_show_block_title';
+  cache::$data['data--pages-test-tests']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
   cache::$data['data--pages-test-tests']->content['form_test'] = new \stdClass();
   cache::$data['data--pages-test-tests']->content['form_test']->region = 'content';
   cache::$data['data--pages-test-tests']->content['form_test']->type = 'link';
