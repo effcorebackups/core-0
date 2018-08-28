@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-28 15:39:54';
+  cache::$info['data_original']['build'] = '2018-08-28 15:49:39';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1024,7 +1024,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->title = 'Form elements';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file'] = new \effcore\field_file();
-  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->min_files_number = 3;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->max_files_number = 3;
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->allowed_types['gif'] = 'gif';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['file']->allowed_types['jpeg'] = 'jpeg';
@@ -2855,6 +2854,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Memory for php (bytes)'] = 'Память для php (байт)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache::$data['data_original']['translations']['locales']['ru']->data['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Minimum allowed only %%_number file%%_plural{number,s}.'] = 'Допускается минимально только %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['missing a temporary directory'] = 'отсутствует временный каталог';
   cache::$data['data_original']['translations']['locales']['ru']->data['Moderators'] = 'Модераторы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Module for internationalization.'] = 'Модуль для интернационализации.';
@@ -3002,8 +3002,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Yes'] = 'Да';
   cache::$data['data_original']['translations']['locales']['ru']->data['yes'] = 'да';
+  cache::$data['data_original']['translations']['locales']['ru']->data['You are trying to upload too few files!'] = 'Вы пытаетесь загрузить слишком мало файлов!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['You are trying to upload too much files!'] = 'Вы пытаетесь загрузить слишком много файлов!';
   cache::$data['data_original']['translations']['locales']['ru']->data['You have already uploaded %%_number file%%_plural{number,s}.'] = 'Вы уже загрузили %%_number файл%%_plural{number,ov-a}.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['You try to upload too much files!'] = 'Вы пытаетесь загрузить слишком много файлов!';
   cache::$data['data_original']['translations']['develop']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['develop']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['develop']['ru']->data[' Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;'] = ' Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа.&#10;';

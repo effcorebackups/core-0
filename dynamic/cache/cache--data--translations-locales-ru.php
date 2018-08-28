@@ -161,6 +161,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Memory for php (bytes)'] = 'Память для php (байт)';
   cache::$data['data--translations-locales-ru']->data['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache::$data['data--translations-locales-ru']->data['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
+  cache::$data['data--translations-locales-ru']->data['Minimum allowed only %%_number file%%_plural{number,s}.'] = 'Допускается минимально только %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['missing a temporary directory'] = 'отсутствует временный каталог';
   cache::$data['data--translations-locales-ru']->data['Moderators'] = 'Модераторы';
   cache::$data['data--translations-locales-ru']->data['Module for internationalization.'] = 'Модуль для интернационализации.';
@@ -308,7 +309,8 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache::$data['data--translations-locales-ru']->data['Yes'] = 'Да';
   cache::$data['data--translations-locales-ru']->data['yes'] = 'да';
+  cache::$data['data--translations-locales-ru']->data['You are trying to upload too few files!'] = 'Вы пытаетесь загрузить слишком мало файлов!';
+  cache::$data['data--translations-locales-ru']->data['You are trying to upload too much files!'] = 'Вы пытаетесь загрузить слишком много файлов!';
   cache::$data['data--translations-locales-ru']->data['You have already uploaded %%_number file%%_plural{number,s}.'] = 'Вы уже загрузили %%_number файл%%_plural{number,ov-a}.';
-  cache::$data['data--translations-locales-ru']->data['You try to upload too much files!'] = 'Вы пытаетесь загрузить слишком много файлов!';
 
 }
