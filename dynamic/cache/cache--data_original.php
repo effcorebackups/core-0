@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-28 08:58:46';
+  cache::$info['data_original']['build'] = '2018-08-28 09:00:53';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -1368,10 +1368,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['events']['test'] = new \stdClass();
   cache::$data['data_original']['events']['test']->on_form_init['test'] = new \effcore\event();
   cache::$data['data_original']['events']['test']->on_form_init['test']->for = 'test';
-  cache::$data['data_original']['events']['test']->on_form_init['test']->handler = '\\effcore\\modules\\test\\events_form_test::on_init_test';
+  cache::$data['data_original']['events']['test']->on_form_init['test']->handler = '\\effcore\\modules\\test\\events_form_test::on_init';
   cache::$data['data_original']['events']['test']->on_form_submit['test'] = new \effcore\event();
   cache::$data['data_original']['events']['test']->on_form_submit['test']->for = 'test';
-  cache::$data['data_original']['events']['test']->on_form_submit['test']->handler = '\\effcore\\modules\\test\\events_form_test::on_submit_test';
+  cache::$data['data_original']['events']['test']->on_form_submit['test']->handler = '\\effcore\\modules\\test\\events_form_test::on_submit';
   cache::$data['data_original']['events']['demo'] = new \stdClass();
   cache::$data['data_original']['events']['demo']->on_module_start['demo'] = new \effcore\event();
   cache::$data['data_original']['events']['demo']->on_module_start['demo']->for = 'demo';
