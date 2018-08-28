@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-08-28 15:49:39';
+  cache::$info['data_original']['build'] = '2018-08-28 16:05:00';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -2854,7 +2854,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Memory for php (bytes)'] = 'Память для php (байт)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache::$data['data_original']['translations']['locales']['ru']->data['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Minimum allowed only %%_number file%%_plural{number,s}.'] = 'Допускается минимально только %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['missing a temporary directory'] = 'отсутствует временный каталог';
   cache::$data['data_original']['translations']['locales']['ru']->data['Moderators'] = 'Модераторы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Module for internationalization.'] = 'Модуль для интернационализации.';
@@ -3005,6 +3004,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['You are trying to upload too few files!'] = 'Вы пытаетесь загрузить слишком мало файлов!';
   cache::$data['data_original']['translations']['locales']['ru']->data['You are trying to upload too much files!'] = 'Вы пытаетесь загрузить слишком много файлов!';
   cache::$data['data_original']['translations']['locales']['ru']->data['You have already uploaded %%_number file%%_plural{number,s}.'] = 'Вы уже загрузили %%_number файл%%_plural{number,ov-a}.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['You must upload at least %%_number file%%_plural{number,s}.'] = 'Необходимо загрузить как минимум %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['develop']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['develop']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['develop']['ru']->data[' Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;'] = ' Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа.&#10;';
