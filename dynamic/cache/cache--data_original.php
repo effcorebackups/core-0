@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-17 10:44:07';
+  cache::$info['data_original']['build'] = '2018-09-17 10:57:13';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -3126,7 +3126,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Sub item #1.2'] = 'Подпункт №1.2';
   cache::$data['data_original']['translations']['develop']['ru']->data['Sub item #1.2.1'] = 'Подпункт №1.2.1';
   cache::$data['data_original']['translations']['develop']['ru']->data['Sub item #1.2.2'] = 'Подпункт №1.2.2';
-  cache::$data['data_original']['translations']['develop']['ru']->data['Sub item #1.2.3 (from code)'] = 'Подпункт №1.2.2 (из кода)';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Sub item #1.2.3 (from code)'] = 'Подпункт №1.2.3 (из кода)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Sub item #1.3'] = 'Подпункт №1.3';
   cache::$data['data_original']['translations']['develop']['ru']->data['The test was failed!'] = 'Тест не удался!';
   cache::$data['data_original']['translations']['develop']['ru']->data['The test was successful.'] = 'Тест выполнен успешно.';

@@ -73,7 +73,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Sub item #1.2'] = 'Подпункт №1.2';
   cache::$data['data--translations-develop-ru']->data['Sub item #1.2.1'] = 'Подпункт №1.2.1';
   cache::$data['data--translations-develop-ru']->data['Sub item #1.2.2'] = 'Подпункт №1.2.2';
-  cache::$data['data--translations-develop-ru']->data['Sub item #1.2.3 (from code)'] = 'Подпункт №1.2.2 (из кода)';
+  cache::$data['data--translations-develop-ru']->data['Sub item #1.2.3 (from code)'] = 'Подпункт №1.2.3 (из кода)';
   cache::$data['data--translations-develop-ru']->data['Sub item #1.3'] = 'Подпункт №1.3';
   cache::$data['data--translations-develop-ru']->data['The test was failed!'] = 'Тест не удался!';
   cache::$data['data--translations-develop-ru']->data['The test was successful.'] = 'Тест выполнен успешно.';
