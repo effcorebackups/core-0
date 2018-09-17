@@ -154,6 +154,8 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Logout'] = 'Выход';
   cache::$data['data--translations-locales-ru']->data['Main menu'] = 'Главное меню';
   cache::$data['data--translations-locales-ru']->data['Main system module.'] = 'Основной модуль системы.';
+  cache::$data['data--translations-locales-ru']->data['Manage entities'] = 'Управлять сущностями';
+  cache::$data['data--translations-locales-ru']->data['Manage instances'] = 'Управлять экземплярами';
   cache::$data['data--translations-locales-ru']->data['Management'] = 'Управление';
   cache::$data['data--translations-locales-ru']->data['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
