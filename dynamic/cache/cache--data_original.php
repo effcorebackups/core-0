@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-17 12:40:12';
+  cache::$info['data_original']['build'] = '2018-09-17 13:08:47';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -64,7 +64,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tree_items']['storage']['instances_manager']->id = 'instances_manager';
   cache::$data['data_original']['tree_items']['storage']['instances_manager']->id_parent = 'manage';
   cache::$data['data_original']['tree_items']['storage']['instances_manager']->title = 'Instances';
-  cache::$data['data_original']['tree_items']['storage']['instances_manager']->attributes['href'] = '/manage/instances/users/select';
+  cache::$data['data_original']['tree_items']['storage']['instances_manager']->attributes['href'] = '/manage/instances/select';
   cache::$data['data_original']['tree_items']['storage']['instances_manager']->attributes['class']['instances'] = 'instances';
   cache::$data['data_original']['tree_items']['storage']['instances_manager']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['storage']['instances_manager']->access->roles['admins'] = 'admins';
@@ -428,7 +428,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instances_manager']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances_manager']->display->check = 'url';
   cache::$data['data_original']['pages']['storage']['instances_manager']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instances_manager']->display->match = '%^(?<base>/manage/instances/(?<entity>[a-z_]+))/(?<action>[a-z]+)(/(?<id_user>[a-z0-9]+)|)$%';
+  cache::$data['data_original']['pages']['storage']['instances_manager']->display->match = '%^(?<base>/manage/instances)/(?<action>[a-z]+)(/(?<entity>[a-z_]+)|)$%';
   cache::$data['data_original']['pages']['storage']['instances_manager']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances_manager']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['storage']['instances_manager']->content['block_menu_main'] = new \stdClass();

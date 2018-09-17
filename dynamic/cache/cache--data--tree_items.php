@@ -49,7 +49,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['storage']['instances_manager']->id = 'instances_manager';
   cache::$data['data--tree_items']['storage']['instances_manager']->id_parent = 'manage';
   cache::$data['data--tree_items']['storage']['instances_manager']->title = 'Instances';
-  cache::$data['data--tree_items']['storage']['instances_manager']->attributes['href'] = '/manage/instances/users/select';
+  cache::$data['data--tree_items']['storage']['instances_manager']->attributes['href'] = '/manage/instances/select';
   cache::$data['data--tree_items']['storage']['instances_manager']->attributes['class']['instances'] = 'instances';
   cache::$data['data--tree_items']['storage']['instances_manager']->access = new \stdClass();
   cache::$data['data--tree_items']['storage']['instances_manager']->access->roles['admins'] = 'admins';
