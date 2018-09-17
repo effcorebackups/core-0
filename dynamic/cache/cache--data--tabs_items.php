@@ -69,12 +69,6 @@ namespace effcore { # cache for data--tabs_items
   cache::$data['data--tabs_items']['demo']['item_2']->title = 'Top item #2';
   cache::$data['data--tabs_items']['demo']['item_2']->action_name = 'item_2';
   cache::$data['data--tabs_items']['demo']['item_2']->attributes['class']['item-2'] = 'item-2';
-  cache::$data['data--tabs_items']['demo']['item_3'] = new \effcore\tabs_item();
-  cache::$data['data--tabs_items']['demo']['item_3']->id = 'item_3';
-  cache::$data['data--tabs_items']['demo']['item_3']->id_parent = 'T:demo';
-  cache::$data['data--tabs_items']['demo']['item_3']->title = 'Top item #3';
-  cache::$data['data--tabs_items']['demo']['item_3']->action_name = 'item_3';
-  cache::$data['data--tabs_items']['demo']['item_3']->attributes['class']['item-3'] = 'item-3';
   cache::$data['data--tabs_items']['develop']['class'] = new \effcore\tabs_item();
   cache::$data['data--tabs_items']['develop']['class']->id = 'class';
   cache::$data['data--tabs_items']['develop']['class']->id_parent = 'T:structures';

@@ -81,7 +81,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['This description is shown on top.'] = 'Это описание показано сверху.';
   cache::$data['data--translations-develop-ru']->data['Top item #1'] = 'Верхний пункт №1';
   cache::$data['data--translations-develop-ru']->data['Top item #2'] = 'Верхний пункт №2';
-  cache::$data['data--translations-develop-ru']->data['Top item #3'] = 'Верхний пункт №3';
+  cache::$data['data--translations-develop-ru']->data['Top item #3 (from code)'] = 'Верхний пункт №3 (из кода)';
   cache::$data['data--translations-develop-ru']->data['Total generation time'] = 'Общее время генерации';
   cache::$data['data--translations-develop-ru']->data['Total load'] = 'Общая загрука';
   cache::$data['data--translations-develop-ru']->data['Traits'] = 'Трейты';
