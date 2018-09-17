@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-demo-demo
   cache::$data['data--pages-demo-demo']->display = new \stdClass();
   cache::$data['data--pages-demo-demo']->display->check = 'url';
   cache::$data['data--pages-demo-demo']->display->where = 'path';
-  cache::$data['data--pages-demo-demo']->display->match = '%^(?<base>/develop/demo)(/(?<tabs>[a-z0-9_]+)|)$%';
+  cache::$data['data--pages-demo-demo']->display->match = '%^(?<base>/develop/demo)(/(?<tabs>[a-z0-9_/]+)|)$%';
   cache::$data['data--pages-demo-demo']->access = new \stdClass();
   cache::$data['data--pages-demo-demo']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-demo-demo']->content['block_menu_main'] = new \stdClass();

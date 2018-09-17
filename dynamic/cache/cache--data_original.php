@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-17 11:35:46';
+  cache::$info['data_original']['build'] = '2018-09-17 12:32:16';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'User anonymous menu';
@@ -548,7 +548,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['demo']['demo']->display = new \stdClass();
   cache::$data['data_original']['pages']['demo']['demo']->display->check = 'url';
   cache::$data['data_original']['pages']['demo']['demo']->display->where = 'path';
-  cache::$data['data_original']['pages']['demo']['demo']->display->match = '%^(?<base>/develop/demo)(/(?<tabs>[a-z0-9_]+)|)$%';
+  cache::$data['data_original']['pages']['demo']['demo']->display->match = '%^(?<base>/develop/demo)(/(?<tabs>[a-z0-9_/]+)|)$%';
   cache::$data['data_original']['pages']['demo']['demo']->access = new \stdClass();
   cache::$data['data_original']['pages']['demo']['demo']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['demo']['demo']->content['block_menu_main'] = new \stdClass();
@@ -1874,31 +1874,31 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['demo']['item_1_1']->id = 'item_1_1';
   cache::$data['data_original']['tabs_items']['demo']['item_1_1']->id_parent = 'item_1';
   cache::$data['data_original']['tabs_items']['demo']['item_1_1']->title = 'Sub item #1.1';
-  cache::$data['data_original']['tabs_items']['demo']['item_1_1']->action_name = 'item_1_1';
+  cache::$data['data_original']['tabs_items']['demo']['item_1_1']->action_name = 'item_1/item_1_1';
   cache::$data['data_original']['tabs_items']['demo']['item_1_1']->attributes['class']['item-1-1'] = 'item-1-1';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['demo']['item_1_2']->id = 'item_1_2';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2']->id_parent = 'item_1';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2']->title = 'Sub item #1.2';
-  cache::$data['data_original']['tabs_items']['demo']['item_1_2']->action_name = 'item_1_2';
+  cache::$data['data_original']['tabs_items']['demo']['item_1_2']->action_name = 'item_1/item_1_2';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2']->attributes['class']['item-1-2'] = 'item-1-2';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2_1'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['demo']['item_1_2_1']->id = 'item_1_2_1';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2_1']->id_parent = 'item_1_2';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2_1']->title = 'Sub item #1.2.1';
-  cache::$data['data_original']['tabs_items']['demo']['item_1_2_1']->action_name = 'item_1_2_1';
+  cache::$data['data_original']['tabs_items']['demo']['item_1_2_1']->action_name = 'item_1/item_1_2/item_1_2_1';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2_1']->attributes['class']['item-1-2-1'] = 'item-1-2-1';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2_2'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['demo']['item_1_2_2']->id = 'item_1_2_2';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2_2']->id_parent = 'item_1_2';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2_2']->title = 'Sub item #1.2.2';
-  cache::$data['data_original']['tabs_items']['demo']['item_1_2_2']->action_name = 'item_1_2_2';
+  cache::$data['data_original']['tabs_items']['demo']['item_1_2_2']->action_name = 'item_1/item_1_2/item_1_2_2';
   cache::$data['data_original']['tabs_items']['demo']['item_1_2_2']->attributes['class']['item-1-2-2'] = 'item-1-2-2';
   cache::$data['data_original']['tabs_items']['demo']['item_1_3'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['demo']['item_1_3']->id = 'item_1_3';
   cache::$data['data_original']['tabs_items']['demo']['item_1_3']->id_parent = 'item_1';
   cache::$data['data_original']['tabs_items']['demo']['item_1_3']->title = 'Sub item #1.3';
-  cache::$data['data_original']['tabs_items']['demo']['item_1_3']->action_name = 'item_1_3';
+  cache::$data['data_original']['tabs_items']['demo']['item_1_3']->action_name = 'item_1/item_1_3';
   cache::$data['data_original']['tabs_items']['demo']['item_1_3']->attributes['class']['item-1-3'] = 'item-1-3';
   cache::$data['data_original']['tabs_items']['demo']['item_2'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['demo']['item_2']->id = 'item_2';
