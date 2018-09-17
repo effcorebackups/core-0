@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-demo-demo
   cache::$data['data--pages-demo-demo']->display = new \stdClass();
   cache::$data['data--pages-demo-demo']->display->check = 'url';
   cache::$data['data--pages-demo-demo']->display->where = 'path';
-  cache::$data['data--pages-demo-demo']->display->match = '%^/develop/demo$%';
+  cache::$data['data--pages-demo-demo']->display->match = '%^(?<base>/develop/demo)(/(?<tabs>[a-z0-9_]+)|)$%';
   cache::$data['data--pages-demo-demo']->access = new \stdClass();
   cache::$data['data--pages-demo-demo']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-demo-demo']->content['block_menu_main'] = new \stdClass();
@@ -27,6 +27,10 @@ namespace effcore { # cache for data--pages-demo-demo
   cache::$data['data--pages-demo-demo']->content['block_title']->region = 'title';
   cache::$data['data--pages-demo-demo']->content['block_title']->type = 'code';
   cache::$data['data--pages-demo-demo']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
+  cache::$data['data--pages-demo-demo']->content['tabs_demo'] = new \stdClass();
+  cache::$data['data--pages-demo-demo']->content['tabs_demo']->region = 'tabs';
+  cache::$data['data--pages-demo-demo']->content['tabs_demo']->type = 'link';
+  cache::$data['data--pages-demo-demo']->content['tabs_demo']->dpath = 'tabs/demo/demo';
   cache::$data['data--pages-demo-demo']->content['form_demo'] = new \stdClass();
   cache::$data['data--pages-demo-demo']->content['form_demo']->region = 'content';
   cache::$data['data--pages-demo-demo']->content['form_demo']->type = 'link';
