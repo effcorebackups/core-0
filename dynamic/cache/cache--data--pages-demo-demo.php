@@ -31,6 +31,10 @@ namespace effcore { # cache for data--pages-demo-demo
   cache::$data['data--pages-demo-demo']->content['tabs_demo']->region = 'tabs';
   cache::$data['data--pages-demo-demo']->content['tabs_demo']->type = 'link';
   cache::$data['data--pages-demo-demo']->content['tabs_demo']->dpath = 'tabs/demo/demo';
+  cache::$data['data--pages-demo-demo']->content['block_menu_demo'] = new \stdClass();
+  cache::$data['data--pages-demo-demo']->content['block_menu_demo']->region = 'content';
+  cache::$data['data--pages-demo-demo']->content['block_menu_demo']->type = 'link';
+  cache::$data['data--pages-demo-demo']->content['block_menu_demo']->dpath = 'trees/demo/demo';
   cache::$data['data--pages-demo-demo']->content['form_demo'] = new \stdClass();
   cache::$data['data--pages-demo-demo']->content['form_demo']->region = 'content';
   cache::$data['data--pages-demo-demo']->content['form_demo']->type = 'link';
