@@ -12,10 +12,10 @@ namespace effcore { # cache for data--pages-user-user_edit
   cache::$data['data--pages-user-user_edit']->access = new \stdClass();
   cache::$data['data--pages-user-user_edit']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-user-user_edit']->access->roles['registered'] = 'registered';
-  cache::$data['data--pages-user-user_edit']->content['check_access_user_edit'] = new \stdClass();
+  cache::$data['data--pages-user-user_edit']->content['check_access_user_edit'] = new \effcore\page_part();
   cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->region = 'head';
   cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->type = 'code';
-  cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->handler = '\\effcore\\modules\\user\\events_access::on_check_access_user_edit';
+  cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->source = '\\effcore\\modules\\user\\events_access::on_check_access_user_edit';
   cache::$data['data--pages-user-user_edit']->content['menu_main'] = new \effcore\page_part();
   cache::$data['data--pages-user-user_edit']->content['menu_main']->region = 'main_menu';
   cache::$data['data--pages-user-user_edit']->content['menu_main']->type = 'link';
@@ -32,9 +32,8 @@ namespace effcore { # cache for data--pages-user-user_edit
   cache::$data['data--pages-user-user_edit']->content['title']->region = 'title';
   cache::$data['data--pages-user-user_edit']->content['title']->type = 'code';
   cache::$data['data--pages-user-user_edit']->content['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data--pages-user-user_edit']->content['form_user_edit'] = new \stdClass();
-  cache::$data['data--pages-user-user_edit']->content['form_user_edit']->region = 'content';
+  cache::$data['data--pages-user-user_edit']->content['form_user_edit'] = new \effcore\page_part();
   cache::$data['data--pages-user-user_edit']->content['form_user_edit']->type = 'link';
-  cache::$data['data--pages-user-user_edit']->content['form_user_edit']->dpath = 'forms/user/user_edit';
+  cache::$data['data--pages-user-user_edit']->content['form_user_edit']->source = 'forms/user/user_edit';
 
 }
