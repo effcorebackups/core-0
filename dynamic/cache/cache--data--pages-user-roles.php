@@ -19,10 +19,10 @@ namespace effcore { # cache for data--pages-user-roles
   cache::$data['data--pages-user-roles']->content['menu_user']->region = 'head';
   cache::$data['data--pages-user-roles']->content['menu_user']->type = 'code';
   cache::$data['data--pages-user-roles']->content['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
-  cache::$data['data--pages-user-roles']->content['block_logo'] = new \stdClass();
-  cache::$data['data--pages-user-roles']->content['block_logo']->region = 'head';
-  cache::$data['data--pages-user-roles']->content['block_logo']->type = 'link';
-  cache::$data['data--pages-user-roles']->content['block_logo']->dpath = 'blocks/page/logo';
+  cache::$data['data--pages-user-roles']->content['logo'] = new \effcore\page_part();
+  cache::$data['data--pages-user-roles']->content['logo']->region = 'head';
+  cache::$data['data--pages-user-roles']->content['logo']->type = 'link';
+  cache::$data['data--pages-user-roles']->content['logo']->source = 'blocks/page/logo';
   cache::$data['data--pages-user-roles']->content['block_title'] = new \stdClass();
   cache::$data['data--pages-user-roles']->content['block_title']->region = 'title';
   cache::$data['data--pages-user-roles']->content['block_title']->type = 'code';

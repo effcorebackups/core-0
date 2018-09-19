@@ -24,10 +24,10 @@ namespace effcore { # cache for data--pages-user-user_edit
   cache::$data['data--pages-user-user_edit']->content['menu_user']->region = 'head';
   cache::$data['data--pages-user-user_edit']->content['menu_user']->type = 'code';
   cache::$data['data--pages-user-user_edit']->content['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
-  cache::$data['data--pages-user-user_edit']->content['block_logo'] = new \stdClass();
-  cache::$data['data--pages-user-user_edit']->content['block_logo']->region = 'head';
-  cache::$data['data--pages-user-user_edit']->content['block_logo']->type = 'link';
-  cache::$data['data--pages-user-user_edit']->content['block_logo']->dpath = 'blocks/page/logo';
+  cache::$data['data--pages-user-user_edit']->content['logo'] = new \effcore\page_part();
+  cache::$data['data--pages-user-user_edit']->content['logo']->region = 'head';
+  cache::$data['data--pages-user-user_edit']->content['logo']->type = 'link';
+  cache::$data['data--pages-user-user_edit']->content['logo']->source = 'blocks/page/logo';
   cache::$data['data--pages-user-user_edit']->content['block_title'] = new \stdClass();
   cache::$data['data--pages-user-user_edit']->content['block_title']->region = 'title';
   cache::$data['data--pages-user-user_edit']->content['block_title']->type = 'code';
