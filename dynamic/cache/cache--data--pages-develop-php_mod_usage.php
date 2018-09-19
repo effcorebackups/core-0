@@ -27,9 +27,8 @@ namespace effcore { # cache for data--pages-develop-php_mod_usage
   cache::$data['data--pages-develop-php_mod_usage']->content['title']->region = 'title';
   cache::$data['data--pages-develop-php_mod_usage']->content['title']->type = 'code';
   cache::$data['data--pages-develop-php_mod_usage']->content['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data--pages-develop-php_mod_usage']->content['block_php_mod_usage_list'] = new \stdClass();
-  cache::$data['data--pages-develop-php_mod_usage']->content['block_php_mod_usage_list']->region = 'content';
+  cache::$data['data--pages-develop-php_mod_usage']->content['block_php_mod_usage_list'] = new \effcore\page_part();
   cache::$data['data--pages-develop-php_mod_usage']->content['block_php_mod_usage_list']->type = 'code';
-  cache::$data['data--pages-develop-php_mod_usage']->content['block_php_mod_usage_list']->handler = '\\effcore\\modules\\develop\\events_page::on_show_block_php_mod_usage_list';
+  cache::$data['data--pages-develop-php_mod_usage']->content['block_php_mod_usage_list']->source = '\\effcore\\modules\\develop\\events_page::on_show_block_php_mod_usage_list';
 
 }

@@ -27,9 +27,8 @@ namespace effcore { # cache for data--pages-core-info
   cache::$data['data--pages-core-info']->content['title']->region = 'title';
   cache::$data['data--pages-core-info']->content['title']->type = 'code';
   cache::$data['data--pages-core-info']->content['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data--pages-core-info']->content['block_info'] = new \stdClass();
-  cache::$data['data--pages-core-info']->content['block_info']->region = 'content';
+  cache::$data['data--pages-core-info']->content['block_info'] = new \effcore\page_part();
   cache::$data['data--pages-core-info']->content['block_info']->type = 'code';
-  cache::$data['data--pages-core-info']->content['block_info']->handler = '\\effcore\\modules\\core\\events_page::on_show_block_info';
+  cache::$data['data--pages-core-info']->content['block_info']->source = '\\effcore\\modules\\core\\events_page::on_show_block_info';
 
 }

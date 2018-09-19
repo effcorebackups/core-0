@@ -170,24 +170,14 @@ namespace effcore { # cache for data--blocks
   cache::$data['data--blocks']['demo']['demo']->children['demo_pager_2']->prefix = 'my';
   cache::$data['data--blocks']['demo']['demo']->children['demo_pager_2']->max = 10000;
   cache::$data['data--blocks']['demo']['demo']->children['controls_title'] = new \effcore\markup();
-  cache::$data['data--blocks']['demo']['demo']->children['controls_title']->tag_name = 'h2';
+  cache::$data['data--blocks']['demo']['demo']->children['controls_title']->tag_name = 'h3';
   cache::$data['data--blocks']['demo']['demo']->children['controls_title']->children['content'] = new \effcore\text();
   cache::$data['data--blocks']['demo']['demo']->children['controls_title']->children['content']->text = 'Control elements';
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls'] = new \effcore\table();
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['head'] = new \effcore\table_head();
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['head']->children['tr'] = new \effcore\table_head_row();
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['head']->children['tr']->children['th_1'] = new \effcore\table_head_row_cell();
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['head']->children['tr']->children['th_1']->children['content'] = new \effcore\text();
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['head']->children['tr']->children['th_1']->children['content']->text = 'Elements';
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['body'] = new \effcore\table_body();
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1'] = new \effcore\table_body_row();
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1'] = new \effcore\table_body_row_cell();
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper'] = new \effcore\markup();
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list'] = new \effcore\control_actions_list();
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->actions['edit'] = 'edit';
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->actions['delete'] = 'delete';
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->active['edit'] = 'edit';
-  cache::$data['data--blocks']['demo']['demo']->children['table_for_controls']->children['body']->children['tr_1']->children['td_1']->children['demo_actions_list_wrapper']->children['demo_actions_list']->attributes['class']['demo-actions-list'] = 'demo-actions-list';
+  cache::$data['data--blocks']['demo']['demo']->children['demo_actions_list'] = new \effcore\control_actions_list();
+  cache::$data['data--blocks']['demo']['demo']->children['demo_actions_list']->actions['edit'] = 'edit';
+  cache::$data['data--blocks']['demo']['demo']->children['demo_actions_list']->actions['delete'] = 'delete';
+  cache::$data['data--blocks']['demo']['demo']->children['demo_actions_list']->active['edit'] = 'edit';
+  cache::$data['data--blocks']['demo']['demo']->children['demo_actions_list']->attributes['class']['demo-actions-list'] = 'demo-actions-list';
   cache::$data['data--blocks']['demo']['demo']->attributes['class']['demo'] = 'demo';
 
 }

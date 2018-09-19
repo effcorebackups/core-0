@@ -27,9 +27,8 @@ namespace effcore { # cache for data--pages-user-login
   cache::$data['data--pages-user-login']->content['title']->region = 'title';
   cache::$data['data--pages-user-login']->content['title']->type = 'code';
   cache::$data['data--pages-user-login']->content['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data--pages-user-login']->content['form_login'] = new \stdClass();
-  cache::$data['data--pages-user-login']->content['form_login']->region = 'content';
+  cache::$data['data--pages-user-login']->content['form_login'] = new \effcore\page_part();
   cache::$data['data--pages-user-login']->content['form_login']->type = 'link';
-  cache::$data['data--pages-user-login']->content['form_login']->dpath = 'forms/user/login';
+  cache::$data['data--pages-user-login']->content['form_login']->source = 'forms/user/login';
 
 }
