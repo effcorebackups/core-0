@@ -23,10 +23,10 @@ namespace effcore { # cache for data--pages-core-install
   cache::$data['data--pages-core-install']->content['logo']->region = 'head';
   cache::$data['data--pages-core-install']->content['logo']->type = 'link';
   cache::$data['data--pages-core-install']->content['logo']->source = 'blocks/page/logo';
-  cache::$data['data--pages-core-install']->content['block_title'] = new \stdClass();
-  cache::$data['data--pages-core-install']->content['block_title']->region = 'title';
-  cache::$data['data--pages-core-install']->content['block_title']->type = 'code';
-  cache::$data['data--pages-core-install']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
+  cache::$data['data--pages-core-install']->content['title'] = new \effcore\page_part();
+  cache::$data['data--pages-core-install']->content['title']->region = 'title';
+  cache::$data['data--pages-core-install']->content['title']->type = 'code';
+  cache::$data['data--pages-core-install']->content['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
   cache::$data['data--pages-core-install']->content['form_install'] = new \stdClass();
   cache::$data['data--pages-core-install']->content['form_install']->region = 'content';
   cache::$data['data--pages-core-install']->content['form_install']->type = 'link';

@@ -24,10 +24,10 @@ namespace effcore { # cache for data--pages-user-user
   cache::$data['data--pages-user-user']->content['logo']->region = 'head';
   cache::$data['data--pages-user-user']->content['logo']->type = 'link';
   cache::$data['data--pages-user-user']->content['logo']->source = 'blocks/page/logo';
-  cache::$data['data--pages-user-user']->content['block_title'] = new \stdClass();
-  cache::$data['data--pages-user-user']->content['block_title']->region = 'title';
-  cache::$data['data--pages-user-user']->content['block_title']->type = 'code';
-  cache::$data['data--pages-user-user']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
+  cache::$data['data--pages-user-user']->content['title'] = new \effcore\page_part();
+  cache::$data['data--pages-user-user']->content['title']->region = 'title';
+  cache::$data['data--pages-user-user']->content['title']->type = 'code';
+  cache::$data['data--pages-user-user']->content['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
   cache::$data['data--pages-user-user']->content['block_user_info'] = new \stdClass();
   cache::$data['data--pages-user-user']->content['block_user_info']->region = 'content';
   cache::$data['data--pages-user-user']->content['block_user_info']->type = 'code';

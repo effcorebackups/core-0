@@ -23,10 +23,10 @@ namespace effcore { # cache for data--pages-user-logout
   cache::$data['data--pages-user-logout']->content['logo']->region = 'head';
   cache::$data['data--pages-user-logout']->content['logo']->type = 'link';
   cache::$data['data--pages-user-logout']->content['logo']->source = 'blocks/page/logo';
-  cache::$data['data--pages-user-logout']->content['block_title'] = new \stdClass();
-  cache::$data['data--pages-user-logout']->content['block_title']->region = 'title';
-  cache::$data['data--pages-user-logout']->content['block_title']->type = 'code';
-  cache::$data['data--pages-user-logout']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
+  cache::$data['data--pages-user-logout']->content['title'] = new \effcore\page_part();
+  cache::$data['data--pages-user-logout']->content['title']->region = 'title';
+  cache::$data['data--pages-user-logout']->content['title']->type = 'code';
+  cache::$data['data--pages-user-logout']->content['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
   cache::$data['data--pages-user-logout']->content['form_logout'] = new \stdClass();
   cache::$data['data--pages-user-logout']->content['form_logout']->region = 'content';
   cache::$data['data--pages-user-logout']->content['form_logout']->type = 'link';

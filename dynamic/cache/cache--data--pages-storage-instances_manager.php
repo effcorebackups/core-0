@@ -23,10 +23,10 @@ namespace effcore { # cache for data--pages-storage-instances_manager
   cache::$data['data--pages-storage-instances_manager']->content['logo']->region = 'head';
   cache::$data['data--pages-storage-instances_manager']->content['logo']->type = 'link';
   cache::$data['data--pages-storage-instances_manager']->content['logo']->source = 'blocks/page/logo';
-  cache::$data['data--pages-storage-instances_manager']->content['block_title'] = new \stdClass();
-  cache::$data['data--pages-storage-instances_manager']->content['block_title']->region = 'title';
-  cache::$data['data--pages-storage-instances_manager']->content['block_title']->type = 'code';
-  cache::$data['data--pages-storage-instances_manager']->content['block_title']->handler = '\\effcore\\modules\\page\\events_page::on_show_block_title';
+  cache::$data['data--pages-storage-instances_manager']->content['title'] = new \effcore\page_part();
+  cache::$data['data--pages-storage-instances_manager']->content['title']->region = 'title';
+  cache::$data['data--pages-storage-instances_manager']->content['title']->type = 'code';
+  cache::$data['data--pages-storage-instances_manager']->content['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
   cache::$data['data--pages-storage-instances_manager']->content['block_tabs'] = new \stdClass();
   cache::$data['data--pages-storage-instances_manager']->content['block_tabs']->region = 'tabs';
   cache::$data['data--pages-storage-instances_manager']->content['block_tabs']->type = 'link';
