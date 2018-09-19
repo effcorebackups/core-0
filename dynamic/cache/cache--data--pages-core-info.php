@@ -15,10 +15,10 @@ namespace effcore { # cache for data--pages-core-info
   cache::$data['data--pages-core-info']->content['menu_main']->region = 'main_menu';
   cache::$data['data--pages-core-info']->content['menu_main']->type = 'link';
   cache::$data['data--pages-core-info']->content['menu_main']->source = 'trees/core/main';
-  cache::$data['data--pages-core-info']->content['block_menu_user'] = new \stdClass();
-  cache::$data['data--pages-core-info']->content['block_menu_user']->region = 'head';
-  cache::$data['data--pages-core-info']->content['block_menu_user']->type = 'code';
-  cache::$data['data--pages-core-info']->content['block_menu_user']->handler = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data--pages-core-info']->content['menu_user'] = new \effcore\page_part();
+  cache::$data['data--pages-core-info']->content['menu_user']->region = 'head';
+  cache::$data['data--pages-core-info']->content['menu_user']->type = 'code';
+  cache::$data['data--pages-core-info']->content['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
   cache::$data['data--pages-core-info']->content['block_logo'] = new \stdClass();
   cache::$data['data--pages-core-info']->content['block_logo']->region = 'head';
   cache::$data['data--pages-core-info']->content['block_logo']->type = 'link';
