@@ -12,10 +12,10 @@ namespace effcore { # cache for data--pages-user-user
   cache::$data['data--pages-user-user']->access = new \stdClass();
   cache::$data['data--pages-user-user']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-user-user']->access->roles['registered'] = 'registered';
-  cache::$data['data--pages-user-user']->content['block_menu_main'] = new \stdClass();
-  cache::$data['data--pages-user-user']->content['block_menu_main']->region = 'main_menu';
-  cache::$data['data--pages-user-user']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages-user-user']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data--pages-user-user']->content['menu_main'] = new \effcore\page_part();
+  cache::$data['data--pages-user-user']->content['menu_main']->region = 'main_menu';
+  cache::$data['data--pages-user-user']->content['menu_main']->type = 'link';
+  cache::$data['data--pages-user-user']->content['menu_main']->source = 'trees/core/main';
   cache::$data['data--pages-user-user']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages-user-user']->content['block_menu_user']->region = 'head';
   cache::$data['data--pages-user-user']->content['block_menu_user']->type = 'code';

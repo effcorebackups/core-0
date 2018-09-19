@@ -16,10 +16,10 @@ namespace effcore { # cache for data--pages-user-user_edit
   cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->region = 'head';
   cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->type = 'code';
   cache::$data['data--pages-user-user_edit']->content['check_access_user_edit']->handler = '\\effcore\\modules\\user\\events_access::on_check_access_user_edit';
-  cache::$data['data--pages-user-user_edit']->content['block_menu_main'] = new \stdClass();
-  cache::$data['data--pages-user-user_edit']->content['block_menu_main']->region = 'main_menu';
-  cache::$data['data--pages-user-user_edit']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages-user-user_edit']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data--pages-user-user_edit']->content['menu_main'] = new \effcore\page_part();
+  cache::$data['data--pages-user-user_edit']->content['menu_main']->region = 'main_menu';
+  cache::$data['data--pages-user-user_edit']->content['menu_main']->type = 'link';
+  cache::$data['data--pages-user-user_edit']->content['menu_main']->source = 'trees/core/main';
   cache::$data['data--pages-user-user_edit']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages-user-user_edit']->content['block_menu_user']->region = 'head';
   cache::$data['data--pages-user-user_edit']->content['block_menu_user']->type = 'code';

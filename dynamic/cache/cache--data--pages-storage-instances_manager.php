@@ -11,10 +11,10 @@ namespace effcore { # cache for data--pages-storage-instances_manager
   cache::$data['data--pages-storage-instances_manager']->display->match = '%^(?<base>/manage/instances)/(?<action>[a-z]+)(/(?<entity>[a-z_]+)|)$%';
   cache::$data['data--pages-storage-instances_manager']->access = new \stdClass();
   cache::$data['data--pages-storage-instances_manager']->access->roles['admins'] = 'admins';
-  cache::$data['data--pages-storage-instances_manager']->content['block_menu_main'] = new \stdClass();
-  cache::$data['data--pages-storage-instances_manager']->content['block_menu_main']->region = 'main_menu';
-  cache::$data['data--pages-storage-instances_manager']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages-storage-instances_manager']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data--pages-storage-instances_manager']->content['menu_main'] = new \effcore\page_part();
+  cache::$data['data--pages-storage-instances_manager']->content['menu_main']->region = 'main_menu';
+  cache::$data['data--pages-storage-instances_manager']->content['menu_main']->type = 'link';
+  cache::$data['data--pages-storage-instances_manager']->content['menu_main']->source = 'trees/core/main';
   cache::$data['data--pages-storage-instances_manager']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages-storage-instances_manager']->content['block_menu_user']->region = 'head';
   cache::$data['data--pages-storage-instances_manager']->content['block_menu_user']->type = 'code';

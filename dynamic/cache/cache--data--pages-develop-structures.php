@@ -11,10 +11,10 @@ namespace effcore { # cache for data--pages-develop-structures
   cache::$data['data--pages-develop-structures']->display->match = '%^(?<base>/develop/structures)/(?<type>class|interface|trait)/(?<view>list|diagram|diagram_export)$%';
   cache::$data['data--pages-develop-structures']->access = new \stdClass();
   cache::$data['data--pages-develop-structures']->access->roles['admins'] = 'admins';
-  cache::$data['data--pages-develop-structures']->content['block_menu_main'] = new \stdClass();
-  cache::$data['data--pages-develop-structures']->content['block_menu_main']->region = 'main_menu';
-  cache::$data['data--pages-develop-structures']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages-develop-structures']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data--pages-develop-structures']->content['menu_main'] = new \effcore\page_part();
+  cache::$data['data--pages-develop-structures']->content['menu_main']->region = 'main_menu';
+  cache::$data['data--pages-develop-structures']->content['menu_main']->type = 'link';
+  cache::$data['data--pages-develop-structures']->content['menu_main']->source = 'trees/core/main';
   cache::$data['data--pages-develop-structures']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages-develop-structures']->content['block_menu_user']->region = 'head';
   cache::$data['data--pages-develop-structures']->content['block_menu_user']->type = 'code';

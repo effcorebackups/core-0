@@ -8,10 +8,10 @@ namespace effcore { # cache for data--pages-core-front
   cache::$data['data--pages-core-front']->display->check = 'url';
   cache::$data['data--pages-core-front']->display->where = 'path';
   cache::$data['data--pages-core-front']->display->match = '%^/$%';
-  cache::$data['data--pages-core-front']->content['block_menu_main'] = new \stdClass();
-  cache::$data['data--pages-core-front']->content['block_menu_main']->region = 'main_menu';
-  cache::$data['data--pages-core-front']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages-core-front']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data--pages-core-front']->content['menu_main'] = new \effcore\page_part();
+  cache::$data['data--pages-core-front']->content['menu_main']->region = 'main_menu';
+  cache::$data['data--pages-core-front']->content['menu_main']->type = 'link';
+  cache::$data['data--pages-core-front']->content['menu_main']->source = 'trees/core/main';
   cache::$data['data--pages-core-front']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages-core-front']->content['block_menu_user']->region = 'head';
   cache::$data['data--pages-core-front']->content['block_menu_user']->type = 'code';

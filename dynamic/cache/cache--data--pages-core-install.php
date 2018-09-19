@@ -11,10 +11,10 @@ namespace effcore { # cache for data--pages-core-install
   cache::$data['data--pages-core-install']->display->match = '%^/install$%';
   cache::$data['data--pages-core-install']->access = new \stdClass();
   cache::$data['data--pages-core-install']->access->roles['anonymous'] = 'anonymous';
-  cache::$data['data--pages-core-install']->content['block_menu_main'] = new \stdClass();
-  cache::$data['data--pages-core-install']->content['block_menu_main']->region = 'main_menu';
-  cache::$data['data--pages-core-install']->content['block_menu_main']->type = 'link';
-  cache::$data['data--pages-core-install']->content['block_menu_main']->dpath = 'trees/core/main';
+  cache::$data['data--pages-core-install']->content['menu_main'] = new \effcore\page_part();
+  cache::$data['data--pages-core-install']->content['menu_main']->region = 'main_menu';
+  cache::$data['data--pages-core-install']->content['menu_main']->type = 'link';
+  cache::$data['data--pages-core-install']->content['menu_main']->source = 'trees/core/main';
   cache::$data['data--pages-core-install']->content['block_menu_user'] = new \stdClass();
   cache::$data['data--pages-core-install']->content['block_menu_user']->region = 'head';
   cache::$data['data--pages-core-install']->content['block_menu_user']->type = 'code';

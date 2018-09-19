@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-09-18 21:37:59';
+  cache::$info['structures']['build'] = '2018-09-19 10:17:08';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -535,6 +535,12 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\page']->type = 'class';
   cache::$data['structures']['effcore\\page']->implements['effcore\\has_external_cache'] = 'effcore\\has_external_cache';
   cache::$data['structures']['effcore\\page']->file = 'system/module_page/backend/pattern--page.php';
+  cache::$data['structures']['effcore\\page_part'] = new \stdClass();
+  cache::$data['structures']['effcore\\page_part']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\page_part']->name = 'page_part';
+  cache::$data['structures']['effcore\\page_part']->type = 'class';
+  cache::$data['structures']['effcore\\page_part']->extends = 'effcore\\node';
+  cache::$data['structures']['effcore\\page_part']->file = 'system/module_page/backend/pattern--page_part.php';
   cache::$data['structures']['effcore\\pager'] = new \stdClass();
   cache::$data['structures']['effcore\\pager']->namespace = 'effcore';
   cache::$data['structures']['effcore\\pager']->name = 'pager';
