@@ -73,6 +73,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['email'] = 'адрес электронной почты';
   cache::$data['data--translations-locales-ru']->data['Enable cookies before login.'] = 'Включите cookies до начала входа в систему.';
   cache::$data['data--translations-locales-ru']->data['enable'] = 'включить';
+  cache::$data['data--translations-locales-ru']->data['Entities'] = 'Сущности';
   cache::$data['data--translations-locales-ru']->data['Entity %%_name was installed.'] = 'Сущность %%_name была установлена.';
   cache::$data['data--translations-locales-ru']->data['Entity %%_name was not installed!'] = 'Сущность %%_name не была установлена!';
   cache::$data['data--translations-locales-ru']->data['error'] = 'ошибка';
@@ -154,13 +155,12 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Logout'] = 'Выход';
   cache::$data['data--translations-locales-ru']->data['Main menu'] = 'Главное меню';
   cache::$data['data--translations-locales-ru']->data['Main system module.'] = 'Основной модуль системы.';
-  cache::$data['data--translations-locales-ru']->data['Manage entities'] = 'Управлять сущностями';
-  cache::$data['data--translations-locales-ru']->data['Manage instances'] = 'Управлять экземплярами';
   cache::$data['data--translations-locales-ru']->data['Management'] = 'Управление';
   cache::$data['data--translations-locales-ru']->data['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Maximum allowed only %%_number file%%_plural{number,s}.'] = 'Допускается максимально только %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['Memory for php (bytes)'] = 'Память для php (байт)';
+  cache::$data['data--translations-locales-ru']->data['Menus'] = 'Меню';
   cache::$data['data--translations-locales-ru']->data['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache::$data['data--translations-locales-ru']->data['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['missing a temporary directory'] = 'отсутствует временный каталог';
