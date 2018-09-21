@@ -81,7 +81,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['menu']['trees']->display = new \stdClass();
   cache::$data['data--pages']['menu']['trees']->display->check = 'url';
   cache::$data['data--pages']['menu']['trees']->display->where = 'path';
-  cache::$data['data--pages']['menu']['trees']->display->match = '%^/manage/trees$%';
+  cache::$data['data--pages']['menu']['trees']->display->match = '%^(?<base>/manage/trees)/(?<action>[a-z]+)$%';
   cache::$data['data--pages']['menu']['trees']->access = new \stdClass();
   cache::$data['data--pages']['menu']['trees']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['test']['tests'] = new \effcore\external_cache();

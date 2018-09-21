@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-menu-trees
   cache::$data['data--pages-menu-trees']->display = new \stdClass();
   cache::$data['data--pages-menu-trees']->display->check = 'url';
   cache::$data['data--pages-menu-trees']->display->where = 'path';
-  cache::$data['data--pages-menu-trees']->display->match = '%^/manage/trees$%';
+  cache::$data['data--pages-menu-trees']->display->match = '%^(?<base>/manage/trees)/(?<action>[a-z]+)$%';
   cache::$data['data--pages-menu-trees']->access = new \stdClass();
   cache::$data['data--pages-menu-trees']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-menu-trees']->children['menu_main'] = new \effcore\page_part();
@@ -27,6 +27,10 @@ namespace effcore { # cache for data--pages-menu-trees
   cache::$data['data--pages-menu-trees']->children['title']->region = 'title';
   cache::$data['data--pages-menu-trees']->children['title']->type = 'code';
   cache::$data['data--pages-menu-trees']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
+  cache::$data['data--pages-menu-trees']->children['tabs'] = new \effcore\page_part();
+  cache::$data['data--pages-menu-trees']->children['tabs']->region = 'tabs';
+  cache::$data['data--pages-menu-trees']->children['tabs']->type = 'link';
+  cache::$data['data--pages-menu-trees']->children['tabs']->source = 'tabs/menu/manage_trees';
   cache::$data['data--pages-menu-trees']->children['block_trees'] = new \effcore\page_part();
   cache::$data['data--pages-menu-trees']->children['block_trees']->type = 'code';
   cache::$data['data--pages-menu-trees']->children['block_trees']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_trees';

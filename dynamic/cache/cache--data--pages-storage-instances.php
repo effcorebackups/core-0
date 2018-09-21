@@ -30,7 +30,7 @@ namespace effcore { # cache for data--pages-storage-instances
   cache::$data['data--pages-storage-instances']->children['tabs'] = new \effcore\page_part();
   cache::$data['data--pages-storage-instances']->children['tabs']->region = 'tabs';
   cache::$data['data--pages-storage-instances']->children['tabs']->type = 'link';
-  cache::$data['data--pages-storage-instances']->children['tabs']->source = 'tabs/storage/instance_manage';
+  cache::$data['data--pages-storage-instances']->children['tabs']->source = 'tabs/storage/manage_instances';
   cache::$data['data--pages-storage-instances']->children['block_instance_select'] = new \effcore\page_part();
   cache::$data['data--pages-storage-instances']->children['block_instance_select']->display = new \stdClass();
   cache::$data['data--pages-storage-instances']->children['block_instance_select']->display->check = 'page_args';

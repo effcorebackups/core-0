@@ -64,7 +64,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['menu']['trees'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['menu']['trees']->id = 'trees';
   cache::$data['data--tree_items']['menu']['trees']->id_parent = 'manage';
-  cache::$data['data--tree_items']['menu']['trees']->href = '/manage/trees';
+  cache::$data['data--tree_items']['menu']['trees']->href = '/manage/trees/select';
   cache::$data['data--tree_items']['menu']['trees']->title = 'Trees';
   cache::$data['data--tree_items']['menu']['trees']->attributes['class']['trees'] = 'trees';
   cache::$data['data--tree_items']['menu']['trees']->access = new \stdClass();
