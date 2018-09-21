@@ -37,27 +37,27 @@ namespace effcore { # cache for data--pages-storage-instances
   cache::$data['data--pages-storage-instances']->children['block_instance_select']->display->where = 'action';
   cache::$data['data--pages-storage-instances']->children['block_instance_select']->display->match = '%select%';
   cache::$data['data--pages-storage-instances']->children['block_instance_select']->type = 'code';
-  cache::$data['data--pages-storage-instances']->children['block_instance_select']->source = '\\effcore\\instances_manager::instance_select';
+  cache::$data['data--pages-storage-instances']->children['block_instance_select']->source = '\\effcore\\manage_instances::instance_select';
   cache::$data['data--pages-storage-instances']->children['block_instance_insert'] = new \effcore\page_part();
   cache::$data['data--pages-storage-instances']->children['block_instance_insert']->display = new \stdClass();
   cache::$data['data--pages-storage-instances']->children['block_instance_insert']->display->check = 'page_args';
   cache::$data['data--pages-storage-instances']->children['block_instance_insert']->display->where = 'action';
   cache::$data['data--pages-storage-instances']->children['block_instance_insert']->display->match = '%insert%';
   cache::$data['data--pages-storage-instances']->children['block_instance_insert']->type = 'code';
-  cache::$data['data--pages-storage-instances']->children['block_instance_insert']->source = '\\effcore\\instances_manager::instance_insert';
+  cache::$data['data--pages-storage-instances']->children['block_instance_insert']->source = '\\effcore\\manage_instances::instance_insert';
   cache::$data['data--pages-storage-instances']->children['block_instance_update'] = new \effcore\page_part();
   cache::$data['data--pages-storage-instances']->children['block_instance_update']->display = new \stdClass();
   cache::$data['data--pages-storage-instances']->children['block_instance_update']->display->check = 'page_args';
   cache::$data['data--pages-storage-instances']->children['block_instance_update']->display->where = 'action';
   cache::$data['data--pages-storage-instances']->children['block_instance_update']->display->match = '%update%';
   cache::$data['data--pages-storage-instances']->children['block_instance_update']->type = 'code';
-  cache::$data['data--pages-storage-instances']->children['block_instance_update']->source = '\\effcore\\instances_manager::instance_update';
+  cache::$data['data--pages-storage-instances']->children['block_instance_update']->source = '\\effcore\\manage_instances::instance_update';
   cache::$data['data--pages-storage-instances']->children['block_instance_delete'] = new \effcore\page_part();
   cache::$data['data--pages-storage-instances']->children['block_instance_delete']->display = new \stdClass();
   cache::$data['data--pages-storage-instances']->children['block_instance_delete']->display->check = 'page_args';
   cache::$data['data--pages-storage-instances']->children['block_instance_delete']->display->where = 'action';
   cache::$data['data--pages-storage-instances']->children['block_instance_delete']->display->match = '%delete%';
   cache::$data['data--pages-storage-instances']->children['block_instance_delete']->type = 'code';
-  cache::$data['data--pages-storage-instances']->children['block_instance_delete']->source = '\\effcore\\instances_manager::instance_delete';
+  cache::$data['data--pages-storage-instances']->children['block_instance_delete']->source = '\\effcore\\manage_instances::instance_delete';
 
 }

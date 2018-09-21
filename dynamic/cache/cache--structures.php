@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-09-21 13:05:13';
+  cache::$info['structures']['build'] = '2018-09-21 13:13:11';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -291,12 +291,6 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\instance']->name = 'instance';
   cache::$data['structures']['effcore\\instance']->type = 'class';
   cache::$data['structures']['effcore\\instance']->file = 'system/module_storage/backend/pattern--instance.php';
-  cache::$data['structures']['effcore\\instances_manager'] = new \stdClass();
-  cache::$data['structures']['effcore\\instances_manager']->modifier = 'abstract';
-  cache::$data['structures']['effcore\\instances_manager']->namespace = 'effcore';
-  cache::$data['structures']['effcore\\instances_manager']->name = 'instances_manager';
-  cache::$data['structures']['effcore\\instances_manager']->type = 'class';
-  cache::$data['structures']['effcore\\instances_manager']->file = 'system/module_storage/backend/instances_manager.php';
   cache::$data['structures']['effcore\\language'] = new \stdClass();
   cache::$data['structures']['effcore\\language']->namespace = 'effcore';
   cache::$data['structures']['effcore\\language']->name = 'language';
@@ -308,6 +302,12 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\locale']->name = 'locale';
   cache::$data['structures']['effcore\\locale']->type = 'class';
   cache::$data['structures']['effcore\\locale']->file = 'system/module_locales/backend/locale.php';
+  cache::$data['structures']['effcore\\manage_instances'] = new \stdClass();
+  cache::$data['structures']['effcore\\manage_instances']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\manage_instances']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\manage_instances']->name = 'manage_instances';
+  cache::$data['structures']['effcore\\manage_instances']->type = 'class';
+  cache::$data['structures']['effcore\\manage_instances']->file = 'system/module_storage/backend/manage_instances.php';
   cache::$data['structures']['effcore\\markdown'] = new \stdClass();
   cache::$data['structures']['effcore\\markdown']->modifier = 'abstract';
   cache::$data['structures']['effcore\\markdown']->namespace = 'effcore';
