@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-21 13:22:42';
+  cache::$info['data_original']['build'] = '2018-09-21 13:30:11';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -492,7 +492,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instances']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances']->display->check = 'url';
   cache::$data['data_original']['pages']['storage']['instances']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instances']->display->match = '%^(?<base>/manage/instances)/(?<action>[a-z]+)(/(?<entity>[a-z_]+)|)$%';
+  cache::$data['data_original']['pages']['storage']['instances']->display->match = '%^(?<base>/manage/instances)/(?<action>[a-z]+)(/(?<id>[a-z_]+)|)$%';
   cache::$data['data_original']['pages']['storage']['instances']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instances']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['storage']['instances']->children['menu_main'] = new \effcore\page_part();
@@ -577,7 +577,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['menu']['trees']->display = new \stdClass();
   cache::$data['data_original']['pages']['menu']['trees']->display->check = 'url';
   cache::$data['data_original']['pages']['menu']['trees']->display->where = 'path';
-  cache::$data['data_original']['pages']['menu']['trees']->display->match = '%^(?<base>/manage/trees)/(?<action>[a-z]+)$%';
+  cache::$data['data_original']['pages']['menu']['trees']->display->match = '%^(?<base>/manage/trees)/(?<action>[a-z]+)(/(?<id>[a-z_]+)|)$%';
   cache::$data['data_original']['pages']['menu']['trees']->access = new \stdClass();
   cache::$data['data_original']['pages']['menu']['trees']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['menu']['trees']->children['menu_main'] = new \effcore\page_part();

@@ -65,7 +65,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['storage']['instances']->display = new \stdClass();
   cache::$data['data--pages']['storage']['instances']->display->check = 'url';
   cache::$data['data--pages']['storage']['instances']->display->where = 'path';
-  cache::$data['data--pages']['storage']['instances']->display->match = '%^(?<base>/manage/instances)/(?<action>[a-z]+)(/(?<entity>[a-z_]+)|)$%';
+  cache::$data['data--pages']['storage']['instances']->display->match = '%^(?<base>/manage/instances)/(?<action>[a-z]+)(/(?<id>[a-z_]+)|)$%';
   cache::$data['data--pages']['storage']['instances']->access = new \stdClass();
   cache::$data['data--pages']['storage']['instances']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['page']['decoration'] = new \effcore\external_cache();
@@ -81,7 +81,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['menu']['trees']->display = new \stdClass();
   cache::$data['data--pages']['menu']['trees']->display->check = 'url';
   cache::$data['data--pages']['menu']['trees']->display->where = 'path';
-  cache::$data['data--pages']['menu']['trees']->display->match = '%^(?<base>/manage/trees)/(?<action>[a-z]+)$%';
+  cache::$data['data--pages']['menu']['trees']->display->match = '%^(?<base>/manage/trees)/(?<action>[a-z]+)(/(?<id>[a-z_]+)|)$%';
   cache::$data['data--pages']['menu']['trees']->access = new \stdClass();
   cache::$data['data--pages']['menu']['trees']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['test']['tests'] = new \effcore\external_cache();

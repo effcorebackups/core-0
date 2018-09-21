@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-storage-instances
   cache::$data['data--pages-storage-instances']->display = new \stdClass();
   cache::$data['data--pages-storage-instances']->display->check = 'url';
   cache::$data['data--pages-storage-instances']->display->where = 'path';
-  cache::$data['data--pages-storage-instances']->display->match = '%^(?<base>/manage/instances)/(?<action>[a-z]+)(/(?<entity>[a-z_]+)|)$%';
+  cache::$data['data--pages-storage-instances']->display->match = '%^(?<base>/manage/instances)/(?<action>[a-z]+)(/(?<id>[a-z_]+)|)$%';
   cache::$data['data--pages-storage-instances']->access = new \stdClass();
   cache::$data['data--pages-storage-instances']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-storage-instances']->children['menu_main'] = new \effcore\page_part();
