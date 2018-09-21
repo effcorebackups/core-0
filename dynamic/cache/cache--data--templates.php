@@ -49,7 +49,7 @@ namespace effcore { # cache for data--templates
   cache::$data['data--templates']['menu']['tree'] = new \stdClass();
   cache::$data['data--templates']['menu']['tree']->name = 'tree';
   cache::$data['data--templates']['menu']['tree']->type = 'text';
-  cache::$data['data--templates']['menu']['tree']->data = '<x-tree %%_attributes><h3 class="hidden">%%_self</h3><ul>%%_children</ul></x-tree>';
+  cache::$data['data--templates']['menu']['tree']->data = '<x-tree %%_attributes>%%_self<ul>%%_children</ul></x-tree>';
   cache::$data['data--templates']['menu']['tree_item'] = new \stdClass();
   cache::$data['data--templates']['menu']['tree_item']->name = 'tree_item';
   cache::$data['data--templates']['menu']['tree_item']->type = 'text';

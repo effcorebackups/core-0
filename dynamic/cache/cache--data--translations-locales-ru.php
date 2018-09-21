@@ -153,14 +153,16 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Login'] = 'Вход';
   cache::$data['data--translations-locales-ru']->data['logout'] = 'выход';
   cache::$data['data--translations-locales-ru']->data['Logout'] = 'Выход';
-  cache::$data['data--translations-locales-ru']->data['Main menu'] = 'Главное меню';
   cache::$data['data--translations-locales-ru']->data['Main system module.'] = 'Основной модуль системы.';
   cache::$data['data--translations-locales-ru']->data['Management'] = 'Управление';
   cache::$data['data--translations-locales-ru']->data['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Maximum allowed only %%_number file%%_plural{number,s}.'] = 'Допускается максимально только %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['Memory for php (bytes)'] = 'Память для php (байт)';
-  cache::$data['data--translations-locales-ru']->data['Menus'] = 'Меню';
+  cache::$data['data--translations-locales-ru']->data['Menu for anonymous user'] = 'Меню для анонимного пользователя';
+  cache::$data['data--translations-locales-ru']->data['Menu for authenticated user'] = 'Меню для аутентифицированного пользователя';
+  cache::$data['data--translations-locales-ru']->data['Menu for demonstration'] = 'Меню для демонстрации';
+  cache::$data['data--translations-locales-ru']->data['Menu main'] = 'Меню основное';
   cache::$data['data--translations-locales-ru']->data['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache::$data['data--translations-locales-ru']->data['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['missing a temporary directory'] = 'отсутствует временный каталог';
@@ -275,6 +277,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Total'] = 'Всего';
   cache::$data['data--translations-locales-ru']->data['Translate'] = 'Перевод';
   cache::$data['data--translations-locales-ru']->data['Tree'] = 'Дерево';
+  cache::$data['data--translations-locales-ru']->data['Trees'] = 'Деревья';
   cache::$data['data--translations-locales-ru']->data['type'] = 'тип';
   cache::$data['data--translations-locales-ru']->data['uninstall'] = 'удалить';
   cache::$data['data--translations-locales-ru']->data['Unordered list'] = 'Неупорядоченный список';
