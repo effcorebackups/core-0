@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-09-21 13:13:11';
+  cache::$info['structures']['build'] = '2018-09-21 13:22:42';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -308,6 +308,12 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\manage_instances']->name = 'manage_instances';
   cache::$data['structures']['effcore\\manage_instances']->type = 'class';
   cache::$data['structures']['effcore\\manage_instances']->file = 'system/module_storage/backend/manage_instances.php';
+  cache::$data['structures']['effcore\\manage_trees'] = new \stdClass();
+  cache::$data['structures']['effcore\\manage_trees']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\manage_trees']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\manage_trees']->name = 'manage_trees';
+  cache::$data['structures']['effcore\\manage_trees']->type = 'class';
+  cache::$data['structures']['effcore\\manage_trees']->file = 'system/module_menu/backend/manage_trees.php';
   cache::$data['structures']['effcore\\markdown'] = new \stdClass();
   cache::$data['structures']['effcore\\markdown']->modifier = 'abstract';
   cache::$data['structures']['effcore\\markdown']->namespace = 'effcore';

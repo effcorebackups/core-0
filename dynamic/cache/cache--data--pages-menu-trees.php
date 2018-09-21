@@ -31,8 +31,19 @@ namespace effcore { # cache for data--pages-menu-trees
   cache::$data['data--pages-menu-trees']->children['tabs']->region = 'tabs';
   cache::$data['data--pages-menu-trees']->children['tabs']->type = 'link';
   cache::$data['data--pages-menu-trees']->children['tabs']->source = 'tabs/menu/manage_trees';
-  cache::$data['data--pages-menu-trees']->children['block_trees'] = new \effcore\page_part();
-  cache::$data['data--pages-menu-trees']->children['block_trees']->type = 'code';
-  cache::$data['data--pages-menu-trees']->children['block_trees']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_trees';
+  cache::$data['data--pages-menu-trees']->children['block_tree_select'] = new \effcore\page_part();
+  cache::$data['data--pages-menu-trees']->children['block_tree_select']->display = new \stdClass();
+  cache::$data['data--pages-menu-trees']->children['block_tree_select']->display->check = 'page_args';
+  cache::$data['data--pages-menu-trees']->children['block_tree_select']->display->where = 'action';
+  cache::$data['data--pages-menu-trees']->children['block_tree_select']->display->match = '%select%';
+  cache::$data['data--pages-menu-trees']->children['block_tree_select']->type = 'code';
+  cache::$data['data--pages-menu-trees']->children['block_tree_select']->source = '\\effcore\\manage_trees::tree_select';
+  cache::$data['data--pages-menu-trees']->children['block_tree_insert'] = new \effcore\page_part();
+  cache::$data['data--pages-menu-trees']->children['block_tree_insert']->display = new \stdClass();
+  cache::$data['data--pages-menu-trees']->children['block_tree_insert']->display->check = 'page_args';
+  cache::$data['data--pages-menu-trees']->children['block_tree_insert']->display->where = 'action';
+  cache::$data['data--pages-menu-trees']->children['block_tree_insert']->display->match = '%insert%';
+  cache::$data['data--pages-menu-trees']->children['block_tree_insert']->type = 'code';
+  cache::$data['data--pages-menu-trees']->children['block_tree_insert']->source = '\\effcore\\manage_trees::tree_insert';
 
 }
