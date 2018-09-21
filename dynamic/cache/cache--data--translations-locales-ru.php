@@ -162,7 +162,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Menu for anonymous user'] = 'Меню для анонимного пользователя';
   cache::$data['data--translations-locales-ru']->data['Menu for authenticated user'] = 'Меню для аутентифицированного пользователя';
   cache::$data['data--translations-locales-ru']->data['Menu for demonstration'] = 'Меню для демонстрации';
-  cache::$data['data--translations-locales-ru']->data['Menu main'] = 'Меню основное';
+  cache::$data['data--translations-locales-ru']->data['Menu main'] = 'Меню главное';
   cache::$data['data--translations-locales-ru']->data['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache::$data['data--translations-locales-ru']->data['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['missing a temporary directory'] = 'отсутствует временный каталог';

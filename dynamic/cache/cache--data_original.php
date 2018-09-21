@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-21 10:06:42';
+  cache::$info['data_original']['build'] = '2018-09-21 10:09:59';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2952,7 +2952,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Menu for anonymous user'] = 'Меню для анонимного пользователя';
   cache::$data['data_original']['translations']['locales']['ru']->data['Menu for authenticated user'] = 'Меню для аутентифицированного пользователя';
   cache::$data['data_original']['translations']['locales']['ru']->data['Menu for demonstration'] = 'Меню для демонстрации';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Menu main'] = 'Меню основное';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Menu main'] = 'Меню главное';
   cache::$data['data_original']['translations']['locales']['ru']->data['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache::$data['data_original']['translations']['locales']['ru']->data['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['missing a temporary directory'] = 'отсутствует временный каталог';
