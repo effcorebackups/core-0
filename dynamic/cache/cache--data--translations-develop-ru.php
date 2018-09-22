@@ -19,6 +19,10 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Classes'] = 'Классы';
   cache::$data['data--translations-develop-ru']->data['Console'] = 'Консоль';
   cache::$data['data--translations-develop-ru']->data['Demo'] = 'Демо';
+  cache::$data['data--translations-develop-ru']->data['Demo: autoincrement'] = 'Демо: автоинкремент';
+  cache::$data['data--translations-develop-ru']->data['Demo: constraints'] = 'Демо: ограничения';
+  cache::$data['data--translations-develop-ru']->data['Demo: indexes'] = 'Демо: индексы';
+  cache::$data['data--translations-develop-ru']->data['Demo: types'] = 'Демо: типы';
   cache::$data['data--translations-develop-ru']->data['Develop'] = 'Разработка';
   cache::$data['data--translations-develop-ru']->data['Diagram'] = 'Диаграмма';
   cache::$data['data--translations-develop-ru']->data['Dynamic block'] = 'Динамический блок';
@@ -41,12 +45,12 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['item #1.2'] = 'пункт №1.2';
   cache::$data['data--translations-develop-ru']->data['item #1.2.1'] = 'пункт №1.2.1';
   cache::$data['data--translations-develop-ru']->data['item #1.2.2'] = 'пункт №1.2.2';
-  cache::$data['data--translations-develop-ru']->data['item #1.2.3'] = 'пункт №1.2.3';
   cache::$data['data--translations-develop-ru']->data['item #1.2.3 (from code)'] = 'пункт №1.2.3 (из кода)';
+  cache::$data['data--translations-develop-ru']->data['item #1.2.3'] = 'пункт №1.2.3';
   cache::$data['data--translations-develop-ru']->data['item #1.3'] = 'пункт №1.3';
   cache::$data['data--translations-develop-ru']->data['item #2'] = 'пункт №2';
-  cache::$data['data--translations-develop-ru']->data['item #3'] = 'пункт №3';
   cache::$data['data--translations-develop-ru']->data['item #3 (from code)'] = 'пункт №3 (из кода)';
+  cache::$data['data--translations-develop-ru']->data['item #3'] = 'пункт №3';
   cache::$data['data--translations-develop-ru']->data['make request to "%%_url"'] = 'сделать запрос на "%%_url"';
   cache::$data['data--translations-develop-ru']->data['Module for demonstrating capabilities.'] = 'Модуль для демонстрации возможностей.';
   cache::$data['data--translations-develop-ru']->data['Module for development.'] = 'Модуль для разработки.';
