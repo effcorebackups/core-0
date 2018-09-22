@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-21 13:30:11';
+  cache::$info['data_original']['build'] = '2018-09-22 09:50:15';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3003,6 +3003,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['nick'] = 'ник';
   cache::$data['data_original']['translations']['locales']['ru']->data['Nick'] = 'Ник';
   cache::$data['data_original']['translations']['locales']['ru']->data['no items'] = 'нет элементов';
+  cache::$data['data_original']['translations']['locales']['ru']->data['no url'] = 'нет url';
   cache::$data['data_original']['translations']['locales']['ru']->data['No'] = 'Нет';
   cache::$data['data_original']['translations']['locales']['ru']->data['no'] = 'нет';
   cache::$data['data_original']['translations']['locales']['ru']->data['not applicable'] = 'не применимо';

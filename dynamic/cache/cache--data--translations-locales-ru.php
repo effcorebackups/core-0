@@ -182,6 +182,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['nick'] = 'ник';
   cache::$data['data--translations-locales-ru']->data['Nick'] = 'Ник';
   cache::$data['data--translations-locales-ru']->data['no items'] = 'нет элементов';
+  cache::$data['data--translations-locales-ru']->data['no url'] = 'нет url';
   cache::$data['data--translations-locales-ru']->data['No'] = 'Нет';
   cache::$data['data--translations-locales-ru']->data['no'] = 'нет';
   cache::$data['data--translations-locales-ru']->data['not applicable'] = 'не применимо';
