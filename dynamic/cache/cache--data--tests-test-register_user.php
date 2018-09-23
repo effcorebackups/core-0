@@ -14,8 +14,8 @@ namespace effcore { # cache for data--tests-test-register_user
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['email'] = '%%_email_random';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['nick'] = '%%_nick_random';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['password'] = '%%_password_random';
-  cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['session_params[0]'] = 'remember';
-  cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['session_params[1]'] = 'fixed_ip';
+  cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['session_params[0]'] = 'is_remember';
+  cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['session_params[1]'] = 'is_fixed_ip';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['captcha'] = '%%_captcha';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['button'] = 'register';
   cache::$data['data--tests-test-register_user']->scenario['response_check'] = new \effcore\step_check();

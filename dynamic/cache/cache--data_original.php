@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-23 14:03:26';
+  cache::$info['data_original']['build'] = '2018-09-23 20:49:36';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1019,10 +1019,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params'] = new \effcore\group_checkboxes();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->element_attributes['name'] = 'session_params[]';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->values['fixed_ip'] = 'on this ip';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->checked['remember'] = 'remember';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->checked['fixed_ip'] = 'fixed_ip';
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->values['is_remember'] = 'remember me';
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->values['is_fixed_ip'] = 'on this ip';
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->checked['is_remember'] = 'is_remember';
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->checked['is_fixed_ip'] = 'is_fixed_ip';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['captcha'] = new \effcore\field_captcha();
   cache::$data['data_original']['forms']['user']['registration']->children['button_register'] = new \effcore\button();
   cache::$data['data_original']['forms']['user']['registration']->children['button_register']->attributes['type'] = 'submit';
@@ -1054,10 +1054,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params'] = new \effcore\group_checkboxes();
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->element_attributes['name'] = 'session_params[]';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['fixed_ip'] = 'on this ip';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->checked['remember'] = 'remember';
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->checked['fixed_ip'] = 'fixed_ip';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['is_remember'] = 'remember me';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['is_fixed_ip'] = 'on this ip';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->checked['is_remember'] = 'is_remember';
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->checked['is_fixed_ip'] = 'is_fixed_ip';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['captcha'] = new \effcore\field_captcha();
   cache::$data['data_original']['forms']['user']['login']->children['button_login'] = new \effcore\button();
   cache::$data['data_original']['forms']['user']['login']->children['button_login']->attributes['type'] = 'submit';
@@ -1644,16 +1644,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['session']->fields['id_user']->title = 'User ID';
   cache::$data['data_original']['entities']['user']['session']->fields['id_user']->type = 'integer';
   cache::$data['data_original']['entities']['user']['session']->fields['id_user']->not_null = true;
-  cache::$data['data_original']['entities']['user']['session']->fields['remember'] = new \stdClass();
-  cache::$data['data_original']['entities']['user']['session']->fields['remember']->title = 'Is remember';
-  cache::$data['data_original']['entities']['user']['session']->fields['remember']->type = 'integer';
-  cache::$data['data_original']['entities']['user']['session']->fields['remember']->not_null = true;
-  cache::$data['data_original']['entities']['user']['session']->fields['remember']->default = 0;
-  cache::$data['data_original']['entities']['user']['session']->fields['fixed_ip'] = new \stdClass();
-  cache::$data['data_original']['entities']['user']['session']->fields['fixed_ip']->title = 'Is fixed IP';
-  cache::$data['data_original']['entities']['user']['session']->fields['fixed_ip']->type = 'integer';
-  cache::$data['data_original']['entities']['user']['session']->fields['fixed_ip']->not_null = true;
-  cache::$data['data_original']['entities']['user']['session']->fields['fixed_ip']->default = 0;
+  cache::$data['data_original']['entities']['user']['session']->fields['is_remember'] = new \stdClass();
+  cache::$data['data_original']['entities']['user']['session']->fields['is_remember']->title = 'Is remember';
+  cache::$data['data_original']['entities']['user']['session']->fields['is_remember']->type = 'integer';
+  cache::$data['data_original']['entities']['user']['session']->fields['is_remember']->not_null = true;
+  cache::$data['data_original']['entities']['user']['session']->fields['is_remember']->default = 0;
+  cache::$data['data_original']['entities']['user']['session']->fields['is_fixed_ip'] = new \stdClass();
+  cache::$data['data_original']['entities']['user']['session']->fields['is_fixed_ip']->title = 'Is fixed IP';
+  cache::$data['data_original']['entities']['user']['session']->fields['is_fixed_ip']->type = 'integer';
+  cache::$data['data_original']['entities']['user']['session']->fields['is_fixed_ip']->not_null = true;
+  cache::$data['data_original']['entities']['user']['session']->fields['is_fixed_ip']->default = 0;
   cache::$data['data_original']['entities']['user']['session']->fields['expire'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['session']->fields['expire']->title = 'Expire date';
   cache::$data['data_original']['entities']['user']['session']->fields['expire']->type = 'datetime';
@@ -3369,8 +3369,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['email'] = '%%_email_random';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['nick'] = '%%_nick_random';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['password'] = '%%_password_random';
-  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['session_params[0]'] = 'remember';
-  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['session_params[1]'] = 'fixed_ip';
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['session_params[0]'] = 'is_remember';
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['session_params[1]'] = 'is_fixed_ip';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['captcha'] = '%%_captcha';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['button'] = 'register';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['response_check'] = new \effcore\step_check();

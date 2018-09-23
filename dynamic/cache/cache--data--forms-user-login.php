@@ -9,10 +9,10 @@ namespace effcore { # cache for data--forms-user-login
   cache::$data['data--forms-user-login']->children['credentials']->children['password'] = new \effcore\field_password();
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params'] = new \effcore\group_checkboxes();
   cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->element_attributes['name'] = 'session_params[]';
-  cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->values['remember'] = 'remember me';
-  cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->values['fixed_ip'] = 'on this ip';
-  cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->checked['remember'] = 'remember';
-  cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->checked['fixed_ip'] = 'fixed_ip';
+  cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->values['is_remember'] = 'remember me';
+  cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->values['is_fixed_ip'] = 'on this ip';
+  cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->checked['is_remember'] = 'is_remember';
+  cache::$data['data--forms-user-login']->children['credentials']->children['session_params']->checked['is_fixed_ip'] = 'is_fixed_ip';
   cache::$data['data--forms-user-login']->children['credentials']->children['captcha'] = new \effcore\field_captcha();
   cache::$data['data--forms-user-login']->children['button_login'] = new \effcore\button();
   cache::$data['data--forms-user-login']->children['button_login']->attributes['type'] = 'submit';

@@ -13,8 +13,8 @@ tests
         - email: %%_email_random
         - nick: %%_nick_random
         - password: %%_password_random
-        - session_params[0]: remember
-        - session_params[1]: fixed_ip
+        - session_params[0]: is_remember
+        - session_params[1]: is_fixed_ip
         - captcha: %%_captcha
         - button: register
     - response_check|step_check
