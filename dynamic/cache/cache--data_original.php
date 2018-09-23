@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-23 11:57:11';
+  cache::$info['data_original']['build'] = '2018-09-23 12:17:38';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2059,13 +2059,27 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['storages']['storage']['storage_files_nosql'] = new \effcore\storage_files();
   cache::$data['data_original']['storages']['storage']['storage_files_nosql']->id = 'files';
   cache::$data['data_original']['selections']['storage']['user_list'] = new \effcore\selection();
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['id'] = 'users.id';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['email'] = 'users.email';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['nick'] = 'users.nick';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['is_embed'] = 'users.is_embed';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['avatar_path_relative'] = 'users.avatar_path_relative';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['created'] = 'users.created';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['updated'] = 'users.updated';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['id'] = new \stdClass();
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['id']->entity_name = 'user';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['id']->field = 'id';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['email'] = new \stdClass();
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['email']->entity_name = 'user';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['email']->field = 'email';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['nick'] = new \stdClass();
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['nick']->entity_name = 'user';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['nick']->field = 'nick';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['is_embed'] = new \stdClass();
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['is_embed']->entity_name = 'user';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['is_embed']->field = 'is_embed';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['avatar_path_relative'] = new \stdClass();
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['avatar_path_relative']->entity_name = 'user';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['avatar_path_relative']->field = 'avatar_path_relative';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['created'] = new \stdClass();
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['created']->entity_name = 'user';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['created']->field = 'created';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['updated'] = new \stdClass();
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['updated']->entity_name = 'user';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['updated']->field = 'updated';
   cache::$data['data_original']['file_types']['storage']['_data'] = new \stdClass();
   cache::$data['data_original']['file_types']['storage']['_data']->type = '_data';
   cache::$data['data_original']['file_types']['storage']['_data']->protected = 1;
