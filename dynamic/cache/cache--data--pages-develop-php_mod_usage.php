@@ -18,7 +18,7 @@ namespace effcore { # cache for data--pages-develop-php_mod_usage
   cache::$data['data--pages-develop-php_mod_usage']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data--pages-develop-php_mod_usage']->children['menu_user']->region = 'head';
   cache::$data['data--pages-develop-php_mod_usage']->children['menu_user']->type = 'code';
-  cache::$data['data--pages-develop-php_mod_usage']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data--pages-develop-php_mod_usage']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data--pages-develop-php_mod_usage']->children['logo'] = new \effcore\page_part();
   cache::$data['data--pages-develop-php_mod_usage']->children['logo']->region = 'head';
   cache::$data['data--pages-develop-php_mod_usage']->children['logo']->type = 'link';

@@ -18,7 +18,7 @@ namespace effcore { # cache for data--pages-user-logout
   cache::$data['data--pages-user-logout']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data--pages-user-logout']->children['menu_user']->region = 'head';
   cache::$data['data--pages-user-logout']->children['menu_user']->type = 'code';
-  cache::$data['data--pages-user-logout']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data--pages-user-logout']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data--pages-user-logout']->children['logo'] = new \effcore\page_part();
   cache::$data['data--pages-user-logout']->children['logo']->region = 'head';
   cache::$data['data--pages-user-logout']->children['logo']->type = 'link';

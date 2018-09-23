@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-22 21:06:26';
+  cache::$info['data_original']['build'] = '2018-09-23 11:57:11';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -301,7 +301,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_edit']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['user_edit']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['user']['user_edit']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['user']['user_edit']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['user']['user_edit']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['user']['user_edit']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['user_edit']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['user']['user_edit']->children['logo']->type = 'link';
@@ -333,7 +333,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_delete']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['user_delete']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['user']['user_delete']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['user']['user_delete']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['user']['user_delete']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['user']['user_delete']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['user_delete']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['user']['user_delete']->children['logo']->type = 'link';
@@ -362,7 +362,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['user']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['user']['user']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['user']['user']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['user']['user']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['user']['user']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['user']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['user']['user']->children['logo']->type = 'link';
@@ -390,7 +390,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['roles']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['roles']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['user']['roles']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['user']['roles']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['user']['roles']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['user']['roles']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['roles']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['user']['roles']->children['logo']->type = 'link';
@@ -418,7 +418,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['registration']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['registration']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['user']['registration']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['user']['registration']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['user']['registration']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['user']['registration']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['registration']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['user']['registration']->children['logo']->type = 'link';
@@ -446,7 +446,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['logout']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['logout']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['user']['logout']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['user']['logout']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['user']['logout']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['user']['logout']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['logout']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['user']['logout']->children['logo']->type = 'link';
@@ -474,7 +474,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['login']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['login']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['user']['login']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['user']['login']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['user']['login']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['user']['login']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['login']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['user']['login']->children['logo']->type = 'link';
@@ -502,7 +502,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instances']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['storage']['instances']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['storage']['instances']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['storage']['instances']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['storage']['instances']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['storage']['instances']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['storage']['instances']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['storage']['instances']->children['logo']->type = 'link';
@@ -559,7 +559,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['page']['decoration']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['page']['decoration']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['page']['decoration']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['page']['decoration']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['page']['decoration']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['page']['decoration']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['page']['decoration']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['page']['decoration']->children['logo']->type = 'link';
@@ -587,7 +587,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['menu']['trees']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['menu']['trees']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['menu']['trees']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['menu']['trees']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['menu']['trees']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['menu']['trees']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['menu']['trees']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['menu']['trees']->children['logo']->type = 'link';
@@ -630,7 +630,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['test']['tests']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['test']['tests']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['test']['tests']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['test']['tests']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['test']['tests']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['test']['tests']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['test']['tests']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['test']['tests']->children['logo']->type = 'link';
@@ -658,7 +658,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['demo']['demo']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['demo']['demo']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['demo']['demo']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['demo']['demo']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['demo']['demo']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['demo']['demo']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['demo']['demo']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['demo']['demo']->children['logo']->type = 'link';
@@ -705,7 +705,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['structures']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['develop']['structures']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['develop']['structures']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['develop']['structures']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['develop']['structures']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['develop']['structures']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['develop']['structures']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['develop']['structures']->children['logo']->type = 'link';
@@ -755,7 +755,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['develop']['php_mod_usage']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['develop']['php_mod_usage']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['develop']['php_mod_usage']->children['logo']->type = 'link';
@@ -783,7 +783,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['modules']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['modules']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['core']['modules']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['core']['modules']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['core']['modules']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['core']['modules']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['modules']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['core']['modules']->children['logo']->type = 'link';
@@ -811,7 +811,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['install']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['install']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['core']['install']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['core']['install']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['core']['install']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['core']['install']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['install']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['core']['install']->children['logo']->type = 'link';
@@ -839,7 +839,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['info']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['info']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['core']['info']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['core']['info']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['core']['info']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['core']['info']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['info']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['core']['info']->children['logo']->type = 'link';
@@ -864,7 +864,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['front']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['front']->children['menu_user']->region = 'head';
   cache::$data['data_original']['pages']['core']['front']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['core']['front']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['core']['front']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data_original']['pages']['core']['front']->children['logo'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['front']->children['logo']->region = 'head';
   cache::$data['data_original']['pages']['core']['front']->children['logo']->type = 'link';

@@ -18,7 +18,7 @@ namespace effcore { # cache for data--pages-menu-trees
   cache::$data['data--pages-menu-trees']->children['menu_user'] = new \effcore\page_part();
   cache::$data['data--pages-menu-trees']->children['menu_user']->region = 'head';
   cache::$data['data--pages-menu-trees']->children['menu_user']->type = 'code';
-  cache::$data['data--pages-menu-trees']->children['menu_user']->source = '\\effcore\\modules\\menu\\events_page::on_show_block_menu_user';
+  cache::$data['data--pages-menu-trees']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
   cache::$data['data--pages-menu-trees']->children['logo'] = new \effcore\page_part();
   cache::$data['data--pages-menu-trees']->children['logo']->region = 'head';
   cache::$data['data--pages-menu-trees']->children['logo']->type = 'link';
