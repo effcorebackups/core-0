@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-22 12:41:21';
+  cache::$info['data_original']['build'] = '2018-09-22 21:06:26';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2058,6 +2058,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['storages']['storage']['storage_pdo_sql']->id = 'main';
   cache::$data['data_original']['storages']['storage']['storage_files_nosql'] = new \effcore\storage_files();
   cache::$data['data_original']['storages']['storage']['storage_files_nosql']->id = 'files';
+  cache::$data['data_original']['selections']['storage']['user_list'] = new \effcore\selection();
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['id'] = 'users.id';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['email'] = 'users.email';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['nick'] = 'users.nick';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['is_embed'] = 'users.is_embed';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['avatar_path_relative'] = 'users.avatar_path_relative';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['created'] = 'users.created';
+  cache::$data['data_original']['selections']['storage']['user_list']->fields['updated'] = 'users.updated';
   cache::$data['data_original']['file_types']['storage']['_data'] = new \stdClass();
   cache::$data['data_original']['file_types']['storage']['_data']->type = '_data';
   cache::$data['data_original']['file_types']['storage']['_data']->protected = 1;
