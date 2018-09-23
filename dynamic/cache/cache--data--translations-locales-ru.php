@@ -291,6 +291,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Unordered list'] = 'Неупорядоченный список';
   cache::$data['data--translations-locales-ru']->data['Update'] = 'Обновить';
   cache::$data['data--translations-locales-ru']->data['updated'] = 'обновлено';
+  cache::$data['data--translations-locales-ru']->data['Updated'] = 'Обновлено';
   cache::$data['data--translations-locales-ru']->data['URL'] = 'URL';
   cache::$data['data--translations-locales-ru']->data['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   cache::$data['data--translations-locales-ru']->data['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';

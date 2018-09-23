@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-23 20:49:36';
+  cache::$info['data_original']['build'] = '2018-09-23 21:28:20';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3192,6 +3192,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Unordered list'] = 'Неупорядоченный список';
   cache::$data['data_original']['translations']['locales']['ru']->data['Update'] = 'Обновить';
   cache::$data['data_original']['translations']['locales']['ru']->data['updated'] = 'обновлено';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Updated'] = 'Обновлено';
   cache::$data['data_original']['translations']['locales']['ru']->data['URL'] = 'URL';
   cache::$data['data_original']['translations']['locales']['ru']->data['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
   cache::$data['data_original']['translations']['locales']['ru']->data['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';
