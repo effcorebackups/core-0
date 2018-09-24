@@ -32,6 +32,11 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Execute plan'] = 'План выполнения';
   cache::$data['data--translations-develop-ru']->data['Export diagram to %%_file for using with StarUML software.'] = 'Экспорт диаграммы в файл %%_file для использования в программе StarUML.';
   cache::$data['data--translations-develop-ru']->data['Field %%_type.'] = 'Поле %%_type.';
+  cache::$data['data--translations-develop-ru']->data['Field date + time'] = 'Поле date + time';
+  cache::$data['data--translations-develop-ru']->data['Field date'] = 'Поле date';
+  cache::$data['data--translations-develop-ru']->data['Field integer'] = 'Поле integer';
+  cache::$data['data--translations-develop-ru']->data['Field time'] = 'Поле time';
+  cache::$data['data--translations-develop-ru']->data['Field varchar'] = 'Поле varchar';
   cache::$data['data--translations-develop-ru']->data['Function'] = 'Функция';
   cache::$data['data--translations-develop-ru']->data['Group %%_type.'] = 'Группа %%_type.';
   cache::$data['data--translations-develop-ru']->data['Group 1'] = 'Группа 1';
@@ -82,6 +87,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['repeat %%_cur from %%_max'] = 'повтор %%_cur из %%_max';
   cache::$data['data--translations-develop-ru']->data['return = "%%_return"'] = 'возврат = "%%_return"';
   cache::$data['data--translations-develop-ru']->data['Select the test'] = 'Выберите тест';
+  cache::$data['data--translations-develop-ru']->data['Selection of "demo_types" entities'] = 'Выборка сущностей "demo_types"';
   cache::$data['data--translations-develop-ru']->data['Static block'] = 'Статический блок';
   cache::$data['data--translations-develop-ru']->data['Structures'] = 'Структуры';
   cache::$data['data--translations-develop-ru']->data['The test was failed!'] = 'Тест не удался!';

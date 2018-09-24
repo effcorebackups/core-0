@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-23 21:28:20';
+  cache::$info['data_original']['build'] = '2018-09-24 13:38:38';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -683,6 +683,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_dynamic'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_dynamic']->type = 'code';
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_dynamic']->source = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_dynamic';
+  cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_selection'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_selection']->type = 'link';
+  cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_selection']->source = 'selections/demo/demo_types_list';
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_canvas'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_canvas']->type = 'code';
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_canvas']->source = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_canvas';
@@ -2116,28 +2119,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['storages']['storage']['storage_pdo_sql']->id = 'main';
   cache::$data['data_original']['storages']['storage']['storage_files_nosql'] = new \effcore\storage_files();
   cache::$data['data_original']['storages']['storage']['storage_files_nosql']->id = 'files';
-  cache::$data['data_original']['selections']['storage']['user_list'] = new \effcore\selection();
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['id'] = new \stdClass();
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['id']->entity_name = 'user';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['id']->field_name = 'id';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['email'] = new \stdClass();
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['email']->entity_name = 'user';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['email']->field_name = 'email';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['nick'] = new \stdClass();
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['nick']->entity_name = 'user';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['nick']->field_name = 'nick';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['is_embed'] = new \stdClass();
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['is_embed']->entity_name = 'user';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['is_embed']->field_name = 'is_embed';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['avatar_path_relative'] = new \stdClass();
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['avatar_path_relative']->entity_name = 'user';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['avatar_path_relative']->field_name = 'avatar_path_relative';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['created'] = new \stdClass();
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['created']->entity_name = 'user';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['created']->field_name = 'created';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['updated'] = new \stdClass();
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['updated']->entity_name = 'user';
-  cache::$data['data_original']['selections']['storage']['user_list']->fields['updated']->field_name = 'updated';
   cache::$data['data_original']['file_types']['storage']['_data'] = new \stdClass();
   cache::$data['data_original']['file_types']['storage']['_data']->type = '_data';
   cache::$data['data_original']['file_types']['storage']['_data']->protected = 1;
@@ -3257,6 +3238,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Execute plan'] = 'План выполнения';
   cache::$data['data_original']['translations']['develop']['ru']->data['Export diagram to %%_file for using with StarUML software.'] = 'Экспорт диаграммы в файл %%_file для использования в программе StarUML.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Field %%_type.'] = 'Поле %%_type.';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Field date + time'] = 'Поле date + time';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Field date'] = 'Поле date';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Field integer'] = 'Поле integer';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Field time'] = 'Поле time';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Field varchar'] = 'Поле varchar';
   cache::$data['data_original']['translations']['develop']['ru']->data['Function'] = 'Функция';
   cache::$data['data_original']['translations']['develop']['ru']->data['Group %%_type.'] = 'Группа %%_type.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Group 1'] = 'Группа 1';
@@ -3307,6 +3293,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['repeat %%_cur from %%_max'] = 'повтор %%_cur из %%_max';
   cache::$data['data_original']['translations']['develop']['ru']->data['return = "%%_return"'] = 'возврат = "%%_return"';
   cache::$data['data_original']['translations']['develop']['ru']->data['Select the test'] = 'Выберите тест';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Selection of "demo_types" entities'] = 'Выборка сущностей "demo_types"';
   cache::$data['data_original']['translations']['develop']['ru']->data['Static block'] = 'Статический блок';
   cache::$data['data_original']['translations']['develop']['ru']->data['Structures'] = 'Структуры';
   cache::$data['data_original']['translations']['develop']['ru']->data['The test was failed!'] = 'Тест не удался!';
@@ -3399,6 +3386,29 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tests']['test']['load']->scenario['repeat']->actions['request_page_registration']->url = '/user/registration';
   cache::$data['data_original']['tests']['test']['load']->scenario['return_result'] = new \effcore\step_return();
   cache::$data['data_original']['tests']['test']['load']->scenario['return_result']->value = 1;
+  cache::$data['data_original']['selections']['demo']['demo_types_list'] = new \effcore\selection();
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->title = 'Selection of "demo_types" entities';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.id'] = new \stdClass();
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.id']->entity_name = 'demo_types';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.id']->field_name = 'id';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.description'] = new \stdClass();
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.description']->entity_name = 'demo_types';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.description']->field_name = 'description';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_integer'] = new \stdClass();
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_integer']->entity_name = 'demo_types';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_integer']->field_name = 'f_integer';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_varchar'] = new \stdClass();
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_varchar']->entity_name = 'demo_types';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_varchar']->field_name = 'f_varchar';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_time'] = new \stdClass();
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_time']->entity_name = 'demo_types';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_time']->field_name = 'f_time';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_date'] = new \stdClass();
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_date']->entity_name = 'demo_types';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_date']->field_name = 'f_date';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_datetime'] = new \stdClass();
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_datetime']->entity_name = 'demo_types';
+  cache::$data['data_original']['selections']['demo']['demo_types_list']->fields['demo_types.f_datetime']->field_name = 'f_datetime';
   cache::$data['data_original']['changes']['demo'] = new \stdClass();
   cache::$data['data_original']['changes']['demo']->insert['demo_data/demo/demo_object'] = new \stdClass();
   cache::$data['data_original']['changes']['demo']->insert['demo_data/demo/demo_object']->prop_4 = 'property value #4 (insert)';

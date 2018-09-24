@@ -43,6 +43,9 @@ namespace effcore { # cache for data--pages-demo-demo
   cache::$data['data--pages-demo-demo']->children['block_demo_dynamic'] = new \effcore\page_part();
   cache::$data['data--pages-demo-demo']->children['block_demo_dynamic']->type = 'code';
   cache::$data['data--pages-demo-demo']->children['block_demo_dynamic']->source = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_dynamic';
+  cache::$data['data--pages-demo-demo']->children['block_demo_selection'] = new \effcore\page_part();
+  cache::$data['data--pages-demo-demo']->children['block_demo_selection']->type = 'link';
+  cache::$data['data--pages-demo-demo']->children['block_demo_selection']->source = 'selections/demo/demo_types_list';
   cache::$data['data--pages-demo-demo']->children['block_demo_canvas'] = new \effcore\page_part();
   cache::$data['data--pages-demo-demo']->children['block_demo_canvas']->type = 'code';
   cache::$data['data--pages-demo-demo']->children['block_demo_canvas']->source = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_canvas';
