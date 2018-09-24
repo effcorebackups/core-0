@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-24 20:22:53';
+  cache::$info['data_original']['build'] = '2018-09-24 20:27:23';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -59,14 +59,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tree_items']['user']['logout']->weight = -100;
   cache::$data['data_original']['tree_items']['user']['logout']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['user']['logout']->access->roles['registered'] = 'registered';
-  cache::$data['data_original']['tree_items']['user']['roles'] = new \effcore\tree_item();
-  cache::$data['data_original']['tree_items']['user']['roles']->id = 'roles';
-  cache::$data['data_original']['tree_items']['user']['roles']->id_parent = 'manage';
-  cache::$data['data_original']['tree_items']['user']['roles']->href = '/manage/roles';
-  cache::$data['data_original']['tree_items']['user']['roles']->title = 'Roles';
-  cache::$data['data_original']['tree_items']['user']['roles']->attributes['class']['roles'] = 'roles';
-  cache::$data['data_original']['tree_items']['user']['roles']->access = new \stdClass();
-  cache::$data['data_original']['tree_items']['user']['roles']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['tree_items']['storage']['manage_instances'] = new \effcore\tree_item();
   cache::$data['data_original']['tree_items']['storage']['manage_instances']->id = 'manage_instances';
   cache::$data['data_original']['tree_items']['storage']['manage_instances']->id_parent = 'manage';
@@ -374,34 +366,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user']->children['block_user_info'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['user']->children['block_user_info']->type = 'code';
   cache::$data['data_original']['pages']['user']['user']->children['block_user_info']->source = '\\effcore\\modules\\user\\events_page::on_show_block_user_info';
-  cache::$data['data_original']['pages']['user']['roles'] = new \effcore\page();
-  cache::$data['data_original']['pages']['user']['roles']->title = 'Roles';
-  cache::$data['data_original']['pages']['user']['roles']->https = true;
-  cache::$data['data_original']['pages']['user']['roles']->display = new \stdClass();
-  cache::$data['data_original']['pages']['user']['roles']->display->check = 'url';
-  cache::$data['data_original']['pages']['user']['roles']->display->where = 'path';
-  cache::$data['data_original']['pages']['user']['roles']->display->match = '%^/manage/roles$%';
-  cache::$data['data_original']['pages']['user']['roles']->access = new \stdClass();
-  cache::$data['data_original']['pages']['user']['roles']->access->roles['admins'] = 'admins';
-  cache::$data['data_original']['pages']['user']['roles']->children['menu_main'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['user']['roles']->children['menu_main']->region = 'main_menu';
-  cache::$data['data_original']['pages']['user']['roles']->children['menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['user']['roles']->children['menu_main']->source = 'trees/core/main';
-  cache::$data['data_original']['pages']['user']['roles']->children['menu_user'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['user']['roles']->children['menu_user']->region = 'head';
-  cache::$data['data_original']['pages']['user']['roles']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['user']['roles']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
-  cache::$data['data_original']['pages']['user']['roles']->children['logo'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['user']['roles']->children['logo']->region = 'head';
-  cache::$data['data_original']['pages']['user']['roles']->children['logo']->type = 'link';
-  cache::$data['data_original']['pages']['user']['roles']->children['logo']->source = 'blocks/page/logo';
-  cache::$data['data_original']['pages']['user']['roles']->children['title'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['user']['roles']->children['title']->region = 'title';
-  cache::$data['data_original']['pages']['user']['roles']->children['title']->type = 'code';
-  cache::$data['data_original']['pages']['user']['roles']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data_original']['pages']['user']['roles']->children['block_roles'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['user']['roles']->children['block_roles']->type = 'code';
-  cache::$data['data_original']['pages']['user']['roles']->children['block_roles']->source = '\\effcore\\modules\\user\\events_page::on_show_block_roles';
   cache::$data['data_original']['pages']['user']['registration'] = new \effcore\page();
   cache::$data['data_original']['pages']['user']['registration']->title = 'Registration';
   cache::$data['data_original']['pages']['user']['registration']->https = true;

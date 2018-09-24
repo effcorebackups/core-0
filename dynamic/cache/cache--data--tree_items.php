@@ -37,14 +37,6 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['logout']->weight = -100;
   cache::$data['data--tree_items']['user']['logout']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['logout']->access->roles['registered'] = 'registered';
-  cache::$data['data--tree_items']['user']['roles'] = new \effcore\tree_item();
-  cache::$data['data--tree_items']['user']['roles']->id = 'roles';
-  cache::$data['data--tree_items']['user']['roles']->id_parent = 'manage';
-  cache::$data['data--tree_items']['user']['roles']->href = '/manage/roles';
-  cache::$data['data--tree_items']['user']['roles']->title = 'Roles';
-  cache::$data['data--tree_items']['user']['roles']->attributes['class']['roles'] = 'roles';
-  cache::$data['data--tree_items']['user']['roles']->access = new \stdClass();
-  cache::$data['data--tree_items']['user']['roles']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['storage']['manage_instances'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['storage']['manage_instances']->id = 'manage_instances';
   cache::$data['data--tree_items']['storage']['manage_instances']->id_parent = 'manage';
