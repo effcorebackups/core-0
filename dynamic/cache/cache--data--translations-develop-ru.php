@@ -34,6 +34,8 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Field %%_type.'] = 'Поле %%_type.';
   cache::$data['data--translations-develop-ru']->data['Field date + time'] = 'Поле date + time';
   cache::$data['data--translations-develop-ru']->data['Field date'] = 'Поле date';
+  cache::$data['data--translations-develop-ru']->data['Field integer 1'] = 'Поле integer 1';
+  cache::$data['data--translations-develop-ru']->data['Field integer 2'] = 'Поле integer 2';
   cache::$data['data--translations-develop-ru']->data['Field integer'] = 'Поле integer';
   cache::$data['data--translations-develop-ru']->data['Field time'] = 'Поле time';
   cache::$data['data--translations-develop-ru']->data['Field varchar'] = 'Поле varchar';

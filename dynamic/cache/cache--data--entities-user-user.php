@@ -25,6 +25,7 @@ namespace effcore { # cache for data--entities-user-user
   cache::$data['data--entities-user-user']->fields['nick']->not_null = true;
   cache::$data['data--entities-user-user']->fields['password_hash'] = new \stdClass();
   cache::$data['data--entities-user-user']->fields['password_hash']->title = 'Password hash';
+  cache::$data['data--entities-user-user']->fields['password_hash']->hidden = true;
   cache::$data['data--entities-user-user']->fields['password_hash']->type = 'varchar';
   cache::$data['data--entities-user-user']->fields['password_hash']->size = 255;
   cache::$data['data--entities-user-user']->fields['is_embed'] = new \stdClass();
@@ -34,6 +35,7 @@ namespace effcore { # cache for data--entities-user-user
   cache::$data['data--entities-user-user']->fields['is_embed']->default = 0;
   cache::$data['data--entities-user-user']->fields['avatar_path_relative'] = new \stdClass();
   cache::$data['data--entities-user-user']->fields['avatar_path_relative']->title = 'Avatar relative path';
+  cache::$data['data--entities-user-user']->fields['avatar_path_relative']->hidden = true;
   cache::$data['data--entities-user-user']->fields['avatar_path_relative']->type = 'varchar';
   cache::$data['data--entities-user-user']->fields['avatar_path_relative']->size = 1024;
   cache::$data['data--entities-user-user']->fields['created'] = new \stdClass();

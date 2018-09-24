@@ -31,6 +31,7 @@ namespace effcore { # cache for data--entities-user-session
   cache::$data['data--entities-user-session']->fields['expire']->type = 'datetime';
   cache::$data['data--entities-user-session']->fields['data'] = new \stdClass();
   cache::$data['data--entities-user-session']->fields['data']->title = 'Data';
+  cache::$data['data--entities-user-session']->fields['data']->hidden = true;
   cache::$data['data--entities-user-session']->fields['data']->type = 'blob';
   cache::$data['data--entities-user-session']->fields['data']->null = true;
   cache::$data['data--entities-user-session']->constraints['key_id'] = new \stdClass();

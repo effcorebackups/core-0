@@ -16,6 +16,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['agree'] = 'согласен(а)';
   cache::$data['data--translations-locales-ru']->data['Anonymous'] = 'Аноним';
   cache::$data['data--translations-locales-ru']->data['Architecture'] = 'Архитектура';
+  cache::$data['data--translations-locales-ru']->data['Attempts'] = 'Попытки';
   cache::$data['data--translations-locales-ru']->data['Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).'] = 'Атрибут "multiple" не поддерживается на сенсорных устройствах (планшеты, смартфоны, мониторы с сенсорными экранами).';
   cache::$data['data--translations-locales-ru']->data['autoload'] = 'автозагрузка';
   cache::$data['data--translations-locales-ru']->data['Avatar'] = 'Аватар';
@@ -31,6 +32,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Canvas'] = 'Холст';
   cache::$data['data--translations-locales-ru']->data['Captcha'] = 'Защитный код';
   cache::$data['data--translations-locales-ru']->data['Change this EMail and Password after login to the system!'] = 'Измените этот Адрес электронной почты и Пароль после входа в систему!';
+  cache::$data['data--translations-locales-ru']->data['Characters'] = 'Символы';
   cache::$data['data--translations-locales-ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
   cache::$data['data--translations-locales-ru']->data['Check file (if exists) and directory permissions.'] = 'Проверьте разрешения файла (если существует) и каталога.';
   cache::$data['data--translations-locales-ru']->data['Checkbox'] = 'Флаг';
@@ -82,6 +84,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['events'] = 'события';
   cache::$data['data--translations-locales-ru']->data['Events'] = 'События';
   cache::$data['data--translations-locales-ru']->data['expand'] = 'развернуть';
+  cache::$data['data--translations-locales-ru']->data['Expire date'] = 'Дата истечения';
   cache::$data['data--translations-locales-ru']->data['failed to write file to disk'] = 'не удалось записать файл на диск';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" after trying to upload the file returned an error: %%_error!'] = 'Поле "%%_title" после попытки загрузить файл вернуло ошибку: %%_error!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
@@ -139,7 +142,10 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Instances'] = 'Экземпляры';
   cache::$data['data--translations-locales-ru']->data['Internet Explorer below version %%_version no longer supported!'] = 'Internet Explorer ниже версии %%_version больше не поддерживается!';
   cache::$data['data--translations-locales-ru']->data['invalid session was deleted!'] = 'Недействительный сеанс был удален!';
+  cache::$data['data--translations-locales-ru']->data['IP address'] = 'IP адрес';
   cache::$data['data--translations-locales-ru']->data['Is embed'] = 'Встроенный';
+  cache::$data['data--translations-locales-ru']->data['Is fixed IP'] = 'Фиксировать IP';
+  cache::$data['data--translations-locales-ru']->data['Is remember'] = 'Запоминать';
   cache::$data['data--translations-locales-ru']->data['item #%%_number'] = 'пункт №%%_number';
   cache::$data['data--translations-locales-ru']->data['Key "%%_name" does not exist!'] = 'Ключ "%%_name" не существует!';
   cache::$data['data--translations-locales-ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
@@ -197,8 +203,10 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Page'] = 'Страница';
   cache::$data['data--translations-locales-ru']->data['Paragraph'] = 'Параграф';
   cache::$data['data--translations-locales-ru']->data['Parameter'] = 'Параметр';
+  cache::$data['data--translations-locales-ru']->data['Parent ID'] = 'ID Родителя';
   cache::$data['data--translations-locales-ru']->data['Password'] = 'Пароль';
   cache::$data['data--translations-locales-ru']->data['Path'] = 'Путь';
+  cache::$data['data--translations-locales-ru']->data['Permission ID'] = 'ID Разрешения';
   cache::$data['data--translations-locales-ru']->data['Permission'] = 'Разрешение';
   cache::$data['data--translations-locales-ru']->data['Phone'] = 'Телефон';
   cache::$data['data--translations-locales-ru']->data['PHP Version'] = 'PHP Версия';
@@ -225,6 +233,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
   cache::$data['data--translations-locales-ru']->data['restore'] = 'восстановить';
   cache::$data['data--translations-locales-ru']->data['return'] = 'возврат';
+  cache::$data['data--translations-locales-ru']->data['Role ID'] = 'ID Роли';
   cache::$data['data--translations-locales-ru']->data['role'] = 'роль';
   cache::$data['data--translations-locales-ru']->data['Role'] = 'Роль';
   cache::$data['data--translations-locales-ru']->data['roles'] = 'роли';
@@ -300,6 +309,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['User %%_nick was updated.'] = 'Пользователь %%_nick был обновлен.';
   cache::$data['data--translations-locales-ru']->data['User %%_nick_context{2}'] = 'Пользователь %%_nick_context{2}';
   cache::$data['data--translations-locales-ru']->data['User %%_nick'] = 'Пользователь %%_nick';
+  cache::$data['data--translations-locales-ru']->data['User ID'] = 'ID Пользователя';
   cache::$data['data--translations-locales-ru']->data['User name'] = 'Имя пользователя';
   cache::$data['data--translations-locales-ru']->data['User roles'] = 'Роли пользователя';
   cache::$data['data--translations-locales-ru']->data['User was not registered!'] = 'Пользователь не был зарегистрирован!';

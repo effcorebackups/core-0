@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-24 13:38:38';
+  cache::$info['data_original']['build'] = '2018-09-24 20:22:53';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1662,6 +1662,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['session']->fields['expire']->type = 'datetime';
   cache::$data['data_original']['entities']['user']['session']->fields['data'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['session']->fields['data']->title = 'Data';
+  cache::$data['data_original']['entities']['user']['session']->fields['data']->hidden = true;
   cache::$data['data_original']['entities']['user']['session']->fields['data']->type = 'blob';
   cache::$data['data_original']['entities']['user']['session']->fields['data']->null = true;
   cache::$data['data_original']['entities']['user']['session']->constraints['key_id'] = new \stdClass();
@@ -1690,6 +1691,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['user']->fields['nick']->not_null = true;
   cache::$data['data_original']['entities']['user']['user']->fields['password_hash'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['user']->fields['password_hash']->title = 'Password hash';
+  cache::$data['data_original']['entities']['user']['user']->fields['password_hash']->hidden = true;
   cache::$data['data_original']['entities']['user']['user']->fields['password_hash']->type = 'varchar';
   cache::$data['data_original']['entities']['user']['user']->fields['password_hash']->size = 255;
   cache::$data['data_original']['entities']['user']['user']->fields['is_embed'] = new \stdClass();
@@ -1699,6 +1701,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['user']->fields['is_embed']->default = 0;
   cache::$data['data_original']['entities']['user']['user']->fields['avatar_path_relative'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['user']->fields['avatar_path_relative']->title = 'Avatar relative path';
+  cache::$data['data_original']['entities']['user']['user']->fields['avatar_path_relative']->hidden = true;
   cache::$data['data_original']['entities']['user']['user']->fields['avatar_path_relative']->type = 'varchar';
   cache::$data['data_original']['entities']['user']['user']->fields['avatar_path_relative']->size = 1024;
   cache::$data['data_original']['entities']['user']['user']->fields['created'] = new \stdClass();
@@ -1746,6 +1749,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['page']['captcha']->fields['attempts']->not_null = true;
   cache::$data['data_original']['entities']['page']['captcha']->fields['canvas_data'] = new \stdClass();
   cache::$data['data_original']['entities']['page']['captcha']->fields['canvas_data']->title = 'Canvas data';
+  cache::$data['data_original']['entities']['page']['captcha']->fields['canvas_data']->hidden = true;
   cache::$data['data_original']['entities']['page']['captcha']->fields['canvas_data']->type = 'blob';
   cache::$data['data_original']['entities']['page']['captcha']->fields['canvas_data']->not_null = true;
   cache::$data['data_original']['entities']['page']['captcha']->fields['created'] = new \stdClass();
@@ -2898,6 +2902,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['agree'] = 'согласен(а)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Anonymous'] = 'Аноним';
   cache::$data['data_original']['translations']['locales']['ru']->data['Architecture'] = 'Архитектура';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Attempts'] = 'Попытки';
   cache::$data['data_original']['translations']['locales']['ru']->data['Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).'] = 'Атрибут "multiple" не поддерживается на сенсорных устройствах (планшеты, смартфоны, мониторы с сенсорными экранами).';
   cache::$data['data_original']['translations']['locales']['ru']->data['autoload'] = 'автозагрузка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Avatar'] = 'Аватар';
@@ -2913,6 +2918,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Canvas'] = 'Холст';
   cache::$data['data_original']['translations']['locales']['ru']->data['Captcha'] = 'Защитный код';
   cache::$data['data_original']['translations']['locales']['ru']->data['Change this EMail and Password after login to the system!'] = 'Измените этот Адрес электронной почты и Пароль после входа в систему!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Characters'] = 'Символы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Check file (if exists) and directory permissions.'] = 'Проверьте разрешения файла (если существует) и каталога.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Checkbox'] = 'Флаг';
@@ -2964,6 +2970,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['events'] = 'события';
   cache::$data['data_original']['translations']['locales']['ru']->data['Events'] = 'События';
   cache::$data['data_original']['translations']['locales']['ru']->data['expand'] = 'развернуть';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Expire date'] = 'Дата истечения';
   cache::$data['data_original']['translations']['locales']['ru']->data['failed to write file to disk'] = 'не удалось записать файл на диск';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" after trying to upload the file returned an error: %%_error!'] = 'Поле "%%_title" после попытки загрузить файл вернуло ошибку: %%_error!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';
@@ -3021,7 +3028,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Instances'] = 'Экземпляры';
   cache::$data['data_original']['translations']['locales']['ru']->data['Internet Explorer below version %%_version no longer supported!'] = 'Internet Explorer ниже версии %%_version больше не поддерживается!';
   cache::$data['data_original']['translations']['locales']['ru']->data['invalid session was deleted!'] = 'Недействительный сеанс был удален!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['IP address'] = 'IP адрес';
   cache::$data['data_original']['translations']['locales']['ru']->data['Is embed'] = 'Встроенный';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Is fixed IP'] = 'Фиксировать IP';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Is remember'] = 'Запоминать';
   cache::$data['data_original']['translations']['locales']['ru']->data['item #%%_number'] = 'пункт №%%_number';
   cache::$data['data_original']['translations']['locales']['ru']->data['Key "%%_name" does not exist!'] = 'Ключ "%%_name" не существует!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
@@ -3079,8 +3089,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Page'] = 'Страница';
   cache::$data['data_original']['translations']['locales']['ru']->data['Paragraph'] = 'Параграф';
   cache::$data['data_original']['translations']['locales']['ru']->data['Parameter'] = 'Параметр';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Parent ID'] = 'ID Родителя';
   cache::$data['data_original']['translations']['locales']['ru']->data['Password'] = 'Пароль';
   cache::$data['data_original']['translations']['locales']['ru']->data['Path'] = 'Путь';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Permission ID'] = 'ID Разрешения';
   cache::$data['data_original']['translations']['locales']['ru']->data['Permission'] = 'Разрешение';
   cache::$data['data_original']['translations']['locales']['ru']->data['Phone'] = 'Телефон';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP Version'] = 'PHP Версия';
@@ -3107,6 +3119,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
   cache::$data['data_original']['translations']['locales']['ru']->data['restore'] = 'восстановить';
   cache::$data['data_original']['translations']['locales']['ru']->data['return'] = 'возврат';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Role ID'] = 'ID Роли';
   cache::$data['data_original']['translations']['locales']['ru']->data['role'] = 'роль';
   cache::$data['data_original']['translations']['locales']['ru']->data['Role'] = 'Роль';
   cache::$data['data_original']['translations']['locales']['ru']->data['roles'] = 'роли';
@@ -3182,6 +3195,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['User %%_nick was updated.'] = 'Пользователь %%_nick был обновлен.';
   cache::$data['data_original']['translations']['locales']['ru']->data['User %%_nick_context{2}'] = 'Пользователь %%_nick_context{2}';
   cache::$data['data_original']['translations']['locales']['ru']->data['User %%_nick'] = 'Пользователь %%_nick';
+  cache::$data['data_original']['translations']['locales']['ru']->data['User ID'] = 'ID Пользователя';
   cache::$data['data_original']['translations']['locales']['ru']->data['User name'] = 'Имя пользователя';
   cache::$data['data_original']['translations']['locales']['ru']->data['User roles'] = 'Роли пользователя';
   cache::$data['data_original']['translations']['locales']['ru']->data['User was not registered!'] = 'Пользователь не был зарегистрирован!';
@@ -3240,6 +3254,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Field %%_type.'] = 'Поле %%_type.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Field date + time'] = 'Поле date + time';
   cache::$data['data_original']['translations']['develop']['ru']->data['Field date'] = 'Поле date';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Field integer 1'] = 'Поле integer 1';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Field integer 2'] = 'Поле integer 2';
   cache::$data['data_original']['translations']['develop']['ru']->data['Field integer'] = 'Поле integer';
   cache::$data['data_original']['translations']['develop']['ru']->data['Field time'] = 'Поле time';
   cache::$data['data_original']['translations']['develop']['ru']->data['Field varchar'] = 'Поле varchar';
