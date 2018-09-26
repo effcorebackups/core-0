@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-26 08:55:48';
+  cache::$info['data_original']['build'] = '2018-09-26 09:26:29';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -740,7 +740,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['modules']->display = new \stdClass();
   cache::$data['data_original']['pages']['core']['modules']->display->check = 'url';
   cache::$data['data_original']['pages']['core']['modules']->display->where = 'path';
-  cache::$data['data_original']['pages']['core']['modules']->display->match = '%^/manage/modules$%';
+  cache::$data['data_original']['pages']['core']['modules']->display->match = '%^(?<base>/manage/modules)(/(?<action>[a-z]+)/(?<id>[a-z_]+)|)$%';
   cache::$data['data_original']['pages']['core']['modules']->access = new \stdClass();
   cache::$data['data_original']['pages']['core']['modules']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['core']['modules']->children['menu_main'] = new \effcore\page_part();
@@ -2847,9 +2847,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['blocks']['demo']['demo']->children['controls_title']->children['content'] = new \effcore\text();
   cache::$data['data_original']['blocks']['demo']['demo']->children['controls_title']->children['content']->text = 'Control elements';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_actions_list'] = new \effcore\control_actions_list();
-  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_actions_list']->actions['edit'] = 'edit';
-  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_actions_list']->actions['delete'] = 'delete';
-  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_actions_list']->active['edit'] = 'edit';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_actions_list']->actions['item_1'] = 'item #1';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_actions_list']->actions['item_2'] = 'item #2';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_actions_list']->actions['item_3'] = 'item #3';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_actions_list']->attributes['class']['demo-actions-list'] = 'demo-actions-list';
   cache::$data['data_original']['blocks']['demo']['demo']->attributes['class']['demo'] = 'demo';
   cache::$data['data_original']['translations']['locales']['ru'] = new \effcore\translation();

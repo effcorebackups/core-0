@@ -113,7 +113,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['core']['modules']->display = new \stdClass();
   cache::$data['data--pages']['core']['modules']->display->check = 'url';
   cache::$data['data--pages']['core']['modules']->display->where = 'path';
-  cache::$data['data--pages']['core']['modules']->display->match = '%^/manage/modules$%';
+  cache::$data['data--pages']['core']['modules']->display->match = '%^(?<base>/manage/modules)(/(?<action>[a-z]+)/(?<id>[a-z_]+)|)$%';
   cache::$data['data--pages']['core']['modules']->access = new \stdClass();
   cache::$data['data--pages']['core']['modules']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['core']['install'] = new \effcore\external_cache();
