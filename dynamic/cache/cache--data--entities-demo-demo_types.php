@@ -46,5 +46,8 @@ namespace effcore { # cache for data--entities-demo-demo_types
   cache::$data['data--entities-demo-demo_types']->fields['f_blob']->title = 'Field blob';
   cache::$data['data--entities-demo-demo_types']->fields['f_blob']->type = 'blob';
   cache::$data['data--entities-demo-demo_types']->fields['f_blob']->null = true;
+  cache::$data['data--entities-demo-demo_types']->constraints['key_id'] = new \stdClass();
+  cache::$data['data--entities-demo-demo_types']->constraints['key_id']->type = 'primary key';
+  cache::$data['data--entities-demo-demo_types']->constraints['key_id']->fields['id'] = 'id';
 
 }
