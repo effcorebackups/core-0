@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-26 13:51:30';
+  cache::$info['data_original']['build'] = '2018-09-26 20:33:52';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2030,12 +2030,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['storage']['instance_update']->title = 'Update';
   cache::$data['data_original']['tabs_items']['storage']['instance_update']->action_name = 'update';
   cache::$data['data_original']['tabs_items']['storage']['instance_update']->attributes['class']['instance-update'] = 'instance-update';
+  cache::$data['data_original']['tabs_items']['storage']['instance_update']->hidden = true;
   cache::$data['data_original']['tabs_items']['storage']['instance_delete'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['storage']['instance_delete']->id = 'instance_delete';
   cache::$data['data_original']['tabs_items']['storage']['instance_delete']->id_parent = 'T:manage_instances';
   cache::$data['data_original']['tabs_items']['storage']['instance_delete']->title = 'Delete';
   cache::$data['data_original']['tabs_items']['storage']['instance_delete']->action_name = 'delete';
   cache::$data['data_original']['tabs_items']['storage']['instance_delete']->attributes['class']['instance-delete'] = 'instance-delete';
+  cache::$data['data_original']['tabs_items']['storage']['instance_delete']->hidden = true;
   cache::$data['data_original']['tabs_items']['menu']['tree_select'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['menu']['tree_select']->id = 'tree_select';
   cache::$data['data_original']['tabs_items']['menu']['tree_select']->id_parent = 'T:manage_trees';
