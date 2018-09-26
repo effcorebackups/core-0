@@ -57,7 +57,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['storage']['instances']->display = new \stdClass();
   cache::$data['data--pages']['storage']['instances']->display->check = 'url';
   cache::$data['data--pages']['storage']['instances']->display->where = 'path';
-  cache::$data['data--pages']['storage']['instances']->display->match = '%^(?<base>/manage/instances)/(?<action>[a-z]+)(/(?<id>[a-z_]+)|)$%';
+  cache::$data['data--pages']['storage']['instances']->display->match = '%(?J)^(?<base>/manage/instances)/(?<action>select|insert)$|^(?<base>/manage/instances)/(?<action>select|insert)/(?<entity_name>[a-z_]+)$|^(?<base>/manage/instances)/(?<action>select|update|delete)/(?<entity_name>[a-z_]+)/(?<instances_id>[a-z0-9_/]+)$%';
   cache::$data['data--pages']['storage']['instances']->access = new \stdClass();
   cache::$data['data--pages']['storage']['instances']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['page']['decoration'] = new \effcore\external_cache();
