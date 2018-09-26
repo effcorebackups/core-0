@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-26 13:33:42';
+  cache::$info['data_original']['build'] = '2018-09-26 13:51:30';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1495,6 +1495,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['permission']->ws_created = true;
   cache::$data['data_original']['entities']['user']['permission']->ws_updated = true;
   cache::$data['data_original']['entities']['user']['permission']->title = 'Permission';
+  cache::$data['data_original']['entities']['user']['permission']->title_plural = 'Permissions';
   cache::$data['data_original']['entities']['user']['permission']->fields['id'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['permission']->fields['id']->title = 'ID';
   cache::$data['data_original']['entities']['user']['permission']->fields['id']->type = 'varchar';
@@ -1529,6 +1530,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->ws_created = true;
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->ws_updated = true;
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->title = 'Relation: Role + Permission';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->title_plural = 'Relations: Role + Permission';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->fields['id_role'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->fields['id_role']->title = 'Role ID';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->fields['id_role']->type = 'varchar';
@@ -1564,6 +1566,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->ws_created = true;
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->ws_updated = true;
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->title = 'Relation: Role + User';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->title_plural = 'Relations: Role + User';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->fields['id_role'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->fields['id_role']->title = 'Role ID';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->fields['id_role']->type = 'varchar';
@@ -1598,6 +1601,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['role']->ws_created = true;
   cache::$data['data_original']['entities']['user']['role']->ws_updated = true;
   cache::$data['data_original']['entities']['user']['role']->title = 'Role';
+  cache::$data['data_original']['entities']['user']['role']->title_plural = 'Roles';
   cache::$data['data_original']['entities']['user']['role']->fields['id'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['role']->fields['id']->title = 'ID';
   cache::$data['data_original']['entities']['user']['role']->fields['id']->type = 'varchar';
@@ -1635,6 +1639,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['session']->storage_id = 'main';
   cache::$data['data_original']['entities']['user']['session']->catalog_id = 'sessions';
   cache::$data['data_original']['entities']['user']['session']->title = 'Session';
+  cache::$data['data_original']['entities']['user']['session']->title_plural = 'Sessions';
   cache::$data['data_original']['entities']['user']['session']->fields['id'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['session']->fields['id']->title = 'ID';
   cache::$data['data_original']['entities']['user']['session']->fields['id']->type = 'varchar';
@@ -1672,6 +1677,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['user']->ws_created = true;
   cache::$data['data_original']['entities']['user']['user']->ws_updated = true;
   cache::$data['data_original']['entities']['user']['user']->title = 'User';
+  cache::$data['data_original']['entities']['user']['user']->title_plural = 'Users';
   cache::$data['data_original']['entities']['user']['user']->fields['id'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['user']->fields['id']->title = 'ID';
   cache::$data['data_original']['entities']['user']['user']->fields['id']->type = 'autoincrement';
@@ -1729,7 +1735,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['page']['captcha']->storage_id = 'main';
   cache::$data['data_original']['entities']['page']['captcha']->catalog_id = 'captcha';
   cache::$data['data_original']['entities']['page']['captcha']->ws_created = true;
-  cache::$data['data_original']['entities']['page']['captcha']->title = 'Captcha';
+  cache::$data['data_original']['entities']['page']['captcha']->title = 'CAPTCHA';
+  cache::$data['data_original']['entities']['page']['captcha']->title_plural = 'CAPTCHAs';
   cache::$data['data_original']['entities']['page']['captcha']->fields['ip_address'] = new \stdClass();
   cache::$data['data_original']['entities']['page']['captcha']->fields['ip_address']->title = 'IP address';
   cache::$data['data_original']['entities']['page']['captcha']->fields['ip_address']->type = 'varchar';
@@ -1766,6 +1773,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['menu']['tree']->ws_created = true;
   cache::$data['data_original']['entities']['menu']['tree']->ws_updated = true;
   cache::$data['data_original']['entities']['menu']['tree']->title = 'Tree';
+  cache::$data['data_original']['entities']['menu']['tree']->title_plural = 'Trees';
   cache::$data['data_original']['entities']['menu']['tree']->fields['id'] = new \stdClass();
   cache::$data['data_original']['entities']['menu']['tree']->fields['id']->title = 'ID';
   cache::$data['data_original']['entities']['menu']['tree']->fields['id']->type = 'autoincrement';
@@ -1799,6 +1807,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['menu']['tree_item']->ws_created = true;
   cache::$data['data_original']['entities']['menu']['tree_item']->ws_updated = true;
   cache::$data['data_original']['entities']['menu']['tree_item']->title = 'Tree item';
+  cache::$data['data_original']['entities']['menu']['tree_item']->title_plural = 'Tree items';
   cache::$data['data_original']['entities']['menu']['tree_item']->fields['id'] = new \stdClass();
   cache::$data['data_original']['entities']['menu']['tree_item']->fields['id']->title = 'ID';
   cache::$data['data_original']['entities']['menu']['tree_item']->fields['id']->type = 'autoincrement';
@@ -1834,6 +1843,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_types']->storage_id = 'main';
   cache::$data['data_original']['entities']['demo']['demo_types']->catalog_id = 'demo_types';
   cache::$data['data_original']['entities']['demo']['demo_types']->title = 'Demo: types';
+  cache::$data['data_original']['entities']['demo']['demo_types']->title_plural = 'Demo: types';
   cache::$data['data_original']['entities']['demo']['demo_types']->fields['id'] = new \stdClass();
   cache::$data['data_original']['entities']['demo']['demo_types']->fields['id']->title = 'ID';
   cache::$data['data_original']['entities']['demo']['demo_types']->fields['id']->type = 'autoincrement';
@@ -1881,6 +1891,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->storage_id = 'main';
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->catalog_id = 'demo_autoincrement';
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->title = 'Demo: autoincrement';
+  cache::$data['data_original']['entities']['demo']['demo_autoincrement']->title_plural = 'Demo: autoincrement';
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->fields['f_integer_1'] = new \stdClass();
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->fields['f_integer_1']->title = 'Field integer 1';
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->fields['f_integer_1']->type = 'autoincrement';
@@ -1898,6 +1909,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_constraints']->storage_id = 'main';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->catalog_id = 'demo_constraints';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->title = 'Demo: constraints';
+  cache::$data['data_original']['entities']['demo']['demo_constraints']->title_plural = 'Demo: constraints';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->fields['f_integer_1'] = new \stdClass();
   cache::$data['data_original']['entities']['demo']['demo_constraints']->fields['f_integer_1']->title = 'Field integer 1';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->fields['f_integer_1']->type = 'integer';
@@ -1919,6 +1931,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_indexes']->storage_id = 'main';
   cache::$data['data_original']['entities']['demo']['demo_indexes']->catalog_id = 'demo_indexes';
   cache::$data['data_original']['entities']['demo']['demo_indexes']->title = 'Demo: indexes';
+  cache::$data['data_original']['entities']['demo']['demo_indexes']->title_plural = 'Demo: indexes';
   cache::$data['data_original']['entities']['demo']['demo_indexes']->fields['f_integer_1'] = new \stdClass();
   cache::$data['data_original']['entities']['demo']['demo_indexes']->fields['f_integer_1']->title = 'Field integer 1';
   cache::$data['data_original']['entities']['demo']['demo_indexes']->fields['f_integer_1']->type = 'integer';
@@ -2921,7 +2934,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Cancel'] = 'Отмена';
   cache::$data['data_original']['translations']['locales']['ru']->data['cancel'] = 'отмена';
   cache::$data['data_original']['translations']['locales']['ru']->data['Canvas'] = 'Холст';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Captcha'] = 'Защитный код';
+  cache::$data['data_original']['translations']['locales']['ru']->data['CAPTCHA'] = 'Защитный код';
+  cache::$data['data_original']['translations']['locales']['ru']->data['CAPTCHAs'] = 'Защитные коды';
   cache::$data['data_original']['translations']['locales']['ru']->data['Change this EMail and Password after login to the system!'] = 'Измените этот Адрес электронной почты и Пароль после входа в систему!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Characters'] = 'Символы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
@@ -3099,6 +3113,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Path'] = 'Путь';
   cache::$data['data_original']['translations']['locales']['ru']->data['Permission ID'] = 'ID Разрешения';
   cache::$data['data_original']['translations']['locales']['ru']->data['Permission'] = 'Разрешение';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Permissions'] = 'Разрешения';
   cache::$data['data_original']['translations']['locales']['ru']->data['Phone'] = 'Телефон';
   cache::$data['data_original']['translations']['locales']['ru']->data['PHP Version'] = 'PHP Версия';
   cache::$data['data_original']['translations']['locales']['ru']->data['Port'] = 'Порт';
@@ -3118,6 +3133,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Registration'] = 'Регистрация';
   cache::$data['data_original']['translations']['locales']['ru']->data['Relation: Role + Permission'] = 'Связь: Роль + Разрешение';
   cache::$data['data_original']['translations']['locales']['ru']->data['Relation: Role + User'] = 'Связь: Роль + Пользователь';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Relations: Role + Permission'] = 'Связи: Роль + Разрешение';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Relations: Role + User'] = 'Связи: Роль + Пользователь';
   cache::$data['data_original']['translations']['locales']['ru']->data['remember me'] = 'запомнить меня';
   cache::$data['data_original']['translations']['locales']['ru']->data['Report'] = 'Отчёт';
   cache::$data['data_original']['translations']['locales']['ru']->data['reset'] = 'сбросить';
@@ -3139,6 +3156,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Server timezone'] = 'Часовой пояс сервера';
   cache::$data['data_original']['translations']['locales']['ru']->data['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data_original']['translations']['locales']['ru']->data['Session'] = 'Сессия';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Sessions'] = 'Сессии';
   cache::$data['data_original']['translations']['locales']['ru']->data['set'] = 'установка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Shared information'] = 'Общая информация';
   cache::$data['data_original']['translations']['locales']['ru']->data['Shared params'] = 'Общие параметры';
@@ -3184,6 +3202,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Total'] = 'Всего';
   cache::$data['data_original']['translations']['locales']['ru']->data['Translate'] = 'Перевод';
   cache::$data['data_original']['translations']['locales']['ru']->data['Tree item'] = 'Пункт дерева';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Tree items'] = 'Пункты дерева';
   cache::$data['data_original']['translations']['locales']['ru']->data['Tree'] = 'Дерево';
   cache::$data['data_original']['translations']['locales']['ru']->data['Trees'] = 'Деревья';
   cache::$data['data_original']['translations']['locales']['ru']->data['type'] = 'тип';

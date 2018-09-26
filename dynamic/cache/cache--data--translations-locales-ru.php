@@ -30,7 +30,8 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Cancel'] = 'Отмена';
   cache::$data['data--translations-locales-ru']->data['cancel'] = 'отмена';
   cache::$data['data--translations-locales-ru']->data['Canvas'] = 'Холст';
-  cache::$data['data--translations-locales-ru']->data['Captcha'] = 'Защитный код';
+  cache::$data['data--translations-locales-ru']->data['CAPTCHA'] = 'Защитный код';
+  cache::$data['data--translations-locales-ru']->data['CAPTCHAs'] = 'Защитные коды';
   cache::$data['data--translations-locales-ru']->data['Change this EMail and Password after login to the system!'] = 'Измените этот Адрес электронной почты и Пароль после входа в систему!';
   cache::$data['data--translations-locales-ru']->data['Characters'] = 'Символы';
   cache::$data['data--translations-locales-ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
@@ -208,6 +209,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Path'] = 'Путь';
   cache::$data['data--translations-locales-ru']->data['Permission ID'] = 'ID Разрешения';
   cache::$data['data--translations-locales-ru']->data['Permission'] = 'Разрешение';
+  cache::$data['data--translations-locales-ru']->data['Permissions'] = 'Разрешения';
   cache::$data['data--translations-locales-ru']->data['Phone'] = 'Телефон';
   cache::$data['data--translations-locales-ru']->data['PHP Version'] = 'PHP Версия';
   cache::$data['data--translations-locales-ru']->data['Port'] = 'Порт';
@@ -227,6 +229,8 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Registration'] = 'Регистрация';
   cache::$data['data--translations-locales-ru']->data['Relation: Role + Permission'] = 'Связь: Роль + Разрешение';
   cache::$data['data--translations-locales-ru']->data['Relation: Role + User'] = 'Связь: Роль + Пользователь';
+  cache::$data['data--translations-locales-ru']->data['Relations: Role + Permission'] = 'Связи: Роль + Разрешение';
+  cache::$data['data--translations-locales-ru']->data['Relations: Role + User'] = 'Связи: Роль + Пользователь';
   cache::$data['data--translations-locales-ru']->data['remember me'] = 'запомнить меня';
   cache::$data['data--translations-locales-ru']->data['Report'] = 'Отчёт';
   cache::$data['data--translations-locales-ru']->data['reset'] = 'сбросить';
@@ -248,6 +252,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Server timezone'] = 'Часовой пояс сервера';
   cache::$data['data--translations-locales-ru']->data['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data--translations-locales-ru']->data['Session'] = 'Сессия';
+  cache::$data['data--translations-locales-ru']->data['Sessions'] = 'Сессии';
   cache::$data['data--translations-locales-ru']->data['set'] = 'установка';
   cache::$data['data--translations-locales-ru']->data['Shared information'] = 'Общая информация';
   cache::$data['data--translations-locales-ru']->data['Shared params'] = 'Общие параметры';
@@ -293,6 +298,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Total'] = 'Всего';
   cache::$data['data--translations-locales-ru']->data['Translate'] = 'Перевод';
   cache::$data['data--translations-locales-ru']->data['Tree item'] = 'Пункт дерева';
+  cache::$data['data--translations-locales-ru']->data['Tree items'] = 'Пункты дерева';
   cache::$data['data--translations-locales-ru']->data['Tree'] = 'Дерево';
   cache::$data['data--translations-locales-ru']->data['Trees'] = 'Деревья';
   cache::$data['data--translations-locales-ru']->data['type'] = 'тип';

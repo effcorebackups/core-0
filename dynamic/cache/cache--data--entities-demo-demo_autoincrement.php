@@ -7,6 +7,7 @@ namespace effcore { # cache for data--entities-demo-demo_autoincrement
   cache::$data['data--entities-demo-demo_autoincrement']->storage_id = 'main';
   cache::$data['data--entities-demo-demo_autoincrement']->catalog_id = 'demo_autoincrement';
   cache::$data['data--entities-demo-demo_autoincrement']->title = 'Demo: autoincrement';
+  cache::$data['data--entities-demo-demo_autoincrement']->title_plural = 'Demo: autoincrement';
   cache::$data['data--entities-demo-demo_autoincrement']->fields['f_integer_1'] = new \stdClass();
   cache::$data['data--entities-demo-demo_autoincrement']->fields['f_integer_1']->title = 'Field integer 1';
   cache::$data['data--entities-demo-demo_autoincrement']->fields['f_integer_1']->type = 'autoincrement';

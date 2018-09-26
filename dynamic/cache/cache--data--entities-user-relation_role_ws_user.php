@@ -9,6 +9,7 @@ namespace effcore { # cache for data--entities-user-relation_role_ws_user
   cache::$data['data--entities-user-relation_role_ws_user']->ws_created = true;
   cache::$data['data--entities-user-relation_role_ws_user']->ws_updated = true;
   cache::$data['data--entities-user-relation_role_ws_user']->title = 'Relation: Role + User';
+  cache::$data['data--entities-user-relation_role_ws_user']->title_plural = 'Relations: Role + User';
   cache::$data['data--entities-user-relation_role_ws_user']->fields['id_role'] = new \stdClass();
   cache::$data['data--entities-user-relation_role_ws_user']->fields['id_role']->title = 'Role ID';
   cache::$data['data--entities-user-relation_role_ws_user']->fields['id_role']->type = 'varchar';

@@ -7,7 +7,8 @@ namespace effcore { # cache for data--entities-page-captcha
   cache::$data['data--entities-page-captcha']->storage_id = 'main';
   cache::$data['data--entities-page-captcha']->catalog_id = 'captcha';
   cache::$data['data--entities-page-captcha']->ws_created = true;
-  cache::$data['data--entities-page-captcha']->title = 'Captcha';
+  cache::$data['data--entities-page-captcha']->title = 'CAPTCHA';
+  cache::$data['data--entities-page-captcha']->title_plural = 'CAPTCHAs';
   cache::$data['data--entities-page-captcha']->fields['ip_address'] = new \stdClass();
   cache::$data['data--entities-page-captcha']->fields['ip_address']->title = 'IP address';
   cache::$data['data--entities-page-captcha']->fields['ip_address']->type = 'varchar';

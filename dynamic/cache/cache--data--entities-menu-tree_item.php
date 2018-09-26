@@ -9,6 +9,7 @@ namespace effcore { # cache for data--entities-menu-tree_item
   cache::$data['data--entities-menu-tree_item']->ws_created = true;
   cache::$data['data--entities-menu-tree_item']->ws_updated = true;
   cache::$data['data--entities-menu-tree_item']->title = 'Tree item';
+  cache::$data['data--entities-menu-tree_item']->title_plural = 'Tree items';
   cache::$data['data--entities-menu-tree_item']->fields['id'] = new \stdClass();
   cache::$data['data--entities-menu-tree_item']->fields['id']->title = 'ID';
   cache::$data['data--entities-menu-tree_item']->fields['id']->type = 'autoincrement';

@@ -9,6 +9,7 @@ namespace effcore { # cache for data--entities-user-permission
   cache::$data['data--entities-user-permission']->ws_created = true;
   cache::$data['data--entities-user-permission']->ws_updated = true;
   cache::$data['data--entities-user-permission']->title = 'Permission';
+  cache::$data['data--entities-user-permission']->title_plural = 'Permissions';
   cache::$data['data--entities-user-permission']->fields['id'] = new \stdClass();
   cache::$data['data--entities-user-permission']->fields['id']->title = 'ID';
   cache::$data['data--entities-user-permission']->fields['id']->type = 'varchar';
