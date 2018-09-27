@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-26 22:07:41';
+  cache::$info['data_original']['build'] = '2018-09-27 11:02:18';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2749,7 +2749,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->tag_name = 'p';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['content'] = new \effcore\text();
-  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['content']->text = ' Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;';
+  cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['content']->text = 'Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['link_view_more'] = new \effcore\markup();
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['link_view_more']->tag_name = 'a';
   cache::$data['data_original']['blocks']['demo']['demo']->children['demo_paragraph']->children['link_view_more']->children['content'] = new \effcore\text();
@@ -3250,7 +3250,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['You must upload at least %%_number file%%_plural{number,s}.'] = 'Необходимо загрузить как минимум %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['develop']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['develop']['ru']->code = 'ru';
-  cache::$data['data_original']['translations']['develop']['ru']->data[' Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;'] = ' Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа.&#10;';
+  cache::$data['data_original']['translations']['develop']['ru']->data['Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;'] = ' Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа.&#10;';
   cache::$data['data_original']['translations']['develop']['ru']->data['&ndash; request post param "%%_name" = "%%_value"'] = '&ndash; post параметр запроса "%%_name" = "%%_value"';
   cache::$data['data_original']['translations']['develop']['ru']->data['&ndash; result of checking is = "%%_result"'] = '&ndash; результат проверки = "%%_result"';
   cache::$data['data_original']['translations']['develop']['ru']->data['Call %%_name'] = 'Вызов %%_name';
