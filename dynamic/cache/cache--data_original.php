@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-27 12:16:04';
+  cache::$info['data_original']['build'] = '2018-09-27 12:55:09';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -456,7 +456,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_select_multiple_by_entity_name']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_select_multiple_by_entity_name']->display->check = 'url';
   cache::$data['data_original']['pages']['storage']['instance_select_multiple_by_entity_name']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instance_select_multiple_by_entity_name']->display->match = '%^(?<base>/manage/instances)/(?<action>select)/(?<entity_name>[a-z0-9_]+)$%';
+  cache::$data['data_original']['pages']['storage']['instance_select_multiple_by_entity_name']->display->match = '%^(?<base>/manage/instances)/(?<action>select)(/(?<entity_name>[a-z0-9_]+)|)$%';
   cache::$data['data_original']['pages']['storage']['instance_select_multiple_by_entity_name']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_select_multiple_by_entity_name']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['storage']['instance_select_multiple_by_entity_name']->children['menu_main'] = new \effcore\page_part();
@@ -482,35 +482,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_select_multiple_by_entity_name']->children['block_instance_select_multiple_by_entity_name'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['storage']['instance_select_multiple_by_entity_name']->children['block_instance_select_multiple_by_entity_name']->type = 'code';
   cache::$data['data_original']['pages']['storage']['instance_select_multiple_by_entity_name']->children['block_instance_select_multiple_by_entity_name']->source = '\\effcore\\manage_instances::instance_select_multiple_by_entity_name';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_select'] = new \effcore\page();
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_select']->https = true;
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_select']->display = new \stdClass();
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_select']->display->check = 'url';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_select']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_select']->display->match = '%^(?<base>/manage/instances)/(?<action>select)$%';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_select']->access = new \stdClass();
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_select']->access->roles['admins'] = 'admins';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_select']->children['block_instance_redirect_to_select'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_select']->children['block_instance_redirect_to_select']->type = 'code';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_select']->children['block_instance_redirect_to_select']->source = '\\effcore\\manage_instances::redirect_to_select';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_insert'] = new \effcore\page();
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_insert']->https = true;
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_insert']->display = new \stdClass();
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_insert']->display->check = 'url';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_insert']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_insert']->display->match = '%^(?<base>/manage/instances)/(?<action>insert)$%';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_insert']->access = new \stdClass();
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_insert']->access->roles['admins'] = 'admins';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_insert']->children['block_instance_redirect_to_insert'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_insert']->children['block_instance_redirect_to_insert']->type = 'code';
-  cache::$data['data_original']['pages']['storage']['instance_redirect_to_insert']->children['block_instance_redirect_to_insert']->source = '\\effcore\\manage_instances::redirect_to_insert';
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name'] = new \effcore\page();
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->title = 'Insert instance';
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->https = true;
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->display->check = 'url';
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->display->match = '%^(?<base>/manage/instances)/(?<action>insert)/(?<entity_name>[a-z0-9_]+)$%';
+  cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->display->match = '%^(?<base>/manage/instances)/(?<action>insert)(/(?<entity_name>[a-z0-9_]+)|)$%';
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->children['menu_main'] = new \effcore\page_part();
