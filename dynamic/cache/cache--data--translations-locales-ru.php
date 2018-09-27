@@ -59,6 +59,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Decoration'] = 'Оформление';
   cache::$data['data--translations-locales-ru']->data['default type'] = 'тип по умолчанию';
   cache::$data['data--translations-locales-ru']->data['delete file: %%_name'] = 'удалить файл: %%_name';
+  cache::$data['data--translations-locales-ru']->data['Delete instance'] = 'Удалить экземпляр';
   cache::$data['data--translations-locales-ru']->data['Delete user %%_nick_context{4}?'] = 'Удалить пользователя %%_nick_context{4}?';
   cache::$data['data--translations-locales-ru']->data['Delete'] = 'Удалить';
   cache::$data['data--translations-locales-ru']->data['delete'] = 'удалить';
@@ -247,6 +248,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['save'] = 'сохранить';
   cache::$data['data--translations-locales-ru']->data['Search'] = 'Поиск';
   cache::$data['data--translations-locales-ru']->data['search'] = 'поиск';
+  cache::$data['data--translations-locales-ru']->data['Select instance'] = 'Выбрать экземпляр';
   cache::$data['data--translations-locales-ru']->data['Select instances'] = 'Выбрать экземпляры';
   cache::$data['data--translations-locales-ru']->data['Select'] = 'Выбрать';
   cache::$data['data--translations-locales-ru']->data['Selection list'] = 'Список выбора';
@@ -306,6 +308,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['type'] = 'тип';
   cache::$data['data--translations-locales-ru']->data['uninstall'] = 'удалить';
   cache::$data['data--translations-locales-ru']->data['Unordered list'] = 'Неупорядоченный список';
+  cache::$data['data--translations-locales-ru']->data['Update instance'] = 'Обновить экземпляр';
   cache::$data['data--translations-locales-ru']->data['Update'] = 'Обновить';
   cache::$data['data--translations-locales-ru']->data['updated'] = 'обновлено';
   cache::$data['data--translations-locales-ru']->data['Updated'] = 'Обновлено';
