@@ -60,6 +60,14 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['storage']['instance_select_multiple_by_entity_name']->display->match = '%^(?<base>/manage/instances)/(?<action>select)(/(?<entity_name>[a-z0-9_]+)|)$%';
   cache::$data['data--pages']['storage']['instance_select_multiple_by_entity_name']->access = new \stdClass();
   cache::$data['data--pages']['storage']['instance_select_multiple_by_entity_name']->access->roles['admins'] = 'admins';
+  cache::$data['data--pages']['storage']['instance_select_by_entity_name_and_instance_id'] = new \effcore\external_cache();
+  cache::$data['data--pages']['storage']['instance_select_by_entity_name_and_instance_id']->cache_name = 'data--pages-storage-instance_select_by_entity_name_and_instance_id';
+  cache::$data['data--pages']['storage']['instance_select_by_entity_name_and_instance_id']->display = new \stdClass();
+  cache::$data['data--pages']['storage']['instance_select_by_entity_name_and_instance_id']->display->check = 'url';
+  cache::$data['data--pages']['storage']['instance_select_by_entity_name_and_instance_id']->display->where = 'path';
+  cache::$data['data--pages']['storage']['instance_select_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>select)/(?<entity_name>[a-z0-9_]+)/(?<instances_id>[a-z0-9_/]+)$%';
+  cache::$data['data--pages']['storage']['instance_select_by_entity_name_and_instance_id']->access = new \stdClass();
+  cache::$data['data--pages']['storage']['instance_select_by_entity_name_and_instance_id']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['storage']['instance_insert_by_entity_name'] = new \effcore\external_cache();
   cache::$data['data--pages']['storage']['instance_insert_by_entity_name']->cache_name = 'data--pages-storage-instance_insert_by_entity_name';
   cache::$data['data--pages']['storage']['instance_insert_by_entity_name']->display = new \stdClass();
