@@ -131,6 +131,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['If the initial value is not specified, the current value in the UTC time zone will be used.'] = 'Если начальное значение не задано, то будет использовано текущее значение в часовом поясе UTC.';
   cache::$data['data--translations-locales-ru']->data['Incorrect email or password!'] = 'Неверный адрес электронной почты или пароль!';
   cache::$data['data--translations-locales-ru']->data['Information'] = 'Информация';
+  cache::$data['data--translations-locales-ru']->data['Insert instance'] = 'Вставить экземпляр';
   cache::$data['data--translations-locales-ru']->data['Insert'] = 'Вставить';
   cache::$data['data--translations-locales-ru']->data['insertion'] = 'вставка';
   cache::$data['data--translations-locales-ru']->data['Install'] = 'Установить';
@@ -246,6 +247,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['save'] = 'сохранить';
   cache::$data['data--translations-locales-ru']->data['Search'] = 'Поиск';
   cache::$data['data--translations-locales-ru']->data['search'] = 'поиск';
+  cache::$data['data--translations-locales-ru']->data['Select instances'] = 'Выбрать экземпляры';
   cache::$data['data--translations-locales-ru']->data['Select'] = 'Выбрать';
   cache::$data['data--translations-locales-ru']->data['Selection list'] = 'Список выбора';
   cache::$data['data--translations-locales-ru']->data['Server software'] = 'Серверное ПО';
