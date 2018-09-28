@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-27 21:29:14';
+  cache::$info['data_original']['build'] = '2018-09-28 08:03:48';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3260,6 +3260,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Select instance'] = 'Выбрать экземпляр';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select instances'] = 'Выбрать экземпляры';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select'] = 'Выбрать';
+  cache::$data['data_original']['translations']['locales']['ru']->data['select'] = 'выбрать';
   cache::$data['data_original']['translations']['locales']['ru']->data['Selection list'] = 'Список выбора';
   cache::$data['data_original']['translations']['locales']['ru']->data['Server software'] = 'Серверное ПО';
   cache::$data['data_original']['translations']['locales']['ru']->data['Server timezone'] = 'Часовой пояс сервера';
@@ -3319,6 +3320,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Unordered list'] = 'Неупорядоченный список';
   cache::$data['data_original']['translations']['locales']['ru']->data['Update instance'] = 'Обновить экземпляр';
   cache::$data['data_original']['translations']['locales']['ru']->data['Update'] = 'Обновить';
+  cache::$data['data_original']['translations']['locales']['ru']->data['update'] = 'обновить';
   cache::$data['data_original']['translations']['locales']['ru']->data['updated'] = 'обновлено';
   cache::$data['data_original']['translations']['locales']['ru']->data['Updated'] = 'Обновлено';
   cache::$data['data_original']['translations']['locales']['ru']->data['URL'] = 'URL';

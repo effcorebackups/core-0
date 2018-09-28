@@ -251,6 +251,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Select instance'] = 'Выбрать экземпляр';
   cache::$data['data--translations-locales-ru']->data['Select instances'] = 'Выбрать экземпляры';
   cache::$data['data--translations-locales-ru']->data['Select'] = 'Выбрать';
+  cache::$data['data--translations-locales-ru']->data['select'] = 'выбрать';
   cache::$data['data--translations-locales-ru']->data['Selection list'] = 'Список выбора';
   cache::$data['data--translations-locales-ru']->data['Server software'] = 'Серверное ПО';
   cache::$data['data--translations-locales-ru']->data['Server timezone'] = 'Часовой пояс сервера';
@@ -310,6 +311,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Unordered list'] = 'Неупорядоченный список';
   cache::$data['data--translations-locales-ru']->data['Update instance'] = 'Обновить экземпляр';
   cache::$data['data--translations-locales-ru']->data['Update'] = 'Обновить';
+  cache::$data['data--translations-locales-ru']->data['update'] = 'обновить';
   cache::$data['data--translations-locales-ru']->data['updated'] = 'обновлено';
   cache::$data['data--translations-locales-ru']->data['Updated'] = 'Обновлено';
   cache::$data['data--translations-locales-ru']->data['URL'] = 'URL';
