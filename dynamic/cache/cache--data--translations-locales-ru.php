@@ -60,6 +60,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['default type'] = 'тип по умолчанию';
   cache::$data['data--translations-locales-ru']->data['delete file: %%_name'] = 'удалить файл: %%_name';
   cache::$data['data--translations-locales-ru']->data['Delete instance'] = 'Удалить экземпляр';
+  cache::$data['data--translations-locales-ru']->data['Delete instances'] = 'Удалить экземпляры';
   cache::$data['data--translations-locales-ru']->data['Delete user %%_nick_context{4}?'] = 'Удалить пользователя %%_nick_context{4}?';
   cache::$data['data--translations-locales-ru']->data['Delete'] = 'Удалить';
   cache::$data['data--translations-locales-ru']->data['delete'] = 'удалить';

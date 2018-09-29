@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-28 08:03:48';
+  cache::$info['data_original']['build'] = '2018-09-29 08:12:27';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -456,7 +456,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->display->check = 'url';
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>update)/(?<entity_name>[a-z0-9_]+)/(?<instances_id>[a-z0-9_/]+)$%';
+  cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>update)/(?<entity_name>[a-z0-9_]+)/(?<instance_id>[a-z0-9_+]+)$%';
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['menu_main'] = new \effcore\page_part();
@@ -520,7 +520,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->display->check = 'url';
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>select)/(?<entity_name>[a-z0-9_]+)/(?<instances_id>[a-z0-9_/]+)$%';
+  cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>select)/(?<entity_name>[a-z0-9_]+)/(?<instance_id>[a-z0-9_+]+)$%';
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->children['menu_main'] = new \effcore\page_part();
@@ -578,13 +578,45 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->children['block_instance_insert_by_entity_name'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->children['block_instance_insert_by_entity_name']->type = 'code';
   cache::$data['data_original']['pages']['storage']['instance_insert_by_entity_name']->children['block_instance_insert_by_entity_name']->source = '\\effcore\\manage_instances::instance_insert_by_entity_name';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id'] = new \effcore\page();
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->title = 'Delete instances';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->https = true;
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->display = new \stdClass();
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->display->check = 'url';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->display->where = 'path';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->display->match = '%^(?<base>/manage/instances)/(?<action>delete)/(?<entity_name>[a-z0-9_]+)/(?<instances_id>[a-z0-9_+]+/[a-z0-9_+/]+)$%';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->access = new \stdClass();
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->access->roles['admins'] = 'admins';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['menu_main'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['menu_main']->region = 'main_menu';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['menu_main']->type = 'link';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['menu_main']->source = 'trees/core/main';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['menu_user'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['menu_user']->region = 'head';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['menu_user']->type = 'code';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['logo'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['logo']->region = 'head';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['logo']->type = 'link';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['logo']->source = 'blocks/page/logo';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['title'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['title']->region = 'title';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['title']->type = 'code';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['tabs'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['tabs']->region = 'tabs';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['tabs']->type = 'link';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['tabs']->source = 'tabs/storage/manage_instances';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id']->type = 'code';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id']->source = '\\effcore\\manage_instances::instance_delete_multiple_by_instances_id';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id'] = new \effcore\page();
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->title = 'Delete instance';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->https = true;
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->display->check = 'url';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>delete)/(?<entity_name>[a-z0-9_]+)/(?<instances_id>[a-z0-9_/]+)$%';
+  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>delete)/(?<entity_name>[a-z0-9_]+)/(?<instance_id>[a-z0-9_+]+)$%';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['menu_main'] = new \effcore\page_part();
@@ -3069,6 +3101,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['default type'] = 'тип по умолчанию';
   cache::$data['data_original']['translations']['locales']['ru']->data['delete file: %%_name'] = 'удалить файл: %%_name';
   cache::$data['data_original']['translations']['locales']['ru']->data['Delete instance'] = 'Удалить экземпляр';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Delete instances'] = 'Удалить экземпляры';
   cache::$data['data_original']['translations']['locales']['ru']->data['Delete user %%_nick_context{4}?'] = 'Удалить пользователя %%_nick_context{4}?';
   cache::$data['data_original']['translations']['locales']['ru']->data['Delete'] = 'Удалить';
   cache::$data['data_original']['translations']['locales']['ru']->data['delete'] = 'удалить';
