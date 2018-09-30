@@ -28,15 +28,15 @@ namespace effcore { # cache for data--entities-user-relation_role_ws_permission
   cache::$data['data--entities-user-relation_role_ws_permission']->fields['updated']->title = 'Updated';
   cache::$data['data--entities-user-relation_role_ws_permission']->fields['updated']->type = 'datetime';
   cache::$data['data--entities-user-relation_role_ws_permission']->fields['updated']->not_null = true;
-  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['key_id'] = new \stdClass();
-  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['key_id']->type = 'primary key';
-  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['key_id']->fields['id_role'] = 'id_role';
-  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['key_id']->fields['id_permission'] = 'id_permission';
-  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['idx_created'] = new \stdClass();
-  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['idx_created']->type = 'index';
-  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['idx_created']->fields['created'] = 'created';
-  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['idx_updated'] = new \stdClass();
-  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['idx_updated']->type = 'index';
-  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['primary_id'] = new \stdClass();
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['primary_id']->fields['id_role'] = 'id_role';
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['primary_id']->fields['id_permission'] = 'id_permission';
+  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['index_created'] = new \stdClass();
+  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['index_created']->type = 'index';
+  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['index_created']->fields['created'] = 'created';
+  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['index_updated'] = new \stdClass();
+  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['index_updated']->type = 'index';
+  cache::$data['data--entities-user-relation_role_ws_permission']->indexes['index_updated']->fields['updated'] = 'updated';
 
 }

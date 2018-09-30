@@ -28,14 +28,14 @@ namespace effcore { # cache for data--entities-user-permission
   cache::$data['data--entities-user-permission']->fields['updated']->title = 'Updated';
   cache::$data['data--entities-user-permission']->fields['updated']->type = 'datetime';
   cache::$data['data--entities-user-permission']->fields['updated']->not_null = true;
-  cache::$data['data--entities-user-permission']->constraints['key_id'] = new \stdClass();
-  cache::$data['data--entities-user-permission']->constraints['key_id']->type = 'primary key';
-  cache::$data['data--entities-user-permission']->constraints['key_id']->fields['id'] = 'id';
-  cache::$data['data--entities-user-permission']->indexes['idx_created'] = new \stdClass();
-  cache::$data['data--entities-user-permission']->indexes['idx_created']->type = 'index';
-  cache::$data['data--entities-user-permission']->indexes['idx_created']->fields['created'] = 'created';
-  cache::$data['data--entities-user-permission']->indexes['idx_updated'] = new \stdClass();
-  cache::$data['data--entities-user-permission']->indexes['idx_updated']->type = 'index';
-  cache::$data['data--entities-user-permission']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data--entities-user-permission']->constraints['primary_id'] = new \stdClass();
+  cache::$data['data--entities-user-permission']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-user-permission']->constraints['primary_id']->fields['id'] = 'id';
+  cache::$data['data--entities-user-permission']->indexes['index_created'] = new \stdClass();
+  cache::$data['data--entities-user-permission']->indexes['index_created']->type = 'index';
+  cache::$data['data--entities-user-permission']->indexes['index_created']->fields['created'] = 'created';
+  cache::$data['data--entities-user-permission']->indexes['index_updated'] = new \stdClass();
+  cache::$data['data--entities-user-permission']->indexes['index_updated']->type = 'index';
+  cache::$data['data--entities-user-permission']->indexes['index_updated']->fields['updated'] = 'updated';
 
 }

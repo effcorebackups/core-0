@@ -27,14 +27,14 @@ namespace effcore { # cache for data--entities-menu-tree
   cache::$data['data--entities-menu-tree']->fields['updated']->title = 'Updated';
   cache::$data['data--entities-menu-tree']->fields['updated']->type = 'datetime';
   cache::$data['data--entities-menu-tree']->fields['updated']->not_null = true;
-  cache::$data['data--entities-menu-tree']->constraints['key_id'] = new \stdClass();
-  cache::$data['data--entities-menu-tree']->constraints['key_id']->type = 'primary key';
-  cache::$data['data--entities-menu-tree']->constraints['key_id']->fields['id'] = 'id';
-  cache::$data['data--entities-menu-tree']->indexes['idx_created'] = new \stdClass();
-  cache::$data['data--entities-menu-tree']->indexes['idx_created']->type = 'index';
-  cache::$data['data--entities-menu-tree']->indexes['idx_created']->fields['created'] = 'created';
-  cache::$data['data--entities-menu-tree']->indexes['idx_updated'] = new \stdClass();
-  cache::$data['data--entities-menu-tree']->indexes['idx_updated']->type = 'index';
-  cache::$data['data--entities-menu-tree']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data--entities-menu-tree']->constraints['primary_id'] = new \stdClass();
+  cache::$data['data--entities-menu-tree']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-menu-tree']->constraints['primary_id']->fields['id'] = 'id';
+  cache::$data['data--entities-menu-tree']->indexes['index_created'] = new \stdClass();
+  cache::$data['data--entities-menu-tree']->indexes['index_created']->type = 'index';
+  cache::$data['data--entities-menu-tree']->indexes['index_created']->fields['created'] = 'created';
+  cache::$data['data--entities-menu-tree']->indexes['index_updated'] = new \stdClass();
+  cache::$data['data--entities-menu-tree']->indexes['index_updated']->type = 'index';
+  cache::$data['data--entities-menu-tree']->indexes['index_updated']->fields['updated'] = 'updated';
 
 }

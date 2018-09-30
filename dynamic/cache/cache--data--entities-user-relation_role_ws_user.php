@@ -27,15 +27,15 @@ namespace effcore { # cache for data--entities-user-relation_role_ws_user
   cache::$data['data--entities-user-relation_role_ws_user']->fields['updated']->title = 'Updated';
   cache::$data['data--entities-user-relation_role_ws_user']->fields['updated']->type = 'datetime';
   cache::$data['data--entities-user-relation_role_ws_user']->fields['updated']->not_null = true;
-  cache::$data['data--entities-user-relation_role_ws_user']->constraints['key_id'] = new \stdClass();
-  cache::$data['data--entities-user-relation_role_ws_user']->constraints['key_id']->type = 'primary key';
-  cache::$data['data--entities-user-relation_role_ws_user']->constraints['key_id']->fields['id_role'] = 'id_role';
-  cache::$data['data--entities-user-relation_role_ws_user']->constraints['key_id']->fields['id_user'] = 'id_user';
-  cache::$data['data--entities-user-relation_role_ws_user']->indexes['idx_created'] = new \stdClass();
-  cache::$data['data--entities-user-relation_role_ws_user']->indexes['idx_created']->type = 'index';
-  cache::$data['data--entities-user-relation_role_ws_user']->indexes['idx_created']->fields['created'] = 'created';
-  cache::$data['data--entities-user-relation_role_ws_user']->indexes['idx_updated'] = new \stdClass();
-  cache::$data['data--entities-user-relation_role_ws_user']->indexes['idx_updated']->type = 'index';
-  cache::$data['data--entities-user-relation_role_ws_user']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data--entities-user-relation_role_ws_user']->constraints['primary_id'] = new \stdClass();
+  cache::$data['data--entities-user-relation_role_ws_user']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-user-relation_role_ws_user']->constraints['primary_id']->fields['id_role'] = 'id_role';
+  cache::$data['data--entities-user-relation_role_ws_user']->constraints['primary_id']->fields['id_user'] = 'id_user';
+  cache::$data['data--entities-user-relation_role_ws_user']->indexes['index_created'] = new \stdClass();
+  cache::$data['data--entities-user-relation_role_ws_user']->indexes['index_created']->type = 'index';
+  cache::$data['data--entities-user-relation_role_ws_user']->indexes['index_created']->fields['created'] = 'created';
+  cache::$data['data--entities-user-relation_role_ws_user']->indexes['index_updated'] = new \stdClass();
+  cache::$data['data--entities-user-relation_role_ws_user']->indexes['index_updated']->type = 'index';
+  cache::$data['data--entities-user-relation_role_ws_user']->indexes['index_updated']->fields['updated'] = 'updated';
 
 }

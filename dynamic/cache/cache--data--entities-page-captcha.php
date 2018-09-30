@@ -32,11 +32,11 @@ namespace effcore { # cache for data--entities-page-captcha
   cache::$data['data--entities-page-captcha']->fields['created']->title = 'Created';
   cache::$data['data--entities-page-captcha']->fields['created']->type = 'datetime';
   cache::$data['data--entities-page-captcha']->fields['created']->not_null = true;
-  cache::$data['data--entities-page-captcha']->constraints['key_id'] = new \stdClass();
-  cache::$data['data--entities-page-captcha']->constraints['key_id']->type = 'primary key';
-  cache::$data['data--entities-page-captcha']->constraints['key_id']->fields['ip_address'] = 'ip_address';
-  cache::$data['data--entities-page-captcha']->indexes['idx_created'] = new \stdClass();
-  cache::$data['data--entities-page-captcha']->indexes['idx_created']->type = 'index';
-  cache::$data['data--entities-page-captcha']->indexes['idx_created']->fields['created'] = 'created';
+  cache::$data['data--entities-page-captcha']->constraints['primary_id'] = new \stdClass();
+  cache::$data['data--entities-page-captcha']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-page-captcha']->constraints['primary_id']->fields['ip_address'] = 'ip_address';
+  cache::$data['data--entities-page-captcha']->indexes['index_created'] = new \stdClass();
+  cache::$data['data--entities-page-captcha']->indexes['index_created']->type = 'index';
+  cache::$data['data--entities-page-captcha']->indexes['index_created']->fields['created'] = 'created';
 
 }

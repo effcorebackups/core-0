@@ -47,20 +47,20 @@ namespace effcore { # cache for data--entities-user-user
   cache::$data['data--entities-user-user']->fields['updated']->title = 'Updated';
   cache::$data['data--entities-user-user']->fields['updated']->type = 'datetime';
   cache::$data['data--entities-user-user']->fields['updated']->not_null = true;
-  cache::$data['data--entities-user-user']->constraints['key_id'] = new \stdClass();
-  cache::$data['data--entities-user-user']->constraints['key_id']->type = 'primary key';
-  cache::$data['data--entities-user-user']->constraints['key_id']->fields['id'] = 'id';
-  cache::$data['data--entities-user-user']->constraints['key_email'] = new \stdClass();
-  cache::$data['data--entities-user-user']->constraints['key_email']->type = 'unique';
-  cache::$data['data--entities-user-user']->constraints['key_email']->fields['email'] = 'email';
-  cache::$data['data--entities-user-user']->constraints['key_nick'] = new \stdClass();
-  cache::$data['data--entities-user-user']->constraints['key_nick']->type = 'unique';
-  cache::$data['data--entities-user-user']->constraints['key_nick']->fields['nick'] = 'nick';
-  cache::$data['data--entities-user-user']->indexes['idx_created'] = new \stdClass();
-  cache::$data['data--entities-user-user']->indexes['idx_created']->type = 'index';
-  cache::$data['data--entities-user-user']->indexes['idx_created']->fields['created'] = 'created';
-  cache::$data['data--entities-user-user']->indexes['idx_updated'] = new \stdClass();
-  cache::$data['data--entities-user-user']->indexes['idx_updated']->type = 'index';
-  cache::$data['data--entities-user-user']->indexes['idx_updated']->fields['updated'] = 'updated';
+  cache::$data['data--entities-user-user']->constraints['primary_id'] = new \stdClass();
+  cache::$data['data--entities-user-user']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-user-user']->constraints['primary_id']->fields['id'] = 'id';
+  cache::$data['data--entities-user-user']->constraints['unique_email'] = new \stdClass();
+  cache::$data['data--entities-user-user']->constraints['unique_email']->type = 'unique';
+  cache::$data['data--entities-user-user']->constraints['unique_email']->fields['email'] = 'email';
+  cache::$data['data--entities-user-user']->constraints['unique_nick'] = new \stdClass();
+  cache::$data['data--entities-user-user']->constraints['unique_nick']->type = 'unique';
+  cache::$data['data--entities-user-user']->constraints['unique_nick']->fields['nick'] = 'nick';
+  cache::$data['data--entities-user-user']->indexes['index_created'] = new \stdClass();
+  cache::$data['data--entities-user-user']->indexes['index_created']->type = 'index';
+  cache::$data['data--entities-user-user']->indexes['index_created']->fields['created'] = 'created';
+  cache::$data['data--entities-user-user']->indexes['index_updated'] = new \stdClass();
+  cache::$data['data--entities-user-user']->indexes['index_updated']->type = 'index';
+  cache::$data['data--entities-user-user']->indexes['index_updated']->fields['updated'] = 'updated';
 
 }
