@@ -24,5 +24,12 @@ namespace effcore { # cache for data--entities-demo-demo_constraints
   cache::$data['data--entities-demo-demo_constraints']->constraints['unique_f_integer_2'] = new \stdClass();
   cache::$data['data--entities-demo-demo_constraints']->constraints['unique_f_integer_2']->type = 'unique';
   cache::$data['data--entities-demo-demo_constraints']->constraints['unique_f_integer_2']->fields['f_integer_2'] = 'f_integer_2';
+  cache::$data['data--entities-demo-demo_constraints']->constraints['foreign_f_integer_2'] = new \stdClass();
+  cache::$data['data--entities-demo-demo_constraints']->constraints['foreign_f_integer_2']->type = 'foreign';
+  cache::$data['data--entities-demo-demo_constraints']->constraints['foreign_f_integer_2']->fields['f_integer_2'] = 'f_integer_2';
+  cache::$data['data--entities-demo-demo_constraints']->constraints['foreign_f_integer_2']->references = 'demo_autoincrement';
+  cache::$data['data--entities-demo-demo_constraints']->constraints['foreign_f_integer_2']->references_fields['f_integer_1'] = 'f_integer_1';
+  cache::$data['data--entities-demo-demo_constraints']->constraints['foreign_f_integer_2']->on_update = 'cascade';
+  cache::$data['data--entities-demo-demo_constraints']->constraints['foreign_f_integer_2']->on_delete = 'cascade';
 
 }

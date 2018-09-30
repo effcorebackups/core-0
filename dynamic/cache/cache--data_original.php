@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-30 11:48:03';
+  cache::$info['data_original']['build'] = '2018-09-30 15:02:18';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2061,6 +2061,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['unique_f_integer_2'] = new \stdClass();
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['unique_f_integer_2']->type = 'unique';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['unique_f_integer_2']->fields['f_integer_2'] = 'f_integer_2';
+  cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2'] = new \stdClass();
+  cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->type = 'foreign';
+  cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->fields['f_integer_2'] = 'f_integer_2';
+  cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->references = 'demo_autoincrement';
+  cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->references_fields['f_integer_1'] = 'f_integer_1';
+  cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->on_update = 'cascade';
+  cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->on_delete = 'cascade';
   cache::$data['data_original']['entities']['demo']['demo_indexes'] = new \effcore\entity();
   cache::$data['data_original']['entities']['demo']['demo_indexes']->name = 'demo_indexes';
   cache::$data['data_original']['entities']['demo']['demo_indexes']->storage_id = 'main';
