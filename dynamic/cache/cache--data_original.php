@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-30 15:02:18';
+  cache::$info['data_original']['build'] = '2018-09-30 15:34:28';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3302,7 +3302,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Select'] = 'Выбрать';
   cache::$data['data_original']['translations']['locales']['ru']->data['select'] = 'выбрать';
   cache::$data['data_original']['translations']['locales']['ru']->data['Selection list'] = 'Список выбора';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Server software'] = 'Серверное ПО';
   cache::$data['data_original']['translations']['locales']['ru']->data['Server timezone'] = 'Часовой пояс сервера';
   cache::$data['data_original']['translations']['locales']['ru']->data['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data_original']['translations']['locales']['ru']->data['Session'] = 'Сессия';
@@ -3315,6 +3314,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['sql state: %%_state'] = 'sql состояние: %%_state';
   cache::$data['data_original']['translations']['locales']['ru']->data['state'] = 'состояние';
   cache::$data['data_original']['translations']['locales']['ru']->data['State'] = 'Состояние';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Storage "%%_name"'] = 'Хранилище "%%_name"';
   cache::$data['data_original']['translations']['locales']['ru']->data['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
   cache::$data['data_original']['translations']['locales']['ru']->data['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
   cache::$data['data_original']['translations']['locales']['ru']->data['storage %%_id will be initialized'] = 'хранилище %%_id будет инициализировано';
@@ -3390,6 +3390,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['View more'] = 'Смотреть больше';
   cache::$data['data_original']['translations']['locales']['ru']->data['view'] = 'просмотреть';
   cache::$data['data_original']['translations']['locales']['ru']->data['warning'] = 'предупреждение';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Web server'] = 'Веб-сервер';
   cache::$data['data_original']['translations']['locales']['ru']->data['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Yes'] = 'Да';

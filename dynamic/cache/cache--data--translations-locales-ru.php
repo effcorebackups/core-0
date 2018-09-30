@@ -254,7 +254,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Select'] = 'Выбрать';
   cache::$data['data--translations-locales-ru']->data['select'] = 'выбрать';
   cache::$data['data--translations-locales-ru']->data['Selection list'] = 'Список выбора';
-  cache::$data['data--translations-locales-ru']->data['Server software'] = 'Серверное ПО';
   cache::$data['data--translations-locales-ru']->data['Server timezone'] = 'Часовой пояс сервера';
   cache::$data['data--translations-locales-ru']->data['Session expiration date'] = 'Дата окончания сессии';
   cache::$data['data--translations-locales-ru']->data['Session'] = 'Сессия';
@@ -267,6 +266,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['sql state: %%_state'] = 'sql состояние: %%_state';
   cache::$data['data--translations-locales-ru']->data['state'] = 'состояние';
   cache::$data['data--translations-locales-ru']->data['State'] = 'Состояние';
+  cache::$data['data--translations-locales-ru']->data['Storage "%%_name"'] = 'Хранилище "%%_name"';
   cache::$data['data--translations-locales-ru']->data['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
   cache::$data['data--translations-locales-ru']->data['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
   cache::$data['data--translations-locales-ru']->data['storage %%_id will be initialized'] = 'хранилище %%_id будет инициализировано';
@@ -342,6 +342,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['View more'] = 'Смотреть больше';
   cache::$data['data--translations-locales-ru']->data['view'] = 'просмотреть';
   cache::$data['data--translations-locales-ru']->data['warning'] = 'предупреждение';
+  cache::$data['data--translations-locales-ru']->data['Web server'] = 'Веб-сервер';
   cache::$data['data--translations-locales-ru']->data['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
   cache::$data['data--translations-locales-ru']->data['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache::$data['data--translations-locales-ru']->data['Yes'] = 'Да';
