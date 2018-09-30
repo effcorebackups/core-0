@@ -28,7 +28,7 @@ namespace effcore { # cache for data--entities-menu-tree
   cache::$data['data--entities-menu-tree']->fields['updated']->type = 'datetime';
   cache::$data['data--entities-menu-tree']->fields['updated']->not_null = true;
   cache::$data['data--entities-menu-tree']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data--entities-menu-tree']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-menu-tree']->constraints['primary_id']->type = 'primary';
   cache::$data['data--entities-menu-tree']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data--entities-menu-tree']->indexes['index_created'] = new \stdClass();
   cache::$data['data--entities-menu-tree']->indexes['index_created']->type = 'index';

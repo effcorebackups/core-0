@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-30 10:06:24';
+  cache::$info['data_original']['build'] = '2018-09-30 11:48:03';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1650,7 +1650,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['permission']->fields['updated']->type = 'datetime';
   cache::$data['data_original']['entities']['user']['permission']->fields['updated']->not_null = true;
   cache::$data['data_original']['entities']['user']['permission']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data_original']['entities']['user']['permission']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data_original']['entities']['user']['permission']->constraints['primary_id']->type = 'primary';
   cache::$data['data_original']['entities']['user']['permission']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data_original']['entities']['user']['permission']->indexes['index_created'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['permission']->indexes['index_created']->type = 'index';
@@ -1685,7 +1685,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->fields['updated']->type = 'datetime';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->fields['updated']->not_null = true;
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['primary_id_role_id_permission'] = new \stdClass();
-  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['primary_id_role_id_permission']->type = 'primary key';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['primary_id_role_id_permission']->type = 'primary';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['primary_id_role_id_permission']->fields['id_role'] = 'id_role';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['primary_id_role_id_permission']->fields['id_permission'] = 'id_permission';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->indexes['index_created'] = new \stdClass();
@@ -1720,7 +1720,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->fields['updated']->type = 'datetime';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->fields['updated']->not_null = true;
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['primary_id_role_id_user'] = new \stdClass();
-  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['primary_id_role_id_user']->type = 'primary key';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['primary_id_role_id_user']->type = 'primary';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['primary_id_role_id_user']->fields['id_role'] = 'id_role';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['primary_id_role_id_user']->fields['id_user'] = 'id_user';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->indexes['index_created'] = new \stdClass();
@@ -1761,7 +1761,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['role']->fields['updated']->type = 'datetime';
   cache::$data['data_original']['entities']['user']['role']->fields['updated']->not_null = true;
   cache::$data['data_original']['entities']['user']['role']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data_original']['entities']['user']['role']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data_original']['entities']['user']['role']->constraints['primary_id']->type = 'primary';
   cache::$data['data_original']['entities']['user']['role']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data_original']['entities']['user']['role']->indexes['index_created'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['role']->indexes['index_created']->type = 'index';
@@ -1803,7 +1803,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['session']->fields['data']->type = 'blob';
   cache::$data['data_original']['entities']['user']['session']->fields['data']->null = true;
   cache::$data['data_original']['entities']['user']['session']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data_original']['entities']['user']['session']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data_original']['entities']['user']['session']->constraints['primary_id']->type = 'primary';
   cache::$data['data_original']['entities']['user']['session']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data_original']['entities']['user']['user'] = new \effcore\entity();
   cache::$data['data_original']['entities']['user']['user']->name = 'user';
@@ -1851,7 +1851,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['user']->fields['updated']->type = 'datetime';
   cache::$data['data_original']['entities']['user']['user']->fields['updated']->not_null = true;
   cache::$data['data_original']['entities']['user']['user']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data_original']['entities']['user']['user']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data_original']['entities']['user']['user']->constraints['primary_id']->type = 'primary';
   cache::$data['data_original']['entities']['user']['user']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data_original']['entities']['user']['user']->constraints['unique_email'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['user']->constraints['unique_email']->type = 'unique';
@@ -1895,9 +1895,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['page']['captcha']->fields['created']->title = 'Created';
   cache::$data['data_original']['entities']['page']['captcha']->fields['created']->type = 'datetime';
   cache::$data['data_original']['entities']['page']['captcha']->fields['created']->not_null = true;
-  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_id']->type = 'primary key';
-  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_id']->fields['ip_address'] = 'ip_address';
+  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_ip_address'] = new \stdClass();
+  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_ip_address']->type = 'primary';
+  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_ip_address']->fields['ip_address'] = 'ip_address';
   cache::$data['data_original']['entities']['page']['captcha']->indexes['index_created'] = new \stdClass();
   cache::$data['data_original']['entities']['page']['captcha']->indexes['index_created']->type = 'index';
   cache::$data['data_original']['entities']['page']['captcha']->indexes['index_created']->fields['created'] = 'created';
@@ -1927,7 +1927,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['menu']['tree']->fields['updated']->type = 'datetime';
   cache::$data['data_original']['entities']['menu']['tree']->fields['updated']->not_null = true;
   cache::$data['data_original']['entities']['menu']['tree']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data_original']['entities']['menu']['tree']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data_original']['entities']['menu']['tree']->constraints['primary_id']->type = 'primary';
   cache::$data['data_original']['entities']['menu']['tree']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data_original']['entities']['menu']['tree']->indexes['index_created'] = new \stdClass();
   cache::$data['data_original']['entities']['menu']['tree']->indexes['index_created']->type = 'index';
@@ -1965,7 +1965,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['menu']['tree_item']->fields['updated']->type = 'datetime';
   cache::$data['data_original']['entities']['menu']['tree_item']->fields['updated']->not_null = true;
   cache::$data['data_original']['entities']['menu']['tree_item']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data_original']['entities']['menu']['tree_item']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data_original']['entities']['menu']['tree_item']->constraints['primary_id']->type = 'primary';
   cache::$data['data_original']['entities']['menu']['tree_item']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data_original']['entities']['menu']['tree_item']->indexes['index_created'] = new \stdClass();
   cache::$data['data_original']['entities']['menu']['tree_item']->indexes['index_created']->type = 'index';
@@ -2019,7 +2019,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_types']->fields['f_blob']->type = 'blob';
   cache::$data['data_original']['entities']['demo']['demo_types']->fields['f_blob']->null = true;
   cache::$data['data_original']['entities']['demo']['demo_types']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data_original']['entities']['demo']['demo_types']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data_original']['entities']['demo']['demo_types']->constraints['primary_id']->type = 'primary';
   cache::$data['data_original']['entities']['demo']['demo_types']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data_original']['entities']['demo']['demo_autoincrement'] = new \effcore\entity();
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->name = 'demo_autoincrement';
@@ -2037,7 +2037,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->fields['f_integer_2']->not_null = true;
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->fields['f_integer_2']->default = 0;
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->constraints['primary_f_integer_1'] = new \stdClass();
-  cache::$data['data_original']['entities']['demo']['demo_autoincrement']->constraints['primary_f_integer_1']->type = 'primary key';
+  cache::$data['data_original']['entities']['demo']['demo_autoincrement']->constraints['primary_f_integer_1']->type = 'primary';
   cache::$data['data_original']['entities']['demo']['demo_autoincrement']->constraints['primary_f_integer_1']->fields['f_integer_1'] = 'f_integer_1';
   cache::$data['data_original']['entities']['demo']['demo_constraints'] = new \effcore\entity();
   cache::$data['data_original']['entities']['demo']['demo_constraints']->name = 'demo_constraints';
@@ -2056,7 +2056,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_constraints']->fields['f_integer_2']->not_null = true;
   cache::$data['data_original']['entities']['demo']['demo_constraints']->fields['f_integer_2']->default = 0;
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['primary_f_integer_1'] = new \stdClass();
-  cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['primary_f_integer_1']->type = 'primary key';
+  cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['primary_f_integer_1']->type = 'primary';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['primary_f_integer_1']->fields['f_integer_1'] = 'f_integer_1';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['unique_f_integer_2'] = new \stdClass();
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['unique_f_integer_2']->type = 'unique';

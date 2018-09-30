@@ -32,7 +32,7 @@ namespace effcore { # cache for data--entities-menu-tree_item
   cache::$data['data--entities-menu-tree_item']->fields['updated']->type = 'datetime';
   cache::$data['data--entities-menu-tree_item']->fields['updated']->not_null = true;
   cache::$data['data--entities-menu-tree_item']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data--entities-menu-tree_item']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-menu-tree_item']->constraints['primary_id']->type = 'primary';
   cache::$data['data--entities-menu-tree_item']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data--entities-menu-tree_item']->indexes['index_created'] = new \stdClass();
   cache::$data['data--entities-menu-tree_item']->indexes['index_created']->type = 'index';

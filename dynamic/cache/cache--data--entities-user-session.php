@@ -36,7 +36,7 @@ namespace effcore { # cache for data--entities-user-session
   cache::$data['data--entities-user-session']->fields['data']->type = 'blob';
   cache::$data['data--entities-user-session']->fields['data']->null = true;
   cache::$data['data--entities-user-session']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data--entities-user-session']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-user-session']->constraints['primary_id']->type = 'primary';
   cache::$data['data--entities-user-session']->constraints['primary_id']->fields['id'] = 'id';
 
 }

@@ -28,7 +28,7 @@ namespace effcore { # cache for data--entities-user-relation_role_ws_user
   cache::$data['data--entities-user-relation_role_ws_user']->fields['updated']->type = 'datetime';
   cache::$data['data--entities-user-relation_role_ws_user']->fields['updated']->not_null = true;
   cache::$data['data--entities-user-relation_role_ws_user']->constraints['primary_id_role_id_user'] = new \stdClass();
-  cache::$data['data--entities-user-relation_role_ws_user']->constraints['primary_id_role_id_user']->type = 'primary key';
+  cache::$data['data--entities-user-relation_role_ws_user']->constraints['primary_id_role_id_user']->type = 'primary';
   cache::$data['data--entities-user-relation_role_ws_user']->constraints['primary_id_role_id_user']->fields['id_role'] = 'id_role';
   cache::$data['data--entities-user-relation_role_ws_user']->constraints['primary_id_role_id_user']->fields['id_user'] = 'id_user';
   cache::$data['data--entities-user-relation_role_ws_user']->indexes['index_created'] = new \stdClass();

@@ -29,7 +29,7 @@ namespace effcore { # cache for data--entities-user-permission
   cache::$data['data--entities-user-permission']->fields['updated']->type = 'datetime';
   cache::$data['data--entities-user-permission']->fields['updated']->not_null = true;
   cache::$data['data--entities-user-permission']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data--entities-user-permission']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-user-permission']->constraints['primary_id']->type = 'primary';
   cache::$data['data--entities-user-permission']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data--entities-user-permission']->indexes['index_created'] = new \stdClass();
   cache::$data['data--entities-user-permission']->indexes['index_created']->type = 'index';

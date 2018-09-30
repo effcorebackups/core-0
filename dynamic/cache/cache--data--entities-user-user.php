@@ -48,7 +48,7 @@ namespace effcore { # cache for data--entities-user-user
   cache::$data['data--entities-user-user']->fields['updated']->type = 'datetime';
   cache::$data['data--entities-user-user']->fields['updated']->not_null = true;
   cache::$data['data--entities-user-user']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data--entities-user-user']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-user-user']->constraints['primary_id']->type = 'primary';
   cache::$data['data--entities-user-user']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data--entities-user-user']->constraints['unique_email'] = new \stdClass();
   cache::$data['data--entities-user-user']->constraints['unique_email']->type = 'unique';

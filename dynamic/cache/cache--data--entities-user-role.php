@@ -34,7 +34,7 @@ namespace effcore { # cache for data--entities-user-role
   cache::$data['data--entities-user-role']->fields['updated']->type = 'datetime';
   cache::$data['data--entities-user-role']->fields['updated']->not_null = true;
   cache::$data['data--entities-user-role']->constraints['primary_id'] = new \stdClass();
-  cache::$data['data--entities-user-role']->constraints['primary_id']->type = 'primary key';
+  cache::$data['data--entities-user-role']->constraints['primary_id']->type = 'primary';
   cache::$data['data--entities-user-role']->constraints['primary_id']->fields['id'] = 'id';
   cache::$data['data--entities-user-role']->indexes['index_created'] = new \stdClass();
   cache::$data['data--entities-user-role']->indexes['index_created']->type = 'index';
