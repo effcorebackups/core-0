@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-01 12:07:06';
+  cache::$info['data_original']['build'] = '2018-10-01 21:52:31';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1057,37 +1057,37 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['instances']['demo']['demo_types_example_2']->values['f_blob'] = 12345;
   cache::$data['data_original']['instances']['demo']['demo_autoincrement_1'] = new \effcore\instance();
   cache::$data['data_original']['instances']['demo']['demo_autoincrement_1']->entity_name = 'demo_autoincrement';
-  cache::$data['data_original']['instances']['demo']['demo_autoincrement_1']->values['f_integer_2'] = 1;
+  cache::$data['data_original']['instances']['demo']['demo_autoincrement_1']->values['f_integer_2'] = 100;
   cache::$data['data_original']['instances']['demo']['demo_autoincrement_2'] = new \effcore\instance();
   cache::$data['data_original']['instances']['demo']['demo_autoincrement_2']->entity_name = 'demo_autoincrement';
-  cache::$data['data_original']['instances']['demo']['demo_autoincrement_2']->values['f_integer_2'] = 2;
+  cache::$data['data_original']['instances']['demo']['demo_autoincrement_2']->values['f_integer_2'] = 200;
   cache::$data['data_original']['instances']['demo']['demo_autoincrement_3'] = new \effcore\instance();
   cache::$data['data_original']['instances']['demo']['demo_autoincrement_3']->entity_name = 'demo_autoincrement';
-  cache::$data['data_original']['instances']['demo']['demo_autoincrement_3']->values['f_integer_2'] = 3;
+  cache::$data['data_original']['instances']['demo']['demo_autoincrement_3']->values['f_integer_2'] = 300;
   cache::$data['data_original']['instances']['demo']['demo_constraints_1'] = new \effcore\instance();
   cache::$data['data_original']['instances']['demo']['demo_constraints_1']->entity_name = 'demo_constraints';
   cache::$data['data_original']['instances']['demo']['demo_constraints_1']->values['f_integer_1'] = 1;
-  cache::$data['data_original']['instances']['demo']['demo_constraints_1']->values['f_integer_2'] = 1;
+  cache::$data['data_original']['instances']['demo']['demo_constraints_1']->values['f_integer_2'] = 100;
   cache::$data['data_original']['instances']['demo']['demo_constraints_2'] = new \effcore\instance();
   cache::$data['data_original']['instances']['demo']['demo_constraints_2']->entity_name = 'demo_constraints';
   cache::$data['data_original']['instances']['demo']['demo_constraints_2']->values['f_integer_1'] = 2;
-  cache::$data['data_original']['instances']['demo']['demo_constraints_2']->values['f_integer_2'] = 2;
+  cache::$data['data_original']['instances']['demo']['demo_constraints_2']->values['f_integer_2'] = 200;
   cache::$data['data_original']['instances']['demo']['demo_constraints_3'] = new \effcore\instance();
   cache::$data['data_original']['instances']['demo']['demo_constraints_3']->entity_name = 'demo_constraints';
   cache::$data['data_original']['instances']['demo']['demo_constraints_3']->values['f_integer_1'] = 3;
-  cache::$data['data_original']['instances']['demo']['demo_constraints_3']->values['f_integer_2'] = 3;
+  cache::$data['data_original']['instances']['demo']['demo_constraints_3']->values['f_integer_2'] = 300;
   cache::$data['data_original']['instances']['demo']['demo_indexes_1'] = new \effcore\instance();
   cache::$data['data_original']['instances']['demo']['demo_indexes_1']->entity_name = 'demo_indexes';
   cache::$data['data_original']['instances']['demo']['demo_indexes_1']->values['f_integer_1'] = 1;
-  cache::$data['data_original']['instances']['demo']['demo_indexes_1']->values['f_integer_2'] = 1;
+  cache::$data['data_original']['instances']['demo']['demo_indexes_1']->values['f_integer_2'] = 100;
   cache::$data['data_original']['instances']['demo']['demo_indexes_2'] = new \effcore\instance();
   cache::$data['data_original']['instances']['demo']['demo_indexes_2']->entity_name = 'demo_indexes';
   cache::$data['data_original']['instances']['demo']['demo_indexes_2']->values['f_integer_1'] = 2;
-  cache::$data['data_original']['instances']['demo']['demo_indexes_2']->values['f_integer_2'] = 2;
+  cache::$data['data_original']['instances']['demo']['demo_indexes_2']->values['f_integer_2'] = 200;
   cache::$data['data_original']['instances']['demo']['demo_indexes_3'] = new \effcore\instance();
   cache::$data['data_original']['instances']['demo']['demo_indexes_3']->entity_name = 'demo_indexes';
   cache::$data['data_original']['instances']['demo']['demo_indexes_3']->values['f_integer_1'] = 3;
-  cache::$data['data_original']['instances']['demo']['demo_indexes_3']->values['f_integer_2'] = 3;
+  cache::$data['data_original']['instances']['demo']['demo_indexes_3']->values['f_integer_2'] = 300;
   cache::$data['data_original']['forms']['user']['user_edit'] = new \effcore\form();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->title = 'Credentials';
@@ -2063,7 +2063,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['unique_f_integer_2']->fields['f_integer_2'] = 'f_integer_2';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2'] = new \stdClass();
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->type = 'foreign';
-  cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->fields['f_integer_2'] = 'f_integer_2';
+  cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->fields['f_integer_1'] = 'f_integer_1';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->references = 'demo_autoincrement';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->references_fields['f_integer_1'] = 'f_integer_1';
   cache::$data['data_original']['entities']['demo']['demo_constraints']->constraints['foreign_f_integer_2']->on_update = 'cascade';
