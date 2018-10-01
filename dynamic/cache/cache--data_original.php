@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-01 10:31:40';
+  cache::$info['data_original']['build'] = '2018-10-01 11:27:57';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2085,10 +2085,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['demo']['demo_indexes']->fields['f_integer_2']->not_null = true;
   cache::$data['data_original']['entities']['demo']['demo_indexes']->fields['f_integer_2']->default = 0;
   cache::$data['data_original']['entities']['demo']['demo_indexes']->indexes['index_f_integer_1'] = new \stdClass();
-  cache::$data['data_original']['entities']['demo']['demo_indexes']->indexes['index_f_integer_1']->type = 'index';
+  cache::$data['data_original']['entities']['demo']['demo_indexes']->indexes['index_f_integer_1']->type = 'unique index';
   cache::$data['data_original']['entities']['demo']['demo_indexes']->indexes['index_f_integer_1']->fields['f_integer_1'] = 'f_integer_1';
   cache::$data['data_original']['entities']['demo']['demo_indexes']->indexes['index_f_integer_2'] = new \stdClass();
-  cache::$data['data_original']['entities']['demo']['demo_indexes']->indexes['index_f_integer_2']->type = 'unique index';
+  cache::$data['data_original']['entities']['demo']['demo_indexes']->indexes['index_f_integer_2']->type = 'index';
   cache::$data['data_original']['entities']['demo']['demo_indexes']->indexes['index_f_integer_2']->fields['f_integer_2'] = 'f_integer_2';
   cache::$data['data_original']['module']['user'] = new \effcore\module();
   cache::$data['data_original']['module']['user']->id = 'user';
