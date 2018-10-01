@@ -15,7 +15,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data--translations-locales-ru']->data['agree'] = 'согласен(а)';
   cache::$data['data--translations-locales-ru']->data['Anonymous'] = 'Аноним';
-  cache::$data['data--translations-locales-ru']->data['Architecture'] = 'Архитектура';
   cache::$data['data--translations-locales-ru']->data['Attempts'] = 'Попытки';
   cache::$data['data--translations-locales-ru']->data['Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).'] = 'Атрибут "multiple" не поддерживается на сенсорных устройствах (планшеты, смартфоны, мониторы с сенсорными экранами).';
   cache::$data['data--translations-locales-ru']->data['autoload'] = 'автозагрузка';

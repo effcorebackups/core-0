@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-09-30 15:34:28';
+  cache::$info['data_original']['build'] = '2018-10-01 10:31:40';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3063,7 +3063,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Administrators'] = 'Администраторы';
   cache::$data['data_original']['translations']['locales']['ru']->data['agree'] = 'согласен(а)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Anonymous'] = 'Аноним';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Architecture'] = 'Архитектура';
   cache::$data['data_original']['translations']['locales']['ru']->data['Attempts'] = 'Попытки';
   cache::$data['data_original']['translations']['locales']['ru']->data['Attribute "multiple" is not supported on touch devices (tablets, smartphones, monitors with touch screens).'] = 'Атрибут "multiple" не поддерживается на сенсорных устройствах (планшеты, смартфоны, мониторы с сенсорными экранами).';
   cache::$data['data_original']['translations']['locales']['ru']->data['autoload'] = 'автозагрузка';
