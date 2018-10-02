@@ -4,8 +4,6 @@ namespace effcore { # cache for data--forms
 
   cache::$data['data--forms']['user']['user_edit'] = new \effcore\external_cache();
   cache::$data['data--forms']['user']['user_edit']->cache_name = 'data--forms-user-user_edit';
-  cache::$data['data--forms']['user']['user_delete'] = new \effcore\external_cache();
-  cache::$data['data--forms']['user']['user_delete']->cache_name = 'data--forms-user-user_delete';
   cache::$data['data--forms']['user']['registration'] = new \effcore\external_cache();
   cache::$data['data--forms']['user']['registration']->cache_name = 'data--forms-user-registration';
   cache::$data['data--forms']['user']['logout'] = new \effcore\external_cache();

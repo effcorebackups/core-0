@@ -11,14 +11,6 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['user']['user_edit']->access = new \stdClass();
   cache::$data['data--pages']['user']['user_edit']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['user']['user_edit']->access->roles['registered'] = 'registered';
-  cache::$data['data--pages']['user']['user_delete'] = new \effcore\external_cache();
-  cache::$data['data--pages']['user']['user_delete']->cache_name = 'data--pages-user-user_delete';
-  cache::$data['data--pages']['user']['user_delete']->display = new \stdClass();
-  cache::$data['data--pages']['user']['user_delete']->display->check = 'url';
-  cache::$data['data--pages']['user']['user_delete']->display->where = 'path';
-  cache::$data['data--pages']['user']['user_delete']->display->match = '%^/manage/users/delete/(?<id_user>[0-9]+)$%';
-  cache::$data['data--pages']['user']['user_delete']->access = new \stdClass();
-  cache::$data['data--pages']['user']['user_delete']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['user']['user'] = new \effcore\external_cache();
   cache::$data['data--pages']['user']['user']->cache_name = 'data--pages-user-user';
   cache::$data['data--pages']['user']['user']->display = new \stdClass();
