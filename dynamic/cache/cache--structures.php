@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-10-03 10:38:19';
+  cache::$info['structures']['build'] = '2018-10-03 15:30:10';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -452,6 +452,12 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\modules\\page\\events_token']->name = 'events_token';
   cache::$data['structures']['effcore\\modules\\page\\events_token']->type = 'class';
   cache::$data['structures']['effcore\\modules\\page\\events_token']->file = 'system/module_page/backend/events--token.php';
+  cache::$data['structures']['effcore\\modules\\storage\\events_form_instance_delete'] = new \stdClass();
+  cache::$data['structures']['effcore\\modules\\storage\\events_form_instance_delete']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\modules\\storage\\events_form_instance_delete']->namespace = 'effcore\\modules\\storage';
+  cache::$data['structures']['effcore\\modules\\storage\\events_form_instance_delete']->name = 'events_form_instance_delete';
+  cache::$data['structures']['effcore\\modules\\storage\\events_form_instance_delete']->type = 'class';
+  cache::$data['structures']['effcore\\modules\\storage\\events_form_instance_delete']->file = 'system/module_storage/backend/events--form-instance_delete.php';
   cache::$data['structures']['effcore\\modules\\storage\\events_storage'] = new \stdClass();
   cache::$data['structures']['effcore\\modules\\storage\\events_storage']->modifier = 'abstract';
   cache::$data['structures']['effcore\\modules\\storage\\events_storage']->namespace = 'effcore\\modules\\storage';

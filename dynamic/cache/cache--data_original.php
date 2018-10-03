@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-03 10:38:19';
+  cache::$info['data_original']['build'] = '2018-10-03 15:30:10';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -607,9 +607,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['tabs']->region = 'tabs';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['tabs']->type = 'link';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['tabs']->source = 'tabs/storage/manage_instances';
-  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['block_instance_delete_by_entity_name_and_instance_id'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['block_instance_delete_by_entity_name_and_instance_id']->type = 'code';
-  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['block_instance_delete_by_entity_name_and_instance_id']->source = '\\effcore\\manage_instances::instance_delete_by_entity_name_and_instance_id';
+  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete']->type = 'link';
+  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete']->source = 'forms/storage/instance_delete';
   cache::$data['data_original']['pages']['page']['decoration'] = new \effcore\page();
   cache::$data['data_original']['pages']['page']['decoration']->title = 'Decoration';
   cache::$data['data_original']['pages']['page']['decoration']->https = true;
@@ -1163,6 +1163,21 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->attributes['id'] = 'login';
   cache::$data['data_original']['forms']['user']['login']->attributes['method'] = 'post';
   cache::$data['data_original']['forms']['user']['login']->attributes['novalidate'] = 'novalidate';
+  cache::$data['data_original']['forms']['storage']['instance_delete'] = new \effcore\form();
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_delete'] = new \effcore\button();
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_delete']->attributes['type'] = 'submit';
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_delete']->attributes['name'] = 'button';
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_delete']->attributes['value'] = 'delete';
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_delete']->title = 'delete';
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_cancel'] = new \effcore\button();
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_cancel']->attributes['type'] = 'submit';
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_cancel']->attributes['name'] = 'button';
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_cancel']->attributes['value'] = 'cancel';
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_cancel']->title = 'cancel';
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_cancel']->novalidate = true;
+  cache::$data['data_original']['forms']['storage']['instance_delete']->attributes['id'] = 'instance_delete';
+  cache::$data['data_original']['forms']['storage']['instance_delete']->attributes['method'] = 'post';
+  cache::$data['data_original']['forms']['storage']['instance_delete']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['page']['decoration'] = new \effcore\form();
   cache::$data['data_original']['forms']['page']['decoration']->children['colors'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['page']['decoration']->children['colors']->title = 'Colors';
@@ -1521,6 +1536,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['events']['storage']->on_query_after['pdo'] = new \effcore\event();
   cache::$data['data_original']['events']['storage']->on_query_after['pdo']->for = 'pdo';
   cache::$data['data_original']['events']['storage']->on_query_after['pdo']->handler = '\\effcore\\modules\\storage\\events_storage::on_query_after';
+  cache::$data['data_original']['events']['storage']->on_form_submit['instance_delete'] = new \effcore\event();
+  cache::$data['data_original']['events']['storage']->on_form_submit['instance_delete']->for = 'instance_delete';
+  cache::$data['data_original']['events']['storage']->on_form_submit['instance_delete']->handler = '\\effcore\\modules\\storage\\events_form_instance_delete::on_submit';
   cache::$data['data_original']['events']['page'] = new \stdClass();
   cache::$data['data_original']['events']['page']->on_module_install['page'] = new \effcore\event();
   cache::$data['data_original']['events']['page']->on_module_install['page']->for = 'page';

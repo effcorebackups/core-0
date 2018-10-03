@@ -31,8 +31,8 @@ namespace effcore { # cache for data--pages-storage-instance_delete_by_entity_na
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['tabs']->region = 'tabs';
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['tabs']->type = 'link';
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['tabs']->source = 'tabs/storage/manage_instances';
-  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['block_instance_delete_by_entity_name_and_instance_id'] = new \effcore\page_part();
-  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['block_instance_delete_by_entity_name_and_instance_id']->type = 'code';
-  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['block_instance_delete_by_entity_name_and_instance_id']->source = '\\effcore\\manage_instances::instance_delete_by_entity_name_and_instance_id';
+  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete'] = new \effcore\page_part();
+  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete']->type = 'link';
+  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete']->source = 'forms/storage/instance_delete';
 
 }
