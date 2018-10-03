@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-03 09:33:16';
+  cache::$info['data_original']['build'] = '2018-10-03 10:13:01';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1673,6 +1673,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['primary_id_role_id_user']->type = 'primary';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['primary_id_role_id_user']->fields['id_role'] = 'id_role';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['primary_id_role_id_user']->fields['id_user'] = 'id_user';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['foreign_id_role'] = new \stdClass();
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['foreign_id_role']->type = 'foreign';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['foreign_id_role']->fields['id_role'] = 'id_role';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['foreign_id_role']->references = 'roles';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['foreign_id_role']->references_fields['id'] = 'id';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['foreign_id_user'] = new \stdClass();
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['foreign_id_user']->type = 'foreign';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['foreign_id_user']->fields['id_user'] = 'id_user';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['foreign_id_user']->references = 'users';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_user']->constraints['foreign_id_user']->references_fields['id'] = 'id';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->indexes['index_created'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->indexes['index_created']->type = 'index';
   cache::$data['data_original']['entities']['user']['relation_role_ws_user']->indexes['index_created']->fields['created'] = 'created';
