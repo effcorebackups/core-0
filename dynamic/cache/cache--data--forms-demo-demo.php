@@ -140,6 +140,14 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->description->args['type'] = 'field_checkbox';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->description->text = 'Field %%_type.';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher'] = new \effcore\field_switcher();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->title = 'Switcher';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->element_attributes['name'] = 'checkbox';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->element_attributes['value'] = 'checkbox';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->element_attributes['checked'] = 'checked';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->description = new \effcore\text();
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->description->args['type'] = 'field_switcher';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->description->text = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes'] = new \effcore\group_checkboxes();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->element_attributes['name'] = 'checkboxes[]';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkboxes']->values['checkboxes_1'] = 'Checkbox 1';
