@@ -38,5 +38,10 @@ namespace effcore { # cache for data--entities-user-session
   cache::$data['data--entities-user-session']->constraints['primary_id'] = new \stdClass();
   cache::$data['data--entities-user-session']->constraints['primary_id']->type = 'primary';
   cache::$data['data--entities-user-session']->constraints['primary_id']->fields['id'] = 'id';
+  cache::$data['data--entities-user-session']->constraints['foreign_id_user'] = new \stdClass();
+  cache::$data['data--entities-user-session']->constraints['foreign_id_user']->type = 'foreign';
+  cache::$data['data--entities-user-session']->constraints['foreign_id_user']->fields['id_user'] = 'id_user';
+  cache::$data['data--entities-user-session']->constraints['foreign_id_user']->references = 'users';
+  cache::$data['data--entities-user-session']->constraints['foreign_id_user']->references_fields['id'] = 'id';
 
 }
