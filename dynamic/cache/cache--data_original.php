@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-03 10:25:29';
+  cache::$info['data_original']['build'] = '2018-10-03 10:38:19';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -989,6 +989,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['instances']['user']['permission_user_update']->entity_name = 'permission';
   cache::$data['data_original']['instances']['user']['permission_user_update']->values['id'] = 'user_update';
   cache::$data['data_original']['instances']['user']['permission_user_update']->values['title'] = 'User: update';
+  cache::$data['data_original']['instances']['user']['permission_user_insert'] = new \effcore\instance();
+  cache::$data['data_original']['instances']['user']['permission_user_insert']->entity_name = 'permission';
+  cache::$data['data_original']['instances']['user']['permission_user_insert']->values['id'] = 'user_insert';
+  cache::$data['data_original']['instances']['user']['permission_user_insert']->values['title'] = 'User: insert';
   cache::$data['data_original']['instances']['user']['permission_user_delete'] = new \effcore\instance();
   cache::$data['data_original']['instances']['user']['permission_user_delete']->entity_name = 'permission';
   cache::$data['data_original']['instances']['user']['permission_user_delete']->values['id'] = 'user_delete';
@@ -1009,6 +1013,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['instances']['user']['relation_role_ws_permission_admins_user_insert']->entity_name = 'relation_role_ws_permission';
   cache::$data['data_original']['instances']['user']['relation_role_ws_permission_admins_user_insert']->values['id_role'] = 'admins';
   cache::$data['data_original']['instances']['user']['relation_role_ws_permission_admins_user_insert']->values['id_permission'] = 'user_insert';
+  cache::$data['data_original']['instances']['user']['relation_role_ws_permission_admins_user_delete'] = new \effcore\instance();
+  cache::$data['data_original']['instances']['user']['relation_role_ws_permission_admins_user_delete']->entity_name = 'relation_role_ws_permission';
+  cache::$data['data_original']['instances']['user']['relation_role_ws_permission_admins_user_delete']->values['id_role'] = 'admins';
+  cache::$data['data_original']['instances']['user']['relation_role_ws_permission_admins_user_delete']->values['id_permission'] = 'user_delete';
   cache::$data['data_original']['instances']['demo']['demo_types_example_1'] = new \effcore\instance();
   cache::$data['data_original']['instances']['demo']['demo_types_example_1']->entity_name = 'demo_types';
   cache::$data['data_original']['instances']['demo']['demo_types_example_1']->values['id'] = 1;
@@ -1638,6 +1646,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['primary_id_role_id_permission']->type = 'primary';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['primary_id_role_id_permission']->fields['id_role'] = 'id_role';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['primary_id_role_id_permission']->fields['id_permission'] = 'id_permission';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['foreign_id_role'] = new \stdClass();
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['foreign_id_role']->type = 'foreign';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['foreign_id_role']->fields['id_role'] = 'id_role';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['foreign_id_role']->references = 'roles';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['foreign_id_role']->references_fields['id'] = 'id';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['foreign_id_permission'] = new \stdClass();
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['foreign_id_permission']->type = 'foreign';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['foreign_id_permission']->fields['id_permission'] = 'id_permission';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['foreign_id_permission']->references = 'permissions';
+  cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->constraints['foreign_id_permission']->references_fields['id'] = 'id';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->indexes['index_created'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->indexes['index_created']->type = 'index';
   cache::$data['data_original']['entities']['user']['relation_role_ws_permission']->indexes['index_created']->fields['created'] = 'created';

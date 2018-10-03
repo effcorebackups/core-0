@@ -36,6 +36,10 @@ namespace effcore { # cache for data--instances
   cache::$data['data--instances']['user']['permission_user_update']->entity_name = 'permission';
   cache::$data['data--instances']['user']['permission_user_update']->values['id'] = 'user_update';
   cache::$data['data--instances']['user']['permission_user_update']->values['title'] = 'User: update';
+  cache::$data['data--instances']['user']['permission_user_insert'] = new \effcore\instance();
+  cache::$data['data--instances']['user']['permission_user_insert']->entity_name = 'permission';
+  cache::$data['data--instances']['user']['permission_user_insert']->values['id'] = 'user_insert';
+  cache::$data['data--instances']['user']['permission_user_insert']->values['title'] = 'User: insert';
   cache::$data['data--instances']['user']['permission_user_delete'] = new \effcore\instance();
   cache::$data['data--instances']['user']['permission_user_delete']->entity_name = 'permission';
   cache::$data['data--instances']['user']['permission_user_delete']->values['id'] = 'user_delete';
@@ -56,6 +60,10 @@ namespace effcore { # cache for data--instances
   cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_insert']->entity_name = 'relation_role_ws_permission';
   cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_insert']->values['id_role'] = 'admins';
   cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_insert']->values['id_permission'] = 'user_insert';
+  cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_delete'] = new \effcore\instance();
+  cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_delete']->entity_name = 'relation_role_ws_permission';
+  cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_delete']->values['id_role'] = 'admins';
+  cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_delete']->values['id_permission'] = 'user_delete';
   cache::$data['data--instances']['demo']['demo_types_example_1'] = new \effcore\instance();
   cache::$data['data--instances']['demo']['demo_types_example_1']->entity_name = 'demo_types';
   cache::$data['data--instances']['demo']['demo_types_example_1']->values['id'] = 1;

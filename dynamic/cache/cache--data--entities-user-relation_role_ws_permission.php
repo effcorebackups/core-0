@@ -32,6 +32,16 @@ namespace effcore { # cache for data--entities-user-relation_role_ws_permission
   cache::$data['data--entities-user-relation_role_ws_permission']->constraints['primary_id_role_id_permission']->type = 'primary';
   cache::$data['data--entities-user-relation_role_ws_permission']->constraints['primary_id_role_id_permission']->fields['id_role'] = 'id_role';
   cache::$data['data--entities-user-relation_role_ws_permission']->constraints['primary_id_role_id_permission']->fields['id_permission'] = 'id_permission';
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['foreign_id_role'] = new \stdClass();
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['foreign_id_role']->type = 'foreign';
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['foreign_id_role']->fields['id_role'] = 'id_role';
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['foreign_id_role']->references = 'roles';
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['foreign_id_role']->references_fields['id'] = 'id';
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['foreign_id_permission'] = new \stdClass();
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['foreign_id_permission']->type = 'foreign';
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['foreign_id_permission']->fields['id_permission'] = 'id_permission';
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['foreign_id_permission']->references = 'permissions';
+  cache::$data['data--entities-user-relation_role_ws_permission']->constraints['foreign_id_permission']->references_fields['id'] = 'id';
   cache::$data['data--entities-user-relation_role_ws_permission']->indexes['index_created'] = new \stdClass();
   cache::$data['data--entities-user-relation_role_ws_permission']->indexes['index_created']->type = 'index';
   cache::$data['data--entities-user-relation_role_ws_permission']->indexes['index_created']->fields['created'] = 'created';
