@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-04 14:09:41';
+  cache::$info['data_original']['build'] = '2018-10-04 19:53:53';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1567,6 +1567,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['events']['user']->on_form_submit['registration'] = new \effcore\event();
   cache::$data['data_original']['events']['user']->on_form_submit['registration']->for = 'registration';
   cache::$data['data_original']['events']['user']->on_form_submit['registration']->handler = '\\effcore\\modules\\user\\events_form_registration::on_submit';
+  cache::$data['data_original']['events']['user']->on_form_submit['access'] = new \effcore\event();
+  cache::$data['data_original']['events']['user']->on_form_submit['access']->for = 'access';
+  cache::$data['data_original']['events']['user']->on_form_submit['access']->handler = '\\effcore\\modules\\user\\events_form_access::on_submit';
   cache::$data['data_original']['events']['storage'] = new \stdClass();
   cache::$data['data_original']['events']['storage']->on_storage_init_before['pdo'] = new \effcore\event();
   cache::$data['data_original']['events']['storage']->on_storage_init_before['pdo']->for = 'pdo';
@@ -3340,6 +3343,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['save'] = 'сохранить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Search'] = 'Поиск';
   cache::$data['data_original']['translations']['locales']['ru']->data['search'] = 'поиск';
+  cache::$data['data_original']['translations']['locales']['ru']->data['select | update | insert | delete'] = 'выбрать | обновить | вставить | удалить';
+  cache::$data['data_original']['translations']['locales']['ru']->data['select | update | insert'] = 'выбрать | обновить | вставить';
+  cache::$data['data_original']['translations']['locales']['ru']->data['select | update'] = 'выбрать | обновить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select instance'] = 'Выбрать экземпляр';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select instances'] = 'Выбрать экземпляры';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select'] = 'Выбрать';

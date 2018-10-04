@@ -40,6 +40,9 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['user']->on_form_submit['registration'] = new \effcore\event();
   cache::$data['data--events']['user']->on_form_submit['registration']->for = 'registration';
   cache::$data['data--events']['user']->on_form_submit['registration']->handler = '\\effcore\\modules\\user\\events_form_registration::on_submit';
+  cache::$data['data--events']['user']->on_form_submit['access'] = new \effcore\event();
+  cache::$data['data--events']['user']->on_form_submit['access']->for = 'access';
+  cache::$data['data--events']['user']->on_form_submit['access']->handler = '\\effcore\\modules\\user\\events_form_access::on_submit';
   cache::$data['data--events']['storage'] = new \stdClass();
   cache::$data['data--events']['storage']->on_storage_init_before['pdo'] = new \effcore\event();
   cache::$data['data--events']['storage']->on_storage_init_before['pdo']->for = 'pdo';
