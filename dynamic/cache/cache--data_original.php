@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-04 13:23:19';
+  cache::$info['data_original']['build'] = '2018-10-04 13:39:01';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -644,7 +644,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['menu']['trees']->display = new \stdClass();
   cache::$data['data_original']['pages']['menu']['trees']->display->check = 'url';
   cache::$data['data_original']['pages']['menu']['trees']->display->where = 'path';
-  cache::$data['data_original']['pages']['menu']['trees']->display->match = '%^(?<base>/manage/trees)/(?<action>[a-z]+)(/(?<id>[a-z_]+)|)$%';
+  cache::$data['data_original']['pages']['menu']['trees']->display->match = '%^(?<base>/manage/trees)/(?<action>select|insert)(/(?<id>[a-z_]+)|)$%';
   cache::$data['data_original']['pages']['menu']['trees']->access = new \stdClass();
   cache::$data['data_original']['pages']['menu']['trees']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['menu']['trees']->children['menu_main'] = new \effcore\page_part();
@@ -671,14 +671,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_select']->display = new \stdClass();
   cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_select']->display->check = 'page_args';
   cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_select']->display->where = 'action';
-  cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_select']->display->match = '%select%';
+  cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_select']->display->match = '%^select$%';
   cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_select']->type = 'code';
   cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_select']->source = '\\effcore\\manage_trees::tree_select';
   cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_insert'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_insert']->display = new \stdClass();
   cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_insert']->display->check = 'page_args';
   cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_insert']->display->where = 'action';
-  cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_insert']->display->match = '%insert%';
+  cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_insert']->display->match = '%^insert$%';
   cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_insert']->type = 'code';
   cache::$data['data_original']['pages']['menu']['trees']->children['block_tree_insert']->source = '\\effcore\\manage_trees::tree_insert';
   cache::$data['data_original']['pages']['test']['tests'] = new \effcore\page();
@@ -792,21 +792,21 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_list']->display = new \stdClass();
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_list']->display->check = 'page_args';
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_list']->display->where = 'view';
-  cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_list']->display->match = '%list%';
+  cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_list']->display->match = '%^list$%';
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_list']->type = 'code';
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_list']->source = '\\effcore\\modules\\develop\\events_page::on_show_block_structures_list';
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram']->display = new \stdClass();
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram']->display->check = 'page_args';
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram']->display->where = 'view';
-  cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram']->display->match = '%diagram%';
+  cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram']->display->match = '%^diagram$%';
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram']->type = 'code';
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram']->source = '\\effcore\\modules\\develop\\events_page::on_show_block_structures_diagram';
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram_export'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram_export']->display = new \stdClass();
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram_export']->display->check = 'page_args';
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram_export']->display->where = 'view';
-  cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram_export']->display->match = '%diagram_export%';
+  cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram_export']->display->match = '%^diagram_export$%';
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram_export']->type = 'code';
   cache::$data['data_original']['pages']['develop']['structures']->children['block_structures_diagram_export']->source = '\\effcore\\modules\\develop\\events_page::on_export_diagram';
   cache::$data['data_original']['pages']['develop']['php_mod_usage'] = new \effcore\page();

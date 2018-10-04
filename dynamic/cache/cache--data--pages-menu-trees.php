@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-menu-trees
   cache::$data['data--pages-menu-trees']->display = new \stdClass();
   cache::$data['data--pages-menu-trees']->display->check = 'url';
   cache::$data['data--pages-menu-trees']->display->where = 'path';
-  cache::$data['data--pages-menu-trees']->display->match = '%^(?<base>/manage/trees)/(?<action>[a-z]+)(/(?<id>[a-z_]+)|)$%';
+  cache::$data['data--pages-menu-trees']->display->match = '%^(?<base>/manage/trees)/(?<action>select|insert)(/(?<id>[a-z_]+)|)$%';
   cache::$data['data--pages-menu-trees']->access = new \stdClass();
   cache::$data['data--pages-menu-trees']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-menu-trees']->children['menu_main'] = new \effcore\page_part();
@@ -35,14 +35,14 @@ namespace effcore { # cache for data--pages-menu-trees
   cache::$data['data--pages-menu-trees']->children['block_tree_select']->display = new \stdClass();
   cache::$data['data--pages-menu-trees']->children['block_tree_select']->display->check = 'page_args';
   cache::$data['data--pages-menu-trees']->children['block_tree_select']->display->where = 'action';
-  cache::$data['data--pages-menu-trees']->children['block_tree_select']->display->match = '%select%';
+  cache::$data['data--pages-menu-trees']->children['block_tree_select']->display->match = '%^select$%';
   cache::$data['data--pages-menu-trees']->children['block_tree_select']->type = 'code';
   cache::$data['data--pages-menu-trees']->children['block_tree_select']->source = '\\effcore\\manage_trees::tree_select';
   cache::$data['data--pages-menu-trees']->children['block_tree_insert'] = new \effcore\page_part();
   cache::$data['data--pages-menu-trees']->children['block_tree_insert']->display = new \stdClass();
   cache::$data['data--pages-menu-trees']->children['block_tree_insert']->display->check = 'page_args';
   cache::$data['data--pages-menu-trees']->children['block_tree_insert']->display->where = 'action';
-  cache::$data['data--pages-menu-trees']->children['block_tree_insert']->display->match = '%insert%';
+  cache::$data['data--pages-menu-trees']->children['block_tree_insert']->display->match = '%^insert$%';
   cache::$data['data--pages-menu-trees']->children['block_tree_insert']->type = 'code';
   cache::$data['data--pages-menu-trees']->children['block_tree_insert']->source = '\\effcore\\manage_trees::tree_insert';
 
