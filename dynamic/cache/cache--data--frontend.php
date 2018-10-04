@@ -80,7 +80,7 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['develop']['frontend_diagram_filter']->display = new \stdClass();
   cache::$data['data--frontend']['develop']['frontend_diagram_filter']->display->check = 'url';
   cache::$data['data--frontend']['develop']['frontend_diagram_filter']->display->where = 'path';
-  cache::$data['data--frontend']['develop']['frontend_diagram_filter']->display->match = '%/develop/structures/.*%';
+  cache::$data['data--frontend']['develop']['frontend_diagram_filter']->display->match = '%^/develop/structures/.*$%';
   cache::$data['data--frontend']['develop']['frontend_diagram_filter']->styles['form_style'] = new \stdClass();
   cache::$data['data--frontend']['develop']['frontend_diagram_filter']->styles['form_style']->file = '/system/module_page/frontend/form._style';
   cache::$data['data--frontend']['develop']['frontend_diagram_filter']->styles['form_style']->media = 'all';
