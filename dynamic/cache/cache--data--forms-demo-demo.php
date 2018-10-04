@@ -142,8 +142,8 @@ namespace effcore { # cache for data--forms-demo-demo
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->description->text = 'Field %%_type.';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher'] = new \effcore\field_switcher();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->title = 'Switcher';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->element_attributes['name'] = 'checkbox';
-  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->element_attributes['value'] = 'checkbox';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->element_attributes['name'] = 'switcher';
+  cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->element_attributes['value'] = 'switcher';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->element_attributes['checked'] = 'checked';
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->description = new \effcore\text();
   cache::$data['data--forms-demo-demo']->children['form_elements']->children['checkboxes_all']->children['switcher']->description->args['type'] = 'field_switcher';
