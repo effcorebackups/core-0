@@ -92,6 +92,7 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Selection of "demo_types" entities'] = 'Выборка сущностей "demo_types"';
   cache::$data['data--translations-develop-ru']->data['Static block'] = 'Статический блок';
   cache::$data['data--translations-develop-ru']->data['Structures'] = 'Структуры';
+  cache::$data['data--translations-develop-ru']->data['Switcher (disabled)'] = 'Переключатель (отключён)';
   cache::$data['data--translations-develop-ru']->data['The test was failed!'] = 'Тест не удался!';
   cache::$data['data--translations-develop-ru']->data['The test was successful.'] = 'Тест выполнен успешно.';
   cache::$data['data--translations-develop-ru']->data['This description is always shown.'] = 'Это описание всегда показывается.';
