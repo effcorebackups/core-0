@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-04 13:18:52';
+  cache::$info['data_original']['build'] = '2018-10-04 13:23:19';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2717,7 +2717,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->check = 'url';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->where = 'path';
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->match = '%.*%';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->match = '%^.*$%';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->type = 'image/x-icon';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->rel = 'icon';
@@ -2783,7 +2783,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display = new \stdClass();
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->check = 'url';
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->where = 'path';
-  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->match = '%.*%';
+  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->match = '%^.*$%';
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style'] = new \stdClass();
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->file = 'frontend/develop._style';
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->media = 'all';

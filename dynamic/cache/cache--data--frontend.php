@@ -6,7 +6,7 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['page']['frontend_page_n']->display = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->display->check = 'url';
   cache::$data['data--frontend']['page']['frontend_page_n']->display->where = 'path';
-  cache::$data['data--frontend']['page']['frontend_page_n']->display->match = '%.*%';
+  cache::$data['data--frontend']['page']['frontend_page_n']->display->match = '%^.*$%';
   cache::$data['data--frontend']['page']['frontend_page_n']->favicons['icon_32_classic'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->type = 'image/x-icon';
   cache::$data['data--frontend']['page']['frontend_page_n']->favicons['icon_32_classic']->rel = 'icon';
@@ -72,7 +72,7 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->display = new \stdClass();
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->display->check = 'url';
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->display->where = 'path';
-  cache::$data['data--frontend']['develop']['frontend_develop_page_n']->display->match = '%.*%';
+  cache::$data['data--frontend']['develop']['frontend_develop_page_n']->display->match = '%^.*$%';
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->styles['develop_style'] = new \stdClass();
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->file = 'frontend/develop._style';
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->media = 'all';
