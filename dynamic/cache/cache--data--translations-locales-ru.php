@@ -278,6 +278,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['submit'] = 'отправить';
   cache::$data['data--translations-locales-ru']->data['Subscribe for updates'] = 'Подписка на обновления';
   cache::$data['data--translations-locales-ru']->data['Switcher'] = 'Переключатель';
+  cache::$data['data--translations-locales-ru']->data['Switchers'] = 'Переключатели';
   cache::$data['data--translations-locales-ru']->data['System'] = 'Система';
   cache::$data['data--translations-locales-ru']->data['Table prefix'] = 'Префикс таблиц';
   cache::$data['data--translations-locales-ru']->data['Table'] = 'Таблица';

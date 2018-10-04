@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-04 11:49:45';
+  cache::$info['data_original']['build'] = '2018-10-04 12:44:55';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3348,6 +3348,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['submit'] = 'отправить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Subscribe for updates'] = 'Подписка на обновления';
   cache::$data['data_original']['translations']['locales']['ru']->data['Switcher'] = 'Переключатель';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Switchers'] = 'Переключатели';
   cache::$data['data_original']['translations']['locales']['ru']->data['System'] = 'Система';
   cache::$data['data_original']['translations']['locales']['ru']->data['Table prefix'] = 'Префикс таблиц';
   cache::$data['data_original']['translations']['locales']['ru']->data['Table'] = 'Таблица';
@@ -3515,7 +3516,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Switcher 2 (checked)'] = 'Переключатель 2 (установлен)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Switcher 3 (disabled)'] = 'Переключатель 3 (отключён)';
   cache::$data['data_original']['translations']['develop']['ru']->data['Switcher 4 (disabled + checked)'] = 'Переключатель 4 (отключён + установлен)';
-  cache::$data['data_original']['translations']['develop']['ru']->data['Switchers'] = 'Переключатели';
   cache::$data['data_original']['translations']['develop']['ru']->data['The test was failed!'] = 'Тест не удался!';
   cache::$data['data_original']['translations']['develop']['ru']->data['The test was successful.'] = 'Тест выполнен успешно.';
   cache::$data['data_original']['translations']['develop']['ru']->data['This description is always shown.'] = 'Это описание всегда показывается.';

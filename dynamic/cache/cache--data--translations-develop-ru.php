@@ -96,7 +96,6 @@ namespace effcore { # cache for data--translations-develop-ru
   cache::$data['data--translations-develop-ru']->data['Switcher 2 (checked)'] = 'Переключатель 2 (установлен)';
   cache::$data['data--translations-develop-ru']->data['Switcher 3 (disabled)'] = 'Переключатель 3 (отключён)';
   cache::$data['data--translations-develop-ru']->data['Switcher 4 (disabled + checked)'] = 'Переключатель 4 (отключён + установлен)';
-  cache::$data['data--translations-develop-ru']->data['Switchers'] = 'Переключатели';
   cache::$data['data--translations-develop-ru']->data['The test was failed!'] = 'Тест не удался!';
   cache::$data['data--translations-develop-ru']->data['The test was successful.'] = 'Тест выполнен успешно.';
   cache::$data['data--translations-develop-ru']->data['This description is always shown.'] = 'Это описание всегда показывается.';
