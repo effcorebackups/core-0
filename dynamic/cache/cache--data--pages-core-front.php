@@ -27,5 +27,12 @@ namespace effcore { # cache for data--pages-core-front
   cache::$data['data--pages-core-front']->children['wellcome'] = new \effcore\page_part();
   cache::$data['data--pages-core-front']->children['wellcome']->type = 'text';
   cache::$data['data--pages-core-front']->children['wellcome']->source = 'Wellcome to our site!';
+  cache::$data['data--pages-core-front']->children['form_access'] = new \effcore\page_part();
+  cache::$data['data--pages-core-front']->children['form_access']->display = new \stdClass();
+  cache::$data['data--pages-core-front']->children['form_access']->display->check = 'user';
+  cache::$data['data--pages-core-front']->children['form_access']->display->where = 'role';
+  cache::$data['data--pages-core-front']->children['form_access']->display->match = '%^admins$%';
+  cache::$data['data--pages-core-front']->children['form_access']->type = 'link';
+  cache::$data['data--pages-core-front']->children['form_access']->source = 'forms/user/access';
 
 }

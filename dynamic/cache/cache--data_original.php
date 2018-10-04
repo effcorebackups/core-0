@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-04 12:44:55';
+  cache::$info['data_original']['build'] = '2018-10-04 13:18:52';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -946,6 +946,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['front']->children['wellcome'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['front']->children['wellcome']->type = 'text';
   cache::$data['data_original']['pages']['core']['front']->children['wellcome']->source = 'Wellcome to our site!';
+  cache::$data['data_original']['pages']['core']['front']->children['form_access'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['core']['front']->children['form_access']->display = new \stdClass();
+  cache::$data['data_original']['pages']['core']['front']->children['form_access']->display->check = 'user';
+  cache::$data['data_original']['pages']['core']['front']->children['form_access']->display->where = 'role';
+  cache::$data['data_original']['pages']['core']['front']->children['form_access']->display->match = '%^admins$%';
+  cache::$data['data_original']['pages']['core']['front']->children['form_access']->type = 'link';
+  cache::$data['data_original']['pages']['core']['front']->children['form_access']->source = 'forms/user/access';
   cache::$data['data_original']['pages']['core']['cron'] = new \effcore\page();
   cache::$data['data_original']['pages']['core']['cron']->title = 'Cron';
   cache::$data['data_original']['pages']['core']['cron']->display = new \stdClass();
@@ -1163,6 +1170,17 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->attributes['id'] = 'login';
   cache::$data['data_original']['forms']['user']['login']->attributes['method'] = 'post';
   cache::$data['data_original']['forms']['user']['login']->attributes['novalidate'] = 'novalidate';
+  cache::$data['data_original']['forms']['user']['access'] = new \effcore\form();
+  cache::$data['data_original']['forms']['user']['access']->children['settings'] = new \effcore\fieldset();
+  cache::$data['data_original']['forms']['user']['access']->children['settings']->title = 'Access settings';
+  cache::$data['data_original']['forms']['user']['access']->children['button_save'] = new \effcore\button();
+  cache::$data['data_original']['forms']['user']['access']->children['button_save']->attributes['type'] = 'submit';
+  cache::$data['data_original']['forms']['user']['access']->children['button_save']->attributes['name'] = 'button';
+  cache::$data['data_original']['forms']['user']['access']->children['button_save']->attributes['value'] = 'save';
+  cache::$data['data_original']['forms']['user']['access']->children['button_save']->title = 'save';
+  cache::$data['data_original']['forms']['user']['access']->attributes['id'] = 'access';
+  cache::$data['data_original']['forms']['user']['access']->attributes['method'] = 'post';
+  cache::$data['data_original']['forms']['user']['access']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['storage']['instance_delete'] = new \effcore\form();
   cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_delete'] = new \effcore\button();
   cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_delete']->attributes['type'] = 'submit';
@@ -3078,6 +3096,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['© 2017—2019 Maxim Rysevets. All rights reserved.'] = '© 2017—2019 Рысевец Максим Владимирович. Все права защищены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
   cache::$data['data_original']['translations']['locales']['ru']->data['Access denided'] = 'Доступ запрещен';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Access settings'] = 'Настройки доступа';
   cache::$data['data_original']['translations']['locales']['ru']->data['action'] = 'действие';
   cache::$data['data_original']['translations']['locales']['ru']->data['Action'] = 'Действие';
   cache::$data['data_original']['translations']['locales']['ru']->data['actions'] = 'действия';
