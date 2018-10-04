@@ -16,6 +16,9 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['user']->on_form_init['user_edit'] = new \effcore\event();
   cache::$data['data--events']['user']->on_form_init['user_edit']->for = 'user_edit';
   cache::$data['data--events']['user']->on_form_init['user_edit']->handler = '\\effcore\\modules\\user\\events_form_user_edit::on_init';
+  cache::$data['data--events']['user']->on_form_init['access'] = new \effcore\event();
+  cache::$data['data--events']['user']->on_form_init['access']->for = 'access';
+  cache::$data['data--events']['user']->on_form_init['access']->handler = '\\effcore\\modules\\user\\events_form_access::on_init';
   cache::$data['data--events']['user']->on_form_validate['login'] = new \effcore\event();
   cache::$data['data--events']['user']->on_form_validate['login']->for = 'login';
   cache::$data['data--events']['user']->on_form_validate['login']->handler = '\\effcore\\modules\\user\\events_form_login::on_validate';
