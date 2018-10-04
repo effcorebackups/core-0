@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-10-04 11:28:38';
+  cache::$info['structures']['build'] = '2018-10-04 11:49:44';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -272,6 +272,12 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\group_radiobuttons']->extends = 'effcore\\container';
   cache::$data['structures']['effcore\\group_radiobuttons']->implements['effcore\\group_mono'] = 'effcore\\group_mono';
   cache::$data['structures']['effcore\\group_radiobuttons']->file = 'system/module_page/backend/pattern--group_radiobuttons.php';
+  cache::$data['structures']['effcore\\group_switchers'] = new \stdClass();
+  cache::$data['structures']['effcore\\group_switchers']->namespace = 'effcore';
+  cache::$data['structures']['effcore\\group_switchers']->name = 'group_switchers';
+  cache::$data['structures']['effcore\\group_switchers']->type = 'class';
+  cache::$data['structures']['effcore\\group_switchers']->extends = 'effcore\\group_checkboxes';
+  cache::$data['structures']['effcore\\group_switchers']->file = 'system/module_page/backend/pattern--group_switchers.php';
   cache::$data['structures']['effcore\\has_external_cache'] = new \stdClass();
   cache::$data['structures']['effcore\\has_external_cache']->namespace = 'effcore';
   cache::$data['structures']['effcore\\has_external_cache']->name = 'has_external_cache';
