@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-04 19:53:53';
+  cache::$info['data_original']['build'] = '2018-10-04 19:57:52';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3098,6 +3098,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['blocks']['demo']['demo']->attributes['class']['demo'] = 'demo';
   cache::$data['data_original']['translations']['locales']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['locales']['ru']->code = 'ru';
+  cache::$data['data_original']['translations']['locales']['ru']->data['- no -'] = '- нет -';
   cache::$data['data_original']['translations']['locales']['ru']->data['- select -'] = '- выбрать -';
   cache::$data['data_original']['translations']['locales']['ru']->data['© 2017—2019 Maxim Rysevets. All rights reserved.'] = '© 2017—2019 Рысевец Максим Владимирович. Все права защищены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
