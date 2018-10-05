@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-05 13:47:30';
+  cache::$info['data_original']['build'] = '2018-10-05 14:28:07';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3506,9 +3506,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['save'] = 'сохранить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Search'] = 'Поиск';
   cache::$data['data_original']['translations']['locales']['ru']->data['search'] = 'поиск';
-  cache::$data['data_original']['translations']['locales']['ru']->data['select | update | insert | delete'] = 'выбрать | обновить | вставить | удалить';
-  cache::$data['data_original']['translations']['locales']['ru']->data['select | update | insert'] = 'выбрать | обновить | вставить';
-  cache::$data['data_original']['translations']['locales']['ru']->data['select | update'] = 'выбрать | обновить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select instance'] = 'Выбрать экземпляр';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select instances'] = 'Выбрать экземпляры';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select'] = 'Выбрать';
