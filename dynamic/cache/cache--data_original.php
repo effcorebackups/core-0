@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-04 19:57:52';
+  cache::$info['data_original']['build'] = '2018-10-05 11:39:06';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -953,6 +953,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['front']->children['form_access']->display->match = '%^admins$%';
   cache::$data['data_original']['pages']['core']['front']->children['form_access']->type = 'link';
   cache::$data['data_original']['pages']['core']['front']->children['form_access']->source = 'forms/user/access';
+  cache::$data['data_original']['pages']['core']['front']->children['form_access']->source_args['entity_name'] = 'page';
   cache::$data['data_original']['pages']['core']['cron'] = new \effcore\page();
   cache::$data['data_original']['pages']['core']['cron']->title = 'Cron';
   cache::$data['data_original']['pages']['core']['cron']->display = new \stdClass();
@@ -1173,6 +1174,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['access'] = new \effcore\form();
   cache::$data['data_original']['forms']['user']['access']->children['settings'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['user']['access']->children['settings']->title = 'Access settings';
+  cache::$data['data_original']['forms']['user']['access']->children['settings']->attributes['data-dype'] = 'roles';
   cache::$data['data_original']['forms']['user']['access']->children['button_save'] = new \effcore\button();
   cache::$data['data_original']['forms']['user']['access']->children['button_save']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['user']['access']->children['button_save']->attributes['name'] = 'button';

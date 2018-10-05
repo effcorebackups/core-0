@@ -34,5 +34,6 @@ namespace effcore { # cache for data--pages-core-front
   cache::$data['data--pages-core-front']->children['form_access']->display->match = '%^admins$%';
   cache::$data['data--pages-core-front']->children['form_access']->type = 'link';
   cache::$data['data--pages-core-front']->children['form_access']->source = 'forms/user/access';
+  cache::$data['data--pages-core-front']->children['form_access']->source_args['entity_name'] = 'page';
 
 }
