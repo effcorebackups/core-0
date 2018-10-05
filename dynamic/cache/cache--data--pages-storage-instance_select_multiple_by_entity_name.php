@@ -34,5 +34,13 @@ namespace effcore { # cache for data--pages-storage-instance_select_multiple_by_
   cache::$data['data--pages-storage-instance_select_multiple_by_entity_name']->children['block_instance_select_multiple_by_entity_name'] = new \effcore\page_part();
   cache::$data['data--pages-storage-instance_select_multiple_by_entity_name']->children['block_instance_select_multiple_by_entity_name']->type = 'code';
   cache::$data['data--pages-storage-instance_select_multiple_by_entity_name']->children['block_instance_select_multiple_by_entity_name']->source = '\\effcore\\manage_instances::instance_select_multiple_by_entity_name';
+  cache::$data['data--pages-storage-instance_select_multiple_by_entity_name']->children['form_access'] = new \effcore\page_part();
+  cache::$data['data--pages-storage-instance_select_multiple_by_entity_name']->children['form_access']->display = new \stdClass();
+  cache::$data['data--pages-storage-instance_select_multiple_by_entity_name']->children['form_access']->display->check = 'user';
+  cache::$data['data--pages-storage-instance_select_multiple_by_entity_name']->children['form_access']->display->where = 'role';
+  cache::$data['data--pages-storage-instance_select_multiple_by_entity_name']->children['form_access']->display->match = '%^admins$%';
+  cache::$data['data--pages-storage-instance_select_multiple_by_entity_name']->children['form_access']->type = 'link';
+  cache::$data['data--pages-storage-instance_select_multiple_by_entity_name']->children['form_access']->source = 'forms/user/access';
+  cache::$data['data--pages-storage-instance_select_multiple_by_entity_name']->children['form_access']->source_args['entity_name'] = 'page';
 
 }

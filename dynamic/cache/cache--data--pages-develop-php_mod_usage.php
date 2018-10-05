@@ -30,5 +30,13 @@ namespace effcore { # cache for data--pages-develop-php_mod_usage
   cache::$data['data--pages-develop-php_mod_usage']->children['block_php_mod_usage_list'] = new \effcore\page_part();
   cache::$data['data--pages-develop-php_mod_usage']->children['block_php_mod_usage_list']->type = 'code';
   cache::$data['data--pages-develop-php_mod_usage']->children['block_php_mod_usage_list']->source = '\\effcore\\modules\\develop\\events_page::on_show_block_php_mod_usage_list';
+  cache::$data['data--pages-develop-php_mod_usage']->children['form_access'] = new \effcore\page_part();
+  cache::$data['data--pages-develop-php_mod_usage']->children['form_access']->display = new \stdClass();
+  cache::$data['data--pages-develop-php_mod_usage']->children['form_access']->display->check = 'user';
+  cache::$data['data--pages-develop-php_mod_usage']->children['form_access']->display->where = 'role';
+  cache::$data['data--pages-develop-php_mod_usage']->children['form_access']->display->match = '%^admins$%';
+  cache::$data['data--pages-develop-php_mod_usage']->children['form_access']->type = 'link';
+  cache::$data['data--pages-develop-php_mod_usage']->children['form_access']->source = 'forms/user/access';
+  cache::$data['data--pages-develop-php_mod_usage']->children['form_access']->source_args['entity_name'] = 'page';
 
 }

@@ -34,5 +34,13 @@ namespace effcore { # cache for data--pages-storage-instance_delete_multiple_by_
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id'] = new \effcore\page_part();
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id']->type = 'code';
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id']->source = '\\effcore\\manage_instances::instance_delete_multiple_by_instances_id';
+  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['form_access'] = new \effcore\page_part();
+  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['form_access']->display = new \stdClass();
+  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['form_access']->display->check = 'user';
+  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['form_access']->display->where = 'role';
+  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['form_access']->display->match = '%^admins$%';
+  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['form_access']->type = 'link';
+  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['form_access']->source = 'forms/user/access';
+  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['form_access']->source_args['entity_name'] = 'page';
 
 }

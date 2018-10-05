@@ -30,5 +30,13 @@ namespace effcore { # cache for data--pages-page-decoration
   cache::$data['data--pages-page-decoration']->children['form_decoration'] = new \effcore\page_part();
   cache::$data['data--pages-page-decoration']->children['form_decoration']->type = 'link';
   cache::$data['data--pages-page-decoration']->children['form_decoration']->source = 'forms/page/decoration';
+  cache::$data['data--pages-page-decoration']->children['form_access'] = new \effcore\page_part();
+  cache::$data['data--pages-page-decoration']->children['form_access']->display = new \stdClass();
+  cache::$data['data--pages-page-decoration']->children['form_access']->display->check = 'user';
+  cache::$data['data--pages-page-decoration']->children['form_access']->display->where = 'role';
+  cache::$data['data--pages-page-decoration']->children['form_access']->display->match = '%^admins$%';
+  cache::$data['data--pages-page-decoration']->children['form_access']->type = 'link';
+  cache::$data['data--pages-page-decoration']->children['form_access']->source = 'forms/user/access';
+  cache::$data['data--pages-page-decoration']->children['form_access']->source_args['entity_name'] = 'page';
 
 }

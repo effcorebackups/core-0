@@ -52,5 +52,13 @@ namespace effcore { # cache for data--pages-demo-demo
   cache::$data['data--pages-demo-demo']->children['block_demo_diagrams'] = new \effcore\page_part();
   cache::$data['data--pages-demo-demo']->children['block_demo_diagrams']->type = 'code';
   cache::$data['data--pages-demo-demo']->children['block_demo_diagrams']->source = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_diagrams';
+  cache::$data['data--pages-demo-demo']->children['form_access'] = new \effcore\page_part();
+  cache::$data['data--pages-demo-demo']->children['form_access']->display = new \stdClass();
+  cache::$data['data--pages-demo-demo']->children['form_access']->display->check = 'user';
+  cache::$data['data--pages-demo-demo']->children['form_access']->display->where = 'role';
+  cache::$data['data--pages-demo-demo']->children['form_access']->display->match = '%^admins$%';
+  cache::$data['data--pages-demo-demo']->children['form_access']->type = 'link';
+  cache::$data['data--pages-demo-demo']->children['form_access']->source = 'forms/user/access';
+  cache::$data['data--pages-demo-demo']->children['form_access']->source_args['entity_name'] = 'page';
 
 }

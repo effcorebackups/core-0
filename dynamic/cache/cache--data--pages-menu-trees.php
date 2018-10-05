@@ -45,5 +45,13 @@ namespace effcore { # cache for data--pages-menu-trees
   cache::$data['data--pages-menu-trees']->children['block_tree_insert']->display->match = '%^insert$%';
   cache::$data['data--pages-menu-trees']->children['block_tree_insert']->type = 'code';
   cache::$data['data--pages-menu-trees']->children['block_tree_insert']->source = '\\effcore\\manage_trees::tree_insert';
+  cache::$data['data--pages-menu-trees']->children['form_access'] = new \effcore\page_part();
+  cache::$data['data--pages-menu-trees']->children['form_access']->display = new \stdClass();
+  cache::$data['data--pages-menu-trees']->children['form_access']->display->check = 'user';
+  cache::$data['data--pages-menu-trees']->children['form_access']->display->where = 'role';
+  cache::$data['data--pages-menu-trees']->children['form_access']->display->match = '%^admins$%';
+  cache::$data['data--pages-menu-trees']->children['form_access']->type = 'link';
+  cache::$data['data--pages-menu-trees']->children['form_access']->source = 'forms/user/access';
+  cache::$data['data--pages-menu-trees']->children['form_access']->source_args['entity_name'] = 'page';
 
 }
