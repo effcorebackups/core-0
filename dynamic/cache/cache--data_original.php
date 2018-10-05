@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-05 14:28:07';
+  cache::$info['data_original']['build'] = '2018-10-05 14:32:19';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1339,6 +1339,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['access']->children['button_save']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['user']['access']->children['button_save']->attributes['name'] = 'button';
   cache::$data['data_original']['forms']['user']['access']->children['button_save']->attributes['value'] = 'save';
+  cache::$data['data_original']['forms']['user']['access']->children['button_save']->attributes['disabled'] = 'disabled';
   cache::$data['data_original']['forms']['user']['access']->children['button_save']->title = 'save';
   cache::$data['data_original']['forms']['user']['access']->attributes['id'] = 'access';
   cache::$data['data_original']['forms']['user']['access']->attributes['method'] = 'post';
