@@ -2,6 +2,7 @@ tests
 - register_user|test
     id: register_user
     title: Register user
+    description: After each 3 insertions you will get the message "The test was failed!" because after every 3-rd chalenge the CAPTCHA will change.
     scenario
     - init_captcha|step_request
         url: /user/registration

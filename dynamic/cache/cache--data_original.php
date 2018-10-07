@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-07 19:03:16';
+  cache::$info['data_original']['build'] = '2018-10-07 19:41:11';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1388,6 +1388,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test'] = new \effcore\field_select();
   cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test']->element_attributes['name'] = 'select_test';
   cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test']->title = 'Select the test';
+  cache::$data['data_original']['forms']['test']['test']->children['test']->children['description'] = new \effcore\markup();
+  cache::$data['data_original']['forms']['test']['test']->children['test']->children['description']->tag_name = 'x-test-description';
   cache::$data['data_original']['forms']['test']['test']->children['button_run'] = new \effcore\button();
   cache::$data['data_original']['forms']['test']['test']->children['button_run']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['test']['test']->children['button_run']->attributes['name'] = 'button';
@@ -3272,8 +3274,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Cancel'] = 'Отмена';
   cache::$data['data_original']['translations']['locales']['ru']->data['cancel'] = 'отмена';
   cache::$data['data_original']['translations']['locales']['ru']->data['Canvas'] = 'Холст';
-  cache::$data['data_original']['translations']['locales']['ru']->data['CAPTCHA'] = 'Защитный код';
-  cache::$data['data_original']['translations']['locales']['ru']->data['CAPTCHAs'] = 'Защитные коды';
+  cache::$data['data_original']['translations']['locales']['ru']->data['CAPTCHA'] = 'Защитный код (CAPTCHA)';
+  cache::$data['data_original']['translations']['locales']['ru']->data['CAPTCHAs'] = 'Защитные коды (CAPTCHAs)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Change this EMail and Password after login to the system!'] = 'Измените этот Адрес электронной почты и Пароль после входа в систему!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Characters'] = 'Символы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
@@ -3600,6 +3602,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;'] = ' Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа.&#10;';
   cache::$data['data_original']['translations']['develop']['ru']->data['&ndash; request post param "%%_name" = "%%_value"'] = '&ndash; post параметр запроса "%%_name" = "%%_value"';
   cache::$data['data_original']['translations']['develop']['ru']->data['&ndash; result of checking is = "%%_result"'] = '&ndash; результат проверки = "%%_result"';
+  cache::$data['data_original']['translations']['develop']['ru']->data['After each 3 insertions you will get the message "The test was failed!" because after every 3-rd chalenge the CAPTCHA will change.'] = 'После каждых 3-х вставок вы будете получать сообщение "Тест не удался!" потому, что после каждой 3-ей попытки Защитный код (CAPTCHA) будет изменен.';
   cache::$data['data_original']['translations']['develop']['ru']->data['Call %%_name'] = 'Вызов %%_name';
   cache::$data['data_original']['translations']['develop']['ru']->data['call'] = 'вызов';
   cache::$data['data_original']['translations']['develop']['ru']->data['cell #%%_number'] = 'ячейка №%%_number';
@@ -3741,6 +3744,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tests']['test']['register_user'] = new \effcore\test();
   cache::$data['data_original']['tests']['test']['register_user']->id = 'register_user';
   cache::$data['data_original']['tests']['test']['register_user']->title = 'Register user';
+  cache::$data['data_original']['tests']['test']['register_user']->description = 'After each 3 insertions you will get the message "The test was failed!" because after every 3-rd chalenge the CAPTCHA will change.';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['init_captcha'] = new \effcore\step_request();
   cache::$data['data_original']['tests']['test']['register_user']->scenario['init_captcha']->url = '/user/registration';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit'] = new \effcore\step_request();

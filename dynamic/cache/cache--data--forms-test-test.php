@@ -7,6 +7,8 @@ namespace effcore { # cache for data--forms-test-test
   cache::$data['data--forms-test-test']->children['test']->children['select_test'] = new \effcore\field_select();
   cache::$data['data--forms-test-test']->children['test']->children['select_test']->element_attributes['name'] = 'select_test';
   cache::$data['data--forms-test-test']->children['test']->children['select_test']->title = 'Select the test';
+  cache::$data['data--forms-test-test']->children['test']->children['description'] = new \effcore\markup();
+  cache::$data['data--forms-test-test']->children['test']->children['description']->tag_name = 'x-test-description';
   cache::$data['data--forms-test-test']->children['button_run'] = new \effcore\button();
   cache::$data['data--forms-test-test']->children['button_run']->attributes['type'] = 'submit';
   cache::$data['data--forms-test-test']->children['button_run']->attributes['name'] = 'button';

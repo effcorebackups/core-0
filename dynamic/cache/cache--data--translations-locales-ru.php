@@ -32,8 +32,8 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Cancel'] = 'Отмена';
   cache::$data['data--translations-locales-ru']->data['cancel'] = 'отмена';
   cache::$data['data--translations-locales-ru']->data['Canvas'] = 'Холст';
-  cache::$data['data--translations-locales-ru']->data['CAPTCHA'] = 'Защитный код';
-  cache::$data['data--translations-locales-ru']->data['CAPTCHAs'] = 'Защитные коды';
+  cache::$data['data--translations-locales-ru']->data['CAPTCHA'] = 'Защитный код (CAPTCHA)';
+  cache::$data['data--translations-locales-ru']->data['CAPTCHAs'] = 'Защитные коды (CAPTCHAs)';
   cache::$data['data--translations-locales-ru']->data['Change this EMail and Password after login to the system!'] = 'Измените этот Адрес электронной почты и Пароль после входа в систему!';
   cache::$data['data--translations-locales-ru']->data['Characters'] = 'Символы';
   cache::$data['data--translations-locales-ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
