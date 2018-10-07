@@ -143,6 +143,8 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Installation is not available because storage credentials was set!'] = 'Установка недоступна потому, что учетные данные хранилища уже были установлены.';
   cache::$data['data--translations-locales-ru']->data['Installation'] = 'Установка';
   cache::$data['data--translations-locales-ru']->data['installation'] = 'установка';
+  cache::$data['data--translations-locales-ru']->data['Instance of entity "%%_entity_name" with id = "%%_instance_id" was deleted.'] = 'Экземпляр сущности "%%_entity_name" с id = "%%_instance_id" был удален.';
+  cache::$data['data--translations-locales-ru']->data['Instance of entity "%%_entity_name" with id = "%%_instance_id" was not deleted!'] = 'Экземпляр сущности "%%_entity_name" с id = "%%_instance_id" не был удален!';
   cache::$data['data--translations-locales-ru']->data['Instances of entity %%_name was added.'] = 'Экземпляры сущности %%_name были добавлены.';
   cache::$data['data--translations-locales-ru']->data['Instances of entity %%_name was not added!'] = 'Экземпляры сущности %%_name не были добавлены!';
   cache::$data['data--translations-locales-ru']->data['Instances'] = 'Экземпляры';
@@ -321,8 +323,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Updated'] = 'Обновлено';
   cache::$data['data--translations-locales-ru']->data['URL'] = 'URL';
   cache::$data['data--translations-locales-ru']->data['Use international format of mobile phone numbers.'] = 'Используйте международный формат номеров мобильных телефонов.';
-  cache::$data['data--translations-locales-ru']->data['User %%_nick was deleted.'] = 'Пользователь %%_nick был удален.';
-  cache::$data['data--translations-locales-ru']->data['User %%_nick was not deleted!'] = 'Пользователь %%_nick не был удален.';
   cache::$data['data--translations-locales-ru']->data['User %%_nick was not updated.'] = 'Пользователь %%_nick не был обновлен.';
   cache::$data['data--translations-locales-ru']->data['User %%_nick was updated.'] = 'Пользователь %%_nick был обновлен.';
   cache::$data['data--translations-locales-ru']->data['User %%_nick_context{2}'] = 'Пользователь %%_nick_context{2}';
