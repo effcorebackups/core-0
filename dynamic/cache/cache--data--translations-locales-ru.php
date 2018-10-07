@@ -9,6 +9,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['© 2017—2019 Maxim Rysevets. All rights reserved.'] = '© 2017—2019 Рысевец Максим Владимирович. Все права защищены.';
   cache::$data['data--translations-locales-ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
   cache::$data['data--translations-locales-ru']->data['Access denided'] = 'Доступ запрещен';
+  cache::$data['data--translations-locales-ru']->data['Access permissions not applicable if no one role is not specified!'] = 'Разрешения доступа не применяются, если ни одна роль не указана!';
   cache::$data['data--translations-locales-ru']->data['Access settings'] = 'Настройки доступа';
   cache::$data['data--translations-locales-ru']->data['action'] = 'действие';
   cache::$data['data--translations-locales-ru']->data['Action'] = 'Действие';

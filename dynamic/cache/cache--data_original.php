@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-07 08:41:23';
+  cache::$info['data_original']['build'] = '2018-10-07 11:26:56';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1087,9 +1087,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['front']->display->check = 'url';
   cache::$data['data_original']['pages']['core']['front']->display->where = 'path';
   cache::$data['data_original']['pages']['core']['front']->display->match = '%^/$%';
-  cache::$data['data_original']['pages']['core']['front']->access = new \stdClass();
-  cache::$data['data_original']['pages']['core']['front']->access->roles['anonymous'] = 'anonymous';
-  cache::$data['data_original']['pages']['core']['front']->access->roles['registered'] = 'registered';
   cache::$data['data_original']['pages']['core']['front']->children['menu_main'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['front']->children['menu_main']->region = 'main_menu';
   cache::$data['data_original']['pages']['core']['front']->children['menu_main']->type = 'link';
@@ -1340,6 +1337,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['access'] = new \effcore\form();
   cache::$data['data_original']['forms']['user']['access']->children['settings'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['user']['access']->children['settings']->title = 'Access settings';
+  cache::$data['data_original']['forms']['user']['access']->children['settings']->description = 'Access permissions not applicable if no one role is not specified!';
   cache::$data['data_original']['forms']['user']['access']->children['settings']->attributes['data-type'] = 'roles';
   cache::$data['data_original']['forms']['user']['access']->children['button_save'] = new \effcore\button();
   cache::$data['data_original']['forms']['user']['access']->children['button_save']->attributes['type'] = 'submit';
@@ -3272,6 +3270,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['© 2017—2019 Maxim Rysevets. All rights reserved.'] = '© 2017—2019 Рысевец Максим Владимирович. Все права защищены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
   cache::$data['data_original']['translations']['locales']['ru']->data['Access denided'] = 'Доступ запрещен';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Access permissions not applicable if no one role is not specified!'] = 'Разрешения доступа не применяются, если ни одна роль не указана!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Access settings'] = 'Настройки доступа';
   cache::$data['data_original']['translations']['locales']['ru']->data['action'] = 'действие';
   cache::$data['data_original']['translations']['locales']['ru']->data['Action'] = 'Действие';
