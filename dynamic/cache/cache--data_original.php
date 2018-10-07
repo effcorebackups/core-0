@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-07 11:26:56';
+  cache::$info['data_original']['build'] = '2018-10-07 14:17:39';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -483,10 +483,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['title']->region = 'title';
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['title']->type = 'code';
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['tabs'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['tabs']->region = 'tabs';
-  cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['tabs']->type = 'link';
-  cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['tabs']->source = 'tabs/storage/manage_instances';
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['block_instance_update_by_entity_name_and_instance_id'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['block_instance_update_by_entity_name_and_instance_id']->type = 'code';
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['block_instance_update_by_entity_name_and_instance_id']->source = '\\effcore\\manage_instances::instance_update_by_entity_name_and_instance_id';
@@ -643,10 +639,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['title']->region = 'title';
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['title']->type = 'code';
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['tabs'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['tabs']->region = 'tabs';
-  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['tabs']->type = 'link';
-  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['tabs']->source = 'tabs/storage/manage_instances';
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id']->type = 'code';
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id']->source = '\\effcore\\manage_instances::instance_delete_multiple_by_instances_id';
@@ -667,6 +659,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>delete)/(?<entity_name>[a-z0-9_]+)/(?<instance_id>[a-z0-9_+]+)$%';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->access->roles['admins'] = 'admins';
+  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['check_access_instance_delete'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['check_access_instance_delete']->region = 'head';
+  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['check_access_instance_delete']->type = 'code';
+  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['check_access_instance_delete']->source = '\\effcore\\modules\\storage\\events_access::on_check_access_instance_delete';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['menu_main'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['menu_main']->region = 'main_menu';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['menu_main']->type = 'link';
@@ -683,10 +679,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['title']->region = 'title';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['title']->type = 'code';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['tabs'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['tabs']->region = 'tabs';
-  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['tabs']->type = 'link';
-  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['tabs']->source = 'tabs/storage/manage_instances';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete']->type = 'link';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete']->source = 'forms/storage/instance_delete';
@@ -1349,6 +1341,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['access']->attributes['method'] = 'post';
   cache::$data['data_original']['forms']['user']['access']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['storage']['instance_delete'] = new \effcore\form();
+  cache::$data['data_original']['forms']['storage']['instance_delete']->children['info'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_delete'] = new \effcore\button();
   cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_delete']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['storage']['instance_delete']->children['button_delete']->attributes['name'] = 'button';
@@ -2379,20 +2372,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['storage']['instance_insert']->title = 'Insert';
   cache::$data['data_original']['tabs_items']['storage']['instance_insert']->action_name = 'insert';
   cache::$data['data_original']['tabs_items']['storage']['instance_insert']->attributes['class']['instance-insert'] = 'instance-insert';
-  cache::$data['data_original']['tabs_items']['storage']['instance_update'] = new \effcore\tabs_item();
-  cache::$data['data_original']['tabs_items']['storage']['instance_update']->id = 'instance_update';
-  cache::$data['data_original']['tabs_items']['storage']['instance_update']->id_parent = 'T:manage_instances';
-  cache::$data['data_original']['tabs_items']['storage']['instance_update']->title = 'Update';
-  cache::$data['data_original']['tabs_items']['storage']['instance_update']->action_name = 'update';
-  cache::$data['data_original']['tabs_items']['storage']['instance_update']->hidden = true;
-  cache::$data['data_original']['tabs_items']['storage']['instance_update']->attributes['class']['instance-update'] = 'instance-update';
-  cache::$data['data_original']['tabs_items']['storage']['instance_delete'] = new \effcore\tabs_item();
-  cache::$data['data_original']['tabs_items']['storage']['instance_delete']->id = 'instance_delete';
-  cache::$data['data_original']['tabs_items']['storage']['instance_delete']->id_parent = 'T:manage_instances';
-  cache::$data['data_original']['tabs_items']['storage']['instance_delete']->title = 'Delete';
-  cache::$data['data_original']['tabs_items']['storage']['instance_delete']->action_name = 'delete';
-  cache::$data['data_original']['tabs_items']['storage']['instance_delete']->hidden = true;
-  cache::$data['data_original']['tabs_items']['storage']['instance_delete']->attributes['class']['instance-delete'] = 'instance-delete';
   cache::$data['data_original']['tabs_items']['menu']['tree_select'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['menu']['tree_select']->id = 'tree_select';
   cache::$data['data_original']['tabs_items']['menu']['tree_select']->id_parent = 'T:manage_trees';

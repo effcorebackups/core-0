@@ -27,10 +27,6 @@ namespace effcore { # cache for data--pages-storage-instance_delete_multiple_by_
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['title']->region = 'title';
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['title']->type = 'code';
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['tabs'] = new \effcore\page_part();
-  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['tabs']->region = 'tabs';
-  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['tabs']->type = 'link';
-  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['tabs']->source = 'tabs/storage/manage_instances';
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id'] = new \effcore\page_part();
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id']->type = 'code';
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['block_instance_delete_multiple_by_instances_id']->source = '\\effcore\\manage_instances::instance_delete_multiple_by_instances_id';

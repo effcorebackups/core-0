@@ -27,10 +27,6 @@ namespace effcore { # cache for data--pages-storage-instance_update_by_entity_na
   cache::$data['data--pages-storage-instance_update_by_entity_name_and_instance_id']->children['title']->region = 'title';
   cache::$data['data--pages-storage-instance_update_by_entity_name_and_instance_id']->children['title']->type = 'code';
   cache::$data['data--pages-storage-instance_update_by_entity_name_and_instance_id']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data--pages-storage-instance_update_by_entity_name_and_instance_id']->children['tabs'] = new \effcore\page_part();
-  cache::$data['data--pages-storage-instance_update_by_entity_name_and_instance_id']->children['tabs']->region = 'tabs';
-  cache::$data['data--pages-storage-instance_update_by_entity_name_and_instance_id']->children['tabs']->type = 'link';
-  cache::$data['data--pages-storage-instance_update_by_entity_name_and_instance_id']->children['tabs']->source = 'tabs/storage/manage_instances';
   cache::$data['data--pages-storage-instance_update_by_entity_name_and_instance_id']->children['block_instance_update_by_entity_name_and_instance_id'] = new \effcore\page_part();
   cache::$data['data--pages-storage-instance_update_by_entity_name_and_instance_id']->children['block_instance_update_by_entity_name_and_instance_id']->type = 'code';
   cache::$data['data--pages-storage-instance_update_by_entity_name_and_instance_id']->children['block_instance_update_by_entity_name_and_instance_id']->source = '\\effcore\\manage_instances::instance_update_by_entity_name_and_instance_id';

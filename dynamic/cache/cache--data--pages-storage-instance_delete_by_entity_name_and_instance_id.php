@@ -11,6 +11,10 @@ namespace effcore { # cache for data--pages-storage-instance_delete_by_entity_na
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>delete)/(?<entity_name>[a-z0-9_]+)/(?<instance_id>[a-z0-9_+]+)$%';
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->access = new \stdClass();
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->access->roles['admins'] = 'admins';
+  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['check_access_instance_delete'] = new \effcore\page_part();
+  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['check_access_instance_delete']->region = 'head';
+  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['check_access_instance_delete']->type = 'code';
+  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['check_access_instance_delete']->source = '\\effcore\\modules\\storage\\events_access::on_check_access_instance_delete';
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['menu_main'] = new \effcore\page_part();
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['menu_main']->region = 'main_menu';
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['menu_main']->type = 'link';
@@ -27,10 +31,6 @@ namespace effcore { # cache for data--pages-storage-instance_delete_by_entity_na
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['title']->region = 'title';
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['title']->type = 'code';
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['tabs'] = new \effcore\page_part();
-  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['tabs']->region = 'tabs';
-  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['tabs']->type = 'link';
-  cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['tabs']->source = 'tabs/storage/manage_instances';
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete'] = new \effcore\page_part();
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete']->type = 'link';
   cache::$data['data--pages-storage-instance_delete_by_entity_name_and_instance_id']->children['form_instance_delete']->source = 'forms/storage/instance_delete';

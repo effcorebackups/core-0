@@ -3,6 +3,7 @@
 namespace effcore { # cache for data--forms-storage-instance_delete
 
   cache::$data['data--forms-storage-instance_delete'] = new \effcore\form();
+  cache::$data['data--forms-storage-instance_delete']->children['info'] = new \effcore\fieldset();
   cache::$data['data--forms-storage-instance_delete']->children['button_delete'] = new \effcore\button();
   cache::$data['data--forms-storage-instance_delete']->children['button_delete']->attributes['type'] = 'submit';
   cache::$data['data--forms-storage-instance_delete']->children['button_delete']->attributes['name'] = 'button';
