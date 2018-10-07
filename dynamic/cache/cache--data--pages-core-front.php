@@ -8,6 +8,9 @@ namespace effcore { # cache for data--pages-core-front
   cache::$data['data--pages-core-front']->display->check = 'url';
   cache::$data['data--pages-core-front']->display->where = 'path';
   cache::$data['data--pages-core-front']->display->match = '%^/$%';
+  cache::$data['data--pages-core-front']->access = new \stdClass();
+  cache::$data['data--pages-core-front']->access->roles['anonymous'] = 'anonymous';
+  cache::$data['data--pages-core-front']->access->roles['registered'] = 'registered';
   cache::$data['data--pages-core-front']->children['menu_main'] = new \effcore\page_part();
   cache::$data['data--pages-core-front']->children['menu_main']->region = 'main_menu';
   cache::$data['data--pages-core-front']->children['menu_main']->type = 'link';

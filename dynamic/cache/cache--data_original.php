@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-06 20:28:46';
+  cache::$info['data_original']['build'] = '2018-10-07 08:27:53';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1087,6 +1087,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['front']->display->check = 'url';
   cache::$data['data_original']['pages']['core']['front']->display->where = 'path';
   cache::$data['data_original']['pages']['core']['front']->display->match = '%^/$%';
+  cache::$data['data_original']['pages']['core']['front']->access = new \stdClass();
+  cache::$data['data_original']['pages']['core']['front']->access->roles['anonymous'] = 'anonymous';
+  cache::$data['data_original']['pages']['core']['front']->access->roles['registered'] = 'registered';
   cache::$data['data_original']['pages']['core']['front']->children['menu_main'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['front']->children['menu_main']->region = 'main_menu';
   cache::$data['data_original']['pages']['core']['front']->children['menu_main']->type = 'link';
@@ -1120,6 +1123,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['cron']->display->check = 'url';
   cache::$data['data_original']['pages']['core']['cron']->display->where = 'path';
   cache::$data['data_original']['pages']['core']['cron']->display->match = '%^/cron/(?<key>[a-z0-9]{40})$%';
+  cache::$data['data_original']['pages']['core']['cron']->access = new \stdClass();
+  cache::$data['data_original']['pages']['core']['cron']->access->roles['anonymous'] = 'anonymous';
+  cache::$data['data_original']['pages']['core']['cron']->access->roles['registered'] = 'registered';
   cache::$data['data_original']['pages']['core']['cron']->children['block_cron'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['cron']->children['block_cron']->type = 'code';
   cache::$data['data_original']['pages']['core']['cron']->children['block_cron']->source = '\\effcore\\modules\\core\\events_page::on_cron_run';
