@@ -169,6 +169,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Logout'] = 'Выход';
   cache::$data['data--translations-locales-ru']->data['Main system module.'] = 'Основной модуль системы.';
   cache::$data['data--translations-locales-ru']->data['Management'] = 'Управление';
+  cache::$data['data--translations-locales-ru']->data['Managers'] = 'Управляющие';
   cache::$data['data--translations-locales-ru']->data['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
   cache::$data['data--translations-locales-ru']->data['Maximum allowed only %%_number file%%_plural{number,s}.'] = 'Допускается максимально только %%_number файл%%_plural{number,ov-a}.';
@@ -180,7 +181,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache::$data['data--translations-locales-ru']->data['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
   cache::$data['data--translations-locales-ru']->data['missing a temporary directory'] = 'отсутствует временный каталог';
-  cache::$data['data--translations-locales-ru']->data['Moderators'] = 'Модераторы';
   cache::$data['data--translations-locales-ru']->data['Module for internationalization.'] = 'Модуль для интернационализации.';
   cache::$data['data--translations-locales-ru']->data['Module for storages support.'] = 'Модуль поддержки хранилищ данных.';
   cache::$data['data--translations-locales-ru']->data['Module for working with navigation elements.'] = 'Модуль для работы с элементами навигации.';
@@ -207,6 +207,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Operating System'] = 'Операционная система';
   cache::$data['data--translations-locales-ru']->data['Ordered list'] = 'Упорядоченный список';
   cache::$data['data--translations-locales-ru']->data['OS Version'] = 'Версия ОС';
+  cache::$data['data--translations-locales-ru']->data['Owner'] = 'Владелец';
   cache::$data['data--translations-locales-ru']->data['Page not found'] = 'Страница не найдена';
   cache::$data['data--translations-locales-ru']->data['Page'] = 'Страница';
   cache::$data['data--translations-locales-ru']->data['Paragraph'] = 'Параграф';

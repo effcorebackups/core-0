@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-07 21:09:33';
+  cache::$info['data_original']['build'] = '2018-10-07 21:38:44';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1135,15 +1135,21 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['instances']['user']['role_registered']->values['id'] = 'registered';
   cache::$data['data_original']['instances']['user']['role_registered']->values['title'] = 'Registered';
   cache::$data['data_original']['instances']['user']['role_registered']->values['is_embed'] = 1;
+  cache::$data['data_original']['instances']['user']['role_owner'] = new \effcore\instance();
+  cache::$data['data_original']['instances']['user']['role_owner']->entity_name = 'role';
+  cache::$data['data_original']['instances']['user']['role_owner']->values['id'] = 'owner';
+  cache::$data['data_original']['instances']['user']['role_owner']->values['title'] = 'Owner';
+  cache::$data['data_original']['instances']['user']['role_owner']->values['is_embed'] = 1;
   cache::$data['data_original']['instances']['user']['role_admins'] = new \effcore\instance();
   cache::$data['data_original']['instances']['user']['role_admins']->entity_name = 'role';
   cache::$data['data_original']['instances']['user']['role_admins']->values['id'] = 'admins';
   cache::$data['data_original']['instances']['user']['role_admins']->values['title'] = 'Administrators';
   cache::$data['data_original']['instances']['user']['role_admins']->values['is_embed'] = 1;
-  cache::$data['data_original']['instances']['user']['role_moderators'] = new \effcore\instance();
-  cache::$data['data_original']['instances']['user']['role_moderators']->entity_name = 'role';
-  cache::$data['data_original']['instances']['user']['role_moderators']->values['id'] = 'moderators';
-  cache::$data['data_original']['instances']['user']['role_moderators']->values['title'] = 'Moderators';
+  cache::$data['data_original']['instances']['user']['role_managers'] = new \effcore\instance();
+  cache::$data['data_original']['instances']['user']['role_managers']->entity_name = 'role';
+  cache::$data['data_original']['instances']['user']['role_managers']->values['id'] = 'managers';
+  cache::$data['data_original']['instances']['user']['role_managers']->values['title'] = 'Managers';
+  cache::$data['data_original']['instances']['user']['role_managers']->values['is_embed'] = 1;
   cache::$data['data_original']['instances']['user']['permission_user_select'] = new \effcore\instance();
   cache::$data['data_original']['instances']['user']['permission_user_select']->entity_name = 'permission';
   cache::$data['data_original']['instances']['user']['permission_user_select']->values['id'] = 'user_select';
@@ -1180,6 +1186,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['instances']['user']['relation_role_ws_permission_admins_user_delete']->entity_name = 'relation_role_ws_permission';
   cache::$data['data_original']['instances']['user']['relation_role_ws_permission_admins_user_delete']->values['id_role'] = 'admins';
   cache::$data['data_original']['instances']['user']['relation_role_ws_permission_admins_user_delete']->values['id_permission'] = 'user_delete';
+  cache::$data['data_original']['instances']['demo']['role_demo'] = new \effcore\instance();
+  cache::$data['data_original']['instances']['demo']['role_demo']->entity_name = 'role';
+  cache::$data['data_original']['instances']['demo']['role_demo']->values['id'] = 'demo';
+  cache::$data['data_original']['instances']['demo']['role_demo']->values['title'] = 'Demo';
   cache::$data['data_original']['instances']['demo']['demo_types_example_1'] = new \effcore\instance();
   cache::$data['data_original']['instances']['demo']['demo_types_example_1']->entity_name = 'demo_types';
   cache::$data['data_original']['instances']['demo']['demo_types_example_1']->values['id'] = 1;
@@ -3409,6 +3419,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Logout'] = 'Выход';
   cache::$data['data_original']['translations']['locales']['ru']->data['Main system module.'] = 'Основной модуль системы.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Management'] = 'Управление';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Managers'] = 'Управляющие';
   cache::$data['data_original']['translations']['locales']['ru']->data['Maximal field value: %%_value.'] = 'Максимальное значение поля: %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Maximal file size: %%_value.'] = 'Максимальный размер файла: %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Maximum allowed only %%_number file%%_plural{number,s}.'] = 'Допускается максимально только %%_number файл%%_plural{number,ov-a}.';
@@ -3420,7 +3431,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache::$data['data_original']['translations']['locales']['ru']->data['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['missing a temporary directory'] = 'отсутствует временный каталог';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Moderators'] = 'Модераторы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Module for internationalization.'] = 'Модуль для интернационализации.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Module for storages support.'] = 'Модуль поддержки хранилищ данных.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Module for working with navigation elements.'] = 'Модуль для работы с элементами навигации.';
@@ -3447,6 +3457,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Operating System'] = 'Операционная система';
   cache::$data['data_original']['translations']['locales']['ru']->data['Ordered list'] = 'Упорядоченный список';
   cache::$data['data_original']['translations']['locales']['ru']->data['OS Version'] = 'Версия ОС';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Owner'] = 'Владелец';
   cache::$data['data_original']['translations']['locales']['ru']->data['Page not found'] = 'Страница не найдена';
   cache::$data['data_original']['translations']['locales']['ru']->data['Page'] = 'Страница';
   cache::$data['data_original']['translations']['locales']['ru']->data['Paragraph'] = 'Параграф';
