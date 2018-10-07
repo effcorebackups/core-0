@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-07 14:17:39';
+  cache::$info['data_original']['build'] = '2018-10-07 19:03:16';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1329,7 +1329,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['access'] = new \effcore\form();
   cache::$data['data_original']['forms']['user']['access']->children['settings'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['user']['access']->children['settings']->title = 'Access settings';
-  cache::$data['data_original']['forms']['user']['access']->children['settings']->description = 'Access permissions not applicable if no one role is not specified!';
+  cache::$data['data_original']['forms']['user']['access']->children['settings']->description = 'Access settings not applicable if no one role is not actived!';
   cache::$data['data_original']['forms']['user']['access']->children['settings']->attributes['data-type'] = 'roles';
   cache::$data['data_original']['forms']['user']['access']->children['button_save'] = new \effcore\button();
   cache::$data['data_original']['forms']['user']['access']->children['button_save']->attributes['type'] = 'submit';
@@ -3249,7 +3249,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['© 2017—2019 Maxim Rysevets. All rights reserved.'] = '© 2017—2019 Рысевец Максим Владимирович. Все права защищены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['a php extension stopped the file upload'] = 'расширение php остановило загрузку файла';
   cache::$data['data_original']['translations']['locales']['ru']->data['Access denided'] = 'Доступ запрещен';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Access permissions not applicable if no one role is not specified!'] = 'Разрешения доступа не применяются, если ни одна роль не указана!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Access settings not applicable if no one role is not actived!'] = 'Настройки доступа не применяются, если ни одна роль не активна!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Access settings'] = 'Настройки доступа';
   cache::$data['data_original']['translations']['locales']['ru']->data['action'] = 'действие';
   cache::$data['data_original']['translations']['locales']['ru']->data['Action'] = 'Действие';
