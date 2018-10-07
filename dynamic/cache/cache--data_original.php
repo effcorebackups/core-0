@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-07 19:41:11';
+  cache::$info['data_original']['build'] = '2018-10-07 19:45:36';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1388,8 +1388,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test'] = new \effcore\field_select();
   cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test']->element_attributes['name'] = 'select_test';
   cache::$data['data_original']['forms']['test']['test']->children['test']->children['select_test']->title = 'Select the test';
-  cache::$data['data_original']['forms']['test']['test']->children['test']->children['description'] = new \effcore\markup();
-  cache::$data['data_original']['forms']['test']['test']->children['test']->children['description']->tag_name = 'x-test-description';
   cache::$data['data_original']['forms']['test']['test']->children['button_run'] = new \effcore\button();
   cache::$data['data_original']['forms']['test']['test']->children['button_run']->attributes['type'] = 'submit';
   cache::$data['data_original']['forms']['test']['test']->children['button_run']->attributes['name'] = 'button';
