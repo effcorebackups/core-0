@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-user-user
   cache::$data['data--pages-user-user']->display = new \stdClass();
   cache::$data['data--pages-user-user']->display->check = 'url';
   cache::$data['data--pages-user-user']->display->where = 'path';
-  cache::$data['data--pages-user-user']->display->match = '%^/user/(?<nick>[a-zA-Z0-9-_]{4,32})$%';
+  cache::$data['data--pages-user-user']->display->match = '%^/user/(?<nick>[a-z0-9-_]{4,32})$%';
   cache::$data['data--pages-user-user']->access = new \stdClass();
   cache::$data['data--pages-user-user']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-user-user']->access->roles['registered'] = 'registered';

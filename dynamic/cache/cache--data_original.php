@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-08 22:19:26';
+  cache::$info['data_original']['build'] = '2018-10-08 22:37:39';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -270,7 +270,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_edit']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->display->check = 'url';
   cache::$data['data_original']['pages']['user']['user_edit']->display->where = 'path';
-  cache::$data['data_original']['pages']['user']['user_edit']->display->match = '%^/user/(?<nick>[a-zA-Z0-9-_]{4,32})/edit$%';
+  cache::$data['data_original']['pages']['user']['user_edit']->display->match = '%^/user/(?<nick>[a-z0-9-_]{4,32})/edit$%';
   cache::$data['data_original']['pages']['user']['user_edit']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['user']['user_edit']->access->roles['registered'] = 'registered';
@@ -311,7 +311,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->display->check = 'url';
   cache::$data['data_original']['pages']['user']['user']->display->where = 'path';
-  cache::$data['data_original']['pages']['user']['user']->display->match = '%^/user/(?<nick>[a-zA-Z0-9-_]{4,32})$%';
+  cache::$data['data_original']['pages']['user']['user']->display->match = '%^/user/(?<nick>[a-z0-9-_]{4,32})$%';
   cache::$data['data_original']['pages']['user']['user']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['user']['user']->access->roles['registered'] = 'registered';
@@ -3343,6 +3343,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain a maximum of %%_number character%%_plural{number,s}.'] = 'Поле может содержать максимум %%_number символ%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain a minimum %%_number file%%_plural{number,s}.'] = 'Поле может содержать минимум %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain a minimum of %%_number character%%_plural{number,s}.'] = 'Поле может содержать минимум %%_number символ%%_plural{number,ov-a}.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Field can contain only the next characters: "a-z", "0-9", "-", "_".'] = 'Поле может содержать только следующие символы: "a-z", "0-9", "-", "_".';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain %%_number character%%_plural{number,s}.'] = 'Поле должно содержать %%_number символ%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field must contain %%_number file%%_plural{number,s}.'] = 'Поле должно содержать %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field value does not match the regular expression %%_expression.'] = 'Значение поля не соответствует регулярному выражению %%_expression.';
