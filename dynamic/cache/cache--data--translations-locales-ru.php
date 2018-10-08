@@ -69,6 +69,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Description'] = 'Описание';
   cache::$data['data--translations-locales-ru']->data['Diagrams'] = 'Диаграммы';
   cache::$data['data--translations-locales-ru']->data['disable'] = 'выключить';
+  cache::$data['data--translations-locales-ru']->data['Do you want to delete instance of entity "%%_entity_name" with id = "%%_instance_id"?'] = 'Вы хотите удалить экземпляр сущности "%%_entity_name" с id = "%%_instance_id"?';
   cache::$data['data--translations-locales-ru']->data['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data--translations-locales-ru']->data['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
   cache::$data['data--translations-locales-ru']->data['Driver is not selected!'] = 'Драйвер не выбран!';

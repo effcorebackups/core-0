@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-07 21:38:44';
+  cache::$info['data_original']['build'] = '2018-10-08 10:22:12';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1753,6 +1753,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['events']['storage']->on_query_after['pdo'] = new \effcore\event();
   cache::$data['data_original']['events']['storage']->on_query_after['pdo']->for = 'pdo';
   cache::$data['data_original']['events']['storage']->on_query_after['pdo']->handler = '\\effcore\\modules\\storage\\events_storage::on_query_after';
+  cache::$data['data_original']['events']['storage']->on_form_init['instance_delete'] = new \effcore\event();
+  cache::$data['data_original']['events']['storage']->on_form_init['instance_delete']->for = 'instance_delete';
+  cache::$data['data_original']['events']['storage']->on_form_init['instance_delete']->handler = '\\effcore\\modules\\storage\\events_form_instance_delete::on_init';
   cache::$data['data_original']['events']['storage']->on_form_submit['instance_delete'] = new \effcore\event();
   cache::$data['data_original']['events']['storage']->on_form_submit['instance_delete']->for = 'instance_delete';
   cache::$data['data_original']['events']['storage']->on_form_submit['instance_delete']->handler = '\\effcore\\modules\\storage\\events_form_instance_delete::on_submit';
@@ -3319,6 +3322,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Description'] = 'Описание';
   cache::$data['data_original']['translations']['locales']['ru']->data['Diagrams'] = 'Диаграммы';
   cache::$data['data_original']['translations']['locales']['ru']->data['disable'] = 'выключить';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Do you want to delete instance of entity "%%_entity_name" with id = "%%_instance_id"?'] = 'Вы хотите удалить экземпляр сущности "%%_entity_name" с id = "%%_instance_id"?';
   cache::$data['data_original']['translations']['locales']['ru']->data['driver error code: %%_code'] = 'код ошибки драйвера: %%_code';
   cache::$data['data_original']['translations']['locales']['ru']->data['driver error text: %%_text'] = 'текст ошибки драйвера: %%_text';
   cache::$data['data_original']['translations']['locales']['ru']->data['Driver is not selected!'] = 'Драйвер не выбран!';

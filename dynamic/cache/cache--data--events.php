@@ -56,6 +56,9 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['storage']->on_query_after['pdo'] = new \effcore\event();
   cache::$data['data--events']['storage']->on_query_after['pdo']->for = 'pdo';
   cache::$data['data--events']['storage']->on_query_after['pdo']->handler = '\\effcore\\modules\\storage\\events_storage::on_query_after';
+  cache::$data['data--events']['storage']->on_form_init['instance_delete'] = new \effcore\event();
+  cache::$data['data--events']['storage']->on_form_init['instance_delete']->for = 'instance_delete';
+  cache::$data['data--events']['storage']->on_form_init['instance_delete']->handler = '\\effcore\\modules\\storage\\events_form_instance_delete::on_init';
   cache::$data['data--events']['storage']->on_form_submit['instance_delete'] = new \effcore\event();
   cache::$data['data--events']['storage']->on_form_submit['instance_delete']->for = 'instance_delete';
   cache::$data['data--events']['storage']->on_form_submit['instance_delete']->handler = '\\effcore\\modules\\storage\\events_form_instance_delete::on_submit';
