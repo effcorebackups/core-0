@@ -18,7 +18,7 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->allowed_types['jpg'] = 'jpg';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->allowed_types['png'] = 'png';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->upload_dir = 'avatar/';
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->fixed_name = 'avatar-%%_id_user';
+  cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->fixed_name = 'avatar-%%_nick';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->element_attributes['name'] = 'avatar';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new'] = new \effcore\field_password();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['password_new']->title = 'New password';

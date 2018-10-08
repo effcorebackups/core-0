@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-08 19:11:44';
+  cache::$info['data_original']['build'] = '2018-10-08 19:35:43';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -204,10 +204,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tree_items']['core']['info']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['tree_items']['core']['info']->attributes['class']['info'] = 'info';
   cache::$data['data_original']['tree_items']['core']['info']->weight = -100;
-  cache::$data['data_original']['tokens']['user']['id_user'] = new \stdClass();
-  cache::$data['data_original']['tokens']['user']['id_user']->match = '%%_id_user';
-  cache::$data['data_original']['tokens']['user']['id_user']->type = 'code';
-  cache::$data['data_original']['tokens']['user']['id_user']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
   cache::$data['data_original']['tokens']['user']['email'] = new \stdClass();
   cache::$data['data_original']['tokens']['user']['email']->match = '%%_email';
   cache::$data['data_original']['tokens']['user']['email']->type = 'code';
@@ -216,10 +212,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tokens']['user']['nick']->match = '%%_nick';
   cache::$data['data_original']['tokens']['user']['nick']->type = 'code';
   cache::$data['data_original']['tokens']['user']['nick']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
-  cache::$data['data_original']['tokens']['user']['id_user_context'] = new \stdClass();
-  cache::$data['data_original']['tokens']['user']['id_user_context']->match = '%%_id_user_context';
-  cache::$data['data_original']['tokens']['user']['id_user_context']->type = 'code';
-  cache::$data['data_original']['tokens']['user']['id_user_context']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
   cache::$data['data_original']['tokens']['user']['email_context'] = new \stdClass();
   cache::$data['data_original']['tokens']['user']['email_context']->match = '%%_email_context';
   cache::$data['data_original']['tokens']['user']['email_context']->type = 'code';
@@ -1252,7 +1244,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->allowed_types['jpg'] = 'jpg';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->allowed_types['png'] = 'png';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->upload_dir = 'avatar/';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->fixed_name = 'avatar-%%_id_user';
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->fixed_name = 'avatar-%%_nick';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->element_attributes['name'] = 'avatar';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['password_new']->title = 'New password';

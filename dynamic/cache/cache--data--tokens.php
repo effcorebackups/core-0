@@ -2,10 +2,6 @@
 
 namespace effcore { # cache for data--tokens
 
-  cache::$data['data--tokens']['user']['id_user'] = new \stdClass();
-  cache::$data['data--tokens']['user']['id_user']->match = '%%_id_user';
-  cache::$data['data--tokens']['user']['id_user']->type = 'code';
-  cache::$data['data--tokens']['user']['id_user']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
   cache::$data['data--tokens']['user']['email'] = new \stdClass();
   cache::$data['data--tokens']['user']['email']->match = '%%_email';
   cache::$data['data--tokens']['user']['email']->type = 'code';
@@ -14,10 +10,6 @@ namespace effcore { # cache for data--tokens
   cache::$data['data--tokens']['user']['nick']->match = '%%_nick';
   cache::$data['data--tokens']['user']['nick']->type = 'code';
   cache::$data['data--tokens']['user']['nick']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
-  cache::$data['data--tokens']['user']['id_user_context'] = new \stdClass();
-  cache::$data['data--tokens']['user']['id_user_context']->match = '%%_id_user_context';
-  cache::$data['data--tokens']['user']['id_user_context']->type = 'code';
-  cache::$data['data--tokens']['user']['id_user_context']->handler = '\\effcore\\modules\\user\\events_token::on_replace';
   cache::$data['data--tokens']['user']['email_context'] = new \stdClass();
   cache::$data['data--tokens']['user']['email_context']->match = '%%_email_context';
   cache::$data['data--tokens']['user']['email_context']->type = 'code';
