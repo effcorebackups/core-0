@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-08 19:35:43';
+  cache::$info['data_original']['build'] = '2018-10-08 21:21:09';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1114,7 +1114,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['instances']['user']['user_admin']->entity_name = 'user';
   cache::$data['data_original']['instances']['user']['user_admin']->values['nick'] = 'admin';
   cache::$data['data_original']['instances']['user']['user_admin']->values['email'] = 'admin@example.com';
-  cache::$data['data_original']['instances']['user']['user_admin']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
   cache::$data['data_original']['instances']['user']['user_admin']->values['is_embed'] = 1;
   cache::$data['data_original']['instances']['user']['role_anonymous'] = new \effcore\instance();
   cache::$data['data_original']['instances']['user']['role_anonymous']->entity_name = 'role';

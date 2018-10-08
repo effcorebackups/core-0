@@ -6,7 +6,6 @@ namespace effcore { # cache for data--instances
   cache::$data['data--instances']['user']['user_admin']->entity_name = 'user';
   cache::$data['data--instances']['user']['user_admin']->values['nick'] = 'admin';
   cache::$data['data--instances']['user']['user_admin']->values['email'] = 'admin@example.com';
-  cache::$data['data--instances']['user']['user_admin']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
   cache::$data['data--instances']['user']['user_admin']->values['is_embed'] = 1;
   cache::$data['data--instances']['user']['role_anonymous'] = new \effcore\instance();
   cache::$data['data--instances']['user']['role_anonymous']->entity_name = 'role';
