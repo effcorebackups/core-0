@@ -4,7 +4,6 @@ namespace effcore { # cache for data--instances
 
   cache::$data['data--instances']['user']['user_admin'] = new \effcore\instance();
   cache::$data['data--instances']['user']['user_admin']->entity_name = 'user';
-  cache::$data['data--instances']['user']['user_admin']->values['id'] = 1;
   cache::$data['data--instances']['user']['user_admin']->values['nick'] = 'admin';
   cache::$data['data--instances']['user']['user_admin']->values['email'] = 'admin@example.com';
   cache::$data['data--instances']['user']['user_admin']->values['password_hash'] = '8cb2237d0679ca88db6464eac60da96345513964';
@@ -53,7 +52,7 @@ namespace effcore { # cache for data--instances
   cache::$data['data--instances']['user']['relation_role_ws_user_admins_1'] = new \effcore\instance();
   cache::$data['data--instances']['user']['relation_role_ws_user_admins_1']->entity_name = 'relation_role_ws_user';
   cache::$data['data--instances']['user']['relation_role_ws_user_admins_1']->values['id_role'] = 'admins';
-  cache::$data['data--instances']['user']['relation_role_ws_user_admins_1']->values['id_user'] = 1;
+  cache::$data['data--instances']['user']['relation_role_ws_user_admins_1']->values['nick'] = 'admin';
   cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_select'] = new \effcore\instance();
   cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_select']->entity_name = 'relation_role_ws_permission';
   cache::$data['data--instances']['user']['relation_role_ws_permission_admins_user_select']->values['id_role'] = 'admins';

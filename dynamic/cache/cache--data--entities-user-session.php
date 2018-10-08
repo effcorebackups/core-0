@@ -13,10 +13,11 @@ namespace effcore { # cache for data--entities-user-session
   cache::$data['data--entities-user-session']->fields['id']->type = 'varchar';
   cache::$data['data--entities-user-session']->fields['id']->size = 255;
   cache::$data['data--entities-user-session']->fields['id']->not_null = true;
-  cache::$data['data--entities-user-session']->fields['id_user'] = new \stdClass();
-  cache::$data['data--entities-user-session']->fields['id_user']->title = 'User ID';
-  cache::$data['data--entities-user-session']->fields['id_user']->type = 'integer';
-  cache::$data['data--entities-user-session']->fields['id_user']->not_null = true;
+  cache::$data['data--entities-user-session']->fields['nick'] = new \stdClass();
+  cache::$data['data--entities-user-session']->fields['nick']->title = 'Nick';
+  cache::$data['data--entities-user-session']->fields['nick']->type = 'varchar';
+  cache::$data['data--entities-user-session']->fields['nick']->size = 32;
+  cache::$data['data--entities-user-session']->fields['nick']->not_null = true;
   cache::$data['data--entities-user-session']->fields['is_remember'] = new \stdClass();
   cache::$data['data--entities-user-session']->fields['is_remember']->title = 'Is remember';
   cache::$data['data--entities-user-session']->fields['is_remember']->type = 'integer';
@@ -38,10 +39,10 @@ namespace effcore { # cache for data--entities-user-session
   cache::$data['data--entities-user-session']->constraints['primary_id'] = new \stdClass();
   cache::$data['data--entities-user-session']->constraints['primary_id']->type = 'primary';
   cache::$data['data--entities-user-session']->constraints['primary_id']->fields['id'] = 'id';
-  cache::$data['data--entities-user-session']->constraints['foreign_id_user'] = new \stdClass();
-  cache::$data['data--entities-user-session']->constraints['foreign_id_user']->type = 'foreign';
-  cache::$data['data--entities-user-session']->constraints['foreign_id_user']->fields['id_user'] = 'id_user';
-  cache::$data['data--entities-user-session']->constraints['foreign_id_user']->references = 'users';
-  cache::$data['data--entities-user-session']->constraints['foreign_id_user']->references_fields['id'] = 'id';
+  cache::$data['data--entities-user-session']->constraints['foreign_nick'] = new \stdClass();
+  cache::$data['data--entities-user-session']->constraints['foreign_nick']->type = 'foreign';
+  cache::$data['data--entities-user-session']->constraints['foreign_nick']->fields['nick'] = 'nick';
+  cache::$data['data--entities-user-session']->constraints['foreign_nick']->references = 'users';
+  cache::$data['data--entities-user-session']->constraints['foreign_nick']->references_fields['nick'] = 'nick';
 
 }
