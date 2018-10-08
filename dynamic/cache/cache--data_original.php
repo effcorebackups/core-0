@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-08 21:21:09';
+  cache::$info['data_original']['build'] = '2018-10-08 21:23:06';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1231,11 +1231,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->title = 'Credentials';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['email'] = new \effcore\field_email();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick'] = new \effcore\field_text();
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->title = 'Nick';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->element_attributes['name'] = 'nick';
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->element_attributes['minlength'] = 4;
-  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick']->element_attributes['maxlength'] = 32;
+  cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['nick'] = new \effcore\field_nick();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar'] = new \effcore\field_file();
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
   cache::$data['data_original']['forms']['user']['user_edit']->children['credentials']->children['avatar']->allowed_types['gif'] = 'gif';

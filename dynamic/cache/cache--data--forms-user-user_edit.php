@@ -6,11 +6,7 @@ namespace effcore { # cache for data--forms-user-user_edit
   cache::$data['data--forms-user-user_edit']->children['credentials'] = new \effcore\fieldset();
   cache::$data['data--forms-user-user_edit']->children['credentials']->title = 'Credentials';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['email'] = new \effcore\field_email();
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick'] = new \effcore\field_text();
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->title = 'Nick';
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->element_attributes['name'] = 'nick';
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->element_attributes['minlength'] = 4;
-  cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick']->element_attributes['maxlength'] = 32;
+  cache::$data['data--forms-user-user_edit']->children['credentials']->children['nick'] = new \effcore\field_nick();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar'] = new \effcore\field_file();
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->title = 'Avatar';
   cache::$data['data--forms-user-user_edit']->children['credentials']->children['avatar']->allowed_types['gif'] = 'gif';
