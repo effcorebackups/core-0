@@ -23,7 +23,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['user_edit']->id = 'user_edit';
   cache::$data['data--tree_items']['user']['user_edit']->id_parent = 'M:user_logged_in';
   cache::$data['data--tree_items']['user']['user_edit']->title = 'edit';
-  cache::$data['data--tree_items']['user']['user_edit']->url = '/user/%%_id_user/edit';
+  cache::$data['data--tree_items']['user']['user_edit']->url = '/user/%%_nick/edit';
   cache::$data['data--tree_items']['user']['user_edit']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['user_edit']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['user']['user_edit']->access->roles['registered'] = 'registered';
