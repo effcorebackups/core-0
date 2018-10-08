@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-08 13:01:59';
+  cache::$info['data_original']['build'] = '2018-10-08 15:28:59';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -278,7 +278,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user_edit']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->display->check = 'url';
   cache::$data['data_original']['pages']['user']['user_edit']->display->where = 'path';
-  cache::$data['data_original']['pages']['user']['user_edit']->display->match = '%^/user/(?<id_user>[0-9]+)/edit$%';
+  cache::$data['data_original']['pages']['user']['user_edit']->display->match = '%^/user/(?<nick>[a-zA-Z0-9-_]{4,32})/edit$%';
   cache::$data['data_original']['pages']['user']['user_edit']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['user_edit']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['user']['user_edit']->access->roles['registered'] = 'registered';
@@ -319,7 +319,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->display->check = 'url';
   cache::$data['data_original']['pages']['user']['user']->display->where = 'path';
-  cache::$data['data_original']['pages']['user']['user']->display->match = '%^/user/(?<id_user>[0-9]+)$%';
+  cache::$data['data_original']['pages']['user']['user']->display->match = '%^/user/(?<nick>[a-zA-Z0-9-_]{4,32})$%';
   cache::$data['data_original']['pages']['user']['user']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['user']['user']->access->roles['registered'] = 'registered';
@@ -464,7 +464,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->display->check = 'url';
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>update)/(?<entity_name>[a-z0-9_]+)/(?<instance_id>[a-z0-9_+]+)$%';
+  cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>update)/(?<entity_name>[a-z0-9_]+)/(?<instance_id>[a-zA-Z0-9-_+]+)$%';
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['storage']['instance_update_by_entity_name_and_instance_id']->children['menu_main'] = new \effcore\page_part();
@@ -540,7 +540,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->display->check = 'url';
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>select)/(?<entity_name>[a-z0-9_]+)/(?<instance_id>[a-z0-9_+]+)$%';
+  cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>select)/(?<entity_name>[a-z0-9_]+)/(?<instance_id>[a-zA-Z0-9-_+]+)$%';
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['storage']['instance_select_by_entity_name_and_instance_id']->children['menu_main'] = new \effcore\page_part();
@@ -620,7 +620,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->display->check = 'url';
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->display->match = '%^(?<base>/manage/instances)/(?<action>delete)/(?<entity_name>[a-z0-9_]+)/(?<instances_id>[a-z0-9_+]+/[a-z0-9_+/]+)$%';
+  cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->display->match = '%^(?<base>/manage/instances)/(?<action>delete)/(?<entity_name>[a-z0-9_]+)/(?<instances_id>[a-zA-Z0-9-_+]+/[a-zA-Z0-9-_+/]+)$%';
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['storage']['instance_delete_multiple_by_instances_id']->children['menu_main'] = new \effcore\page_part();
@@ -656,7 +656,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->display = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->display->check = 'url';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->display->where = 'path';
-  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>delete)/(?<entity_name>[a-z0-9_]+)/(?<instance_id>[a-z0-9_+]+)$%';
+  cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->display->match = '%^(?<base>/manage/instances)/(?<action>delete)/(?<entity_name>[a-z0-9_]+)/(?<instance_id>[a-zA-Z0-9-_+]+)$%';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->access = new \stdClass();
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->access->roles['admins'] = 'admins';
   cache::$data['data_original']['pages']['storage']['instance_delete_by_entity_name_and_instance_id']->children['check_access_instance_delete'] = new \effcore\page_part();

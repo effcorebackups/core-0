@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-storage-instance_delete_multiple_by_
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->display = new \stdClass();
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->display->check = 'url';
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->display->where = 'path';
-  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->display->match = '%^(?<base>/manage/instances)/(?<action>delete)/(?<entity_name>[a-z0-9_]+)/(?<instances_id>[a-z0-9_+]+/[a-z0-9_+/]+)$%';
+  cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->display->match = '%^(?<base>/manage/instances)/(?<action>delete)/(?<entity_name>[a-z0-9_]+)/(?<instances_id>[a-zA-Z0-9-_+]+/[a-zA-Z0-9-_+/]+)$%';
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->access = new \stdClass();
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->access->roles['admins'] = 'admins';
   cache::$data['data--pages-storage-instance_delete_multiple_by_instances_id']->children['menu_main'] = new \effcore\page_part();
