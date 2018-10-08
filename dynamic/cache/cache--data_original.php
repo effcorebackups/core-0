@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-08 15:42:55';
+  cache::$info['data_original']['build'] = '2018-10-08 19:11:44';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -28,7 +28,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tree_items']['user']['login']->id = 'login';
   cache::$data['data_original']['tree_items']['user']['login']->id_parent = 'M:user_anonymous';
   cache::$data['data_original']['tree_items']['user']['login']->title = 'login';
-  cache::$data['data_original']['tree_items']['user']['login']->url = '/user/login';
+  cache::$data['data_original']['tree_items']['user']['login']->url = '/login';
   cache::$data['data_original']['tree_items']['user']['login']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['user']['login']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data_original']['tree_items']['user']['login']->attributes['class']['login'] = 'login';
@@ -37,7 +37,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tree_items']['user']['registration']->id = 'registration';
   cache::$data['data_original']['tree_items']['user']['registration']->id_parent = 'M:user_anonymous';
   cache::$data['data_original']['tree_items']['user']['registration']->title = 'registration';
-  cache::$data['data_original']['tree_items']['user']['registration']->url = '/user/registration';
+  cache::$data['data_original']['tree_items']['user']['registration']->url = '/registration';
   cache::$data['data_original']['tree_items']['user']['registration']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['user']['registration']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data_original']['tree_items']['user']['registration']->attributes['class']['registration'] = 'registration';
@@ -54,7 +54,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tree_items']['user']['logout']->id = 'logout';
   cache::$data['data_original']['tree_items']['user']['logout']->id_parent = 'M:user_logged_in';
   cache::$data['data_original']['tree_items']['user']['logout']->title = 'logout';
-  cache::$data['data_original']['tree_items']['user']['logout']->url = '/user/logout';
+  cache::$data['data_original']['tree_items']['user']['logout']->url = '/logout';
   cache::$data['data_original']['tree_items']['user']['logout']->access = new \stdClass();
   cache::$data['data_original']['tree_items']['user']['logout']->access->roles['registered'] = 'registered';
   cache::$data['data_original']['tree_items']['user']['logout']->attributes['class']['logout'] = 'logout';
@@ -356,7 +356,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['registration']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['registration']->display->check = 'url';
   cache::$data['data_original']['pages']['user']['registration']->display->where = 'path';
-  cache::$data['data_original']['pages']['user']['registration']->display->match = '%^/user/registration$%';
+  cache::$data['data_original']['pages']['user']['registration']->display->match = '%^/registration$%';
   cache::$data['data_original']['pages']['user']['registration']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['registration']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data_original']['pages']['user']['registration']->children['menu_main'] = new \effcore\page_part();
@@ -392,7 +392,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['logout']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['logout']->display->check = 'url';
   cache::$data['data_original']['pages']['user']['logout']->display->where = 'path';
-  cache::$data['data_original']['pages']['user']['logout']->display->match = '%^/user/logout$%';
+  cache::$data['data_original']['pages']['user']['logout']->display->match = '%^/logout$%';
   cache::$data['data_original']['pages']['user']['logout']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['logout']->access->roles['registered'] = 'registered';
   cache::$data['data_original']['pages']['user']['logout']->children['menu_main'] = new \effcore\page_part();
@@ -428,7 +428,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['login']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['login']->display->check = 'url';
   cache::$data['data_original']['pages']['user']['login']->display->where = 'path';
-  cache::$data['data_original']['pages']['user']['login']->display->match = '%^/user/login$%';
+  cache::$data['data_original']['pages']['user']['login']->display->match = '%^/login$%';
   cache::$data['data_original']['pages']['user']['login']->access = new \stdClass();
   cache::$data['data_original']['pages']['user']['login']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data_original']['pages']['user']['login']->children['menu_main'] = new \effcore\page_part();
@@ -1279,11 +1279,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['registration']->children['credentials'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->title = 'Credentials';
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['email'] = new \effcore\field_email();
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick'] = new \effcore\field_text();
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->title = 'Nick';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->element_attributes['name'] = 'nick';
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->element_attributes['minlength'] = 4;
-  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick']->element_attributes['maxlength'] = 32;
+  cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['nick'] = new \effcore\field_nick();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['password'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params'] = new \effcore\group_checkboxes();
   cache::$data['data_original']['forms']['user']['registration']->children['credentials']->children['session_params']->element_attributes['name'] = 'session_params[]';
@@ -2872,6 +2868,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['settings']['core']->keys['cron'] = 'abcde01234abcde01234abcde01234abcde01234';
   cache::$data['data_original']['settings']['core']->keys['form_validation'] = 'abcde01234abcde01234abcde01234abcde01234';
   cache::$data['data_original']['settings']['core']->keys['session'] = 'abcde01234abcde01234abcde01234abcde01234';
+  cache::$data['data_original']['settings']['core']->keys['salt'] = 'abcde01234abcde01234abcde01234abcde01234';
   cache::$data['data_original']['frontend']['page']['frontend_page_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->display->check = 'url';
@@ -3753,9 +3750,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tests']['test']['register_user']->title = 'Register user';
   cache::$data['data_original']['tests']['test']['register_user']->description = 'After each 3 insertions you will get the message "The test was failed!" because after every 3-rd chalenge the CAPTCHA will change.';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['init_captcha'] = new \effcore\step_request();
-  cache::$data['data_original']['tests']['test']['register_user']->scenario['init_captcha']->url = '/user/registration';
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['init_captcha']->url = '/registration';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit'] = new \effcore\step_request();
-  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->url = '/user/registration';
+  cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->url = '/registration';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['form_id'] = 'registration';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['validation_id'] = '%%_validation_id';
   cache::$data['data_original']['tests']['test']['register_user']->scenario['form_submit']->post['email'] = '%%_email_random';
@@ -3785,9 +3782,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tests']['test']['load']->scenario['repeat']->actions['response_check']->on_failure['return_result'] = new \effcore\step_return();
   cache::$data['data_original']['tests']['test']['load']->scenario['repeat']->actions['response_check']->on_failure['return_result']->value = 0;
   cache::$data['data_original']['tests']['test']['load']->scenario['repeat']->actions['request_page_login'] = new \effcore\step_request();
-  cache::$data['data_original']['tests']['test']['load']->scenario['repeat']->actions['request_page_login']->url = '/user/login';
+  cache::$data['data_original']['tests']['test']['load']->scenario['repeat']->actions['request_page_login']->url = '/login';
   cache::$data['data_original']['tests']['test']['load']->scenario['repeat']->actions['request_page_registration'] = new \effcore\step_request();
-  cache::$data['data_original']['tests']['test']['load']->scenario['repeat']->actions['request_page_registration']->url = '/user/registration';
+  cache::$data['data_original']['tests']['test']['load']->scenario['repeat']->actions['request_page_registration']->url = '/registration';
   cache::$data['data_original']['tests']['test']['load']->scenario['return_result'] = new \effcore\step_return();
   cache::$data['data_original']['tests']['test']['load']->scenario['return_result']->value = 1;
   cache::$data['data_original']['selections']['demo']['demo_types_list'] = new \effcore\selection();

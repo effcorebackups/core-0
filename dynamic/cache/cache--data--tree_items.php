@@ -6,7 +6,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['login']->id = 'login';
   cache::$data['data--tree_items']['user']['login']->id_parent = 'M:user_anonymous';
   cache::$data['data--tree_items']['user']['login']->title = 'login';
-  cache::$data['data--tree_items']['user']['login']->url = '/user/login';
+  cache::$data['data--tree_items']['user']['login']->url = '/login';
   cache::$data['data--tree_items']['user']['login']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['login']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data--tree_items']['user']['login']->attributes['class']['login'] = 'login';
@@ -15,7 +15,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['registration']->id = 'registration';
   cache::$data['data--tree_items']['user']['registration']->id_parent = 'M:user_anonymous';
   cache::$data['data--tree_items']['user']['registration']->title = 'registration';
-  cache::$data['data--tree_items']['user']['registration']->url = '/user/registration';
+  cache::$data['data--tree_items']['user']['registration']->url = '/registration';
   cache::$data['data--tree_items']['user']['registration']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['registration']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data--tree_items']['user']['registration']->attributes['class']['registration'] = 'registration';
@@ -32,7 +32,7 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['user']['logout']->id = 'logout';
   cache::$data['data--tree_items']['user']['logout']->id_parent = 'M:user_logged_in';
   cache::$data['data--tree_items']['user']['logout']->title = 'logout';
-  cache::$data['data--tree_items']['user']['logout']->url = '/user/logout';
+  cache::$data['data--tree_items']['user']['logout']->url = '/logout';
   cache::$data['data--tree_items']['user']['logout']->access = new \stdClass();
   cache::$data['data--tree_items']['user']['logout']->access->roles['registered'] = 'registered';
   cache::$data['data--tree_items']['user']['logout']->attributes['class']['logout'] = 'logout';

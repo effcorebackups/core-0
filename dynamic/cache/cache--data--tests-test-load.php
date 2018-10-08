@@ -15,9 +15,9 @@ namespace effcore { # cache for data--tests-test-load
   cache::$data['data--tests-test-load']->scenario['repeat']->actions['response_check']->on_failure['return_result'] = new \effcore\step_return();
   cache::$data['data--tests-test-load']->scenario['repeat']->actions['response_check']->on_failure['return_result']->value = 0;
   cache::$data['data--tests-test-load']->scenario['repeat']->actions['request_page_login'] = new \effcore\step_request();
-  cache::$data['data--tests-test-load']->scenario['repeat']->actions['request_page_login']->url = '/user/login';
+  cache::$data['data--tests-test-load']->scenario['repeat']->actions['request_page_login']->url = '/login';
   cache::$data['data--tests-test-load']->scenario['repeat']->actions['request_page_registration'] = new \effcore\step_request();
-  cache::$data['data--tests-test-load']->scenario['repeat']->actions['request_page_registration']->url = '/user/registration';
+  cache::$data['data--tests-test-load']->scenario['repeat']->actions['request_page_registration']->url = '/registration';
   cache::$data['data--tests-test-load']->scenario['return_result'] = new \effcore\step_return();
   cache::$data['data--tests-test-load']->scenario['return_result']->value = 1;
 

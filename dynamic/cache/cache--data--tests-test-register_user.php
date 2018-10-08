@@ -7,9 +7,9 @@ namespace effcore { # cache for data--tests-test-register_user
   cache::$data['data--tests-test-register_user']->title = 'Register user';
   cache::$data['data--tests-test-register_user']->description = 'After each 3 insertions you will get the message "The test was failed!" because after every 3-rd chalenge the CAPTCHA will change.';
   cache::$data['data--tests-test-register_user']->scenario['init_captcha'] = new \effcore\step_request();
-  cache::$data['data--tests-test-register_user']->scenario['init_captcha']->url = '/user/registration';
+  cache::$data['data--tests-test-register_user']->scenario['init_captcha']->url = '/registration';
   cache::$data['data--tests-test-register_user']->scenario['form_submit'] = new \effcore\step_request();
-  cache::$data['data--tests-test-register_user']->scenario['form_submit']->url = '/user/registration';
+  cache::$data['data--tests-test-register_user']->scenario['form_submit']->url = '/registration';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['form_id'] = 'registration';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['validation_id'] = '%%_validation_id';
   cache::$data['data--tests-test-register_user']->scenario['form_submit']->post['email'] = '%%_email_random';

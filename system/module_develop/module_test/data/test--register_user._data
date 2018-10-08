@@ -5,9 +5,9 @@ tests
     description: After each 3 insertions you will get the message "The test was failed!" because after every 3-rd chalenge the CAPTCHA will change.
     scenario
     - init_captcha|step_request
-        url: /user/registration
+        url: /registration
     - form_submit|step_request
-        url: /user/registration
+        url: /registration
         post
         - form_id: registration
         - validation_id: %%_validation_id

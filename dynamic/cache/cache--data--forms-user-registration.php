@@ -6,11 +6,7 @@ namespace effcore { # cache for data--forms-user-registration
   cache::$data['data--forms-user-registration']->children['credentials'] = new \effcore\fieldset();
   cache::$data['data--forms-user-registration']->children['credentials']->title = 'Credentials';
   cache::$data['data--forms-user-registration']->children['credentials']->children['email'] = new \effcore\field_email();
-  cache::$data['data--forms-user-registration']->children['credentials']->children['nick'] = new \effcore\field_text();
-  cache::$data['data--forms-user-registration']->children['credentials']->children['nick']->title = 'Nick';
-  cache::$data['data--forms-user-registration']->children['credentials']->children['nick']->element_attributes['name'] = 'nick';
-  cache::$data['data--forms-user-registration']->children['credentials']->children['nick']->element_attributes['minlength'] = 4;
-  cache::$data['data--forms-user-registration']->children['credentials']->children['nick']->element_attributes['maxlength'] = 32;
+  cache::$data['data--forms-user-registration']->children['credentials']->children['nick'] = new \effcore\field_nick();
   cache::$data['data--forms-user-registration']->children['credentials']->children['password'] = new \effcore\field_password();
   cache::$data['data--forms-user-registration']->children['credentials']->children['session_params'] = new \effcore\group_checkboxes();
   cache::$data['data--forms-user-registration']->children['credentials']->children['session_params']->element_attributes['name'] = 'session_params[]';

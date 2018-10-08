@@ -25,7 +25,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['user']['registration']->display = new \stdClass();
   cache::$data['data--pages']['user']['registration']->display->check = 'url';
   cache::$data['data--pages']['user']['registration']->display->where = 'path';
-  cache::$data['data--pages']['user']['registration']->display->match = '%^/user/registration$%';
+  cache::$data['data--pages']['user']['registration']->display->match = '%^/registration$%';
   cache::$data['data--pages']['user']['registration']->access = new \stdClass();
   cache::$data['data--pages']['user']['registration']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data--pages']['user']['logout'] = new \effcore\external_cache();
@@ -33,7 +33,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['user']['logout']->display = new \stdClass();
   cache::$data['data--pages']['user']['logout']->display->check = 'url';
   cache::$data['data--pages']['user']['logout']->display->where = 'path';
-  cache::$data['data--pages']['user']['logout']->display->match = '%^/user/logout$%';
+  cache::$data['data--pages']['user']['logout']->display->match = '%^/logout$%';
   cache::$data['data--pages']['user']['logout']->access = new \stdClass();
   cache::$data['data--pages']['user']['logout']->access->roles['registered'] = 'registered';
   cache::$data['data--pages']['user']['login'] = new \effcore\external_cache();
@@ -41,7 +41,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['user']['login']->display = new \stdClass();
   cache::$data['data--pages']['user']['login']->display->check = 'url';
   cache::$data['data--pages']['user']['login']->display->where = 'path';
-  cache::$data['data--pages']['user']['login']->display->match = '%^/user/login$%';
+  cache::$data['data--pages']['user']['login']->display->match = '%^/login$%';
   cache::$data['data--pages']['user']['login']->access = new \stdClass();
   cache::$data['data--pages']['user']['login']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data--pages']['storage']['instance_update_by_entity_name_and_instance_id'] = new \effcore\external_cache();

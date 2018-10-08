@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-user-login
   cache::$data['data--pages-user-login']->display = new \stdClass();
   cache::$data['data--pages-user-login']->display->check = 'url';
   cache::$data['data--pages-user-login']->display->where = 'path';
-  cache::$data['data--pages-user-login']->display->match = '%^/user/login$%';
+  cache::$data['data--pages-user-login']->display->match = '%^/login$%';
   cache::$data['data--pages-user-login']->access = new \stdClass();
   cache::$data['data--pages-user-login']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data--pages-user-login']->children['menu_main'] = new \effcore\page_part();
