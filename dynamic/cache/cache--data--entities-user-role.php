@@ -6,6 +6,7 @@ namespace effcore { # cache for data--entities-user-role
   cache::$data['data--entities-user-role']->name = 'role';
   cache::$data['data--entities-user-role']->storage_id = 'main';
   cache::$data['data--entities-user-role']->catalog_id = 'roles';
+  cache::$data['data--entities-user-role']->ws_weight = true;
   cache::$data['data--entities-user-role']->ws_created = true;
   cache::$data['data--entities-user-role']->ws_updated = true;
   cache::$data['data--entities-user-role']->title = 'Role';
@@ -25,6 +26,11 @@ namespace effcore { # cache for data--entities-user-role
   cache::$data['data--entities-user-role']->fields['is_embed']->type = 'integer';
   cache::$data['data--entities-user-role']->fields['is_embed']->not_null = true;
   cache::$data['data--entities-user-role']->fields['is_embed']->default = 0;
+  cache::$data['data--entities-user-role']->fields['weight'] = new \stdClass();
+  cache::$data['data--entities-user-role']->fields['weight']->title = 'Weight';
+  cache::$data['data--entities-user-role']->fields['weight']->type = 'integer';
+  cache::$data['data--entities-user-role']->fields['weight']->not_null = true;
+  cache::$data['data--entities-user-role']->fields['weight']->default = 0;
   cache::$data['data--entities-user-role']->fields['created'] = new \stdClass();
   cache::$data['data--entities-user-role']->fields['created']->title = 'Created';
   cache::$data['data--entities-user-role']->fields['created']->type = 'datetime';
@@ -36,6 +42,9 @@ namespace effcore { # cache for data--entities-user-role
   cache::$data['data--entities-user-role']->constraints['primary_id'] = new \stdClass();
   cache::$data['data--entities-user-role']->constraints['primary_id']->type = 'primary';
   cache::$data['data--entities-user-role']->constraints['primary_id']->fields['id'] = 'id';
+  cache::$data['data--entities-user-role']->indexes['index_weight'] = new \stdClass();
+  cache::$data['data--entities-user-role']->indexes['index_weight']->type = 'index';
+  cache::$data['data--entities-user-role']->indexes['index_weight']->fields['weight'] = 'weight';
   cache::$data['data--entities-user-role']->indexes['index_created'] = new \stdClass();
   cache::$data['data--entities-user-role']->indexes['index_created']->type = 'index';
   cache::$data['data--entities-user-role']->indexes['index_created']->fields['created'] = 'created';

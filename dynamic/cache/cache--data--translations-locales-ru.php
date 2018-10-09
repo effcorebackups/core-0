@@ -349,6 +349,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['view'] = 'просмотреть';
   cache::$data['data--translations-locales-ru']->data['warning'] = 'предупреждение';
   cache::$data['data--translations-locales-ru']->data['Web server'] = 'Веб-сервер';
+  cache::$data['data--translations-locales-ru']->data['Weight'] = 'Вес';
   cache::$data['data--translations-locales-ru']->data['Wellcome to our site!'] = 'Добро пожаловать на наш сайт!';
   cache::$data['data--translations-locales-ru']->data['Write the characters from the picture.'] = 'Напишите символы с картинки.';
   cache::$data['data--translations-locales-ru']->data['Yes'] = 'Да';
