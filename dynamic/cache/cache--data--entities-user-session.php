@@ -6,6 +6,7 @@ namespace effcore { # cache for data--entities-user-session
   cache::$data['data--entities-user-session']->name = 'session';
   cache::$data['data--entities-user-session']->storage_id = 'main';
   cache::$data['data--entities-user-session']->catalog_id = 'sessions';
+  cache::$data['data--entities-user-session']->ws_created = true;
   cache::$data['data--entities-user-session']->title = 'Session';
   cache::$data['data--entities-user-session']->title_plural = 'Sessions';
   cache::$data['data--entities-user-session']->fields['id'] = new \stdClass();
@@ -36,6 +37,10 @@ namespace effcore { # cache for data--entities-user-session
   cache::$data['data--entities-user-session']->fields['data']->hidden = true;
   cache::$data['data--entities-user-session']->fields['data']->type = 'blob';
   cache::$data['data--entities-user-session']->fields['data']->null = true;
+  cache::$data['data--entities-user-session']->fields['created'] = new \stdClass();
+  cache::$data['data--entities-user-session']->fields['created']->title = 'Created';
+  cache::$data['data--entities-user-session']->fields['created']->type = 'datetime';
+  cache::$data['data--entities-user-session']->fields['created']->not_null = true;
   cache::$data['data--entities-user-session']->constraints['primary_id'] = new \stdClass();
   cache::$data['data--entities-user-session']->constraints['primary_id']->type = 'primary';
   cache::$data['data--entities-user-session']->constraints['primary_id']->fields['id'] = 'id';
@@ -44,5 +49,8 @@ namespace effcore { # cache for data--entities-user-session
   cache::$data['data--entities-user-session']->constraints['foreign_nick']->fields['nick'] = 'nick';
   cache::$data['data--entities-user-session']->constraints['foreign_nick']->references = 'users';
   cache::$data['data--entities-user-session']->constraints['foreign_nick']->references_fields['nick'] = 'nick';
+  cache::$data['data--entities-user-session']->indexes['index_created'] = new \stdClass();
+  cache::$data['data--entities-user-session']->indexes['index_created']->type = 'index';
+  cache::$data['data--entities-user-session']->indexes['index_created']->fields['created'] = 'created';
 
 }
