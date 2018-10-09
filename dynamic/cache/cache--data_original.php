@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-09 08:59:28';
+  cache::$info['data_original']['build'] = '2018-10-09 09:14:30';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3695,23 +3695,27 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['develop']['ru']->data['UML Diagram'] = 'UML Диаграмма';
   cache::$data['data_original']['translations']['develop']['ru']->data['UNDER CONSTRUCTION'] = 'В РАЗРАБОТКЕ';
   cache::$data['data_original']['translations']['develop']['ru']->data['Warning message #%%_number.'] = 'Предупреждающее сообщение №%%_number.';
+  cache::$data['data_original']['plurals']['locales']['en'] = new \stdClass();
+  cache::$data['data_original']['plurals']['locales']['en']->code = 'en';
+  cache::$data['data_original']['plurals']['locales']['en']->data['s'] = new \stdClass();
+  cache::$data['data_original']['plurals']['locales']['en']->data['s']->formula = '%^(?<t1>[02-9]|[0-9]{2,})$%S';
+  cache::$data['data_original']['plurals']['locales']['en']->data['s']->matches['t1'] = 's';
+  cache::$data['data_original']['plurals']['locales']['ru'] = new \stdClass();
+  cache::$data['data_original']['plurals']['locales']['ru']->code = 'ru';
+  cache::$data['data_original']['plurals']['locales']['ru']->data['ov-a'] = new \stdClass();
+  cache::$data['data_original']['plurals']['locales']['ru']->data['ov-a']->formula = '%^(?<t1>[05-9]|.*[1][0-9]|.*[^1][05-9])$|^(?<t2>[234]|.*[^1][234])$%S';
+  cache::$data['data_original']['plurals']['locales']['ru']->data['ov-a']->matches['t1'] = 'ов';
+  cache::$data['data_original']['plurals']['locales']['ru']->data['ov-a']->matches['t2'] = 'а';
   cache::$data['data_original']['languages']['locales']['en'] = new \effcore\language();
   cache::$data['data_original']['languages']['locales']['en']->code = 'en';
   cache::$data['data_original']['languages']['locales']['en']->title = new \stdClass();
   cache::$data['data_original']['languages']['locales']['en']->title->en = 'English';
   cache::$data['data_original']['languages']['locales']['en']->title->native = 'English';
-  cache::$data['data_original']['languages']['locales']['en']->plurals['s'] = new \stdClass();
-  cache::$data['data_original']['languages']['locales']['en']->plurals['s']->formula = '%^(?<t1>[02-9]|[0-9]{2,})$%S';
-  cache::$data['data_original']['languages']['locales']['en']->plurals['s']->matches['t1'] = 's';
   cache::$data['data_original']['languages']['locales']['ru'] = new \effcore\language();
   cache::$data['data_original']['languages']['locales']['ru']->code = 'ru';
   cache::$data['data_original']['languages']['locales']['ru']->title = new \stdClass();
   cache::$data['data_original']['languages']['locales']['ru']->title->en = 'Russian';
   cache::$data['data_original']['languages']['locales']['ru']->title->native = 'Русский';
-  cache::$data['data_original']['languages']['locales']['ru']->plurals['ov-a'] = new \stdClass();
-  cache::$data['data_original']['languages']['locales']['ru']->plurals['ov-a']->formula = '%^(?<t1>[05-9]|.*[1][0-9]|.*[^1][05-9])$|^(?<t2>[234]|.*[^1][234])$%S';
-  cache::$data['data_original']['languages']['locales']['ru']->plurals['ov-a']->matches['t1'] = 'ов';
-  cache::$data['data_original']['languages']['locales']['ru']->plurals['ov-a']->matches['t2'] = 'а';
   cache::$data['data_original']['countries']['locales']['usa'] = new \stdClass();
   cache::$data['data_original']['countries']['locales']['usa']->code = 'usa';
   cache::$data['data_original']['countries']['locales']['usa']->title = new \stdClass();
