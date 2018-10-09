@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-08 22:37:39';
+  cache::$info['data_original']['build'] = '2018-10-09 08:59:28';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3358,7 +3358,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['file of this type is protected by: %%_name'] = 'файл этого типа защищен с помощью: %%_name';
   cache::$data['data_original']['translations']['locales']['ru']->data['File'] = 'Файл';
   cache::$data['data_original']['translations']['locales']['ru']->data['file'] = 'файл';
-  cache::$data['data_original']['translations']['locales']['ru']->data['For login to the system was set the EMail "%%_email" and the password "%%_password".'] = 'Для входа в систему был задан Адрес электронной почты "%%_email" и пароль "%%_password".';
   cache::$data['data_original']['translations']['locales']['ru']->data['Form elements'] = 'Элементы формы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Front page'] = 'Главная страница';
   cache::$data['data_original']['translations']['locales']['ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
@@ -3589,6 +3588,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['You are trying to upload too much files!'] = 'Вы пытаетесь загрузить слишком много файлов!';
   cache::$data['data_original']['translations']['locales']['ru']->data['You have already uploaded %%_number file%%_plural{number,s}.'] = 'Вы уже загрузили %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['You must upload at least %%_number file%%_plural{number,s}.'] = 'Необходимо загрузить как минимум %%_number файл%%_plural{number,ov-a}.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Your EMail is: %%_email'] = 'Ваш Адрес электронной почты: %%_email';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Your Password is: %%_password'] = 'Ваш Пароль: %%_password';
   cache::$data['data_original']['translations']['develop']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['develop']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['develop']['ru']->data['Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;'] = ' Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа.&#10;';

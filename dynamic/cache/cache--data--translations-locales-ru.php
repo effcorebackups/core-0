@@ -127,7 +127,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['file of this type is protected by: %%_name'] = 'файл этого типа защищен с помощью: %%_name';
   cache::$data['data--translations-locales-ru']->data['File'] = 'Файл';
   cache::$data['data--translations-locales-ru']->data['file'] = 'файл';
-  cache::$data['data--translations-locales-ru']->data['For login to the system was set the EMail "%%_email" and the password "%%_password".'] = 'Для входа в систему был задан Адрес электронной почты "%%_email" и пароль "%%_password".';
   cache::$data['data--translations-locales-ru']->data['Form elements'] = 'Элементы формы';
   cache::$data['data--translations-locales-ru']->data['Front page'] = 'Главная страница';
   cache::$data['data--translations-locales-ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
@@ -358,5 +357,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['You are trying to upload too much files!'] = 'Вы пытаетесь загрузить слишком много файлов!';
   cache::$data['data--translations-locales-ru']->data['You have already uploaded %%_number file%%_plural{number,s}.'] = 'Вы уже загрузили %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data--translations-locales-ru']->data['You must upload at least %%_number file%%_plural{number,s}.'] = 'Необходимо загрузить как минимум %%_number файл%%_plural{number,ov-a}.';
+  cache::$data['data--translations-locales-ru']->data['Your EMail is: %%_email'] = 'Ваш Адрес электронной почты: %%_email';
+  cache::$data['data--translations-locales-ru']->data['Your Password is: %%_password'] = 'Ваш Пароль: %%_password';
 
 }
