@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-09 14:07:44';
+  cache::$info['data_original']['build'] = '2018-10-10 15:06:01';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2084,11 +2084,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['page']['captcha']->ws_created = true;
   cache::$data['data_original']['entities']['page']['captcha']->title = 'CAPTCHA';
   cache::$data['data_original']['entities']['page']['captcha']->title_plural = 'CAPTCHAs';
-  cache::$data['data_original']['entities']['page']['captcha']->fields['ip_address'] = new \stdClass();
-  cache::$data['data_original']['entities']['page']['captcha']->fields['ip_address']->title = 'IP address';
-  cache::$data['data_original']['entities']['page']['captcha']->fields['ip_address']->type = 'varchar';
-  cache::$data['data_original']['entities']['page']['captcha']->fields['ip_address']->size = 15;
-  cache::$data['data_original']['entities']['page']['captcha']->fields['ip_address']->not_null = true;
+  cache::$data['data_original']['entities']['page']['captcha']->fields['ip_hex'] = new \stdClass();
+  cache::$data['data_original']['entities']['page']['captcha']->fields['ip_hex']->title = 'IP address';
+  cache::$data['data_original']['entities']['page']['captcha']->fields['ip_hex']->type = 'varchar';
+  cache::$data['data_original']['entities']['page']['captcha']->fields['ip_hex']->size = 32;
+  cache::$data['data_original']['entities']['page']['captcha']->fields['ip_hex']->not_null = true;
   cache::$data['data_original']['entities']['page']['captcha']->fields['characters'] = new \stdClass();
   cache::$data['data_original']['entities']['page']['captcha']->fields['characters']->title = 'Characters';
   cache::$data['data_original']['entities']['page']['captcha']->fields['characters']->type = 'varchar';
@@ -2107,9 +2107,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['page']['captcha']->fields['created']->title = 'Created';
   cache::$data['data_original']['entities']['page']['captcha']->fields['created']->type = 'datetime';
   cache::$data['data_original']['entities']['page']['captcha']->fields['created']->not_null = true;
-  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_ip_address'] = new \stdClass();
-  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_ip_address']->type = 'primary';
-  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_ip_address']->fields['ip_address'] = 'ip_address';
+  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_ip_hex'] = new \stdClass();
+  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_ip_hex']->type = 'primary';
+  cache::$data['data_original']['entities']['page']['captcha']->constraints['primary_ip_hex']->fields['ip_hex'] = 'ip_hex';
   cache::$data['data_original']['entities']['page']['captcha']->indexes['index_created'] = new \stdClass();
   cache::$data['data_original']['entities']['page']['captcha']->indexes['index_created']->type = 'index';
   cache::$data['data_original']['entities']['page']['captcha']->indexes['index_created']->fields['created'] = 'created';
