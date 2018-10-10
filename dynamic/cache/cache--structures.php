@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-10-10 15:06:01';
+  cache::$info['structures']['build'] = '2018-10-10 15:16:00';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
