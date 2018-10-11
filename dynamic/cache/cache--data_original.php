@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-10 15:16:00';
+  cache::$info['data_original']['build'] = '2018-10-11 08:46:23';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1631,7 +1631,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['value'] = '127.0.0.1';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['minlength'] = 1;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['maxlength'] = 253;
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_:/.]+$%';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_:/.\\[\\]]+$%';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port'] = new \effcore\field_number();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->title = 'Port';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->element_attributes['name'] = 'port';

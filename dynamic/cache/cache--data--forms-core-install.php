@@ -25,7 +25,7 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['value'] = '127.0.0.1';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['minlength'] = 1;
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['maxlength'] = 253;
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_:/.]+$%';
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_:/.\\[\\]]+$%';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['port'] = new \effcore\field_number();
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['port']->title = 'Port';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['port']->element_attributes['name'] = 'port';
