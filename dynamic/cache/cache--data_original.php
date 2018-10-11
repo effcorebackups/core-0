@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-11 08:46:23';
+  cache::$info['data_original']['build'] = '2018-10-11 12:56:56';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1628,7 +1628,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name'] = new \effcore\field_text();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->title = 'Hostname';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['name'] = 'host_name';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['value'] = '127.0.0.1';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['value'] = '[::1]';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['minlength'] = 1;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['maxlength'] = 253;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['host_name']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_:/.\\[\\]]+$%';
@@ -2008,9 +2008,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['entities']['user']['session']->fields['is_fixed_ip']->type = 'integer';
   cache::$data['data_original']['entities']['user']['session']->fields['is_fixed_ip']->not_null = true;
   cache::$data['data_original']['entities']['user']['session']->fields['is_fixed_ip']->default = 0;
-  cache::$data['data_original']['entities']['user']['session']->fields['expire'] = new \stdClass();
-  cache::$data['data_original']['entities']['user']['session']->fields['expire']->title = 'Expire date';
-  cache::$data['data_original']['entities']['user']['session']->fields['expire']->type = 'datetime';
+  cache::$data['data_original']['entities']['user']['session']->fields['expired'] = new \stdClass();
+  cache::$data['data_original']['entities']['user']['session']->fields['expired']->title = 'Expired date';
+  cache::$data['data_original']['entities']['user']['session']->fields['expired']->type = 'datetime';
   cache::$data['data_original']['entities']['user']['session']->fields['data'] = new \stdClass();
   cache::$data['data_original']['entities']['user']['session']->fields['data']->title = 'Data';
   cache::$data['data_original']['entities']['user']['session']->fields['data']->hidden = true;
@@ -3335,7 +3335,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['events'] = 'события';
   cache::$data['data_original']['translations']['locales']['ru']->data['Events'] = 'События';
   cache::$data['data_original']['translations']['locales']['ru']->data['expand'] = 'развернуть';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Expire date'] = 'Дата истечения';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Expired date'] = 'Дата истечения';
   cache::$data['data_original']['translations']['locales']['ru']->data['failed to write file to disk'] = 'не удалось записать файл на диск';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" after trying to upload the file returned an error: %%_error!'] = 'Поле "%%_title" после попытки загрузить файл вернуло ошибку: %%_error!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';

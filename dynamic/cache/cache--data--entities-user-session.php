@@ -28,9 +28,9 @@ namespace effcore { # cache for data--entities-user-session
   cache::$data['data--entities-user-session']->fields['is_fixed_ip']->type = 'integer';
   cache::$data['data--entities-user-session']->fields['is_fixed_ip']->not_null = true;
   cache::$data['data--entities-user-session']->fields['is_fixed_ip']->default = 0;
-  cache::$data['data--entities-user-session']->fields['expire'] = new \stdClass();
-  cache::$data['data--entities-user-session']->fields['expire']->title = 'Expire date';
-  cache::$data['data--entities-user-session']->fields['expire']->type = 'datetime';
+  cache::$data['data--entities-user-session']->fields['expired'] = new \stdClass();
+  cache::$data['data--entities-user-session']->fields['expired']->title = 'Expired date';
+  cache::$data['data--entities-user-session']->fields['expired']->type = 'datetime';
   cache::$data['data--entities-user-session']->fields['data'] = new \stdClass();
   cache::$data['data--entities-user-session']->fields['data']->title = 'Data';
   cache::$data['data--entities-user-session']->fields['data']->hidden = true;

@@ -90,7 +90,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['events'] = 'события';
   cache::$data['data--translations-locales-ru']->data['Events'] = 'События';
   cache::$data['data--translations-locales-ru']->data['expand'] = 'развернуть';
-  cache::$data['data--translations-locales-ru']->data['Expire date'] = 'Дата истечения';
+  cache::$data['data--translations-locales-ru']->data['Expired date'] = 'Дата истечения';
   cache::$data['data--translations-locales-ru']->data['failed to write file to disk'] = 'не удалось записать файл на диск';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" after trying to upload the file returned an error: %%_error!'] = 'Поле "%%_title" после попытки загрузить файл вернуло ошибку: %%_error!';
   cache::$data['data--translations-locales-ru']->data['Field "%%_title" can not be blank!'] = 'Поле "%%_title" не может быть пустым!';

@@ -22,7 +22,7 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name'] = new \effcore\field_text();
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->title = 'Hostname';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['name'] = 'host_name';
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['value'] = '127.0.0.1';
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['value'] = '[::1]';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['minlength'] = 1;
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['maxlength'] = 253;
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_:/.\\[\\]]+$%';
