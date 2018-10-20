@@ -74,7 +74,7 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->display->where = 'path';
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->display->match = '%^.*$%';
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->styles['develop_style'] = new \stdClass();
-  cache::$data['data--frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->file = 'frontend/develop.cssd';
+  cache::$data['data--frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->file = 'frontend/develop.css';
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->media = 'all';
   cache::$data['data--frontend']['develop']['frontend_diagram_filter'] = new \stdClass();
   cache::$data['data--frontend']['develop']['frontend_diagram_filter']->display = new \stdClass();
