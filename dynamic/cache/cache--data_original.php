@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-20 09:11:09';
+  cache::$info['data_original']['build'] = '2018-10-20 10:02:22';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2511,11 +2511,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['_script']->dynamic = true;
   cache::$data['data_original']['file_types']['core']['_script']->headers['Content-type'] = 'application/javascript';
   cache::$data['data_original']['file_types']['core']['_script']->headers['X-Content-Type-Options'] = 'nosniff';
-  cache::$data['data_original']['file_types']['core']['_style'] = new \stdClass();
-  cache::$data['data_original']['file_types']['core']['_style']->type = '_style';
-  cache::$data['data_original']['file_types']['core']['_style']->dynamic = true;
-  cache::$data['data_original']['file_types']['core']['_style']->headers['Content-type'] = 'text/css';
-  cache::$data['data_original']['file_types']['core']['_style']->headers['X-Content-Type-Options'] = 'nosniff';
+  cache::$data['data_original']['file_types']['core']['cssd'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['cssd']->type = 'cssd';
+  cache::$data['data_original']['file_types']['core']['cssd']->dynamic = true;
+  cache::$data['data_original']['file_types']['core']['cssd']->headers['Content-type'] = 'text/css';
+  cache::$data['data_original']['file_types']['core']['cssd']->headers['X-Content-Type-Options'] = 'nosniff';
   cache::$data['data_original']['file_types']['core']['3gp'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['3gp']->type = '3gp';
   cache::$data['data_original']['file_types']['core']['3gp']->headers['Content-type'] = 'video/3gpp';
@@ -2907,7 +2907,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->file = 'frontend/images/icon-192.png';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->favicons['icon_apple_192']->sizes = '192x192';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style'] = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style']->file = 'frontend/page._style';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style']->file = 'frontend/page.cssd';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style']->media = 'all';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_script'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_script']->file = 'frontend/page._script';
@@ -2917,7 +2917,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->where = 'dpath';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->match = '%^forms/.*$%';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style'] = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style']->file = 'frontend/form._style';
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style']->file = 'frontend/form.cssd';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style']->media = 'all';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->scripts['form_script'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->scripts['form_script']->file = 'frontend/form._script';
@@ -2927,7 +2927,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->display->where = 'dpath';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->display->match = '%^trees/.*$%';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->styles['tree_style'] = new \stdClass();
-  cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->styles['tree_style']->file = 'frontend/tree._style';
+  cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->styles['tree_style']->file = 'frontend/tree.cssd';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->styles['tree_style']->media = 'all';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs'] = new \stdClass();
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->display = new \stdClass();
@@ -2935,7 +2935,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->display->where = 'dpath';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->display->match = '%^tabs/.*$%';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->styles['tabs_style'] = new \stdClass();
-  cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->styles['tabs_style']->file = 'frontend/tabs._style';
+  cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->styles['tabs_style']->file = 'frontend/tabs.cssd';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->styles['tabs_style']->media = 'all';
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display = new \stdClass();
@@ -2943,7 +2943,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->where = 'path';
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->match = '%^.*$%';
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style'] = new \stdClass();
-  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->file = 'frontend/develop._style';
+  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->file = 'frontend/develop.cssd';
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->media = 'all';
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter'] = new \stdClass();
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display = new \stdClass();
@@ -2951,7 +2951,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display->where = 'path';
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display->match = '%^/develop/structures/.*$%';
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->styles['form_style'] = new \stdClass();
-  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->styles['form_style']->file = '/system/module_page/frontend/form._style';
+  cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->styles['form_style']->file = '/system/module_page/frontend/form.cssd';
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->styles['form_style']->media = 'all';
   cache::$data['data_original']['colors']['page']['lavender'] = new \stdClass();
   cache::$data['data_original']['colors']['page']['lavender']->id = 'lavender';

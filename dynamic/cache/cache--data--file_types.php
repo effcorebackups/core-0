@@ -32,11 +32,11 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['_script']->dynamic = true;
   cache::$data['data--file_types']['core']['_script']->headers['Content-type'] = 'application/javascript';
   cache::$data['data--file_types']['core']['_script']->headers['X-Content-Type-Options'] = 'nosniff';
-  cache::$data['data--file_types']['core']['_style'] = new \stdClass();
-  cache::$data['data--file_types']['core']['_style']->type = '_style';
-  cache::$data['data--file_types']['core']['_style']->dynamic = true;
-  cache::$data['data--file_types']['core']['_style']->headers['Content-type'] = 'text/css';
-  cache::$data['data--file_types']['core']['_style']->headers['X-Content-Type-Options'] = 'nosniff';
+  cache::$data['data--file_types']['core']['cssd'] = new \stdClass();
+  cache::$data['data--file_types']['core']['cssd']->type = 'cssd';
+  cache::$data['data--file_types']['core']['cssd']->dynamic = true;
+  cache::$data['data--file_types']['core']['cssd']->headers['Content-type'] = 'text/css';
+  cache::$data['data--file_types']['core']['cssd']->headers['X-Content-Type-Options'] = 'nosniff';
   cache::$data['data--file_types']['core']['3gp'] = new \stdClass();
   cache::$data['data--file_types']['core']['3gp']->type = '3gp';
   cache::$data['data--file_types']['core']['3gp']->headers['Content-type'] = 'video/3gpp';
