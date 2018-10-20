@@ -2,9 +2,9 @@
 
 namespace effcore { # cache for data--file_types
 
-  cache::$data['data--file_types']['storage']['_data'] = new \stdClass();
-  cache::$data['data--file_types']['storage']['_data']->type = '_data';
-  cache::$data['data--file_types']['storage']['_data']->protected = 1;
+  cache::$data['data--file_types']['storage']['data'] = new \stdClass();
+  cache::$data['data--file_types']['storage']['data']->type = 'data';
+  cache::$data['data--file_types']['storage']['data']->protected = 1;
   cache::$data['data--file_types']['storage']['sqlite'] = new \stdClass();
   cache::$data['data--file_types']['storage']['sqlite']->type = 'sqlite';
   cache::$data['data--file_types']['storage']['sqlite']->protected = 1;

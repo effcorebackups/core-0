@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-20 10:29:43';
+  cache::$info['data_original']['build'] = '2018-10-20 10:48:55';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2481,9 +2481,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['storages']['storage']['storage_pdo_sql']->id = 'main';
   cache::$data['data_original']['storages']['storage']['storage_files_nosql'] = new \effcore\storage_files();
   cache::$data['data_original']['storages']['storage']['storage_files_nosql']->id = 'files';
-  cache::$data['data_original']['file_types']['storage']['_data'] = new \stdClass();
-  cache::$data['data_original']['file_types']['storage']['_data']->type = '_data';
-  cache::$data['data_original']['file_types']['storage']['_data']->protected = 1;
+  cache::$data['data_original']['file_types']['storage']['data'] = new \stdClass();
+  cache::$data['data_original']['file_types']['storage']['data']->type = 'data';
+  cache::$data['data_original']['file_types']['storage']['data']->protected = 1;
   cache::$data['data_original']['file_types']['storage']['sqlite'] = new \stdClass();
   cache::$data['data_original']['file_types']['storage']['sqlite']->type = 'sqlite';
   cache::$data['data_original']['file_types']['storage']['sqlite']->protected = 1;
