@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-20 10:15:36';
+  cache::$info['data_original']['build'] = '2018-10-20 10:20:50';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2487,18 +2487,18 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['storage']['sqlite'] = new \stdClass();
   cache::$data['data_original']['file_types']['storage']['sqlite']->type = 'sqlite';
   cache::$data['data_original']['file_types']['storage']['sqlite']->protected = 1;
-  cache::$data['data_original']['file_types']['core']['_protected'] = new \stdClass();
-  cache::$data['data_original']['file_types']['core']['_protected']->type = '_protected';
-  cache::$data['data_original']['file_types']['core']['_protected']->protected = 1;
+  cache::$data['data_original']['file_types']['core']['protected'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['protected']->type = 'protected';
+  cache::$data['data_original']['file_types']['core']['protected']->protected = 1;
   cache::$data['data_original']['file_types']['core']['php'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['php']->type = 'php';
   cache::$data['data_original']['file_types']['core']['php']->protected = 1;
   cache::$data['data_original']['file_types']['core']['sh'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['sh']->type = 'sh';
   cache::$data['data_original']['file_types']['core']['sh']->protected = 1;
-  cache::$data['data_original']['file_types']['core']['_mark'] = new \stdClass();
-  cache::$data['data_original']['file_types']['core']['_mark']->type = '_mark';
-  cache::$data['data_original']['file_types']['core']['_mark']->protected = 1;
+  cache::$data['data_original']['file_types']['core']['mark'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['mark']->type = 'mark';
+  cache::$data['data_original']['file_types']['core']['mark']->protected = 1;
   cache::$data['data_original']['file_types']['core']['_template'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['_template']->type = '_template';
   cache::$data['data_original']['file_types']['core']['_template']->protected = 1;
