@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-20 10:02:22';
+  cache::$info['data_original']['build'] = '2018-10-20 10:06:51';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2506,11 +2506,11 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['_vector']->type = '_vector';
   cache::$data['data_original']['file_types']['core']['_vector']->dynamic = true;
   cache::$data['data_original']['file_types']['core']['_vector']->headers['Content-type'] = 'image/svg+xml';
-  cache::$data['data_original']['file_types']['core']['_script'] = new \stdClass();
-  cache::$data['data_original']['file_types']['core']['_script']->type = '_script';
-  cache::$data['data_original']['file_types']['core']['_script']->dynamic = true;
-  cache::$data['data_original']['file_types']['core']['_script']->headers['Content-type'] = 'application/javascript';
-  cache::$data['data_original']['file_types']['core']['_script']->headers['X-Content-Type-Options'] = 'nosniff';
+  cache::$data['data_original']['file_types']['core']['jsd'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['jsd']->type = 'jsd';
+  cache::$data['data_original']['file_types']['core']['jsd']->dynamic = true;
+  cache::$data['data_original']['file_types']['core']['jsd']->headers['Content-type'] = 'application/javascript';
+  cache::$data['data_original']['file_types']['core']['jsd']->headers['X-Content-Type-Options'] = 'nosniff';
   cache::$data['data_original']['file_types']['core']['cssd'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['cssd']->type = 'cssd';
   cache::$data['data_original']['file_types']['core']['cssd']->dynamic = true;
@@ -2910,7 +2910,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style']->file = 'frontend/page.cssd';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style']->media = 'all';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_script'] = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_script']->file = 'frontend/page._script';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_script']->file = 'frontend/page.jsd';
   cache::$data['data_original']['frontend']['page']['frontend_form_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->check = 'block';
@@ -2920,7 +2920,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style']->file = 'frontend/form.cssd';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style']->media = 'all';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->scripts['form_script'] = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->scripts['form_script']->file = 'frontend/form._script';
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->scripts['form_script']->file = 'frontend/form.jsd';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree'] = new \stdClass();
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->display = new \stdClass();
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->display->check = 'block';
