@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-14 17:12:42';
+  cache::$info['data_original']['build'] = '2018-10-20 08:11:28';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2487,6 +2487,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['storage']['sqlite'] = new \stdClass();
   cache::$data['data_original']['file_types']['storage']['sqlite']->type = 'sqlite';
   cache::$data['data_original']['file_types']['storage']['sqlite']->protected = 1;
+  cache::$data['data_original']['file_types']['core']['_protected'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['_protected']->type = '_protected';
+  cache::$data['data_original']['file_types']['core']['_protected']->protected = 1;
   cache::$data['data_original']['file_types']['core']['php'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['php']->type = 'php';
   cache::$data['data_original']['file_types']['core']['php']->protected = 1;
@@ -2496,23 +2499,20 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['_mark'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['_mark']->type = '_mark';
   cache::$data['data_original']['file_types']['core']['_mark']->protected = 1;
-  cache::$data['data_original']['file_types']['core']['_protected'] = new \stdClass();
-  cache::$data['data_original']['file_types']['core']['_protected']->type = '_protected';
-  cache::$data['data_original']['file_types']['core']['_protected']->protected = 1;
   cache::$data['data_original']['file_types']['core']['_template'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['_template']->type = '_template';
   cache::$data['data_original']['file_types']['core']['_template']->protected = 1;
   cache::$data['data_original']['file_types']['core']['_vector'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['_vector']->type = '_vector';
-  cache::$data['data_original']['file_types']['core']['_vector']->use_tokens = 1;
+  cache::$data['data_original']['file_types']['core']['_vector']->dynamic = true;
   cache::$data['data_original']['file_types']['core']['_vector']->headers['Content-type'] = 'image/svg+xml';
   cache::$data['data_original']['file_types']['core']['_script'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['_script']->type = '_script';
-  cache::$data['data_original']['file_types']['core']['_script']->use_tokens = 1;
+  cache::$data['data_original']['file_types']['core']['_script']->dynamic = true;
   cache::$data['data_original']['file_types']['core']['_script']->headers['Content-type'] = 'application/javascript';
   cache::$data['data_original']['file_types']['core']['_style'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['_style']->type = '_style';
-  cache::$data['data_original']['file_types']['core']['_style']->use_tokens = 1;
+  cache::$data['data_original']['file_types']['core']['_style']->dynamic = true;
   cache::$data['data_original']['file_types']['core']['_style']->headers['Content-type'] = 'text/css';
   cache::$data['data_original']['file_types']['core']['_style']->headers['X-Content-Type-Options'] = 'nosniff';
   cache::$data['data_original']['file_types']['core']['3gp'] = new \stdClass();
