@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-20 10:12:10';
+  cache::$info['data_original']['build'] = '2018-10-20 10:15:36';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2502,20 +2502,20 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['file_types']['core']['_template'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['_template']->type = '_template';
   cache::$data['data_original']['file_types']['core']['_template']->protected = 1;
-  cache::$data['data_original']['file_types']['core']['svgd'] = new \stdClass();
-  cache::$data['data_original']['file_types']['core']['svgd']->type = 'svgd';
-  cache::$data['data_original']['file_types']['core']['svgd']->dynamic = true;
-  cache::$data['data_original']['file_types']['core']['svgd']->headers['Content-type'] = 'image/svg+xml';
-  cache::$data['data_original']['file_types']['core']['jsd'] = new \stdClass();
-  cache::$data['data_original']['file_types']['core']['jsd']->type = 'jsd';
-  cache::$data['data_original']['file_types']['core']['jsd']->dynamic = true;
-  cache::$data['data_original']['file_types']['core']['jsd']->headers['Content-type'] = 'application/javascript';
-  cache::$data['data_original']['file_types']['core']['jsd']->headers['X-Content-Type-Options'] = 'nosniff';
   cache::$data['data_original']['file_types']['core']['cssd'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['cssd']->type = 'cssd';
   cache::$data['data_original']['file_types']['core']['cssd']->dynamic = true;
   cache::$data['data_original']['file_types']['core']['cssd']->headers['Content-type'] = 'text/css';
   cache::$data['data_original']['file_types']['core']['cssd']->headers['X-Content-Type-Options'] = 'nosniff';
+  cache::$data['data_original']['file_types']['core']['jsd'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['jsd']->type = 'jsd';
+  cache::$data['data_original']['file_types']['core']['jsd']->dynamic = true;
+  cache::$data['data_original']['file_types']['core']['jsd']->headers['Content-type'] = 'application/javascript';
+  cache::$data['data_original']['file_types']['core']['jsd']->headers['X-Content-Type-Options'] = 'nosniff';
+  cache::$data['data_original']['file_types']['core']['svgd'] = new \stdClass();
+  cache::$data['data_original']['file_types']['core']['svgd']->type = 'svgd';
+  cache::$data['data_original']['file_types']['core']['svgd']->dynamic = true;
+  cache::$data['data_original']['file_types']['core']['svgd']->headers['Content-type'] = 'image/svg+xml';
   cache::$data['data_original']['file_types']['core']['3gp'] = new \stdClass();
   cache::$data['data_original']['file_types']['core']['3gp']->type = '3gp';
   cache::$data['data_original']['file_types']['core']['3gp']->headers['Content-type'] = 'video/3gpp';
