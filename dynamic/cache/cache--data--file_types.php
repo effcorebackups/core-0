@@ -23,10 +23,10 @@ namespace effcore { # cache for data--file_types
   cache::$data['data--file_types']['core']['_template'] = new \stdClass();
   cache::$data['data--file_types']['core']['_template']->type = '_template';
   cache::$data['data--file_types']['core']['_template']->protected = 1;
-  cache::$data['data--file_types']['core']['_vector'] = new \stdClass();
-  cache::$data['data--file_types']['core']['_vector']->type = '_vector';
-  cache::$data['data--file_types']['core']['_vector']->dynamic = true;
-  cache::$data['data--file_types']['core']['_vector']->headers['Content-type'] = 'image/svg+xml';
+  cache::$data['data--file_types']['core']['svgd'] = new \stdClass();
+  cache::$data['data--file_types']['core']['svgd']->type = 'svgd';
+  cache::$data['data--file_types']['core']['svgd']->dynamic = true;
+  cache::$data['data--file_types']['core']['svgd']->headers['Content-type'] = 'image/svg+xml';
   cache::$data['data--file_types']['core']['jsd'] = new \stdClass();
   cache::$data['data--file_types']['core']['jsd']->type = 'jsd';
   cache::$data['data--file_types']['core']['jsd']->dynamic = true;
