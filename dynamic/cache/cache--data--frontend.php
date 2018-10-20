@@ -40,8 +40,10 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['page']['frontend_page_n']->styles['page_style'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_page_n']->styles['page_style']->file = 'frontend/page.cssd';
   cache::$data['data--frontend']['page']['frontend_page_n']->styles['page_style']->media = 'all';
+  cache::$data['data--frontend']['page']['frontend_page_n']->scripts['page_variables'] = new \stdClass();
+  cache::$data['data--frontend']['page']['frontend_page_n']->scripts['page_variables']->file = 'frontend/vars.jsd';
   cache::$data['data--frontend']['page']['frontend_page_n']->scripts['page_script'] = new \stdClass();
-  cache::$data['data--frontend']['page']['frontend_page_n']->scripts['page_script']->file = 'frontend/page.jsd';
+  cache::$data['data--frontend']['page']['frontend_page_n']->scripts['page_script']->file = 'frontend/page.js';
   cache::$data['data--frontend']['page']['frontend_form_n'] = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->display = new \stdClass();
   cache::$data['data--frontend']['page']['frontend_form_n']->display->check = 'block';
@@ -51,7 +53,7 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['form_style']->file = 'frontend/form.cssd';
   cache::$data['data--frontend']['page']['frontend_form_n']->styles['form_style']->media = 'all';
   cache::$data['data--frontend']['page']['frontend_form_n']->scripts['form_script'] = new \stdClass();
-  cache::$data['data--frontend']['page']['frontend_form_n']->scripts['form_script']->file = 'frontend/form.jsd';
+  cache::$data['data--frontend']['page']['frontend_form_n']->scripts['form_script']->file = 'frontend/form.js';
   cache::$data['data--frontend']['menu']['frontend_block_tree'] = new \stdClass();
   cache::$data['data--frontend']['menu']['frontend_block_tree']->display = new \stdClass();
   cache::$data['data--frontend']['menu']['frontend_block_tree']->display->check = 'block';
@@ -74,7 +76,7 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->display->where = 'path';
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->display->match = '%^.*$%';
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->styles['develop_style'] = new \stdClass();
-  cache::$data['data--frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->file = 'frontend/develop.css';
+  cache::$data['data--frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->file = 'frontend/develop.cssd';
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->media = 'all';
   cache::$data['data--frontend']['develop']['frontend_diagram_filter'] = new \stdClass();
   cache::$data['data--frontend']['develop']['frontend_diagram_filter']->display = new \stdClass();

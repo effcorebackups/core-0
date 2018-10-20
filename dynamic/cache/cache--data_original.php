@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-20 11:56:56';
+  cache::$info['data_original']['build'] = '2018-10-20 12:21:34';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2909,8 +2909,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style']->file = 'frontend/page.cssd';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->styles['page_style']->media = 'all';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_variables'] = new \stdClass();
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_variables']->file = 'frontend/vars.jsd';
   cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_script'] = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_script']->file = 'frontend/page.jsd';
+  cache::$data['data_original']['frontend']['page']['frontend_page_n']->scripts['page_script']->file = 'frontend/page.js';
   cache::$data['data_original']['frontend']['page']['frontend_form_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display = new \stdClass();
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->display->check = 'block';
@@ -2920,7 +2922,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style']->file = 'frontend/form.cssd';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->styles['form_style']->media = 'all';
   cache::$data['data_original']['frontend']['page']['frontend_form_n']->scripts['form_script'] = new \stdClass();
-  cache::$data['data_original']['frontend']['page']['frontend_form_n']->scripts['form_script']->file = 'frontend/form.jsd';
+  cache::$data['data_original']['frontend']['page']['frontend_form_n']->scripts['form_script']->file = 'frontend/form.js';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree'] = new \stdClass();
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->display = new \stdClass();
   cache::$data['data_original']['frontend']['menu']['frontend_block_tree']->display->check = 'block';
@@ -2943,7 +2945,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->where = 'path';
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->match = '%^.*$%';
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style'] = new \stdClass();
-  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->file = 'frontend/develop.css';
+  cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->file = 'frontend/develop.cssd';
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->styles['develop_style']->media = 'all';
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter'] = new \stdClass();
   cache::$data['data_original']['frontend']['develop']['frontend_diagram_filter']->display = new \stdClass();
