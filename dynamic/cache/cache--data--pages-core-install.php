@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-core-install
   cache::$data['data--pages-core-install']->display = new \stdClass();
   cache::$data['data--pages-core-install']->display->check = 'url';
   cache::$data['data--pages-core-install']->display->where = 'path';
-  cache::$data['data--pages-core-install']->display->match = '%^(?<base>/install)(?<code>/[a-z]{2,2}|)$%';
+  cache::$data['data--pages-core-install']->display->match = '%^(?<base>/install)(/(?<code>[a-z]{2,2})|)$%';
   cache::$data['data--pages-core-install']->access = new \stdClass();
   cache::$data['data--pages-core-install']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data--pages-core-install']->children['menu_main'] = new \effcore\page_part();

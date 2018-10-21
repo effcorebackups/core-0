@@ -153,7 +153,7 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['core']['install']->display = new \stdClass();
   cache::$data['data--pages']['core']['install']->display->check = 'url';
   cache::$data['data--pages']['core']['install']->display->where = 'path';
-  cache::$data['data--pages']['core']['install']->display->match = '%^(?<base>/install)(?<code>/[a-z]{2,2}|)$%';
+  cache::$data['data--pages']['core']['install']->display->match = '%^(?<base>/install)(/(?<code>[a-z]{2,2})|)$%';
   cache::$data['data--pages']['core']['install']->access = new \stdClass();
   cache::$data['data--pages']['core']['install']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data--pages']['core']['info'] = new \effcore\external_cache();
