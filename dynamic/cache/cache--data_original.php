@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-21 10:16:46';
+  cache::$info['data_original']['build'] = '2018-10-21 10:57:33';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -333,7 +333,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['user']['user']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
   cache::$data['data_original']['pages']['user']['user']->children['block_user_info'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['user']->children['block_user_info']->type = 'code';
-  cache::$data['data_original']['pages']['user']['user']->children['block_user_info']->source = '\\effcore\\modules\\user\\events_page::on_show_block_user_info';
+  cache::$data['data_original']['pages']['user']['user']->children['block_user_info']->source = '\\effcore\\modules\\user\\events_page_user::on_show_block_user_info';
   cache::$data['data_original']['pages']['user']['user']->children['form_access'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['user']['user']->children['form_access']->display = new \stdClass();
   cache::$data['data_original']['pages']['user']['user']->children['form_access']->display->check = 'user';

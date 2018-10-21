@@ -30,7 +30,7 @@ namespace effcore { # cache for data--pages-user-user
   cache::$data['data--pages-user-user']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
   cache::$data['data--pages-user-user']->children['block_user_info'] = new \effcore\page_part();
   cache::$data['data--pages-user-user']->children['block_user_info']->type = 'code';
-  cache::$data['data--pages-user-user']->children['block_user_info']->source = '\\effcore\\modules\\user\\events_page::on_show_block_user_info';
+  cache::$data['data--pages-user-user']->children['block_user_info']->source = '\\effcore\\modules\\user\\events_page_user::on_show_block_user_info';
   cache::$data['data--pages-user-user']->children['form_access'] = new \effcore\page_part();
   cache::$data['data--pages-user-user']->children['form_access']->display = new \stdClass();
   cache::$data['data--pages-user-user']->children['form_access']->display->check = 'user';
