@@ -4,7 +4,7 @@ namespace effcore { # cache for data--entities-user-session
 
   cache::$data['data--entities-user-session'] = new \effcore\entity();
   cache::$data['data--entities-user-session']->name = 'session';
-  cache::$data['data--entities-user-session']->storage_id = 'main';
+  cache::$data['data--entities-user-session']->storage_name = 'main';
   cache::$data['data--entities-user-session']->catalog_id = 'sessions';
   cache::$data['data--entities-user-session']->title = 'Session';
   cache::$data['data--entities-user-session']->title_plural = 'Sessions';

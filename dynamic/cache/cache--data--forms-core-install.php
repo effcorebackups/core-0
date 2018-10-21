@@ -12,13 +12,6 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->element_attributes['name'] = 'driver';
   cache::$data['data--forms-core-install']->children['storage']->children['is_mysql']->element_attributes['value'] = 'mysql';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql'] = new \effcore\fieldset();
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id'] = new \effcore\field_text();
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->title = 'Storage ID';
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->element_attributes['name'] = 'storage_id';
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->element_attributes['value'] = 'main';
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->element_attributes['minlength'] = 1;
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->element_attributes['maxlength'] = 128;
-  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_id']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_]+$%';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name'] = new \effcore\field_text();
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->title = 'Hostname';
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['host_name']->element_attributes['name'] = 'host_name';
@@ -42,6 +35,13 @@ namespace effcore { # cache for data--forms-core-install
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password'] = new \effcore\field_password();
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->element_attributes['minlength'] = null;
   cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['password']->element_attributes['required'] = null;
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_name'] = new \effcore\field_text();
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_name']->title = 'Storage name';
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_name']->element_attributes['name'] = 'storage_name';
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_name']->element_attributes['value'] = 'main';
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_name']->element_attributes['minlength'] = 1;
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_name']->element_attributes['maxlength'] = 128;
+  cache::$data['data--forms-core-install']->children['storage']->children['mysql']->children['storage_name']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_]+$%';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite'] = new \effcore\field_radiobutton();
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->title = 'SQLite';
   cache::$data['data--forms-core-install']->children['storage']->children['is_sqlite']->attributes['data-type'] = 'radiobutton';

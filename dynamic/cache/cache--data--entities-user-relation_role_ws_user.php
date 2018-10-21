@@ -4,7 +4,7 @@ namespace effcore { # cache for data--entities-user-relation_role_ws_user
 
   cache::$data['data--entities-user-relation_role_ws_user'] = new \effcore\entity();
   cache::$data['data--entities-user-relation_role_ws_user']->name = 'relation_role_ws_user';
-  cache::$data['data--entities-user-relation_role_ws_user']->storage_id = 'main';
+  cache::$data['data--entities-user-relation_role_ws_user']->storage_name = 'main';
   cache::$data['data--entities-user-relation_role_ws_user']->catalog_id = 'relations_role_ws_user';
   cache::$data['data--entities-user-relation_role_ws_user']->ws_created = true;
   cache::$data['data--entities-user-relation_role_ws_user']->ws_updated = true;

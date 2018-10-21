@@ -276,7 +276,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
   cache::$data['data--translations-locales-ru']->data['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
   cache::$data['data--translations-locales-ru']->data['storage %%_id will be initialized'] = 'хранилище %%_id будет инициализировано';
-  cache::$data['data--translations-locales-ru']->data['Storage ID'] = 'ID хранилища';
   cache::$data['data--translations-locales-ru']->data['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
   cache::$data['data--translations-locales-ru']->data['Storage name'] = 'Имя хранилища';
   cache::$data['data--translations-locales-ru']->data['Storage params'] = 'Параметры хранилища';
