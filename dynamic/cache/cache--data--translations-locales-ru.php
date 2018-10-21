@@ -50,7 +50,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Core'] = 'Ядро';
   cache::$data['data--translations-locales-ru']->data['created'] = 'создано';
   cache::$data['data--translations-locales-ru']->data['Created'] = 'Создано';
-  cache::$data['data--translations-locales-ru']->data['Credentials for storage %%_id was not set!'] = 'Учётные данные для хранилища %%_id не были заданы!';
+  cache::$data['data--translations-locales-ru']->data['Credentials for storage %%_name was not set!'] = 'Учётные данные для хранилища %%_name не были заданы!';
   cache::$data['data--translations-locales-ru']->data['Credentials'] = 'Учётные данные';
   cache::$data['data--translations-locales-ru']->data['credentials'] = 'учётные данные';
   cache::$data['data--translations-locales-ru']->data['Cron job was done.'] = 'Задача Cron была выполнена.';
@@ -157,7 +157,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Is remember'] = 'Запоминать';
   cache::$data['data--translations-locales-ru']->data['item #%%_number'] = 'пункт №%%_number';
   cache::$data['data--translations-locales-ru']->data['Key "%%_name" does not exist!'] = 'Ключ "%%_name" не существует!';
-  cache::$data['data--translations-locales-ru']->data['Language'] = 'Язык';
   cache::$data['data--translations-locales-ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache::$data['data--translations-locales-ru']->data['License agreement'] = 'Лицензионное соглашение';
   cache::$data['data--translations-locales-ru']->data['Linear diagram'] = 'Линейная диаграмма';
@@ -244,7 +243,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['remember me'] = 'запомнить меня';
   cache::$data['data--translations-locales-ru']->data['Report'] = 'Отчёт';
   cache::$data['data--translations-locales-ru']->data['reset'] = 'сбросить';
-  cache::$data['data--translations-locales-ru']->data['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
+  cache::$data['data--translations-locales-ru']->data['Restore the storage credentials in "%%_path" directory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
   cache::$data['data--translations-locales-ru']->data['restore'] = 'восстановить';
   cache::$data['data--translations-locales-ru']->data['return'] = 'возврат';
   cache::$data['data--translations-locales-ru']->data['Role ID'] = 'ID Роли';
@@ -256,6 +255,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['save'] = 'сохранить';
   cache::$data['data--translations-locales-ru']->data['Search'] = 'Поиск';
   cache::$data['data--translations-locales-ru']->data['search'] = 'поиск';
+  cache::$data['data--translations-locales-ru']->data['Select available language'] = 'Выберите доступный язык';
   cache::$data['data--translations-locales-ru']->data['Select instance'] = 'Выбрать экземпляр';
   cache::$data['data--translations-locales-ru']->data['Select instances'] = 'Выбрать экземпляры';
   cache::$data['data--translations-locales-ru']->data['Select'] = 'Выбрать';
@@ -274,9 +274,9 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['state'] = 'состояние';
   cache::$data['data--translations-locales-ru']->data['State'] = 'Состояние';
   cache::$data['data--translations-locales-ru']->data['Storage "%%_name"'] = 'Хранилище "%%_name"';
-  cache::$data['data--translations-locales-ru']->data['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
-  cache::$data['data--translations-locales-ru']->data['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
-  cache::$data['data--translations-locales-ru']->data['storage %%_id will be initialized'] = 'хранилище %%_id будет инициализировано';
+  cache::$data['data--translations-locales-ru']->data['Storage %%_name is not available!'] = 'Хранилище %%_name не доступно!';
+  cache::$data['data--translations-locales-ru']->data['storage %%_name was initialized'] = 'хранилище %%_name было инициализировано';
+  cache::$data['data--translations-locales-ru']->data['storage %%_name will be initialized'] = 'хранилище %%_name будет инициализировано';
   cache::$data['data--translations-locales-ru']->data['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
   cache::$data['data--translations-locales-ru']->data['Storage name'] = 'Имя хранилища';
   cache::$data['data--translations-locales-ru']->data['Storage params'] = 'Параметры хранилища';

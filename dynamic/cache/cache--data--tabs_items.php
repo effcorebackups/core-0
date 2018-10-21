@@ -31,7 +31,7 @@ namespace effcore { # cache for data--tabs_items
   cache::$data['data--tabs_items']['locales']['language_select'] = new \effcore\tabs_item();
   cache::$data['data--tabs_items']['locales']['language_select']->id = 'language_select';
   cache::$data['data--tabs_items']['locales']['language_select']->id_parent = 'T:languages';
-  cache::$data['data--tabs_items']['locales']['language_select']->title = 'Language';
+  cache::$data['data--tabs_items']['locales']['language_select']->title = 'Select available language';
   cache::$data['data--tabs_items']['locales']['language_select']->hidden = true;
   cache::$data['data--tabs_items']['locales']['language_select']->attributes['class']['language-select'] = 'language-select';
   cache::$data['data--tabs_items']['demo']['demo_item_1'] = new \effcore\tabs_item();

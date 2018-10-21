@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-21 15:15:45';
+  cache::$info['data_original']['build'] = '2018-10-21 20:27:00';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1002,22 +1002,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['install']->display->match = '%^(?<base>/install)(/(?<code>[a-z]{2,2})|)$%';
   cache::$data['data_original']['pages']['core']['install']->access = new \stdClass();
   cache::$data['data_original']['pages']['core']['install']->access->roles['anonymous'] = 'anonymous';
-  cache::$data['data_original']['pages']['core']['install']->children['menu_main'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['core']['install']->children['menu_main']->region = 'main_menu';
-  cache::$data['data_original']['pages']['core']['install']->children['menu_main']->type = 'link';
-  cache::$data['data_original']['pages']['core']['install']->children['menu_main']->source = 'trees/core/main';
-  cache::$data['data_original']['pages']['core']['install']->children['menu_user'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['core']['install']->children['menu_user']->region = 'head';
-  cache::$data['data_original']['pages']['core']['install']->children['menu_user']->type = 'code';
-  cache::$data['data_original']['pages']['core']['install']->children['menu_user']->source = '\\effcore\\modules\\user\\events_page::on_show_block_menu_user';
-  cache::$data['data_original']['pages']['core']['install']->children['logo'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['core']['install']->children['logo']->region = 'head';
-  cache::$data['data_original']['pages']['core']['install']->children['logo']->type = 'link';
-  cache::$data['data_original']['pages']['core']['install']->children['logo']->source = 'blocks/page/logo';
-  cache::$data['data_original']['pages']['core']['install']->children['title'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['core']['install']->children['title']->region = 'title';
-  cache::$data['data_original']['pages']['core']['install']->children['title']->type = 'code';
-  cache::$data['data_original']['pages']['core']['install']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
   cache::$data['data_original']['pages']['core']['install']->children['init_languages'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['install']->children['init_languages']->type = 'code';
   cache::$data['data_original']['pages']['core']['install']->children['init_languages']->source = '\\effcore\\modules\\core\\events_page_install::on_init_languages';
@@ -2399,7 +2383,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['locales']['language_select'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['locales']['language_select']->id = 'language_select';
   cache::$data['data_original']['tabs_items']['locales']['language_select']->id_parent = 'T:languages';
-  cache::$data['data_original']['tabs_items']['locales']['language_select']->title = 'Language';
+  cache::$data['data_original']['tabs_items']['locales']['language_select']->title = 'Select available language';
   cache::$data['data_original']['tabs_items']['locales']['language_select']->hidden = true;
   cache::$data['data_original']['tabs_items']['locales']['language_select']->attributes['class']['language-select'] = 'language-select';
   cache::$data['data_original']['tabs_items']['demo']['demo_item_1'] = new \effcore\tabs_item();
@@ -2494,9 +2478,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs']['develop']['structures']->id = 'structures';
   cache::$data['data_original']['tabs']['develop']['structures']->attributes['class']['structures'] = 'structures';
   cache::$data['data_original']['storages']['storage']['storage_pdo_sql'] = new \effcore\storage_pdo();
-  cache::$data['data_original']['storages']['storage']['storage_pdo_sql']->id = 'main';
+  cache::$data['data_original']['storages']['storage']['storage_pdo_sql']->name = 'main';
   cache::$data['data_original']['storages']['storage']['storage_files_nosql'] = new \effcore\storage_files();
-  cache::$data['data_original']['storages']['storage']['storage_files_nosql']->id = 'files';
+  cache::$data['data_original']['storages']['storage']['storage_files_nosql']->name = 'files';
   cache::$data['data_original']['file_types']['storage']['data'] = new \stdClass();
   cache::$data['data_original']['file_types']['storage']['data']->type = 'data';
   cache::$data['data_original']['file_types']['storage']['data']->protected = 1;
@@ -3314,7 +3298,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Core'] = 'Ядро';
   cache::$data['data_original']['translations']['locales']['ru']->data['created'] = 'создано';
   cache::$data['data_original']['translations']['locales']['ru']->data['Created'] = 'Создано';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Credentials for storage %%_id was not set!'] = 'Учётные данные для хранилища %%_id не были заданы!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Credentials for storage %%_name was not set!'] = 'Учётные данные для хранилища %%_name не были заданы!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Credentials'] = 'Учётные данные';
   cache::$data['data_original']['translations']['locales']['ru']->data['credentials'] = 'учётные данные';
   cache::$data['data_original']['translations']['locales']['ru']->data['Cron job was done.'] = 'Задача Cron была выполнена.';
@@ -3421,7 +3405,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Is remember'] = 'Запоминать';
   cache::$data['data_original']['translations']['locales']['ru']->data['item #%%_number'] = 'пункт №%%_number';
   cache::$data['data_original']['translations']['locales']['ru']->data['Key "%%_name" does not exist!'] = 'Ключ "%%_name" не существует!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Language'] = 'Язык';
   cache::$data['data_original']['translations']['locales']['ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache::$data['data_original']['translations']['locales']['ru']->data['License agreement'] = 'Лицензионное соглашение';
   cache::$data['data_original']['translations']['locales']['ru']->data['Linear diagram'] = 'Линейная диаграмма';
@@ -3508,7 +3491,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['remember me'] = 'запомнить меня';
   cache::$data['data_original']['translations']['locales']['ru']->data['Report'] = 'Отчёт';
   cache::$data['data_original']['translations']['locales']['ru']->data['reset'] = 'сбросить';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Restore the storage credentials in "%%_path" dirrectory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Restore the storage credentials in "%%_path" directory or reinstall this system on the page: %%_link'] = 'Восстановите учетные данные хранилища в каталоге "%%_path" или переустановите эту систему на странице: %%_link';
   cache::$data['data_original']['translations']['locales']['ru']->data['restore'] = 'восстановить';
   cache::$data['data_original']['translations']['locales']['ru']->data['return'] = 'возврат';
   cache::$data['data_original']['translations']['locales']['ru']->data['Role ID'] = 'ID Роли';
@@ -3520,6 +3503,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['save'] = 'сохранить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Search'] = 'Поиск';
   cache::$data['data_original']['translations']['locales']['ru']->data['search'] = 'поиск';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Select available language'] = 'Выберите доступный язык';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select instance'] = 'Выбрать экземпляр';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select instances'] = 'Выбрать экземпляры';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select'] = 'Выбрать';
@@ -3538,9 +3522,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['state'] = 'состояние';
   cache::$data['data_original']['translations']['locales']['ru']->data['State'] = 'Состояние';
   cache::$data['data_original']['translations']['locales']['ru']->data['Storage "%%_name"'] = 'Хранилище "%%_name"';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Storage %%_id is not available!'] = 'Хранилище %%_id не доступно!';
-  cache::$data['data_original']['translations']['locales']['ru']->data['storage %%_id was initialized'] = 'хранилище %%_id было инициализировано';
-  cache::$data['data_original']['translations']['locales']['ru']->data['storage %%_id will be initialized'] = 'хранилище %%_id будет инициализировано';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Storage %%_name is not available!'] = 'Хранилище %%_name не доступно!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['storage %%_name was initialized'] = 'хранилище %%_name было инициализировано';
+  cache::$data['data_original']['translations']['locales']['ru']->data['storage %%_name will be initialized'] = 'хранилище %%_name будет инициализировано';
   cache::$data['data_original']['translations']['locales']['ru']->data['Storage is not available with these credentials!'] = 'Хранилище не доступно с этими учетными данными!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Storage name'] = 'Имя хранилища';
   cache::$data['data_original']['translations']['locales']['ru']->data['Storage params'] = 'Параметры хранилища';
