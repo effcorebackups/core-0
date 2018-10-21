@@ -27,9 +27,9 @@ namespace effcore { # cache for data--pages-core-install
   cache::$data['data--pages-core-install']->children['title']->region = 'title';
   cache::$data['data--pages-core-install']->children['title']->type = 'code';
   cache::$data['data--pages-core-install']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data--pages-core-install']->children['init_tabs'] = new \effcore\page_part();
-  cache::$data['data--pages-core-install']->children['init_tabs']->type = 'code';
-  cache::$data['data--pages-core-install']->children['init_tabs']->source = '\\effcore\\modules\\core\\events_page_install::on_init_tabs';
+  cache::$data['data--pages-core-install']->children['init_languages'] = new \effcore\page_part();
+  cache::$data['data--pages-core-install']->children['init_languages']->type = 'code';
+  cache::$data['data--pages-core-install']->children['init_languages']->source = '\\effcore\\modules\\core\\events_page_install::on_init_languages';
   cache::$data['data--pages-core-install']->children['tabs_languages'] = new \effcore\page_part();
   cache::$data['data--pages-core-install']->children['tabs_languages']->region = 'tabs';
   cache::$data['data--pages-core-install']->children['tabs_languages']->type = 'link';

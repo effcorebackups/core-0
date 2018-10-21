@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-21 13:52:32';
+  cache::$info['data_original']['build'] = '2018-10-21 14:52:35';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1018,9 +1018,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['install']->children['title']->region = 'title';
   cache::$data['data_original']['pages']['core']['install']->children['title']->type = 'code';
   cache::$data['data_original']['pages']['core']['install']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data_original']['pages']['core']['install']->children['init_tabs'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['core']['install']->children['init_tabs']->type = 'code';
-  cache::$data['data_original']['pages']['core']['install']->children['init_tabs']->source = '\\effcore\\modules\\core\\events_page_install::on_init_tabs';
+  cache::$data['data_original']['pages']['core']['install']->children['init_languages'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['core']['install']->children['init_languages']->type = 'code';
+  cache::$data['data_original']['pages']['core']['install']->children['init_languages']->source = '\\effcore\\modules\\core\\events_page_install::on_init_languages';
   cache::$data['data_original']['pages']['core']['install']->children['tabs_languages'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['install']->children['tabs_languages']->region = 'tabs';
   cache::$data['data_original']['pages']['core']['install']->children['tabs_languages']->type = 'link';
