@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-21 05:46:08';
+  cache::$info['data_original']['build'] = '2018-10-21 09:36:16';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -999,7 +999,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['install']->display = new \stdClass();
   cache::$data['data_original']['pages']['core']['install']->display->check = 'url';
   cache::$data['data_original']['pages']['core']['install']->display->where = 'path';
-  cache::$data['data_original']['pages']['core']['install']->display->match = '%^/install$%';
+  cache::$data['data_original']['pages']['core']['install']->display->match = '%^(?<base>/install)(?<code>/[a-z]{2,2}|)$%';
   cache::$data['data_original']['pages']['core']['install']->access = new \stdClass();
   cache::$data['data_original']['pages']['core']['install']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data_original']['pages']['core']['install']->children['menu_main'] = new \effcore\page_part();
@@ -1018,6 +1018,10 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['install']->children['title']->region = 'title';
   cache::$data['data_original']['pages']['core']['install']->children['title']->type = 'code';
   cache::$data['data_original']['pages']['core']['install']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
+  cache::$data['data_original']['pages']['core']['install']->children['tabs_languages'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['core']['install']->children['tabs_languages']->region = 'tabs';
+  cache::$data['data_original']['pages']['core']['install']->children['tabs_languages']->type = 'link';
+  cache::$data['data_original']['pages']['core']['install']->children['tabs_languages']->source = 'tabs/locales/languages';
   cache::$data['data_original']['pages']['core']['install']->children['form_install'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['install']->children['form_install']->type = 'link';
   cache::$data['data_original']['pages']['core']['install']->children['form_install']->source = 'forms/core/install';
@@ -2389,6 +2393,13 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['menu']['tree_insert']->title = 'Insert';
   cache::$data['data_original']['tabs_items']['menu']['tree_insert']->action_name = 'insert';
   cache::$data['data_original']['tabs_items']['menu']['tree_insert']->attributes['class']['tree-insert'] = 'tree-insert';
+  cache::$data['data_original']['tabs_items']['locales']['language_select'] = new \effcore\tabs_item();
+  cache::$data['data_original']['tabs_items']['locales']['language_select']->id = 'language_select';
+  cache::$data['data_original']['tabs_items']['locales']['language_select']->id_parent = 'T:languages';
+  cache::$data['data_original']['tabs_items']['locales']['language_select']->title = 'Language';
+  cache::$data['data_original']['tabs_items']['locales']['language_select']->action_name = '';
+  cache::$data['data_original']['tabs_items']['locales']['language_select']->action_name_default = 'en';
+  cache::$data['data_original']['tabs_items']['locales']['language_select']->attributes['class']['language-select'] = 'language-select';
   cache::$data['data_original']['tabs_items']['demo']['demo_item_1'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['demo']['demo_item_1']->id = 'demo_item_1';
   cache::$data['data_original']['tabs_items']['demo']['demo_item_1']->id_parent = 'T:demo';
@@ -2471,6 +2482,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs']['menu']['manage_trees'] = new \effcore\tabs();
   cache::$data['data_original']['tabs']['menu']['manage_trees']->id = 'manage_trees';
   cache::$data['data_original']['tabs']['menu']['manage_trees']->attributes['class']['manage-trees'] = 'manage-trees';
+  cache::$data['data_original']['tabs']['locales']['languages'] = new \effcore\tabs();
+  cache::$data['data_original']['tabs']['locales']['languages']->id = 'languages';
+  cache::$data['data_original']['tabs']['locales']['languages']->attributes['class']['languages'] = 'languages';
   cache::$data['data_original']['tabs']['demo']['demo'] = new \effcore\tabs();
   cache::$data['data_original']['tabs']['demo']['demo']->id = 'demo';
   cache::$data['data_original']['tabs']['demo']['demo']->attributes['class']['demo'] = 'demo';
@@ -3405,6 +3419,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Is remember'] = 'Запоминать';
   cache::$data['data_original']['translations']['locales']['ru']->data['item #%%_number'] = 'пункт №%%_number';
   cache::$data['data_original']['translations']['locales']['ru']->data['Key "%%_name" does not exist!'] = 'Ключ "%%_name" не существует!';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Language'] = 'Язык';
   cache::$data['data_original']['translations']['locales']['ru']->data['Leave the field blank if you do not want to change its value.'] = 'Оставьте поле пустым если не хотите менять его значение.';
   cache::$data['data_original']['translations']['locales']['ru']->data['License agreement'] = 'Лицензионное соглашение';
   cache::$data['data_original']['translations']['locales']['ru']->data['Linear diagram'] = 'Линейная диаграмма';

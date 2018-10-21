@@ -8,7 +8,7 @@ namespace effcore { # cache for data--pages-core-install
   cache::$data['data--pages-core-install']->display = new \stdClass();
   cache::$data['data--pages-core-install']->display->check = 'url';
   cache::$data['data--pages-core-install']->display->where = 'path';
-  cache::$data['data--pages-core-install']->display->match = '%^/install$%';
+  cache::$data['data--pages-core-install']->display->match = '%^(?<base>/install)(?<code>/[a-z]{2,2}|)$%';
   cache::$data['data--pages-core-install']->access = new \stdClass();
   cache::$data['data--pages-core-install']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data--pages-core-install']->children['menu_main'] = new \effcore\page_part();
@@ -27,6 +27,10 @@ namespace effcore { # cache for data--pages-core-install
   cache::$data['data--pages-core-install']->children['title']->region = 'title';
   cache::$data['data--pages-core-install']->children['title']->type = 'code';
   cache::$data['data--pages-core-install']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
+  cache::$data['data--pages-core-install']->children['tabs_languages'] = new \effcore\page_part();
+  cache::$data['data--pages-core-install']->children['tabs_languages']->region = 'tabs';
+  cache::$data['data--pages-core-install']->children['tabs_languages']->type = 'link';
+  cache::$data['data--pages-core-install']->children['tabs_languages']->source = 'tabs/locales/languages';
   cache::$data['data--pages-core-install']->children['form_install'] = new \effcore\page_part();
   cache::$data['data--pages-core-install']->children['form_install']->type = 'link';
   cache::$data['data--pages-core-install']->children['form_install']->source = 'forms/core/install';

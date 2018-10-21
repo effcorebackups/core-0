@@ -28,6 +28,13 @@ namespace effcore { # cache for data--tabs_items
   cache::$data['data--tabs_items']['menu']['tree_insert']->title = 'Insert';
   cache::$data['data--tabs_items']['menu']['tree_insert']->action_name = 'insert';
   cache::$data['data--tabs_items']['menu']['tree_insert']->attributes['class']['tree-insert'] = 'tree-insert';
+  cache::$data['data--tabs_items']['locales']['language_select'] = new \effcore\tabs_item();
+  cache::$data['data--tabs_items']['locales']['language_select']->id = 'language_select';
+  cache::$data['data--tabs_items']['locales']['language_select']->id_parent = 'T:languages';
+  cache::$data['data--tabs_items']['locales']['language_select']->title = 'Language';
+  cache::$data['data--tabs_items']['locales']['language_select']->action_name = '';
+  cache::$data['data--tabs_items']['locales']['language_select']->action_name_default = 'en';
+  cache::$data['data--tabs_items']['locales']['language_select']->attributes['class']['language-select'] = 'language-select';
   cache::$data['data--tabs_items']['demo']['demo_item_1'] = new \effcore\tabs_item();
   cache::$data['data--tabs_items']['demo']['demo_item_1']->id = 'demo_item_1';
   cache::$data['data--tabs_items']['demo']['demo_item_1']->id_parent = 'T:demo';
