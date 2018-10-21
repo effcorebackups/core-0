@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-21 09:36:16';
+  cache::$info['data_original']['build'] = '2018-10-21 10:16:46';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -984,7 +984,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['modules']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
   cache::$data['data_original']['pages']['core']['modules']->children['block_modules'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['modules']->children['block_modules']->type = 'code';
-  cache::$data['data_original']['pages']['core']['modules']->children['block_modules']->source = '\\effcore\\modules\\core\\events_page::on_show_block_modules';
+  cache::$data['data_original']['pages']['core']['modules']->children['block_modules']->source = '\\effcore\\modules\\core\\events_page_modules::on_show_block_modules';
   cache::$data['data_original']['pages']['core']['modules']->children['form_access'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['modules']->children['form_access']->display = new \stdClass();
   cache::$data['data_original']['pages']['core']['modules']->children['form_access']->display->check = 'user';
@@ -1018,6 +1018,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['install']->children['title']->region = 'title';
   cache::$data['data_original']['pages']['core']['install']->children['title']->type = 'code';
   cache::$data['data_original']['pages']['core']['install']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
+  cache::$data['data_original']['pages']['core']['install']->children['init_tabs'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['core']['install']->children['init_tabs']->type = 'code';
+  cache::$data['data_original']['pages']['core']['install']->children['init_tabs']->source = '\\effcore\\modules\\core\\events_page_install::on_init_tabs';
   cache::$data['data_original']['pages']['core']['install']->children['tabs_languages'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['install']->children['tabs_languages']->region = 'tabs';
   cache::$data['data_original']['pages']['core']['install']->children['tabs_languages']->type = 'link';
@@ -1060,7 +1063,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['info']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
   cache::$data['data_original']['pages']['core']['info']->children['block_info'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['info']->children['block_info']->type = 'code';
-  cache::$data['data_original']['pages']['core']['info']->children['block_info']->source = '\\effcore\\modules\\core\\events_page::on_show_block_info';
+  cache::$data['data_original']['pages']['core']['info']->children['block_info']->source = '\\effcore\\modules\\core\\events_page_info::on_show_block_info';
   cache::$data['data_original']['pages']['core']['info']->children['form_access'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['info']->children['form_access']->display = new \stdClass();
   cache::$data['data_original']['pages']['core']['info']->children['form_access']->display->check = 'user';
@@ -1113,7 +1116,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['cron']->access->roles['registered'] = 'registered';
   cache::$data['data_original']['pages']['core']['cron']->children['block_cron'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['cron']->children['block_cron']->type = 'code';
-  cache::$data['data_original']['pages']['core']['cron']->children['block_cron']->source = '\\effcore\\modules\\core\\events_page::on_cron_run';
+  cache::$data['data_original']['pages']['core']['cron']->children['block_cron']->source = '\\effcore\\modules\\core\\events_page_cron::on_cron_run';
   cache::$data['data_original']['instances']['user']['user_admin'] = new \effcore\instance();
   cache::$data['data_original']['instances']['user']['user_admin']->entity_name = 'user';
   cache::$data['data_original']['instances']['user']['user_admin']->values['nick'] = 'admin';

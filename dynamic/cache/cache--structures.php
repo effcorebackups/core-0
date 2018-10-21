@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-10-21 09:36:16';
+  cache::$info['structures']['build'] = '2018-10-21 10:16:46';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -385,12 +385,30 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\modules\\core\\events_module']->name = 'events_module';
   cache::$data['structures']['effcore\\modules\\core\\events_module']->type = 'class';
   cache::$data['structures']['effcore\\modules\\core\\events_module']->file = 'system/module_core/backend/events--module.php';
-  cache::$data['structures']['effcore\\modules\\core\\events_page'] = new \stdClass();
-  cache::$data['structures']['effcore\\modules\\core\\events_page']->modifier = 'abstract';
-  cache::$data['structures']['effcore\\modules\\core\\events_page']->namespace = 'effcore\\modules\\core';
-  cache::$data['structures']['effcore\\modules\\core\\events_page']->name = 'events_page';
-  cache::$data['structures']['effcore\\modules\\core\\events_page']->type = 'class';
-  cache::$data['structures']['effcore\\modules\\core\\events_page']->file = 'system/module_core/backend/events--page.php';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_cron'] = new \stdClass();
+  cache::$data['structures']['effcore\\modules\\core\\events_page_cron']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_cron']->namespace = 'effcore\\modules\\core';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_cron']->name = 'events_page_cron';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_cron']->type = 'class';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_cron']->file = 'system/module_core/backend/events--page-cron.php';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_info'] = new \stdClass();
+  cache::$data['structures']['effcore\\modules\\core\\events_page_info']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_info']->namespace = 'effcore\\modules\\core';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_info']->name = 'events_page_info';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_info']->type = 'class';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_info']->file = 'system/module_core/backend/events--page-info.php';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_install'] = new \stdClass();
+  cache::$data['structures']['effcore\\modules\\core\\events_page_install']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_install']->namespace = 'effcore\\modules\\core';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_install']->name = 'events_page_install';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_install']->type = 'class';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_install']->file = 'system/module_core/backend/events--page-install.php';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_modules'] = new \stdClass();
+  cache::$data['structures']['effcore\\modules\\core\\events_page_modules']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_modules']->namespace = 'effcore\\modules\\core';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_modules']->name = 'events_page_modules';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_modules']->type = 'class';
+  cache::$data['structures']['effcore\\modules\\core\\events_page_modules']->file = 'system/module_core/backend/events--page-modules.php';
   cache::$data['structures']['effcore\\modules\\demo\\demo_class_1'] = new \stdClass();
   cache::$data['structures']['effcore\\modules\\demo\\demo_class_1']->namespace = 'effcore\\modules\\demo';
   cache::$data['structures']['effcore\\modules\\demo\\demo_class_1']->name = 'demo_class_1';

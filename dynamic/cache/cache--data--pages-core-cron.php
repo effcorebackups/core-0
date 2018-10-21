@@ -13,6 +13,6 @@ namespace effcore { # cache for data--pages-core-cron
   cache::$data['data--pages-core-cron']->access->roles['registered'] = 'registered';
   cache::$data['data--pages-core-cron']->children['block_cron'] = new \effcore\page_part();
   cache::$data['data--pages-core-cron']->children['block_cron']->type = 'code';
-  cache::$data['data--pages-core-cron']->children['block_cron']->source = '\\effcore\\modules\\core\\events_page::on_cron_run';
+  cache::$data['data--pages-core-cron']->children['block_cron']->source = '\\effcore\\modules\\core\\events_page_cron::on_cron_run';
 
 }
