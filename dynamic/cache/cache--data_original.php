@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-21 11:20:53';
+  cache::$info['data_original']['build'] = '2018-10-21 12:31:14';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -2400,8 +2400,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['locales']['language_select']->id = 'language_select';
   cache::$data['data_original']['tabs_items']['locales']['language_select']->id_parent = 'T:languages';
   cache::$data['data_original']['tabs_items']['locales']['language_select']->title = 'Language';
-  cache::$data['data_original']['tabs_items']['locales']['language_select']->action_name = '';
-  cache::$data['data_original']['tabs_items']['locales']['language_select']->action_name_default = 'en';
   cache::$data['data_original']['tabs_items']['locales']['language_select']->attributes['class']['language-select'] = 'language-select';
   cache::$data['data_original']['tabs_items']['demo']['demo_item_1'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['demo']['demo_item_1']->id = 'demo_item_1';
