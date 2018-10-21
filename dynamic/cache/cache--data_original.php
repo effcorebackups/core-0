@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-21 10:57:33';
+  cache::$info['data_original']['build'] = '2018-10-21 11:06:30';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -845,16 +845,16 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_static']->source = 'blocks/demo/demo';
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_dynamic'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_dynamic']->type = 'code';
-  cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_dynamic']->source = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_dynamic';
+  cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_dynamic']->source = '\\effcore\\modules\\demo\\events_page_demo::on_show_block_demo_dynamic';
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_selection'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_selection']->type = 'link';
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_selection']->source = 'selections/demo/demo_types_list';
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_canvas'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_canvas']->type = 'code';
-  cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_canvas']->source = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_canvas';
+  cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_canvas']->source = '\\effcore\\modules\\demo\\events_page_demo::on_show_block_demo_canvas';
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_diagrams'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_diagrams']->type = 'code';
-  cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_diagrams']->source = '\\effcore\\modules\\demo\\events_page::on_show_block_demo_diagrams';
+  cache::$data['data_original']['pages']['demo']['demo']->children['block_demo_diagrams']->source = '\\effcore\\modules\\demo\\events_page_demo::on_show_block_demo_diagrams';
   cache::$data['data_original']['pages']['demo']['demo']->children['form_access'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['demo']['demo']->children['form_access']->display = new \stdClass();
   cache::$data['data_original']['pages']['demo']['demo']->children['form_access']->display->check = 'user';
