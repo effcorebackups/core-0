@@ -5,7 +5,7 @@ namespace effcore { # cache for data--entities-menu-tree_item
   cache::$data['data--entities-menu-tree_item'] = new \effcore\entity();
   cache::$data['data--entities-menu-tree_item']->name = 'tree_item';
   cache::$data['data--entities-menu-tree_item']->storage_name = 'main';
-  cache::$data['data--entities-menu-tree_item']->catalog_id = 'tree_items';
+  cache::$data['data--entities-menu-tree_item']->catalog_name = 'tree_items';
   cache::$data['data--entities-menu-tree_item']->ws_created = true;
   cache::$data['data--entities-menu-tree_item']->ws_updated = true;
   cache::$data['data--entities-menu-tree_item']->title = 'Tree item';

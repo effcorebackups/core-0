@@ -5,7 +5,7 @@ namespace effcore { # cache for data--entities-user-permission
   cache::$data['data--entities-user-permission'] = new \effcore\entity();
   cache::$data['data--entities-user-permission']->name = 'permission';
   cache::$data['data--entities-user-permission']->storage_name = 'main';
-  cache::$data['data--entities-user-permission']->catalog_id = 'permissions';
+  cache::$data['data--entities-user-permission']->catalog_name = 'permissions';
   cache::$data['data--entities-user-permission']->ws_created = true;
   cache::$data['data--entities-user-permission']->ws_updated = true;
   cache::$data['data--entities-user-permission']->title = 'Permission';

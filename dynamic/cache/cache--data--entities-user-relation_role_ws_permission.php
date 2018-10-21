@@ -5,7 +5,7 @@ namespace effcore { # cache for data--entities-user-relation_role_ws_permission
   cache::$data['data--entities-user-relation_role_ws_permission'] = new \effcore\entity();
   cache::$data['data--entities-user-relation_role_ws_permission']->name = 'relation_role_ws_permission';
   cache::$data['data--entities-user-relation_role_ws_permission']->storage_name = 'main';
-  cache::$data['data--entities-user-relation_role_ws_permission']->catalog_id = 'relations_role_ws_permission';
+  cache::$data['data--entities-user-relation_role_ws_permission']->catalog_name = 'relations_role_ws_permission';
   cache::$data['data--entities-user-relation_role_ws_permission']->ws_created = true;
   cache::$data['data--entities-user-relation_role_ws_permission']->ws_updated = true;
   cache::$data['data--entities-user-relation_role_ws_permission']->title = 'Relation: Role + Permission';
