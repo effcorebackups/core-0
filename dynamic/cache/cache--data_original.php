@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-21 20:31:38';
+  cache::$info['data_original']['build'] = '2018-10-22 06:34:15';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1002,13 +1002,18 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['install']->display->match = '%^(?<base>/install)(/(?<code>[a-z]{2,2})|)$%';
   cache::$data['data_original']['pages']['core']['install']->access = new \stdClass();
   cache::$data['data_original']['pages']['core']['install']->access->roles['anonymous'] = 'anonymous';
-  cache::$data['data_original']['pages']['core']['install']->children['init_languages'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['core']['install']->children['init_languages']->type = 'code';
-  cache::$data['data_original']['pages']['core']['install']->children['init_languages']->source = '\\effcore\\modules\\core\\events_page_install::on_init_languages';
-  cache::$data['data_original']['pages']['core']['install']->children['tabs_languages'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['core']['install']->children['tabs_languages']->region = 'tabs';
-  cache::$data['data_original']['pages']['core']['install']->children['tabs_languages']->type = 'link';
-  cache::$data['data_original']['pages']['core']['install']->children['tabs_languages']->source = 'tabs/locales/languages';
+  cache::$data['data_original']['pages']['core']['install']->children['language_switcher'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['core']['install']->children['language_switcher']->region = 'head';
+  cache::$data['data_original']['pages']['core']['install']->children['language_switcher']->type = 'code';
+  cache::$data['data_original']['pages']['core']['install']->children['language_switcher']->source = '\\effcore\\modules\\core\\events_page::on_switch_language';
+  cache::$data['data_original']['pages']['core']['install']->children['menu_languages'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['core']['install']->children['menu_languages']->region = 'head';
+  cache::$data['data_original']['pages']['core']['install']->children['menu_languages']->type = 'code';
+  cache::$data['data_original']['pages']['core']['install']->children['menu_languages']->source = '\\effcore\\modules\\locales\\events_page::on_show_block_menu_languages';
+  cache::$data['data_original']['pages']['core']['install']->children['title'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['core']['install']->children['title']->region = 'title';
+  cache::$data['data_original']['pages']['core']['install']->children['title']->type = 'code';
+  cache::$data['data_original']['pages']['core']['install']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
   cache::$data['data_original']['pages']['core']['install']->children['form_install'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['install']->children['form_install']->type = 'link';
   cache::$data['data_original']['pages']['core']['install']->children['form_install']->source = 'forms/core/install';
@@ -2380,12 +2385,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs_items']['menu']['tree_insert']->title = 'Insert';
   cache::$data['data_original']['tabs_items']['menu']['tree_insert']->action_name = 'insert';
   cache::$data['data_original']['tabs_items']['menu']['tree_insert']->attributes['class']['tree-insert'] = 'tree-insert';
-  cache::$data['data_original']['tabs_items']['locales']['language_select'] = new \effcore\tabs_item();
-  cache::$data['data_original']['tabs_items']['locales']['language_select']->id = 'language_select';
-  cache::$data['data_original']['tabs_items']['locales']['language_select']->id_parent = 'T:languages';
-  cache::$data['data_original']['tabs_items']['locales']['language_select']->title = 'Select available language';
-  cache::$data['data_original']['tabs_items']['locales']['language_select']->hidden = true;
-  cache::$data['data_original']['tabs_items']['locales']['language_select']->attributes['class']['language-select'] = 'language-select';
   cache::$data['data_original']['tabs_items']['demo']['demo_item_1'] = new \effcore\tabs_item();
   cache::$data['data_original']['tabs_items']['demo']['demo_item_1']->id = 'demo_item_1';
   cache::$data['data_original']['tabs_items']['demo']['demo_item_1']->id_parent = 'T:demo';
@@ -2468,9 +2467,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['tabs']['menu']['manage_trees'] = new \effcore\tabs();
   cache::$data['data_original']['tabs']['menu']['manage_trees']->id = 'manage_trees';
   cache::$data['data_original']['tabs']['menu']['manage_trees']->attributes['class']['manage-trees'] = 'manage-trees';
-  cache::$data['data_original']['tabs']['locales']['languages'] = new \effcore\tabs();
-  cache::$data['data_original']['tabs']['locales']['languages']->id = 'languages';
-  cache::$data['data_original']['tabs']['locales']['languages']->attributes['class']['languages'] = 'languages';
   cache::$data['data_original']['tabs']['demo']['demo'] = new \effcore\tabs();
   cache::$data['data_original']['tabs']['demo']['demo']->id = 'demo';
   cache::$data['data_original']['tabs']['demo']['demo']->attributes['class']['demo'] = 'demo';
@@ -3503,7 +3499,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['save'] = 'сохранить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Search'] = 'Поиск';
   cache::$data['data_original']['translations']['locales']['ru']->data['search'] = 'поиск';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Select available language'] = 'Выберите доступный язык';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select instance'] = 'Выбрать экземпляр';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select instances'] = 'Выбрать экземпляры';
   cache::$data['data_original']['translations']['locales']['ru']->data['Select'] = 'Выбрать';

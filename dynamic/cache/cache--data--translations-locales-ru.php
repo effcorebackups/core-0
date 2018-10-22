@@ -255,7 +255,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['save'] = 'сохранить';
   cache::$data['data--translations-locales-ru']->data['Search'] = 'Поиск';
   cache::$data['data--translations-locales-ru']->data['search'] = 'поиск';
-  cache::$data['data--translations-locales-ru']->data['Select available language'] = 'Выберите доступный язык';
   cache::$data['data--translations-locales-ru']->data['Select instance'] = 'Выбрать экземпляр';
   cache::$data['data--translations-locales-ru']->data['Select instances'] = 'Выбрать экземпляры';
   cache::$data['data--translations-locales-ru']->data['Select'] = 'Выбрать';
