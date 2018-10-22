@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-22 06:40:58';
+  cache::$info['data_original']['build'] = '2018-10-22 08:32:00';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -999,7 +999,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['install']->display = new \stdClass();
   cache::$data['data_original']['pages']['core']['install']->display->check = 'url';
   cache::$data['data_original']['pages']['core']['install']->display->where = 'path';
-  cache::$data['data_original']['pages']['core']['install']->display->match = '%^(?<base>/install)(/(?<code>[a-z]{2,2})|)$%';
+  cache::$data['data_original']['pages']['core']['install']->display->match = '%^(?<base>/install)(/(?<lang_code>[a-z]{2,2})|)$%';
   cache::$data['data_original']['pages']['core']['install']->access = new \stdClass();
   cache::$data['data_original']['pages']['core']['install']->access->roles['anonymous'] = 'anonymous';
   cache::$data['data_original']['pages']['core']['install']->children['language_switcher'] = new \effcore\page_part();

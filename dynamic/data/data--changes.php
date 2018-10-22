@@ -2,7 +2,7 @@
 
 namespace effcore { # data for changes
 
-  data::$info['changes']['build'] = '2018-10-22 06:41:14';
+  data::$info['changes']['build'] = '2018-10-22 08:32:10';
   data::$data['changes']['core'] = new \stdClass();
   data::$data['changes']['core']->insert['storages/storage/storage_pdo_sql'] = new \stdClass();
   data::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->driver = 'mysql';
@@ -13,9 +13,10 @@ namespace effcore { # data for changes
   data::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->credentials->user_name = 'root';
   data::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->credentials->password = '123';
   data::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->table_prefix = '';
-  data::$data['changes']['core']->update['settings/core/keys']['cron'] = '06d561b519cc2779e4c555cbe69300f6f2933fe0';
-  data::$data['changes']['core']->update['settings/core/keys']['form_validation'] = 'eb29f8b34354a2e3806e3e318a4ac0f502bea082';
-  data::$data['changes']['core']->update['settings/core/keys']['session'] = 'bb8a7a620efcda8b2c0197348be7cdf231e75b32';
-  data::$data['changes']['core']->update['settings/core/keys']['salt'] = 'c32a61a3cb8e852199b8018065eb628d82bfef36';
+  data::$data['changes']['core']->update['settings/locales/lang_code'] = 'en';
+  data::$data['changes']['core']->update['settings/core/keys']['cron'] = '28e36d7a7b69cfecbc10c9331f2d44273a3a5e25';
+  data::$data['changes']['core']->update['settings/core/keys']['form_validation'] = 'b4f4ea0b873dfa09fa29f9bac44a746993f13c6d';
+  data::$data['changes']['core']->update['settings/core/keys']['session'] = '921df9b1ceded640e8688c08e8dcf3696022fde5';
+  data::$data['changes']['core']->update['settings/core/keys']['salt'] = '6ab5016833189d4f84d435372311e1f04911a257';
 
 }
