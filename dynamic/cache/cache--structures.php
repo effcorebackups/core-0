@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for structures
 
-  cache::$info['structures']['build'] = '2018-10-22 11:13:51';
+  cache::$info['structures']['build'] = '2018-10-22 13:30:15';
   cache::$data['structures']['effcore\\access'] = new \stdClass();
   cache::$data['structures']['effcore\\access']->modifier = 'abstract';
   cache::$data['structures']['effcore\\access']->namespace = 'effcore';
@@ -464,6 +464,12 @@ namespace effcore { # cache for structures
   cache::$data['structures']['effcore\\modules\\develop\\events_page_structures']->name = 'events_page_structures';
   cache::$data['structures']['effcore\\modules\\develop\\events_page_structures']->type = 'class';
   cache::$data['structures']['effcore\\modules\\develop\\events_page_structures']->file = 'system/module_develop/backend/events--page-structures.php';
+  cache::$data['structures']['effcore\\modules\\locales\\events_form_locales'] = new \stdClass();
+  cache::$data['structures']['effcore\\modules\\locales\\events_form_locales']->modifier = 'abstract';
+  cache::$data['structures']['effcore\\modules\\locales\\events_form_locales']->namespace = 'effcore\\modules\\locales';
+  cache::$data['structures']['effcore\\modules\\locales\\events_form_locales']->name = 'events_form_locales';
+  cache::$data['structures']['effcore\\modules\\locales\\events_form_locales']->type = 'class';
+  cache::$data['structures']['effcore\\modules\\locales\\events_form_locales']->file = 'system/module_locales/backend/events--form-locales.php';
   cache::$data['structures']['effcore\\modules\\locales\\events_page'] = new \stdClass();
   cache::$data['structures']['effcore\\modules\\locales\\events_page']->modifier = 'abstract';
   cache::$data['structures']['effcore\\modules\\locales\\events_page']->namespace = 'effcore\\modules\\locales';

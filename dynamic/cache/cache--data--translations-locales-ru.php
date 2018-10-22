@@ -268,6 +268,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Session'] = 'Сессия';
   cache::$data['data--translations-locales-ru']->data['Sessions'] = 'Сессии';
   cache::$data['data--translations-locales-ru']->data['set'] = 'установка';
+  cache::$data['data--translations-locales-ru']->data['Settings'] = 'Настройки';
   cache::$data['data--translations-locales-ru']->data['Shared information'] = 'Общая информация';
   cache::$data['data--translations-locales-ru']->data['Shared params'] = 'Общие параметры';
   cache::$data['data--translations-locales-ru']->data['Show description'] = 'Показать описание';

@@ -61,6 +61,14 @@ namespace effcore { # cache for data--tree_items
   cache::$data['data--tree_items']['menu']['manage_trees']->access = new \stdClass();
   cache::$data['data--tree_items']['menu']['manage_trees']->access->roles['admins'] = 'admins';
   cache::$data['data--tree_items']['menu']['manage_trees']->attributes['class']['manage-trees'] = 'manage-trees';
+  cache::$data['data--tree_items']['locales']['locales'] = new \effcore\tree_item();
+  cache::$data['data--tree_items']['locales']['locales']->id = 'locales';
+  cache::$data['data--tree_items']['locales']['locales']->id_parent = 'manage';
+  cache::$data['data--tree_items']['locales']['locales']->title = 'Locales';
+  cache::$data['data--tree_items']['locales']['locales']->url = '/manage/locales';
+  cache::$data['data--tree_items']['locales']['locales']->access = new \stdClass();
+  cache::$data['data--tree_items']['locales']['locales']->access->roles['admins'] = 'admins';
+  cache::$data['data--tree_items']['locales']['locales']->attributes['class']['locales'] = 'locales';
   cache::$data['data--tree_items']['test']['tests'] = new \effcore\tree_item();
   cache::$data['data--tree_items']['test']['tests']->id = 'tests';
   cache::$data['data--tree_items']['test']['tests']->id_parent = 'develop';

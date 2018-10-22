@@ -108,6 +108,14 @@ namespace effcore { # cache for data--pages
   cache::$data['data--pages']['menu']['trees']->display->match = '%^(?<base>/manage/trees)/(?<action>select|insert)(/(?<id>[a-z_]+)|)$%';
   cache::$data['data--pages']['menu']['trees']->access = new \stdClass();
   cache::$data['data--pages']['menu']['trees']->access->roles['admins'] = 'admins';
+  cache::$data['data--pages']['locales']['locales'] = new \effcore\external_cache();
+  cache::$data['data--pages']['locales']['locales']->cache_name = 'data--pages-locales-locales';
+  cache::$data['data--pages']['locales']['locales']->display = new \stdClass();
+  cache::$data['data--pages']['locales']['locales']->display->check = 'url';
+  cache::$data['data--pages']['locales']['locales']->display->where = 'path';
+  cache::$data['data--pages']['locales']['locales']->display->match = '%^/manage/locales$%';
+  cache::$data['data--pages']['locales']['locales']->access = new \stdClass();
+  cache::$data['data--pages']['locales']['locales']->access->roles['admins'] = 'admins';
   cache::$data['data--pages']['test']['tests'] = new \effcore\external_cache();
   cache::$data['data--pages']['test']['tests']->cache_name = 'data--pages-test-tests';
   cache::$data['data--pages']['test']['tests']->display = new \stdClass();

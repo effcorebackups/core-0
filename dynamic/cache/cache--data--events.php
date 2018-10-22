@@ -86,6 +86,13 @@ namespace effcore { # cache for data--events
   cache::$data['data--events']['menu']->on_module_install['menu'] = new \effcore\event();
   cache::$data['data--events']['menu']->on_module_install['menu']->for = 'menu';
   cache::$data['data--events']['menu']->on_module_install['menu']->handler = '\\effcore\\modules\\menu\\events_module::on_install';
+  cache::$data['data--events']['locales'] = new \stdClass();
+  cache::$data['data--events']['locales']->on_form_init['locales'] = new \effcore\event();
+  cache::$data['data--events']['locales']->on_form_init['locales']->for = 'locales';
+  cache::$data['data--events']['locales']->on_form_init['locales']->handler = '\\effcore\\modules\\locales\\events_form_locales::on_init';
+  cache::$data['data--events']['locales']->on_form_submit['locales'] = new \effcore\event();
+  cache::$data['data--events']['locales']->on_form_submit['locales']->for = 'locales';
+  cache::$data['data--events']['locales']->on_form_submit['locales']->handler = '\\effcore\\modules\\locales\\events_form_locales::on_submit';
   cache::$data['data--events']['test'] = new \stdClass();
   cache::$data['data--events']['test']->on_form_init['test'] = new \effcore\event();
   cache::$data['data--events']['test']->on_form_init['test']->for = 'test';

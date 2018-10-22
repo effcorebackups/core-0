@@ -13,7 +13,7 @@ namespace effcore { # data for changes
   data::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->credentials->user_name = 'root';
   data::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->credentials->password = '123';
   data::$data['changes']['core']->insert['storages/storage/storage_pdo_sql']->table_prefix = '';
-  data::$data['changes']['core']->update['settings/locales/lang_code'] = 'en';
+  data::$data['changes']['core']->update['settings/locales/lang_code'] = 'ru';
   data::$data['changes']['core']->update['settings/core/keys']['cron'] = '5b2656bf4a920ea9c86989c5a114bd91ccbc3b89';
   data::$data['changes']['core']->update['settings/core/keys']['form_validation'] = '9a69052194f26eb04a7169ec64d6ef47363f04f7';
   data::$data['changes']['core']->update['settings/core/keys']['session'] = 'c210859d78f65536912441b14576a9323e7c6586';
