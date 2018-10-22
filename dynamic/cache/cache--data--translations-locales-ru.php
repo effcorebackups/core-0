@@ -129,7 +129,10 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['file'] = 'файл';
   cache::$data['data--translations-locales-ru']->data['Form elements'] = 'Элементы формы';
   cache::$data['data--translations-locales-ru']->data['Front page'] = 'Главная страница';
+  cache::$data['data--translations-locales-ru']->data['front'] = 'главная';
   cache::$data['data--translations-locales-ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
+  cache::$data['data--translations-locales-ru']->data['go to front page'] = 'перейти на главную страницу';
+  cache::$data['data--translations-locales-ru']->data['Go to page: %%_link.'] = 'Перейти на страницу: %%_link.';
   cache::$data['data--translations-locales-ru']->data['Group "%%_title" has a changed value.'] = 'Группа "%%_title" имеет измененное значение.';
   cache::$data['data--translations-locales-ru']->data['Hostname'] = 'Имя узла сети';
   cache::$data['data--translations-locales-ru']->data['I accept the terms of the license agreement'] = 'Я принимаю условия лицензионного соглашения';
@@ -306,7 +309,6 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Time'] = 'Время';
   cache::$data['data--translations-locales-ru']->data['Timezone'] = 'Часовой пояс';
   cache::$data['data--translations-locales-ru']->data['Title'] = 'Заголовок';
-  cache::$data['data--translations-locales-ru']->data['to front page'] = 'на главную страницу';
   cache::$data['data--translations-locales-ru']->data['token'] = 'токен';
   cache::$data['data--translations-locales-ru']->data['Total'] = 'Всего';
   cache::$data['data--translations-locales-ru']->data['Translate'] = 'Перевод';

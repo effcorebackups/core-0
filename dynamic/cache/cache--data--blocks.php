@@ -9,7 +9,7 @@ namespace effcore { # cache for data--blocks
   cache::$data['data--blocks']['page']['logo']->children['link']->attributes['class']['to_front'] = 'to_front';
   cache::$data['data--blocks']['page']['logo']->children['link']->attributes['href'] = '/';
   cache::$data['data--blocks']['page']['logo']->children['link']->attributes['title'] = new \effcore\text();
-  cache::$data['data--blocks']['page']['logo']->children['link']->attributes['title']->text = 'to front page';
+  cache::$data['data--blocks']['page']['logo']->children['link']->attributes['title']->text = 'go to front page';
   cache::$data['data--blocks']['page']['logo']->attributes['class']['logo'] = 'logo';
   cache::$data['data--blocks']['demo']['demo'] = new \effcore\block();
   cache::$data['data--blocks']['demo']['demo']->title = 'Static block';
