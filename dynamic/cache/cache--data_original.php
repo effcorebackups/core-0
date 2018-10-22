@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-22 13:30:15';
+  cache::$info['data_original']['build'] = '2018-10-22 15:20:52';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3344,7 +3344,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Canvas'] = 'Холст';
   cache::$data['data_original']['translations']['locales']['ru']->data['CAPTCHA'] = 'Защитный код (CAPTCHA)';
   cache::$data['data_original']['translations']['locales']['ru']->data['CAPTCHAs'] = 'Защитные коды (CAPTCHAs)';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Change this EMail and Password after login to the system!'] = 'Измените этот Адрес электронной почты и Пароль после входа в систему!';
   cache::$data['data_original']['translations']['locales']['ru']->data['Characters'] = 'Символы';
   cache::$data['data_original']['translations']['locales']['ru']->data['Check field again before submit.'] = 'Проверьте поле снова перед отправкой.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Check file (if exists) and directory permissions.'] = 'Проверьте разрешения файла (если существует) и каталога.';
@@ -3442,7 +3441,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['front'] = 'главная';
   cache::$data['data_original']['translations']['locales']['ru']->data['go to <a href="/">front page</a>'] = 'перейти на <a href="/">главную страницу</a>';
   cache::$data['data_original']['translations']['locales']['ru']->data['go to front page'] = 'перейти на главную страницу';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Go to page: %%_link.'] = 'Перейти на страницу: %%_link.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['go to page %%_link'] = 'перейти на страницу %%_link';
   cache::$data['data_original']['translations']['locales']['ru']->data['Group "%%_title" has a changed value.'] = 'Группа "%%_title" имеет измененное значение.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Hostname'] = 'Имя узла сети';
   cache::$data['data_original']['translations']['locales']['ru']->data['I accept the terms of the license agreement'] = 'Я принимаю условия лицензионного соглашения';
@@ -3454,7 +3453,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['insertion'] = 'вставка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Install'] = 'Установить';
   cache::$data['data_original']['translations']['locales']['ru']->data['install'] = 'установить';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Installation is not available because storage credentials was set!'] = 'Установка недоступна потому, что учетные данные хранилища уже были установлены.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Installation is not available because storage credentials was set!'] = 'Установка недоступна потому, что учетные данные хранилища уже были заданы.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Installation'] = 'Установка';
   cache::$data['data_original']['translations']['locales']['ru']->data['installation'] = 'установка';
   cache::$data['data_original']['translations']['locales']['ru']->data['Instance of entity "%%_entity_name" with id = "%%_instance_id" was deleted.'] = 'Экземпляр сущности "%%_entity_name" с id = "%%_instance_id" был удален.';
@@ -3670,8 +3669,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['You are trying to upload too much files!'] = 'Вы пытаетесь загрузить слишком много файлов!';
   cache::$data['data_original']['translations']['locales']['ru']->data['You have already uploaded %%_number file%%_plural{number,s}.'] = 'Вы уже загрузили %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['You must upload at least %%_number file%%_plural{number,s}.'] = 'Необходимо загрузить как минимум %%_number файл%%_plural{number,ov-a}.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Your EMail is: %%_email'] = 'Ваш Адрес электронной почты: %%_email';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Your Password is: %%_password'] = 'Ваш Пароль: %%_password';
+  cache::$data['data_original']['translations']['locales']['ru']->data['your EMail is — %%_email'] = 'ваш Адрес электронной почты — %%_email';
+  cache::$data['data_original']['translations']['locales']['ru']->data['your Password is — %%_password'] = 'ваш Пароль — %%_password';
   cache::$data['data_original']['translations']['develop']['ru'] = new \effcore\translation();
   cache::$data['data_original']['translations']['develop']['ru']->code = 'ru';
   cache::$data['data_original']['translations']['develop']['ru']->data['Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content. Paragraph content.&#10;'] = ' Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа. Текст параграфа.&#10;';
