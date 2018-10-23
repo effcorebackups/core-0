@@ -16,7 +16,7 @@ namespace effcore {
     $lang_code = $lang_code == 'en' || $lang_code == 'ru' ? $lang_code : 'en';
     $license = new file(dir_root.'license-'.$lang_code.'.mark');
     $markup_license = new markup('x-document', ['class' => ['license' => 'license']], markdown::markdown_to_markup($license->load()));
-    $markup_agree = new field_checkbox($this->agree_title);
+    $markup_agree = new field_switcher($this->agree_title);
     $markup_agree->build();
     $markup_agree->name_set('is_agree');
     $markup_agree->value_set('is_agree');
