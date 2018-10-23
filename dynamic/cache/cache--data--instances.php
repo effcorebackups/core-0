@@ -5,7 +5,6 @@ namespace effcore { # cache for data--instances
   cache::$data['data--instances']['user']['user_admin'] = new \effcore\instance();
   cache::$data['data--instances']['user']['user_admin']->entity_name = 'user';
   cache::$data['data--instances']['user']['user_admin']->values['nick'] = 'admin';
-  cache::$data['data--instances']['user']['user_admin']->values['email'] = 'admin@example.com';
   cache::$data['data--instances']['user']['user_admin']->values['is_embed'] = 1;
   cache::$data['data--instances']['user']['role_admins'] = new \effcore\instance();
   cache::$data['data--instances']['user']['role_admins']->entity_name = 'role';
