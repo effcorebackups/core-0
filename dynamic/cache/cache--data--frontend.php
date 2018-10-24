@@ -70,6 +70,14 @@ namespace effcore { # cache for data--frontend
   cache::$data['data--frontend']['menu']['frontend_block_tabs']->styles['tabs_style'] = new \stdClass();
   cache::$data['data--frontend']['menu']['frontend_block_tabs']->styles['tabs_style']->file = 'frontend/tabs.cssd';
   cache::$data['data--frontend']['menu']['frontend_block_tabs']->styles['tabs_style']->media = 'all';
+  cache::$data['data--frontend']['locales']['frontend_page_install'] = new \stdClass();
+  cache::$data['data--frontend']['locales']['frontend_page_install']->display = new \stdClass();
+  cache::$data['data--frontend']['locales']['frontend_page_install']->display->check = 'url';
+  cache::$data['data--frontend']['locales']['frontend_page_install']->display->where = 'path';
+  cache::$data['data--frontend']['locales']['frontend_page_install']->display->match = '%^/install/[a-z]{2,2}$%';
+  cache::$data['data--frontend']['locales']['frontend_page_install']->styles['page_style'] = new \stdClass();
+  cache::$data['data--frontend']['locales']['frontend_page_install']->styles['page_style']->file = 'frontend/locales.cssd';
+  cache::$data['data--frontend']['locales']['frontend_page_install']->styles['page_style']->media = 'all';
   cache::$data['data--frontend']['develop']['frontend_develop_page_n'] = new \stdClass();
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->display = new \stdClass();
   cache::$data['data--frontend']['develop']['frontend_develop_page_n']->display->check = 'url';

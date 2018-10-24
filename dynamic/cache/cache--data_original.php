@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-24 09:38:32';
+  cache::$info['data_original']['build'] = '2018-10-24 13:48:32';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3029,6 +3029,14 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->styles['tabs_style'] = new \stdClass();
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->styles['tabs_style']->file = 'frontend/tabs.cssd';
   cache::$data['data_original']['frontend']['menu']['frontend_block_tabs']->styles['tabs_style']->media = 'all';
+  cache::$data['data_original']['frontend']['locales']['frontend_page_install'] = new \stdClass();
+  cache::$data['data_original']['frontend']['locales']['frontend_page_install']->display = new \stdClass();
+  cache::$data['data_original']['frontend']['locales']['frontend_page_install']->display->check = 'url';
+  cache::$data['data_original']['frontend']['locales']['frontend_page_install']->display->where = 'path';
+  cache::$data['data_original']['frontend']['locales']['frontend_page_install']->display->match = '%^/install/[a-z]{2,2}$%';
+  cache::$data['data_original']['frontend']['locales']['frontend_page_install']->styles['page_style'] = new \stdClass();
+  cache::$data['data_original']['frontend']['locales']['frontend_page_install']->styles['page_style']->file = 'frontend/locales.cssd';
+  cache::$data['data_original']['frontend']['locales']['frontend_page_install']->styles['page_style']->media = 'all';
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n'] = new \stdClass();
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display = new \stdClass();
   cache::$data['data_original']['frontend']['develop']['frontend_develop_page_n']->display->check = 'url';
