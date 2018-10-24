@@ -12,9 +12,9 @@ namespace effcore {
   public $agree_title = 'I accept the terms of the license agreement';
 
   function build() {
-    $lang_code = language::current_code_get();
-    $lang_code = $lang_code == 'en' || $lang_code == 'ru' ? $lang_code : 'en';
-    $license = new file(dir_root.'license-'.$lang_code.'.mark');
+    $language = language::get(language::current_code_get());
+    $license = new file($language->license_translation ?
+             dir_system.$language->license_translation : dir_root.'license.mark');
     $markup_license = new markup('x-document', ['class' => ['license' => 'license']], markdown::markdown_to_markup($license->load()));
     $markup_agree = new field_switcher($this->agree_title);
     $markup_agree->build();

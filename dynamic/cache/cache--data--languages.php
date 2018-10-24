@@ -12,5 +12,6 @@ namespace effcore { # cache for data--languages
   cache::$data['data--languages']['locales']['ru']->title = new \stdClass();
   cache::$data['data--languages']['locales']['ru']->title->en = 'Russian';
   cache::$data['data--languages']['locales']['ru']->title->native = 'Русский';
+  cache::$data['data--languages']['locales']['ru']->license_translation = 'module_locales/licenses/license-ru.mark';
 
 }
