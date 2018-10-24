@@ -6,7 +6,7 @@ namespace effcore { # cache for data--settings
   cache::$data['data--settings']['page']->color_id = 'black';
   cache::$data['data--settings']['page']->color_bg_id = 'modernblue';
   cache::$data['data--settings']['locales'] = new \stdClass();
-  cache::$data['data--settings']['locales']->lang_code = 'ru';
+  cache::$data['data--settings']['locales']->lang_code = 'en';
   cache::$data['data--settings']['locales']->decimal_point = ',';
   cache::$data['data--settings']['locales']->thousands_separator = '';
   cache::$data['data--settings']['locales']->format_date = 'd.m.Y';
@@ -14,9 +14,9 @@ namespace effcore { # cache for data--settings
   cache::$data['data--settings']['locales']->format_datetime = 'd.m.Y H:i:s';
   cache::$data['data--settings']['locales']->timezone = 'Europe/Minsk';
   cache::$data['data--settings']['core'] = new \stdClass();
-  cache::$data['data--settings']['core']->keys['cron'] = 'c5f463796d852811958a7c30c8e2e1ebc647f2d7';
-  cache::$data['data--settings']['core']->keys['form_validation'] = 'a2b46751bb2041c2d127b2feb3ec2ea1f12b84f5';
-  cache::$data['data--settings']['core']->keys['session'] = 'adf7bedd276fba9e19707b744703556b4a42c5ce';
-  cache::$data['data--settings']['core']->keys['salt'] = 'b757da948c9628c995a4b173bb409e04e1096d37';
+  cache::$data['data--settings']['core']->keys['cron'] = '30e32359709a09b412bce82d9120c7ded442e38d';
+  cache::$data['data--settings']['core']->keys['form_validation'] = 'e91f2ea551967f51894c1c76780bf0ec5294c3c1';
+  cache::$data['data--settings']['core']->keys['session'] = '7906da3a58b041f21006fdc496814098f4444804';
+  cache::$data['data--settings']['core']->keys['salt'] = 'b85de9f1ac12645507a7286e684c8fba7c224281';
 
 }
