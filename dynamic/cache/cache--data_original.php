@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-23 20:33:02';
+  cache::$info['data_original']['build'] = '2018-10-24 07:51:28';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1347,7 +1347,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->title = 'Credentials';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['email'] = new \effcore\field_email();
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['password'] = new \effcore\field_password();
-  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params'] = new \effcore\group_checkboxes();
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params'] = new \effcore\group_switchers();
+  cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->element_attributes['data-type'] = 'switcher';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->element_attributes['name'] = 'session_params[]';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['is_remember'] = 'remember me';
   cache::$data['data_original']['forms']['user']['login']->children['credentials']->children['session_params']->values['is_fixed_ip'] = 'on this ip';
