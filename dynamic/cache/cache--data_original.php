@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-24 13:48:32';
+  cache::$info['data_original']['build'] = '2018-10-24 14:38:53';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3412,6 +3412,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Delete'] = 'Удалить';
   cache::$data['data_original']['translations']['locales']['ru']->data['delete'] = 'удалить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Description'] = 'Описание';
+  cache::$data['data_original']['translations']['locales']['ru']->data['description'] = 'описание';
   cache::$data['data_original']['translations']['locales']['ru']->data['Diagrams'] = 'Диаграммы';
   cache::$data['data_original']['translations']['locales']['ru']->data['disable'] = 'выключить';
   cache::$data['data_original']['translations']['locales']['ru']->data['Do you want to delete instance of entity "%%_entity_name" with id = "%%_instance_id"?'] = 'Вы хотите удалить экземпляр сущности "%%_entity_name" с id = "%%_instance_id"?';
@@ -3563,6 +3564,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Parent ID'] = 'ID Родителя';
   cache::$data['data_original']['translations']['locales']['ru']->data['Password'] = 'Пароль';
   cache::$data['data_original']['translations']['locales']['ru']->data['Path'] = 'Путь';
+  cache::$data['data_original']['translations']['locales']['ru']->data['path'] = 'путь';
   cache::$data['data_original']['translations']['locales']['ru']->data['Permission ID'] = 'ID Разрешения';
   cache::$data['data_original']['translations']['locales']['ru']->data['Permission'] = 'Разрешение';
   cache::$data['data_original']['translations']['locales']['ru']->data['Permissions'] = 'Разрешения';
@@ -3690,6 +3692,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Value'] = 'Значение';
   cache::$data['data_original']['translations']['locales']['ru']->data['Values'] = 'Значения';
   cache::$data['data_original']['translations']['locales']['ru']->data['Version'] = 'Версия';
+  cache::$data['data_original']['translations']['locales']['ru']->data['version'] = 'версия';
   cache::$data['data_original']['translations']['locales']['ru']->data['View more'] = 'Смотреть больше';
   cache::$data['data_original']['translations']['locales']['ru']->data['view'] = 'просмотреть';
   cache::$data['data_original']['translations']['locales']['ru']->data['warning'] = 'предупреждение';

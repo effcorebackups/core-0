@@ -66,6 +66,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Delete'] = 'Удалить';
   cache::$data['data--translations-locales-ru']->data['delete'] = 'удалить';
   cache::$data['data--translations-locales-ru']->data['Description'] = 'Описание';
+  cache::$data['data--translations-locales-ru']->data['description'] = 'описание';
   cache::$data['data--translations-locales-ru']->data['Diagrams'] = 'Диаграммы';
   cache::$data['data--translations-locales-ru']->data['disable'] = 'выключить';
   cache::$data['data--translations-locales-ru']->data['Do you want to delete instance of entity "%%_entity_name" with id = "%%_instance_id"?'] = 'Вы хотите удалить экземпляр сущности "%%_entity_name" с id = "%%_instance_id"?';
@@ -217,6 +218,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Parent ID'] = 'ID Родителя';
   cache::$data['data--translations-locales-ru']->data['Password'] = 'Пароль';
   cache::$data['data--translations-locales-ru']->data['Path'] = 'Путь';
+  cache::$data['data--translations-locales-ru']->data['path'] = 'путь';
   cache::$data['data--translations-locales-ru']->data['Permission ID'] = 'ID Разрешения';
   cache::$data['data--translations-locales-ru']->data['Permission'] = 'Разрешение';
   cache::$data['data--translations-locales-ru']->data['Permissions'] = 'Разрешения';
@@ -344,6 +346,7 @@ namespace effcore { # cache for data--translations-locales-ru
   cache::$data['data--translations-locales-ru']->data['Value'] = 'Значение';
   cache::$data['data--translations-locales-ru']->data['Values'] = 'Значения';
   cache::$data['data--translations-locales-ru']->data['Version'] = 'Версия';
+  cache::$data['data--translations-locales-ru']->data['version'] = 'версия';
   cache::$data['data--translations-locales-ru']->data['View more'] = 'Смотреть больше';
   cache::$data['data--translations-locales-ru']->data['view'] = 'просмотреть';
   cache::$data['data--translations-locales-ru']->data['warning'] = 'предупреждение';
