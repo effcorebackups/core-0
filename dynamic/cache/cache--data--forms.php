@@ -22,6 +22,8 @@ namespace effcore { # cache for data--forms
   cache::$data['data--forms']['test']['test']->cache_name = 'data--forms-test-test';
   cache::$data['data--forms']['demo']['demo'] = new \effcore\external_cache();
   cache::$data['data--forms']['demo']['demo']->cache_name = 'data--forms-demo-demo';
+  cache::$data['data--forms']['core']['modules'] = new \effcore\external_cache();
+  cache::$data['data--forms']['core']['modules']->cache_name = 'data--forms-core-modules';
   cache::$data['data--forms']['core']['install'] = new \effcore\external_cache();
   cache::$data['data--forms']['core']['install']->cache_name = 'data--forms-core-install';
 

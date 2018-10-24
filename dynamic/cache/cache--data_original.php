@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-24 08:04:48';
+  cache::$info['data_original']['build'] = '2018-10-24 09:14:24';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1026,9 +1026,9 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['pages']['core']['modules']->children['title']->region = 'title';
   cache::$data['data_original']['pages']['core']['modules']->children['title']->type = 'code';
   cache::$data['data_original']['pages']['core']['modules']->children['title']->source = '\\effcore\\modules\\page\\events_page::on_show_title';
-  cache::$data['data_original']['pages']['core']['modules']->children['block_modules'] = new \effcore\page_part();
-  cache::$data['data_original']['pages']['core']['modules']->children['block_modules']->type = 'code';
-  cache::$data['data_original']['pages']['core']['modules']->children['block_modules']->source = '\\effcore\\modules\\core\\events_page_modules::on_show_block_modules';
+  cache::$data['data_original']['pages']['core']['modules']->children['form_modules'] = new \effcore\page_part();
+  cache::$data['data_original']['pages']['core']['modules']->children['form_modules']->type = 'link';
+  cache::$data['data_original']['pages']['core']['modules']->children['form_modules']->source = 'forms/core/modules';
   cache::$data['data_original']['pages']['core']['modules']->children['form_access'] = new \effcore\page_part();
   cache::$data['data_original']['pages']['core']['modules']->children['form_access']->display = new \stdClass();
   cache::$data['data_original']['pages']['core']['modules']->children['form_access']->display->check = 'user';
@@ -1586,6 +1586,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->state = 'opened';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->title = 'Checkboxes';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkbox'] = new \effcore\field_checkbox();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->title = 'Checkbox';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->element_attributes['name'] = 'checkbox';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->element_attributes['value'] = 'checkbox';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['checkboxes_all']->children['checkbox']->element_attributes['checked'] = 'checked';
@@ -1633,6 +1634,7 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->state = 'opened';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->title = 'Radiobuttons';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radiobutton'] = new \effcore\field_radiobutton();
+  cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radiobutton']->title = 'Radiobutton';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radiobutton']->element_attributes['name'] = 'radiobutton';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radiobutton']->element_attributes['value'] = 'radiobutton';
   cache::$data['data_original']['forms']['demo']['demo']->children['form_elements']->children['radiobuttons_all']->children['radiobutton']->description = new \effcore\text();
@@ -1669,6 +1671,18 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['demo']['demo']->attributes['enctype'] = 'multipart/form-data';
   cache::$data['data_original']['forms']['demo']['demo']->attributes['method'] = 'post';
   cache::$data['data_original']['forms']['demo']['demo']->attributes['novalidate'] = 'novalidate';
+  cache::$data['data_original']['forms']['core']['modules'] = new \effcore\form();
+  cache::$data['data_original']['forms']['core']['modules']->children['info'] = new \effcore\markup();
+  cache::$data['data_original']['forms']['core']['modules']->children['info']->tag_name = 'x-modules-info';
+  cache::$data['data_original']['forms']['core']['modules']->children['button_save'] = new \effcore\button();
+  cache::$data['data_original']['forms']['core']['modules']->children['button_save']->attributes['type'] = 'submit';
+  cache::$data['data_original']['forms']['core']['modules']->children['button_save']->attributes['name'] = 'button';
+  cache::$data['data_original']['forms']['core']['modules']->children['button_save']->attributes['value'] = 'save';
+  cache::$data['data_original']['forms']['core']['modules']->children['button_save']->attributes['disabled'] = 'disabled';
+  cache::$data['data_original']['forms']['core']['modules']->children['button_save']->title = 'save';
+  cache::$data['data_original']['forms']['core']['modules']->attributes['id'] = 'modules';
+  cache::$data['data_original']['forms']['core']['modules']->attributes['method'] = 'post';
+  cache::$data['data_original']['forms']['core']['modules']->attributes['novalidate'] = 'novalidate';
   cache::$data['data_original']['forms']['core']['install'] = new \effcore\form();
   cache::$data['data_original']['forms']['core']['install']->children['storage'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['core']['install']->children['storage']->title = 'Storage';
@@ -1867,12 +1881,21 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['events']['core']->on_form_init['install'] = new \effcore\event();
   cache::$data['data_original']['events']['core']->on_form_init['install']->for = 'install';
   cache::$data['data_original']['events']['core']->on_form_init['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_init';
+  cache::$data['data_original']['events']['core']->on_form_init['modules'] = new \effcore\event();
+  cache::$data['data_original']['events']['core']->on_form_init['modules']->for = 'modules';
+  cache::$data['data_original']['events']['core']->on_form_init['modules']->handler = '\\effcore\\modules\\core\\events_form_modules::on_init';
   cache::$data['data_original']['events']['core']->on_form_validate['install'] = new \effcore\event();
   cache::$data['data_original']['events']['core']->on_form_validate['install']->for = 'install';
   cache::$data['data_original']['events']['core']->on_form_validate['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_validate';
+  cache::$data['data_original']['events']['core']->on_form_validate['modules'] = new \effcore\event();
+  cache::$data['data_original']['events']['core']->on_form_validate['modules']->for = 'modules';
+  cache::$data['data_original']['events']['core']->on_form_validate['modules']->handler = '\\effcore\\modules\\core\\events_form_modules::on_validate';
   cache::$data['data_original']['events']['core']->on_form_submit['install'] = new \effcore\event();
   cache::$data['data_original']['events']['core']->on_form_submit['install']->for = 'install';
   cache::$data['data_original']['events']['core']->on_form_submit['install']->handler = '\\effcore\\modules\\core\\events_form_install::on_submit';
+  cache::$data['data_original']['events']['core']->on_form_submit['modules'] = new \effcore\event();
+  cache::$data['data_original']['events']['core']->on_form_submit['modules']->for = 'modules';
+  cache::$data['data_original']['events']['core']->on_form_submit['modules']->handler = '\\effcore\\modules\\core\\events_form_modules::on_submit';
   cache::$data['data_original']['entities']['user']['permission'] = new \effcore\entity();
   cache::$data['data_original']['entities']['user']['permission']->name = 'permission';
   cache::$data['data_original']['entities']['user']['permission']->storage_name = 'main';
@@ -2407,21 +2430,21 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['module']['test']->title = 'Test';
   cache::$data['data_original']['module']['test']->description = 'Module for testing.';
   cache::$data['data_original']['module']['test']->version = 0.9;
-  cache::$data['data_original']['module']['test']->state = 'on';
+  cache::$data['data_original']['module']['test']->state = 'off';
   cache::$data['data_original']['module']['test']->path = 'system/module_develop/module_test/';
   cache::$data['data_original']['module']['demo'] = new \effcore\module();
   cache::$data['data_original']['module']['demo']->id = 'demo';
   cache::$data['data_original']['module']['demo']->title = 'Demo';
   cache::$data['data_original']['module']['demo']->description = 'Module for demonstrating capabilities.';
   cache::$data['data_original']['module']['demo']->version = 0.9;
-  cache::$data['data_original']['module']['demo']->state = 'on';
+  cache::$data['data_original']['module']['demo']->state = 'off';
   cache::$data['data_original']['module']['demo']->path = 'system/module_develop/module_demo/';
   cache::$data['data_original']['module']['develop'] = new \effcore\module();
   cache::$data['data_original']['module']['develop']->id = 'develop';
   cache::$data['data_original']['module']['develop']->title = 'Develop';
   cache::$data['data_original']['module']['develop']->description = 'Module for development.';
   cache::$data['data_original']['module']['develop']->version = 0.9;
-  cache::$data['data_original']['module']['develop']->state = 'on';
+  cache::$data['data_original']['module']['develop']->state = 'off';
   cache::$data['data_original']['module']['develop']->path = 'system/module_develop/';
   cache::$data['data_original']['module']['core'] = new \effcore\module();
   cache::$data['data_original']['module']['core']->id = 'core';
@@ -3504,7 +3527,6 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Module for working with navigation elements.'] = 'Модуль для работы с элементами навигации.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Module for working with pages.'] = 'Модуль работы со страницами.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Module for working with user accounts and permissions.'] = 'Модуль работы с пользовательскими аккаунтами и разрешениями.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Module information'] = 'Информация о модуле';
   cache::$data['data_original']['translations']['locales']['ru']->data['Modules was installed.'] = 'Модули были установлены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Modules'] = 'Модули';
   cache::$data['data_original']['translations']['locales']['ru']->data['name'] = 'имя';
