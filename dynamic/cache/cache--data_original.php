@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-24 14:38:53';
+  cache::$info['data_original']['build'] = '2018-10-24 14:48:51';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -3525,17 +3525,18 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['translations']['locales']['ru']->data['Maximum allowed only %%_number file%%_plural{number,s}.'] = 'Допускается максимально только %%_number файл%%_plural{number,ov-a}.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Memory for php (bytes)'] = 'Память для php (байт)';
   cache::$data['data_original']['translations']['locales']['ru']->data['Menu for anonymous user'] = 'Меню для анонимного пользователя';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Menu for authenticated user'] = 'Меню для аутентифицированного пользователя';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Menu for authenticated user'] = 'Меню для аутетифицированного пользователя';
   cache::$data['data_original']['translations']['locales']['ru']->data['Menu for demonstration'] = 'Меню для демонстрации';
   cache::$data['data_original']['translations']['locales']['ru']->data['Menu main'] = 'Меню главное';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Menu'] = 'Меню';
   cache::$data['data_original']['translations']['locales']['ru']->data['Message from storage: %%_message'] = 'Сообщение от хранилища: %%_message';
   cache::$data['data_original']['translations']['locales']['ru']->data['Minimal field value: %%_value.'] = 'Минимальное значение поля: %%_value.';
   cache::$data['data_original']['translations']['locales']['ru']->data['missing a temporary directory'] = 'отсутствует временный каталог';
   cache::$data['data_original']['translations']['locales']['ru']->data['Module for internationalization.'] = 'Модуль для интернационализации.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Module for storages support.'] = 'Модуль поддержки хранилищ данных.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Module for storages support.'] = 'Модуль для поддержки хранилищ данных.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Module for working with navigation elements.'] = 'Модуль для работы с элементами навигации.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Module for working with pages.'] = 'Модуль работы со страницами.';
-  cache::$data['data_original']['translations']['locales']['ru']->data['Module for working with user accounts and permissions.'] = 'Модуль работы с пользовательскими аккаунтами и разрешениями.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Module for working with pages.'] = 'Модуль для работы со страницами.';
+  cache::$data['data_original']['translations']['locales']['ru']->data['Module for working with user accounts and permissions.'] = 'Модуль для работы с пользовательскими аккаунтами и разрешениями.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Modules was installed.'] = 'Модули были установлены.';
   cache::$data['data_original']['translations']['locales']['ru']->data['Modules'] = 'Модули';
   cache::$data['data_original']['translations']['locales']['ru']->data['name'] = 'имя';
