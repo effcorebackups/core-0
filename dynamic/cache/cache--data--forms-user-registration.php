@@ -8,7 +8,8 @@ namespace effcore { # cache for data--forms-user-registration
   cache::$data['data--forms-user-registration']->children['credentials']->children['email'] = new \effcore\field_email();
   cache::$data['data--forms-user-registration']->children['credentials']->children['nick'] = new \effcore\field_nick();
   cache::$data['data--forms-user-registration']->children['credentials']->children['password'] = new \effcore\field_password();
-  cache::$data['data--forms-user-registration']->children['credentials']->children['session_params'] = new \effcore\group_checkboxes();
+  cache::$data['data--forms-user-registration']->children['credentials']->children['session_params'] = new \effcore\group_switchers();
+  cache::$data['data--forms-user-registration']->children['credentials']->children['session_params']->element_attributes['data-type'] = 'switcher';
   cache::$data['data--forms-user-registration']->children['credentials']->children['session_params']->element_attributes['name'] = 'session_params[]';
   cache::$data['data--forms-user-registration']->children['credentials']->children['session_params']->values['is_remember'] = 'remember me';
   cache::$data['data--forms-user-registration']->children['credentials']->children['session_params']->values['is_fixed_ip'] = 'on this ip';
