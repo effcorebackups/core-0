@@ -1,1 +1,0 @@
-git -C ../ update-index --no-skip-worktree dynamic/data/data.sqlite
