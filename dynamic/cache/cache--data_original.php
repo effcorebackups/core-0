@@ -2,7 +2,7 @@
 
 namespace effcore { # cache for data_original
 
-  cache::$info['data_original']['build'] = '2018-10-24 14:49:45';
+  cache::$info['data_original']['build'] = '2018-10-25 10:59:28';
   cache::$data['data_original']['trees']['user']['user_anonymous'] = new \effcore\tree();
   cache::$data['data_original']['trees']['user']['user_anonymous']->id = 'user_anonymous';
   cache::$data['data_original']['trees']['user']['user_anonymous']->title = 'Menu for anonymous user';
@@ -1706,14 +1706,15 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->element_attributes['value'] = 3306;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->element_attributes['min'] = 1024;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['port']->element_attributes['max'] = 49150;
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name'] = new \effcore\field_text();
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->title = 'User name';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->element_attributes['name'] = 'user_name';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->element_attributes['value'] = 'root';
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->element_attributes['minlength'] = 1;
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->element_attributes['maxlength'] = 64;
-  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['user_name']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_]+$%';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_login'] = new \effcore\field_text();
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_login']->title = 'User name';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_login']->element_attributes['name'] = 'storage_login';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_login']->element_attributes['value'] = 'root';
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_login']->element_attributes['minlength'] = 1;
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_login']->element_attributes['maxlength'] = 64;
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_login']->element_attributes['pattern'] = '%^[a-zA-Z0-9-_]+$%';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password'] = new \effcore\field_password();
+  cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->element_attributes['name'] = 'storage_password';
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->element_attributes['minlength'] = null;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['password']->element_attributes['required'] = null;
   cache::$data['data_original']['forms']['core']['install']->children['storage']->children['mysql']->children['storage_name'] = new \effcore\field_text();
@@ -1749,8 +1750,8 @@ namespace effcore { # cache for data_original
   cache::$data['data_original']['forms']['core']['install']->children['user'] = new \effcore\fieldset();
   cache::$data['data_original']['forms']['core']['install']->children['user']->title = 'User';
   cache::$data['data_original']['forms']['core']['install']->children['user']->children['email'] = new \effcore\field_email();
-  cache::$data['data_original']['forms']['core']['install']->children['user']->children['email']->element_attributes['name'] = 'email';
   cache::$data['data_original']['forms']['core']['install']->children['user']->children['email']->element_attributes['value'] = 'admin@example.com';
+  cache::$data['data_original']['forms']['core']['install']->children['user']->children['password'] = new \effcore\field_password();
   cache::$data['data_original']['forms']['core']['install']->children['license_agreement'] = new \effcore\group_license_agreement();
   cache::$data['data_original']['forms']['core']['install']->children['button_install'] = new \effcore\button();
   cache::$data['data_original']['forms']['core']['install']->children['button_install']->attributes['type'] = 'submit';
