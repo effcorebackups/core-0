@@ -9,7 +9,7 @@ namespace effcore { # cache for data--storages-storage-storage_pdo_sql
   cache::$data['data--storages-storage-storage_pdo_sql']->credentials->host_name = '[::1]';
   cache::$data['data--storages-storage-storage_pdo_sql']->credentials->port = '3306';
   cache::$data['data--storages-storage-storage_pdo_sql']->credentials->storage_name = 'main';
-  cache::$data['data--storages-storage-storage_pdo_sql']->credentials->user_name = 'root';
+  cache::$data['data--storages-storage-storage_pdo_sql']->credentials->login = 'root';
   cache::$data['data--storages-storage-storage_pdo_sql']->credentials->password = '123';
 
 }
