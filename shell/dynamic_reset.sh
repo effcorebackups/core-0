@@ -7,7 +7,6 @@ while true; do
         find ../dynamic/data    -not -name 'readme.mark' -not -path '../dynamic/data'    -delete
         find ../dynamic/files   -not -name 'readme.mark' -not -path '../dynamic/files'   -delete
         find ../dynamic/logs    -not -name 'readme.mark' -not -path '../dynamic/logs'    -delete
-        find ../dynamic/modules -not -name 'readme.mark' -not -path '../dynamic/modules' -delete
         find ../dynamic/tmp     -not -name 'readme.mark' -not -path '../dynamic/tmp'     -delete
         cp /dev/null ../dynamic/data/data.sqlite
         break;;
