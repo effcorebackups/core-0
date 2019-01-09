@@ -13,17 +13,17 @@
     <rdf:RDF>
       <cc:Work>
         <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
         <dc:rights><cc:Agent><dc:title>Copyright © 2017—2019 Maxim Rysevets. All rights reserved.</dc:title></cc:Agent></dc:rights>
         <dc:creator><cc:Agent><dc:title>Maxim Rysevets</dc:title></cc:Agent></dc:creator>
       </cc:Work>
     </rdf:RDF>
   </metadata>
 
-  <g>
-    <rect x="0.25" y="0.25" width="27.5" height="17.5" style="fill: white; stroke: blue; stroke-width: .5px" />
-    <rect x="0"    y="6"    width="28"   height="6"    style="fill: blue" />
-    <rect x="0"    y="12"   width="28"   height="6"    style="fill: red" />
+  <g id="flag">
+    <rect id="flag-bg"   x="0.25" y="0.25" width="27.5" height="17.5" style="fill: white; stroke: blue; stroke-width: .5px"/>
+    <rect id="line-blue" x="0"    y="6"    width="28"   height="6"    style="fill: blue"/>
+    <rect id="line-red"  x="0"    y="12"   width="28"   height="6"    style="fill: red"/>
   </g>
 
 </svg>

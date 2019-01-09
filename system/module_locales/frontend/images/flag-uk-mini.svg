@@ -13,24 +13,24 @@
     <rdf:RDF>
       <cc:Work>
         <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
         <dc:rights><cc:Agent><dc:title>Copyright © 2017—2019 Maxim Rysevets. All rights reserved.</dc:title></cc:Agent></dc:rights>
         <dc:creator><cc:Agent><dc:title>Maxim Rysevets</dc:title></cc:Agent></dc:creator>
       </cc:Work>
     </rdf:RDF>
   </metadata>
 
-  <g>
-    <rect x="0" y="0" width="28" height="18" style="fill: #00247d; stroke: none" />
-    <path style="fill: none; stroke: white; stroke-width: 3.5" d="M 0,0 28,18" />
-    <path style="fill: none; stroke: white; stroke-width: 3.5" d="M 28,0 0,18" />
-    <rect x="0.25" y="0.25" width="27.5" height="17.5" style="fill: none; stroke: #00247d; stroke-width: .5px" />
-    <path style="fill: none; stroke: #cf142b; stroke-width: 1.5" d="M 0,0 28,18" />
-    <path style="fill: none; stroke: #cf142b; stroke-width: 1.5" d="M 28,0 0,18" />
-    <path style="fill: none; stroke:   white; stroke-width: 6"   d="M 0.5,9 H 27.5" />
-    <path style="fill: none; stroke:   white; stroke-width: 6"   d="M 14,0.5 V 17.5" />
-    <path style="fill: none; stroke: #cf142b; stroke-width: 3.5" d="M 0,9 H 28" />
-    <path style="fill: none; stroke: #cf142b; stroke-width: 3.5" d="M 14,0 V 18" />
+  <g id="flag">
+    <rect id="flag-bg" x="0" y="0" width="28" height="18" style="fill: #00247d; stroke: none"/>
+    <path id="line-d-w" style="fill: none; stroke: white; stroke-width: 3.5" d="M 0,0 28,18"/>
+    <path id="line-d-w" style="fill: none; stroke: white; stroke-width: 3.5" d="M 28,0 0,18"/>
+    <rect id="border" x="0.25" y="0.25" width="27.5" height="17.5" style="fill: none; stroke: #00247d; stroke-width: .5px"/>
+    <path id="line-d-r" style="fill: none; stroke: #cf142b; stroke-width: 1.5" d="M 0,0 28,18"/>
+    <path id="line-d-r" style="fill: none; stroke: #cf142b; stroke-width: 1.5" d="M 28,0 0,18"/>
+    <path id="line-h-w" style="fill: none; stroke:   white; stroke-width: 6"   d="M 0.5,9 H 27.5"/>
+    <path id="line-v-w" style="fill: none; stroke:   white; stroke-width: 6"   d="M 14,0.5 V 17.5"/>
+    <path id="line-h-r" style="fill: none; stroke: #cf142b; stroke-width: 3.5" d="M 0,9 H 28"/>
+    <path id="line-v-r" style="fill: none; stroke: #cf142b; stroke-width: 3.5" d="M 14,0 V 18"/>
   </g>
 
 </svg>
