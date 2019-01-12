@@ -3,11 +3,21 @@ tests
     id: register_user
     title: Register user
     description: After each 3 insertions you will get the message "The test was failed!" because after every 3-rd challenge the CAPTCHA will change.
+    params
+    - is_https|field_checkbox
+        title: HTTPS
+        element_attributes
+        - name: is_https
+        - value: is_on
     scenario
     - init_captcha|step_request
         url: /registration
+        https|param_from_form
+          name: is_https
     - form_submit|step_request
         url: /registration
+        https|param_from_form
+          name: is_https
         post
         - form_id: registration
         - validation_id: %%_validation_id
