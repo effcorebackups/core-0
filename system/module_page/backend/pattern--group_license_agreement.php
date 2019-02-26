@@ -12,6 +12,7 @@ namespace effcore {
   public $agree_title = 'I accept the terms of the license agreement';
 
   function build() {
+    parent::build();
     $language = language::get(language::current_code_get());
     $license = new file($language->license_translation ?
              dir_system.$language->license_translation : dir_root.'license.mark');
