@@ -1,16 +1,17 @@
 colors_presets
-- default
-    id: default
-    title: Default
+- dark
+    id: dark
+    title: Dark
+    is_dark: true
     colors
       console_visibility: not_show
-      color_page_id: white
+      color_page_id: black
       color_menu_id: modern_blue
       color_menu_active_id: modern_dark_blue
       color_menu_text_id: white
       color_menu_link_id: white
       color_menu_link_active_id: modern_light_blue
-      color_text_id: black
+      color_text_id: white
       color_link_id: modern_blue
       color_link_active_id: black
       color_main_id: modern_blue
