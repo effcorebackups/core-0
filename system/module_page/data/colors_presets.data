@@ -7,7 +7,7 @@ colors_presets
       console_visibility: not_show
       color_page_id: modern_dark_blue
       color_text_id: white
-      color_main_id: lightseagreen
+      color_main_id: royalblue
       color_link_id: gold
       color_link_active_id: white
       color_table_row_odd_id: modern_dark_blue_5
@@ -22,5 +22,5 @@ colors_presets
       color_error_id: deeppink
       color_fieldset_id: modern_dark_blue_5
       color_fieldset_nested_id: modern_dark_blue
-      color_button_id: steelblue
+      color_button_id: modern_blue
       color_button_active_id: dodgerblue
