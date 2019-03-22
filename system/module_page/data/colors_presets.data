@@ -27,3 +27,4 @@ colors_presets
       color_field_text_id: white
       color_button_id: modern_blue
       color_button_active_id: dodgerblue
+      color_button_text_id: white
