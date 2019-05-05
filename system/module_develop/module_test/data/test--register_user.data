@@ -4,11 +4,10 @@ tests
     title: Register user
     description: After each 3 insertions you will get the message "The test was failed!" because after every 3-rd challenge the CAPTCHA will change.
     params
-    - is_https|field_checkbox
+    - is_https|field_switcher
         title: HTTPS
         element_attributes
         - name: is_https
-        - value: is_on
     scenario
     # warming up the form for initialize CAPTCHA and validation id
     - form_warming_up|step_request
