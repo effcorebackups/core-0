@@ -12,11 +12,11 @@ tests
     # warming up the form for initialize CAPTCHA and validation id
     - form_warming_up|step_request
         url: /registration
-        https|param_from_form
+        is_https|param_from_form
           name: is_https
     - form_submit|step_request
         url: /registration
-        https|param_from_form
+        is_https|param_from_form
           name: is_https
         post
         - form_id: registration
