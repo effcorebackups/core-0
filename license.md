@@ -4,7 +4,7 @@ Software license agreement
 ==========================
 
 
-Author / Rightholder
+Author/Rightholder
 ---------------------------------------------------------------------
 
 The author and rightholder (hereinafter referred to as the "Rightholder")
