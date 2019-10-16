@@ -1,7 +1,7 @@
 colors_presets
 - light
     id: light
-    title: light
+    title: light preset
     colors
       color_page_id: white
       color_text_id: black
