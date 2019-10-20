@@ -23,7 +23,7 @@ Modification
 ---------------------------------------------------------------------
 
 Allowed the modification of Software (without distribution
-and publish changes) and its usеd as set forth in "USAGE".
+and publish changes) and its usеd as set forth in section "Usage".
 Any breach of the Software protection shall
 constitute a violation hereof.
 
@@ -53,11 +53,12 @@ except the next cases:
 Warranty and responsibilities of the parties
 ---------------------------------------------------------------------
 
-The author and/or Rightholder does not provide any warranty and does not assume
+The author/Rightholder does not provide any warranty and does not assume
 any responsibility or liability for the use of this Software.
 This license agreement shall form an integral part of this Software.
 This Software can be used only under the terms and conditions hereof.
-Any violation thereof will result in a civil, administrative and criminal prosecution.
+Any violation thereof will result in a civil, administrative and
+criminal prosecution.
 
 
 Document version: 1000
