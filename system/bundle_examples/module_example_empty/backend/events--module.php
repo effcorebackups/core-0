@@ -8,16 +8,6 @@ namespace effcore\modules\example_empty {
           use \effcore\module;
           abstract class events_module {
 
-  static function on_install() {
-    $module = module::get('example_empty');
-    $module->install();
-  }
-
-  static function on_uninstall() {
-    $module = module::get('example_empty');
-    $module->uninstall();
-  }
-
   static function on_enable() {
     $module = module::get('example_empty');
     $module->enable();
