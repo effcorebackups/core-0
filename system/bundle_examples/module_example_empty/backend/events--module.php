@@ -8,12 +8,12 @@ namespace effcore\modules\example_empty {
           use \effcore\module;
           abstract class events_module {
 
-  static function on_enable() {
+  static function on_enable($event) {
     $module = module::get('example_empty');
     $module->enable();
   }
 
-  static function on_disable() {
+  static function on_disable($event) {
     $module = module::get('example_empty');
     $module->disable();
   }
