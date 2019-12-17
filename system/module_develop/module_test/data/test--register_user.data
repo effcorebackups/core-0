@@ -9,7 +9,7 @@ tests
         element_attributes
         - name: is_https
     scenario
-    # warming up the form for initialize CAPTCHA and validation id
+    # warming up the form for initialize CAPTCHA and Validation ID
     - form_warming_up|step_request
         url: /registration
         is_https|param_from_form
