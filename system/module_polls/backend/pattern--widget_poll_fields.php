@@ -16,19 +16,22 @@ namespace effcore {
 
   function build() {
     if (!$this->is_builded) {
-      $widgets_manage_group = new markup('x-widgets-group', ['data-type' => 'manage', 'data-has-rearrangeable' => 'true']);
+      $widgets_group_manage = new markup('x-widgets-group', [
+        'data-type'              => 'manage',
+        'data-has-rearrangeable' => 'true']);
+    # widgets for manage each item
       for ($i = 0; $i < 10; $i++) {
-      # field for answer text
         $c_field_answer_text = new field_text('Text');
         $c_field_answer_text->description_state = 'hidden';
         $c_field_answer_text->build();
         $c_field_answer_text->name_set('answer_text_'.$i);
         $c_field_answer_text->required_set($i == 0 || $i == 1);
-      # make final wrapper
         $c_widget_insert = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true']);
-        $c_widget_insert     ->child_insert($c_field_answer_text, 'answer_text'  );
-        $widgets_manage_group->child_insert($c_widget_insert, 'widget_insert_'.$i);}
-      $this->child_insert($widgets_manage_group, 'widgets_manage_group');
+        $c_widget_insert     ->child_insert($c_field_answer_text, 'answer_text');
+        $widgets_group_manage->child_insert($c_widget_insert, 'insert_'.$i);
+      }
+    # insert all widgets
+      $this->child_insert($widgets_group_manage, 'manage');
       $this->is_builded = true;
     }
   }
