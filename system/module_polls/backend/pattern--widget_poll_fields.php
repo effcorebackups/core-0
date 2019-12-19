@@ -21,27 +21,27 @@ namespace effcore {
         'data-type'              => 'manage',
         'data-has-rearrangeable' => 'true']);
     # widgets for manage each item
-      $c_widget_manage_weight = 0;
-      for ($i = 0; $i < 2; $i++) {
+      foreach ($this->cform->validation_cache_get($this->unique_prefix.'fields') ?? [] as $c_item) {
       # field for text
         $c_field_text = new field_text('Text');
         $c_field_text->description_state = 'hidden';
         $c_field_text->build();
-        $c_field_text->name_set($this->unique_prefix.'text_'.$i);
-        $c_field_text->required_set($i == 0 || $i == 1);
+        $c_field_text->name_set($this->unique_prefix.'text_'.$c_item->id);
+        $c_field_text->value_set($c_item->text);
       # field for weight
         $c_field_weight = new field_weight();
         $c_field_weight->description_state = 'hidden';
         $c_field_weight->build();
-        $c_field_weight->name_set($this->unique_prefix.'weight_'.$i);
+        $c_field_weight->name_set($this->unique_prefix.'weight_'.$c_item->id);
         $c_field_weight->required_set(false);
-        $c_field_weight->value_set($c_widget_manage_weight);
+        $c_field_weight->value_set($c_item->weight);
       # group the fields in widget 'manage'
-        $c_widget_manage = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true'], [], $c_widget_manage_weight);
+        $c_widget_manage = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true'], [], $c_item->weight);
         $c_widget_manage->child_insert($c_field_weight, 'weight');
         $c_widget_manage->child_insert($c_field_text,   'text'  );
-        $c_widget_manage_weight -= 5;
-        $widgets_group_manage->child_insert($c_widget_manage, 'manage_'.$i);}
+        $widgets_group_manage->child_insert($c_widget_manage, 'manage_'.$c_item->id);
+      }
+    # button for insert new item
       $button_insert = new button('insert', ['title' => new text('insert')]);
       $button_insert->build();
       $button_insert->value_set($this->unique_prefix.'button_insert');
@@ -56,8 +56,16 @@ namespace effcore {
   }
 
   function items_set($items) {
+    $this->cform->validation_cache_set($this->unique_prefix.'fields', $items);
+    if ($this->is_builded) {
+        $this->is_builded = false;
+        $this->build();
+    }
+  }
+
+  function items_set_once($items) {
     if ($this->cform->validation_cache_get($this->unique_prefix.'fields') === null) {
-        $this->cform->validation_cache_set($this->unique_prefix.'fields', $items);
+      $this->items_set($items);
     }
   }
 
