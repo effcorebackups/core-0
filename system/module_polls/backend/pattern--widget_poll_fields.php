@@ -36,14 +36,18 @@ namespace effcore {
         $c_field_weight->name_set($this->fields_prefix.'weight_'.$i);
         $c_field_weight->required_set(false);
         $c_field_weight->value_set($c_widget_manage_weight);
-      # group fields to widget 'manage'
+      # group the fields in widget 'manage'
+        $c_widget_manage = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true'], [], $c_widget_manage_weight);
+        $c_widget_manage->child_insert($c_field_weight, 'weight');
+        $c_widget_manage->child_insert($c_field_text,   'text'  );
         $c_widget_manage_weight -= 5;
-        $c_widget_manage = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true']);
-        $c_widget_manage     ->child_insert($c_field_weight,  'weight'    );
-        $c_widget_manage     ->child_insert($c_field_text,    'text'      );
         $widgets_group_manage->child_insert($c_widget_manage, 'manage_'.$i);}
+      $button_insert = new button('insert', ['title' => new text('insert')]);
+      $button_insert->build();
+      $button_insert->value_set($this->fields_prefix.'button_insert');
     # insert all widgets
       $this->child_insert($widgets_group_manage, 'manage');
+      $this->child_insert($button_insert,        'insert');
       $this->is_builded = true;
     }
   }
