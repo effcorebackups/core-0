@@ -21,25 +21,25 @@ namespace effcore {
         'data-type'              => 'manage',
         'data-has-rearrangeable' => 'true']);
     # widgets for manage each item
-      foreach ($this->cform->validation_cache_get($this->unique_prefix.'fields') ?? [] as $c_item) {
+      foreach ($this->items_get() as $c_row_id => $c_item) {
       # field for text
         $c_field_text = new field_text('Text');
         $c_field_text->description_state = 'hidden';
         $c_field_text->build();
-        $c_field_text->name_set($this->unique_prefix.'text_'.$c_item->id);
+        $c_field_text->name_set($this->unique_prefix.'text_'.$c_row_id);
         $c_field_text->value_set($c_item->text);
       # field for weight
         $c_field_weight = new field_weight();
         $c_field_weight->description_state = 'hidden';
         $c_field_weight->build();
-        $c_field_weight->name_set($this->unique_prefix.'weight_'.$c_item->id);
+        $c_field_weight->name_set($this->unique_prefix.'weight_'.$c_row_id);
         $c_field_weight->required_set(false);
         $c_field_weight->value_set($c_item->weight);
       # group the fields in widget 'manage'
         $c_widget_manage = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true'], [], $c_item->weight);
         $c_widget_manage->child_insert($c_field_weight, 'weight');
         $c_widget_manage->child_insert($c_field_text,   'text'  );
-        $widgets_group_manage->child_insert($c_widget_manage, 'manage_'.$c_item->id);
+        $widgets_group_manage->child_insert($c_widget_manage, 'manage_'.$c_row_id);
       }
     # button for insert new item
       $button_insert = new button('insert', ['title' => new text('insert')]);
@@ -53,10 +53,12 @@ namespace effcore {
   }
 
   function items_get() {
+    return $this->cform->validation_cache_get($this->unique_prefix.'items') ?: [];
   }
 
   function items_set($items) {
-    $this->cform->validation_cache_set($this->unique_prefix.'fields', $items);
+    $this->cform->validation_cache_is_persistent = true;
+    $this->cform->validation_cache_set($this->unique_prefix.'items', $items);
     if ($this->is_builded) {
         $this->is_builded = false;
         $this->build();
@@ -64,15 +66,30 @@ namespace effcore {
   }
 
   function items_set_once($items) {
-    if ($this->cform->validation_cache_get($this->unique_prefix.'fields') === null) {
+    if ($this->cform->validation_cache_get($this->unique_prefix.'items') === null) {
       $this->items_set($items);
     }
   }
 
   function on_click_insert($form, $npath) {
+    $items = $this->items_get();
+    $new_item = new \stdClass;
+    $new_item->id = 0;
+    $new_item->weight = 0;
+    $new_item->text = '';
+    $items[] = $new_item;
+    $this->items_set($items);
+    message::insert(new text_multiline([
+      'Field "%%_title" (%%_id) was inserted.',
+      'Click the button "%%_name" to save your changes!'], [
+      'id'    => $new_item->id,
+      'title' => translation::get('Text'),
+      'name'  => translation::get('update')]));
+    return true;
   }
 
   function on_click_delete($form, $npath) {
+    return true;
   }
 
   ###########################
