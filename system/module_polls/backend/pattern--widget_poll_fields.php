@@ -20,16 +20,27 @@ namespace effcore {
         'data-type'              => 'manage',
         'data-has-rearrangeable' => 'true']);
     # widgets for manage each item
-      for ($i = 0; $i < 10; $i++) {
+      $c_widget_manage_weight = 0;
+      for ($i = 0; $i < 2; $i++) {
+      # field for answer text
         $c_field_answer_text = new field_text('Text');
         $c_field_answer_text->description_state = 'hidden';
         $c_field_answer_text->build();
         $c_field_answer_text->name_set('answer_text_'.$i);
         $c_field_answer_text->required_set($i == 0 || $i == 1);
-        $c_widget_insert = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true']);
-        $c_widget_insert     ->child_insert($c_field_answer_text, 'answer_text');
-        $widgets_group_manage->child_insert($c_widget_insert, 'insert_'.$i);
-      }
+      # field for answer weight
+        $c_field_answer_weight = new field_weight();
+        $c_field_answer_weight->description_state = 'hidden';
+        $c_field_answer_weight->build();
+        $c_field_answer_weight->name_set('answer_weight_'.$i);
+        $c_field_answer_weight->required_set(false);
+        $c_field_answer_weight->value_set($c_widget_manage_weight);
+      # group fields to widget 'manage'
+        $c_widget_manage_weight -= 5;
+        $c_widget_manage = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true']);
+        $c_widget_manage     ->child_insert($c_field_answer_weight, 'weight'    );
+        $c_widget_manage     ->child_insert($c_field_answer_text,   'text'      );
+        $widgets_group_manage->child_insert($c_widget_manage,       'manage_'.$i);}
     # insert all widgets
       $this->child_insert($widgets_group_manage, 'manage');
       $this->is_builded = true;
