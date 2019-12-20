@@ -23,24 +23,9 @@ namespace effcore {
         'data-has-rearrangeable' => 'true']);
     # widgets for manage each item
       foreach ($this->items_get() as $c_row_id => $c_item) {
-      # field for weight
-        $c_field_weight = new field_weight();
-        $c_field_weight->description_state = 'hidden';
-        $c_field_weight->build();
-        $c_field_weight->name_set($this->unique_prefix.'weight'.$c_row_id);
-        $c_field_weight->required_set(false);
-        $c_field_weight->value_set($c_item->weight);
-      # field for text
-        $c_field_text = new field_text('Text');
-        $c_field_text->description_state = 'hidden';
-        $c_field_text->build();
-        $c_field_text->name_set($this->unique_prefix.'text'.$c_row_id);
-        $c_field_text->value_set($c_item->text);
-      # group the fields in widget 'manage'
-        $c_widget_manage = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true'], [], $c_item->weight);
-        $c_widget_manage->child_insert($c_field_weight, 'weight');
-        $c_widget_manage->child_insert($c_field_text,   'text'  );
-        $widgets_group_manage->child_insert($c_widget_manage, $c_row_id);
+        $widgets_group_manage->child_insert(
+          $this->build_widget_manage($c_item, $this->unique_prefix, $c_row_id), $c_row_id
+        );
       }
     # button for insert new item
       $button_insert = new button('insert', ['title' => new text('insert')]);
@@ -51,6 +36,27 @@ namespace effcore {
       $this->child_insert($button_insert,        'insert');
       $this->is_builded = true;
     }
+  }
+
+  function build_widget_manage($item, $prefix, $suffix) {
+  # field for weight
+    $field_weight = new field_weight;
+    $field_weight->description_state = 'hidden';
+    $field_weight->build();
+    $field_weight->name_set($prefix.'weight'.$suffix);
+    $field_weight->required_set(false);
+    $field_weight->value_set($item->weight);
+  # field for text
+    $field_text = new field_text('Text');
+    $field_text->description_state = 'hidden';
+    $field_text->build();
+    $field_text->name_set($prefix.'text'.$suffix);
+    $field_text->value_set($item->text);
+  # group the fields in widget 'manage'
+    $widget_manage = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true'], [], $item->weight);
+    $widget_manage->child_insert($field_weight, 'weight');
+    $widget_manage->child_insert($field_text,   'text'  );
+    return $widget_manage;
   }
 
   function items_get() {
