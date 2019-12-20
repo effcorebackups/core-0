@@ -18,27 +18,29 @@ namespace effcore {
 
   function build() {
     if (!$this->is_builded) {
-      $widgets_group_manage = new markup('x-widgets-group', [
-        'data-type'              => 'manage',
-        'data-has-rearrangeable' => 'true']);
-    # widgets for manage each item
-      foreach ($this->items_get() as $c_row_id => $c_item) {
-        $widgets_group_manage->child_insert(
-          $this->build_widget_manage($c_item, $this->unique_prefix, $c_row_id), $c_row_id
-        );
-      }
+      $this->widgets_group_manage_build();
     # button for insert new item
       $button_insert = new button('insert', ['title' => new text('insert')]);
       $button_insert->build();
       $button_insert->value_set($this->unique_prefix.'button_insert');
-    # insert all widgets
-      $this->child_insert($widgets_group_manage, 'manage');
-      $this->child_insert($button_insert,        'insert');
+      $this->child_insert($button_insert, 'insert');
       $this->is_builded = true;
     }
   }
 
-  function build_widget_manage($item, $prefix, $suffix) {
+  function widgets_group_manage_build() {
+    $widgets_group_manage = new markup('x-widgets-group', [
+      'data-type'              => 'manage',
+      'data-has-rearrangeable' => 'true']);
+    $this->child_insert($widgets_group_manage, 'manage');
+    foreach ($this->items_get() as $c_row_id => $c_item) {
+      $widgets_group_manage->child_insert(
+        $this->widget_manage_get($c_item, $this->unique_prefix, $c_row_id), $c_row_id
+      );
+    }
+  }
+
+  function widget_manage_get($item, $prefix, $suffix) {
   # field for weight
     $field_weight = new field_weight;
     $field_weight->description_state = 'hidden';
@@ -63,13 +65,10 @@ namespace effcore {
     return $this->cform->validation_cache_get($this->unique_prefix.'items') ?: [];
   }
 
-  function items_set($items, $rebuild = true) {
+  function items_set($items) {
     $this->cform->validation_cache_is_persistent = true;
     $this->cform->validation_cache_set($this->unique_prefix.'items', $items);
-    if ($this->is_builded && $rebuild) {
-        $this->is_builded = false;
-        $this->build();
-    }
+    $this->widgets_group_manage_build();
   }
 
   function items_set_once($items) {
