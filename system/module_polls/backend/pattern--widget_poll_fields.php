@@ -23,24 +23,24 @@ namespace effcore {
         'data-has-rearrangeable' => 'true']);
     # widgets for manage each item
       foreach ($this->items_get() as $c_row_id => $c_item) {
-      # field for text
-        $c_field_text = new field_text('Text');
-        $c_field_text->description_state = 'hidden';
-        $c_field_text->build();
-        $c_field_text->name_set($this->unique_prefix.'text_'.$c_row_id);
-        $c_field_text->value_set($c_item->text);
       # field for weight
         $c_field_weight = new field_weight();
         $c_field_weight->description_state = 'hidden';
         $c_field_weight->build();
-        $c_field_weight->name_set($this->unique_prefix.'weight_'.$c_row_id);
+        $c_field_weight->name_set($this->unique_prefix.'weight'.$c_row_id);
         $c_field_weight->required_set(false);
         $c_field_weight->value_set($c_item->weight);
+      # field for text
+        $c_field_text = new field_text('Text');
+        $c_field_text->description_state = 'hidden';
+        $c_field_text->build();
+        $c_field_text->name_set($this->unique_prefix.'text'.$c_row_id);
+        $c_field_text->value_set($c_item->text);
       # group the fields in widget 'manage'
         $c_widget_manage = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true'], [], $c_item->weight);
         $c_widget_manage->child_insert($c_field_weight, 'weight');
         $c_widget_manage->child_insert($c_field_text,   'text'  );
-        $widgets_group_manage->child_insert($c_widget_manage, 'manage_'.$c_row_id);
+        $widgets_group_manage->child_insert($c_widget_manage, $c_row_id);
       }
     # button for insert new item
       $button_insert = new button('insert', ['title' => new text('insert')]);
@@ -75,8 +75,8 @@ namespace effcore {
   function on_cache_update($form, $npath) {
     $items = $this->items_get();
     foreach ($items as $c_row_id => $c_item) {
-      $c_item->weight = (int)(field::request_value_get($this->unique_prefix.'weight_'.$c_row_id));
-      $c_item->text   =       field::request_value_get($this->unique_prefix.'text_'.  $c_row_id);}
+      $c_item->weight = (int)(field::request_value_get($this->unique_prefix.'weight'.$c_row_id));
+      $c_item->text   =       field::request_value_get($this->unique_prefix.'text'.  $c_row_id);}
     $this->items_set($items);
   }
 
