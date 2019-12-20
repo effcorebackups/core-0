@@ -11,7 +11,8 @@ namespace effcore {
   public $attributes = ['data-type' => 'poll_fields'];
   public $unique_prefix = '';
 
-  function __construct($attributes = [], $weight = 0) {
+  function __construct($unique_prefix = null, $attributes = [], $weight = 0) {
+    if ($unique_prefix) $this->unique_prefix = $unique_prefix;
     parent::__construct(null, null, null, $attributes, [], $weight);
   }
 
