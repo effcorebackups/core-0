@@ -71,7 +71,7 @@ namespace effcore {
     }
   }
 
-  function on_update_cache($form, $npath) {
+  function on_cache_update($form, $npath) {
     $items = $this->items_get();
     foreach ($items as $c_row_id => $c_item) {
       $c_item->weight = (int)(field::request_value_get($this->unique_prefix.'weight_'.$c_row_id));
@@ -79,7 +79,7 @@ namespace effcore {
     $this->items_set($items);
   }
 
-  function on_click_insert($form, $npath) {
+  function on_button_click_insert($form, $npath) {
     $min_weight = 0;
     $items = $this->items_get();
     foreach ($items as $c_row_id => $c_item)
@@ -99,7 +99,7 @@ namespace effcore {
     return true;
   }
 
-  function on_click_delete($form, $npath) {
+  function on_button_click_delete($form, $npath) {
     return true;
   }
 
@@ -108,13 +108,13 @@ namespace effcore {
   ###########################
 
   static function on_validate(&$group, $form, $npath) {
-    $group->on_update_cache($form, $npath);
+    $group->on_cache_update($form, $npath);
   }
 
   static function on_submit(&$group, $form, $npath) {
     $button = $group->child_select('insert');
     if ($button->is_clicked()) {
-      $group->on_click_insert($form, $npath);
+      $group->on_button_click_insert($form, $npath);
     }
   }
 
