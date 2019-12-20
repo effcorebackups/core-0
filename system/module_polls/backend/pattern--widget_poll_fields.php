@@ -56,10 +56,10 @@ namespace effcore {
     return $this->cform->validation_cache_get($this->unique_prefix.'items') ?: [];
   }
 
-  function items_set($items) {
+  function items_set($items, $rebuild = true) {
     $this->cform->validation_cache_is_persistent = true;
     $this->cform->validation_cache_set($this->unique_prefix.'items', $items);
-    if ($this->is_builded) {
+    if ($this->is_builded && $rebuild) {
         $this->is_builded = false;
         $this->build();
     }
@@ -71,11 +71,22 @@ namespace effcore {
     }
   }
 
-  function on_click_insert($form, $npath) {
+  function on_update_cache($form, $npath) {
     $items = $this->items_get();
+    foreach ($items as $c_row_id => $c_item) {
+      $c_item->weight = (int)(field::request_value_get($this->unique_prefix.'weight_'.$c_row_id));
+      $c_item->text   =       field::request_value_get($this->unique_prefix.'text_'.  $c_row_id);}
+    $this->items_set($items);
+  }
+
+  function on_click_insert($form, $npath) {
+    $min_weight = 0;
+    $items = $this->items_get();
+    foreach ($items as $c_row_id => $c_item)
+      $min_weight = min($min_weight, $c_item->weight);
     $new_item = new \stdClass;
     $new_item->id = 0;
-    $new_item->weight = 0;
+    $new_item->weight = $min_weight - 5;
     $new_item->text = '';
     $items[] = $new_item;
     $this->items_set($items);
@@ -95,6 +106,10 @@ namespace effcore {
   ###########################
   ### static declarations ###
   ###########################
+
+  static function on_validate(&$group, $form, $npath) {
+    $group->on_update_cache($form, $npath);
+  }
 
   static function on_submit(&$group, $form, $npath) {
     $button = $group->child_select('insert');
