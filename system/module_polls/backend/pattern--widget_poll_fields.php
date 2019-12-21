@@ -26,6 +26,7 @@ namespace effcore {
       $button_insert->value_set($this->unique_prefix.'button_insert');
       $this->child_insert($widgets_group_manage, 'manage');
       $this->child_insert($button_insert,        'insert');
+      $this->widgets_group_manage_build();
       $this->is_builded = true;
     }
   }
@@ -35,6 +36,7 @@ namespace effcore {
     foreach ($this->items_get() as $c_row_id => $c_item) {
       if ($widgets_group_manage->child_select($c_row_id) != null) {$c_widget = $widgets_group_manage->child_select($c_row_id);}
       if ($widgets_group_manage->child_select($c_row_id) == null) {$c_widget = $this->widget_manage_get($c_item, $c_row_id, $this->unique_prefix); $widgets_group_manage->child_insert($c_widget, $c_row_id);}
+      $c_widget->weight = $c_widget->child_select('weight')->value_get();
     }
   }
 
