@@ -54,12 +54,17 @@ namespace effcore {
     $field_text->build();
     $field_text->name_set($prefix.'text'.$c_row_id);
     $field_text->value_set($item->text);
+  # button for delete item
+    $button_delete = new button('', ['data-style' => 'narrow-delete', 'title' => new text('delete')]);
+    $button_delete->build();
+    $button_delete->value_set($prefix.'button_delete'.$c_row_id);
   # group the fields in widget 'manage'
     $widget_manage = new markup('x-widget', [
-      'data-rearrangeable'    => 'true',
-      'data-fields-is-inline' => 'true'], [], $item->weight);
-    $widget_manage->child_insert($field_weight, 'weight');
-    $widget_manage->child_insert($field_text,   'text'  );
+      'data-rearrangeable'         => 'true',
+      'data-fields-is-inline-full' => 'true'], [], $item->weight);
+    $widget_manage->child_insert($field_weight,  'weight'       );
+    $widget_manage->child_insert($field_text,    'text'         );
+    $widget_manage->child_insert($button_delete, 'button_delete');
     return $widget_manage;
   }
 
