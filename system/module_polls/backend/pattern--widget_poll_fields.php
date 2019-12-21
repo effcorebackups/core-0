@@ -18,44 +18,44 @@ namespace effcore {
 
   function build() {
     if (!$this->is_builded) {
-      $this->widgets_group_manage_build();
-    # button for insert new item
+      $widgets_group_manage = new markup('x-widgets-group', [
+        'data-type'              => 'manage',
+        'data-has-rearrangeable' => 'true']);
       $button_insert = new button('insert', ['title' => new text('insert')]);
       $button_insert->build();
       $button_insert->value_set($this->unique_prefix.'button_insert');
-      $this->child_insert($button_insert, 'insert');
+      $this->child_insert($widgets_group_manage, 'manage');
+      $this->child_insert($button_insert,        'insert');
       $this->is_builded = true;
     }
   }
 
   function widgets_group_manage_build() {
-    $widgets_group_manage = new markup('x-widgets-group', [
-      'data-type'              => 'manage',
-      'data-has-rearrangeable' => 'true']);
-    $this->child_insert($widgets_group_manage, 'manage');
+    $widgets_group_manage = $this->child_select('manage');
     foreach ($this->items_get() as $c_row_id => $c_item) {
-      $widgets_group_manage->child_insert(
-        $this->widget_manage_get($c_item, $this->unique_prefix, $c_row_id), $c_row_id
-      );
+      if ($widgets_group_manage->child_select($c_row_id) != null) {$c_widget = $widgets_group_manage->child_select($c_row_id);}
+      if ($widgets_group_manage->child_select($c_row_id) == null) {$c_widget = $this->widget_manage_get($c_item, $c_row_id, $this->unique_prefix); $widgets_group_manage->child_insert($c_widget, $c_row_id);}
     }
   }
 
-  function widget_manage_get($item, $prefix, $suffix) {
+  function widget_manage_get($item, $c_row_id, $prefix) {
   # field for weight
     $field_weight = new field_weight;
     $field_weight->description_state = 'hidden';
     $field_weight->build();
-    $field_weight->name_set($prefix.'weight'.$suffix);
+    $field_weight->name_set($prefix.'weight'.$c_row_id);
     $field_weight->required_set(false);
     $field_weight->value_set($item->weight);
   # field for text
     $field_text = new field_text('Text');
     $field_text->description_state = 'hidden';
     $field_text->build();
-    $field_text->name_set($prefix.'text'.$suffix);
+    $field_text->name_set($prefix.'text'.$c_row_id);
     $field_text->value_set($item->text);
   # group the fields in widget 'manage'
-    $widget_manage = new markup('x-widget', ['data-rearrangeable' => 'true', 'data-fields-is-inline' => 'true'], [], $item->weight);
+    $widget_manage = new markup('x-widget', [
+      'data-rearrangeable'    => 'true',
+      'data-fields-is-inline' => 'true'], [], $item->weight);
     $widget_manage->child_insert($field_weight, 'weight');
     $widget_manage->child_insert($field_text,   'text'  );
     return $widget_manage;
