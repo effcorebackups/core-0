@@ -106,17 +106,23 @@ namespace effcore {
     $items[] = $new_item;
     $this->items_set($items);
     message::insert(new text_multiline([
-      'Field "%%_title" (%%_id) was inserted.',
+      '%%_title was inserted.',
       'Click the button "%%_name" to save your changes!'], [
-      'id'    => $new_item->id,
-      'title' => translation::get('Text'),
+      'title' => translation::get('Answer'),
       'name'  => translation::get('update')]));
     return true;
   }
 
   function on_button_click_delete($form, $npath, $button) {
     $items = $this->items_get();
-
+    unset($items[$button->_id]);
+    $this->items_set($items);
+    message::insert(new text_multiline([
+      '%%_title (%%_id) was deleted.',
+      'Click the button "%%_name" to save your changes!'], [
+      'id'    => $button->_id,
+      'title' => translation::get('Answer'),
+      'name'  => translation::get('update')]));
     return true;
   }
 
@@ -131,7 +137,7 @@ namespace effcore {
   static function on_submit(&$group, $form, $npath) {
     $button_insert = $group->child_select('insert');
     if ($button_insert->is_clicked()) {
-      $group->on_button_click_insert($form, $npath);
+      return $group->on_button_click_insert($form, $npath);
     } else {
       foreach ($group->children_select_recursive() as $c_child) {
         if ($form->clicked_button === $c_child         &&
