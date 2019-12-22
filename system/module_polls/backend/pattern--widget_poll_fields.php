@@ -49,7 +49,7 @@ namespace effcore {
     $field_weight->required_set(false);
     $field_weight->value_set($item->weight);
   # field for text
-    $field_text = new field_text('Text');
+    $field_text = new field_text;
     $field_text->description_state = 'hidden';
     $field_text->build();
     $field_text->name_set($prefix.'text'.$c_row_id);
