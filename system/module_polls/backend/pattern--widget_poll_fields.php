@@ -33,10 +33,18 @@ namespace effcore {
 
   function widgets_group_manage_build() {
     $widgets_group_manage = $this->child_select('manage');
+    $items = $this->items_get();
+  # insert new and update existing widgets
     foreach ($this->items_get() as $c_row_id => $c_item) {
-      if ($widgets_group_manage->child_select($c_row_id) != null) {$c_widget = $widgets_group_manage->child_select($c_row_id);}
+      if ($widgets_group_manage->child_select($c_row_id) != null) {$c_widget =                                                                     $widgets_group_manage->child_select(           $c_row_id);}
       if ($widgets_group_manage->child_select($c_row_id) == null) {$c_widget = $this->widget_manage_get($c_item, $c_row_id, $this->unique_prefix); $widgets_group_manage->child_insert($c_widget, $c_row_id);}
       $c_widget->weight = $c_widget->child_select('weight')->value_get();
+    }
+  # delete old widgets
+    foreach ($widgets_group_manage->children_select() as $c_row_id => $c_widget) {
+      if (!isset($items[$c_row_id])) {
+        $widgets_group_manage->child_delete($c_row_id);
+      }
     }
   }
 
