@@ -106,10 +106,10 @@ namespace effcore {
     $items[] = $new_item;
     $this->items_set($items);
     message::insert(new text_multiline([
-      '%%_title was inserted.',
-      'Click the button "%%_name" to save your changes!'], [
-      'title' => translation::get('Answer'),
-      'name'  => translation::get('update')]));
+      'Item of type "%%_name" was inserted.',
+      'Click the button "%%_title" to save your changes!'], [
+      'name'  => translation::get('Answer'),
+      'title' => translation::get('update')]));
     return true;
   }
 
@@ -118,11 +118,10 @@ namespace effcore {
     unset($items[$button->_id]);
     $this->items_set($items);
     message::insert(new text_multiline([
-      '%%_title (%%_id) was deleted.',
-      'Click the button "%%_name" to save your changes!'], [
-      'id'    => $button->_id,
-      'title' => translation::get('Answer'),
-      'name'  => translation::get('update')]));
+      'Item of type "%%_name" was deleted.',
+      'Click the button "%%_title" to save your changes!'], [
+      'name'  => translation::get('Answer'),
+      'title' => translation::get('update')]));
     return true;
   }
 
