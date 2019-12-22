@@ -58,6 +58,8 @@ namespace effcore {
     $button_delete = new button('', ['data-style' => 'narrow-delete', 'title' => new text('delete')]);
     $button_delete->build();
     $button_delete->value_set($prefix.'button_delete'.$c_row_id);
+    $button_delete->_type = 'delete';
+    $button_delete->_id = $c_row_id;
   # group the fields in widget 'manage'
     $widget_manage = new markup('x-widget', [
       'data-rearrangeable'         => 'true',
@@ -112,7 +114,9 @@ namespace effcore {
     return true;
   }
 
-  function on_button_click_delete($form, $npath) {
+  function on_button_click_delete($form, $npath, $button) {
+    $items = $this->items_get();
+
     return true;
   }
 
@@ -125,9 +129,19 @@ namespace effcore {
   }
 
   static function on_submit(&$group, $form, $npath) {
-    $button = $group->child_select('insert');
-    if ($button->is_clicked()) {
+    $button_insert = $group->child_select('insert');
+    if ($button_insert->is_clicked()) {
       $group->on_button_click_insert($form, $npath);
+    } else {
+      foreach ($group->children_select_recursive() as $c_child) {
+        if ($form->clicked_button === $c_child         &&
+                               !empty($c_child->_type) &&
+                                     ($c_child->_type) == 'delete') {
+          return $group->on_button_click_delete(
+            $form, $npath, $c_child
+          );
+        }
+      }
     }
   }
 
