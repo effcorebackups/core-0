@@ -94,6 +94,11 @@ namespace effcore {
     }
   }
 
+  function items_reset() {
+    $this->cform->validation_cache_is_persistent = false;
+    $this->cform->validation_cache_set($this->unique_prefix.'items', null);
+  }
+
   function on_cache_update($form, $npath) {
     $items = $this->items_get();
     foreach ($items as $c_row_id => $c_item) {
