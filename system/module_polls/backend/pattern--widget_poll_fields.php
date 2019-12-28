@@ -22,6 +22,7 @@ namespace effcore {
         'data-type'              => 'manage',
         'data-has-rearrangeable' => 'true']);
       $button_insert = new button('insert', ['title' => new text('insert')]);
+      $button_insert->break_on_validate = true;
       $button_insert->build();
       $button_insert->value_set($this->unique_prefix.'button_insert');
       $this->child_insert($widgets_group_manage, 'manage');
@@ -64,6 +65,7 @@ namespace effcore {
     $field_text->value_set($item->text);
   # button for delete item
     $button_delete = new button(null, ['data-style' => 'narrow-delete', 'title' => new text('delete')]);
+    $button_delete->break_on_validate = true;
     $button_delete->build();
     $button_delete->value_set($prefix.'button_delete'.$c_row_id);
     $button_delete->_type = 'delete';
@@ -142,7 +144,7 @@ namespace effcore {
   ### static declarations ###
   ###########################
 
-  static function on_validate(&$group, $form, $npath) {
+  static function on_request_value_set(&$group, $form, $npath) {
     $group->on_cache_update($form, $npath);
   }
 
