@@ -63,7 +63,7 @@ namespace effcore {
     $field_text->name_set($prefix.'text'.$c_row_id);
     $field_text->value_set($item->text);
   # button for delete item
-    $button_delete = new button('', ['data-style' => 'narrow-delete', 'title' => new text('delete')]);
+    $button_delete = new button(null, ['data-style' => 'narrow-delete', 'title' => new text('delete')]);
     $button_delete->build();
     $button_delete->value_set($prefix.'button_delete'.$c_row_id);
     $button_delete->_type = 'delete';
