@@ -22,15 +22,15 @@
 
   <g id="flag">
     <rect id="flag-bg" x="0" y="0" width="28" height="18" style="fill: #00247d; stroke: none"/>
-    <path id="line-d-w-1" style="fill: none; stroke: white; stroke-width: 3.5" d="M 0,0 28,18"/>
-    <path id="line-d-w-2" style="fill: none; stroke: white; stroke-width: 3.5" d="M 28,0 0,18"/>
+    <line id="line-d-1-wte" x1="0"  y1="0"  x2="28" y2="18" style="stroke:   white; stroke-width: 3.5px"/>
+    <line id="line-d-2-wte" x1="0"  y1="18" x2="28" y2="0"  style="stroke:   white; stroke-width: 3.5px"/>
+    <line id="line-d-1-red" x1="0"  y1="0"  x2="28" y2="18" style="stroke: #cf142b; stroke-width: 1.5px"/>
+    <line id="line-d-2-red" x1="0"  y1="18" x2="28" y2="0"  style="stroke: #cf142b; stroke-width: 1.5px"/>
+    <line id="line-h-wte"   x1="0"  y1="9"  x2="28" y2="9"  style="stroke:   white; stroke-width: 6px"/>
+    <line id="line-v-wte"   x1="14" y1="0"  x2="14" y2="18" style="stroke:   white; stroke-width: 6px"/>
+    <line id="line-h-red"   x1="0"  y1="9"  x2="28" y2="9"  style="stroke: #cf142b; stroke-width: 3.5px"/>
+    <line id="line-v-red"   x1="14" y1="0"  x2="14" y2="18" style="stroke: #cf142b; stroke-width: 3.5px"/>
     <rect id="border" x="0.25" y="0.25" width="27.5" height="17.5" style="fill: none; stroke: #00247d; stroke-width: .5px"/>
-    <path id="line-d-r-1" style="fill: none; stroke: #cf142b; stroke-width: 1.5" d="M 0,0 28,18"/>
-    <path id="line-d-r-2" style="fill: none; stroke: #cf142b; stroke-width: 1.5" d="M 28,0 0,18"/>
-    <path id="line-h-w" style="fill: none; stroke:   white; stroke-width: 6"   d="M 0.5,9 H 27.5"/>
-    <path id="line-v-w" style="fill: none; stroke:   white; stroke-width: 6"   d="M 14,0.5 V 17.5"/>
-    <path id="line-h-r" style="fill: none; stroke: #cf142b; stroke-width: 3.5" d="M 0,9 H 28"/>
-    <path id="line-v-r" style="fill: none; stroke: #cf142b; stroke-width: 3.5" d="M 14,0 V 18"/>
   </g>
 
 </svg>
