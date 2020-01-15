@@ -7,7 +7,6 @@
 namespace effcore {
           class widget_poll_fields extends widget_fields_text {
 
-  public $attributes = ['data-type' => 'poll_fields'];
   public $item_title = 'Answer';
 
 }}
