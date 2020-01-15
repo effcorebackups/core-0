@@ -24,12 +24,33 @@ namespace effcore {
     return $widget;
   }
 
+  # ─────────────────────────────────────────────────────────────────────
+
   function on_cache_update($form, $npath) {
     $items = $this->items_get();
     foreach ($items as $c_row_id => $c_item) {
       $c_item->weight = (int)$this->_fields['weight'.$c_row_id]->value_get();
       $c_item->text   =      $this->_fields['text'.  $c_row_id]->value_get();}
     $this->items_set($items);
+  }
+
+  function on_button_click_insert($form, $npath, $button) {
+    $min_weight = 0;
+    $items = $this->items_get();
+    foreach ($items as $c_row_id => $c_item)
+      $min_weight = min($min_weight, $c_item->weight);
+    $new_item = new \stdClass;
+    $new_item->weight = count($items) ? $min_weight - 5 : 0;
+    $new_item->id     = 0;
+    $new_item->text   = '';
+    $items[] = $new_item;
+    $this->items_set($items);
+    message::insert(new text_multiline([
+      'Item of type "%%_type" was inserted.',
+      'Do not forget to save the changes with "%%_button" button!'], [
+      'type'   => translation::get($this->item_title),
+      'button' => translation::get('update')]));
+    return true;
   }
 
 }}
