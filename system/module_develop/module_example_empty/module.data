@@ -1,8 +1,0 @@
-module|module
-  id: example_empty
-  id_bundle: system
-  title: Empty module
-  group: Develop
-  description: Module as an example of an empty module.
-  copyright: Copyright © 20NN—20NN Author/Rightholder. All rights reserved.
-  version: 1.000
