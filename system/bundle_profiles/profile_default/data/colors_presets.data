@@ -15,7 +15,7 @@ colors_presets
       color_menu_active_id: default_dark_1
       color_menu_text_id: white
       color_menu_link_id: white
-      color_menu_link_active_id: default_light
+      color_menu_link_active_id: default_light_5
       color_tabs_id: default_main
       color_tabs_link_id: default_main
       color_tabs_link_active_id: white
