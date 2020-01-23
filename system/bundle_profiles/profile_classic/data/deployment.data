@@ -1,0 +1,5 @@
+deployment
+- copy
+  - logo
+      from: frontend/images/logo.svg
+      to: dynamic/files/logotypes/logotype-main_classic.svg
