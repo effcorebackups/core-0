@@ -1,68 +1,68 @@
 deployment
 - copy
   - logotype_behance
-      from: frontend/images/behance.svg
-      to: dynamic/files/logotypes/logotype-behance-default.svg
+      from: frontend/images/behance.svgd
+      to: dynamic/files/logotypes/logotype-behance-default.svgd
   - logotype_blogger
-      from: frontend/images/blogger.svg
-      to: dynamic/files/logotypes/logotype-blogger-default.svg
+      from: frontend/images/blogger.svgd
+      to: dynamic/files/logotypes/logotype-blogger-default.svgd
   - logotype_facebook
-      from: frontend/images/facebook.svg
-      to: dynamic/files/logotypes/logotype-facebook-default.svg
+      from: frontend/images/facebook.svgd
+      to: dynamic/files/logotypes/logotype-facebook-default.svgd
   - logotype_flickr
-      from: frontend/images/flickr.svg
-      to: dynamic/files/logotypes/logotype-flickr-default.svg
+      from: frontend/images/flickr.svgd
+      to: dynamic/files/logotypes/logotype-flickr-default.svgd
   - logotype_github
-      from: frontend/images/github.svg
-      to: dynamic/files/logotypes/logotype-github-default.svg
+      from: frontend/images/github.svgd
+      to: dynamic/files/logotypes/logotype-github-default.svgd
   - logotype_instagram
-      from: frontend/images/instagram.svg
-      to: dynamic/files/logotypes/logotype-instagram-default.svg
+      from: frontend/images/instagram.svgd
+      to: dynamic/files/logotypes/logotype-instagram-default.svgd
   - logotype_linkedin
-      from: frontend/images/linkedin.svg
-      to: dynamic/files/logotypes/logotype-linkedin-default.svg
+      from: frontend/images/linkedin.svgd
+      to: dynamic/files/logotypes/logotype-linkedin-default.svgd
   - logotype_livejournal
-      from: frontend/images/livejournal.svg
-      to: dynamic/files/logotypes/logotype-livejournal-default.svg
+      from: frontend/images/livejournal.svgd
+      to: dynamic/files/logotypes/logotype-livejournal-default.svgd
   - logotype_ok
-      from: frontend/images/ok.svg
-      to: dynamic/files/logotypes/logotype-ok-default.svg
+      from: frontend/images/ok.svgd
+      to: dynamic/files/logotypes/logotype-ok-default.svgd
   - logotype_pinterest
-      from: frontend/images/pinterest.svg
-      to: dynamic/files/logotypes/logotype-pinterest-default.svg
+      from: frontend/images/pinterest.svgd
+      to: dynamic/files/logotypes/logotype-pinterest-default.svgd
   - logotype_reddit
-      from: frontend/images/reddit.svg
-      to: dynamic/files/logotypes/logotype-reddit-default.svg
+      from: frontend/images/reddit.svgd
+      to: dynamic/files/logotypes/logotype-reddit-default.svgd
   - logotype_skype
-      from: frontend/images/skype.svg
-      to: dynamic/files/logotypes/logotype-skype-default.svg
+      from: frontend/images/skype.svgd
+      to: dynamic/files/logotypes/logotype-skype-default.svgd
   - logotype_soundcloud
-      from: frontend/images/soundcloud.svg
-      to: dynamic/files/logotypes/logotype-soundcloud-default.svg
+      from: frontend/images/soundcloud.svgd
+      to: dynamic/files/logotypes/logotype-soundcloud-default.svgd
   - logotype_telegram
-      from: frontend/images/telegram.svg
-      to: dynamic/files/logotypes/logotype-telegram-default.svg
+      from: frontend/images/telegram.svgd
+      to: dynamic/files/logotypes/logotype-telegram-default.svgd
   - logotype_tumblr
-      from: frontend/images/tumblr.svg
-      to: dynamic/files/logotypes/logotype-tumblr-default.svg
+      from: frontend/images/tumblr.svgd
+      to: dynamic/files/logotypes/logotype-tumblr-default.svgd
   - logotype_twitter
-      from: frontend/images/twitter.svg
-      to: dynamic/files/logotypes/logotype-twitter-default.svg
+      from: frontend/images/twitter.svgd
+      to: dynamic/files/logotypes/logotype-twitter-default.svgd
   - logotype_viber
-      from: frontend/images/viber.svg
-      to: dynamic/files/logotypes/logotype-viber-default.svg
+      from: frontend/images/viber.svgd
+      to: dynamic/files/logotypes/logotype-viber-default.svgd
   - logotype_vimeo
-      from: frontend/images/vimeo.svg
-      to: dynamic/files/logotypes/logotype-vimeo-default.svg
+      from: frontend/images/vimeo.svgd
+      to: dynamic/files/logotypes/logotype-vimeo-default.svgd
   - logotype_vk
-      from: frontend/images/vk.svg
-      to: dynamic/files/logotypes/logotype-vk-default.svg
+      from: frontend/images/vk.svgd
+      to: dynamic/files/logotypes/logotype-vk-default.svgd
   - logotype_whatsapp
-      from: frontend/images/whatsapp.svg
-      to: dynamic/files/logotypes/logotype-whatsapp-default.svg
+      from: frontend/images/whatsapp.svgd
+      to: dynamic/files/logotypes/logotype-whatsapp-default.svgd
   - logotype_yahoo
-      from: frontend/images/yahoo.svg
-      to: dynamic/files/logotypes/logotype-yahoo-default.svg
+      from: frontend/images/yahoo.svgd
+      to: dynamic/files/logotypes/logotype-yahoo-default.svgd
   - logotype_youtube
-      from: frontend/images/youtube.svg
-      to: dynamic/files/logotypes/logotype-youtube-default.svg
+      from: frontend/images/youtube.svgd
+      to: dynamic/files/logotypes/logotype-youtube-default.svgd
