@@ -3,6 +3,9 @@ deployment
   - logotype_main
       from: frontend/images/logotype-main.svg
       to: dynamic/files/logotypes/logotype-main-classic.svg
+  - logotype_bitbucket
+      from: frontend/images/logotype-bitbucket.svgd
+      to: dynamic/files/logotypes/logotype-bitbucket-classic.svgd
   - logotype_behance
       from: frontend/images/logotype-behance.svgd
       to: dynamic/files/logotypes/logotype-behance-classic.svgd
