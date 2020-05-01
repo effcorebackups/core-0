@@ -48,6 +48,9 @@ deployment
   - logotype_telegram
       from: frontend/pictures/logotype-telegram.svgd
       to: dynamic/files/logotypes/logotype-telegram-classic.svgd
+  - logotype_tiktok
+      from: frontend/pictures/logotype-tiktok.svgd
+      to: dynamic/files/logotypes/logotype-tiktok-classic.svgd
   - logotype_tumblr
       from: frontend/pictures/logotype-tumblr.svgd
       to: dynamic/files/logotypes/logotype-tumblr-classic.svgd
