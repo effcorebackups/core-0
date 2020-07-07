@@ -10,11 +10,11 @@ tests
         - name: is_https
     scenario
     # warming up the form for initialize CAPTCHA and Validation ID
-    - form_warming_up|step_request
+    - form_registration_warming_up|step_request
         url: /registration
         is_https|param_from_form
           name: is_https
-    - form_submit|step_request
+    - form_registration_submit|step_request
         url: /registration
         is_https|param_from_form
           name: is_https
