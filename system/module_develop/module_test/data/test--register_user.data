@@ -20,14 +20,14 @@ tests
           name: is_https
         post
         - form_id: registration
-        - validation_id: %%_validation_id
-        - email: %%_email_random
-        - nickname: %%_nickname_random
-        - password: %%_password_random
+        - validation_id: %%_test_form_validation_id
+        - email: %%_test_email_random
+        - nickname: %%_test_nickname_random
+        - password: %%_test_password_random
         - timezone: UTC
         - session_params[0]: is_remember
         - session_params[1]: is_fixed_ip
-        - captcha: %%_captcha
+        - captcha: %%_test_captcha
         - button: register
     - response_check|step_check
         where: subm_errs
