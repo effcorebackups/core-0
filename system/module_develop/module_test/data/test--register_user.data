@@ -4,6 +4,15 @@ tests
     title: Register user
     description: After each 3 registrations you will get the message "The test was failed!" because after every 3-rd challenge the CAPTCHA will change.
     params
+    - proxy|field_text
+        title: Proxy server
+        description|text
+          text: Examples: %%_examples
+          args
+          - examples: "127.0.0.1:8888" | "127.0.0.1:4321"
+        element_attributes
+        - name: proxy
+        - required: false
     - is_https|field_switcher
         title: HTTPS
         element_attributes
@@ -14,10 +23,14 @@ tests
         url: /registration
         is_https|param_from_form
           name: is_https
+        proxy|param_from_form
+          name: proxy
     - form_registration_submit|step_request
         url: /registration
         is_https|param_from_form
           name: is_https
+        proxy|param_from_form
+          name: proxy
         post
         - form_id: registration
         - validation_id: %%_test_form_validation_id{registration}
