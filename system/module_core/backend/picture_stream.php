@@ -14,14 +14,13 @@ namespace effcore {
   private $stream;
   private $resource;
 
-  public function stream_open($path, $mode, $options, &$opened_path) {
+  public function stream_open($path) {
     $this->path_original = $path;
     $this->path_info = static::path_parse($path);
     if ($this->path_info === null)                    throw new \Exception('The path is not valid and does not match the expression: protocol_name://path_absolute_to_container.protocol_name/internal_content');
     if ($this->path_info->is_path_absolute === false) throw new \Exception('The path should be absolute.');
     if ($this->path_info->path_internal === '')       throw new \Exception('Only the contents of the container can be processed.');
-    $this->resource = fopen('phar:///'.$this->path_info->path_external.'/'.
-                                       $this->path_info->path_internal, $mode);
+    $this->resource = fopen('phar:///'.$this->path_info->path_external.'/'.$this->path_info->path_internal, 'rb');
     return $this->resource;
   }
 
@@ -29,8 +28,28 @@ namespace effcore {
     return fread($this->resource, $count);
   }
 
+  function stream_write($data) {
+    try {
+      static::stream_close();
+      $container = new \PharData('phar:///'.$this->path_info->path_external, 0, null, \Phar::TAR);
+      $container->addFromString($this->path_info->path_internal, $data);
+      static::stream_open($this->path_original);
+      return strlen($data);
+    } catch (Exception $e) {
+      return 0;
+    }
+  }
+
+  function stream_stat() {
+    return fstat($this->resource);
+  }
+
   function stream_eof() {
     return feof($this->resource);
+  }
+
+  function stream_flush() {
+    return fflush($this->resource);
   }
 
   function stream_close() {
@@ -44,16 +63,14 @@ namespace effcore {
   function mkdir($path, $mode, $options) {print 'mkdir'.nl;}
   function rename($path_from, $path_to) {print 'rename'.nl;}
   function rmdir($path, $options) {print 'rmdir'.nl;}
+
   function stream_cast($cast_as) {print 'stream_cast'.nl;}
-  function stream_flush() {print 'stream_flush'.nl;}
   function stream_lock($operation) {print 'stream_lock'.nl;}
   function stream_metadata($path, $option, $value) {print 'stream_metadata'.nl;}
   function stream_seek($offset, $whence = SEEK_SET) {print 'stream_seek'.nl;}
   function stream_set_option($option, $arg1, $arg2) {print 'stream_set_option'.nl;}
-  function stream_stat() {print 'stream_stat'.nl;}
   function stream_tell() {print 'stream_tell'.nl;}
   function stream_truncate($new_size) {print 'stream_truncate'.nl;}
-  function stream_write($data) {print 'stream_write'.nl;}
   function unlink($path) {print 'unlink'.nl;}
   function url_stat($path, $flags) {print 'url_stat'.nl;}
 
