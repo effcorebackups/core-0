@@ -56,6 +56,11 @@ namespace effcore {
     fclose($this->resource);
   }
 
+  function url_stat($path, $flags) {
+    $resource = @fopen($path, 'rb');
+    return $resource ? fstat($resource) : null;
+  }
+
   function dir_closedir() {print 'dir_closedir'.nl;}
   function dir_opendir($path, $options) {print 'dir_opendir'.nl;}
   function dir_readdir() {print 'dir_readdir'.nl;}
@@ -72,7 +77,6 @@ namespace effcore {
   function stream_tell() {print 'stream_tell'.nl;}
   function stream_truncate($new_size) {print 'stream_truncate'.nl;}
   function unlink($path) {print 'unlink'.nl;}
-  function url_stat($path, $flags) {print 'url_stat'.nl;}
 
   ###########################
   ### static declarations ###
