@@ -9,31 +9,37 @@ namespace effcore {
 
   const type = 'picture';
 
-  private $path_original;
-  private $path_info;
-  private $stream;
-  private $resource;
+  public $path_original;
+  public $path_info;
+  public $fp;
+  public $context;
 
-  public function stream_open($path) {
-    $this->path_original = $path;
-    $this->path_info = static::path_parse($path);
-    if ($this->path_info === null)                    throw new \Exception('The path is not valid and does not match the expression: protocol_name://path_absolute_to_container.protocol_name/internal_content');
-    if ($this->path_info->is_path_absolute === false) throw new \Exception('The path should be absolute.');
-    if ($this->path_info->path_internal === '')       throw new \Exception('Only the contents of the container can be processed.');
-    $this->resource = fopen('phar:///'.$this->path_info->path_external.'/'.$this->path_info->path_internal, 'rb');
-    return $this->resource;
+  function build($path) {
+    if ($this->path_original === null) {
+      $this->path_original = $path;
+      $this->path_info = static::path_parse($path);
+      if ($this->path_info === null)                    throw new \Exception('The path is not valid and does not match the expression: protocol_name://path_absolute_to_container.protocol_name/internal_content');
+      if ($this->path_info->is_path_absolute === false) throw new \Exception('The path should be absolute.');
+      if ($this->path_info->path_internal === '')       throw new \Exception('Only the contents of the container can be processed.');
+    }
+  }
+
+  function stream_open($path) {
+    $this->build($path);
+    $this->fp = fopen('phar:///'.$this->path_info->path_external.'/'.$this->path_info->path_internal, 'rb');
+    return $this->fp;
   }
 
   function stream_read($count) {
-    return fread($this->resource, $count);
+    return fread($this->fp, $count);
   }
 
   function stream_write($data) {
     try {
-      static::stream_close();
+      $this->stream_close();
       $container = new \PharData('phar:///'.$this->path_info->path_external, 0, null, \Phar::TAR);
       $container->addFromString($this->path_info->path_internal, $data);
-      static::stream_open($this->path_original);
+      $this->stream_open($this->path_original);
       return strlen($data);
     } catch (Exception $e) {
       return 0;
@@ -41,42 +47,25 @@ namespace effcore {
   }
 
   function stream_stat() {
-    return fstat($this->resource);
+    return fstat($this->fp);
   }
 
   function stream_eof() {
-    return feof($this->resource);
+    return feof($this->fp);
   }
 
   function stream_flush() {
-    return fflush($this->resource);
+    return fflush($this->fp);
   }
 
   function stream_close() {
-    fclose($this->resource);
+    fclose($this->fp);
   }
 
   function url_stat($path, $flags) {
-    $resource = @fopen($path, 'rb');
-    return $resource ? fstat($resource) : null;
+    $fp = @fopen($path, 'rb');
+    return $fp ? fstat($fp) : null;
   }
-
-  function dir_closedir() {print 'dir_closedir'.nl;}
-  function dir_opendir($path, $options) {print 'dir_opendir'.nl;}
-  function dir_readdir() {print 'dir_readdir'.nl;}
-  function dir_rewinddir() {print 'dir_rewinddir'.nl;}
-  function mkdir($path, $mode, $options) {print 'mkdir'.nl;}
-  function rename($path_from, $path_to) {print 'rename'.nl;}
-  function rmdir($path, $options) {print 'rmdir'.nl;}
-
-  function stream_cast($cast_as) {print 'stream_cast'.nl;}
-  function stream_lock($operation) {print 'stream_lock'.nl;}
-  function stream_metadata($path, $option, $value) {print 'stream_metadata'.nl;}
-  function stream_seek($offset, $whence = SEEK_SET) {print 'stream_seek'.nl;}
-  function stream_set_option($option, $arg1, $arg2) {print 'stream_set_option'.nl;}
-  function stream_tell() {print 'stream_tell'.nl;}
-  function stream_truncate($new_size) {print 'stream_truncate'.nl;}
-  function unlink($path) {print 'unlink'.nl;}
 
   ###########################
   ### static declarations ###
