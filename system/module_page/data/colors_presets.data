@@ -1,5 +1,5 @@
 colors_presets
-- light
+- light|color_preset
     id: light
     title: Light preset
     colors
