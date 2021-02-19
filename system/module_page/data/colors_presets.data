@@ -5,19 +5,19 @@ colors_presets
     colors
       color_page_id: white
       color_text_id: black
-      color_main_id: embedded_main
-      color_link_id: embedded_main
+      color_main_id: default_main
+      color_link_id: default_main
       color_link_active_id: black
       color_table_row_odd_id: white
       color_table_row_even_id: whitesmoke
       color_relation_id: black
-      color_menu_id: embedded_main
-      color_menu_active_id: embedded_dark_1
+      color_menu_id: default_main
+      color_menu_active_id: default_3
       color_menu_text_id: white
       color_menu_link_id: white
-      color_menu_link_active_id: embedded_light_1
-      color_tabs_id: embedded_main
-      color_tabs_link_id: embedded_main
+      color_menu_link_active_id: default_4
+      color_tabs_id: default_main
+      color_tabs_link_id: default_main
       color_tabs_link_active_id: white
       color_tabs_link_active_no_bg_id: black
       color_ok_id: state_ok
@@ -27,6 +27,6 @@ colors_presets
       color_fieldset_nested_id: white
       color_field_id: white
       color_field_text_id: black
-      color_button_id: embedded_main
-      color_button_active_id: embedded_dark_1
+      color_button_id: default_main
+      color_button_active_id: default_3
       color_button_text_id: white
