@@ -5,7 +5,7 @@ colors_presets
     colors
       color_page_id: white
       color_text_id: black
-      color_main_id: default_2
+      color_main_id: default_4
       color_link_id: lightblue
       color_link_active_id: black
       color_table_row_odd_id: white
