@@ -6,7 +6,7 @@ colors_presets
       color_page_id: white
       color_text_id: black
       color_main_id: default_2
-      color_link_id: default_main
+      color_link_id: lightblue
       color_link_active_id: black
       color_table_row_odd_id: white
       color_table_row_even_id: default_8
@@ -17,7 +17,7 @@ colors_presets
       color_menu_link_id: white
       color_menu_link_active_id: default_7
       color_tabs_id: default_2
-      color_tabs_link_id: default_main
+      color_tabs_link_id: lightblue
       color_tabs_link_active_id: white
       color_tabs_link_active_no_bg_id: black
       color_ok_id: state_ok
@@ -27,6 +27,6 @@ colors_presets
       color_fieldset_nested_id: white
       color_field_id: white
       color_field_text_id: black
-      color_button_id: default_3
-      color_button_active_id: default_main
+      color_button_id: default_9
+      color_button_active_id: default_3
       color_button_text_id: white
