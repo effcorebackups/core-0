@@ -8,8 +8,8 @@ colors_presets
       color__main_id: default_4
       color__link_id: lightblue
       color__link_active_id: black
-      color__table_row_odd_id: white
-      color__table_row_even_id: gray_r10
+      color__table_row_odd_id: gray_r10
+      color__table_row_even_id: white
       color__relation_id: black
       color__menu_id: default_2
       color__menu_active_id: default_3
