@@ -15,50 +15,53 @@ is Maxim Vladimirovich Rysevets.
 Usage
 ---------------------------------------------------------------------
 
-This Software shall be used to create websites,
-web portals and other information systems.
-
-
-Modification
----------------------------------------------------------------------
-
-Allowed the modification of Software (without distribution
-and publish changes) and its usеd as set forth in section "Usage".
-Any breach of the Software protection shall
-constitute a violation hereof.
-
-
-Borrowing
----------------------------------------------------------------------
-
-Disallowed any borrowings from this Software except the next cases:
-
-- allowed to use parts of this Software to create
-  individual modules designed to work with Software.
+The Software must be used to create websites,
+web portals and web services.
 
 
 Distribution
 ---------------------------------------------------------------------
 
-Disallowed any distribution of Software or any part thereof,
-either modified or non-modified, for money or free of charge,
-except the next cases:
-
-- allowed to use examples of Software source code
-  in technical documentation for this Software (i.e. citation);
-- allowed to use examples of Software source code
-  on technical forums for web developers (i.e. citation).
+Distribution of modified Software is prohibited.
+Distribution of parts of the Software in any form is prohibited.
+The process of placing Software on a server (deployment), where Software will
+perform work (while program files of the Software should not become publicly
+available) is not considered a distribution process.
 
 
-Warranty and responsibilities of the parties
+Modification
 ---------------------------------------------------------------------
 
-The author/Rightholder does not provide any warranty and does not assume
-any responsibility or liability for the use of this Software.
-This license agreement shall form an integral part of this Software.
-This Software can be used only under the terms and conditions hereof.
-Any violation thereof will result in a civil, administrative and
-criminal prosecution.
+It is allowed to change the Software without publishing changes
+and use it in accordance with the "Usage" section.
+Violation of protection Software is a violation of this
+agreement.
+
+
+Borrowing
+---------------------------------------------------------------------
+
+Any borrowing from the software is prohibited.
+
+
+Citation
+---------------------------------------------------------------------
+
+Allowed to use of examples of Software source codes
+in the technical documentation for the Software.
+Allowed to use of examples of Software source codes
+on the technical forums for web developers.
+Other cases are prohibited.
+
+
+Warranties and liability of the parties
+---------------------------------------------------------------------
+
+The author/Rightholder does not give guarantees and is not responsible
+for the use of the Software. This license agreement is an integral part of this Software.
+The use of the Software is possible only under the terms and conditions
+of this license agreement. Violation of the terms of the license agreement
+entails civil, administrative and criminal prosecution.
 
 
 Document version: 1000
