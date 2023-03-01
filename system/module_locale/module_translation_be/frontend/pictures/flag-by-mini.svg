@@ -21,10 +21,9 @@
   </metadata>
 
   <g id="flag">
-    <rect id="flag-bg" x="0" y="0" width="28" height="18" style="fill: #d2d2d6; stroke: none"/>
-    <rect id="flag-border" x="0.25" y="0.25" width="27.5" height="17.5" style="fill: none; stroke: black; stroke-width: .5px"/>
-    <line id="flag-line_1" x1="0" y1="0"  x2="28" y2="18" style="stroke: black; stroke-width: .5px"/>
-    <line id="flag-line_2" x1="0" y1="18" x2="28" y2="0"  style="stroke: black; stroke-width: .5px"/>
+    <rect id="flag-bg" x="0" y="0" width="28" height="18" style="fill: #eee; stroke: none"/>
+    <line id="flag-line_1" x1="0" y1="0"  x2="28" y2="18" style="stroke: #bbb; stroke-width: .5px"/>
+    <line id="flag-line_2" x1="0" y1="18" x2="28" y2="0"  style="stroke: #bbb; stroke-width: .5px"/>
   </g>
 
 </svg>
